@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Paul Shorey</title>
+
+<meta name="description" content="Ripoff from Arcade Fire's - Wilderness Downtown - online music video, from back in the day." />
+<meta name="keywords" content="Paul Shorey, Arcade Fire, Chris Milk, Chrome, Chrome Experiment, HTML5, Javascript" />
+<meta property="og:title" content="Paul Shorey" />
+<meta property="og:site_name" content="Paul Shorey" />
+<meta property="og:description" content="Web design and development" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/" />
+<link rel="stylesheet" type="text/css" href="/the_wilderness_downtown/style.css" />
+<style>
+/*
+z-index: 1 = body, 10 = content override, 100 = header, dropdowns, ui, 1000 = popups and modals, 1000000 = hacks
+*/
+	span {
+		display:inline-block;
+		vertical-align:middle;
+	}
+	body {
+		overflow:hidden;
+	}
+	
+	.wilderness_asterisk {
+		position: absolute;
+		top: 5vh;
+		right: 10vh;
+		color: rgba(255,255,255,0.66);
+		font-size: 48px;
+		line-height: 38px;
+		margin-right: 6px;
+		margin-top: 0px;
+		vertical-align: top;
+		z-index:100;
+	}
+
+	a {
+		color:inherit;
+		text-decoration:none;
+	}
+	a:hover {
+		text-decoration:underline;
+	}
+	.body {
+		overflow:auto;
+		position:fixed;
+		left:0;
+		top:0;
+		width:100vw;
+		height:100vh;
+	}
+	.blogs {
+		width:80vw;
+		max-width:960px;
+		min-width:480px;
+		margin:5vh auto;
+		position:relative;
+	}
+	.blogs_title {
+		line-height:36px;
+		font-size:32px;
+		color:#fff;
+		margin:5vh 0;
+		text-shadow:1px 1px 1px rgba(0,0,0,1);
+	}
+	.blog {
+		background:rgba(0,0,0,0.5);
+		border-radius:4px;
+		padding: 5vh;
+	}
+	.blog_title {
+		line-height:28px;
+		font-size:24px;
+		color:#fff;
+		margin:5vh 0;
+		text-shadow:1px 1px 1px rgba(0,0,0,1);
+	}
+	.blog_subtitle {
+		line-height:22px;
+		font-size:18px;
+		color:#fff;
+		margin:5vh 0;
+		text-shadow:1px 1px 1px rgba(0,0,0,1);
+	}
+
+</style>
+</head>
+<body>
+
+<div id="birdsCanvas">
+	<img src="/the_wilderness_downtown/img/sun.png" width="36" height="36" alt="" class="sun" />
+	<div id="bg"></div>
+	<!--<span class="wilderness_asterisk" style="cursor:pointer;">*</span>-->
+</div>
+<img src="/the_wilderness_downtown/img/tree.png" alt="" width="385" height="387" class="topleft" />
+
+	<div class="body">
+	<div class="blogs">
+		<div class="blogs_title">
+			<script>document.write('<a href="mailto:ps@artspaces.net">Coming Soon</a>');</script>
+		</div>
+		<!--<div class="blog">
+			For now, please email me: <script>document.write('ps@artspaces.net');</script>
+		</div>-->
+
+	</div>
+	</div>
+
+</body>
+<script src="/the_wilderness_downtown/canvas.js"></script>
+</html>
