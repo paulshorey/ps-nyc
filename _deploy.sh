@@ -1,4 +1,5 @@
 #!/bin/bash
+cd /www
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/ps1-git
 git pull
