@@ -21,6 +21,7 @@ z-index: 1 = body, 10 = content override, 100 = header, dropdowns, ui, 1000 = po
 	}
 	body {
 		overflow:hidden;
+		font-family:sans-serif;
 	}
 	
 	.wilderness_asterisk {
@@ -71,14 +72,14 @@ z-index: 1 = body, 10 = content override, 100 = header, dropdowns, ui, 1000 = po
 	.blog .blog_video {
 		width:59%;
 		margin-right:1%;
-		float:left; /* inherit width from child */
-		/*border: solid 4px #fff;*/
+		float:left;
+		border-radius: 3px;
 		position:relative;
 		box-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 	}
 	.blog .blog_video video {
 		width:100%;
-		border-radius: 3px;
+		display:block;
 	}
 	.blog .blog_video .playpause {
 		background-image:url(/screencasts/ui/play.png);
@@ -90,13 +91,14 @@ z-index: 1 = body, 10 = content override, 100 = header, dropdowns, ui, 1000 = po
 		position:absolute;
 	}
 	.blog .blog_title {
-		float:left;
-		line-height:36px;
-		font-size:32px;
-		color:#fff;
-		margin:1%;
-		width:38%;
-		text-shadow:1px 1px 1px rgba(0,0,0,1);
+		float: left;
+		line-height: 36px;
+		font-size: 32px;
+		color: #FDFDFD;
+		margin: 1% 1% 1% calc(1% - 5px);
+		width: 38%;
+		background: #222;
+		text-indent: 5px;
 	}
 	.blog .blog_text {
 		float:left;
@@ -110,8 +112,8 @@ z-index: 1 = body, 10 = content override, 100 = header, dropdowns, ui, 1000 = po
 <body>
 
 <div id="birdsCanvas">
-	<img src="/the_wilderness_downtown/img/sun.png" width="36" height="36" alt="" class="sun" />
-	<div id="bg"></div>
+	<!-- <img src="/the_wilderness_downtown/img/sun.png" width="36" height="36" alt="" class="sun" /> -->
+	<!-- <div id="bg"></div> -->
 	<!--<span class="wilderness_asterisk" style="cursor:pointer;">*</span>-->
 </div>
 <img src="/the_wilderness_downtown/img/tree.png" alt="" width="385" height="387" class="topleft" />
