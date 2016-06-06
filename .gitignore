@@ -1,6 +1,9 @@
-node_modules
-.idea
-npm-debug
-.log
-err*
-out
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules/
+platforms/
+plugins/
+stamplay.json
+.io-config.json
+public/console*

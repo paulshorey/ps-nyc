@@ -1,0 +1,113 @@
+span {
+	display:inline-block;
+	vertical-align:middle;
+}
+body {
+	overflow:auto;
+	font-family: "Bodoni 72", Georgia, serif;
+}
+a {
+	color:orange;
+	text-decoration:none;
+}
+a:hover {
+	color:#4BAFE1;
+	text-decoration:underline;
+}
+
+section {
+	margin: 2.5vh 5.5vw 2.5vh 5vw;
+	position:relative;
+
+	header {
+		position:relative;
+		width:100%;
+		font-size:19px;
+		line-height:24px;
+		height:28px;
+		margin-bottom:5vh;
+		color:#666;
+		.h-left {
+			position:absolute;
+			left:0;
+			.icon-heart:before {
+				font-size:90%;
+				vertical-align:1px;
+			}
+		}
+		.h-right {
+			position:absolute;
+			right:0;
+			.ion-thumbsup:before {
+				font-size:125%;
+			}
+			.icon-select:before {
+				vertical-align: -2px;
+				font-size: 90%;
+			}
+		}
+	}
+
+	article {
+		margin:0 0 7.5vh;
+
+		.video {
+			position:relative;
+			max-width:720px;
+			.playpause {
+				background-image:url(../screencasts/ui/play.png);
+				background-repeat:no-repeat;
+				background-position: center;
+				cursor:pointer;
+				width:101%;
+				height:100%;
+				position:absolute;
+			}
+			video {
+				width:100%;
+				display:block;
+			}
+		}
+		.collage {
+			position:relative;
+			width:100%;
+			img {
+				width:100%;
+			}
+		}
+		.title {
+			font-size: 30px;
+			line-height: 30px;
+			margin:0 0 0.66vh;
+		}
+		.description {
+			font-size: 17px;
+			line-height: 30px;
+		}
+		.article {
+			font-size: 17px;
+			line-height: 30px;
+		}
+	}
+
+}
+
+/*
+	CHEESY EFFECT
+*/
+.h-hidden {
+	transition:opacity 1s linear 10s;
+	opacity:0;
+}
+.h-visible {
+	transition:opacity 1s linear 10s;
+	opacity:1;
+}
+body.ready {
+	.h-hidden {
+		opacity:1;
+	}
+	.h-visible {
+		opacity:0;
+	}
+}
