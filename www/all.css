@@ -1,7 +1,3 @@
-span {
-  display: inline-block;
-  vertical-align: middle; }
-
 body {
   overflow: auto;
   font-family: "Bodoni 72", Georgia, serif; }
@@ -14,10 +10,15 @@ a:hover {
   color: #4BAFE1;
   text-decoration: underline; }
 
+[onclick] {
+  cursor: pointer; }
+
+article pre {
+  font-size: 12px; }
+
 section {
   margin: 2.5vh 5.5vw 2.5vh 5vw;
-  position: relative;
-  z-index: 1000; }
+  position: relative; }
   section header {
     position: relative;
     width: 100%;
@@ -44,9 +45,10 @@ section {
     margin: 0 0 7.5vh; }
     section article .video {
       position: relative;
-      max-width: 720px; }
+      max-width: 720px;
+      margin: 0 0 1vh; }
       section article .video .playpause {
-        background-image: url(../screencasts/ui/play.png);
+        background-image: url(../gfx/ui/play.png);
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
@@ -56,9 +58,30 @@ section {
       section article .video video {
         width: 100%;
         display: block; }
+    section article .image {
+      position: relative;
+      max-width: 720px; }
+      section article .image img {
+        width: 100%; }
     section article .collage {
       position: relative;
       width: 100%; }
+      section article .collage .playbutton {
+        background-image: url(../gfx/ui/play.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        width: 6vw;
+        height: 6vw;
+        position: absolute;
+        top: 0;
+        background-size: auto 50%;
+        background-color: #fff;
+        top: calc(50% - 3vw);
+        left: calc(50% - 3vw);
+        border-radius: 50%;
+        box-shadow: 0 0 5px #000;
+        background-position-x: 60%; }
       section article .collage img {
         width: 100%; }
     section article .title {

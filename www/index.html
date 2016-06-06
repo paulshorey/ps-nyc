@@ -28,8 +28,8 @@
 <section>
 
 	<header>
-		<span class="h-left h-visible">Paul Shorey</span>
-		<span class="h-left h-hidden" style="top:-2px;"><span class="uui-text">I</span> <span class="uui-icon icon-heart"></span> <span class="uui-text">UI Design</span></span></span>
+		<span class="h-left h-visible">Paul Shorey  |  UI Design &amp; Development</span>
+		<span class="h-left h-hidden" style="top:-2px;"><span class="uui-text">I</span> <span class="uui-icon icon-heart"></span> <span class="uui-text">UI</span></span></span>
 		<span class="h-right">
 			<a href="/files/PaulShoreyResume.docx"><span class="uui-icon icon-select"></span> <span class="uui-text">Download resume</span></a>
 			<span class="uui-text"> |  <a href="" secret-mailto="ps@idd.nyc"></a>  |  <a href="" secret-tel="321.446.5290"></a></span>
@@ -40,8 +40,12 @@
 		<div class="title">
 			2016 - All Events .NYC
 		</div>
-		<div class="collage">
+		<div class="collage" onclick="$(this).hide();$(this).next().show();$(this).next().find('video')[0].play();">
 			<img src="screenshots/alleventsnyc/collage.png"></img>
+			<div class="playbutton"></div>
+		</div>
+		<div class="video" style="display:none;">
+			<video src="screencasts/alleventsnyc/video.webm" controls></video>
 		</div>
 		<div class="description">
 			"Mobile-first" design all the way! Highly-responsive AngularJS web app, made with Ionic, to work as a standalone iPhone and Android app too. Scroll a bit to read the content, and the top header collapses. Works as well in landscape as portrait. Plus, this was a really fun experience, building a niche search engine. PhantomJS bot constantly crawls the web, updating events in the database. Nowhere near done, but will be a nice side project. Looking for partners. Check it out: <a href="http://allevents.nyc" target="_blank">http://allevents.nyc &raquo;</a>
@@ -53,7 +57,7 @@
 			2015-2016 - YouNow
 		</div>
 		<div class="article">
-			Not just a cool app, but a revolution. I was a javascript engineer, and worked on a little of everything, new features and optimizing the existing framework. <a href="http://younow.com">Younow.com</a>.
+			Not just a cool app, but a revolution. I was a javascript engineer, and worked on a little of everything, new features and optimizing the existing framework. <a href="http://younow.com" target="_blank">Younow.com &raquo;</a>
 		</div>
 	</article>
 
@@ -62,8 +66,7 @@
 			2014 - Angular CMS
 		</div>
 		<div class="video">
-			<div class="playpause"></div>
-			<video src="screencasts/angularcms/video.webm" controls></video>
+			<video src="screencasts/angularcms/video.webm" controls scrollplay></video>
 		</div>
 		<div class="description">
 			Learning AngularJS, wanted to see what I can do, came up with an "angular" design. Triangle shapes pointing from the top menu (dark blue), to the content menu (blue), to the content form (light blue). Great practice fitting a lot of functinality into a simple app. Easy and intuitive tool to manage a site. Try it at: <a href="http://angularcms.net" target="_blank">http://angularcms.net &raquo;</a>
@@ -72,10 +75,34 @@
 
 	<article>
 		<div class="title">
+			2014 - Carte Blanche Jazz Band
+		</div>
+		<div class="video">
+			<video src="screencasts/carteblanchejazzband/video.webm" controls scrollplay></video>
+		</div>
+		<div class="article">
+			Fun website to promote a very cool band. An illustrator painted and scanned all these graphics. I made them dance on the screen. <a href="http://CarteBlancheJazzBand.com" target="_blank">CarteBlancheJazzBand.com &raquo;</a>
+		</div>
+	</article>
+
+	<article>
+		<div class="title">
 			2009-2014 - Focus Features Films
 		</div>
 		<div class="article">
-			I was lucky enough to serve as the Lead Developer, at this enterprise movie news site. It later evolved to be more strictly mini-sites and marketing sites for individual films. <a href="http://focusfeatures.com">FocusFeatures.com</a>.
+			I served as the lead developer, at this enterprise movie news site. Everything I worked on still stands now, several years later. It later evolved to be more strictly mini-sites and marketing sites for individual feature films. <a href="http://focusfeatures.com" target="_blank">FocusFeatures.com &raquo;</a>
+		</div>
+	</article>
+
+	<article>
+		<div class="title">
+			2012 - Focus Features TV
+		</div>
+		<div class="video">
+			<video src="screencasts/focusfeaturestv/video.webm" controls scrollplay></video>
+		</div>
+		<div class="article">
+			Google TV was supposed to be the next big thing: a smart TV that searched content from all over the web, and had channels like Roku and Samsung do. I developed a prototype for a Tv channel. It runs in a modified the Chrome browser, as most other Google inventions. But the user would only have the arrow keys, "enter" and "esc" to navigate it. Thats all we need: <a href="http://focusfeatures.com/tv">FocusFeatures.com/TV &raquo;</a>
 		</div>
 	</article>
 
@@ -84,8 +111,7 @@
 			2008 - User Friendly CMS
 		</div>
 		<div class="video">
-			<div class="playpause"></div>
-			<video src="screencasts/userfriendlycms/video.webm" controls></video>
+			<video src="screencasts/userfriendlycms/video.webm" controls scrollplay></video>
 		</div>
 		<div class="description">
 			Before Wordpress re-designed their UI in 2009, it was difficult to use, though not as difficult as Joomla/Droopal/Typo3. Back then it was an tedious work for independent website owners to manage their site using a full featured CMS. I designed and developed this "easy" CMS for my clients. Made with PHP/MySQL on the backend and jQuery UI on the front. It is built into the site itself. It uses custom html tags that lay dormant until the user signs in. Since then, SquareSpace and Shoppify have dominated the market and taken my best clients. But, the CMS demo site still stands. Login here: <a href="http://userfriendlycms.artspaces.net" target="_blank">http://userfriendlycms.artspaces.net &raquo;</a> 
@@ -94,10 +120,326 @@
 
 	<article>
 		<div class="title">
-			More entries coming soon
+			Contracts, Partners, Full time work
 		</div>
 		<div class="description">
-			<span class="uui-text">These are only a quick few screenshots. Looking forward to starting a new full-time opportunity, meeting and working with new people soon.</span> <a href="javascript:;" onclick="$('html, body').animate({ scrollTop:0 });"><span class="uui-text">Please, download my resume and contact me, above </span><span class="uui-icon icon-arrow-up"></span></a>
+			<span class="uui-text">I just want to create cool things. Come from an art background, but really like tech. Enjoy meeting and working with new people. Lets get together and talk code, business, life... </span> <br /><a href="javascript:;" onclick="$('html, body').animate({ scrollTop:0 });"><span class="uui-text">Please, download my resume and contact me, above </span><span class="uui-icon icon-arrow-up"></span></a>
+		</div>
+	</article>
+
+	<article>
+		<div class="description">
+			<span class="uui-text">AngularJS directives. Custom carousel, and scroll style events. Used in allevents.nyc homepage:</a>
+		</div>
+		<div class="code">
+			<pre><code data-language="javascript">
+.directive('scrollable', function ($timeout, $ionicLoading) {
+	return {
+		restrict: 'A',
+		scope: {
+			vm: '='
+		},
+		link: function (scope, element, attrs) {
+			scope.scroll_enable = function () {
+				var target = element[0];
+				target.doNotScroll = false;
+				target.scrollLeftLast = target.scrollLeft;
+				if (target.scrollLeft<10) {
+					$(element).siblings('[scrollable-left]').addClass('scrollEnd');
+				} else {
+					$(element).siblings('[scrollable-left]').removeClass('scrollEnd');
+				}
+				if (target.scrollLeft > ( target.scrollWidth - document.body.scrollWidth - 10 ) ) {
+					$(element).siblings('[scrollable-right]').addClass('scrollEnd');
+				} else {
+					$(element).siblings('[scrollable-right]').removeClass('scrollEnd');
+				}
+			};
+			scope.$watch(
+				function () {
+					// trigger on text change
+					if (scope.$parent.vm.listsReady == 1) {
+						return element[0].innerText;
+					} else {
+						return false;
+					}
+				},
+				function (newValue, oldValue) {
+					// scroll to beginning
+					if (newValue && newValue != oldValue) {
+						var target = element[0];
+						var duration = 400;
+						var scrollTo = 0;
+						target.doNotScroll = 'scroll--changed';
+						$ionicLoading.show();
+						$timeout(function () {
+							$ionicLoading.hide();
+							$(target)
+								.animate({
+									scrollLeft: 0
+								}, {
+									duration: duration
+								});
+
+							$timeout(
+								scope.scroll_enable,
+								duration + 10
+							);
+
+						}, 100);
+					}
+				}
+			);
+
+			$(element)
+			.siblings('[scrollable-left]')
+			.click(function () {
+				var target = element[0];
+				if (target.doNotScroll) {
+					return;
+				}
+				var duration = 400;
+				var scrollTo = target.scrollLeft - target.clientWidth;
+				$(target)
+					.animate({
+						scrollLeft: scrollTo
+					}, {
+						duration: duration
+					});
+				target.doNotScroll = 'scrollable-left';
+				$timeout(
+					scope.scroll_enable,
+					duration
+				);
+			});
+			$(element)
+			.siblings('[scrollable-right]')
+			.click(function () {
+				var target = element[0];
+				if (target.doNotScroll) {
+					return;
+				}
+				var duration = 400;
+
+				var scrollTo = target.scrollLeft + target.clientWidth;
+				$(target)
+					.animate({
+						scrollLeft: scrollTo
+					}, {
+						duration: duration
+					});
+
+				target.doNotScroll = 'scrollable-right';
+				$timeout(
+					scope.scroll_enable,
+					duration
+				);
+			});
+			$(element).scroll(
+				$.debounce(
+					333, // this should be more than animation duration, or it will trigger itself
+					function (event) {
+						var target = event.target;
+						var duration = 200;
+						if (target.doNotScroll) {
+							return;
+						}
+						// what direction?
+						var round = 'ceil';
+						if (target.scrollLeft < target.scrollLeftLast) {
+							round = 'floor';
+						}
+						// finish scrolling - to closest column
+						var columns = Math[round](target.scrollLeft / target.firstElementChild.firstElementChild.clientWidth);
+						var scrollTo = target.firstElementChild.firstElementChild.clientWidth * columns;
+						// go
+						$(target).animate({
+							scrollLeft: scrollTo
+						}, {
+							duration: duration
+						});
+						// done
+						target.doNotScroll = true;
+						$timeout(
+							scope.scroll_enable,
+							duration
+						);
+
+					}
+				)
+			);
+		}
+	}
+})
+
+
+.directive('scrollTop', function ($rootScope) {
+	return {
+		restrict: 'A',
+		link: function (scope, element, attrs) {
+			$(element).scroll(function(){
+				if (element[0].scrollTop) {
+					scope.scrolled = true;
+					$(element).addClass('scrolled');
+				} else {
+					scope.scrolled = false;
+					$(element).removeClass('scrolled');
+				}
+			});
+			$(element).bind('mousewheel', function(e) {
+				if (scope.scrolled) {
+					if (e.originalEvent.wheelDelta /120 > 0) {
+						if (element[0].scrollTop===0) {
+							scope.scrolled = false;
+							$(element).removeClass('scrolled');
+						}
+					}
+				}
+			});
+			scope.$on('$destroy',function(){
+				$(element).unbind('scroll');
+				$(element).unbind('mousewheel');
+			})
+		}
+	}
+})
+.directive('scrollTopHelper', function ($rootScope) {
+	return {
+		restrict: 'A',
+		link: function (scope, element, attrs) {
+			$(element).scroll(function(){
+				if (element[0].scrollTop) {
+					$('[scroll-top]').addClass('scrolled');
+				} else {
+					$('[scroll-top]').removeClass('scrolled');
+				}
+			});
+			scope.$on('$destroy',function(){
+				$(element).unbind('scroll');
+			})
+		}
+	}
+})
+			</code></pre>
+		</div>
+	</article>
+
+
+	<article>
+		<div class="description">
+			<span class="uui-text">CSS to make Ionic Lab, Ionic Icons, Icomoon icons, and custom text align neatly:</a>
+		</div>
+		<div class="code">
+			<pre><code data-language="css">
+/*
+	RESET
+*/
+[class^="icon-"],
+[class*=" icon-"] {
+	position:relative;
+	line-height:1.5em;
+	font-size:1em;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+
+/*
+	ELEMENTS
+*/
+[class^="uui-"],
+[class*=" uui-"] {
+	position:relative;
+	line-height:1.5em;
+	font-size:1em;
+	display:inline-block;
+	vertical-align:middle;
+}
+.uui-title {
+	position:relative;
+	height:1.5em;
+	line-height:1.5em;
+	font-weight:bold;
+	display:inline-block;
+	vertical-align:middle;
+	padding:0;
+}
+.uui-text {
+	position:relative;
+	height:1.5em;
+	line-height:1.5em;
+	display:inline-block;
+	vertical-align:middle;
+	padding:0;
+}
+textarea.uui-text, input[type].uui-text {
+	position:relative;
+	height:1.5em;
+	line-height:1.5em;
+	display:inline-block;
+	vertical-align:middle;
+	padding:0;
+}
+.uui-icon,
+.uui-icon-button {
+	width:1.5em;
+	padding:0;
+	text-align:center;
+}
+.uui-icon {
+	border:none;
+	background:transparent;
+}
+.uui-icon-button {
+	border:none;
+	background:transparent;
+	&.uui-circle {
+		border-radius:50%;
+	}
+	&.uui-square {
+		border-radius:2px;
+	}
+}
+.uui-icon,
+.uui-icon-button,
+.uui-button {
+	display:inline-block;
+	vertical-align: middle;
+	position: static;
+	font-size: 0.9em;
+	line-height:1.5em;
+}
+a.uui-icon:before {
+	vertical-align:middle;
+}
+.uui-button,
+.uui-icon-button,
+.bar .title + .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
+	background: orange;
+	color: white;
+	border-radius: 5px;
+}
+.uui-button,
+.uui-icon-button {
+	&:hover,
+	&:hover *,
+	&:hover span:before {
+		background:#ffc14d;
+		color:white !important;
+		font-weight:bold;
+	}
+}
+.uui-button {
+	text-align:center;
+	padding:0.236em 0;
+}
+.uui-icon-button {
+	padding: 0.29em 0.24em 0.24em 0.266em;
+	min-width: 0.9em;
+	box-sizing: content-box;
+	font-size: 100%;
+}
+			</code></pre>
 		</div>
 	</article>
 
@@ -106,6 +448,10 @@
 </body>
 <script src="/the_wilderness_downtown/canvas.js"></script>
 <script  src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="/lib/rainbow/js/rainbow.min.js"></script>
+<script src="/lib/rainbow/js/language/generic.js"></script>
+<script src="/lib/rainbow/js/language/javascript.js"></script>
+<link href="/lib/rainbow/themes/monokai.css" rel="stylesheet" type="text/css">
 <script>
 	$('video').parent().click(function () {
 	    if($(this).find("video").get(0).paused){
@@ -127,5 +473,25 @@
 		});
 		$('body').addClass('ready');
 	});
+	$(window).on('scroll', function(){
+		$('video[scrollplay]').each(function(){
+			var video = $(this)[0];
+			if (isVideoInView(video)) {
+				video.play();
+			} else {
+				video.pause();
+			}
+		})
+	});
+	function isVideoInView(video) {
+		var middle = (window.innerHeight || document.documentElement.clientHeight) / 2;
+		var rect = video.getBoundingClientRect();
+		if (
+			rect.top < middle && 
+			rect.top+video.clientHeight >= middle
+		) {
+			return true;
+		}
+	}
 </script>
 </html>

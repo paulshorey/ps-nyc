@@ -1,7 +1,3 @@
-span {
-	display:inline-block;
-	vertical-align:middle;
-}
 body {
 	overflow:auto;
 	font-family: "Bodoni 72", Georgia, serif;
@@ -13,6 +9,12 @@ a {
 a:hover {
 	color:#4BAFE1;
 	text-decoration:underline;
+}
+[onclick] {
+	cursor:pointer;
+}
+article pre {
+	font-size:12px !important;
 }
 
 section {
@@ -54,8 +56,9 @@ section {
 		.video {
 			position:relative;
 			max-width:720px;
+			margin:0 0 1vh;
 			.playpause {
-				background-image:url(../screencasts/ui/play.png);
+				background-image:url(../gfx/ui/play.png);
 				background-repeat:no-repeat;
 				background-position: center;
 				cursor:pointer;
@@ -68,9 +71,33 @@ section {
 				display:block;
 			}
 		}
+		.image {
+			position:relative;
+			max-width:720px;
+			img {
+				width:100%;
+			}
+		}
 		.collage {
 			position:relative;
 			width:100%;
+			.playbutton {
+				background-image: url(../gfx/ui/play.svg);
+				background-repeat: no-repeat;
+				background-position: center;
+				cursor: pointer;
+				width: 6vw;
+				height: 6vw;
+				position: absolute;
+				top: 0;
+				background-size: auto 50%;
+				background-color: #fff;
+				top: calc(50% - 3vw);
+				left: calc(50% - 3vw);
+				border-radius: 50%;
+				box-shadow: 0 0 5px #000;
+				background-position-x: 60%;
+			}
 			img {
 				width:100%;
 			}
