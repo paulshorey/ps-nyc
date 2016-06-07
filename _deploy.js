@@ -13,6 +13,7 @@ app.all('/_deploy', function(req, res) {
 	});
 
 	// apply
+	console.log('_deploy webhook received');
 	var spawn = require('child_process').spawn,
 		deploy = spawn('bash', ['_deploy.sh']);
 
