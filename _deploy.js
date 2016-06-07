@@ -14,7 +14,7 @@ app.all('/_deploy', function(req, res) {
 
 	// apply
 	var spawn = require('child_process').spawn,
-		deploy = spawn('sh', ['_deploy.sh']);
+		deploy = spawn('bash', ['_deploy.sh']);
 
 });
 
