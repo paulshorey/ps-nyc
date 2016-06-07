@@ -508,8 +508,10 @@ a.uui-icon:before {
 	});
 	$(window).load(function(){
 		$('[secret-tel]').each(function(){
-			$(this).get(0).innerHTML = $(this).attr('secret-tel1')+'.'+$(this).attr('secret-tel2')+'.'+$(this).attr('secret-tel3');
-			$(this).attr('href','tel:'+$(this).attr('secret-tel1')+$(this).attr('secret-tel2')+$(this).attr('secret-tel3'));
+			setTimeout(function(){
+				$(this).get(0).innerHTML = $(this).attr('secret-tel1')+'.'+$(this).attr('secret-tel2')+'.'+$(this).attr('secret-tel3');
+				$(this).attr('href','tel:'+$(this).attr('secret-tel1')+$(this).attr('secret-tel2')+$(this).attr('secret-tel3'));
+			},100);
 		});
 		$('[secret-mailto]').each(function(){
 			$(this).get(0).innerHTML = $(this).attr('secret-mailto');
