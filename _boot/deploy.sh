@@ -1,4 +1,4 @@
 sleep 20
 
-cd /www/ps-nyc
+cd /www/\p\s\-nyc
 node _deploy.js
