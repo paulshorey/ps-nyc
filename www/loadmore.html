@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Paul Shorey</title>
+
+<meta name="description" content="Ripoff from Arcade Fire's - Wilderness Downtown - online music video, from back in the day." />
+<meta name="keywords" content="Paul Shorey, Arcade Fire, Chris Milk, Chrome, Chrome Experiment, HTML5, Javascript" />
+<meta property="og:title" content="Paul Shorey" />
+<meta property="og:site_name" content="Paul Shorey" />
+<meta property="og:description" content="Web design and development" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/" />
+<link href="/gfx/puzzle.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+
+<div class="loadmore"></div>
+
+</body>
+<script src="lib/jquery/dist/jquery.min.js"></script>
+<script src="lib/jquery-debounce/jquery-debounce.min.js"></script>
+<script>
+	$(window).on('load, scroll', function(){
+		if (!window.loadmoreLoading) {
+			$('.loadmore').each(function(){
+				// take it easy
+				window.loadmoreLoading = true;
+				window.setTimeout(function(){
+					window.loadmoreLoading = false;
+				},1000);
+				// go
+				var rect = div.getBoundingClientRect();
+				if (rect.top+div.clientHeight < (window.innerHeight || document.documentElement.clientHeight)) {
+					$.getJSON('http://www.stellarbiotechnologies.com/media/press-releases/json').then(function(response){ console.log('response',response); });
+				}
+			});
+		}
+	});
+</script>
+</html>
