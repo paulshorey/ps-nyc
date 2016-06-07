@@ -71,6 +71,7 @@
 var static = require('node-static');
 var fileServer = new static.Server('./www');
 require('http').createServer(function (request, response) {
+
     request.addListener('end', function () {
         fileServer.serve(request, response, function (err, result) {
             if (err) { // There was an error serving the file 
@@ -82,7 +83,11 @@ require('http').createServer(function (request, response) {
 	      }
         });
     }).resume();
-}).listen(8888);
+    request.setTimeout(1000, function () {
+        request.abort();
+    });
+
+}).listen(4080);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // RELOAD
