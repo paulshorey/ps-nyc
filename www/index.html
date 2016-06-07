@@ -32,7 +32,7 @@
 		<!-- <span class="h-left h-hidden" style="top:-2px;"><span class="uui-text">I</span> <span class="uui-icon icon-heart"></span> <span class="uui-text">UI Development</span></span></span> -->
 		<span class="h-right">
 			<a href="http://paulshorey.artspaces.net/PaulShoreyResume.docx"><span class="uui-icon icon-select"></span> <span class="uui-text">Download resume</span></a>
-			<span class="uui-text"> |  <a href="" secret-mailto="ps@idd.nyc"></a>  |  <a href="" secret-tel="321.446.5290"></a></span>
+			<span class="uui-text"> |  <a href="" secret-mailto="ps@idd.nyc"></a>  |  <a href="" secret-tel secret-tel1="321" secret-tel2="446" secret-tel3="5290"></a></span>
 		</span>
 	</header>
 
@@ -460,10 +460,10 @@ a.uui-icon:before {
 </body>
 <script src="/the_wilderness_downtown/canvas.js"></script>
 <script  src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-<script src="/lib/rainbow/js/rainbow.min.js"></script>
+<!-- <script src="/lib/rainbow/js/rainbow.min.js"></script>
 <script src="/lib/rainbow/js/language/generic.js"></script>
 <script src="/lib/rainbow/js/language/javascript.js"></script>
-<link href="/lib/rainbow/themes/monokai.css" rel="stylesheet" type="text/css">
+<link href="/lib/rainbow/themes/monokai.css" rel="stylesheet" type="text/css"> -->
 <script>
 	$('video').parent().click(function () {
 	    if($(this).find("video").get(0).paused){
@@ -474,10 +474,10 @@ a.uui-icon:before {
 	        $(this).find(".playpause").fadeIn();
 	    }
 	});
-	$(document).ready(function(){
+	$(window).load(function(){
 		$('[secret-tel]').each(function(){
-			$(this).get(0).innerHTML = $(this).attr('secret-tel');
-			$(this).attr('href','tel:'+$(this).attr('secret-tel'));
+			$(this).get(0).innerHTML = $(this).attr('secret-tel1')+'.'+$(this).attr('secret-tel2')+'.'+$(this).attr('secret-tel3');
+			$(this).attr('href','tel:'+$(this).attr('secret-tel1')+$(this).attr('secret-tel2')+$(this).attr('secret-tel3'));
 		});
 		$('[secret-mailto]').each(function(){
 			$(this).get(0).innerHTML = $(this).attr('secret-mailto');
