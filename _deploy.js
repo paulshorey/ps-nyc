@@ -5,7 +5,7 @@ var fs = require('fs'),
 
 app.set('port', 9999);
 
-app.all('_deploy', function(req, res) {
+app.all('/_deploy', function(req, res) {
 
 	// done
 	res.json(200, {
