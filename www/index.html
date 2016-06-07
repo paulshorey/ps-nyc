@@ -107,9 +107,12 @@
 		<div class="image">
 			<div class="cycle-slideshow"
 				data-cycle-fx="scrollHorz"
-				data-cycle-timeout="0"
+				data-cycle-timeout="2000"
 				data-cycle-prev="#prev"
 				data-cycle-next="#next"
+				data-cycle-pause-on-hover="true"
+				data-cycle-log="false"
+				scrollplay
 			>
 			<img src="screenshots/focusfeatures/1.jpg">
 			<img src="screenshots/focusfeatures/2.jpg">
@@ -124,13 +127,13 @@
 			<img src="screenshots/focusfeatures/10.jpg">
 		</div>
 
-		<div class="center">
-		<a href=# id="prev">Prev</a> 
-		<a href=# id="next">Next</a>
+		<div class="center" style="font-size:10px;">
+		<a href=# id="prev">&laquo; Prev</a> 
+		<a href=# id="next" style="float:right;">Next &raquo;</a>
 		</div>
 		</div>
 		<div class="article">
-			I was lucky enough to serve as lead developer at this enterprise movie news site. Everything we built then is in use now, several years later. It later evolved to be more strictly mini-sites and marketing sites for individual feature films. <a href="http://focusfeatures.com" target="_blank">FocusFeatures.com &raquo;</a>
+			I was lucky enough to serve as lead developer at this enterprise movie news site. Many people relied on it for movie and industry news. It later evolved to be more strictly mini-sites and marketing sites for individual feature films. I've made sites and apps for films like Moonrise Kingdom, Tinker Tailor Soldier Spy, Coraline, and Boxtrolls. <a href="http://focusfeatures.com" target="_blank">FocusFeatures.com &raquo;</a>
 		</div>
 	</article>
 
@@ -514,13 +517,12 @@ a.uui-icon:before {
 		});
 		$('body').addClass('ready');
 	});
-	$(window).on('scroll', function(){
-		$('video[scrollplay]').each(function(){
-			var video = $(this)[0];
-			if (isVideoInView(video)) {
-				video.play();
+	$(window).on('load, scroll', function(){
+		$('[scrollplay]').each(function(){
+			if (isVideoInView($(this)[0])) {
+				$(this)[0].play();
 			} else {
-				video.pause();
+				$(this)[0].pause();
 			}
 		})
 	});
@@ -535,8 +537,11 @@ a.uui-icon:before {
 		}
 	}
 	$(document).ready(function(){
-		$('.cycle').each(function(){
+		$('.cycle-slideshow').each(function(){
 			$(this).cycle();
+			$(this)[0].play = function(){ try { $(this).cycle('resume'); } catch(e){} }
+			$(this)[0].pause = function(){ try { $(this).cycle('pause'); } catch(e){} }
+			$(this).cycle('pause');
 		})
 	});
 </script>
