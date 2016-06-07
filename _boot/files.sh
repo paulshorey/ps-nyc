@@ -11,4 +11,4 @@ iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 40
 # rm -rf public/console
 # http-server www -p 4080 -s -c 30 #-d false
 
-pm2 start app.js
+node app.js
