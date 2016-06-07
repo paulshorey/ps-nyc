@@ -104,6 +104,31 @@
 		<div class="title">
 			2009-2014 - Focus Features Films
 		</div>
+		<div class="slideshow">
+			<div class="cycle-slideshow"
+				data-cycle-fx="scrollHorz"
+				data-cycle-timeout="0"
+				data-cycle-prev="#prev"
+				data-cycle-next="#next"
+			>
+			<img src="screenshots/focusfeatures/1.png">
+			<img src="screenshots/focusfeatures/2.png">
+			<img src="screenshots/focusfeatures/3.png">
+			<img src="screenshots/focusfeatures/4.png">
+			<img src="screenshots/focusfeatures/5.png">
+			<img src="screenshots/focusfeatures/6.png">
+			<img src="screenshots/focusfeatures/7.png">
+			<img src="screenshots/focusfeatures/8.png">
+			<img src="screenshots/focusfeatures/8.png">
+			<img src="screenshots/focusfeatures/9.png">
+			<img src="screenshots/focusfeatures/10.png">
+		</div>
+
+		<div class="center">
+		<a href=# id="prev">Prev</a> 
+		<a href=# id="next">Next</a>
+		</div>
+		</div>
 		<div class="article">
 			I was lucky enough to serve as lead developer at this enterprise movie news site. Everything we built then is in use now, several years later. It later evolved to be more strictly mini-sites and marketing sites for individual feature films. <a href="http://focusfeatures.com" target="_blank">FocusFeatures.com &raquo;</a>
 		</div>
@@ -462,7 +487,8 @@ a.uui-icon:before {
 
 </body>
 <script src="/the_wilderness_downtown/canvas.js"></script>
-<script  src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+<script src="/lib/cycle/cycle.min.js"></script>
 <script src="/lib/rainbow/js/rainbow.min.js"></script>
 <script src="/lib/rainbow/js/language/generic.js"></script>
 <script src="/lib/rainbow/js/language/javascript.js"></script>
@@ -508,5 +534,10 @@ a.uui-icon:before {
 			return true;
 		}
 	}
+	$(document).ready(function(){
+		$('.cycle').each(function(){
+			$(this).cycle();
+		})
+	});
 </script>
 </html>
