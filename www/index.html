@@ -528,7 +528,7 @@ a.uui-icon:before {
 		})
 	});
 	function isVideoInView(video) {
-		var middle = (window.innerHeight || document.documentElement.clientHeight) / 2;
+		var middle = (window.innerHeight || document.documentElement.clientHeight) * (2/5);
 		var rect = video.getBoundingClientRect();
 		if (
 			rect.top < middle && 
