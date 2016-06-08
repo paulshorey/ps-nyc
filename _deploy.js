@@ -10,6 +10,7 @@ app.all('/_deploy', function(req, res) {
 	// done
 	res.json(200, { 
 		message: 'Github Hook received!'
+		
 	});
 
 	// apply
