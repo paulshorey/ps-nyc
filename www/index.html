@@ -532,8 +532,6 @@ React.html['eventslist'] = React.createClass({
 
 		var rows = [];
 		var old_timestring = '';
-		var old_event_featured_images = [];
-		var old_date = '';
 		for (var i=0; i < this.props.events.length; i++) {
 			var event = this.props.events[i];
 			if (!event.texts) {
