@@ -237,7 +237,6 @@ React.html['eventslist'] = React.createClass({
 
 			// <timestring>
 			if (timestring != old_timestring) {
-				//var timeUnique = cutOldBeginning(old_timestamp, event.timestamp);
 				rows.push(<div className="events-timestamp"><span>{timestring}</span></div>);
 				old_timestring = timestring;
 			}
@@ -278,7 +277,7 @@ React.html['eventslist'] = React.createClass({
 			</code></pre>
 		</div>
 	</article>
-	
+
 
 	<article>
 		<div class="description">
