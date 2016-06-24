@@ -49,6 +49,8 @@
 		</div>
 		<div class="description">
 			"Mobile-first" design all the way! Highly-responsive AngularJS web app, made with Ionic, to work as a standalone iPhone and Android app too. PhantomJS bot constantly crawls the web, updating events in the database. After a busy workday, see what's going on in town... <a href="http://allevents.nyc" target="_blank">http://allevents.nyc &raquo;</a>
+			<br />&nbsp;<br />
+			<a href="javascript:scrollToCode();">Code samples below <span class="uui-icon icon-select"></span></a>
 		</div>
 	</article>
 
@@ -170,7 +172,7 @@
 	</article>
 
 
-	<article>
+	<article id="scrollToCode">
 		<div class="description">
 			<span class="uui-text">AngularJS meets ReactJS:</a>
 		</div>
@@ -660,5 +662,10 @@ a.uui-icon:before {
 			$(this).cycle('pause');
 		})
 	});
+	function scrollToCode(){
+		$('html, body').animate({
+			scrollTop: $('#scrollToCode').eq(0).offset().top
+		}, 2000);
+	}
 </script>
 </html>

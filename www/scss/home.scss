@@ -145,3 +145,8 @@ body.ready {
 		opacity:0;
 	}
 }
+
+
+
+article .description a .icon-select:before {position: relative;top: 4.2px;left: 1.5px;}
+article .description a:hover .icon-select:before {text-decoration:none;}
