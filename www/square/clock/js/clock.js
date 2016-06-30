@@ -67,5 +67,5 @@ var Clock = (function(){
 	// 	// make a new object to hold temporary time, to compare later to stopwatch time
 	// };
 	// window.document.body.attachEvent("onClick", resetTime);
-
+	
 })();

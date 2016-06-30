@@ -15,3 +15,7 @@ This was a fun project, still need to:
 	1) adjust the viewport without breaking gameplay
 	2) add "pause" button for mobile
 	3) cleanup all that spaghetti
+
+
+See it in action:
+http://paulshorey.com/square/snake/
