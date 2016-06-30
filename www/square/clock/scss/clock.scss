@@ -1,0 +1,66 @@
+@keyframes rotate360 {
+  to { transform: rotate(360deg); }
+}
+
+body {
+	margin:0;
+}
+
+.hands {
+	position:fixed;
+	height:100vh;
+	width:100vw;
+	.hand {
+		position:fixed;
+		left:50%;
+		top:50%;
+		width:0;
+		height:1px;
+		&:before {
+			content: "";
+			position:relative;
+			display:block;
+			background:#111;
+			width:100vw;
+			height:1px;
+			overflow:hidden;
+		}
+	}
+	.hand-hour {
+		opacity:1;
+		&.spun {
+			animation: 86400s rotate360 infinite linear;
+		}
+	}
+	.hand-minute {
+		opacity:0.75;
+		&.spun {
+			animation: 3600s rotate360 infinite linear;
+		}
+	}
+	.hand-second {
+		opacity:0.5;
+		&.spun {
+			animation: 60s rotate360 infinite linear;
+		}
+	}
+	.hand-millisecond {
+		opacity:0.25;
+		&.spun {
+			animation: 1s rotate360 infinite linear;
+		}
+	}
+}
+
+.theTime {
+	position: absolute;
+	top: 50vh;
+	left: 50vw;
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+	color: rgba(0,0,0,0.66);
+	font-family: sans-serif;
+	padding: 5px 15px;
+	font-smooth: always;
+}
