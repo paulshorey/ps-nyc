@@ -17,5 +17,9 @@ This was a fun project, still need to:
 	3) cleanup all that spaghetti
 
 
+
 See it in action:
 http://paulshorey.com/square/snake/
+
+Compared to original (didn't use mouse / tap, would break on different size screens)
+http://patorjk.com/games/snake
