@@ -1,19 +1,17 @@
-JavaScript Snake<br/>
-By Patrick Gillespie<br/>
-License: MIT<br/>
+ORIGINAL APP BY:
+JavaScript Snake
+By Patrick Gillespie
 http://patorjk.com/games/snake
+Source code is available here: https://github.com/patorjk/JavaScript-Snake
 
-This is a DOM-based game of Snake that I wrote in JavaScript a few years back.
 
-Other than the full screen mode demonstrated in the code, it can also be 
-initialized in div tags within a page. Example:
+MODIFIED for DEVICES & CLICK / TAP EVENTS:
+By Paul Shorey
+http://paulshorey.com
+Sample project for Squarespaces.com
 
-    var mySnakeBoard = new SNAKE.Board( {
-                                            boardContainer: "game-area",
-                                            fullScreen: false,
-                                            width: 580,
-                                            height:400
-                                        });
-                                    
-The comments are formatted a little strange because at the time I was playing
-around with YUI Doc.
+
+This was a fun project, still need to:
+	1) adjust the viewport without breaking gameplay
+	2) add "pause" button for mobile
+	3) cleanup all that spaghetti
