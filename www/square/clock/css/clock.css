@@ -27,18 +27,20 @@ body {
       display: block;
       background: #111;
       width: 100vw;
-      height: 1px;
       overflow: hidden; }
   .hands .hand-hour {
-    height: 4px;
     opacity: 1; }
+    .hands .hand-hour:before {
+      height: 4px;
+      margin-top: -2px; }
     .hands .hand-hour.spun {
       -webkit-animation: 86400s rotate360 infinite linear;
       animation: 86400s rotate360 infinite linear; }
   .hands .hand-minute {
     opacity: 0.75; }
     .hands .hand-minute:before {
-      height: 3px; }
+      height: 3px;
+      margin-top: -1px; }
     .hands .hand-minute.spun {
       -webkit-animation: 3600s rotate360 infinite linear;
       animation: 3600s rotate360 infinite linear; }

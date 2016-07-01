@@ -19,25 +19,25 @@ var Clock = (function(){
 	var handHour = document.createElement("div");
 	handHour.className = "hand hand-hour";
 	handHour.classList.add('spun');
-	handHour.style.transform = 'rotate('+((hour/24)*360)+'deg)';
+	handHour.style.transform = 'rotate('+(((hour/12)*360)-90)+'deg)';
 	document.body.querySelector('.hands').appendChild(handHour);
 
 	var handMinute = document.createElement("div");
 	handMinute.className = "hand hand-minute";
 	handMinute.classList.add('spun');
-	handMinute.style.transform = 'rotate('+((minute/60)*360)+'deg)';
+	handMinute.style.transform = 'rotate('+(((minute/60)*360)-90)+'deg)';
 	document.body.querySelector('.hands').appendChild(handMinute);
 
 	var handSecond = document.createElement("div");
 	handSecond.className = "hand hand-second";
 	handSecond.classList.add('spun');
-	handSecond.style.transform = 'rotate('+((second/60)*360)+'deg)';
+	handSecond.style.transform = 'rotate('+(((second/60)*360)-90)+'deg)';
 	document.body.querySelector('.hands').appendChild(handSecond);
 
 	var handMillisecond = document.createElement("div");
 	handMillisecond.className = "hand hand-millisecond";
 	handMillisecond.classList.add('spun');
-	handMillisecond.style.transform = 'rotate(0deg)';
+	handMillisecond.style.transform = 'rotate(-90deg)';
 	document.body.querySelector('.hands').appendChild(handMillisecond);
 
 	var theTime = document.createElement("div");

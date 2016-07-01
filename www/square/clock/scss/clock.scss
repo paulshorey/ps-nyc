@@ -22,12 +22,14 @@ body {
 			display:block;
 			background:#111;
 			width:100vw;
-			height:1px;
 			overflow:hidden;
 		}
 	}
 	.hand-hour {
-		height:4px;
+		&:before {
+			height:4px;
+			margin-top:-2px;
+		}
 		opacity:1;
 		&.spun {
 			animation: 86400s rotate360 infinite linear;
@@ -36,6 +38,7 @@ body {
 	.hand-minute {
 		&:before {
 			height:3px;
+			margin-top:-1px;
 		}
 		opacity:0.75;
 		&.spun {
