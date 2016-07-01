@@ -37,7 +37,7 @@ var Clock = (function(){
 	var handMillisecond = document.createElement("div");
 	handMillisecond.className = "hand hand-millisecond";
 	handMillisecond.classList.add('spun');
-	handMillisecond.style.transform = 'rotate(-90deg)';
+	handMillisecond.style.transform = 'rotate(0deg)';
 	document.body.querySelector('.hands').appendChild(handMillisecond);
 
 	var theTime = document.createElement("div");
