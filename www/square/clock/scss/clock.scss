@@ -27,24 +27,34 @@ body {
 		}
 	}
 	.hand-hour {
+		height:4px;
 		opacity:1;
 		&.spun {
 			animation: 86400s rotate360 infinite linear;
 		}
 	}
 	.hand-minute {
+		&:before {
+			height:3px;
+		}
 		opacity:0.75;
 		&.spun {
 			animation: 3600s rotate360 infinite linear;
 		}
 	}
 	.hand-second {
+		&:before {
+			height:2px;
+		}
 		opacity:0.5;
 		&.spun {
 			animation: 60s rotate360 infinite linear;
 		}
 	}
 	.hand-millisecond {
+		&:before {
+			height:1px;
+		}
 		opacity:0.25;
 		&.spun {
 			animation: 1s rotate360 infinite linear;
@@ -63,4 +73,5 @@ body {
 	font-family: sans-serif;
 	padding: 5px 15px;
 	font-smooth: always;
+	font-weight:bold;
 }

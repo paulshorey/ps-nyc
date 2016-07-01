@@ -30,22 +30,29 @@ body {
       height: 1px;
       overflow: hidden; }
   .hands .hand-hour {
+    height: 4px;
     opacity: 1; }
     .hands .hand-hour.spun {
       -webkit-animation: 86400s rotate360 infinite linear;
       animation: 86400s rotate360 infinite linear; }
   .hands .hand-minute {
     opacity: 0.75; }
+    .hands .hand-minute:before {
+      height: 3px; }
     .hands .hand-minute.spun {
       -webkit-animation: 3600s rotate360 infinite linear;
       animation: 3600s rotate360 infinite linear; }
   .hands .hand-second {
     opacity: 0.5; }
+    .hands .hand-second:before {
+      height: 2px; }
     .hands .hand-second.spun {
       -webkit-animation: 60s rotate360 infinite linear;
       animation: 60s rotate360 infinite linear; }
   .hands .hand-millisecond {
     opacity: 0.25; }
+    .hands .hand-millisecond:before {
+      height: 1px; }
     .hands .hand-millisecond.spun {
       -webkit-animation: 1s rotate360 infinite linear;
       animation: 1s rotate360 infinite linear; }
@@ -60,4 +67,5 @@ body {
   color: rgba(0, 0, 0, 0.66);
   font-family: sans-serif;
   padding: 5px 15px;
-  font-smooth: always; }
+  font-smooth: always;
+  font-weight: bold; }

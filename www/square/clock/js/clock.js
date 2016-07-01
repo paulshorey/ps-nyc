@@ -37,7 +37,7 @@ var Clock = (function(){
 	var handMillisecond = document.createElement("div");
 	handMillisecond.className = "hand hand-millisecond";
 	handMillisecond.classList.add('spun');
-	handMillisecond.style.transform = 'rotate('+((millisecond/1000)*360)+'deg)';
+	handMillisecond.style.transform = 'rotate(0deg)';
 	document.body.querySelector('.hands').appendChild(handMillisecond);
 
 	var theTime = document.createElement("div");
@@ -67,5 +67,5 @@ var Clock = (function(){
 	// 	// make a new object to hold temporary time, to compare later to stopwatch time
 	// };
 	// window.document.body.attachEvent("onClick", resetTime);
-	
+
 })();
