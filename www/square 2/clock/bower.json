@@ -1,0 +1,10 @@
+{
+  "name": "Square Clock",
+  "private": "true",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "compass-sass-mixins": "*"
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<head>
+<!--
+
+ORIGINAL SOURCE CODE BY:
+
+JavaScript Snake
+By Patrick Gillespie
+http://patorjk.com/games/snake
+Source code is available here: https://github.com/patorjk/JavaScript-Snake
+
+MODIFIED for DEVICES & CLICK / TAP EVENTS:
+By Paul Shorey
+http://paulshorey.com
+Sample project for Squarespaces.com
+
+--> 
+<!-- <meta name="viewport" content="initial-scale=1.5, maximum-scale=1.5, user-scalable=no"> -->
+<title>JavaScript Snake</title>
+<link rel="stylesheet" type="text/css" href="./css/main-snake.css" />
+</head>
+<body>
+
+    <div id="options-container">
+        <span id="mode-wrapper">Choose difficulty: </span> <button id="Easy">Easy</button> <button id="Medium">Medium</button> <button id="Difficult">Difficult</button>
+       <button id="high-score">Get your current high score for this game.</button>
+    </div>
+
+    <div id="game-area" tabindex="0">
+    </div>
+
+    <script type="text/javascript" src="./js/snake.js"></script>
+    <script type="text/javascript">
+    var mySnakeBoard = new SNAKE.Board(  {
+        boardContainer: "game-area",
+        fullScreen: true
+    });
+    </script>
+
+</body>
+</html>
