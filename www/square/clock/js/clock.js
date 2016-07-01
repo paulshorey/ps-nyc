@@ -4,6 +4,7 @@
 
 var Clock = function(clockContainer){
 
+	// this
 	var clock = {
 
 		lib: {
@@ -23,45 +24,45 @@ var Clock = function(clockContainer){
 		digitalStopwatch: document.createElement("div"),
 
 		construct: function(){
-			clockContainer.appendChild(this.hands);
-			this.hands.appendChild(this.handHour);
-			this.hands.appendChild(this.handMinute);
-			this.hands.appendChild(this.handSecond);
-			this.hands.appendChild(this.handMillisecond);
-			clockContainer.appendChild(this.digitalClock);
-			clockContainer.appendChild(this.digitalStopwatch);
-			this.time();
-			clockContainer.onclick = this.watch;
+			clockContainer.appendChild(clock.hands);
+			clock.hands.appendChild(clock.handHour);
+			clock.hands.appendChild(clock.handMinute);
+			clock.hands.appendChild(clock.handSecond);
+			clock.hands.appendChild(clock.handMillisecond);
+			clockContainer.appendChild(clock.digitalClock);
+			clockContainer.appendChild(clock.digitalStopwatch);
+			clock.time();
+			clockContainer.onclick = clock.watch;
 		},
 
 		time: function(){
-			this.timeRun();
-			this.timeInterval = setInterval(this.timeRun, 1000);
+			clock.timeRun();
+			clock.timeInterval = setInterval(clock.timeRun, 1000);
 
 			// clock hands
-			this.hands.className = "hands";
+			clock.hands.className = "hands";
 
-			this.handHour.className = "hand hand-hour";
-			this.handHour.classList.add('spun');
-			this.handHour.style.transform = 'rotate('+( ((this.hour/12)*360)+((this.minute/60)*30)+((this.second/60)*0.5) -90)+'deg)';
+			clock.handHour.className = "hand hand-hour";
+			clock.handHour.classList.add('spun');
+			clock.handHour.style.transform = 'rotate('+( ((clock.hour/12)*360)+((clock.minute/60)*30)+((clock.second/60)*0.5) -90)+'deg)';
 
-			this.handMinute.className = "hand hand-minute";
-			this.handMinute.classList.add('spun');
-			this.handMinute.style.transform = 'rotate('+( ((this.minute/60)*360)+((this.second/60)*0.5) -90)+'deg)';
+			clock.handMinute.className = "hand hand-minute";
+			clock.handMinute.classList.add('spun');
+			clock.handMinute.style.transform = 'rotate('+( ((clock.minute/60)*360)+((clock.second/60)*0.5) -90)+'deg)';
 
-			this.handSecond.className = "hand hand-second";
-			this.handSecond.classList.add('spun');
-			this.handSecond.style.transform = 'rotate('+(((this.second/60)*360)-90)+'deg)';
+			clock.handSecond.className = "hand hand-second";
+			clock.handSecond.classList.add('spun');
+			clock.handSecond.style.transform = 'rotate('+(((clock.second/60)*360)-90)+'deg)';
 
-			this.handMillisecond.className = "hand hand-millisecond";
-			this.handMillisecond.classList.add('spun');
-			this.handMillisecond.style.transform = 'rotate(0deg)';
+			clock.handMillisecond.className = "hand hand-millisecond";
+			clock.handMillisecond.classList.add('spun');
+			clock.handMillisecond.style.transform = 'rotate(0deg)';
 
-			this.digitalClock.className = "digitalClock";
-			this.digitalClock.innerHTML = this.lib.pad(this.hour)+':'+this.lib.pad(this.minute)+'::'+this.lib.pad(this.second);
+			clock.digitalClock.className = "digitalClock";
+			clock.digitalClock.innerHTML = clock.lib.pad(clock.hour)+':'+clock.lib.pad(clock.minute)+'::'+clock.lib.pad(clock.second);
 
-			this.digitalStopwatch.className = "digitalStopwatch";
-			this.digitalStopwatch.innerHTML = "CLICK";
+			clock.digitalStopwatch.className = "digitalStopwatch";
+			clock.digitalStopwatch.innerHTML = "CLICK";
 		},
 		timeRun: function(){
 			clock.d = new Date();
