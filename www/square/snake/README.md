@@ -5,10 +5,9 @@ http://patorjk.com/games/snake
 Source code is available here: https://github.com/patorjk/JavaScript-Snake
   
   
-MODIFIED for DEVICES & CLICK / TAP EVENTS:
+MODIFIED for MOBILE DEVICES + CLICK / TAP controls:
 By Paul Shorey
 http://paulshorey.com
-Sample project for Squarespaces.com
   
   
 This was a fun project, still need to:
