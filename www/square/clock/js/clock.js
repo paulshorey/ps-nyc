@@ -19,13 +19,13 @@ var Clock = (function(){
 	var handHour = document.createElement("div");
 	handHour.className = "hand hand-hour";
 	handHour.classList.add('spun');
-	handHour.style.transform = 'rotate('+(((hour/12)*360)-90)+'deg)';
+	handHour.style.transform = 'rotate('+( ((hour/12)*360)+((minute/60)*30)+((second/60)*0.5) -90)+'deg)';
 	document.body.querySelector('.hands').appendChild(handHour);
 
 	var handMinute = document.createElement("div");
 	handMinute.className = "hand hand-minute";
 	handMinute.classList.add('spun');
-	handMinute.style.transform = 'rotate('+(((minute/60)*360)-90)+'deg)';
+	handMinute.style.transform = 'rotate('+( ((minute/60)*360)+((second/60)*0.5) -90)+'deg)';
 	document.body.querySelector('.hands').appendChild(handMinute);
 
 	var handSecond = document.createElement("div");
