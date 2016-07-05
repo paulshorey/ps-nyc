@@ -126,6 +126,23 @@ section {
 
 }
 
+@media (max-width: 800px) {
+	section {
+		header {
+			height:50px;
+			.h-left {
+				position: relative;
+				display: block;
+			}
+			.h-right {
+				position: relative;
+				text-align: right;
+				display: block;
+			}
+		}
+	}
+}
+
 /*
 	CHEESY EFFECT
 */

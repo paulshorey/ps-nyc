@@ -13,7 +13,7 @@ var jshint = require('gulp-jshint');
 var path = {
   scss: {
     src: ['./scss/*.scss', '!./scss/all.scss'],
-    dst: './css'
+    dst: './scss'
   },
   css: {
     src: ['./css/*.css', '!./css/all.css'],
@@ -46,7 +46,7 @@ gulp.task('scss', function (done) {
       browsers: ['last 4 versions'],
       cascade: false
     }))
-    .pipe(gulp.dest(path.scss.dst))
+    .pipe(gulp.dest(path.css.dst))
     .on('end', done);
 });
 gulp.task('lint_js', function() {
@@ -66,3 +66,4 @@ gulp.task('concat_js', function () {
     .pipe(concat('all.js'))
     .pipe(gulp.dest(path.js.dst));
 });
+
