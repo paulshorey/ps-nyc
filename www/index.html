@@ -376,33 +376,19 @@ React.html['eventslist'] = React.createClass({
 		</div>
 		<div class="code">
 			<pre><code data-language="javascript">
-.directive('scrollable', function ($timeout, $ionicLoading) {
+.directive('scrollable', function ($timeout) {
 	return {
 		restrict: 'A',
 		scope: {
-			vm: '='
+			which: '='
 		},
 		link: function (scope, element, attrs) {
-			scope.scroll_enable = function () {
-				var target = element[0];
-				target.doNotScroll = false;
-				target.scrollLeftLast = target.scrollLeft;
-				if (target.scrollLeft<10) {
-					$(element).siblings('[scrollable-left]').addClass('scrollEnd');
-				} else {
-					$(element).siblings('[scrollable-left]').removeClass('scrollEnd');
-				}
-				if (target.scrollLeft > ( target.scrollWidth - document.body.scrollWidth - 10 ) ) {
-					$(element).siblings('[scrollable-right]').addClass('scrollEnd');
-				} else {
-					$(element).siblings('[scrollable-right]').removeClass('scrollEnd');
-				}
-			};
+
+			// to scroll or not to scroll
 			scope.$watch(
 				function () {
-					// trigger on text change
-					if (scope.$parent.vm.listsReady == 1) {
-						return element[0].innerText;
+					if (scope.$parent.vm.listJustAdded) {
+						return scope.$parent.vm.listJustAdded;
 					} else {
 						return false;
 					}
@@ -411,12 +397,11 @@ React.html['eventslist'] = React.createClass({
 					// scroll to beginning
 					if (newValue && newValue != oldValue) {
 						var target = element[0];
-						var duration = 400;
+						var duration = 400; // target.clientWidth / 2;
+
 						var scrollTo = 0;
 						target.doNotScroll = 'scroll--changed';
-						$ionicLoading.show();
 						$timeout(function () {
-							$ionicLoading.hide();
 							$(target)
 								.animate({
 									scrollLeft: 0
@@ -425,7 +410,7 @@ React.html['eventslist'] = React.createClass({
 								});
 
 							$timeout(
-								scope.scroll_enable,
+								scope.scrollCheck,
 								duration + 10
 							);
 
@@ -434,6 +419,7 @@ React.html['eventslist'] = React.createClass({
 				}
 			);
 
+			// the arrows
 			$(element)
 			.siblings('[scrollable-left]')
 			.click(function () {
@@ -442,6 +428,7 @@ React.html['eventslist'] = React.createClass({
 					return;
 				}
 				var duration = 400;
+
 				var scrollTo = target.scrollLeft - target.clientWidth;
 				$(target)
 					.animate({
@@ -449,9 +436,10 @@ React.html['eventslist'] = React.createClass({
 					}, {
 						duration: duration
 					});
+
 				target.doNotScroll = 'scrollable-left';
 				$timeout(
-					scope.scroll_enable,
+					scope.scrollCheck,
 					duration
 				);
 			});
@@ -474,214 +462,73 @@ React.html['eventslist'] = React.createClass({
 
 				target.doNotScroll = 'scrollable-right';
 				$timeout(
-					scope.scroll_enable,
+					scope.scrollCheck,
 					duration
 				);
 			});
-			$(element).scroll(
-				$.debounce(
-					333, // this should be more than animation duration, or it will trigger itself
-					function (event) {
-						var target = event.target;
-						var duration = 200;
-						if (target.doNotScroll) {
-							return;
-						}
-						// what direction?
-						var round = 'ceil';
-						if (target.scrollLeft < target.scrollLeftLast) {
-							round = 'floor';
-						}
-						// finish scrolling - to closest column
-						var columns = Math[round](target.scrollLeft / target.firstElementChild.firstElementChild.clientWidth);
-						var scrollTo = target.firstElementChild.firstElementChild.clientWidth * columns;
-						// go
-						$(target).animate({
-							scrollLeft: scrollTo
-						}, {
-							duration: duration
-						});
-						// done
-						target.doNotScroll = true;
-						$timeout(
-							scope.scroll_enable,
-							duration
-						);
 
-					}
-				)
+			// finish scroll position to nearest column or page
+			scope.scrollfix = function(){
+				var target = element[0];
+				var duration = 200;
+				if (target.doNotScroll) {
+					return;
+				}
+				// what direction?
+				var round = 'ceil';
+				if (target.scrollLeft < target.scrollLeftLast) {
+					round = 'floor';
+				}
+				// finish scrolling - to closest column
+				var columns = Math[round](target.scrollLeft / target.firstElementChild.firstElementChild.clientWidth);
+				var scrollTo = target.firstElementChild.firstElementChild.clientWidth * columns;
+				// go
+				$(target).animate({
+					scrollLeft: scrollTo
+				}, {
+					duration: duration
+				});
+				// done
+				target.doNotScroll = true;
+				$timeout(
+					scope.scrollCheck,
+					duration
+				);
+			};
+			$(element).scroll(function(){
+				window.clearTimeout(scope.scrollfix_timeout);
+				scope.scrollfix_timeout = window.setTimeout(function(){
+					scope.scrollfix();
+				},222); // timeout must be greater than duration of 
+			});
+
+			// ends - disable arrow when at beginning or end
+			scope.scrollCheck = function () {
+				var target = element[0];
+				target.doNotScroll = false;
+				target.scrollLeftLast = target.scrollLeft;
+				if (target.scrollLeft<10) {
+					$(element).siblings('[scrollable-left]').addClass('scrollEnd');
+				} else {
+					$(element).siblings('[scrollable-left]').removeClass('scrollEnd');
+				}
+				if (target.scrollLeft > ( target.scrollWidth - target.parentElement.scrollWidth - 10 ) ) {
+					$(element).siblings('[scrollable-right]').addClass('scrollEnd');
+				} else {
+					$(element).siblings('[scrollable-right]').removeClass('scrollEnd');
+				}
+			};
+			$timeout(
+				scope.scrollCheck,
+				500
 			);
-		}
-	}
-})
-
-
-.directive('scrollTop', function ($rootScope) {
-	return {
-		restrict: 'A',
-		link: function (scope, element, attrs) {
-			$(element).scroll(function(){
-				if (element[0].scrollTop) {
-					scope.scrolled = true;
-					$(element).addClass('scrolled');
-				} else {
-					scope.scrolled = false;
-					$(element).removeClass('scrolled');
-				}
-			});
-			$(element).bind('mousewheel', function(e) {
-				if (scope.scrolled) {
-					if (e.originalEvent.wheelDelta /120 > 0) {
-						if (element[0].scrollTop===0) {
-							scope.scrolled = false;
-							$(element).removeClass('scrolled');
-						}
-					}
-				}
-			});
+			$(window).on('resize',scope.scrollCheck);
 			scope.$on('$destroy',function(){
-				$(element).unbind('scroll');
-				$(element).unbind('mousewheel');
-			})
-		}
-	}
-})
-.directive('scrollTopHelper', function ($rootScope) {
-	return {
-		restrict: 'A',
-		link: function (scope, element, attrs) {
-			$(element).scroll(function(){
-				if (element[0].scrollTop) {
-					$('[scroll-top]').addClass('scrolled');
-				} else {
-					$('[scroll-top]').removeClass('scrolled');
-				}
+				$(window).off('resize',scope.scrollCheck);
 			});
-			scope.$on('$destroy',function(){
-				$(element).unbind('scroll');
-			})
 		}
 	}
 })
-			</code></pre>
-		</div>
-	</article>
-
-
-	<article>
-		<div class="description">
-			<span class="uui-text">CSS to make Ionic Lab, Ionic Icons, Icomoon icons, and custom text align neatly:</a>
-		</div>
-		<div class="code">
-			<pre><code data-language="css">
-/*
-	RESET
-*/
-[class^="icon-"],
-[class*=" icon-"] {
-	position:relative;
-	line-height:1.5em;
-	font-size:1em;
-	display:inline-block;
-	vertical-align:middle;
-}
-
-
-/*
-	ELEMENTS
-*/
-[class^="uui-"],
-[class*=" uui-"] {
-	position:relative;
-	line-height:1.5em;
-	font-size:1em;
-	display:inline-block;
-	vertical-align:middle;
-}
-.uui-title {
-	position:relative;
-	height:1.5em;
-	line-height:1.5em;
-	font-weight:bold;
-	display:inline-block;
-	vertical-align:middle;
-	padding:0;
-}
-.uui-text {
-	position:relative;
-	height:1.5em;
-	line-height:1.5em;
-	display:inline-block;
-	vertical-align:middle;
-	padding:0;
-}
-textarea.uui-text, input[type].uui-text {
-	position:relative;
-	height:1.5em;
-	line-height:1.5em;
-	display:inline-block;
-	vertical-align:middle;
-	padding:0;
-}
-.uui-icon,
-.uui-icon-button {
-	width:1.5em;
-	padding:0;
-	text-align:center;
-}
-.uui-icon {
-	border:none;
-	background:transparent;
-}
-.uui-icon-button {
-	border:none;
-	background:transparent;
-	&.uui-circle {
-		border-radius:50%;
-	}
-	&.uui-square {
-		border-radius:2px;
-	}
-}
-.uui-icon,
-.uui-icon-button,
-.uui-button {
-	display:inline-block;
-	vertical-align: middle;
-	position: static;
-	font-size: 0.9em;
-	line-height:1.5em;
-}
-a.uui-icon:before {
-	vertical-align:middle;
-}
-.uui-button,
-.uui-icon-button,
-.bar .title + .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
-	background: orange;
-	color: white;
-	border-radius: 5px;
-}
-.uui-button,
-.uui-icon-button {
-	&:hover,
-	&:hover *,
-	&:hover span:before {
-		background:#ffc14d;
-		color:white !important;
-		font-weight:bold;
-	}
-}
-.uui-button {
-	text-align:center;
-	padding:0.236em 0;
-}
-.uui-icon-button {
-	padding: 0.29em 0.24em 0.24em 0.266em;
-	min-width: 0.9em;
-	box-sizing: content-box;
-	font-size: 100%;
-}
 			</code></pre>
 		</div>
 	</article>
