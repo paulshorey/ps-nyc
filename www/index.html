@@ -33,7 +33,7 @@
 		<!-- <span class="h-left h-hidden" style="top:-2px;"><span class="uui-text">I</span> <span class="uui-icon icon-heart"></span> <span class="uui-text">UI Development</span></span></span> -->
 		<span class="h-right">
 			<!-- <a href="files/PaulShoreyResume.docx"><span class="uui-icon icon-select"></span> <span class="uui-text">Download resume</span></a> -->
-			<span class="uui-text"><a href="" secret-mailto="ps@idd.nyc">hidden</a> <!--  |  <a href="" secret-tel secret-tel1="385" secret-tel2="770" secret-tel3="6789">hidden</a> --></span>
+			<span class="uui-text"><a href="" secret-mailto="ps@idd.nyc">hidden</a>  |  <a href="" secret-tel secret-tel1="385" secret-tel2="770" secret-tel3="6789">hidden</a></span>
 		</span>
 	</header>
 
@@ -596,17 +596,18 @@ React.html['eventslist'] = React.createClass({
 	    }
 	});
 	$(document).ready(function(){
+
 		$('[secret-mailto]').each(function(){
 			$(this).get(0).innerHTML = $(this).attr('secret-mailto');
 			$(this).attr('href','mailto:'+$(this).attr('secret-mailto'));
 		});
 		$('body').addClass('ready');
-	});
-	$(window).load(function(){
+
 		$('[secret-tel]').each(function(){
 			$(this).get(0).innerHTML = $(this).attr('secret-tel1')+'.'+$(this).attr('secret-tel2')+'.'+$(this).attr('secret-tel3');
 			$(this).attr('href','tel:'+$(this).attr('secret-tel1')+$(this).attr('secret-tel2')+$(this).attr('secret-tel3'));
 		});
+		
 	});
 	$(window).on('load, scroll', function(){
 		$('[scrollplay]').each(function(){
