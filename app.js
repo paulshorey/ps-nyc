@@ -92,7 +92,7 @@ require('http').createServer(function (request, response) {
 // LUX
 var LUXstatic = require('node-static');
 var LUXfileServer = new LUXstatic.Server('./www/luxul');
-require('http').createServer(function (request, response) {
+require('https').createServer(function (request, response) {
 
     request.addListener('end', function () {
         LUXfileServer.serve(request, response, function (err, result) {
@@ -109,7 +109,7 @@ require('http').createServer(function (request, response) {
         request.abort();
     });
 
-}).listen(7777);
+}).listen(443);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // RELOAD
