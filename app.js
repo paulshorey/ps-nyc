@@ -79,8 +79,8 @@ require('http').createServer(function (request, response) {
                 response.writeHead(err.status, err.headers);
                 response.end();
             } else {
-	          response.end();
-	      }
+              response.end();
+          }
         });
     }).resume();
     request.setTimeout(1000, function () {
@@ -88,6 +88,28 @@ require('http').createServer(function (request, response) {
     });
 
 }).listen(4080);
+
+// test
+var static = require('node-static');
+var fileServer = new static.Server('./www/luxul');
+require('http').createServer(function (request, response) {
+
+    request.addListener('end', function () {
+        fileServer.serve(request, response, function (err, result) {
+            if (err) { // There was an error serving the file 
+                console.error("Error serving " + request.url + " - " + err.message);
+                response.writeHead(err.status, err.headers);
+                response.end();
+            } else {
+              response.end();
+          }
+        });
+    }).resume();
+    request.setTimeout(1000, function () {
+        request.abort();
+    });
+
+}).listen(7777);
 
 //////////////////////////////////////////////////////////////////////////////////////////////////
 // RELOAD
