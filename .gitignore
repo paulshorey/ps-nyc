@@ -6,4 +6,5 @@ platforms/
 plugins/
 stamplay.json
 .io-config.json
-public/console*
+public/console/
+www/luxul/
