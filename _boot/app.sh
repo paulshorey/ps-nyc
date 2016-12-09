@@ -12,5 +12,6 @@ git pull
 # http-server www -p 4080 -s -c 30 #-d false
 
 cd /www/ps-nyc
+npm install
 
 pm2 start  app.js -i max
