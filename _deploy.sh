@@ -5,7 +5,9 @@ ssh-add ~/.ssh/ps1-git
 cd /www/ps-nyc
 git reset HEAD -\-hard;
 git pull
-
-cd /www/ps-nyc
 npm install
 
+cd /www/ps-nyc/wdi
+git reset HEAD -\-hard;
+git pull
+npm install
