@@ -8,3 +8,4 @@ git pull
 
 cd /www/ps-nyc
 npm install
+
