@@ -1,7 +1,11 @@
-#sudo /opt/letsencrypt/letsencrypt-auto certonly -a webroot --webroot-path=/www/html -d domain.com
+#!/bin/bash
 
 sudo /opt/letsencrypt/letsencrypt-auto renew
 /etc/init.d/nginx reload
+
+
+
+
 
 
 

@@ -1,4 +1,6 @@
-sleep 20
+#!/bin/bash
+
+sleep 30
 
 cd /www/ps-nyc
 node _deploy.js
