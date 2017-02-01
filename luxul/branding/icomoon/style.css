@@ -1,0 +1,220 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?z3fo5f');
+  src:  url('fonts/icomoon.eot?z3fo5f#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff2?z3fo5f') format('woff2'),
+    url('fonts/icomoon.ttf?z3fo5f') format('truetype'),
+    url('fonts/icomoon.woff?z3fo5f') format('woff'),
+    url('fonts/icomoon.svg?z3fo5f#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ui_accounts:before {
+  content: "\e909";
+}
+.icon-ui_add:before {
+  content: "\e90a";
+}
+.icon-ui_clock:before {
+  content: "\e90b";
+}
+.icon-ui_cloud:before {
+  content: "\e90c";
+}
+.icon-ui_clouds:before {
+  content: "\e90d";
+}
+.icon-ui_compass:before {
+  content: "\e90e";
+}
+.icon-ui_delete:before {
+  content: "\e90f";
+}
+.icon-ui_edit:before {
+  content: "\e910";
+}
+.icon-ui_ethernet:before {
+  content: "\e911";
+}
+.icon-ui_eye:before {
+  content: "\e912";
+}
+.icon-ui_gear:before {
+  content: "\e913";
+}
+.icon-ui_globe:before {
+  content: "\e914";
+}
+.icon-ui_happy:before {
+  content: "\e915";
+}
+.icon-ui_health:before {
+  content: "\e916";
+}
+.icon-ui_leaves:before {
+  content: "\e917";
+}
+.icon-ui_magnet:before {
+  content: "\e918";
+}
+.icon-ui_mobile:before {
+  content: "\e919";
+}
+.icon-ui_move:before {
+  content: "\e91a";
+}
+.icon-ui_place:before {
+  content: "\e91b";
+}
+.icon-ui_power:before {
+  content: "\e91c";
+}
+.icon-ui_question:before {
+  content: "\e91d";
+}
+.icon-ui_reports:before {
+  content: "\e91e";
+}
+.icon-ui_rocket:before {
+  content: "\e920";
+}
+.icon-ui_security:before {
+  content: "\e921";
+}
+.icon-ui_setup:before {
+  content: "\e922";
+}
+.icon-ui_speed:before {
+  content: "\e923";
+}
+.icon-ui_tip:before {
+  content: "\e924";
+}
+.icon-ui_update:before {
+  content: "\e925";
+}
+.icon-ui_warn:before {
+  content: "\e926";
+}
+.icon-ui_wifi:before {
+  content: "\e927";
+}
+.icon-ui_zoom:before {
+  content: "\e928";
+}
+.icon-pac_3yr_warranty:before {
+  content: "\e929";
+}
+.icon-pac_801ac:before {
+  content: "\e92a";
+}
+.icon-pac_av_series:before {
+  content: "\e92b";
+}
+.icon-pac_controller:before {
+  content: "\e92c";
+}
+.icon-pac_dualband:before {
+  content: "\e92d";
+}
+.icon-pac_lifetime_support:before {
+  content: "\e92e";
+}
+.icon-pac_mimo:before {
+  content: "\e92f";
+}
+.icon-app_status_offline:before {
+  content: "\e930";
+}
+.icon-app_delete:before {
+  content: "\e902";
+}
+.icon-app_edit:before {
+  content: "\e903";
+}
+.icon-app_idea:before {
+  content: "\e904";
+}
+.icon-app_question:before {
+  content: "\e905";
+}
+.icon-app_status_edited:before {
+  content: "\e906";
+}
+.icon-app_status_online:before {
+  content: "\e907";
+}
+.icon-app_update:before {
+  content: "\e908";
+}
+.icon-ui_more:before {
+  content: "\e901";
+}
+.icon-ui_luxul_logo:before {
+  content: "\e900";
+}
+.icon-book:before {
+  content: "\e91f";
+}
+.icon-undo2:before {
+  content: "\e967";
+}
+.icon-redo2:before {
+  content: "\e968";
+}
+.icon-user:before {
+  content: "\e971";
+}
+.icon-wrench:before {
+  content: "\e991";
+}
+.icon-equalizer:before {
+  content: "\e992";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-meter:before {
+  content: "\e9a6";
+}
+.icon-list2:before {
+  content: "\e9bb";
+}
+.icon-menu:before {
+  content: "\e9bd";
+}
+.icon-notification:before {
+  content: "\ea08";
+}
+.icon-question:before {
+  content: "\ea09";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-circle-up:before {
+  content: "\ea41";
+}
+.icon-circle-down:before {
+  content: "\ea43";
+}
+.icon-rss:before {
+  content: "\ea9b";
+}
+
