@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?q6qyvz');
-  src:  url('fonts/icomoon.eot?q6qyvz#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.woff2?q6qyvz') format('woff2'),
-    url('fonts/icomoon.ttf?q6qyvz') format('truetype'),
-    url('fonts/icomoon.woff?q6qyvz') format('woff'),
-    url('fonts/icomoon.svg?q6qyvz#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?obc5mr');
+  src:  url('fonts/icomoon.eot?obc5mr#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff2?obc5mr') format('woff2'),
+    url('fonts/icomoon.ttf?obc5mr') format('truetype'),
+    url('fonts/icomoon.woff?obc5mr') format('woff'),
+    url('fonts/icomoon.svg?obc5mr#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -28,8 +28,17 @@
 .icon-carat_down:before {
   content: "\e931";
 }
+.icon-ui_add:before {
+  content: "\e90a";
+}
 .icon-ui_happy:before {
   content: "\e915";
+}
+.icon-ui_wifi:before {
+  content: "\e927";
+}
+.icon-ui_more:before {
+  content: "\e901";
 }
 .icon-user:before {
   content: "\e971";
