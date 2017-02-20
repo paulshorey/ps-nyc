@@ -27,6 +27,7 @@
 		p.sub {
 			font-size:1rem;
 		}
+
 		.about_zhulong {
 			display:none;
 		}
@@ -39,13 +40,27 @@
 		.zhulong .about_company {
 			display:none;
 		}
+
+		.banner_wCursor {
+			display:block;
+		}
+		.banner_noCursor {
+			display:none;
+		}
+		.zhulong .banner_wCursor {
+			display:none;
+		}
+		.zhulong .banner_noCursor {
+			display:block;
+		}
 	</style>
 </head>
 <body>
 	<center>
 	<p>&nbsp;</p>
 	<h1>Torch Dragon . US</h1>
-	<img src="/src/assets/img/banner_snakeLight_lowQuality_wCursor.png" alt="Zhulong is a Chinese dragon, creator of daylight, translates to Torch Dragon" onMouseOver="document.getElementById('companyInfo').classList.add('zhulong');" onMouseOut="document.getElementById('companyInfo').classList.remove('zhulong');" />
+	<img class="banner_wCursor" src="/src/assets/img/banner_snakeLight_lowQuality_wCursor.png" onClick="document.body.classList.remove('zhulong');" />
+	<img class="banner_noCursor" src="/src/assets/img/banner_snakeLight_lowQuality.png" alt="Zhulong is a Chinese dragon, creator of daylight, translates to Torch Dragon" onMouseOver="document.body.classList.add('zhulong');" onMouseOut="document.body.classList.remove('zhulong');" />
 	<p>&nbsp;</p>
 	<div id="companyInfo">
 		<p class="about_zhulong">Zhulong is a Chinese dragon, creator of daylight</p>
