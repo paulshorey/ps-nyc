@@ -24,15 +24,31 @@
 			font-size:1.25rem;
 			line-height:1.5rem;
 		}
+		.about_zhulong {
+			display:none;
+		}
+		.about_company {
+			display:block;
+		}
+		.zhulong .about_zhulong {
+			display:block;
+		}
+		.zhulong .about_company {
+			display:none;
+		}
 	</style>
 </head>
 <body>
 	<center>
 	<p>&nbsp;</p>
 	<h1>Torch Dragon . US</h1>
-	<img src="http://s3.alivenotdead.com/attachments/2010/03/13/10/538093_201003131029141.thumb.jpg" alt="Zhulong is a Chinese dragon, creator of daylight, translates to Torch Dragon" title="Zhulong is a Chinese dragon, creator of daylight, translates to Torch Dragon" />
-	<h2>&nbsp;</h2>
-	<p>High tech artful lamps &amp; fixtures.</p>
+	<img src="http://s3.alivenotdead.com/attachments/2010/03/13/10/538093_201003131029141.thumb.jpg" alt="Zhulong is a Chinese dragon, creator of daylight, translates to Torch Dragon" title="Zhulong is a Chinese dragon, creator of daylight, translates to Torch Dragon" onMouseOver="document.getElementById('companyInfo').classList.add('zhulong');" onMouseOut="document.getElementById('companyInfo').classList.remove('zhulong');" />
+	<p>&nbsp;</p>
+	<div id="companyInfo">
+		<p class="about_zhulong">Zhulong is a Chinese dragon, creator of daylight, translates to Torch Dragon</p>
+		<p class="about_company">High tech, artful lamps &amp; fixtures.</p>
+		<p class="about_company">Minimal, efficient, beautiful, powerful.</p>
+	</div>
 	<p>&nbsp;</p>
 	<p>&nbsp;</p>
 	<h3>Inquire:</h3>
