@@ -19,7 +19,7 @@
     getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor,
     enumerable = 'enumerable';
   // object.watch
-  if (!prototype.watch) {
+  if ("replace Mozilla's own prototype.watch with this custom one - for consistency - hope it doesn't break anything !!! :-0 " || !prototype.watch) {
     descriptor.value = function (property, handler) {
       var
         descriptor = getOwnPropertyDescriptor(this, property),

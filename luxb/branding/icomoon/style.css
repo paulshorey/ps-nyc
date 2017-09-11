@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?lxpbax');
-  src:  url('fonts/icomoon.eot?lxpbax#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.woff2?lxpbax') format('woff2'),
-    url('fonts/icomoon.ttf?lxpbax') format('truetype'),
-    url('fonts/icomoon.woff?lxpbax') format('woff'),
-    url('fonts/icomoon.svg?lxpbax#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?3nvr1m');
+  src:  url('fonts/icomoon.eot?3nvr1m#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.woff2?3nvr1m') format('woff2'),
+    url('fonts/icomoon.ttf?3nvr1m') format('truetype'),
+    url('fonts/icomoon.woff?3nvr1m') format('woff'),
+    url('fonts/icomoon.svg?3nvr1m#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -25,8 +25,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-more:before {
-  content: "\e907";
+.icon-navlink_info:before {
+  content: "\e905";
+}
+.icon-navlink_dot:before {
+  content: "\e902";
+}
+.icon-navlink_minus:before {
+  content: "\e903";
+}
+.icon-navlink_plus:before {
+  content: "\e904";
 }
 .icon-pk_delete:before {
   content: "\e90f";
@@ -48,7 +57,6 @@
 }
 .icon-ui_clock:before {
   content: "\e90b";
-  color: #74a333;
 }
 .icon-ui_cloud:before {
   content: "\e90c";
@@ -67,7 +75,6 @@
 }
 .icon-ui_happy:before {
   content: "\e915";
-  color: #74a333;
 }
 .icon-ui_health:before {
   content: "\e916";
