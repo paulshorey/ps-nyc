@@ -1,0 +1,146 @@
+{
+	"info": {
+		"model": "XWC-1000v1",
+		"firmware": "5.0.6"
+	},
+	"routes": [
+		{
+			"url": "/status/controller",
+			"title": "Status",
+			"icon": "ui_health",
+			"children": [
+				{
+					"url": "/status/controller",
+					"component": "status/Controller",
+					"title": "Controller Status",
+					"tabTitle": "Controller"
+				},
+				{
+					"url": "/status/ap",
+					"component": "status/AP",
+					"title": "AP Information",
+					"tabTitle": "AP"
+				}
+			]
+		},
+		{
+			"url": "/profiles/ap_management",
+			"title": "Profile Management",
+			"icon": "ui_edit",
+			"children": [
+				{
+					"url": "/profiles/ap_management",
+					"component": "profiles/APManagement",
+					"title": "AP Management"
+				},
+				{
+					"url": "/profiles/ap_assignment",
+					"component": "profiles/APAssignment",
+					"title": "AP Assignment"
+				},
+				{
+					"url": "/profiles/ssid_management",
+					"component": "profiles/SSIDManagement",
+					"title": "SSID Management"
+				},
+				{
+					"url": "/profiles/wireless_settings",
+					"component": "profiles/WirelessSettings",
+					"title": "Wireless Settings"
+				}
+			]
+		},
+		{
+			"url": "/vlan",
+			"component": "vlan/VLAN",
+			"title": "VLAN",
+			"icon": "ui_globe"
+		},
+		{
+			"url": "/controller",
+			"component": "controller/NetworkSettings",
+			"title": "Controller Network Settings",
+			"tabTitle": "Controller Settings",
+			"icon": "ui_ethernet"
+		},
+		{
+			"url": "/firmware/update_auto",
+			"title": "Firmware",
+			"icon": "ui_cloud",
+			"children": [
+				{
+					"url": "/firmware/update_auto",
+					"component": "firmware/UpdateAuto",
+					"title": "Update Firmware",
+					"tabTitle": "Auto Update"
+				},
+				{
+					"url": "/firmware/update_manually",
+					"component": "firmware/UpdateManually",
+					"title": "Update Firmware",
+					"tabTitle": "Upload File"
+				}
+			]
+		},
+		{
+			"url": "/admin/defaults",
+			"title": "Admin",
+			"icon": "ui_gear",
+			"children": [
+				{
+					"url": "/admin/defaults",
+					"component": "admin/Defaults",
+					"title": "Factory Default"
+				},
+				{
+					"url": "/admin/password",
+					"component": "admin/Password",
+					"title": "Administrator Password",
+					"tabTitle": "Admin Password"
+				},
+				{
+					"url": "/admin/system_log",
+					"component": "admin/SystemLog",
+					"title": "System Log"
+				},
+				{
+					"url": "/admin/iperf",
+					"component": "admin/Iperf",
+					"title": "Iperf Server",
+					"tabTitle": "Iperf"
+				}
+			]
+		},
+		{
+			"url": "/docs/examples/network",
+			"title": "Examples",
+			"icon": "pk_devices",
+			"children": [
+				{
+					"url": "/docs/examples/input",
+					"component": "examples/PageInput",
+					"title": "Documentation: input",
+					"tabTitle": "Input"
+				},
+				{
+					"url": "/docs/examples/validation",
+					"component": "examples/PageValidations",
+					"title": "Documentation: validation",
+					"tabTitle": "Validation"
+				},
+				{
+					"url": "/docs/examples/buttons",
+					"component": "examples/PageButtons",
+					"title": "Documentation: buttons",
+					"tabTitle": "Buttons"
+				},
+				{
+					"url": "/docs/examples/network",
+					"component": "examples/PageNetwork",
+					"title": "Network Config Demo: update UCI via UBUS",
+					"tabTitle": "Network"
+				}
+			]
+		}
+	]
+}
