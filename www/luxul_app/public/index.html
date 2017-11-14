@@ -1,0 +1,77 @@
+<!doctype html />
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/branding/logo/favicon.ico" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/branding/fonts/Agenda/stylesheet.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/branding/icomoon/style.css" />
+
+    <!--
+      title will be dynamically changed once we know the device name
+    -->
+    <title>Luxul Device</title>
+
+    <!--
+      common DOM manipulation
+      * stuff not directly related to our app architecture
+      * OR stuff used on every page in our app
+      * keep here in index.html - to not clutter the nicely organized app "/src" code
+      * IN APP, refer to these as "window.$" and "{}.watch"
+    -->
+    <script src="/scripts/js/jquery-3.2.1.min.js"></script>
+  </head>
+  <body>
+
+    <div id="root"></div>
+
+    <!--/*
+      window.navigator
+      * add className IE if any kind of Microsoft browser
+    */-->
+    <script>
+      function detectIE(){var n=window.navigator.userAgent,e=n.indexOf("MSIE ");if(e>0)return parseInt(n.substring(e+5,n.indexOf(".",e)),10);if(n.indexOf("Trident/")>0){var r=n.indexOf("rv:");return parseInt(n.substring(r+3,n.indexOf(".",r)),10)}var t=n.indexOf("Edge/");return t>0&&parseInt(n.substring(t+5,n.indexOf(".",t)),10)}
+      if (detectIE()){
+        window.document.body.className+="IE";
+      }
+    </script>
+
+    <!--/*
+      jQuery - onScrollResize
+      * On mobile view, navigation is done with scrolling buttons. There are 2 buttons with same markup but an extra className which are actually "left/right" arrows. 
+      * These are positioned:fixed; However, this only lines up with the other buttons initially. When the window scrolls down, these fixed buttons are no longer aligned with the top of the page.
+      * This fix aligns the button after the window is scrolled.
+    */-->
+    <script>
+      const onScroll = function(){
+
+        // hamburger menu for mobile
+        window.store.nav = {opened:false};
+        document.getElementById('Hamburger').classList.remove('opened');
+
+        onScrollResize();
+      };
+      const onResize = function(){
+        onScrollResize();
+      };
+      const onScrollResize = function(){
+
+        // those buttons
+        $('.fixToTop').each(function(event, element){
+          $(element).css('top', (element.parentNode.offsetTop - window.scrollY)+'px');
+        });
+        
+        // help tooltip box on mobile
+        if ((window.pageYOffset || document.body.scrollTop) > 120) { 
+          document.body.classList.add('mobileHelpColumnScrolled'); 
+        } else { 
+          document.body.classList.remove('mobileHelpColumnScrolled'); 
+        }
+
+      };
+      window.addEventListener("scroll", onScroll);
+      window.addEventListener("resize", onResize);
+    </script>
+
+  </body>
+</html>
