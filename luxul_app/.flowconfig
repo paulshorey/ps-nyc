@@ -1,0 +1,26 @@
+[ignore]
+.*/node_modules/*
+
+[include]
+./src/*
+
+[libs]
+./node_modules/fbjs/flow/lib
+
+[lints]
+
+[options]
+
+esproposal.class_static_fields=enable
+esproposal.class_instance_fields=enable
+
+module.name_mapper='^\(.*\)\.css$' -> 'react-scripts/config/flow/css'
+module.name_mapper='^\(.*\)\.\(jpg\|png\|gif\|eot\|svg\|ttf\|woff\|woff2\|mp4\|webm\)$' -> 'react-scripts/config/flow/file'
+module.name_mapper='^components\(.*\)$' -> '<PROJECT_ROOT>/src/components/\1'
+module.name_mapper='^devices\(.*\)$' -> '<PROJECT_ROOT>/src/devices/\1'
+module.name_mapper='^pages\(.*\)$' -> '<PROJECT_ROOT>/src/pages/\1'
+module.name_mapper='^window\(.*\)$' -> '<PROJECT_ROOT>/src/window/\1'
+
+
+suppress_type=$FlowIssue
+suppress_type=$FlowFixMe

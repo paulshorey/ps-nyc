@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`message snapshot is correct 1`] = `
+<div
+  className="sc-bdVaJa inRxCd"
+>
+  <div
+    className="messages_container"
+  >
+    <div
+      className="messages_content"
+    >
+      <div
+        className="message"
+        onMouseEnter={[Function]}
+      >
+        <div
+          className="message_content"
+        >
+          <div
+            className="messageX"
+            onClick={[Function]}
+          >
+            <span
+              className="fontIcon icon-cross"
+              title="hide message"
+            />
+          </div>
+          <div
+            className="message_text messageTitle"
+          >
+            <div>
+              snapshot title
+               
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

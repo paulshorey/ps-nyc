@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`has correct state if opened 1`] = `
+<div
+  className="group opened"
+>
+  <div
+    className="title active"
+    onClick={[Function]}
+  >
+    <span
+      className="fontIcon icon-navlink_plus"
+    />
+    <span
+      className="fontIcon icon-navlink_minus"
+    />
+    <span />
+  </div>
+  <div
+    className="children"
+  >
+    <p>
+      first
+    </p>
+    <p>
+      second
+    </p>
+    <p>
+      last
+    </p>
+  </div>
+</div>
+`;
+
+exports[`has correct state if opened and closed 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="title"
+    onClick={[Function]}
+  >
+    <span
+      className="fontIcon icon-navlink_plus"
+    />
+    <span
+      className="fontIcon icon-navlink_minus"
+    />
+    <span />
+  </div>
+  <div
+    className="children"
+  >
+    <p>
+      first
+    </p>
+    <p>
+      second
+    </p>
+    <p>
+      last
+    </p>
+  </div>
+</div>
+`;
+
+exports[`renders an unchanged snapshot with react-test-renderer 1`] = `
+<div
+  className="group"
+>
+  <div
+    className="title"
+    onClick={[Function]}
+  >
+    <span
+      className="fontIcon icon-navlink_plus"
+    />
+    <span
+      className="fontIcon icon-navlink_minus"
+    />
+    <span />
+  </div>
+  <div
+    className="children"
+  >
+    <p>
+      first
+    </p>
+    <p>
+      second
+    </p>
+    <p>
+      last
+    </p>
+  </div>
+</div>
+`;
