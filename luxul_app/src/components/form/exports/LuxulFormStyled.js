@@ -167,7 +167,7 @@ export const Form = styled.form`
 		&.info {
 			font-size: 1.25rem;
 			padding: 0;
-			margin: 0 0 0 0.75rem;
+			margin: 0;
 			> * {
 				position: static;
 				vertical-align: middle;
@@ -178,7 +178,7 @@ export const Form = styled.form`
 			}
 			> label {
 				width: 12.5rem;
-				max-width: 35%;
+				max-width: 42%;
 				text-align: right;
 				padding-right: 5%;
 				padding-top: 0.49rem;
@@ -186,7 +186,7 @@ export const Form = styled.form`
 				white-space: nowrap;
 			}
 			> label + * {
-				width: 55%;
+				width: 50%;
 			}
 		}
 	}

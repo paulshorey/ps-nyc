@@ -226,7 +226,7 @@ class LuxulForm extends React.Component {
 					/* not changed */
 					stateScope.state.luxulFormButtons.unchanged !== false &&
 					stateScope.state.luxulFormTouched &&
-					!stateScope.state.luxulFormSubmitAttempted &&
+					stateScope.state.luxulFormSubmitAttempted &&
 					!stateScope.state.luxulFormChanged
 				) {
 					return (
@@ -254,6 +254,7 @@ class LuxulForm extends React.Component {
 					stateScope.state.luxulFormButtons.invalid !== false &&
 					stateScope.state.luxulFormChanged &&
 					stateScope.state.luxulFormTouched &&
+					stateScope.state.luxulFormSubmitAttempted &&
 					stateScope.state.luxulFormInvalid.length > 0
 				) {
 					return (
@@ -261,7 +262,7 @@ class LuxulForm extends React.Component {
 							<b>
 								{stateScope.state.luxulFormButtons.invalid === undefined ||
 								stateScope.state.luxulFormButtons.invalid === true ? (
-									<span>Form not valid. Please check fields highlighted red.</span>
+									<span>Form not valid. <div>Please check fields highlighted red.</div></span>
 								) : (
 									stateScope.state.luxulFormButtons.invalid
 								)}
@@ -300,9 +301,12 @@ class LuxulForm extends React.Component {
 									: '')
 							}
 							disabled={
-								stateScope.state.luxulFormInvalid.length || stateScope.state.luxulFormSubmitting
+								(stateScope.state.luxulFormInvalid.length && stateScope.state.luxulFormSubmitAttempted) || stateScope.state.luxulFormSubmitting
 							}
 							type="submit"
+							onClick={()=>{
+								stateScope.setState({luxulFormSubmitAttempted:true});
+							}}
 						>
 							<b>
 								{stateScope.state.luxulFormButtons.submit === undefined ||
@@ -316,7 +320,7 @@ class LuxulForm extends React.Component {
 			}
 		})();
 
-		// console.log('LuxulForm state', JSON.stringify(stateScope.state, null, ' '));
+		console.log('LuxulForm state', JSON.stringify(stateScope.state, null, ' '));
 		return (
 			<Styled.FormScrollbars className="LuxulForm_customScrollbars">
 				<Styled.Form

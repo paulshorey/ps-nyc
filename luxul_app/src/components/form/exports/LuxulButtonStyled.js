@@ -126,7 +126,7 @@ export const Button = styled.button`
 	}
 	&.clear,
 	&.transparent {
-		background: transparent;
+		background: #fff;
 		border: none;
 		box-shadow: none;
 		text-shadow: #fff;

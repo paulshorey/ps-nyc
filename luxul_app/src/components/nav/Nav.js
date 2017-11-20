@@ -4,11 +4,20 @@ import { Link, NavLink } from 'react-router-dom';
 import NavGroup from './NavGroup';
 import * as Styled from './NavStyled';
 
+type PropsHOC = {
+	routes: [],
+	currentPath: {},
+	children: {},
+};
+type StateHOC = {
+	nav: {},
+};
 type Props = {
 	routes: [], // list of routes/urls/components from src/devices
 	currentPath: {}, // window.location.pathname ... but more React'ive
 	nav: {}, // window.store.nav ... passed from NavConnected component below
 };
+
 export class Nav extends Component<Props> {
 	renderLinks = (links: any) => {
 		return links.map((link, index) => {
@@ -58,31 +67,19 @@ export class Nav extends Component<Props> {
 /*
 	when {window.store.nav} changes, update {this.props.nav} in <Nav /> component above
 */
-
-type PropsHOC = {
-	routes: [],
-	currentPath: {},
-	children: {},
-};
-type StateHOC = {
-	nav: {},
-};
 class NavConnected extends React.Component<PropsHOC, StateHOC> {
 	state = {
 		nav: window.store.nav,
 	};
-
 	componentWillMount() {
 		window.store.watch('nav', (name, oldValue, value) => {
 			this.setState({ [name]: value });
 			return value;
 		});
 	}
-
 	componentWillUnmount() {
 		window.store.unwatch('nav');
 	}
-
 	render() {
 		return <Nav {...this.props} nav={this.state.nav} />;
 	}

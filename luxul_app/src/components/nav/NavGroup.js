@@ -6,7 +6,6 @@ type Props = {
 	currentPath: any,
 	children: any,
 };
-
 type State = {
 	isOpen: boolean,
 };
@@ -15,30 +14,26 @@ class NavGroup extends Component<Props, State> {
 	state = {
 		isOpen: false,
 	};
+	toggleOpen = () => {
+		this.setState({ isOpen: !this.state.isOpen });
+	};
 
-	checkUrls = () => {
+	componentWillMount(){
 		const urls = this.props.children.map((child, index) => {
 			return child.props.to;
 		});
 		const currentPath = this.props.currentPath;
 		const activeUrl = urls.includes(`${currentPath}`) ? true : false;
 		activeUrl && this.setState({ isOpen: true });
-		return activeUrl;
-	};
-
-	toggleOpen = () => {
-		this.setState({ isOpen: !this.state.isOpen });
+		if (activeUrl) {
+			this.setState({isActive:true});
+		}
 	};
 
 	render() {
-		const isOpen = this.state.isOpen;
-		let isActive = false;
-		if (!isOpen) {
-			isActive = this.checkUrls();
-		}
 		return (
-			<div className={'group' + (isOpen ? ' opened' : '') + (isActive ? ' active' : '')}>
-				<div className={'title' + (isOpen ? ' active' : '')} onClick={this.toggleOpen}>
+			<div className={'group' + (this.state.isOpen ? ' opened' : '') + (this.state.isActive ? ' active' : '')}>
+				<div className={'title' + (this.state.isOpen ? ' active' : '')} onClick={this.toggleOpen}>
 					<span className="fontIcon icon-navlink_plus" />
 					<span className="fontIcon icon-navlink_minus" />
 					<span>{this.props.title}</span>

@@ -16,10 +16,10 @@ export const Layout = styled.div`
 		overflow: visible;
 		zoom: 1;
 		outline-width: 0;
-		@media (min-height: 500px) {
+		/* @media (min-height: 500px) {
 			display: flex;
 			flex-direction: column;
-		}
+		} */
 		.layout_content {
 			display: flex;
 			flex-direction: row;
