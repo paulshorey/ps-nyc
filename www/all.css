@@ -86,7 +86,8 @@ section {
         left: calc(50% - 3vw);
         border-radius: 50%;
         box-shadow: 0 0 5px #000;
-        background-position-x: 60%; }
+        background-position-x: 60%;
+        border: solid 1px orange; }
       section article .collage img {
         width: 100%; }
     section article .title {
