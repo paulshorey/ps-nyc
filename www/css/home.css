@@ -105,11 +105,6 @@ section {
         box-shadow: 0 0 5px #000;
         background-position-x: 60%; 
         border: solid 1px orange; 
-        -webkit-animation: playGlow 2s infinite; /* Safari 4+ */
-        -moz-animation:    playGlow 2s infinite; /* Fx 5+ */
-        -o-animation:      playGlow 2s infinite; /* Opera 12+ */
-        animation:         playGlow 2s infinite; /* IE 10+, Fx 29+ */
-
       }
       section article .collage img {
         width: 100%; }
