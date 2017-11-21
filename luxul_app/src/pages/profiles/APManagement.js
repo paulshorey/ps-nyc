@@ -326,7 +326,6 @@ class PageComponent extends React.Component {
 
 					{Rows}
 				</LuxulForm>
-				<HintBox />
 			</Box>
 		);
 	}

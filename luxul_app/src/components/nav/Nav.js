@@ -27,6 +27,10 @@ export class Nav extends Component<Props> {
 					className="title link"
 					activeClassName="active"
 					to={link.url}
+					onClick={()=>{
+						document.getElementById('Hamburger').classList.remove('opened');
+						window.store.nav={}
+					}}
 				>
 					<span className="fontIcon icon-navlink_dot" />
 					<span>{link.title}</span>

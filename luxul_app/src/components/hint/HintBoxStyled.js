@@ -15,7 +15,7 @@ export const HintBox = styled.div`
 	&.opened {
 		right: 0rem;
 		@media (max-width: 750px) {
-			right: 1.25rem;
+			right: 0.25rem;
 		}
 		.mobileHelpColumnScrolled & {
 			position: fixed;
