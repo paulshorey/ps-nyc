@@ -1,16 +1,16 @@
-@-webkit-keyframes playlayGlow {
+@-webkit-keyframes playGlow {
   0%   { box-shadow: 0 0 5px 0 orange; }
   100% { box-shadow: 0 0 15px 5px orange; }
 }
-@-moz-keyframes playlayGlow {
+@-moz-keyframes playGlow {
   0%   { box-shadow: 0 0 5px 0 orange; }
   100% { box-shadow: 0 0 15px 5px orange; }
 }
-@-o-keyframes playlayGlow {
+@-o-keyframes playGlow {
   0%   { box-shadow: 0 0 5px 0 orange; }
   100% { box-shadow: 0 0 15px 5px orange; }
 }
-@keyframes playlayGlow {
+@keyframes playGlow {
   0%   { box-shadow: 0 0 5px 0 orange; }
   100% { box-shadow: 0 0 15px 5px orange; }
 }
