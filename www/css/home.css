@@ -1,3 +1,19 @@
+@-webkit-keyframes playGlow {
+  0% {
+    box-shadow: 0 0 5px 0 orange; }
+  40% {
+    box-shadow: 0 0 25px 0 orange; }
+  100% {
+    box-shadow: 0 0 5px 0 orange; } }
+
+@keyframes playGlow {
+  0% {
+    box-shadow: 0 0 5px 0 orange; }
+  40% {
+    box-shadow: 0 0 25px 0 orange; }
+  100% {
+    box-shadow: 0 0 5px 0 orange; } }
+
 body {
   overflow: auto;
   font-family: "Bodoni 72", Georgia, serif; }
@@ -76,9 +92,9 @@ section {
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
+        position: absolute;
         width: 6vw;
         height: 6vw;
-        position: absolute;
         top: 0;
         background-size: auto 50%;
         background-color: #fff;
@@ -86,8 +102,10 @@ section {
         left: calc(50% - 3vw);
         border-radius: 50%;
         box-shadow: 0 0 5px #000;
-        background-position-x: 60%; 
-        border: solid 1px orange; }
+        background-position-x: 60%;
+        border: solid 1px orange;
+        -webkit-animation: playGlow 3s infinite;
+        animation: playGlow 3s infinite; }
       section article .collage img {
         width: 100%; }
     section article .title {
