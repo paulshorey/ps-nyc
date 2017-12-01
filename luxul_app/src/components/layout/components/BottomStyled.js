@@ -16,16 +16,18 @@ export const Bottom = styled.div`
 		}
 	}
 	* {
-		color: var(--app-colorOnDark3);
 		font-size: 1rem;
 		line-height: 1.5rem;
 		vertical-align: middle;
 	}
-	a {
-		color: var(--app-colorOnDark2);
-	}
 	> * {
 		display: inline-block;
+	}
+	[class^="icon-"], [class*=" icon-"] {
+		font-size: 75%;
+		position: relative;
+		top: -0.1rem;
+		padding-left: 0.1rem;
 	}
 	.logo {
 		@media (min-width: 751px) {
@@ -44,4 +46,10 @@ export const Bottom = styled.div`
 			margin-right: 0.5rem;
 		}
 	}
+
+	@media (max-width: 750px) {
+			.desktop_only {
+				display:none;
+			}
+		}
 `;

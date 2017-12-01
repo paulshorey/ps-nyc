@@ -1,6 +1,6 @@
 // @flow
 import React, { Component } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import NavGroup from './NavGroup';
 import * as Styled from './NavStyled';
 
@@ -59,10 +59,10 @@ export class Nav extends Component<Props> {
 			<Styled.Nav className={'nav_left' + (this.props.nav.opened ? '' : ' closed')}>
 				{this.renderNav()}
 
-				<Link className="title link" to="/">
+				{/* <Link className="title link" to="/">
 					<span className="fontIcon icon-navlink_dot" />
 					<span>Logout</span>
-				</Link>
+				</Link> */}
 			</Styled.Nav>
 		);
 	}

@@ -119,7 +119,12 @@ injectGlobal`
 	.nav_right {
 		text-align:right;
 	}
-
+	.color_success {
+		color: ${window.theme.colorGreen1};
+	}
+	.color_error {
+		color: ${window.theme.colorWarn1};
+	}
 
 	/**************************************************
 		icon

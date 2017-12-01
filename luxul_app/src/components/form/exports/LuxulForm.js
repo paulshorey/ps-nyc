@@ -116,6 +116,8 @@ class LuxulForm extends React.Component {
 				luxulFormValues: JSON.parse(JSON.stringify(stateScope.state.luxulFormValuesOriginal)),
 				luxulFormTouched: false,
 				luxulFormChanged: false,
+				luxulFormSubmitting: false,
+				luxulFormSubmitAttempted: false,
 				luxulFormInvalid: [],
 			});
 		};
@@ -199,16 +201,6 @@ class LuxulForm extends React.Component {
 				luxulFormSuccess: false,
 				luxulFormError: false,
 			});
-			setTimeout(
-				function() {
-					if (this._isMounted) {
-						this.setState({
-							luxulFormSubmitAttempted: false,
-						});
-					}
-				}.bind(stateScope),
-				5000
-			);
 
 			// validate each input - if fail, do not continue
 			const promise = stateScope.luxulFormValidate();
@@ -240,13 +232,15 @@ class LuxulForm extends React.Component {
 						</LuxulButton>
 					);
 				} else if (
-					/* loading */
-					stateScope.state.luxulFormButtons.loading !== false &&
-					stateScope.state.luxulFormLoading
+					/* submitting */
+					stateScope.state.luxulFormButtons.submitting !== false &&
+					stateScope.state.luxulFormSubmitting &&
+					stateScope.state.luxulFormSubmitAttempted &&
+					!stateScope.state.luxulFormInvalid.length
 				) {
 					return (
-						<LuxulButton className={'transparent error'} type="button">
-							<b>Loading...</b>
+						<LuxulButton className={'transparent success'} type="button">
+							<b>Submitting...</b>
 						</LuxulButton>
 					);
 				} else if (
@@ -258,7 +252,7 @@ class LuxulForm extends React.Component {
 					stateScope.state.luxulFormInvalid.length > 0
 				) {
 					return (
-						<LuxulButton className={'transparent error'} type="button">
+						<LuxulButton className={'transparent error small'} type="button">
 							<b>
 								{stateScope.state.luxulFormButtons.invalid === undefined ||
 								stateScope.state.luxulFormButtons.invalid === true ? (
@@ -276,7 +270,7 @@ class LuxulForm extends React.Component {
 					stateScope.state.luxulFormSubmitAttempted
 				) {
 					return (
-						<LuxulButton className={'transparent error'} type="button">
+						<LuxulButton className={'transparent error small'} type="button">
 							<b>
 								{stateScope.state.luxulFormButtons.error === undefined ||
 								stateScope.state.luxulFormButtons.error === true
@@ -286,9 +280,10 @@ class LuxulForm extends React.Component {
 						</LuxulButton>
 					);
 				} else if (
-					/* success */
+					/* submit */
 					stateScope.state.luxulFormButtons.submit !== false
 				) {
+					console.log('stateScope.state.luxulFormSubmitAttempted?',stateScope.state.luxulFormSubmitAttempted);
 					return (
 						<LuxulButton
 							className={
@@ -301,12 +296,11 @@ class LuxulForm extends React.Component {
 									: '')
 							}
 							disabled={
-								(stateScope.state.luxulFormInvalid.length && stateScope.state.luxulFormSubmitAttempted) || stateScope.state.luxulFormSubmitting
+								(stateScope.state.luxulFormInvalid.length && stateScope.state.luxulFormSubmitAttempted) 
+								|| stateScope.state.luxulFormSubmitting
+								|| stateScope.state.luxulFormInvalid.length
 							}
 							type="submit"
-							onClick={()=>{
-								stateScope.setState({luxulFormSubmitAttempted:true});
-							}}
 						>
 							<b>
 								{stateScope.state.luxulFormButtons.submit === undefined ||
@@ -330,7 +324,6 @@ class LuxulForm extends React.Component {
 						'LuxulForm' +
 						(className ? ' ' + className : '') +
 						(stateScope.state.luxulFormConnectionFailed ? ' connectionFailed' : '') +
-						(stateScope.state.luxulFormLoading ? ' loading' : '') +
 						(stateScope.state.luxulFormSubmitAttempted ? ' submitAttempted' : '') +
 						(stateScope.state.luxulFormInvalid.length ? ' invalid' : '') +
 						(stateScope.state.luxulFormSubmitting ? ' submitting' : '') +

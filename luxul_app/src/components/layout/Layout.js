@@ -108,7 +108,7 @@ class Layout extends React.Component {
 							</div>
 						</div>
 
-						<Bottom history={history} />
+						<Bottom history={history} routes={this.props.routes} />
 
 						<Side history={history} />
 						<Popup history={history} />

@@ -45,7 +45,7 @@ class SideConnected extends React.Component {
 			return value;
 		});
 	}
-	componentWillUnmount() {
+	componentWillUnmount() {		
 		window.store.unwatch('side');
 	}
 	render() {

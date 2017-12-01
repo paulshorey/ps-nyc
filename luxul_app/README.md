@@ -1,5 +1,6 @@
 &nbsp;    
-### [Read all about our Luxul app and architecture in Confluence...](http://confluence:8090/x/5oCI)  
+### [~~Read all about our Luxul app and architecture in Confluence...~~*](http://confluence:8090/x/5oCI)
+*New documentation coming soon  
 &nbsp;  
 ### [Read about Create-React-App which is used to bootstrap a React app (ours and others) in Github...](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)  
 &nbsp;  
@@ -32,11 +33,6 @@
 * `yarn test` will run all jest tests, etc.
 * `npm run build` will create a production build of our app
 * `npm run eject` !Important, NEVER RUN this or its yarn equivalent, as this would prevent us from upgrading to newer versions of C.R.A. in the future.  
-&nbsp;  
-&nbsp;  
-&nbsp;  
-
-# [Don't forget to `Read all about our Luxul app and architecture in Confluence...`!](http://confluence:8090/x/5oCI)  
 &nbsp;  
 &nbsp;  
 &nbsp;  

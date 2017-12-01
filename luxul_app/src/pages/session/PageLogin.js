@@ -87,20 +87,6 @@ class PageComponent extends React.Component {
 								<LuxulInput stateScope={this} name="password" type="password" />
 							</fieldset>
 						</div>
-
-						{/*<div className="formSection">
-							<LuxulButton
-								className={
-									this.state.luxulFormSubmitting ||
-									(this.state.luxulFormInvalid && this.state.luxulFormInvalid.length)
-										? ' '
-										: ' primary'
-								}
-								type="submit"
-							>
-								<b>Enter</b>
-							</LuxulButton>
-						</div>*/}
 					</LuxulForm>
 				</Box>
 			</Styled.PageLogin>

@@ -114,12 +114,19 @@ class LuxulInput extends React.Component {
 			validations
 		*/
 		this.handleValidate = params => {
-			// if this is an actual DOM event handler, then params are the event, as in an onClick
-			let event = params;
 			// if called manually for validation, the event is passed in as a prop
 			if (params.event) {
 				var { value, clearValidations, reject } = params;
-				event = params.event; // can't re-declare - because there already is an inherent event variable floating around in this scope??? idk
+				var event = params.event; // can't re-declare - because there already is an inherent event variable floating around in this scope??? idk
+			} else {
+				// if this is an actual DOM event handler, then params are the event, as in an onClick
+				var event = params;
+				// partial reset
+				var whatToReset = {luxulFormSubmitting: false};
+				// if (!stateScope.state.luxulFormInvalid.length) {
+					whatToReset.luxulFormSubmitAttempted = false;
+				// }
+				stateScope.setState(whatToReset);
 			}
 
 			// select and toggle get special treatment
@@ -127,11 +134,6 @@ class LuxulInput extends React.Component {
 			// this if is for regular inputs, select and toggle get value passed as second parameter
 			if (value === undefined || typeof value === 'object') {
 				value = event.target.value;
-			}
-
-			// clear 'submitAttempted' flag
-			if (stateScope.state.luxulFormSubmitAttempted) {
-				stateScope.setState({ luxulFormSubmitAttempted: false });
 			}
 
 			// validate
@@ -236,6 +238,10 @@ class LuxulInput extends React.Component {
 			}
 		};
 	}
+
+	// componentWillMount(){
+	// 	this.props.stateScope.setState({ luxulFormSubmitAttempted: false });
+	// }
 
 	render() {
 		var { stateScope, onChange, validations, value, options, ...input } = this.props;

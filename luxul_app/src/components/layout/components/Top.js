@@ -82,9 +82,12 @@ class Top extends React.Component {
 // connect global data
 // when {window.store.top} changes, update {this.state.top}
 class TopConnected extends React.Component {
-	state = {
-		deviceInfo: window.store.deviceInfo,
-	};
+	constructor(){
+		super();
+		this.state = {
+			deviceInfo: window.store.deviceInfo,
+		};
+	}
 	componentWillMount() {
 		window.store.watch('deviceInfo', (name, oldValue, value) => {
 			this.setState({ [name]: value });

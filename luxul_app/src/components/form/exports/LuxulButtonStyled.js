@@ -124,11 +124,14 @@ export const Button = styled.button`
 		background: ${window.theme.colorWarn3};
 		color: ${window.theme.colorOnDark1};
 	}
+	&.small {
+		font-size:80%;
+	}
 	&.clear,
 	&.transparent {
 		background: #fff;
 		border: none;
-		box-shadow: none;
+		box-shadow: 0 0 0 1px transparent;
 		text-shadow: #fff;
 		color: ${window.theme.colorOnLight2};
 		> * {
@@ -141,7 +144,6 @@ export const Button = styled.button`
 		}
 		&.success {
 			color: ${window.theme.colorGreen1};
-			font-size: 1.25rem;
 			font-weight: bold;
 			* {
 				font-weight: bold;
@@ -149,7 +151,6 @@ export const Button = styled.button`
 		}
 		&.error {
 			color: ${window.theme.colorWarn1};
-			font-size: 1.25rem;
 			font-weight: bold;
 			* {
 				font-weight: bold;
@@ -192,11 +193,6 @@ export const Button = styled.button`
 	/*
     hover effect
 */
-	/* because popup overlay glitches out when any button is hovered, can't even have a transition time !!! */
-	opacity: 1;
-	&:hover {
-		opacity: 0.67;
-	}
 
 	/* fancy new way */
 	// @keyframes buttonHoverOpacity {
@@ -210,23 +206,23 @@ export const Button = styled.button`
 	//     animation: buttonHoverOpacity 10s linear infinite;
 	// }
 	/* fancy original way */
-	// position:relative;
-	// overflow:hidden;
-	// &:after {
-	//     content: ' ';
-	//     position:absolute;
-	//     top:0;
-	//     left:0;
-	//     width:100%;
-	//     height:100%;
-	//     opacity:0;
-	//     background:#fff;
-	//     transition: opacity 0.5s linear;
-	//     pointer-events:none;
-	// }
-	// &:hover {
-	//     &:after {
-	//         opacity:0.33;
-	//     }
-	// }
+	position:relative;
+	overflow:hidden;
+	&:after {
+	    content: ' ';
+	    position:absolute;
+	    top:0;
+	    left:0;
+	    width:100%;
+	    height:100%;
+	    opacity:0;
+	    background:#fff;
+	    /* transition: opacity 0.25s ease-out; */
+	    pointer-events:none;
+	}
+	&:hover {
+	    &:after {
+	        opacity:0.25;
+	    }
+	}
 `;

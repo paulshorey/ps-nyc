@@ -32,7 +32,6 @@ export const Layout = styled.div`
 				margin: 1.5rem 0 0 0;
 				padding-right: 0;
 				position: relative;
-				z-index: 100;
 				@media (max-width: 750px) {
 					margin: 0;
 					width: calc(100% - 1rem);

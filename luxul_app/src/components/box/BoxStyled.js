@@ -5,6 +5,7 @@ export const Box = styled.div`
 	margin: 0 auto;
 	transition: height 0.5s linear;
 	overflow: hidden;
+	z-index: 100;
 	p {
 		margin: 1.25rem 1px;
 		font-size: 1rem;
