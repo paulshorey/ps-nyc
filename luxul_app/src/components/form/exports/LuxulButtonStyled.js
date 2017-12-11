@@ -129,7 +129,7 @@ export const Button = styled.button`
 	}
 	&.clear,
 	&.transparent {
-		background: #fff;
+		background: transparent;
 		border: none;
 		box-shadow: 0 0 0 1px transparent;
 		text-shadow: #fff;
