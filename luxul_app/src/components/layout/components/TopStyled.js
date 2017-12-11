@@ -29,7 +29,7 @@ export const Top = styled.div`
 `;
 
 export const Logo = styled.div`
-	pointer-events: none;
+	/* pointer-events: none; */
 	margin-left: 1rem;
 	display: inline-block;
 	cursor: pointer;

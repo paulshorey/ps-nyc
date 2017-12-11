@@ -15,6 +15,7 @@ class PageComponent extends React.Component {
 			luxulFormValues: {
 				ledStatus: '0',
 			},
+			luxulFormButtons: false
 		};
 	}
 

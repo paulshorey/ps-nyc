@@ -120,6 +120,7 @@ class LuxulInput extends React.Component {
 				var event = params.event; // can't re-declare - because there already is an inherent event variable floating around in this scope??? idk
 			} else {
 				// if this is an actual DOM event handler, then params are the event, as in an onClick
+				// eslint-disable-next-line
 				var event = params;
 				// partial reset
 				var whatToReset = {luxulFormSubmitting: false};

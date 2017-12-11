@@ -40,6 +40,12 @@ export const Message = styled.div`
 			a {
 				color: ${window.theme.colorOnDark1};
 			}
+			[class^="icon-"], [class*=" icon-"] {
+				position:relative;
+				top:-0.15rem;
+				padding-right:0.15rem;
+				font-size:115%;
+			}
 
 			.message_text {
 				padding: 0 2rem 0 0;

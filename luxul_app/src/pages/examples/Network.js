@@ -27,25 +27,25 @@ class PageComponent extends React.Component {
 			*/
 			this.setState({ luxulFormLoading: true });
 
-			this.props.ubus.get.bind(this)('examples')
-				.then(responseData => {
-					// data success
-					if (this._isMounted) {
-						for (let key in responseData.values) {
-							if (!this.state.luxulFormValues[key]) {
-								delete responseData.values[key];
-							}
-						}
-						this.setState({
-							luxulFormValues: responseData.values,
-							luxulFormValuesOriginal: JSON.parse(JSON.stringify(responseData.values)),
-							luxulFormConnectionFailed: false,
-							luxulFormLoading: false,
-						});
-						// this.props.dispatch(layoutActions.message({}));
-					}
-				})
-				.catch(() => {});
+			// this.props.ubus.get.bind(this)('examples')
+			// 	.then(responseData => {
+			// 		// data success
+			// 		if (this._isMounted) {
+			// 			for (let key in responseData.values) {
+			// 				if (!this.state.luxulFormValues[key]) {
+			// 					delete responseData.values[key];
+			// 				}
+			// 			}
+			// 			this.setState({
+			// 				luxulFormValues: responseData.values,
+			// 				luxulFormValuesOriginal: JSON.parse(JSON.stringify(responseData.values)),
+			// 				luxulFormConnectionFailed: false,
+			// 				luxulFormLoading: false,
+			// 			});
+			// 			// this.props.dispatch(layoutActions.message({}));
+			// 		}
+			// 	})
+			// 	.catch(() => {});
 			// .catch((err)=>{
 			// 	// data failed
 			// 	if (this._isMounted) {
@@ -81,21 +81,23 @@ class PageComponent extends React.Component {
 							const values = this.state.luxulFormValues[section];
 
 							// OK, do custom action
-							this.props.ubus
-								.set('examples', section, values)
+							this.props.ubus.set.bind(this)('examples', section, values)
 								.then(action => {
 									// action success
 									// dispatch(layoutActions.message({status:0, message:"Success!"}));
 									this.setState({
 										luxulFormSubmitting: false,
+										luxulFormSubmitAttempted: false,
 										luxulFormValuesOriginal: JSON.parse(JSON.stringify(this.state.luxulFormValues)),
 									});
 								})
 								.catch(err => {
 									// action failed
 									// dispatch(layoutActions.message({title:"Request failed. Please check that your device is connected and powered on.", status:1}));
-									this.setState({ luxulFormSubmitting: false });
-									this.setState({ luxulFormSubmitAttempted: false });
+									this.setState({ 
+										luxulFormSubmitting: false,
+										luxulFormSubmitAttempted: false,
+									});
 								});
 						}
 					}
@@ -111,10 +113,8 @@ class PageComponent extends React.Component {
 				<LuxulForm stateScope={this} onSubmit={handleSubmit}>
 					<div className="formSection">
 						<h4>Interfaces</h4>
-						<p>
-							Lets try and edit some real device configuration using UCI over UBUS... Like, for
-							real!
-						</p>
+						<li>This "submit" button actually tries to connect to the device and edit several config sections at once. It works when physically connected to the device, and logged in. But here is a good example of what happens when a request fails.</li>
+						<li>On page load, it should connect to the device and pre-fill the form fields with real data. But, that is turned off so you don't get kicked out to the login page.</li>
 					</div>
 
 					<div className="formSection">

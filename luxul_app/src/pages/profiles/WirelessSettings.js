@@ -19,9 +19,7 @@ class PageComponent extends React.Component {
 				channel24Width: '20MHz',
 				channel24: '6',
 			},
-			luxulFormButtons: {
-				submit: 'Apply',
-			},
+			luxulFormButtons: false,
 		};
 	}
 

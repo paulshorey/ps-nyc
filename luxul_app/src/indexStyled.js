@@ -87,6 +87,9 @@ injectGlobal`
 	h6 {
 		font-size:1.15rem;
 	}
+	li {
+		padding-bottom:0.5rem;
+	}
 
 
 	/**************************************************
@@ -124,6 +127,9 @@ injectGlobal`
 	}
 	.color_error {
 		color: ${window.theme.colorWarn1};
+	}
+	.fix_textWrap {
+		display: inline-block;
 	}
 
 	/**************************************************

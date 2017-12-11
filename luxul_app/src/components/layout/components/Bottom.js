@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import * as Styled from './BottomStyled';
 
 class Bottom extends React.Component {
@@ -12,7 +12,7 @@ class Bottom extends React.Component {
 				{
 					this.props.routes 
 					?
-					<span className="copyright"><Link to="/" style={{fontWeight:"bold"}} className="color_success">LOGOUT <span className="icon-ui_security"></span></Link></span>
+					<span className="copyright"><a href="/" style={{fontWeight:"bold"}} className="color_success">LOGOUT <span className="icon-ui_security"></span></a></span>
 					:
 					<span className="copyright"><span className="desktop_only">This app is non-functional without the Luxul hardware. </span><a href="/XWC1001/examples/validation" style={{fontWeight:"bold"}} className="color_success">CLICK HERE TO DEMO the UI &raquo;</a></span>
 				}

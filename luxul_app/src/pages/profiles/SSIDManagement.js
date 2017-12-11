@@ -19,9 +19,7 @@ class PageComponent extends React.Component {
 	constructor() {
 		super();
 		this.state = {
-			luxulFormButtons: {
-				submit: false,
-			},
+			luxulFormButtons: false
 		};
 	}
 

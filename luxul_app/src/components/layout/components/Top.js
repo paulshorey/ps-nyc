@@ -68,7 +68,7 @@ class Top extends React.Component {
 						</Styled.Hamburger>
 
 						<Styled.Logo>
-							<img src="/branding/logo/logo_white.svg" alt="LUXUL" />
+							<a href="/"><img src="/branding/logo/logo_white.svg" alt="LUXUL" /></a>
 						</Styled.Logo>
 
 						{Details || null}

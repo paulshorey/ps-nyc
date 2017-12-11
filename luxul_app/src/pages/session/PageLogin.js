@@ -24,6 +24,13 @@ class PageComponent extends React.Component {
 	render() {
 		var { history } = this.props;
 
+		setTimeout(()=>{
+			window.store.message = {
+				title: <span><span className="icon-warning"></span> This app is not-functional without the Luxul hardware. <a href="/XWC1001/examples/validation" style={{fontWeight:"bold"}} className="color_success fix_textWrap">CLICK HERE TO ENTER the DEMO &raquo;</a> </span>,
+				type: 'warning'
+			};
+		},3000);
+
 		var formSubmit = valid => {
 			console.warn('submitting...');
 			this.setState({ luxulFormSubmitting: true });
@@ -34,12 +41,10 @@ class PageComponent extends React.Component {
 					this.props.ubus
 						.login(this.state.luxulFormValues)
 						.then(action => {
-							console.error('hello???', action);
 							this.setState({ luxulFormSubmitting: false });
 							history.push('/' + window.store.deviceInfo.model + '/status/controller');
 						})
 						.catch(err => {
-							console.error('nooo???', err);
 							// dispatch(layoutActions.message({title:"Login failed. Please check that your device is connected and powered on.", status:1}));
 							this.setState({ luxulFormSubmitting: false });
 							window.store.message = {

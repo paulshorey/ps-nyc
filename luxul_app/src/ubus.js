@@ -268,7 +268,7 @@ const get = function(uciConfig, uciSection) {
 
 				if (boundComponent._isMounted) {
 					if (boundComponent.state) {
-						boundComponent.setState({ luxulFormConnectionFailed: true, luxulFormLoading: false });
+						boundComponent.setState({ luxulFormConnectionFailed: true, luxulFormSubmitting: false, luxulFormSubmitAttempted: false });
 					}
 					boundComponent.props.history.push('/login');
 					// timeout is only for the animation - when new route loads - the messge will be collapsed, then transition to opened
@@ -288,6 +288,7 @@ const get = function(uciConfig, uciSection) {
 };
 
 const set = function(uciConfig, uciSection, formValues) {
+	const boundComponent = this;
 	var uciData = { config: uciConfig, section: uciSection, values: formValues };
 
 	var promise = new Promise(function(resolve, reject) {
@@ -314,6 +315,11 @@ const set = function(uciConfig, uciSection, formValues) {
 				// });
 			})
 			.catch(function(response) {
+				if (boundComponent._isMounted) {
+					if (boundComponent.state) {
+						boundComponent.setState({ luxulFormConnectionFailed: true, luxulFormSubmitting: false, luxulFormSubmitAttempted: false });
+					}
+				}
 				setTimeout(function() {
 					window.store.message = {
 						title:
