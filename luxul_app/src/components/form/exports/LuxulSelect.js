@@ -1,4 +1,4 @@
-/*eslint no-unused-vars: 2*/
+/*eslint-disable no-unused-vars*/
 import React from 'react';
 
 import LuxulInput from './LuxulInput';
@@ -11,16 +11,10 @@ import { _get_property } from '../lib/functions';
 */
 class LuxulSelect extends LuxulInput {
 	render() {
+		// must decalare: onChange,validations,value,options to prevent them from going into {...input}
 		var { stateScope, onChange, validations, value, options, children, ...input } = this.props;
-
-		// ignore this >>>
-		// need to declare above: onChange, validations, value, options
-		// so they will not sometimes be part of the desctructured variable: ...input, also above
-		if (onChange || validations || value || options) {
-			/* can't silence Webpack React no-unused-vars warning, but these values must always be declared */
-		}
-		// <<< ignore this
-
+		
+		// input value is non-standard in checkbox and select elements
 		const formValue = _get_property(stateScope.state.luxulFormValues, input.name);
 
 		return (
