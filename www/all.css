@@ -1,3 +1,53 @@
+@-webkit-keyframes playGlow {
+  0% {
+    box-shadow: 0 0 5px 0 orange; }
+  40% {
+    box-shadow: 0 0 25px 0 orange; }
+  100% {
+    box-shadow: 0 0 5px 0 orange; } }
+
+@keyframes playGlow {
+  0% {
+    box-shadow: 0 0 5px 0 orange; }
+  40% {
+    box-shadow: 0 0 25px 0 orange; }
+  100% {
+    box-shadow: 0 0 5px 0 orange; } }
+
+html {
+  font-size: 16.5px; }
+
+@media (max-width: 950px), (max-height: 750px) {
+  html {
+    font-size: 15.5px; } }
+
+@media (max-width: 750px), (max-height: 650px) {
+  html {
+    font-size: 14.5px; } }
+
+@media (max-width: 380px), (max-height: 380px) {
+  html {
+    font-size: 13.5px; } }
+
+@media (max-width: 330px), (max-height: 330px) {
+  html {
+    font-size: 12.5px; } }
+
+div.aboutme {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -2.5rem;
+  margin-bottom: 3rem; }
+  div.aboutme img.portrait {
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden; }
+  div.aboutme .thoughtbubble {
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1; }
+
 body {
   overflow: auto;
   font-family: "Bodoni 72", Georgia, serif; }
@@ -14,7 +64,7 @@ a:hover {
   cursor: pointer; }
 
 article pre {
-  font-size: 12px !important; }
+  font-size: 0.73rem !important; }
 
 section {
   margin: 2.5vh 5.5vw 2.5vh 5vw;
@@ -22,10 +72,10 @@ section {
   section header {
     position: relative;
     width: 100%;
-    font-size: 19px;
-    line-height: 24px;
-    height: 28px;
-    margin-bottom: 5vh;
+    font-size: 1.14rem;
+    line-height: 1.45rem;
+    min-height: calc(1.45rem + 4px);
+    margin-bottom: 3rem;
     color: #666; }
     section header .h-left {
       position: absolute;
@@ -42,7 +92,7 @@ section {
         vertical-align: -2px;
         font-size: 90%; }
   section article {
-    margin: 0 0 7.5vh; }
+    margin: 0 0 4rem; }
     section article .video {
       position: relative;
       max-width: 720px;
@@ -76,9 +126,9 @@ section {
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
+        position: absolute;
         width: 6vw;
         height: 6vw;
-        position: absolute;
         top: 0;
         background-size: auto 50%;
         background-color: #fff;
@@ -87,19 +137,21 @@ section {
         border-radius: 50%;
         box-shadow: 0 0 5px #000;
         background-position-x: 60%;
-        border: solid 1px orange; }
+        border: solid 1px orange;
+        -webkit-animation: playGlow 3s infinite;
+        animation: playGlow 3s infinite; }
       section article .collage img {
         width: 100%; }
     section article .title {
-      font-size: 30px;
-      line-height: 30px;
+      font-size: 1.82rem;
+      line-height: 1.82rem;
       margin: 0 0 0.66vh; }
     section article .description {
-      font-size: 17px;
-      line-height: 30px; }
+      font-size: 1.03rem;
+      line-height: 1.82rem; }
     section article .article {
-      font-size: 17px;
-      line-height: 30px; }
+      font-size: 1.03rem;
+      line-height: 1.82rem; }
 
 @media (max-width: 800px) {
   section header .h-left {
