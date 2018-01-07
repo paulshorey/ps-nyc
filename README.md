@@ -18,3 +18,7 @@
 ### 
 
 
+### Now, also added:
+* simply run "npm start", which will do "node app.js" and remind you to open "localhost:2080"
+* for clients/employers, of course, I set up a more comprehensive development/production environment. See paulshorey.com for source code links
+### 
