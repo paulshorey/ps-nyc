@@ -29,25 +29,13 @@
 <section>
 
 	<header>
-		<span class="h-left">Paul Shorey  |  UI Design &amp; Development</span>
+		<span class="h-left"><a href="javascript:scrollToMe();">Paul Shorey</a>  |  UI Design &amp; Development</span>
 		<!-- <span class="h-left h-hidden" style="top:-2px;"><span class="uui-text">I</span> <span class="uui-icon icon-heart"></span> <span class="uui-text">UI Development</span></span></span> -->
 		<span class="h-right">
 			<span class="uui-text"><a href="" target="_blank" secret-mailto="ps@artspaces.net">hidden</a>  |  <a href="" secret-tel secret-tel1="385" secret-tel2="770" secret-tel3="6789">hidden</a></span>
 			| <a href="files/PaulShorey_Resume.docx"><span class="uui-icon icon-select" style="font-size:86%;"></span> <span class="uui-text">Full resume</span></a>
 		</span>
 	</header>
-	
-	<!-- <div class="aboutme">
-		<img class="portrait" src="photos/me/vintage.jpg" />
-		<span class="thoughtbubble">
-			<span class="bubble bubble0"></span>
-			<span class="bubble bubble1"></span>
-			<span class="bubble bubble2"></span>
-			<span class="bubbleText">
-				Hello world!
-			</span>
-		</span>
-	</div> -->
 
 	<article>
 		<div class="title">
@@ -610,6 +598,22 @@ React.html['eventslist'] = React.createClass({
 		</div>
 	</article>
 
+
+	<article class="aboutme" id="scrollToMe">
+		<img class="portrait" src="photos/me/vintage.jpg" />
+		<span class="thoughtbubble">
+			<span class="bubble bubble0"></span>
+			<span class="bubble bubble1"></span>
+			<span class="bubble bubble2"></span>
+			<span class="bubbleText">
+				<p style="margin-bottom:1rem;">Hello world! More info coming soon. But here is a beautiful portrait of my face in case you wanted to see it. Unfortunately, I do not have a LinkedIn. I do have a Facebook but it is filled with silly pictures.</p>
+				<p style="margin-bottom:1rem;">Besides programming, I enjoy creating other things - like electronics, product design, hydroponic greens (only legal stuff), and fine art.<p>
+				<p>I also enjoy skiing, hiking, and hang gliding, which is why I moved to and am now living in Utah!</p>
+			</span>
+		</span>
+		<a name="scrollToMe" />
+	</article>
+
 </section>
 
 </body>
@@ -676,5 +680,11 @@ React.html['eventslist'] = React.createClass({
 			scrollTop: $('#scrollToCode').eq(0).offset().top
 		}, 2000);
 	}
+	function scrollToMe(){
+		$('html, body').animate({
+			scrollTop: $('#scrollToMe').eq(0).offset().top
+		}, 2000);
+	}
 </script>
+
 </html>

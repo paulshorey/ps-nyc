@@ -30,7 +30,7 @@ html {
 }
 
 
-div.aboutme {
+.aboutme {
 	display:flex;
 	margin-top:-2.5rem;
 	margin-bottom:3rem;
@@ -38,6 +38,7 @@ div.aboutme {
 		display:inline-block;
 		border-radius:50%;
 		overflow:hidden;
+		display:none;
 		&.bubble0 {
 		}
 		&.bubble1 {
@@ -46,12 +47,16 @@ div.aboutme {
 		}
 	}
 	img.portrait {
-		height:5rem;
+		height:7.5rem;
+		width:10rem;
+		margin-right:1rem;
 		border-radius:50%;
 		overflow:hidden;
 	}
-	.thoughtbubble {
+	.bubbleText {
 		flex-grow:1;
+		font-size:1.1rem;
+		line-height:1.5rem;
 	}
 }
 
