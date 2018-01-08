@@ -34,6 +34,17 @@ div.aboutme {
 	display:flex;
 	margin-top:-2.5rem;
 	margin-bottom:3rem;
+	.bubble {
+		display:inline-block;
+		border-radius:50%;
+		overflow:hidden;
+		&.bubble0 {
+		}
+		&.bubble1 {
+		}
+		&.bubble2 {
+		}
+	}
 	img.portrait {
 		height:5rem;
 		border-radius:50%;
