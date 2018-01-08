@@ -56,7 +56,7 @@
 			 <br />
 		</div>
 		<div class="description">
-			<b>Code samples using ES6 and ReactJS: </b><br />
+			<b>Code samples using ES6 and ReactJS: </b> <a name="scrollToTopCode" /><br />
 			* Custom <a href="https://github.com/paulshorey/mui-form/blob/master/src/exports/MuiSelect.js" target="_blank">&lt;Select /&gt;</a> and <a href="https://github.com/paulshorey/mui-form/blob/master/src/exports/MuiToggle.js" target="_blank">&lt;Toggle /&gt;</a> components inheriting logic from the custom <a href="https://github.com/paulshorey/mui-form/blob/master/src/exports/MuiInput.js" target="_blank">&lt;Input /&gt;</a> component.<br />
 			* <a href="https://github.com/paulshorey/mui-form-example/blob/master/src/components/nav/Nav.js" target="_blank">&lt;Nav /&gt;</a> and <a href="https://github.com/paulshorey/mui-form-example/blob/master/src/components/nav/NavGroup.js" target="_blank">&lt;NavGroup /&gt;</a> using <a href="https://github.com/paulshorey/mui-form-example/blob/master/src/components/nav/NavStyled.js" target="_blank">Styled-Components</a><br />
 			* <a href="https://github.com/paulshorey/mui-form-example/blob/master/src/devices/XWC1001/index.js" target="_blank">Multi-level routing</a> and <a href="https://github.com/paulshorey/mui-form-example/blob/master/src/App.js" target="_blank">neat code-splitting (lazy-loading) of routes</a> <br />
@@ -594,6 +594,7 @@ React.html['eventslist'] = React.createClass({
 
 	<article>
 		<div class="description">
+			<a href="javascript:scrollToTopCode()" target="_blank">Most recent code at top &#8679;</a>
 			More code at <a href="http://github.com/paulshorey" target="_blank">github.com/paulshorey</a>
 		</div>
 	</article>
@@ -675,6 +676,11 @@ React.html['eventslist'] = React.createClass({
 			$(this).cycle('pause');
 		})
 	});
+	function scrollToTopCode(){
+		$('html, body').animate({
+			scrollTop: $('#scrollToTopCode').eq(0).offset().top
+		}, 2000);
+	}
 	function scrollToCode(){
 		$('html, body').animate({
 			scrollTop: $('#scrollToCode').eq(0).offset().top
