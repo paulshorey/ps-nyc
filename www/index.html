@@ -46,9 +46,10 @@
 		</div>
 		<div class="collage">
 			<img src="screenshots/luxul/collage.png"></img>
+			<a name="scrollToTopCode"></a>
 		</div>
 		<div class="description">
-			Featuring:<br />
+			Featuring: <br />
 			* Mobile-first responsive UI design (<a href="http://luxul.paulshorey.com" target="_blank">open demo &raquo;</a>)<br />
 			* Styled-Components Material-UI form framework with state management and validation (<a href="https://www.npmjs.com/package/mui-form" target="_blank">mui-form NPM/Yarn package</a>)<br />
 			* global state management solution which is even simpler than MobX, used together with Redux (<a href="https://medium.com/p/7450bc2400a9" target="_blank">read about it</a>)<br />
@@ -56,7 +57,7 @@
 			 <br />
 		</div>
 		<div class="description">
-			<b>Code samples using ES6 and ReactJS: </b> <a name="scrollToTopCode" /><br />
+			<b>Code samples using ES6 and ReactJS: </b><br />
 			* Custom <a href="https://github.com/paulshorey/mui-form/blob/master/src/exports/MuiSelect.js" target="_blank">&lt;Select /&gt;</a> and <a href="https://github.com/paulshorey/mui-form/blob/master/src/exports/MuiToggle.js" target="_blank">&lt;Toggle /&gt;</a> components inheriting logic from the custom <a href="https://github.com/paulshorey/mui-form/blob/master/src/exports/MuiInput.js" target="_blank">&lt;Input /&gt;</a> component.<br />
 			* <a href="https://github.com/paulshorey/mui-form-example/blob/master/src/components/nav/Nav.js" target="_blank">&lt;Nav /&gt;</a> and <a href="https://github.com/paulshorey/mui-form-example/blob/master/src/components/nav/NavGroup.js" target="_blank">&lt;NavGroup /&gt;</a> using <a href="https://github.com/paulshorey/mui-form-example/blob/master/src/components/nav/NavStyled.js" target="_blank">Styled-Components</a><br />
 			* <a href="https://github.com/paulshorey/mui-form-example/blob/master/src/devices/XWC1001/index.js" target="_blank">Multi-level routing</a> and <a href="https://github.com/paulshorey/mui-form-example/blob/master/src/App.js" target="_blank">neat code-splitting (lazy-loading) of routes</a> <br />
@@ -241,16 +242,16 @@
 			Contracts, Partners, Full time work 
 		</div>
 		<div class="description">
-			<span class="uui-text">I just want to create cool things. Come from an art background, but really like tech. Enjoy meeting and working with new people. Lets get together and talk code, business, life... </span> <br /><a href="javascript:;" onclick="$('html, body').animate({ scrollTop:0 });"><span class="uui-text">Please, download my resume and contact me, above </span><span class="uui-icon icon-arrow-up"></span></a>
+			<span class="uui-text">I just want to create cool things. Come from an art background, but really like tech. Enjoy meeting and working with new people. Lets get together and talk code, business, life... </span> <br /><a href="javascript:scrollToTop();"><span class="uui-text">Please, download my resume and contact me, above </span><span class="uui-icon icon-arrow-up"></span></a>
 		</div>
 	</article>
 
 
-	<article id="scrollToCode">
+	<article>
 		<div class="title">
-			Code samples
+			Code samples <a name="scrollToCode"></a>
 		</div>
-		<div><a name="scrollToCode"></a>&nbsp;</div>
+		<div>&nbsp;</div>
 
 		<div class="description">
 			<span>OOP Javascript:</span>
@@ -594,13 +595,13 @@ React.html['eventslist'] = React.createClass({
 
 	<article>
 		<div class="description">
-			<a href="javascript:scrollToTopCode()" target="_blank">Most recent code at top &#8679;</a>
+			<a href="javascript:scrollToTopCode()" target="_blank">Most recent code at top &#8679;</a><br />
 			More code at <a href="http://github.com/paulshorey" target="_blank">github.com/paulshorey</a>
 		</div>
 	</article>
 
 
-	<article class="aboutme" id="scrollToMe">
+	<article class="aboutme">
 		<img class="portrait" src="photos/me/vintage.jpg" />
 		<span class="thoughtbubble">
 			<span class="bubble bubble0"></span>
@@ -612,7 +613,7 @@ React.html['eventslist'] = React.createClass({
 				<p>I also enjoy skiing, hiking, and hang gliding, which is why I moved to and am now living in Utah!</p>
 			</span>
 		</span>
-		<a name="scrollToMe" />
+		<a name="scrollToMe"></a>
 	</article>
 
 </section>
@@ -678,17 +679,22 @@ React.html['eventslist'] = React.createClass({
 	});
 	function scrollToTopCode(){
 		$('html, body').animate({
-			scrollTop: $('#scrollToTopCode').eq(0).offset().top
+			scrollTop: $('a[name="scrollToTopCode"]').eq(0).offset().top
 		}, 2000);
 	}
 	function scrollToCode(){
 		$('html, body').animate({
-			scrollTop: $('#scrollToCode').eq(0).offset().top
+			scrollTop: $('a[name="scrollToCode"]').eq(0).offset().top
 		}, 2000);
 	}
 	function scrollToMe(){
 		$('html, body').animate({
-			scrollTop: $('#scrollToMe').eq(0).offset().top
+			scrollTop: $('a[name="scrollToMe"]').eq(0).offset().top
+		}, 2000);
+	}
+	function scrollToTop(){
+		$('html, body').animate({
+			scrollTop: 0
 		}, 2000);
 	}
 </script>
