@@ -4,6 +4,7 @@ var bower = require('bower');
 var concat = require('gulp-concat');
 var compass = require('gulp-compass');
 var sass = require('gulp-sass');
+var open = require('gulp-open');
 // var minifyCss = require('gulp-minify-css');
 // var rename = require('gulp-rename');
 var sh = require('shelljs');
@@ -47,6 +48,13 @@ gulp.task('install', ['git-check'], function() {
     .on('log', function(data) {
       gutil.log('bower', gutil.colors.cyan(data.id), data.message);
     });
+});
+
+gulp.task('open', function(){
+  var options = {
+    uri: 'http://localhost:2080'
+  };
+  gulp.src(__filename).pipe(open(options));
 });
 
 gulp.task('git-check', function(done) {

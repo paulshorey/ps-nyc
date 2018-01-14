@@ -7,7 +7,7 @@
 * npm install (first, if haven't done so already) 
 * gulp watch (to run dev environment)
 * gulp (to simply build once, and it's done)
-* then, run "node app.js" from this folder, to start the dev server at http://localhost:2080
+* then, run "npm start" from this folder, to start the dev server and open the default browser to http://localhost:2080
 * note: whenever you make a change to html or css or js, you have to manually refresh the page
 ### 
 
@@ -18,7 +18,6 @@
 ### 
 
 
-### Now, also added:
-* simply run "npm start", which will do "node app.js" and remind you to open "localhost:2080"
-* for clients/employers, of course, I set up a more comprehensive development/production environment. See paulshorey.com for source code links
+### Note:
+* for clients/employers, of course, I set up a more comprehensive development/production environment, with everything easier and more user-friendly. I'm just familiar enough with this old setup to remember to do these steps. See paulshorey.com for source code links
 ### 
