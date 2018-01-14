@@ -46,10 +46,10 @@ html {
     display: none; }
   .aboutme img.portrait {
     height: 7.5rem;
-    width: 7.5rem;
+    width: auto;
     margin-right: 1rem;
     border-radius: 50%;
-    overflow: hidden; }
+    display: block; }
   .aboutme .bubbleText {
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;

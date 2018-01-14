@@ -31,6 +31,6 @@
     "shelljs": "^0.3.0"
   },
   "scripts": {
-    "start": "echo 'open localhost:2080'; node app.js; gulp open"
+    "start": "echo 'open http://localhost:2080'; node app.js; gulp open"
   }
 }
