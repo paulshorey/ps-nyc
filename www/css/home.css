@@ -161,6 +161,8 @@ section {
     section article .description {
       font-size: 1.03rem;
       line-height: 1.82rem; }
+      section article .description p {
+        margin-bottom: 0.85rem; }
     section article .article {
       font-size: 1.03rem;
       line-height: 1.82rem; }
