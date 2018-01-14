@@ -7,20 +7,6 @@
 	        $(this).find(".playpause").fadeIn();
 	    }
 	});
-	$(document).ready(function(){
-
-		$('[secret-mailto]').each(function(){
-			$(this).get(0).innerHTML = $(this).attr('secret-mailto');
-			$(this).attr('href','mailto:'+$(this).attr('secret-mailto'));
-		});
-		$('body').addClass('ready');
-
-		$('[secret-tel]').each(function(){
-			$(this).get(0).innerHTML = $(this).attr('secret-tel1')+'.'+$(this).attr('secret-tel2')+'.'+$(this).attr('secret-tel3');
-			$(this).attr('href','tel:'+$(this).attr('secret-tel1')+$(this).attr('secret-tel2')+$(this).attr('secret-tel3'));
-		});
-		
-	});
 	$(window).on('load, scroll', function(){
 		$('[scrollplay]').each(function(){
 			if (isVideoInView($(this)[0])) {
