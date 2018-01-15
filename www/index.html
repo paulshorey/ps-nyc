@@ -84,8 +84,7 @@
 
 	
 
-	<div id="lazy">
-	</div>
+	<div id="lazy">This text will be replaced by Javascript. If you see this text, please let me know :(</div>
 
 
 
@@ -131,7 +130,6 @@ $(document).ready(function(){
 		$(this).get(0).innerHTML = $(this).attr('secret-mailto');
 		$(this).attr('href','mailto:'+$(this).attr('secret-mailto'));
 	});
-	$('body').addClass('ready');
 
 	$('[secret-tel]').each(function(){
 		$(this).get(0).innerHTML = $(this).attr('secret-tel1')+'.'+$(this).attr('secret-tel2')+'.'+$(this).attr('secret-tel3');
@@ -150,13 +148,23 @@ window.intercomSettings = {
 
 
 <script>
-	var xhr= new XMLHttpRequest();
-	xhr.open('GET', 'index-lazy.html', true);
-	xhr.onreadystatechange= function() {
-		if (this.readyState!==4) return;
-		if (this.status!==200) return; // or whatever error handling you want
-		document.getElementById('lazy').innerHTML= this.responseText;
-	};
-	xhr.send();
+	jQuery.ajax({
+		url: 'index-lazy.html',
+		type: 'GET',
+		success: function(data){
+			// load lazy HTML
+			document.getElementById('lazy').innerHTML= data;
+			// load lazy JS
+			jQuery.getScript('index-lazyScript.js');
+		},
+		async: true
+	});
 </script>
+
+
+<link href="/lib/rainbow/themes/monokai.css" rel="stylesheet" type="text/css">
+<script src="/lib/rainbow/js/rainbow.min.js"></script>
+<script src="/lib/rainbow/js/language/generic.js"></script>
+<script src="/lib/rainbow/js/language/javascript.js"></script>
+<script src="/lib/cycle/cycle.min.js"></script>
 </html>
