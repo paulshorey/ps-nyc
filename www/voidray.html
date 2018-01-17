@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Paul Shorey</title>
+<meta name="description" content="Web development - web design - UI / UX" />
+<meta name="keywords" content="Paul Shorey, HTML5, Javascript, AngularJS, SASS" />
+<meta property="og:title" content="Paul Shorey | Web development" />
+<meta property="og:site_name" content="Paul Shorey" />
+<meta property="og:description" content="Web design and development" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<meta charset="UTF-8" />
+<link href="/gfx/puzzle.ico" rel="shortcut icon" type="image/x-icon" />
+<style>
+body {background:#272822; color:#fff;}
+</style>
+</head>
+<body>
+    
+<div style="display:flex; align-items:center; justify-content:center;height:400px;border:solid 1px white;">
+    <div>
+        <p>
+        The following code was copied and pasted from a real script tag in this page.<br />
+        </p>
+        <p>
+        Please open the developer console* to interact with it and see real console logs.<br />
+        *this code works in Chrome and Firefox
+        </p>
+    </div>
+</div>
+
+<pre><code data-language="javascript">
+/*
+    #1
+    Q. Sort this string
+    A. I will assume you want numbers first, from 0-9, then letters A-Z. 
+    ... But what to do with special characters? Should those be before, after, in the middle? So, I'll just take a shortcut and ignore them, using the default Array.sort() functionality.
+*/
+var one = function(str){
+    var sorted = str.split('').sort().join('');
+    return sorted;
+}
+console.log('#1',one('adsfadlkj342143423424das*()&#'));
+
+
+/*
+    #2
+    Q. Add a one second pause between these logs.
+    A. Aha... That "async" is a nice hint! But its actually the easiest way to accomplish the job, because you can't really stick that "return x;" inside a function. It won't work.
+    ... Side note - If I don't use "this.", then I don't use the ES6 arrow function. This way, if I see an arrow function - I know it refers to its parent Class. It saves me time remembering the intention of that function.
+*/
+function waitASecond() {
+    return new Promise(function(resolve){
+    setTimeout(function(){
+        resolve();
+    }, 1000);
+    });
+}
+async function two () {
+    let x = 0 ;
+    console .log('#2 Value:' , ++x);
+    await waitASecond();
+    console .log('#2 Value:', ++x);
+    return x;
+}
+two();
+
+
+/*
+    #3
+    Q. Dedupe using hash table
+    A. Converting it to Map(), while ignoring any duplicate entries.
+    ... But what to do with the duplicate entries? Throwing them out seems kind of wasteful! Let's just give them a more specific "id" field?
+*/
+var dupedUsers = [
+    { id: 1 , email: 'foo@example.com' },
+    { id: 2 , email: 'bar@example.com' },
+    { id: 1 , email: 'bin@example.com' },
+];
+function dedupe(arr) {
+    // in: array 
+    // out: hash
+    if (!Array.isArray(arr)) {
+        throw "expected input to be array, as in: []";
+    }
+    var hash = new Map();
+    // add each unique row to new table
+    arr.forEach(function(row, i){
+        // throw out any dup rows
+        if (!hash.get(row.id)) {
+            hash.set(row.id, row.email);
+        }
+    });
+    // done
+    return hash;
+}
+console.log('#3',dedupe(dupedUsers));
+
+
+/*
+    #4
+    Q. What to do when API endpoint can't find /project/42
+    A. Let's imagine this was a regular webpage. If the entry for /blog/cutest-puppies is not found, most systems throw a 404 error, or maybe redirect to the homepage
+    ... In architecting an API, I tend to follow the same basic rules with URLs. This "42" is not a search term, or optional query, but part of the URL. Thus, if there is no "/project/" 42, there is no "/project/42"
+    ... This would be a discussion to have with the team ...fight, fight, fight!... majority and seniority wins!
+    ... Very interesting discussion: https://stackoverflow.com/questions/11746894/what-is-the-proper-rest-response-code-for-a-valid-request-but-an-empty-data
+    ... And again 404 wins: https://softwareengineering.stackexchange.com/questions/203492/when-to-use-http-status-code-404-in-an-api
+*/
+
+
+/*
+    #5
+    Q. Bubble chart stack
+    ...
+    Here's what I envision:
+        3 columns, spread evenly across the width of the screen.
+        3 data lists: projects, employees, and technologies
+        At first, we send an API request for each column, simply getting all available entries.
+        When user selects one project, the other 2 columns send an API request with a query limiting results to pertain to only that project.
+        Each column upates individually, based on the global variable of what (project, employee, tech) is selected (or if nothing is selected).
+    This can be accomplished in any server language, client language, storage system, or rendering tools.
+    Storage system can be anything, as this is so vague that any database will accomplish the job. MySQL comes to mind because it's relational, and very fast at that.
+    ...
+    A. I personally like NodeJS and ReactJS, just because they work so well with data and microservices. 
+        D3 is good at rendering any kind of charts or visualizations, and works well with React. So, I would probably pick that. Although so far the requirement is so simple, based on my vision of 3 columns filled with bubbles, that we could probably render a pretty good column of bubbles with ReactJS without any visualization library at all.
+        If we consider the local-storage of this data, on the client, then React will definitely do a great job. Each column can be its own component, with its own list of data, handle its own API requests, and display its own chart - all without duplicating code - because it will tap into a common codebase for the REST API calls and Bubble-rendering components.
+
+*/
+
+
+/*
+    #6
+    Q. Hospital application stack
+    ...
+    Again, this requirement is so vague that really anything will accomplish the job.
+    But, this is billing and insurance information - serious stuff! So we must ensure top security.
+    Unfortunately, I have not dealt a lot with security concerns, especially back-end. Most I've done is one-way hashed passwords before sending them or storing them.
+    ...
+    A. Honestly, I would suggest to ask someone that is more experienced than myself on the matter. This is what I would do - read a lot, and if possible - ask people more experienced with security.
+        I would pick NodeJS + ReactJS (+ Redux) just because I am most comfortable with this. I have more experience in PHP + AngularJS, but have a much better feeling that I didn't forget to configure or escape something when working with Node and React.
+*/
+
+
+/*
+    #7
+    Q. Why Curry?
+    A. Simpler is usually better - less to break, easier to test - thus more reliable. Also might be worth it just to split up the logic and codebase from one big confusing mess into several more easily-digestible functions. Did I miss anything? Seriously, I'd like to know.
+*/
+
+
+/*
+    #8
+    Q. Return all first names from array of objects
+    A. Not necessary ES6, but uses the ES6 shorthand:
+*/
+const ducks = [
+    { first: 'Stan' , last: 'duck' },
+    { first: 'Steve' , last: 'duck' },
+    { first: 'Kyle' , last: 'duck' },
+];
+function firstName(arr){
+    var result = arr.map(a => a.first);
+    return result;
+}
+console.log('#8',firstName(ducks));
+
+
+/*
+    #9
+    Q. What will this return?
+    A. I knew that. :P
+*/
+function currentUser () {
+    const users = [
+        {name: 'John Doe',}
+    ]
+    return {
+        currentUserName: users[ 0 ].name
+    }
+}
+console.log('#9',currentUser());
+
+
+/*
+    #10
+    Q. Multithreaded vs Multiprocess
+    A. From what I could gather, threads seem to be easier to initiate and multiply, as in software. Processes are more tied to the hardware, as in physically enabling extra CPU cores.
+*/
+
+
+/*
+    #11
+    Q. Combine arrays
+    A. Credit goes to: https://stackoverflow.com/questions/35903850/combine-json-arrays-by-key-javascript
+*/
+const data1 = [
+    {id: 1 , name: 'Aaa' , value: 10 },
+    {id: 2 , name: 'Bbb' , value: 20 },
+    {id: 3 , name: 'Ccc' , value: 30 },
+    {id: 4 , name: 'Ddd' , value: 40 },
+    {id: 5 , name: 'Eee' , value: 50 },
+];
+const data2 = [
+    {id: 3 , name: 'Ccc' , value: 30 },
+    {id: 4 , name: 'Ddd' , value: 40 },
+    {id: 5 , name: 'Eee' , value: 50 },
+    {id: 6 , name: 'Fff' , value: 60 },
+    {id: 7 , name: 'Ggg' , value: 70 },
+];
+function joinObjects() {
+    var idMap = {};
+    // Iterate over arguments
+    for(var i = 0; i < arguments.length; i++) { 
+    // Iterate over individual argument arrays (aka json1, json2)
+    for(var j = 0; j < arguments[i].length; j++) {
+        var currentID = arguments[i][j]['id'];
+        if(!idMap[currentID]) {
+            idMap[currentID] = {};
+        }
+        // Iterate over properties of objects in arrays (aka id, name, etc.)
+        for(key in arguments[i][j]) {
+            idMap[currentID][key] = arguments[i][j][key];
+        }
+    }
+    }
+    // push properties of idMap into an array
+    var newArray = [];
+    for(property in idMap) {
+    newArray.push(idMap[property]);
+    }
+    return newArray;
+}
+console.log('#11', joinObjects(data1,data2));
+
+
+/*
+    #12
+    Q. Typesafe
+    A. In a language that's typesafe, you have to declare the type of variable when creating that variable, and it can not change. Javascript is not typesafe, but we can use pre-compilers (Flow, and Typescript) to mimic this.
+*/
+
+
+/*
+    #13-18
+    I don't call myself a back-end developer, but can do it - will just need a bit more time to get advice, look things up, and test things out.
+*/
+/*
+    #20
+    Closures are a way to mimic Class type functionality in ES5
+*/
+/*
+    #21
+    <div style="display:flex; align-items:center; justify-content:center;height:400px;border:solid 1px white;"><h1>$</h1></div>
+*/
+/*
+    #22
+    Lazy loading / code-splitting, better architecture maybe?
+*/
+/*
+    #23
+    restrict="c" only matches classname
+*/
+/*
+    #24
+    If it's not my server, I usually poke around all the URLs and GET/POST options, to see if other things work properly - hopefully narrow down the problem.
+    If it is my server, that's scary. I'd do the same at first to get an idea of the problem. Then, check the log files, then SSH in and check the processes, then get to hacking the codebase.
+*/
+/*
+    #25
+    If disaster happens, revert to previous commit. Check that everything is as expected. Then push that previous commit to HEAD.
+    git reset --hard commitHash
+    git push origin HEAD --force
+*/
+
+</code></pre>
+
+<script>
+/*
+    #1
+    Q. Sort this string
+    A. I will assume you want numbers first, from 0-9, then letters A-Z. 
+    ... But what to do with special characters? Should those be before, after, in the middle? So, I'll just take a shortcut and ignore them, using the default Array.sort() functionality.
+*/
+var one = function(str){
+    var sorted = str.split('').sort().join('');
+    return sorted;
+}
+console.log('#1',one('adsfadlkj342143423424das*()&#'));
+
+
+/*
+    #2
+    Q. Add a one second pause between these logs.
+    A. Aha... That "async" is a nice hint! But its actually the easiest way to accomplish the job, because you can't really stick that "return x;" inside a function. It won't work.
+    ... Side note - If I don't use "this.", then I don't use the ES6 arrow function. This way, if I see an arrow function - I know it refers to its parent Class. It saves me time remembering the intention of that function.
+*/
+function waitASecond() {
+  return new Promise(function(resolve){
+    setTimeout(function(){
+      resolve();
+    }, 1000);
+  });
+}
+async function two () {
+    let x = 0 ;
+    console .log('#2 Value:' , ++x);
+    await waitASecond();
+    console .log('#2 Value:', ++x);
+    return x;
+}
+two();
+
+
+/*
+    #3
+    Q. Dedupe using hash table
+    A. Converting it to Map(), while ignoring any duplicate entries.
+    ... But what to do with the duplicate entries? Throwing them out seems kind of wasteful! Let's just give them a more specific "id" field?
+*/
+var dupedUsers = [
+    { id: 1 , email: 'foo@example.com' },
+    { id: 2 , email: 'bar@example.com' },
+    { id: 1 , email: 'bin@example.com' },
+];
+function dedupe(arr) {
+    // in: array 
+    // out: hash
+    if (!Array.isArray(arr)) {
+        throw "expected input to be array, as in: []";
+    }
+    var hash = new Map();
+    // add each unique row to new table
+    arr.forEach(function(row, i){
+        // throw out any dup rows
+        if (!hash.get(row.id)) {
+            hash.set(row.id, row.email);
+        }
+    });
+    // done
+    return hash;
+}
+console.log('#3',dedupe(dupedUsers));
+
+
+/*
+    #4
+    Q. What to do when API endpoint can't find /project/42
+    A. Let's imagine this was a regular webpage. If the entry for /blog/cutest-puppies is not found, most systems throw a 404 error, or maybe redirect to the homepage
+    ... In architecting an API, I tend to follow the same basic rules with URLs. This "42" is not a search term, or optional query, but part of the URL. Thus, if there is no "/project/" 42, there is no "/project/42"
+    ... This would be a discussion to have with the team ...fight, fight, fight!... majority and seniority wins!
+    ... Very interesting discussion: https://stackoverflow.com/questions/11746894/what-is-the-proper-rest-response-code-for-a-valid-request-but-an-empty-data
+    ... And again 404 wins: https://softwareengineering.stackexchange.com/questions/203492/when-to-use-http-status-code-404-in-an-api
+*/
+
+
+/*
+    #5
+    Q. Bubble chart stack
+    ...
+    Here's what I envision:
+        3 columns, spread evenly across the width of the screen.
+        3 data lists: projects, employees, and technologies
+        At first, we send an API request for each column, simply getting all available entries.
+        When user selects one project, the other 2 columns send an API request with a query limiting results to pertain to only that project.
+        Each column upates individually, based on the global variable of what (project, employee, tech) is selected (or if nothing is selected).
+    This can be accomplished in any server language, client language, storage system, or rendering tools.
+    Storage system can be anything, as this is so vague that any database will accomplish the job. MySQL comes to mind because it's relational, and very fast at that.
+    ...
+    A. I personally like NodeJS and ReactJS, just because they work so well with data and microservices. 
+        D3 is good at rendering any kind of charts or visualizations, and works well with React. So, I would probably pick that. Although so far the requirement is so simple, based on my vision of 3 columns filled with bubbles, that we could probably render a pretty good column of bubbles with ReactJS without any visualization library at all.
+        If we consider the local-storage of this data, on the client, then React will definitely do a great job. Each column can be its own component, with its own list of data, handle its own API requests, and display its own chart - all without duplicating code - because it will tap into a common codebase for the REST API calls and Bubble-rendering components.
+
+*/
+
+
+/*
+    #6
+    Q. Hospital application stack
+    ...
+    Again, this requirement is so vague that really anything will accomplish the job.
+    But, this is billing and insurance information - serious stuff! So we must ensure top security.
+    Unfortunately, I have not dealt a lot with security concerns, especially back-end. Most I've done is one-way hashed passwords before sending them or storing them.
+    ...
+    A. Honestly, I would suggest to ask someone that is more experienced than myself on the matter. This is what I would do - read a lot, and if possible - ask people more experienced with security.
+        I would pick NodeJS + ReactJS (+ Redux) just because I am most comfortable with this. I have more experience in PHP + AngularJS, but have a much better feeling that I didn't forget to configure or escape something when working with Node and React.
+*/
+
+
+/*
+    #7
+    Q. Why Curry?
+    A. Simpler is usually better - less to break, easier to test - thus more reliable. Also might be worth it just to split up the logic and codebase from one big confusing mess into several more easily-digestible functions. Did I miss anything? Seriously, I'd like to know.
+*/
+
+
+/*
+    #8
+    Q. Return all first names from array of objects
+    A. Not necessary ES6, but uses the ES6 shorthand:
+*/
+const ducks = [
+    { first: 'Stan' , last: 'duck' },
+    { first: 'Steve' , last: 'duck' },
+    { first: 'Kyle' , last: 'duck' },
+];
+function firstName(arr){
+    var result = arr.map(a => a.first);
+    return result;
+}
+console.log('#8',firstName(ducks));
+
+
+/*
+    #9
+    Q. What will this return?
+    A. I knew that. :P
+*/
+function currentUser () {
+    const users = [
+        {name: 'John Doe',}
+    ]
+    return {
+        currentUserName: users[ 0 ].name
+    }
+}
+console.log('#9',currentUser());
+
+
+/*
+    #10
+    Q. Multithreaded vs Multiprocess
+    A. From what I could gather, threads seem to be easier to initiate and multiply, as in software. Processes are more tied to the hardware, as in physically enabling extra CPU cores.
+*/
+
+
+/*
+    #11
+    Q. Combine arrays
+    A. Credit goes to: https://stackoverflow.com/questions/35903850/combine-json-arrays-by-key-javascript
+*/
+const data1 = [
+    {id: 1 , name: 'Aaa' , value: 10 },
+    {id: 2 , name: 'Bbb' , value: 20 },
+    {id: 3 , name: 'Ccc' , value: 30 },
+    {id: 4 , name: 'Ddd' , value: 40 },
+    {id: 5 , name: 'Eee' , value: 50 },
+];
+const data2 = [
+    {id: 3 , name: 'Ccc' , value: 30 },
+    {id: 4 , name: 'Ddd' , value: 40 },
+    {id: 5 , name: 'Eee' , value: 50 },
+    {id: 6 , name: 'Fff' , value: 60 },
+    {id: 7 , name: 'Ggg' , value: 70 },
+];
+function joinObjects() {
+  var idMap = {};
+  // Iterate over arguments
+  for(var i = 0; i < arguments.length; i++) { 
+    // Iterate over individual argument arrays (aka json1, json2)
+    for(var j = 0; j < arguments[i].length; j++) {
+       var currentID = arguments[i][j]['id'];
+       if(!idMap[currentID]) {
+          idMap[currentID] = {};
+        }
+       // Iterate over properties of objects in arrays (aka id, name, etc.)
+      for(key in arguments[i][j]) {
+          idMap[currentID][key] = arguments[i][j][key];
+      }
+    }
+  }
+  // push properties of idMap into an array
+  var newArray = [];
+  for(property in idMap) {
+    newArray.push(idMap[property]);
+  }
+  return newArray;
+}
+console.log('#11', joinObjects(data1,data2));
+
+
+/*
+    #12
+    Q. Typesafe
+    A. In a language that's typesafe, you have to declare the type of variable when creating that variable, and it can not change. Javascript is not typesafe, but we can use pre-compilers (Flow, and Typescript) to mimic this.
+*/
+</script>
+
+<link href="/lib/rainbow/themes/monokai.css" rel="stylesheet" type="text/css">
+<script src="/lib/rainbow/js/rainbow.min.js"></script>
+<script src="/lib/rainbow/js/language/generic.js"></script>
+<script src="/lib/rainbow/js/language/javascript.js"></script>
+
+</body>
+</html>
