@@ -251,7 +251,7 @@ console.log('#11', joinObjects(data1,data2));
 */
 /*
     #21
-    <div style="display:flex; align-items:center; justify-content:center;height:400px;border:solid 1px white;"><h1>$</h1></div>
+    style=&quot;display:flex; align-items:center; justify-content:center;height:400px;border:solid 1px white;&quot;
 */
 /*
     #22
@@ -454,27 +454,27 @@ const data2 = [
     {id: 7 , name: 'Ggg' , value: 70 },
 ];
 function joinObjects() {
-  var idMap = {};
-  // Iterate over arguments
-  for(var i = 0; i < arguments.length; i++) { 
+    var idMap = {};
+    // Iterate over arguments
+    for(var i = 0; i < arguments.length; i++) { 
     // Iterate over individual argument arrays (aka json1, json2)
     for(var j = 0; j < arguments[i].length; j++) {
-       var currentID = arguments[i][j]['id'];
-       if(!idMap[currentID]) {
-          idMap[currentID] = {};
+        var currentID = arguments[i][j]['id'];
+        if(!idMap[currentID]) {
+            idMap[currentID] = {};
         }
-       // Iterate over properties of objects in arrays (aka id, name, etc.)
-      for(key in arguments[i][j]) {
-          idMap[currentID][key] = arguments[i][j][key];
-      }
+        // Iterate over properties of objects in arrays (aka id, name, etc.)
+        for(key in arguments[i][j]) {
+            idMap[currentID][key] = arguments[i][j][key];
+        }
     }
-  }
-  // push properties of idMap into an array
-  var newArray = [];
-  for(property in idMap) {
+    }
+    // push properties of idMap into an array
+    var newArray = [];
+    for(property in idMap) {
     newArray.push(idMap[property]);
-  }
-  return newArray;
+    }
+    return newArray;
 }
 console.log('#11', joinObjects(data1,data2));
 
