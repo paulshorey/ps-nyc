@@ -10,32 +10,32 @@ var open = require('gulp-open');
 var sh = require('shelljs');
 var autoprefixer = require("gulp-autoprefixer");
 var paths = {
-  sass: ['./www/scss/**/*.scss']
+  sass: ['./www/assets/scss/**/*.scss']
 };
 
 gulp.task('default', ['sass']);
 
 gulp.task('sass', function(done) {
-  gulp.src('./www/scss/*.scss')
+  gulp.src('./www/assets/scss/*.scss')
     .pipe(sass({compass:true}))
     .on('error', sass.logError)
     .pipe(autoprefixer({
 			browsers: ['last 4 versions'],
 			cascade: false
 		}))
-    .pipe(gulp.dest('./www/css/'))
+    .pipe(gulp.dest('./www/assets/css/'))
     // .pipe(minifyCss({
     //   keepSpecialComments: 0
     // }))
     // .pipe(rename({ extname: '.min.css' }))
-    // .pipe(gulp.dest('./www/css/'))
+    // .pipe(gulp.dest('./www/assets/css/'))
     .on('end', done);
 });
 
 gulp.task('concat', function() {
-  return gulp.src('./www/css/*.css')
+  return gulp.src('./www/assets/css/*.css')
     .pipe(concat('all.css'))
-    .pipe(gulp.dest('./www'));
+    .pipe(gulp.dest('./www/assets'));
 });
 
 
