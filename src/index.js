@@ -1,7 +1,9 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// import registerServiceWorker from './registerServiceWorker';
-import './scss/home.scss';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import registerServiceWorker from './registerServiceWorker';
+import './index.css';
 
-// ReactDOM.render(<div />, document.getElementById('root'));
-// registerServiceWorker();
+import Chat from './chat/App';
+ReactDOM.render(<Chat />, document.getElementById('react-chat'));
+
+registerServiceWorker();
