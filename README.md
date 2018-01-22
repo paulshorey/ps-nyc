@@ -23,5 +23,5 @@ node app.js
 This serves the site, from the "/build" folder, which is where this new React workflow saves compiled files.  
 But, in reality, this node process is started and managed by a bash script:
 ```
-bash _cron/app.sh
+bash _boot/app.sh
 ```
