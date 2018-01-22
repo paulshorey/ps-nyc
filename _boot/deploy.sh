@@ -2,5 +2,5 @@
 
 sleep 30
 
-cd /www/ps-nyc
+cd /www/ps
 node _deploy.js
