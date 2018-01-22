@@ -14,6 +14,23 @@
   100% {
     box-shadow: 0 0 5px 0 orange; } }
 
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px white inset;}
+*:focus {
+  outline: none;
+}
+input::-webkit-input-placeholder {
+  color: #999 !important;
+  }
+  input:-moz-placeholder { /* Firefox 18- */
+  color: #999 !important;  
+  }
+  input::-moz-placeholder {  /* Firefox 19+ */
+  color: #999 !important;  
+  }
+  input:-ms-input-placeholder {  
+  color: #999 !important;  
+  }
+  
 html {
   font-size: 16.5px; }
 

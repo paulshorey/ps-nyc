@@ -1,3 +1,8 @@
+
+	$.getScript('/assets/js/rainbow/js/rainbow.min.js');
+	// $.getScript('/assets/js/rainbow/js/language/generic.js');
+	// $.getScript('/assets/js/rainbow/js/language/javascript.js');
+
 	$('video').parent().click(function () {
 	    if($(this).find("video").get(0).paused){
 	        $(this).find("video").get(0).play();
