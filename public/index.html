@@ -100,7 +100,8 @@
 			<video src="screencasts/alleventsnyc/video.webm" controls preload="none" poster="screencasts/alleventsnyc/first.png"></video>
 		</div>
 		<div class="description">
-			"Mobile-first" design all the way! Responsive AngularJS web app, made with Ionic, to work as a standalone iPhone and Android app too. An experiment in content curation and aggregation. PhantomJS bot constantly crawls the web, updating events in the database. After a busy workday, see what's going on in town. This crawling system and user interface can very quickly be adapted to any type of content or niche. <a href="javascript:scrollToCode();">Code samples below <span class="uui-icon icon-select"></span></a>
+			Responsive AngularJS web app, made with Ionic, to work as a standalone iPhone and Android app too. An experiment in content curation and aggregation. PhantomJS bot constantly crawls the web, updating events in the database. After a busy workday, see what's going on in town. This crawling system and user interface can very quickly be adapted to any type of content or niche. 
+			<!-- <a href="javascript:scrollToCode();">Code samples below <span class="uui-icon icon-select"></span></a> -->
 			<!-- <p style="color:#999;">I've realized that I should focus on Front-End UI instead of trying to manage my own Back-End and DevOps and algorithms. So, I'm currently changing this project to use <a href="https://www.apify.com/" target="_blank">APIFY</a>, which is very powerful and has JSON API endpoints for everything! I highly recommend them for all your scraping needs.<p> -->
 		</div>
 	</article>
@@ -145,10 +146,6 @@ window.intercomSettings = {
 <script>(function(){var w=window;var ic=w.Intercom;if(typeof ic==="function"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/n3eu87pp';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>
 
 <!-- index-lazy.html -->
-<link href="/assets/js/rainbow/themes/monokai.css" rel="stylesheet" type="text/css">
-<!-- <script src="/assets/js/rainbow/js/rainbow.min.js"></script>
-<script src="/assets/js/rainbow/js/language/generic.js"></script>
-<script src="/assets/js/rainbow/js/language/javascript.js"></script> -->
 <script>
 	jQuery.ajax({
 		url: 'index-lazy.html',
@@ -165,49 +162,5 @@ window.intercomSettings = {
 
 <!-- etc -->
 <script src="/assets/js/cycle/cycle.min.js"></script>
-<link href="/assets/js/rainbow/themes/monokai.css" rel="stylesheet" type="text/css">
 
-<!-- vue experiment -->
-<!-- <script src="https://unpkg.com/vue@2.1.10/dist/vue.js"></script>
-<script>
-Vue.component('todo-component', {
-    template: '#todo-component',
-    data: function () {
-		console.log('inside todo comp.. data');
-        return {
-            items: [
-                {
-                    id: 'item-1',
-                    title: 'Checkout vue',
-                    completed: false
-                }, {
-                    id: 'item-2',
-                    title: 'Use this stuff!!',
-                    completed: false
-                }
-            ],
-            newItem: ''
-
-        };
-    },
-    methods: {
-        addItem: function () {
-            if (this.newItem) {
-                var item = {
-                    id: Math.random(0, 10000),
-                    title: this.newItem,
-                    completed: false
-                };
-
-                this.items.push(item);
-                this.newItem = '';
-            }
-        }
-    }
-});
-
-var app = new Vue({
-    el: '#vue-app'
-});
-</script> -->
 </html>
