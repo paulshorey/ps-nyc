@@ -139,7 +139,7 @@ class App extends Component {
 						<div className="avatar avatarFrom"></div>
 					</div>
 
-					<p style={{color:"#999"}}>Here's a fun code sample. Made this embedded app, including setting up servers, in one day. Send a message. I will receive it immediately via SMS (Twilio). If I am at my phone and text back, you will see my reply here. How cool is that? <a href="https://github.com/paulshorey/ps-api" target="_blank" rel="noopener noreferrer">Node.js</a> back-end <a href="https://github.com/paulshorey/ps" target="_blank" rel="noopener noreferrer">React</a> front-end (GitHub).</p>
+					<p style={{color:"#999"}}>Here's a fun code sample. Made this embedded app in one day, including setting up servers. Send a message. I will receive it immediately via SMS (Twilio). If I am at my phone and text back, you will see my reply here. How cool is that? <a href="https://github.com/paulshorey/ps-api" target="_blank" rel="noopener noreferrer">Node.js</a> back-end <a href="https://github.com/paulshorey/ps" target="_blank" rel="noopener noreferrer">React</a> front-end (GitHub).</p>
 
 					{/* <p style={{color:"#999"}}>
 						{
