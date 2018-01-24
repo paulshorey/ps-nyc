@@ -89,7 +89,7 @@
 	// stylesheet
 	var styleSheet = document.createElement('style');
 	styleSheet.type = 'text/css';
-	var css = "" + "#" + meta.uid + " form {display:flex;max-width: 250px;} " + "#" + meta.uid + " input {border:solid 1px #25BEE4;flex-grow:1;} " + "#" + meta.uid + " input.invalid {border:solid 1px red;} " + "#" + meta.uid + " button {background:#25BEE4;border:none;border-radius:0;display:block;min-width:80px;padding:4px 6px 6px 4px;color:#fff;font-weight:bold;cursor:} " + "#" + meta.uid + " *:focus {outline: none;}" + "";
+	var css = "" + "#" + meta.uid + " form {display:flex;max-width: 270px;} " + "#" + meta.uid + " input {border:solid 1px #25BEE4;flex-grow:1;} " + "#" + meta.uid + " input.invalid {border:solid 1px red;} " + "#" + meta.uid + " button {background:#25BEE4;border:none;border-radius:0;display:block;min-width:100px;padding:4px 6px 6px 4px;color:#fff;font-weight:bold;cursor:} " + "#" + meta.uid + " *:focus {outline: none;}" + "";
 	styleSheet.appendChild(document.createTextNode(css));
 	document.head.appendChild(styleSheet);
 	var styleContainer = "" + "font-family: sans-serif;" + "font-size: 15px;" + "line-height: 17px;" + "color: #25BEE4;" + "";
