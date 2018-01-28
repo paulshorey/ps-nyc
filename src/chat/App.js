@@ -17,7 +17,7 @@ class App extends Component {
 		this.handleFormSubmit = this.handleFormSubmit.bind(this);
 
 		// WS
-		this.sock = new SockJS('http://api.paulshorey.com:8888/chat');
+		this.sock = new SockJS('http://api.paulshorey.com:1101/v1/chat/WS');
 		// WS CONNECT
 		this.sock.onopen = () => {
 			// enable chat
