@@ -1,0 +1,80 @@
+body {
+    font-family:sans-serif;
+    margin:1rem;
+}
+
+.job {
+    position:relative;
+    padding-bottom:1rem;
+    margin:1rem;
+    border-bottom:solid 1px lightgrey;
+}
+.jobTitle {
+    font-size:1.3rem;
+    font-weight:bold;
+}
+.jobTitle a {
+    color:inherit;
+    text-decoration:underline;
+}
+.jobTitle a:visited {
+    color:royalblue;
+    text-decoration:underline;
+}
+.jobSubtitle {
+    font-size:1.2rem;
+    color:grey;
+}
+.jobSubtitle a:visited {
+    color:royalblue;
+}
+.jobSubtitle a {
+    opacity:0.66;
+}
+.jobText {
+    font-size:1rem;
+    color:darkgrey;
+}
+
+
+.jobActions {
+    position:absolute;
+    top:-0.25rem;
+    right:-0.25rem;
+    z-index:100;
+}
+.jobActions span {
+    font-size:1.3rem;
+    line-height:1rem;
+    display:inline-block;
+    font-weight:bold;
+    margin:0.25rem;
+    padding:0.125rem 0.25rem 0.325rem 0.25rem;
+    color:white;
+    background:orange;
+    opacity:0.66;
+}
+
+
+
+.list {
+}
+.listTitle {
+    position:relative;
+    background:orange;
+    color:white;
+    opacity:0.66;
+    margin:0 0 0.5rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    padding: 0 1rem;
+}
+.listTitle .iconsRight {
+    vertical-align: middle;
+    font-size: 1.2rem;
+    position: absolute;
+    right: 0.92rem;
+    top: 0.125rem;
+}
+.listContent {
+}
