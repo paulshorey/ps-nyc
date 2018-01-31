@@ -7,7 +7,7 @@ body {
     position:relative;
     padding-bottom:1rem;
     margin:1rem;
-    border-bottom:solid 1px lightgrey;
+    border-bottom:solid 1px #999;
 }
 .jobTitle {
     font-size:1.3rem;
@@ -18,22 +18,22 @@ body {
     text-decoration:underline;
 }
 .jobTitle a:visited {
-    color:grey;
+    color:#999;
     text-decoration:underline;
 }
 .jobSubtitle {
     font-size:1.2rem;
-    color:grey;
+    color:#999;
 }
 .jobSubtitle a:visited {
-    color:grey;
+    color:#999;
 }
 .jobSubtitle a {
     opacity:0.66;
 }
 .jobText {
     font-size:1rem;
-    color:darkgrey;
+    color:#999;
 }
 
 
@@ -53,6 +53,7 @@ body {
     color:white;
     background:orange;
     opacity:0.66;
+    cursor:pointer;
 }
 
 
