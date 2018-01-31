@@ -1,14 +1,24 @@
 
 
 class Job extends React.Component {
+    markIntrigued(){
+    }
+    markMaybe(){
+    }
+    markApplied(){
+    }
+    markIgnored(){
+    }
     render() {
         return (
             <div className="job">
 
-                {/* <div className="jobActions">
-                    <span className="markApplied">+</span>
-                    <span className="markIgnored">-</span>
-                </div> */}
+                <div className="jobActions">
+                    <span className="markIntrigued" onClick={this.markIntrigued}>!</span>
+                    <span className="markMaybe" onClick={this.markMaybe}>?</span>
+                    <span className="markApplied" onClick={this.markApplied}>+</span>
+                    <span className="markIgnored" onClick={this.markIgnored}>-</span>
+                </div>
 
                 <div className="jobTitle"><a href={this.props.data.link} target="_blank">{this.props.data.name}</a></div>
                 <div className="jobSubtitle">
@@ -30,7 +40,9 @@ class List extends React.Component {
         this.initialState = {
             jobs_new: [],
             jobs_applied: [],
-            jobs_ignored: []
+            jobs_ignored: [],
+            jobs_maybe: [],
+            jobs_intrigued: []
         }
         this.state = Object.assign({},this.initialState);
         // get
@@ -52,7 +64,6 @@ class List extends React.Component {
                         newState.jobs_new.push(results.data[i]);
                     }
                 }
-                console.log('newState',newState);
                 // view
                 // if (thisScope._mounted) {
                     thisScope.setState(newState);
@@ -66,9 +77,9 @@ class List extends React.Component {
     componentWillUnmount(){
         this._mounted = false;
     }
-    renderJobs = (inWhatList)=>{
+    renderJobs = (filter)=>{
         // data
-        var data = this.state["jobs_"+inWhatList];
+        var data = this.state["jobs_"+(filter.status)];
 
         // view
         var ToRender = [];
@@ -80,14 +91,23 @@ class List extends React.Component {
     render() {
         return (
         <div className="wrapper">
-            {/* <div className="list">
+            <div className="list">
                 <div className="listTitle">
-                    Ignored
+                    Intrigued
                     <span className="iconsRight">
                         <span className="icon-options-large"></span>
                     </span>
                 </div>
-                <div className="listContent">{this.renderJobs("ignored")}</div>
+                <div className="listContent">{this.renderJobs({status:"intrigued"})}</div>
+            </div>
+            <div className="list">
+                <div className="listTitle">
+                    Maybe
+                    <span className="iconsRight">
+                        <span className="icon-options-large"></span>
+                    </span>
+                </div>
+                <div className="listContent">{this.renderJobs({status:"maybe"})}</div>
             </div>
             <div className="list">
                 <div className="listTitle">
@@ -96,8 +116,17 @@ class List extends React.Component {
                         <span className="icon-options-large"></span>
                     </span>
                 </div>
-                <div className="listContent">{this.renderJobs("applied")}</div>
-            </div> */}
+                <div className="listContent">{this.renderJobs({status:"applied"})}</div>
+            </div>
+            <div className="list">
+                <div className="listTitle">
+                    Ignored
+                    <span className="iconsRight">
+                        <span className="icon-options-large"></span>
+                    </span>
+                </div>
+                <div className="listContent">{this.renderJobs({status:"ignored"})}</div>
+            </div>
             <div className="list">
                 <div className="listTitle">
                     NEW
@@ -105,7 +134,7 @@ class List extends React.Component {
                         <span className="icon-options-large"></span>
                     </span>
                 </div>
-                <div className="listContent">{this.renderJobs("new")}</div>
+                <div className="listContent">{this.renderJobs({status:"new"})}</div>
             </div>
         </div>
         );

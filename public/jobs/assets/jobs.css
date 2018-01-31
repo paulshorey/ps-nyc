@@ -18,7 +18,7 @@ body {
     text-decoration:underline;
 }
 .jobTitle a:visited {
-    color:royalblue;
+    color:grey;
     text-decoration:underline;
 }
 .jobSubtitle {
@@ -26,7 +26,7 @@ body {
     color:grey;
 }
 .jobSubtitle a:visited {
-    color:royalblue;
+    color:grey;
 }
 .jobSubtitle a {
     opacity:0.66;
