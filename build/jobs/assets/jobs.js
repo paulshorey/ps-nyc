@@ -1,7 +1,22 @@
 
 
 class Job extends React.Component {
-    markIntrigued(){
+    markIntrigued=()=>{
+        console.log('markIntrigued', this.props.data._id);
+
+        var postData = {
+            _id: this.props.data._id,
+            _status:"intrigued"
+        };
+        
+        fetch('http://api.paulshorey.com/v1/job', {
+            method: 'PUT',
+            body: postData
+        })
+        .then((response) => {
+            console.log('PUT sent');
+            console.log(response.json());
+        })
     }
     markMaybe(){
     }
@@ -41,8 +56,7 @@ class List extends React.Component {
             jobs_new: [],
             jobs_applied: [],
             jobs_ignored: [],
-            jobs_maybe: [],
-            jobs_intrigued: []
+            jobs_visited: []
         }
         this.state = Object.assign({},this.initialState);
         // get
@@ -59,6 +73,8 @@ class List extends React.Component {
                     if (res._status==="applied") {
                         newState.jobs_applied.push(results.data[i]);
                     } else if (res._status==="ignored") {
+                        newState.jobs_ignored.push(results.data[i]);
+                    } else if (res._status==="visited") {
                         newState.jobs_ignored.push(results.data[i]);
                     } else {
                         newState.jobs_new.push(results.data[i]);
@@ -93,21 +109,12 @@ class List extends React.Component {
         <div className="wrapper">
             <div className="list">
                 <div className="listTitle">
-                    Intrigued
+                    Visited
                     <span className="iconsRight">
                         <span className="icon-options-large"></span>
                     </span>
                 </div>
-                <div className="listContent">{this.renderJobs({status:"intrigued"})}</div>
-            </div>
-            <div className="list">
-                <div className="listTitle">
-                    Maybe
-                    <span className="iconsRight">
-                        <span className="icon-options-large"></span>
-                    </span>
-                </div>
-                <div className="listContent">{this.renderJobs({status:"maybe"})}</div>
+                <div className="listContent">{this.renderJobs({status:"visited"})}</div>
             </div>
             <div className="list">
                 <div className="listTitle">
