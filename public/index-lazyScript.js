@@ -60,7 +60,7 @@
 	}
 	function scrollToCode(){
 		$('html, body').animate({
-			scrollTop: $('a[name="scrollToCode"]').eq(0).offset().top-70
+			scrollTop: $('a[name="scrollToCode"]').eq(0).offset().top-20
 		}, 2000);
 	}
 	function scrollToMe(){
