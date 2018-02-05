@@ -96,7 +96,6 @@ class App extends Component {
 				MessageText = <span className="text">{data.message} </span>;
 			}
 			let MessageUser = null;
-			console.log('message user',data.user);
 			if (data.user && data.user.name) {
 				MessageUser = <span className="user">~ {data.user.name} </span>;
 			}
@@ -138,6 +137,14 @@ class App extends Component {
 
 						<div className="avatar avatarFrom"></div>
 					</div>
+					
+					{
+						(this.state.messages.length===1)
+						?
+						<p style={{color:"#999"}}>If I don't respond right away, just text me your email address, and I'll get back to you ASAP!</p>
+						:
+						null
+					}
 
 					<p style={{display:"none",color:"#999"}}>Here's a fun and quick code sample. Send a message. I will receive it immediately via SMS (Twilio). If I'm at my phone and text back, you'll get my reply. Otherwise, a loading animation where my reply would be. <a href="https://github.com/paulshorey/ps-api#myREADME" target="_blank" rel="noopener noreferrer">Node.js</a> back-end <a href="https://github.com/paulshorey/ps" target="_blank" rel="noopener noreferrer">React</a> front-end (GitHub).</p>
 
