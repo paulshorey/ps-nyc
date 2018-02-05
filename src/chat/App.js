@@ -139,7 +139,7 @@ class App extends Component {
 						<div className="avatar avatarFrom"></div>
 					</div>
 
-					<p style={{color:"#999"}}>Here's a fun and quick code sample. Send a message. I will receive it immediately via SMS (Twilio). If I'm at my phone and text back, you'll get my reply. Otherwise, a loading animation where my reply would be. <a href="https://github.com/paulshorey/ps-api#myREADME" target="_blank" rel="noopener noreferrer">Node.js</a> back-end <a href="https://github.com/paulshorey/ps" target="_blank" rel="noopener noreferrer">React</a> front-end (GitHub).</p>
+					<p style={{display:"none",color:"#999"}}>Here's a fun and quick code sample. Send a message. I will receive it immediately via SMS (Twilio). If I'm at my phone and text back, you'll get my reply. Otherwise, a loading animation where my reply would be. <a href="https://github.com/paulshorey/ps-api#myREADME" target="_blank" rel="noopener noreferrer">Node.js</a> back-end <a href="https://github.com/paulshorey/ps" target="_blank" rel="noopener noreferrer">React</a> front-end (GitHub).</p>
 
 					{/* <p style={{color:"#999"}}>
 						{

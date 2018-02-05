@@ -30,6 +30,9 @@ input::-webkit-input-placeholder {
   input:-ms-input-placeholder {  
   color: #999 !important;  
   }
+  a:hover {
+    text-decoration:none;
+  }
   
 html {
   font-size: 16.5px; }
@@ -114,9 +117,6 @@ section {
       right: 0; }
       section header .h-right .ion-thumbsup:before {
         font-size: 125%; }
-      section header .h-right .icon-select:before {
-        vertical-align: -2px;
-        font-size: 90%; }
   section article {
     margin: 0 0 4rem;
     max-width: 100vw;
@@ -209,11 +209,6 @@ body.ready .h-hidden {
 
 body.ready .h-visible {
   opacity: 0; }
-
-article .description a .icon-select:before {
-  position: relative;
-  top: 4.2px;
-  left: 1.5px; }
 
 article .description a:hover .icon-select:before {
   text-decoration: none; }
