@@ -1,5 +1,6 @@
 #
-# Finally upgraded my homepage dev environment...
+# PaulShorey.com  
+Transitioning to modern React/Webpack process, but still simple static website. Now it just has a small React app injected into it.  
 
 
 #
