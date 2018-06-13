@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Angular</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="assets/icomoon/style.css">
+
+    <script>
+        /* global "var global" variable required by Plotly.js npm package */
+        var global = window;
+
+        /* onResize, scroll helper */
+        function bodyOnResize() {
+            var contentW = document.getElementById('pipeline')
+                .scrollWidth || document.getElementById('pipeline').innerWidth;
+            var bodyW = window.innerWidth || document.body.clientWidth || document.documentElement
+                .clientWidth;
+
+            document.body.classList.remove('scroll-enabled');
+            document.body.classList.remove('scroll-right');
+            document.body.classList.remove('scroll-left');
+
+            if (contentW > (bodyW + 100)) {
+                document.body.classList.add('scroll-enabled');
+                if (window.pageXOffset < 20) {
+                    document.body.classList.add('scroll-right');
+                }
+                if ((bodyW + window.pageXOffset) >= (contentW - 20)) {
+                    document.body.classList.add('scroll-left');
+                }
+            }
+        }
+
+    </script>
+</head>
+
+<body onload="bodyOnResize()" onresize="bodyOnResize()" onscroll="bodyOnResize()">
+    <app-component></app-component>
+<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
+
+</html>
