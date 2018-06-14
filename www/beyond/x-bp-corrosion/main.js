@@ -306,12 +306,13 @@ var CorrosionService = /** @class */ (function () {
                 statusDanger: 500,
                 statusAlert: 1000
             },
-            temp: {
-                id: "temp",
+            temperature: {
+                id: "temperature",
                 name: "Temp.",
                 unit: "°C",
-                value: 290,
-                statusOk: 290,
+                value: 289,
+                statusOk: 289,
+                statusBad: 290,
                 statusAlert: 291
             }
         };
@@ -452,8 +453,8 @@ var CorrosionService = /** @class */ (function () {
             ms.salt.value === ms.salt.statusOk) {
             numChanged++;
         }
-        if (ms.temp.value > ms.temp.statusOk ||
-            ms.temp.value === ms.temp.statusOk) {
+        if (ms.temperature.value > ms.temperature.statusOk ||
+            ms.temperature.value === ms.temperature.statusOk) {
             numChanged++;
         }
         if (numChanged && numChanged < 2) {
@@ -479,7 +480,8 @@ var CorrosionService = /** @class */ (function () {
             this.status.problems.push("Salt level too high");
             this.status.antiCorrosionAdd += 15;
         }
-        if (ms.temp.value >= ms.temp.statusAlert) {
+        if (ms.temperature.value >=
+            (ms.temperature.statusBad || ms.temperature.statusAlert)) {
             this.status.classList += " status-bad status-temp";
             this.status.lifetimeCalculated -= 2;
             this.status.problems.push("Pipeline temperature is too high");
