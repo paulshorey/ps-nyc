@@ -1,578 +1,622 @@
 <!DOCTYPE html>
 <html>
-    <head profile='http://www.w3.org/2005/10/profile'>
-        <!-- Meta Tags -->
-        <title>Carte Blanche - Jazz Band</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-        <link rel="icon" href="/gfx/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="/gfx/content/favicon.ico" type="image/x-icon" />
-        <meta name="thumbnail" content="http://carteblanchejazzband.com/gfx/layout/thumb.jpg" />
-        <meta property="og:image" content="http://carteblanchejazzband.com/gfx/layout/thumb.jpg" />
-        <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1" />
-        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic' rel='stylesheet' type='text/css'>
-        <!-- Scripts -->
-        <script type="text/javascript" charset="utf-8" src="scripts/jquery_10.js"></script>
-        <script type="text/javascript" charset="utf-8" src="scripts/responsive.js"></script>
-        <script type="text/javascript" charset="utf-8" src="scripts/jquery_easing.js"></script>
-        <!-- Style -->
-        <link rel="stylesheet" href="/scripts/style.css" type="text/css" media="all" charset="utf-8" />
-        <!-- JPlayer
-            <link href="/scripts/jplayer/jplayer.pink.flag.css" rel="stylesheet" type="text/css" media="all" charset="utf-8" />
-            <script type="text/javascript" src="/scripts/jplayer/jquery.jplayer.min.js"></script>
-            <script type="text/javascript" src="/scripts/jplayer/jplayer.playlist.min.js"></script>
-            <script type="text/javascript" src="/scripts/vjquery.jplayer.inspector.js"></script>
-             -->
-        <!-- Body -->
-        <!--[if lt IE 7 ]> 
-    <body class="ie678 ie67 ie6 ie">
-        <![endif]-->
-        <!--[if IE 7 ]> 
-        <body class="ie678 ie67 ie7 ie notie6">
-            <![endif]-->
-            <!--[if IE 8 ]> 
-            <body class="ie678 ie78 ie8 ie notie6">
-                <![endif]-->
-                <!--[if IE 9 ]> 
-                <body class="ie6789 ie789 ie89 ie9 ie notie6">
-                    <![endif]-->
-                    <!--[if !IE]>-->
-                    <body class="standard notie6">
-                        <!--<![endif]-->
-                        <div id="body">
-                            <div id="splash"></div>
-                            <img id="stage_background" class="stage_image" src="/gfx/layout/stage_background.gif" style="background:#1d1604;" />
-                            <div class="page under">
-                                <div class="acts">
-                                    <div class="act_spacer act">
-                                        <img class="over" src="/gfx/layout/act_spacer.png" />
-                                    </div>
-                                    <div class="act_four act">
-                                        <div class="title">Photos</div>
-                                        <img class="over" src="/gfx/layout/white_four.png" />
-                                        <img class="under" src="/gfx/layout/black_four.png" />
-                                    </div>
-                                    <div class="act_two act">
-                                        <div class="title">Videos</div>
-                                        <img class="over" src="/gfx/layout/white_two.png" />
-                                        <img class="under" src="/gfx/layout/black_two.png" />
-                                    </div>
-                                    <div class="act_one act">
-                                        <div class="title">About</div>
-                                        <img class="over" src="/gfx/layout/white_one.png" />
-                                        <img class="under" src="/gfx/layout/black_one.png" />
-                                    </div>
-                                    <div class="act_three act">
-                                        <div class="title">Music</div>
-                                        <img class="over" src="/gfx/layout/white_three.png" />
-                                        <img class="under" src="/gfx/layout/black_three.png" />
-                                    </div>
-                                    <div class="act_six act">
-                                        <div class="title">Shows</div>
-                                        <img class="over" src="/gfx/layout/white_six.png" />
-                                        <img class="under" src="/gfx/layout/black_six.png" />
-                                    </div>
-                                    <div class="act_five act">
-                                        <div class="title">Contact</div>
-                                        <img class="over" src="/gfx/layout/white_five.png" />
-                                        <img class="under" src="/gfx/layout/black_five.png" />
-                                    </div>
-                                </div>
-                            </div>
-                            <img id="stage_curtain" class="stage_image" src="/gfx/layout/stage_curtain.gif" />
-                            <img id="stage_foreground" class="stage_image" src="/gfx/layout/stage_foreground.gif" />
-                            <img id="full_spotlight" class="full_image" src="/gfx/layout/full_spotlight.png" />
-                            <div id="overlay"></div>
-                            <div class="page over">
-                                <a id="back" href="javascript:;"></a>
-                                <div id="board0" class="board">
-                                    <div class="content">
-                                        <p>6-piece jazz ensemble Carte Blanche keeps vintage standards white-hot with classic French, Latin
-                                            and American jazz standards from the 1920s, 30s and 40s.
-                                            <br />
-                                            <a id="bandbio_readmore" onclick="page_open(3);">Read more &raquo;</a>
-                                        </p>
-                                        <p>Learn about each band member:</p>
-                                    </div>
-                                </div>
-                                <div class="acts">
-                                    <div class="act_spacer act">
-                                        <img class="" src="/gfx/layout/act_spacer.png" />
-                                    </div>
-                                    <div class="act_four act">
-                                        <img class="" src="/gfx/layout/act_spacer.png" />
-                                        <div class="title">Dan Parra</div>
-                                    </div>
-                                    <div class="act_two act">
-                                        <img class="" src="/gfx/layout/act_spacer.png" />
-                                        <div class="title">Kate Dunphy</div>
-                                    </div>
-                                    <div class="act_one act">
-                                        <img class="" src="/gfx/layout/act_spacer.png" />
-                                        <div class="title">Cristina Kaminis</div>
-                                    </div>
-                                    <div class="act_three act">
-                                        <img class="" src="/gfx/layout/act_spacer.png" />
-                                        <div class="title">Tomoko Omura</div>
-                                    </div>
-                                    <div class="act_six act">
-                                        <img class="" src="/gfx/layout/act_spacer.png" />
-                                        <div class="title">Sean Clapis</div>
-                                    </div>
-                                    <div class="act_five act">
-                                        <img class="" src="/gfx/layout/act_spacer.png" />
-                                        <div class="title">Cristhian Quimbay</div>
-                                    </div>
-                                </div>
-                                <div id="board1" class="board">
-                                    <div class="content">
-                                        <p>
-                                            <b>Dan Parra (bass)</b>
-                                        </p>
-                                        <p>
-                                            <img src="/gfx/content/bio_1.jpg" width="300px" style="float:left;width: 33%;margin: 0 10px 2px 0;" />Dan Parra is a double bass and electric bass player currently living in New York City. Originally
-                                            from Highland Mills, N.Y., Dan Parra moved to the city in 2007 to attend the New School for Jazz
-                                            and Contemporary Music, where he studied with Andy McKee, Jeff Carney, Reggie Workman, Richard
-                                            Boukas, Billy Harper, and Hal Galper. Since graduating in 2010, he has performed across the U.S.
-                                            and abroad, including at the 2010 Bern Jazz Festival. Aside from his role in Carte Blanche, Dan
-                                            works regularly with NYC-based rock group The Hot Club and Andrew Sisters tribute band The Tickled
-                                            Pinks. 
-                                        </p>
-                                    </div>
-                                </div>
-                                <div id="board2" class="board">
-                                    <div class="content">
-                                        <p>
-                                            <b>Kate Dunphy (Accordion)</b>
-                                        </p>
-                                        <p>
-                                            <img src="/gfx/content/bio_2.jpg" width="300px" style="float:left;width: 33%;margin: 0 10px 2px 0;" />Bandleader, accordionist, pianist and composer Kate Dunphy founded Carte Blanche in 2010. Kate
-                                            is originally from Portland, ME where she started studying the piano at age 4. She went on to
-                                            study composition under Dr. Robert Karl and Dr. David Macbride, and jazz piano with Andy Laverne
-                                            at the Hartt school of music where she was the recipient of the Edward Diamente award in composition
-                                            in 2007. Kate received her first accordion as a gift from her father in 2006 and soon discovered
-                                            her passion for the instrument. Kate performs frequently nationally and internationally with
-                                            an eclectic array of musical groups. For more info:
-                                            <a href="http://www.katedunphy.com" target="_blank">www.katedunphy.com</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div id="board3" class="board">
-                                    <div class="content">
-                                        <p>
-                                            <b>Cristina Kaminis</b>
-                                        </p>
-                                        <p>
-                                            <img src="/gfx/content/bio_3.jpg" width="300px" style="float:left;width: 33%;margin: 0 10px 2px 0;" />Born in Spain and raised in Mexico City, vocalist Cristina Kaminis discovered her passion for
-                                            singing after purchasing her first Ella Fitzgerald album while studying in Paris. Her knack for
-                                            languages and passion for travel and culture has brought her around the world where she has been
-                                            enchanted by the music of Brazil, Italy, France, Latin America, and traditional American jazz
-                                            of the 20's and 30's. After moving to NYC in 2006 she began performing with jazz and world music
-                                            groups and incorporated her eclectic background and multi-lingual abilities into her own musical
-                                            style which defines Carte Blanche.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div id="board4" class="board">
-                                    <div class="content">
-                                        <p>
-                                            <b>Tomoko Omura</b>
-                                        </p>
-                                        <p>
-                                            <img src="/gfx/content/bio_4.jpg" width="300px" style="float:left;width: 33%;margin: 0 10px 2px 0;" />Tomoko Omura is a jazz violinist/composer currently living in Brooklyn, NY. She has performed
-                                            with a wide range of musicians including, Paquito D'Rivera, Fabian Almazan, Vadim Neselovskyi,
-                                            The Mahavishnu Project, Guy Mendilow, RUNA and Carte Blanche. She leads her own group and is
-                                            an active performer internationally. Her recently recorded 2nd jazz album, “Roots”, includes
-                                            unique arrangements of Japanese folk/popular songs, will be released from Greg Osby's label,
-                                            Inner Circle Music and DaikiMusica label in Japan. Originally from Shizuoka, Japan, she began
-                                            playing the violin at 4 and moved to the U.S. to study at Berklee College of Music in 2004. She
-                                            is a recipient of “Roy Haynes Award” while at Berklee and was also featured as a Rising Star
-                                            in the June 2009 edition of Strings magazine. (www.tomokoomura.com)
-                                        </p>
-                                    </div>
-                                </div>
-                                <div id="board5" class="board">
-                                    <div class="content">
-                                        <p>
-                                            <b>Sean Clapis (guitar)</b>
-                                        </p>
-                                        <p>
-                                            <img src="/gfx/content/bio_5.jpg" width="300px" style="float:left;width: 33%;margin: 0 10px 2px 0;" />Sean Clapis is a guitarist and composer originally from Hartford, CT. After discovering jazz
-                                            at the Artists Collective and Academy of the Arts, and receiving a scholarship from the Hartford
-                                            Jazz Society, he went on to study at the Hartt School of Music under notable instructors such
-                                            as Rene McLean, Andy LaVerne, Steve Davis, Nat Reeves and Rich Goldstein among others. Since
-                                            that time, he has performed with an array of musical projects across the US and abroad ranging
-                                            from jazz to rock, folk, hip-hop, gospel and experimental music. For more information, visit
-                                            <a href="http://seanclapis.com" target="_blank">www.seanclapis.com</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div id="board6" class="board">
-                                    <div class="content">
-                                        <p>
-                                            <b>Cristhian Quimbay (Percussion)</b>
-                                        </p>
-                                        <p>Percussionist Cristhian Quimbay was born and raised in Bogota, Colombia. His first encounter with
-                                            music was with the traditional exotic rhythms of the pacific and Atlantic coasts of his motherland.
-                                            After studying sound engineering, he immigrated to New York City in 2007 where he became active
-                                            in the New York music scene playing with world music and jazz ensembles. He continues to be involved
-                                            with traditional Colombian musical groups in addition to playing with Carte Blanche.
-                                        </p>
-                                    </div>
-                                </div>
-                                <a id="play" href="javascript:;" onclick="$('.act').removeClass('selected');$('.board').css('display','none');$('#boardplay').css('display','block');$('#back').show();"></a>
-                                <a id="contact" href="javascript:;" onclick="$('.act').removeClass('selected');$('.board').css('display','none');$('#boardcontact').css('display','block');$('#back').show();"></a>
-                                <a id="shop" href="javascript:;" onclick="$('.act').removeClass('selected');$('.board').css('display','none');$('#boardshop').css('display','block');$('#back').show();"></a>
-                                <a id="button_facebook" href="http://www.facebook.com/carteblanchejazzband" target="_blank">
-                                <img src="/gfx/icons/fb.png" />
-                                </a>
-                                <!-- onclick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=Carte Blanche - Jazz Band&amp;p[summary]=Carte Blanche quickly became a favorite for stars of the television and film world after members performed for the wedding of Mad Men actress Christina Hendricks in 2009. Their authentic, international vintage sound is in demand from a long list of celebrity clients, including David Stark, Martha St…&amp;p[url]=http://carteblanchejazzband.com&amp;&p[images][0]=http://carteblanchejazzband.com/gfx/layout/thumb.jpg', 'sharer', 'toolbar=0,status=0,width=620,height=280');" -->
-                                <a id="button_youtube" href="http://www.youtube.com/carteblanchevintage" target="_blank">
-                                <img src="/gfx/icons/yt.png" />
-                                </a>
-                                <a id="button_itunes" href="http://www.cdbaby.com/cd/carteblanche2" target="_blank">
-                                <img src="/gfx/icons/cd.png" />
-                                </a>
-                                <img id="page_banner" src="/gfx/layout/web_logo.png" onclick="javascript:act_start();" />
-                                <div id="page_title">French, Latin, and American Jazz</div>
-                                <div id="page_1" class="page_banner">
-                                    <a id="close" href="javascript:banner_close();"></a>
-                                    <div id="content" style="overflow:hidden;">
-                                        <div id="slides" style="margin-top:2.5%;">
-                                            <img src="/gfx/slideshow/b8.jpg" />
-                                            <img src="/gfx/slideshow/love_1.jpg" />
-                                            <img src="/gfx/slideshow/love_2.jpg" />
-                                            <img src="/gfx/slideshow/1.jpg" />
-                                            <img src="/gfx/slideshow/2.jpg" />
-                                            <img src="/gfx/slideshow/3.jpg" />
-                                            <img src="/gfx/slideshow/4.jpg" />
-                                            <img src="/gfx/slideshow/5.jpg" />
-                                            <img src="/gfx/slideshow/b1.jpg" />
-                                            <img src="/gfx/slideshow/b2.jpg" />
-                                            <img src="/gfx/slideshow/b3.jpg" />
-                                            <img src="/gfx/slideshow/b4.jpg" />
-                                            <img src="/gfx/slideshow/b5.jpg" />
-                                            <img src="/gfx/slideshow/b6.jpg" />
-                                            <img src="/gfx/slideshow/b7.jpg" />
-                                            <a href="javascript:;" class="prev">&laquo; prev</a>
-                                            <a href="javascript:;" class="next" style="float:right;">next &raquo;</a>
-                                        </div>
-                                        <script src="/scripts/cycle.js"></script>
-                                        <script>
-                                            $(function () {
-                                                $("#slides").cycle({
-                                                    'prev': '.prev',
-                                                    'next': '.next'
-                                                });
-                                            });
-                                        </script>
-                                    </div>
-                                </div>
-                                <div id="page_2" class="page_banner">
-                                    <a id="close" href="javascript:banner_close();"></a>
-                                    <div id="content">
-                                    </div>
-                                </div>
-                                <div id="page_3" class="page_banner">
-                                    <a id="close" href="javascript:banner_close();"></a>
-                                    <div id="content">
-                                        <div dir="ltr">
-                                            <p class="MsoNormal">
-                                                <span>NYC based 6-piece jazz ensemble Carte Blanche breathes new life into jazz classics from around
-                                                the world. Effortlessly transitioning from 20’s and 30’s American jazz standards to 40’s
-                                                <span>Parisian swing, </span>bossa nova, cumbia, Russian, Yiddish, and Italian selections,
-                                                the band’s dynamic and engaging act is a time capsule filled with vintage international
-                                                musical gems- many of them rarely heard live. The group also incorporates original compositions,
-                                                offering a modern twist on the tried and true styles of the 20’s 30’s and 40’s. The band
-                                                features Spanish born, Mexican/American raised vocalist Cristina Kaminis whose unusual
-                                                and sultry vocal quality captures the essence of the era, and enchants audiences with
-                                                her impressive knack for languages and musical styles; easily flowing from Edith Piaf
-                                                to Buena Vista Social Club renditions. The ensemble’s versatile instrumentation featuring
-                                                accordion and violin has a rich and captivating sound that is powered by a tight rhythm
-                                                section. With their stunning white vintage accoutrements, they have developed a large
-                                                group of devoted fans around the globe who love them as much for their look as for their
-                                                commitment to preserving the music of a by-gone era.
-                                                <br>
-                                                </span>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <span>
-                                                <br>
-                                                </span>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <span>Press:</span>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <span>
-                                                <br>
-                                                </span>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <i>
-                                                <span>"Perfectly vintage jazz ensemble Carte Blanche matches its jazzy chops with just-right
-                                                silk and sequins." Time Out New York</span>
-                                                </i>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <br>
-                                                <i>
-                                                <span></span>
-                                                </i>
-                                                <span></span>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <i>
-                                                <span>"Carte Blanche lays down clean, lively twenties and thirties jazz with frequent forays
-                                                into international territory: Edith Piaf and Latin American tunes from the same era
-                                                pop up often on its set list" NY Magazine</span>
-                                                </i>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <br>
-                                                <i>
-                                                <span></span>
-                                                </i>
-                                                <span></span>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <i>
-                                                <span>“Listening to New York-based jazz ensemble Carte Blanche will make you feel like Owen
-                                                Wilson’s character in Midnight in Paris after he stumbles back in time.” BizBash</span>
-                                                </i>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <br>
-                                                <i>
-                                                <span></span>
-                                                </i>
-                                                <span></span>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <i>
-                                                <span>“I love the look in the eyes of lead vocalist Cristina Kaminis” Editor-In-Chief, Michael
-                                                McCarthy, D.C Magazine</span>
-                                                </i>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <br>
-                                                <i>
-                                                <span></span>
-                                                </i>
-                                                <span></span>
-                                            </p>
-                                            <p class="MsoNormal">
-                                                <i>
-                                                <span>"This band is amazing!" Darcy Miller, Editorial Director, Martha Stewart Wedding Magazine</span>
-                                                </i>
-                                                <font color="#888888">
-                                                <span></span>
-                                                </font>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="page_4" class="page_banner">
-                                    <!-- Begin MailChimp Signup Form -->
-                                    <span id="mc_embed_signup" style="position:absolute;">
-                                        <form action="//carteblanchejazzband.us8.list-manage.com/subscribe/post?u=129b3064633748b63f9d93a22&amp;id=959261aacc" method="post"
-                                            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-                                            novalidate>
-                                            <span id="mc_embed_signup_scroll">
-                                                <span class="mc-field-group">
-                                                Subscribe to our mailing list:
-                                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
-                                                </span>
-                                                <span class="mc-field-group mc-field-name">
-                                                <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
-                                                </span>
-                                                <span class="mc-field-group mc-field-name">
-                                                <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
-                                                </span>
-                                                <span id="mce-responses" class="clear">
-                                                <span class="response" id="mce-error-response" style="display:none"></span>
-                                                <span class="response" id="mce-success-response" style="display:none"></span>
-                                                </span>
-                                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                                <span style="position: absolute; left: -5000px;">
-                                                <input type="text" name="b_129b3064633748b63f9d93a22_959261aacc" tabindex="-1" value="">
-                                                </span>
-                                                <span class="clear">
-                                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                                                </span>
-                                            </span>
-                                        </form>
-                                    </span>
-                                    <!--End mc_embed_signup-->
-                                    <a id="close" href="javascript:banner_close();"></a>
-                                    <div id="content">
-                                    </div>
-                                </div>
-                                <div id="page_5" class="page_banner">
-                                    <!-- Begin MailChimp Signup Form -->
-                                    <span id="mc_embed_signup" style="position:absolute;">
-                                        <form action="//carteblanchejazzband.us8.list-manage.com/subscribe/post?u=129b3064633748b63f9d93a22&amp;id=959261aacc" method="post"
-                                            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-                                            novalidate>
-                                            <span id="mc_embed_signup_scroll">
-                                                <span class="mc-field-group">
-                                                Subscribe to our mailing list:
-                                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
-                                                </span>
-                                                <span class="mc-field-group mc-field-name">
-                                                <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
-                                                </span>
-                                                <span class="mc-field-group mc-field-name">
-                                                <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
-                                                </span>
-                                                <span id="mce-responses" class="clear">
-                                                <span class="response" id="mce-error-response" style="display:none"></span>
-                                                <span class="response" id="mce-success-response" style="display:none"></span>
-                                                </span>
-                                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                                <span style="position: absolute; left: -5000px;">
-                                                <input type="text" name="b_129b3064633748b63f9d93a22_959261aacc" tabindex="-1" value="">
-                                                </span>
-                                                <span class="clear">
-                                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                                                </span>
-                                            </span>
-                                        </form>
-                                    </span>
-                                    <!--End mc_embed_signup-->
-                                    <a id="close" href="javascript:banner_close();"></a>
-                                    <div id="content">
-                                        <div id="shows_div">
-                                            <div class="BandPopCol">
-                                                <strong>July 11, 2018</strong><br>
-                                                <a target="_blank" href="http://www.babybrasa.com/">Baby Brasa</a><br>
-                                                173 7th Avenue South&nbsp;New York, NY<br>
-                                                6:30pm-9:30pm - No Cover
-                                                <p></p>
-                                                <p><strong>July 20, 2018</strong><br>
-                                                    <a target="_blank" href="http://www.stmazie.com/">St. Mazie</a><br>
-                                                    345 Grand Street, Brooklyn, NY<br>
-                                                    10:30pm - 12:30 am - No Cover​    
-                                                </p>
-                                                <p><strong>July 23, 2018</strong><br>
-                                                    <a target="_blank" href="http://macaonyc.com/">Macao</a><br>
-                                                    311 Church St #1, New York, NY<br>
-                                                    8:30pm-11:00pm - No Cover
-                                                </p>
-                                                <p><strong>July 25, 2018</strong><br>
-                                                    <a target="_blank" href="http://www.babybrasa.com/">Baby Brasa</a><br>
-                                                    173 7th Avenue South&nbsp;New York, NY<br>
-                                                    6:30pm-9:30pm - No Cover
-                                                </p>
-                                                <p><strong>July 31, 2018</strong><br>
-                                                    <a target="_blank" href="http://www.radegast.com/">Radegast</a><br>
-                                                    113 N 3rd Street Brooklyn, NY<br>
-                                                    8pm - 11 pm - No Cover<br>
-                                                </p>
-                                                <p><strong>August 3, 2018</strong><br>
-                                                    <a target="_blank" href="http://www.stmazie.com/">St. Mazie</a><br>
-                                                    345 Grand Street, Brooklyn, NY<br>
-                                                    10:30pm - 12:30 am - No Cover​<br>
-                                                </p>
-                                                <p><strong>August 13, 2018</strong><br>
-                                                    <a target="_blank" href="http://macaonyc.com/">Macao</a><br>
-                                                    311 Church St #1, New York, NY<br>
-                                                    8:30pm-11:00pm - No Cover<br>
-                                                </p>
-                                                <p><strong>August 17, 2018</strong><br>
-                                                    <a target="_blank" href="http://www.stmazie.com/">St. Mazie</a><br>
-                                                    345 Grand Street, Brooklyn, NY<br>
-                                                    10:30pm - 12:30 am - No Cover​<br>
-                                                </p>
-                                                <p><strong>August 27, 2018</strong><br>
-                                                    <a target="_blank" href="http://macaonyc.com/">Macao</a><br>
-                                                    311 Church St #1, New York, NY<br>
-                                                    8:30pm-11:00pm - No Cover
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="page_6" class="page_banner">
-                                    <!-- Begin MailChimp Signup Form -->
-                                    <span id="mc_embed_signup" style="position:absolute;">
-                                        <form action="//carteblanchejazzband.us8.list-manage.com/subscribe/post?u=129b3064633748b63f9d93a22&amp;id=959261aacc" method="post"
-                                            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
-                                            novalidate>
-                                            <span id="mc_embed_signup_scroll">
-                                            <span class="mc-field-group">
-                                            Subscribe to our mailing list:
-                                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
-                                            </span>
-                                            <span class="mc-field-group mc-field-name">
-                                            <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
-                                            </span>
-                                            <span class="mc-field-group mc-field-name">
-                                            <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
-                                            </span>
-                                            <span id="mce-responses" class="clear">
-                                            <span class="response" id="mce-error-response" style="display:none"></span>
-                                            <span class="response" id="mce-success-response" style="display:none"></span>
-                                            </span>
-                                            <span style="position: absolute; left: -5000px;">
-                                            <input type="text" name="b_129b3064633748b63f9d93a22_959261aacc" tabindex="-1" value="">
-                                            </span>
-                                            <span class="clear">
-                                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                                            </span>
-                                            </span>
-                                        </form>
-                                    </span>
-                                    <!--End mc_embed_signup-->
-                                    <a id="close" href="javascript:banner_close();"></a>
-                                    <div id="content">
-                                        <p>Contact us:</p>
-                                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
-                                            <tr>
-                                                <td valign="top" align="left" width="50%">
-                                                    <!-- Do not change the code! -->
-                                                    <a id="foxyform_embed_link_551036" href="http://www.foxyform.com/" class="foxyform_link">foxyform</a>
-                                                    <script type="text/javascript">
-                                                        (function (d, t) {
-                                                            var g = d.createElement(t),
-                                                                s = d.getElementsByTagName(t)[0];
-                                                            g.src = "http://www.foxyform.com/js.php?id=551036&sec_hash=9c0e804d776&width=350px";
-                                                            s.parentNode.insertBefore(g, s);
-                                                        }(document, "script"));
-                                                    </script>
-                                                    <!-- Do not change the code! -->
-                                                </td>
-                                                <td valign="top" align="left" width="50%" style="padding-left:13px;">
-                                                    <p>email:
-                                                        <a href="mailto:info@carteblanchejazzband.com" target="_blank">info@carteblanchejazzband.com</a>
-                                                    </p>
-                                                    <p>&nbsp;</p>
-                                                    <p>visit us on Facebook:
-                                                        <a href="http://www.facebook.com/carteblanchejazzband" target="_blank">carteblanchejazzband</a>
-                                                    </p>
-                                                    <p>visit us on YouTube:
-                                                        <a href="http://www.youtube.com/carteblanchevintage" target="_blank">carteblanchevintage</a>
-                                                    </p>
-                                                    <p>&nbsp;</p>
-                                                    <p>please recommend us on facebook:
-                                                    <p>
-                                                    <div id="fb-root"></div>
-                                                    <script>(function (d, s, id) {
-                                                        var js, fjs = d.getElementsByTagName(s)[0];
-                                                        if (d.getElementById(id)) return;
-                                                        js = d.createElement(s); js.id = id;
-                                                        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=486884108042053&version=v2.0";
-                                                        fjs.parentNode.insertBefore(js, fjs);
-                                                        }(document, 'script', 'facebook-jssdk'));
-                                                    </script>
-                                                    <div class="fb-share-button" data-href="http://carteblanchejazzband.com/" data-type="button"></div>
-                                                    <p>&nbsp;</p>
-                                                </td>
-                                            </tr>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
+
+<head profile='http://www.w3.org/2005/10/profile'>
+
+    <!-- Meta Tags -->
+    <title>Carte Blanche - Jazz Band</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="icon" href="/gfx/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/gfx/content/favicon.ico" type="image/x-icon" />
+    <meta name="thumbnail" content="http://carteblanchejazzband.com/gfx/layout/thumb.jpg" />
+    <meta property="og:image" content="http://carteblanchejazzband.com/gfx/layout/thumb.jpg" />
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,maximum-scale=1" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- Scripts -->
+    <script type="text/javascript" charset="utf-8" src="scripts/jquery_10.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/responsive.js"></script>
+    <script type="text/javascript" charset="utf-8" src="scripts/jquery_easing.js"></script>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="/scripts/style.css" type="text/css" media="all" charset="utf-8" />
+
+    <!-- JPlayer
+<link href="/scripts/jplayer/jplayer.pink.flag.css" rel="stylesheet" type="text/css" media="all" charset="utf-8" />
+<script type="text/javascript" src="/scripts/jplayer/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="/scripts/jplayer/jplayer.playlist.min.js"></script>
+<script type="text/javascript" src="/scripts/vjquery.jplayer.inspector.js"></script>
+ -->
+
+    <!-- Body -->
+    <!--[if lt IE 7 ]> <body class="ie678 ie67 ie6 ie"><![endif]-->
+    <!--[if IE 7 ]> <body class="ie678 ie67 ie7 ie notie6"><![endif]-->
+    <!--[if IE 8 ]> <body class="ie678 ie78 ie8 ie notie6"><![endif]-->
+    <!--[if IE 9 ]> <body class="ie6789 ie789 ie89 ie9 ie notie6"><![endif]-->
+    <!--[if !IE]>-->
+
+    <body class="standard notie6">
+        <!--<![endif]-->
+        <div id="body">
+
+            <div id="splash"></div>
+            <img id="stage_background" class="stage_image" src="/gfx/layout/stage_background.gif" style="background:#1d1604;" />
+            <div class="page under">
+
+                <div class="acts">
+                    <div class="act_spacer act">
+                        <img class="over" src="/gfx/layout/act_spacer.png" />
+                    </div>
+                    <div class="act_four act">
+                        <div class="title">Photos</div>
+                        <img class="over" src="/gfx/layout/white_four.png" />
+                        <img class="under" src="/gfx/layout/black_four.png" />
+                    </div>
+                    <div class="act_two act">
+                        <div class="title">Videos</div>
+                        <img class="over" src="/gfx/layout/white_two.png" />
+                        <img class="under" src="/gfx/layout/black_two.png" />
+                    </div>
+                    <div class="act_one act">
+                        <div class="title">About</div>
+                        <img class="over" src="/gfx/layout/white_one.png" />
+                        <img class="under" src="/gfx/layout/black_one.png" />
+                    </div>
+                    <div class="act_three act">
+                        <div class="title">Music</div>
+                        <img class="over" src="/gfx/layout/white_three.png" />
+                        <img class="under" src="/gfx/layout/black_three.png" />
+                    </div>
+                    <div class="act_six act">
+                        <div class="title">Shows</div>
+                        <img class="over" src="/gfx/layout/white_six.png" />
+                        <img class="under" src="/gfx/layout/black_six.png" />
+                    </div>
+                    <div class="act_five act">
+                        <div class="title">Contact</div>
+                        <img class="over" src="/gfx/layout/white_five.png" />
+                        <img class="under" src="/gfx/layout/black_five.png" />
+                    </div>
+                </div>
+
+            </div>
+            <img id="stage_curtain" class="stage_image" src="/gfx/layout/stage_curtain.gif" />
+            <img id="stage_foreground" class="stage_image" src="/gfx/layout/stage_foreground.gif" />
+            <img id="full_spotlight" class="full_image" src="/gfx/layout/full_spotlight.png" />
+            <div id="overlay"></div>
+            <div class="page over">
+
+                <a id="back" href="javascript:;"></a>
+
+                <div id="board0" class="board">
+                    <div class="content">
+
+                        <p>6-piece jazz ensemble Carte Blanche keeps vintage standards white-hot with classic French, Latin
+                            and American jazz standards from the 1920s, 30s and 40s.
+                            <br />
+                            <a id="bandbio_readmore" onclick="page_open(3);">Read more &raquo;</a>
+                        </p>
+                        <p>Learn about each band member:</p>
+                    </div>
+                </div>
+
+                <div class="acts">
+                    <div class="act_spacer act">
+                        <img class="" src="/gfx/layout/act_spacer.png" />
+                    </div>
+                    <div class="act_four act">
+                        <img class="" src="/gfx/layout/act_spacer.png" />
+                        <div class="title">Dan Parra</div>
+                    </div>
+                    <div class="act_two act">
+                        <img class="" src="/gfx/layout/act_spacer.png" />
+                        <div class="title">Kate Dunphy</div>
+                    </div>
+                    <div class="act_one act">
+                        <img class="" src="/gfx/layout/act_spacer.png" />
+                        <div class="title">Cristina Kaminis</div>
+                    </div>
+                    <div class="act_three act">
+                        <img class="" src="/gfx/layout/act_spacer.png" />
+                        <div class="title">Tomoko Omura</div>
+                    </div>
+                    <div class="act_six act">
+                        <img class="" src="/gfx/layout/act_spacer.png" />
+                        <div class="title">Sean Clapis</div>
+                    </div>
+                    <div class="act_five act">
+                        <img class="" src="/gfx/layout/act_spacer.png" />
+                        <div class="title">Cristhian Quimbay</div>
+                    </div>
+                </div>
+
+                <div id="board1" class="board">
+                    <div class="content">
+
+                        <p>
+                            <b>Dan Parra (bass)</b>
+                        </p>
+                        <p>
+                            <img src="/gfx/content/bio_1.jpg" width="300px" style="float:left;width: 33%;margin: 0 10px 2px 0;" />Dan Parra is a double bass and electric bass player currently living in New York City. Originally
+                            from Highland Mills, N.Y., Dan Parra moved to the city in 2007 to attend the New School for Jazz
+                            and Contemporary Music, where he studied with Andy McKee, Jeff Carney, Reggie Workman, Richard
+                            Boukas, Billy Harper, and Hal Galper. Since graduating in 2010, he has performed across the U.S.
+                            and abroad, including at the 2010 Bern Jazz Festival. Aside from his role in Carte Blanche, Dan
+                            works regularly with NYC-based rock group The Hot Club and Andrew Sisters tribute band The Tickled
+                            Pinks. </p>
+                    </div>
+                </div>
+                <div id="board2" class="board">
+                    <div class="content">
+
+                        <p>
+                            <b>Kate Dunphy (Accordion)</b>
+                        </p>
+                        <p>
+                            <img src="/gfx/content/bio_2.jpg" width="300px" style="float:left;width: 33%;margin: 0 10px 2px 0;" />Bandleader, accordionist, pianist and composer Kate Dunphy founded Carte Blanche in 2010. Kate
+                            is originally from Portland, ME where she started studying the piano at age 4. She went on to
+                            study composition under Dr. Robert Karl and Dr. David Macbride, and jazz piano with Andy Laverne
+                            at the Hartt school of music where she was the recipient of the Edward Diamente award in composition
+                            in 2007. Kate received her first accordion as a gift from her father in 2006 and soon discovered
+                            her passion for the instrument. Kate performs frequently nationally and internationally with
+                            an eclectic array of musical groups. For more info:
+                            <a href="http://www.katedunphy.com" target="_blank">www.katedunphy.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div id="board3" class="board">
+                    <div class="content">
+
+                        <p>
+                            <b>Cristina Kaminis</b>
+                        </p>
+                        <p>
+                            <img src="/gfx/content/bio_3.jpg" width="300px" style="float:left;width: 33%;margin: 0 10px 2px 0;" />Born in Spain and raised in Mexico City, vocalist Cristina Kaminis discovered her passion for
+                            singing after purchasing her first Ella Fitzgerald album while studying in Paris. Her knack for
+                            languages and passion for travel and culture has brought her around the world where she has been
+                            enchanted by the music of Brazil, Italy, France, Latin America, and traditional American jazz
+                            of the 20's and 30's. After moving to NYC in 2006 she began performing with jazz and world music
+                            groups and incorporated her eclectic background and multi-lingual abilities into her own musical
+                            style which defines Carte Blanche.</p>
+                    </div>
+                </div>
+                <div id="board4" class="board">
+                    <div class="content">
+
+                        <p>
+                            <b>Tomoko Omura</b>
+                        </p>
+                        <p>
+                            <img src="/gfx/content/bio_4.jpg" width="300px" style="float:left;width: 33%;margin: 0 10px 2px 0;" />Tomoko Omura is a jazz violinist/composer currently living in Brooklyn, NY. She has performed
+                            with a wide range of musicians including, Paquito D'Rivera, Fabian Almazan, Vadim Neselovskyi,
+                            The Mahavishnu Project, Guy Mendilow, RUNA and Carte Blanche. She leads her own group and is
+                            an active performer internationally. Her recently recorded 2nd jazz album, “Roots”, includes
+                            unique arrangements of Japanese folk/popular songs, will be released from Greg Osby's label,
+                            Inner Circle Music and DaikiMusica label in Japan. Originally from Shizuoka, Japan, she began
+                            playing the violin at 4 and moved to the U.S. to study at Berklee College of Music in 2004. She
+                            is a recipient of “Roy Haynes Award” while at Berklee and was also featured as a Rising Star
+                            in the June 2009 edition of Strings magazine. (www.tomokoomura.com)</p>
+                    </div>
+                </div>
+                <div id="board5" class="board">
+                    <div class="content">
+
+                        <p>
+                            <b>Sean Clapis (guitar)</b>
+                        </p>
+                        <p>
+                            <img src="/gfx/content/bio_5.jpg" width="300px" style="float:left;width: 33%;margin: 0 10px 2px 0;" />Sean Clapis is a guitarist and composer originally from Hartford, CT. After discovering jazz
+                            at the Artists Collective and Academy of the Arts, and receiving a scholarship from the Hartford
+                            Jazz Society, he went on to study at the Hartt School of Music under notable instructors such
+                            as Rene McLean, Andy LaVerne, Steve Davis, Nat Reeves and Rich Goldstein among others. Since
+                            that time, he has performed with an array of musical projects across the US and abroad ranging
+                            from jazz to rock, folk, hip-hop, gospel and experimental music. For more information, visit
+                            <a href="http://seanclapis.com" target="_blank">www.seanclapis.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div id="board6" class="board">
+                    <div class="content">
+
+                        <p>
+                            <b>Cristhian Quimbay (Percussion)</b>
+                        </p>
+                        <p>Percussionist Cristhian Quimbay was born and raised in Bogota, Colombia. His first encounter with
+                            music was with the traditional exotic rhythms of the pacific and Atlantic coasts of his motherland.
+                            After studying sound engineering, he immigrated to New York City in 2007 where he became active
+                            in the New York music scene playing with world music and jazz ensembles. He continues to be involved
+                            with traditional Colombian musical groups in addition to playing with Carte Blanche.</p>
+                    </div>
+                </div>
+
+                <a id="play" href="javascript:;" onclick="$('.act').removeClass('selected');$('.board').css('display','none');$('#boardplay').css('display','block');$('#back').show();"></a>
+                <a id="contact" href="javascript:;" onclick="$('.act').removeClass('selected');$('.board').css('display','none');$('#boardcontact').css('display','block');$('#back').show();"></a>
+                <a id="shop" href="javascript:;" onclick="$('.act').removeClass('selected');$('.board').css('display','none');$('#boardshop').css('display','block');$('#back').show();"></a>
+
+                <a id="button_facebook" href="http://www.facebook.com/carteblanchejazzband" target="_blank">
+                    <img src="/gfx/icons/fb.png" />
+                </a>
+                <!-- onclick="window.open('http://www.facebook.com/sharer.php?s=100&amp;p[title]=Carte Blanche - Jazz Band&amp;p[summary]=Carte Blanche quickly became a favorite for stars of the television and film world after members performed for the wedding of Mad Men actress Christina Hendricks in 2009. Their authentic, international vintage sound is in demand from a long list of celebrity clients, including David Stark, Martha St…&amp;p[url]=http://carteblanchejazzband.com&amp;&p[images][0]=http://carteblanchejazzband.com/gfx/layout/thumb.jpg', 'sharer', 'toolbar=0,status=0,width=620,height=280');" -->
+                <a id="button_youtube" href="http://www.youtube.com/carteblanchevintage" target="_blank">
+                    <img src="/gfx/icons/yt.png" />
+                </a>
+                <a id="button_itunes" href="http://www.cdbaby.com/cd/carteblanche2" target="_blank">
+                    <img src="/gfx/icons/cd.png" />
+                </a>
+
+                <img id="page_banner" src="/gfx/layout/web_logo.png" onclick="javascript:act_start();" />
+                <div id="page_title">French, Latin, and American Jazz</div>
+
+                <div id="page_1" class="page_banner">
+                    <a id="close" href="javascript:banner_close();"></a>
+                    <div id="content" style="overflow:hidden;">
+                        <div id="slides" style="margin-top:2.5%;">
+                            <img src="/gfx/slideshow/b8.jpg" />
+                            <img src="/gfx/slideshow/love_1.jpg" />
+                            <img src="/gfx/slideshow/love_2.jpg" />
+                            <img src="/gfx/slideshow/1.jpg" />
+                            <img src="/gfx/slideshow/2.jpg" />
+                            <img src="/gfx/slideshow/3.jpg" />
+                            <img src="/gfx/slideshow/4.jpg" />
+                            <img src="/gfx/slideshow/5.jpg" />
+                            <img src="/gfx/slideshow/b1.jpg" />
+                            <img src="/gfx/slideshow/b2.jpg" />
+                            <img src="/gfx/slideshow/b3.jpg" />
+                            <img src="/gfx/slideshow/b4.jpg" />
+                            <img src="/gfx/slideshow/b5.jpg" />
+                            <img src="/gfx/slideshow/b6.jpg" />
+                            <img src="/gfx/slideshow/b7.jpg" />
+                            <a href="javascript:;" class="prev">&laquo; prev</a>
+                            <a href="javascript:;" class="next" style="float:right;">next &raquo;</a>
                         </div>
+                        <script src="/scripts/cycle.js"></script>
+                        <script>
+                            $(function () {
+                                $("#slides").cycle({
+                                    'prev': '.prev',
+                                    'next': '.next'
+                                });
+                            });
+                        </script>
+                    </div>
+                </div>
+
+                <div id="page_2" class="page_banner">
+                    <a id="close" href="javascript:banner_close();"></a>
+                    <div id="content">
+                    </div>
+                </div>
+
+                <div id="page_3" class="page_banner">
+                    <a id="close" href="javascript:banner_close();"></a>
+                    <div id="content">
+
+                        <div dir="ltr">
+                            <p class="MsoNormal">
+                                <span>NYC based 6-piece jazz ensemble Carte Blanche breathes new life into jazz classics from around
+                                    the world. Effortlessly transitioning from 20’s and 30’s American jazz standards to 40’s
+                                    <span>Parisian swing, </span>bossa nova, cumbia, Russian, Yiddish, and Italian selections,
+                                    the band’s dynamic and engaging act is a time capsule filled with vintage international
+                                    musical gems- many of them rarely heard live. The group also incorporates original compositions,
+                                    offering a modern twist on the tried and true styles of the 20’s 30’s and 40’s. The band
+                                    features Spanish born, Mexican/American raised vocalist Cristina Kaminis whose unusual
+                                    and sultry vocal quality captures the essence of the era, and enchants audiences with
+                                    her impressive knack for languages and musical styles; easily flowing from Edith Piaf
+                                    to Buena Vista Social Club renditions. The ensemble’s versatile instrumentation featuring
+                                    accordion and violin has a rich and captivating sound that is powered by a tight rhythm
+                                    section. With their stunning white vintage accoutrements, they have developed a large
+                                    group of devoted fans around the globe who love them as much for their look as for their
+                                    commitment to preserving the music of a by-gone era.
+                                    <br>
+                                </span>
+                            </p>
+                            <p class="MsoNormal">
+                                <span>
+                                    <br>
+                                </span>
+                            </p>
+                            <p class="MsoNormal">
+                                <span>Press:</span>
+                            </p>
+                            <p class="MsoNormal">
+                                <span>
+                                    <br>
+                                </span>
+                            </p>
+                            <p class="MsoNormal">
+                                <i>
+                                    <span>"Perfectly vintage jazz ensemble Carte Blanche matches its jazzy chops with just-right
+                                        silk and sequins." Time Out New York</span>
+                                </i>
+                            </p>
+                            <p class="MsoNormal">
+                                <br>
+                                <i>
+                                    <span></span>
+                                </i>
+                                <span></span>
+                            </p>
+                            <p class="MsoNormal">
+                                <i>
+                                    <span>"Carte Blanche lays down clean, lively twenties and thirties jazz with frequent forays
+                                        into international territory: Edith Piaf and Latin American tunes from the same era
+                                        pop up often on its set list" NY Magazine</span>
+                                </i>
+                            </p>
+                            <p class="MsoNormal">
+                                <br>
+                                <i>
+                                    <span></span>
+                                </i>
+                                <span></span>
+                            </p>
+                            <p class="MsoNormal">
+                                <i>
+                                    <span>“Listening to New York-based jazz ensemble Carte Blanche will make you feel like Owen
+                                        Wilson’s character in Midnight in Paris after he stumbles back in time.” BizBash</span>
+                                </i>
+                            </p>
+                            <p class="MsoNormal">
+                                <br>
+                                <i>
+                                    <span></span>
+                                </i>
+                                <span></span>
+                            </p>
+                            <p class="MsoNormal">
+                                <i>
+                                    <span>“I love the look in the eyes of lead vocalist Cristina Kaminis” Editor-In-Chief, Michael
+                                        McCarthy, D.C Magazine</span>
+                                </i>
+                            </p>
+                            <p class="MsoNormal">
+                                <br>
+                                <i>
+                                    <span></span>
+                                </i>
+                                <span></span>
+                            </p>
+                            <p class="MsoNormal">
+                                <i>
+                                    <span>"This band is amazing!" Darcy Miller, Editorial Director, Martha Stewart Wedding Magazine</span>
+                                </i>
+                                <font color="#888888">
+                                    <span></span>
+                                </font>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="page_4" class="page_banner">
+                    <!-- Begin MailChimp Signup Form -->
+                    <span id="mc_embed_signup" style="position:absolute;">
+                        <form action="//carteblanchejazzband.us8.list-manage.com/subscribe/post?u=129b3064633748b63f9d93a22&amp;id=959261aacc" method="post"
+                            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+                            novalidate>
+                            <span id="mc_embed_signup_scroll">
+                                <span class="mc-field-group">
+                                    Subscribe to our mailing list:
+                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+                                </span>
+                                <span class="mc-field-group mc-field-name">
+                                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
+                                </span>
+                                <span class="mc-field-group mc-field-name">
+                                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
+                                </span>
+                                <span id="mce-responses" class="clear">
+                                    <span class="response" id="mce-error-response" style="display:none"></span>
+                                    <span class="response" id="mce-success-response" style="display:none"></span>
+                                </span>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <span style="position: absolute; left: -5000px;">
+                                    <input type="text" name="b_129b3064633748b63f9d93a22_959261aacc" tabindex="-1" value="">
+                                </span>
+                                <span class="clear">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                </span>
+                            </span>
+                        </form>
+                    </span>
+                    <!--End mc_embed_signup-->
+
+                    <a id="close" href="javascript:banner_close();"></a>
+                    <div id="content">
+                    </div>
+                </div>
+
+                <div id="page_5" class="page_banner">
+                    <!-- Begin MailChimp Signup Form -->
+                    <span id="mc_embed_signup" style="position:absolute;">
+                        <form action="//carteblanchejazzband.us8.list-manage.com/subscribe/post?u=129b3064633748b63f9d93a22&amp;id=959261aacc" method="post"
+                            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+                            novalidate>
+                            <span id="mc_embed_signup_scroll">
+                                <span class="mc-field-group">
+                                    Subscribe to our mailing list:
+                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+                                </span>
+                                <span class="mc-field-group mc-field-name">
+                                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
+                                </span>
+                                <span class="mc-field-group mc-field-name">
+                                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
+                                </span>
+                                <span id="mce-responses" class="clear">
+                                    <span class="response" id="mce-error-response" style="display:none"></span>
+                                    <span class="response" id="mce-success-response" style="display:none"></span>
+                                </span>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <span style="position: absolute; left: -5000px;">
+                                    <input type="text" name="b_129b3064633748b63f9d93a22_959261aacc" tabindex="-1" value="">
+                                </span>
+                                <span class="clear">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                </span>
+                            </span>
+                        </form>
+                    </span>
+                    <!--End mc_embed_signup-->
+
+                    <a id="close" href="javascript:banner_close();"></a>
+                    <div id="content">
+
+                        <div id="shows_div">
+                            <div class="BandPopCol">
+                                <strong>August 17, 2018</strong><br>
+                                <a target="_blank" href="http://www.stmazie.com/">St. Mazie</a><br>
+                                345 Grand Street, Brooklyn, NY<br>
+                                10:30pm - 12:30 am - No Cover​<br>
+                              <p></p>
+                              <p><strong>August 27, 2018</strong><br>
+                                <a target="_blank" href="http://macaonyc.com/">Macao</a><br>
+                                311 Church St #1, New York, NY<br>
+                                8:30pm-11:00pm - No Cover</p>
+                              <p><strong>September 10, 2018</strong><br>
+                                <a target="_blank" href="http://macaonyc.com/">Macao</a><br>
+                            311 Church St #1, New York, NY<br>
+                            8:30pm-11:00pm - No Cover </p>
+                              <p><strong>September 11, 2018</strong><br>
+                                <a target="_blank" href="http://www.radegast.com/">Radegast</a><br>
+                                113 N 3rd Street Brooklyn, NY<br>
+                                8pm - 11 pm - No Cover</p>
+                              <p><strong>September 21, 2018</strong><br>
+                                <a target="_blank" href="http://www.stmazie.com/">St. Mazie</a><br>
+                                345 Grand Street, Brooklyn, NY<br>
+                                10:30pm - 12:30 am - No Cover</p>
+                              <p><strong>September 24, 2018</strong><br>
+                                <a target="_blank" href="http://macaonyc.com/">Macao</a><br>
+                                311 Church St #1, New York, NY<br>
+                                8:30pm-11:00pm - No Cove</p>
+                              <p><strong>October 5, 2018</strong><br>
+                                <a target="_blank" href="http://www.stmazie.com/">St. Mazie</a><br>
+                                345 Grand Street, Brooklyn, NY<br>
+                                10:30pm - 12:30 am - No Cove</p>
+                              <p><strong>October 8, 2018</strong><br>
+                                <a target="_blank" href="http://macaonyc.com/">Macao</a><br>
+                                311 Church St #1, New York, NY<br>
+                                8:30pm-11:00pm - No Cove</p>
+                              <p><strong>October 19, 2018</strong><br>
+                                <a target="_blank" href="http://www.stmazie.com/">St. Mazie</a><br>
+                                345 Grand Street, Brooklyn, NY<br>
+                                10:30pm - 12:30 am - No Cove</p>
+                              <p><strong>October 22, 2018</strong><br>
+                                <a target="_blank" href="http://macaonyc.com/">Macao</a><br>
+                                311 Church St #1, New York, NY<br>
+                                8:30pm-11:00pm - No Cove</p>
+                              <p><strong>November 2, 2018</strong><br>
+                                <a target="_blank" href="http://www.stmazie.com/">St. Mazie</a><br>
+                                345 Grand Street, Brooklyn, NY<br>
+                                10:30pm - 12:30 am - No Cove</p>
+                              <p><strong>November 12, 2018</strong><br>
+                                <a target="_blank" href="http://macaonyc.com/">Macao</a><br>
+                                311 Church St #1, New York, NY<br>
+                                8:30pm-11:00pm - No Cove</p>
+                              <p><strong>November 26, 2018</strong><br>
+                                <a target="_blank" href="http://macaonyc.com/">Macao</a><br>
+                                311 Church St #1, New York, NY<br>
+                                8:30pm-11:00pm - No Cover </p>
+                              <p><strong>December 10, 2018</strong><br>
+                                <a target="_blank" href="http://macaonyc.com/">Macao</a><br>
+                                311 Church St #1, New York, NY<br>
+                                8:30pm-11:00pm - No Cover</p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="page_6" class="page_banner">
+                    <!-- Begin MailChimp Signup Form -->
+                    <span id="mc_embed_signup" style="position:absolute;">
+                        <form action="//carteblanchejazzband.us8.list-manage.com/subscribe/post?u=129b3064633748b63f9d93a22&amp;id=959261aacc" method="post"
+                            id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+                            novalidate>
+                            <span id="mc_embed_signup_scroll">
+                                <span class="mc-field-group">
+                                    Subscribe to our mailing list:
+                                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+                                </span>
+                                <span class="mc-field-group mc-field-name">
+                                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First name">
+                                </span>
+                                <span class="mc-field-group mc-field-name">
+                                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last name">
+                                </span>
+                                <span id="mce-responses" class="clear">
+                                    <span class="response" id="mce-error-response" style="display:none"></span>
+                                    <span class="response" id="mce-success-response" style="display:none"></span>
+                                </span>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <span style="position: absolute; left: -5000px;">
+                                    <input type="text" name="b_129b3064633748b63f9d93a22_959261aacc" tabindex="-1" value="">
+                                </span>
+                                <span class="clear">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                </span>
+                            </span>
+                        </form>
+                    </span>
+                    <!--End mc_embed_signup-->
+
+                    <a id="close" href="javascript:banner_close();"></a>
+                    <div id="content">
+
+                        <p>Contact us:</p>
+
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr>
+                                <td valign="top" align="left" width="50%">
+
+                                    <!-- Do not change the code! -->
+                                    <a id="foxyform_embed_link_551036" href="http://www.foxyform.com/" class="foxyform_link">foxyform</a>
+                                    <script type="text/javascript">
+                                        (function (d, t) {
+                                            var g = d.createElement(t),
+                                                s = d.getElementsByTagName(t)[0];
+                                            g.src = "http://www.foxyform.com/js.php?id=551036&sec_hash=9c0e804d776&width=350px";
+                                            s.parentNode.insertBefore(g, s);
+                                        }(document, "script"));
+                                    </script>
+                                    <!-- Do not change the code! -->
+
+                                </td>
+                                <td valign="top" align="left" width="50%" style="padding-left:13px;">
+
+                                    <p>email:
+                                        <a href="mailto:info@carteblanchejazzband.com" target="_blank">info@carteblanchejazzband.com</a>
+                                    </p>
+                                    <p>&nbsp;</p>
+                                    <p>visit us on Facebook:
+                                        <a href="http://www.facebook.com/carteblanchejazzband" target="_blank">carteblanchejazzband</a>
+                                    </p>
+                                    <p>visit us on YouTube:
+                                        <a href="http://www.youtube.com/carteblanchevintage" target="_blank">carteblanchevintage</a>
+                                    </p>
+                                    <p>&nbsp;</p>
+
+                                    <p>please recommend us on facebook:
+                                        <p>
+                                            <div id="fb-root"></div>
+                                            <script>(function (d, s, id) {
+                                                    var js, fjs = d.getElementsByTagName(s)[0];
+                                                    if (d.getElementById(id)) return;
+                                                    js = d.createElement(s); js.id = id;
+                                                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=486884108042053&version=v2.0";
+                                                    fjs.parentNode.insertBefore(js, fjs);
+                                                }(document, 'script', 'facebook-jssdk'));</script>
+                                            <div class="fb-share-button" data-href="http://carteblanchejazzband.com/" data-type="button"></div>
+                                            <p>&nbsp;</p>
+
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </body>
+
 </html>
