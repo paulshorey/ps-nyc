@@ -433,27 +433,8 @@ function frame_close() {
     1500
   );
 }
-function banner_open() {
-  $(".page_banner").stop();
-  $(".page_banner").animate({ opacity: 1 }, 500, "easeInQuad");
-  $(".page_banner").animate({ top: "-0.5%" }, 2000, "easeInQuad");
-  setTimeout("$('#overlay').animate({'opacity':1}, 1000, 'easeInQuad');", 1000);
-}
-function banner_close() {
-  $("#overlay").animate({ opacity: 0 }, 1000, "easeInQuad");
-  $(".page_banner").animate({ top: "-100%" }, 2000, "easeInQuad");
-  setTimeout(
-    "$('.page_banner').animate({'opacity':0}, 500, 'easeInQuad');",
-    1500
-  );
-  if (window.musictab == 1) {
-    setTimeout("$('#page_4 #content').html('');", 2000);
-  }
-  if (window.videotab == 1) {
-    setTimeout("$('#page_2 #content').html('');", 2000);
-  }
-}
 function page_open(num) {
+  console.log('page_open',num);
   $("#page_" + num).stop();
   $("#page_" + num).animate({ opacity: 1 }, 500, "easeInQuad");
   $("#page_" + num).animate({ top: "-0.5%" }, 2000, "easeInQuad");
