@@ -1,7 +1,7 @@
 #!/bin/bash
 
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/gitlab
+ssh-add ~/.ssh/github2
 cd /www/ps
 git reset HEAD -\-hard;
 git pull
