@@ -189,8 +189,8 @@ $(window).load(function() {
 
   // BACKGROUND STUFF
   $("#overlay").click(function() {
+    page_close();
     frame_close();
-    banner_close();
   });
   setTimeout("ready=1;", 1500);
   // RESIZE
@@ -446,6 +446,15 @@ function page_open(num) {
       $(".slideshow .content").cycle("resume");
     }, 1000);
   }
+}
+function page_close() {
+  $(".page_banner").stop();
+  $("#overlay").animate({ opacity: 0 }, 1000, "easeInQuad");
+  $(".page_banner").animate({ top: "-100%" }, 2000, "easeInQuad");
+  setTimeout(
+    "$('.page_banner').animate({'opacity':0}, 500, 'easeInQuad');",
+    1500
+  );
 }
 function titles_show() {
   $(".page.under .act .title").animate({ opacity: 1 }, 2000);
