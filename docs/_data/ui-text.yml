@@ -1125,7 +1125,7 @@ ro: &DEFAULT_RO
   back_to_top                : "Înapoi în susul paginii"
 ro-RO:
   <<: *DEFAULT_RO
-  
+
 # Punjabi
 # -----------------
 pa: &DEFAULT_PA
@@ -1170,7 +1170,7 @@ pa: &DEFAULT_PA
   results_found              : "ਨਤੀਜਾ ਮਿਲਿਆ/ਮਿਲੇ"
   back_to_top                : "ਵਾਪਸ ਚੋਟੀ 'ਤੇ ਜਾਓ"
 pa-IN:
-  <<: *DEFAULT_PA  
+  <<: *DEFAULT_PA
 # Another locale
 # --------------
 #
