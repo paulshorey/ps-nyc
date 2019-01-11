@@ -16,10 +16,7 @@
   </div>
   <div class="stackedit__right">
     <div class="stackedit__html">
-      <p>Index</p>
-<blockquote>
-<p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>
+      <p>TEST <a href="http://README.md">README.md</a> file</p>
 
     </div>
   </div>
