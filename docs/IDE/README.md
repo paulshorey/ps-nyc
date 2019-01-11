@@ -1,4 +1,4 @@
-Regex for IDEs (regex.md)
+[Regex for IDEs](regex.md)
 
 ### Indentation
 
