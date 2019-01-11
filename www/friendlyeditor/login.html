@@ -1,0 +1,31 @@
+<!--{include file="includes/head.html"}-->
+<tr><td align="left" valign="top">
+
+    <div style="margin:22px 0;">
+    
+    <!--{edittext1}-->
+	<h1><!--{$page.title1}--></h1>
+    <!--{if $page.text1}-->
+    <p><!--{$page.text1}--></p>
+    <!--{/if}-->
+    
+    <form name="loginmain" action="<!--{$login_form}-->" method="post">
+    <!--{if $page.message || $page.error}-->
+    <p id="message" class="margintop"><!--{$page.error}--> <!--{$page.message}--></p>
+    <!--{/if}-->
+    <p class="margintop"><input type="text" id="" name="user" value="visitor" /></p>
+    <p><input type="password" id="" name="pass" value="pass" /></p>
+    <p><input type="submit" value="Login" class="button" /></p>
+    </form>
+    <p>&nbsp;</p>
+    
+    <!--{edittext2}-->
+    <!--{if $page.text2}-->
+    <p><!--{$page.text2}--></p>
+    <p>&nbsp;</p>
+    <!--{/if}-->
+    
+    </div>
+    
+</td></tr>
+<!--{include file="includes/foot.html"}-->

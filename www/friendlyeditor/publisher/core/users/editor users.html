@@ -1,0 +1,74 @@
+<!--{include file='publisher/core/editor/includes/head.html'}-->
+<body>
+
+<!-- TOP -->
+<div id="top">
+    <img src="publisher/core/editor/images/buttons/groupofusers.png" border="0" />
+    <h3>Manage Users</h3>
+        <!-- buttons -->
+        <div class="buttons">
+        	<!-- submit -->
+            <input type="button" value="Submit" class="button" onClick="document.form_1.submit();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- reset -->
+            <input type="button" value="Reset" class="button" onClick="window.location.reload();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- cancel -->
+            <input type="button" value="Exit" class="button" onClick="self.parent.tb_remove();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+        </div>
+</div>
+
+<!-- MESSAGE -->
+<!--{if $page.message}-->
+<div id="message">
+	<!--{$page.message}-->
+</div>
+<!--{/if}-->
+
+<!-- ERROR -->
+<!--{if $page.error}-->
+<div id="error">
+	<!--{$page.error}-->
+</div>
+<!--{/if}-->
+
+<!-- MIDDLE -->
+<div id="middle">
+<h5>Edit, delete and add new users here.</h5>
+
+<!--{getusers name="results" orderby="role asc,date desc"}-->
+    
+	<!-- RESULTS -->
+    <div class="section">
+    <div id="images">
+    <ul id="orderlist" style="padding:0;margin:0;">
+	<!--{foreach from=$results key=key item=value name=value}-->
+        <li id="listItem_<!--{$value.id}-->" style="display:block;">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td>
+        <!--{if $value.image1}-->
+        <div class="image"><img src="images/<!--{$value.image1}-->" border="0" /></div>
+        <!--{else}-->
+        <div class="image"><img src="/publisher/core/editor/images/user-blank.jpg" border="0" /></div>
+        <!--{/if}-->
+        <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/users/editor edituser&user=<!--{$value.id}-->';" value="Edit User" />
+        <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/users/editor adduser&user=<!--{$value.id}-->';" value="Add User" /> 
+        <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/users/editor deleteuser&user=<!--{$value.id}-->';" value="Delete User" /><br />
+        <div style="float:left;position:relative;margin-left:6px;">
+        <b><!--{$value.username|capitalize}--></b> 
+        (<!--{if $value.firstname}--><!--{$value.firstname|capitalize}--> <!--{$value.middlename|capitalize}--> <!--{$value.lastname|capitalize}--><!--{else}--> - <!--{/if}-->,
+        <!--{if $value.email}--><!--{$value.email}--><!--{else}--> - <!--{/if}-->)
+        <!--{if $value.mail}--> &nbsp;*<b>mailinglist</b><!--{/if}-->
+        <!--{if $value.role}--> &nbsp;*<b><!--{$value.role}--></b> <!--{/if}--><br />
+        <!--{if $value.url}--> <a href="<!--{$value.url}-->" target="_blank"><!--{$value.url}--></a></b> <!--{/if}--></div>
+        <div style="float:left;position:relative;height:22px;overflow:hidden;margin-left:6px;color:#666666;"><!--{$value.text|preview_text}--></div>
+        </td></tr></table>
+        </li>
+    <!--{foreachelse}-->
+    	<p>Your site has no members. <a href="index.php?display=publisher/core/users/editor adduser">Click here to add some.</a></p>
+    <!--{/foreach}-->
+    </ul>
+    </div>
+    </div>
+    <p>&nbsp;</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+	<!-- MESSAGE -->
+	<!--{if $page.error}-->
+	<div id="error" class="error">
+	<p><!--{$page.error}--></p>
+	<p>&nbsp;</p>
+	</div>
+	<!--{/if}-->
+	<!--{if $page.message}-->
+	<div id="message" class="message">
+	<p><!--{$page.message}--></p>
+	<p>&nbsp;</p>
+	</div>
+	<!--{/if}-->
+	
+	<!-- JOIN -->
+	<!--{if !$user || $user.role=="editor" || $user.role=="admin"}-->
+		
+		<form class="margintop" action="/publisher/core/users/visitor%20adduser.php" name="form_1" method="post" enctype="multipart/form-data" autocomplete="off">
+				
+		<p style="font-weight:bold;" class="margintop">Your name: 
+		<input type="text" name="firstname" id="firstname" style="width:80px;" value="<!--{if $post.firstname}--><!--{$post.firstname}--><!--{else}--><!--{$user.firstname}--><!--{/if}-->" />
+		<input type="text" name="middlename" id="middlename" style="width:16px;" value="<!--{if $post.middlename}--><!--{$post.middlename}--><!--{else}--><!--{$user.middlename}--><!--{/if}-->" />
+		<input type="text" name="lastname" id="lastname" style="width:96px;" value="<!--{if $post.lastname}--><!--{$post.lastname}--><!--{else}--><!--{$user.lastname}--><!--{/if}-->" /></p>
+		<p style="font-weight:bold;" class="margintop">Your email: 
+		<input type="text" name="email" id="email" style="width:200px;" value="<!--{if $post.email}--><!--{$post.email}--><!--{else}--><!--{$user.email}--><!--{/if}-->" /></p>
+		<input type="hidden" name="mail" id="mail" value="yes" />
+		
+		<p>&nbsp;</p>
+		<p><input type="submit" value="Submit" class="button" /></p>
+		</form>
+		
+	<!--{else}-->
+			
+		<p><a href="/account">Manage your account.</a></p>
+		<p>&nbsp;</p>
+			
+	<!--{/if}-->

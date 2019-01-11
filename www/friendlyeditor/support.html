@@ -1,0 +1,45 @@
+<!--{include file="includes/head.html"}-->
+<tr><td align="left" valign="top">
+
+    <div style="margin:22px 0;" class="full">
+    
+    <!--{edittext1}-->
+	<h1><!--{$page.title1}--></h1>
+    <!--{if $page.text1}-->
+    <p><!--{$page.text1}--></p>
+    <!--{/if}-->
+    <p>&nbsp;</p>
+    
+    <!--{edittext2}-->
+    <h2><!--{$page.title2}--></h2>
+    <p><!--{$page.text2}--></p>
+    <p>&nbsp;</p>
+    
+    <form name="contact" action="<!--{$mail_form}-->" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="artspaces.net message" value="..." />
+    <input type="hidden" name="date" value="<!--{$Smarty.now|date}-->" />
+    <input type="hidden" name="subject" value="artspaces.net message" />
+    <p>Your name<br />
+    <input class="martop" type="text" name="name" value="<!--{$post.name}-->" style="width:220px;" /></p>
+    <p class="margintop">Your email<br />
+    <input class="martop" type="text" name="email" value="<!--{$post.email}-->" style="width:220px;" /></p>
+    <p class="margintop">Your browser (firefox, safari, internet explorer, etc)<br />
+    <input class="martop" type="text" name="email" value="<!--{$post.email}-->" style="width:220px;" onclick="if (this.value=='') {this.value=navigator.appName+' '+navigator.appVersion;}" /></p>
+    <p class="margintop">Report problem or improvement<br />
+    <textarea class="martop" name="site_structure" style="width:98%;height:80px"><!--{$post.site_structure}--></textarea></p>
+    <p class="margintop">Please type "yes" into this box to prove that you're a real person.<br />
+    <input class="martop" type="text" name="areyouhuman" style="width:80px;" /></p>
+    <p class="margintop"><input type="submit" value="Send" class="button" /></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    </form>
+    
+    <!--{edittext3}-->
+    <h2><!--{$page.title3}--></h2>
+    <p><!--{$page.text3}--></p>
+    <p>&nbsp;</p>
+    
+    </div>
+    
+</td></tr>
+<!--{include file="includes/foot.html"}-->

@@ -1,0 +1,77 @@
+<!--{include file='publisher/core/editor/includes/head.html'}-->
+<body>
+
+<!-- TOP -->
+<div id="top">
+    <img src="publisher/core/editor/images/buttons/webhd.png" border="0" />
+    <h3>Your Site Settings</h3>
+        <!-- buttons -->
+        <div class="buttons">
+        	<!-- submit -->
+            <input type="button" value="Submit" class="button" onClick="document.form_1.submit();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- reset -->
+            <input type="button" value="Reset" class="button" onClick="window.location.reload();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- cancel -->
+            <input type="button" value="Exit" class="button" onClick="self.parent.tb_remove();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+        </div>
+</div>
+
+<!-- MESSAGE -->
+<!--{if $page.message}-->
+<div id="message">
+	<!--{$page.message}-->
+</div>
+<!--{/if}-->
+
+<!-- ERROR -->
+<!--{if $page.error}-->
+<div id="error">
+	<!--{$page.error}-->
+</div>
+<!--{/if}-->
+
+<!-- MIDDLE -->
+<div id="middle">
+
+	<!-- FORM -->
+    <h5>Edit your site settings, to update your contact info, paypal account, or more advanced databasee and mail settings.</h5>
+	
+	<div class="section">
+	<p style="font-weight:bold;">Site Login Details</p>
+    <p>Admin Username (required): <input type="text" name="admin_username" id="admin_username" value="" /></p>
+    <p>Admin Password (required): <input type="text" name="admin_password" id="admin_password" value="" /></p>
+    </div>
+	
+    <div class="section">
+	<p style="font-weight:bold;">Site Contact Details</p>
+    <p>Site Owner: <input type="text" name="site_owner" id="site_owner" value="><!--{$site.owner}-->" /></p>
+    <p>Site Contact Email: <input type="text" name="site_contact" id="site_contact" value="><!--{$site.contact}-->" /></p>
+    <p>Site Paypal Email: <input type="text" name="site_paypal" id="site_paypal" value="><!--{$site.paypal}-->" /></p>
+    </div>
+	
+	<!--{if $user.role == 'demo'}-->
+	<!--{assign name='$site.db' value=''}-->
+	<!--{assign name='$site.mail' value=''}-->
+	<!--{/if}-->
+	
+    <div class="section">
+	<p style="font-weight:bold;">Database Server</p>
+	<p>This information is required for your site to work. If you do not have this information, do not leave it blank. Your web hosting provider should provide you with all these values.</p>
+    <p>MYSQL Host: <input type="text" name="mysql_host" id="mysql_host" value="><!--{$site.db.host}-->" /></p>
+    <p>MYSQL Port: <input type="text" name="mysql_port" id="mysql_port" value="><!--{$site.db.port}-->" /></p>
+    <p>MYSQL Username: <input type="text" name="mysql_username" id="mysql_username" value="><!--{$site.db.username}-->" /></p>
+    <p>MYSQL Password: <input type="text" name="mysql_password" id="mysql_password" value="><!--{$site.db.password}-->" /></p>
+    </div>
+	
+    <div class="section">
+	<p style="font-weight:bold;">Mail Server</p>
+	<p>This information is required for any email correspondence. For example,  If you are unsure of this data, do not leave it blank. Your web hosting provider should provide you with all these values.</p>
+    <p>SMTP Host: <input type="text" name="mail_host" id="mail_host" value="><!--{$site.db.host}-->" /></p>
+    <p>SMTP Port: <input type="text" name="mail_port" id="mail_port" value="><!--{$site.db.port}-->" /></p>
+    <p>SMTP Username: <input type="text" name="mail_username" id="mail_username" value="><!--{$site.db.username}-->" /></p>
+    <p>SMTP Password: <input type="text" name="mail_password" id="mail_password" value="><!--{$site.db.password}-->" /></p>
+    </div>
+    
+</div>
+</body>
+</html>

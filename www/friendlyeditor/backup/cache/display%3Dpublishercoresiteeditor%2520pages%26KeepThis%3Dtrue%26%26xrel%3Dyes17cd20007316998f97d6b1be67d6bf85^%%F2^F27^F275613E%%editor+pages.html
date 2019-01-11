@@ -1,0 +1,339 @@
+211
+a:4:{s:8:"template";a:2:{s:37:"publisher/core/site/editor pages.html";b:1;s:40:"publisher/core/editor/includes/head.html";b:1;}s:9:"timestamp";i:1519427663;s:7:"expires";i:1519431263;s:13:"cache_serials";a:0:{}}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- security -->
+    <!-- meta -->
+    <meta http-equiv="Content-Type" editorcontent="text/html; charset=utf-8" />
+    <title>Your friendly site editor - home</title>
+<!-- stylesheets -->
+    <link rel="stylesheet" href="/publisher/core/editor/css/pages.css" type="text/css">
+	<!--[if lt IE 7]>
+    <style type="text/css">
+    img {behavior: url("/publisher/scripts/iepngfix/iepngfix.htc");}
+    </style>
+    <![endif]-->
+<!-- jquery -->
+	<link type="text/css" href="/publisher/scripts/jquery/css/jquery-css.css" rel="stylesheet" />
+	<script type="text/javascript" src="/publisher/scripts/jquery/jquery-min.js"></script>
+    <script type="text/javascript" src="/publisher/scripts/jquery/jquery-ui-min.js"></script>
+    <!-- uploadbuton -->
+	<link type="text/css" href="/publisher/scripts/jquery/uploadbutton/uploadify.css" rel="stylesheet" />
+    <script type="text/javascript" src="/publisher/scripts/jquery/uploadbutton/jquery.uploadify.js"></script>
+    <!-- on dom ready -->
+    <script type="text/javascript">
+	$(document).ready(function() {
+		// check/uncheck
+		$("#check_showall").toggle(
+		  function () {$(".check_show").attr("checked","checked");},
+		  function () {$(".check_show").removeAttr("checked");}
+		);
+		$("#check_deleteall").toggle(
+		  function () {$(".check_delete").attr("checked","checked");},
+		  function () {$(".check_delete").removeAttr("checked");}
+		);
+		// sortable
+		$("#orderlist").sortable({
+		  handle : '.handle',
+		  update : function () {
+			var order = $('#orderlist').sortable('serialize');
+			document.getElementById('order').value=order;
+		  }
+		});
+		// datepicker
+		$(function() {
+			$("#datepicker").datepicker();
+		});
+		// vAlign
+		if ($.browser.msie) {
+			(function ($) {
+			$.fn.vAlign = function() {
+				return this.each(function(i){
+				var ah = $(this).height();
+				var ph = $(this).parent().height();
+				var mh = (ph - ah) / 2;
+				$(this).css('margin-top', mh);
+				});
+			};
+			});
+		}
+		// help boxes
+		$(".help").mouseover(function () {
+		  $(this).siblings(".helpbox").show();
+		});
+		$(".help").mouseout(function () {
+		  $(this).siblings(".helpbox").hide();
+		});
+		// checkboxes
+		$(function() {
+			$("input[type='checkbox']").css({'border' : 'none', 'padding' : '0', 'background' : 'none', 'margin' : '0'});
+			$("span").css({'display' : 'inline'});
+
+		});
+		// Messages
+		setTimeout('$(\'#message\').fadeOut("slow");$(\'#error\').fadeOut("slow");',9000);
+		// Uploadbutton
+		$('#image1').fileUpload ({
+		'uploader'  : '/publisher/scripts/jquery/uploadbutton/uploader.swf',
+		'script'    : '/publisher/core/items/editor_uploadimage.php',
+		'cancelImg' : '/publisher/scripts/jquery/uploadbutton/cancel.png',
+		'fileDesc'	: '.jpg .png or .gif',
+		'fileExt'	: '*.jpg;*.jpeg;*.png;*.gif',
+		'auto'      : true,
+		'folder'    : '/images/uploads',
+		'scriptData': {'v':1},
+		'onSelect'	: startimage,
+		'onComplete': previewimage
+		});
+		$('#image2').fileUpload ({
+		'uploader'  : '/publisher/scripts/jquery/uploadbutton/uploader.swf',
+		'script'    : '/publisher/core/items/editor_uploadimage.php',
+		'cancelImg' : '/publisher/scripts/jquery/uploadbutton/cancel.png',
+		'fileDesc'	: '.jpg .png or .gif',
+		'fileExt'	: '*.jpg;*.jpeg;*.png;*.gif',
+		'auto'      : true,
+		'folder'    : '/images/uploads',
+		'scriptData': {'v':2},
+		'onSelect'	: startimage,
+		'onComplete': previewimage
+		});
+		$('#image3').fileUpload ({
+		'uploader'  : '/publisher/scripts/jquery/uploadbutton/uploader.swf',
+		'script'    : '/publisher/core/items/editor_uploadimage.php',
+		'cancelImg' : '/publisher/scripts/jquery/uploadbutton/cancel.png',
+		'fileDesc'	: '.jpg .png or .gif',
+		'fileExt'	: '*.jpg;*.jpeg;*.png;*.gif',
+		'auto'      : true,
+		'folder'    : '/images/uploads',
+		'scriptData': {'v':3},
+		'onSelect'	: startimage,
+		'onComplete': previewimage
+		});
+		$('#image4').fileUpload ({
+		'uploader'  : '/publisher/scripts/jquery/uploadbutton/uploader.swf',
+		'script'    : '/publisher/core/items/editor_uploadimage.php',
+		'cancelImg' : '/publisher/scripts/jquery/uploadbutton/cancel.png',
+		'fileDesc'	: '.jpg .png or .gif',
+		'fileExt'	: '*.jpg;*.jpeg;*.png;*.gif',
+		'auto'      : true,
+		'folder'    : '/images/uploads',
+		'scriptData': {'v':4},
+		'onSelect'	: startimage,
+		'onComplete': previewimage
+		});
+		$('#image5').fileUpload ({
+		'uploader'  : '/publisher/scripts/jquery/uploadbutton/uploader.swf',
+		'script'    : '/publisher/core/items/editor_uploadimage.php',
+		'cancelImg' : '/publisher/scripts/jquery/uploadbutton/cancel.png',
+		'fileDesc'	: '.jpg .png or .gif',
+		'fileExt'	: '*.jpg;*.jpeg;*.png;*.gif',
+		'auto'      : true,
+		'folder'    : '/images/uploads',
+		'scriptData': {'v':5},
+		'onSelect'	: startimage,
+		'onComplete': previewimage
+		});
+			function startimage(ievent, queueID, fileObj, v) {
+			$('#submit').hide();
+			$('#uploading').show();
+			}
+			function previewimage(ievent, queueID, fileObj, v) {
+			/* alert(fileext); //debug */
+			var fileext = fileObj.name.slice(-4);
+			$('#delete_image'+v+'').attr("value","");
+			$('#uploading').hide();
+			$('#submit').show();
+			$('#uploaded_image'+v+'').attr("value","image-"+v+fileext);
+			$('#image'+v+'_preview').attr("src","/images/uploads/thumbs/image-"+v+fileext+'?'+queueID);
+			$('#image'+v+'_preview').show("slow");
+			$('#image'+v+'_text').text('Image-'+v+fileext); //text 
+			}
+		$('#video1').fileUpload ({
+		'uploader'  : '/publisher/scripts/jquery/uploadbutton/uploader.swf',
+		'script'    : '/publisher/core/items/editor_uploadvideo.php',
+		'cancelImg' : '/publisher/scripts/jquery/uploadbutton/cancel.png',
+		'fileDesc'	: '.mov, .flv',
+		'fileExt'	: '*.mov;*.flv',
+		'scriptData': {'v':1},
+		'auto'      : true,
+		'folder'    : '/videos',
+		'onSelect'	: startvideo,
+		'onComplete': previewvideo
+		});
+		$('#video2').fileUpload ({
+		'uploader'  : '/publisher/scripts/jquery/uploadbutton/uploader.swf',
+		'script'    : '/publisher/core/items/editor_uploadvideo.php',
+		'cancelImg' : '/publisher/scripts/jquery/uploadbutton/cancel.png',
+		'fileDesc'	: '.mov, .flv',
+		'fileExt'	: '*.mov;*.flv',
+		'scriptData': {'v':2},
+		'auto'      : true,
+		'folder'    : '/videos',
+		'onSelect'	: startvideo,
+		'onComplete': previewvideo
+		});
+		$('#video3').fileUpload ({
+		'uploader'  : '/publisher/scripts/jquery/uploadbutton/uploader.swf',
+		'script'    : '/publisher/core/items/editor_uploadvideo.php',
+		'cancelImg' : '/publisher/scripts/jquery/uploadbutton/cancel.png',
+		'fileDesc'	: '.mov, .flv',
+		'fileExt'	: '*.mov;*.flv',
+		'scriptData': {'v':3},
+		'auto'      : true,
+		'folder'    : '/videos',
+		'onSelect'	: startvideo,
+		'onComplete': previewvideo
+		});
+		$('#video4').fileUpload ({
+		'uploader'  : '/publisher/scripts/jquery/uploadbutton/uploader.swf',
+		'script'    : '/publisher/core/items/editor_uploadvideo.php',
+		'cancelImg' : '/publisher/scripts/jquery/uploadbutton/cancel.png',
+		'fileDesc'	: '.mov, .flv',
+		'fileExt'	: '*.mov;*.flv',
+		'scriptData': {'v':4},
+		'auto'      : true,
+		'folder'    : '/videos',
+		'onSelect'	: startvideo,
+		'onComplete': previewvideo
+		});
+		$('#video5').fileUpload ({
+		'uploader'  : '/publisher/scripts/jquery/uploadbutton/uploader.swf',
+		'script'    : '/publisher/core/items/editor_uploadvideo.php',
+		'cancelImg' : '/publisher/scripts/jquery/uploadbutton/cancel.png',
+		'fileDesc'	: '.mov, .flv',
+		'fileExt'	: '*.mov;*.flv',
+		'scriptData': {'v':5},
+		'auto'      : true,
+		'folder'    : '/videos',
+		'onSelect'	: startvideo,
+		'onComplete': previewvideo
+		});
+			function startvideo(ievent, queueID, fileObj, v) {
+			$('#submit').hide();
+			$('#uploading').show();
+			}
+			function previewvideo(ievent, queueID, fileObj, v) {
+			// alert(v); //debug */
+			var fileext = fileObj.name.slice(-4);
+			$('#delete_video'+v+'').attr("value","");
+			$('#uploading').hide();
+			$('#submit').show();
+			$('#uploaded_video'+v+'').attr("value","video-"+v+fileext);
+			$('#video'+v+'_text').text('Video-'+v+fileext); //text 
+			}
+	});
+	// FREEZEPAGE
+	function showscreen() {
+		$('#screen').css({'z-index' : '10000000'});
+		$('body').css({'overflow' : 'hidden'});
+	}
+	// ONLOAD
+	$(window).load(function() {
+		// vAlign
+		if($.browser.msie) {
+		$('#valignthis').vAlign();
+		}
+		if($.browser.mozilla) {
+		$('textarea').html($(this).html());
+		}
+	});
+    </script>
+</head><body>
+
+<!-- TOP -->
+<div id="top">
+    <img src="publisher/core/editor/images/buttons/configure.png" border="0" />
+    <h3>Manage Pages</h3>
+        <!-- buttons -->
+        <div class="buttons">
+        	<!-- submit -->
+            <input type="button" value="Submit" class="button" onClick="document.form_1.submit();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- reset -->
+            <input type="button" value="Reset" class="button" onClick="window.location.reload();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- cancel -->
+            <input type="button" value="Exit" class="button" onClick="self.parent.tb_remove();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+        </div>
+</div>
+
+<!-- MESSAGE -->
+
+<!-- ERROR -->
+<script type="text/javascript" language="javascript">
+	var xrel = "yes";
+	if (xrel != "yes") {window.location.href = window.location.href+'&xrel=yes';}
+</script>
+
+<!-- MIDDLE -->
+<div id="middle">
+<h5>Click and drag the pages to their new order. To move a page to another menu, click "edit page".</h5>
+
+
+    
+    <!-- SORT -->
+    <form name="sortdata" action="/index.php?display=publisher%2Fcore%2Fsite%2Feditor+pages&KeepThis=true&xrel=yes" method="post">
+    <div class="section">
+    <table border="0" cellpadding="0" cellspacing="0"><tr><td align="left" valign="top">
+        Navigation menu: 
+        <select name="editpages[menu]">
+        
+                selected="selected" value="1" onclick="document.sortdata.submit();">1<option selected="selected" value="1" onclick="document.sortdata.submit();">1</option>
+                 value="2" onclick="document.sortdata.submit();">2<option  value="2" onclick="document.sortdata.submit();">2</option>
+                 value="hidden" onclick="document.sortdata.submit();">hidden<option  value="hidden" onclick="document.sortdata.submit();">hidden</option>
+                </select>
+    </td></tr></table>
+    </div>
+    </form>
+
+	<!-- RESULTS -->
+    <form action="publisher/core/site/editor pages.php" name="form_1" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="form_id" value="" />
+    <input type="hidden" name="form_orderby" id="orderby" value="" />
+    <input type="hidden" name="form_order" id="order" value="" />
+    <div class="section">
+    <div id="images">
+    <ul id="orderlist" style="padding:0;margin:0;cursor:move;">
+   	        <li id="listItem_55">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="handle"><tr><td>
+        
+                	           	<div class="image"><img src="/images/image705-1.png" border="0" width="100%" /></div>
+        	            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="window.top.location='demo';" value="Visit" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor editpage&page=demo';" value="Edit Page" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor addpage&page=demo';" value="Add Page" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor deletepage&page=demo';" value="Delete Page" /><br />
+            <span style="padding-left:6px;text-transform:capitalize;font-weight:bold;">demo</span>  <br />
+            <div style="height:22px;overflow:hidden;padding-left:6px;color:#666666;">Demonstration</div>
+                </td></tr></table>
+        </li>
+            <li id="listItem_43">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="handle"><tr><td>
+        
+                	           	<div class="image"><img src="/images/image694-1.jpg" border="0" width="100%" /></div>
+        	            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="window.top.location='tutorials';" value="Visit" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor editpage&page=tutorials';" value="Edit Page" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor addpage&page=tutorials';" value="Add Page" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor deletepage&page=tutorials';" value="Delete Page" /><br />
+            <span style="padding-left:6px;text-transform:capitalize;font-weight:bold;">tutorials</span>  <br />
+            <div style="height:22px;overflow:hidden;padding-left:6px;color:#666666;">This is an easy-to-use site manager that comes standard with www.artspaces.net s</div>
+                </td></tr></table>
+        </li>
+            <li id="listItem_57">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="handle"><tr><td>
+        
+                	           	<div class="image"><img src="/images/image706-1.png" border="0" width="100%" /></div>
+        	            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="window.top.location='support';" value="Visit" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor editpage&page=support';" value="Edit Page" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor addpage&page=support';" value="Add Page" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor deletepage&page=support';" value="Delete Page" /><br />
+            <span style="padding-left:6px;text-transform:capitalize;font-weight:bold;">support</span>  <br />
+            <div style="height:22px;overflow:hidden;padding-left:6px;color:#666666;">get support</div>
+                </td></tr></table>
+        </li>
+        </ul>
+    </div>
+    </div>
+    </form>
+    <p>&nbsp;</p>
+
+</div>
+</body>
+</html>

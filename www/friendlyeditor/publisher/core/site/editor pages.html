@@ -1,0 +1,102 @@
+<!--{include file='publisher/core/editor/includes/head.html'}-->
+<body>
+
+<!-- TOP -->
+<div id="top">
+    <img src="publisher/core/editor/images/buttons/configure.png" border="0" />
+    <h3>Manage Pages</h3>
+        <!-- buttons -->
+        <div class="buttons">
+        	<!-- submit -->
+            <input type="button" value="Submit" class="button" onClick="document.form_1.submit();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- reset -->
+            <input type="button" value="Reset" class="button" onClick="window.location.reload();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- cancel -->
+            <input type="button" value="Exit" class="button" onClick="self.parent.tb_remove();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+        </div>
+</div>
+
+<!-- MESSAGE -->
+<!--{if $page.message}-->
+<div id="message">
+	<!--{$page.message}-->
+</div>
+<!--{/if}-->
+
+<!-- ERROR -->
+<!--{if $page.error}-->
+<div id="error">
+	<!--{$page.error}-->
+</div>
+<!--{/if}-->
+<script type="text/javascript" language="javascript">
+	var xrel = "<!--{$get.xrel}-->";
+	if (xrel != "yes") {window.location.href = window.location.href+'&xrel=yes';}
+</script>
+
+<!-- MIDDLE -->
+<div id="middle">
+<h5>Click and drag the pages to their new order. To move a page to another menu, click "edit page".</h5>
+
+<!--{getpages orderby="placement asc" search="name,text1,text2,text3" limit="" menu="1" name="editpages"}-->
+    
+    <!-- SORT -->
+    <form name="sortdata" action="/index.php?<!--{$page.uri}-->" method="post">
+    <div class="section">
+    <table border="0" cellpadding="0" cellspacing="0"><tr><td align="left" valign="top">
+        Navigation menu: 
+        <select name="editpages[menu]">
+        <!--{getpages unique="menu" orderby="menu asc" name="menus"}-->
+        <!--{foreach from=$menus key=k item=val name=val}-->
+        <!--{if $val.menu == $editpages_menu}-->selected="selected"<!--{/if}--> value="<!--{$val.menu}-->" onclick="document.sortdata.submit();"><!--{$val.menu}--><option <!--{if $val.menu == $editpages_menu}-->selected="selected"<!--{/if}--> value="<!--{$val.menu}-->" onclick="document.sortdata.submit();"><!--{$val.menu}--></option>
+        <!--{/foreach}-->
+        </select>
+    </td></tr></table>
+    </div>
+    </form>
+
+	<!-- RESULTS -->
+    <form action="publisher/core/site/editor pages.php" name="form_1" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="form_id" value="<!--{$site.id}-->" />
+    <input type="hidden" name="form_orderby" id="orderby" value="" />
+    <input type="hidden" name="form_order" id="order" value="" />
+    <div class="section">
+    <div id="images">
+    <ul id="orderlist" style="padding:0;margin:0;cursor:move;">
+   	<!--{foreach from=$editpages key=key item=value name=value}-->
+        <li id="listItem_<!--{$value.id}-->">
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="handle"><tr><td>
+        <!--{getitem page=$value.name name="val"}-->
+        <!--{if $val}-->
+        	<!--{if $val.image1}-->
+           	<div class="image"><img src="/images/<!--{$val.image1}-->" border="0" width="100%" /></div>
+        	<!--{else}-->
+           	<div class="image"></div>
+        	<!--{/if}-->
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="window.top.location='<!--{$value.name}-->';" value="Visit" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor editpage&page=<!--{$value.name}-->';" value="Edit Page" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor addpage&page=<!--{$value.name}-->';" value="Add Page" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor deletepage&page=<!--{$value.name}-->';" value="Delete Page" /><br />
+            <span style="padding-left:6px;text-transform:capitalize;font-weight:bold;"><!--{$value.name}--></span> <!--{$value.category}--> <!--{$value.relevance}--><br />
+            <div style="height:22px;overflow:hidden;padding-left:6px;color:#666666;"><!--{$val.text1|preview_text}--></div>
+        <!--{else}-->
+           	<div class="image"></div>
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="window.top.location='<!--{$value.name}-->';" value="Visit" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor editpage&page=<!--{$value.name}-->';" value="Edit Page" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor addpage&page=<!--{$value.name}-->';" value="Add Page" />
+            <input type="button" class="button" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" onClick="document.location='?display=publisher/core/pages/editor deletepage&page=<!--{$value.name}-->';" value="Delete Page" /><br />
+            <span style="padding-left:6px;text-transform:capitalize;font-weight:bold;"><!--{$value.name}--></span> <!--{$value.category}--> <!--{$value.relevance}--><br />
+            <div style="height:22px;overflow:hidden;padding-left:6px;color:#666666;"><!--{$value.text1|preview_text}--></div>
+            <!--{/if}-->
+        </td></tr></table>
+        </li>
+    <!--{/foreach}-->
+    </ul>
+    </div>
+    </div>
+    </form>
+    <p>&nbsp;</p>
+
+</div>
+</body>
+</html>

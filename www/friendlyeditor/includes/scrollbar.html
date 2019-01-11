@@ -1,0 +1,21 @@
+	<!-- SCROLLBAR -->
+        <style type="text/css">
+        .ui-slider-vertical { width: .8em; height: 100px; background:none; border:none;}
+        .ui-slider-vertical .ui-slider-handle { left: 0; margin-left: 0; margin-top: 0; width:21px; height:20px; background:url('/images/layout/scrolltip.png'); behavior: url('/publisher/scripts/iepngfix/iepngfix.htc'); border:none; cursor:move;}
+        .ui-slider-vertical .ui-slider-range { left: 0; width: 100%; background:none;border:none;}
+        .ui-slider-vertical .ui-slider-range-min { bottom: 0; background:none;border:none;}
+        .ui-slider-vertical .ui-slider-range-max { top: 0; background:none;border:none;}
+        #scrollbody {position:absolute;width:21px;height:411px;margin:23px 0 0 0;overflow:visible;background:url('/images/layout/scrollbody.png');behavior: url('/publisher/scripts/iepngfix/iepngfix.htc');}
+        #scrolltop {position:absolute;width:21px;height:20px;margin:2px 0 0 0;overflow:visible;background:url('/images/layout/scrolltop.png');behavior: url('/publisher/scripts/iepngfix/iepngfix.htc');}
+        #scrollbottom {position:absolute;width:21px;height:20px;margin:432px 0 0 0;overflow:visible;background:url('/images/layout/scrollbottom.png');behavior: url('/publisher/scripts/iepngfix/iepngfix.htc');}
+        #scrollbar {position:absolute;height:384px;margin:36px 0 0 0;z-index:99;}
+        </style>
+        <!--[if IE]>
+        <style type="text/css">
+        #scrollbar {margin:47px 0 0 0;}
+        </style>
+        <![endif]-->
+        <div id="scrollbody"></div>
+        <div id="scrolltop"></div>
+        <div id="scrollbottom"></div>
+        <div id="scrollbar"></div>

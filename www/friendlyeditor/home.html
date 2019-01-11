@@ -1,0 +1,26 @@
+<!--{include file="includes/head.html"}-->
+<tr><td align="left" valign="top" width="880">
+
+    <ul class="slideshow" style="height:290px;margin:22px 0;overflow:hidden;">
+    <!--{getitems page=$page.name name="items"}-->
+    <!--{foreach from=$items item="item"}-->
+    <li><!--{edititem id=$item.id}--><img src="/<!--{$site.uploads.images.dir}-->/<!--{$item.image1}-->" height="290px;" /></li>
+    <!--{foreachelse}-->
+    <!--{additem}-->
+    <!--{/foreach}-->
+    </ul>
+
+    <!--{edittext1}-->
+	<h2><a href="/gallery"><!--{$page.title1}--></a></h2>
+    <p><!--{$page.text1}--></p>
+    <p>&nbsp;</p>
+    
+    <!--{edittext2}-->
+    <h1><a href="http://www.artspaces.net"><!--{$page.title2}--></a></h1>
+    <!--{if $page.text2}-->
+    <p><!--{$page.text2}--></p>
+    <!--{/if}-->
+    
+    
+</td></tr>
+<!--{include file="includes/foot.html"}-->
