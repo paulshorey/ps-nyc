@@ -1,5 +1,5 @@
-[Regex for IDEs](regex.md)
-
-### Indentation
-
-
+[Regex for IDEs](regex.md)  
+  
+### Indentation  
+  
+  
