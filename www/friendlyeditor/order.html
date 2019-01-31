@@ -1,0 +1,179 @@
+<!--{include file="includes/head.html"}-->
+<tr><td colspan="2" align="left" valign="top">
+	
+    <div style="height:2px;"></div>
+    <h1><!--{$page.title1}--></h1>
+    
+<tr><td align="left" valign="top">
+    
+    <img src="/images/meeting.jpg" height="78" style="margin:0 12px 0 2px;" />
+    <p>&nbsp;</p>
+    
+</td><td align="left" valign="top">
+    
+    <!-- TEXT -->
+    <p><!--{edittext1}--><!--{$page.text1}--></p>
+    
+<tr><td colspan="2" align="left" valign="top">
+
+    <form name="contact" action="/index.php?action=publisher/plugins/mail/visitor sendmail.php" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="artspaces.net pricequote" value="..." />
+    <input type="hidden" name="date" value="<!--{$Smarty.now|date}-->" />
+    <input type="hidden" name="subject" value="artspaces.net pricequote" />
+    
+    <!-- TEXT -->
+    <h1><!--{$page.title2}--></h1>
+    <p><!--{edittext2}--><!--{$page.text2}--></p>
+    
+    <p class="margintop" style="font-weight:bold;">Your Name:</p>
+    <p><input type="text" name="name" value="<!--{$post.name}-->" style="width:220px;" /></p>
+    <p style="font-weight:bold;">Your Phone:</p>
+    <p><input type="text" name="phone" value="<!--{$post.phone}-->" style="width:220px;" /></p>
+    <p style="font-weight:bold;">Your Email:</p>
+    <p><input type="text" name="email" value="<!--{$post.email}-->" style="width:220px;" /></p>
+    
+    <p class="margintop">Why are you making this site? What role will it serve? What kind of visitors will it target? What do you want the visitors to do once theyre there?</p>
+    <p><textarea name="site_structure" style="width:98%;height:80px"><!--{$post.site_structure}--></textarea></p>
+    
+    <p class="margintop">You will have an unlimited number of pages, sharing several layouts. If you had to narrow your site down to 5 pages, what would they be, and what kind of content would be displayed in each? An example would be "home", "blog", "gallery", "shop", and "contact".
+    
+    <p>Page 1:</p>
+    <p><input type="text" name="page1_name" onfocus="if (this.value == 'Home') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Home';}" value="<!--{if $post.page1_name}--><!--{$post.page1_name}--><!--{else}-->Home<!--{/if}-->" /></p>
+    <p><textarea name="page1_layout" style="width:98%;height:40px" onfocus="if (this.value == 'A large showcase of my best works with an introductory paragraph, catchy logo, navigation bars, search, and a fitting background.') {this.value = '';}" onblur="if (this.value == '') {this.value = 'A large showcase of my best works with an introductory paragraph, catchy logo, navigation bars, search, and a fitting background.';}"><!--{if $post.page1_layout}--><!--{$post.page1_layout}--><!--{else}-->A large showcase of my best works with an introductory paragraph, catchy logo, navigation bars, search, and a fitting background.<!--{/if}--></textarea></p>
+    
+    <p>Page 2:</p>
+    <p><input type="text" name="page2_name" onfocus="if (this.value == 'About me') {this.value = '';}" onblur="if (this.value == '') {this.value = 'About me';}" value="<!--{if $post.page2_name}--><!--{$post.page2_name}--><!--{else}-->About me<!--{/if}-->" /></p>
+    <p><textarea name="page2_layout" style="width:98%;height:40px" onfocus="if (this.value == 'A blog-type of setup with articles, big calendar-style dates, large clear images, and video. I want people to see some of the responses too right on that page.') {this.value = '';}" onblur="if (this.value == '') {this.value = 'A blog-type of setup with articles, big calendar-style dates, large clear images, and video. I want people to see some of the responses too right on that page.';}"><!--{if $post.page2_layout}--><!--{$post.page2_layout}--><!--{else}-->A blog-type of setup with articles, big calendar-style dates, large clear images, and video. I want people to see some of the responses too right on that page.<!--{/if}--></textarea></p>
+    
+    <p>Page 3:</p>
+    <p><input type="text" name="page3_name" onfocus="if (this.value == 'Photography') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Photography';}" value="<!--{if $post.page3_name}--><!--{$post.page3_name}--><!--{else}-->Photography<!--{/if}-->" /></p>
+    <p><textarea name="page3_layout" style="width:98%;height:60px" onfocus="if (this.value == 'My photographs in a gallery setting, with my whole archive of past works. I want to be able to sell the works too, right from the page, have the visitor choose a size and frame and everything.') {this.value = '';}" onblur="if (this.value == '') {this.value = 'My photographs in a gallery setting, with my whole archive of past works. I want to be able to sell the works too, right from the page, have the visitor choose a size and frame and everything.';}"><!--{if $post.page3_layout}--><!--{$post.page3_layout}--><!--{else}-->My photographs in a gallery setting, with my whole archive of past works. I want to be able to sell the works too, right from the page, have the visitor choose a size and frame and everything.<!--{/if}--></textarea></p>
+    <p onClick="$(this).hide();$('#morepages2').fadeIn('slow');"><a href="#">Add more layouts...</a></p>
+    
+    <div id="morepages2" style="display:none;">
+    <p>Page 4:</p>
+    <p><input type="text" name="page4_name" value="<!--{$post.page4_name}-->" /></p>
+    <p><textarea name="page4_layout" style="width:98%;height:60px"><!--{$post.page4_layout}--></textarea></p>
+    
+    <p>Page 5:</p>
+    <p><input type="text" name="page5_name" value="<!--{$post.page5_name}-->" /></p>
+    <p><textarea name="page5_layout" style="width:98%;height:60px"><!--{$post.page5_layout}--></textarea></p>
+    
+    <p>Page 6:</p>
+    <p><input type="text" name="page6_name" value="<!--{$post.page6_name}-->" /></p>
+    <p><textarea name="page6_layout" style="width:98%;height:60px"><!--{$post.page6_layout}--></textarea></p>
+    <p onClick="$(this).hide();$('#morepages3').fadeIn('slow');"><a href="#">Add more layouts...</a></p>
+    </div>
+    
+    <div id="morepages3" style="display:none;">
+    <p>Page 7:</p>
+    <p><input type="text" name="page7_name" value="<!--{$post.page7_name}-->" /></p>
+    <p><textarea name="page7_layout" style="width:98%;height:60px"><!--{$post.page7_layout}--></textarea></p>
+    
+    <p>Page 8:</p>
+    <p><input type="text" name="page8_name" value="<!--{$post.page8_name}-->" /></p>
+    <p><textarea name="page8_layout" style="width:98%;height:60px"><!--{$post.page8_layout}--></textarea></p>
+    
+    <p>Page 9:</p>
+    <p><input type="text" name="page9_name" value="<!--{$post.page9_name}-->" /></p>
+    <p><textarea name="page9_layout" style="width:98%;height:60px"><!--{$post.page9_layout}--></textarea></p>
+    <p onClick="$(this).hide();$('#morepages4').fadeIn('slow');"><a href="#">Add more layouts...</a></p>
+    </div>
+    
+    <div id="morepages4" style="display:none;">
+    <p>Page 10:</p>
+    <p><input type="text" name="page10_name" value="<!--{$post.page10_name}-->" /></p>
+    <p><textarea name="page10_layout" style="width:98%;height:60px"><!--{$post.page10_layout}--></textarea></p>
+    
+    <p>Page 11:</p>
+    <p><input type="text" name="page11_name" value="<!--{$post.page11_name}-->" /></p>
+    <p><textarea name="page11_layout" style="width:98%;height:60px"><!--{$post.page11_layout}--></textarea></p>
+    
+    <p>Page 12:</p>
+    <p><input type="text" name="page12_name" value="<!--{$post.page12_name}-->" /></p>
+    <p><textarea name="page12_layout" style="width:98%;height:60px"><!--{$post.page12_layout}--></textarea></p>
+    </div>
+    
+    <p>What kind of feel would you like your site to have? Classical or contemporary? Playful and whimsical or stable and corporate? Funky or conservative? Is there a style or color you'd like to show? A nice logo or branding strategy that you'd like to match? You'll be able to add supporting files below</p>
+    <p><textarea name="style" style="width:98%;height:80px"><!--{$post.style}--></textarea></p>
+    
+    <p>Finally, I will need some of your work/products to get started. The more the better. Please include as many files as you can, and describe what page/category they belong to.</p>
+    
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption1" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption2" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption3" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption4" style="width:320px;" /></p>
+    <p onClick="$(this).hide();$('#morefiles2').fadeIn('slow');"><a href="#">More files...</a></p>
+    
+    <div id="morefiles2" style="display:none;">
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption5" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption6" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption7" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption8" style="width:320px;" /></p>
+    <p onClick="$(this).hide();$('#morefiles3').fadeIn('slow');"><a href="#">More files...</a></p>
+    </div>
+    
+    <div id="morefiles3" style="display:none;">
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption9" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption10" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption11" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption12" style="width:320px;" /></p>
+    <p onClick="$(this).hide();$('#morefiles4').fadeIn('slow');"><a href="#">More files...</a></p>
+    </div>
+    
+    <div id="morefiles4" style="display:none;">
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption13" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption14" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption15" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption16" style="width:320px;" /></p>
+    <p onClick="$(this).hide();$('#morefiles5').fadeIn('slow');"><a href="#">More files...</a></p>
+    </div>
+    
+    <div id="morefiles5" style="display:none;">
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption17" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption18" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption19" style="width:320px;" /></p>
+    <p> File &nbsp;<input type="file" name="file[]" /> &nbsp; Description <input type="text" name="image_caption20" style="width:320px;" /></p>
+    <p class="subtle">If you have more than 20 files or they're very large thats great! Then, simply submit another form. Your name, email, and phone number will identify the next form as an extension of this one.</p>
+    </div>
+    <div><p class="subtle">*Please note that uploading extra-large files will take a while to process. This is normal, and depends on your internet connection. I suggest using a free program like Picassa to scale down your images to 2000px in the largest direction.</p></div>
+    
+    <p><b>Are you a human - yes or no?</b></p>
+    <p><input type="text" name="areyouhuman" style="width:80px;" /></p>
+    <div style="height:8px;"></div>
+    
+    <p>
+    <input type="submit" value="Submit Pricequote" class="button" />
+    <a id="printerfriendly" href="javascript:return;" onclick="$(this).hide();$('#unprinterfriendly').show();printerfriendly();">(Printer-friendly version)</a>
+    <a id="unprinterfriendly" href="javascript:return;" onclick="$(this).hide();$('#printerfriendly').show();unprinterfriendly();" style="display:none;">(Regular version)</a>
+    </p>
+    <p>&nbsp;</p>
+    
+    </form>
+    
+    <h1><!--{$page.title3}--></h1>
+    <!-- TEXT -->
+    <!--{if $page.text3}-->
+    <p><!--{edittext3}--><!--{$page.text3}--></p>
+    <div style="height:8px;"></div>
+    <!--{/if}-->
+    
+	<a name="contact"></a>
+    <form name="contact" action="/index.php?action=publisher/plugins/mail/visitor sendmail.php" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="artspaces.net message" value="..." />
+    <input type="hidden" name="date" value="<!--{$Smarty.now|date}-->" />
+    <input type="hidden" name="subject" value="artspaces.net message" />
+    <p>Your name<br />
+    <input type="text" name="name" value="<!--{$post.name}-->" style="width:220px;" /></p>
+    <p>Email<br />
+    <input type="text" name="email" value="<!--{$post.email}-->" style="width:220px;" /></p>
+    <p>Message<br />
+    <textarea name="site_structure" style="width:98%;height:80px"><!--{$post.site_structure}--></textarea></p>
+    <p><input type="submit" value="Send" class="button" /></p>
+    </form>
+    <div style="height:8px;"></div>
+    <p>Thank you,<br />
+    Paul Shorey</p>
+    
+</td></tr>
+<!--{include file="includes/foot.html"}-->

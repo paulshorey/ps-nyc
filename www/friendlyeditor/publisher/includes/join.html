@@ -1,0 +1,47 @@
+	<!-- MESSAGE -->
+	<!--{if $page.error}-->
+	<div id="error" class="error">
+	<p><!--{$page.error}--></p>
+	<p>&nbsp;</p>
+	</div>
+	<!--{/if}-->
+	<!--{if $page.message}-->
+	<div id="message" class="message">
+	<p><!--{$page.message}--></p>
+	<p>&nbsp;</p>
+	</div>
+	<!--{/if}-->
+	
+	<!-- JOIN -->
+	<!--{if !$user || $user.role=="editor" || $user.role=="admin"}-->
+		
+		<form class="margintop" action="/publisher/core/users/visitor adduser.php" name="form_1" method="post" enctype="multipart/form-data" autocomplete="off">
+		<p style="font-weight:bold;" class="margintop">Your name:<br />
+		<input type="text" name="firstname" id="firstname" style="width:100px;" value="<!--{if $post.firstname}--><!--{$post.firstname}--><!--{else}--><!--{$user.firstname}--><!--{/if}-->" />
+		<input type="text" name="middlename" id="middlename" style="width:20px;" value="<!--{if $post.middlename}--><!--{$post.middlename}--><!--{else}--><!--{$user.middlename}--><!--{/if}-->" />
+		<input type="text" name="lastname" id="lastname" style="width:120px;" value="<!--{if $post.lastname}--><!--{$post.lastname}--><!--{else}--><!--{$user.lastname}--><!--{/if}-->" /></p>
+		<p style="font-weight:bold;" class="margintop">Email: <br />
+		<input type="text" name="email" id="email" style="width:200px;" value="<!--{if $post.email}--><!--{$post.email}--><!--{else}--><!--{$user.email}--><!--{/if}-->" /></p>
+		<p style="font-weight:bold;" class="margintop">Username:<br />
+		<input type="text" name="username" style="width:100px;" id="username" value="<!--{if $post.username}--><!--{$post.username}--><!--{else}--><!--{$user.username}--><!--{/if}-->" /></p>
+		<p style="font-weight:bold;" class="margintop">Password <br />
+		<input type="password" name="password" style="width:100px;" id="password" value="" /></p>
+		<input type="hidden" name="mail" id="mail" value="yes" /></p>
+		<p style="font-weight:bold;" class="margintop">Phone: (optional)<br />
+		<input type="text" name="phone" style="width:100px;" id="phone" value="<!--{if $post.phone}--><!--{$post.phone}--><!--{else}--><!--{$user.phone}--><!--{/if}-->" /></p>
+		<p style="font-weight:bold;" class="margintop">Subscribe to mailing list?
+		<input type="checkbox" name="mail" id="mail" value="yes" checked="checked" /></p>
+		<p>&nbsp;</p>
+		<p><input type="submit" value="Submit" class="button" /></p>
+		</form>
+		
+		<p>&nbsp;</p>
+		<p>Already have an account? <a href="/login">Login</a></p>
+		<p>&nbsp;</p>
+		
+	<!--{else}-->
+			
+		<p>Youre already logged in. <a href="/account">Manage your account here.</a></p>
+		<p>&nbsp;</p>
+			
+	<!--{/if}-->

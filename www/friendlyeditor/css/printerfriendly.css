@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+img {display:none;}
+body,.body,div,p,a,h1,h2,h3,h4,h5,h6 {color:#000000;}
+body,.body {overflow:visible;}
+div,body,.body,.body_bg,.body_fg {background:#ffffff;}

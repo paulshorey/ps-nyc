@@ -1,0 +1,168 @@
+<!--{include file='publisher/core/editor/includes/head.html'}-->
+<body>
+
+<!-- TOP -->
+<div id="top">
+    <img src="publisher/core/editor/images/buttons/file.png" border="0" />
+    <h3>Add a New Page</h3>
+        <!-- buttons -->
+        <div class="buttons">
+        	<!-- submit -->
+            <input type="button" value="Submit" class="button" onClick="document.form_1.submit();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- reset -->
+            <input type="button" value="Reset" class="button" onClick="window.location.reload();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- cancel -->
+            <input type="button" value="Exit" class="button" onClick="self.parent.tb_remove();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+        </div>
+</div>
+
+<!-- MESSAGE -->
+<!--{if $page.message}-->
+<div id="message">
+	<!--{$page.message}-->
+</div>
+<!--{/if}-->
+
+<!-- ERROR -->
+<!--{if $page.error}-->
+<div id="error">
+	<!--{$page.error}-->
+</div>
+<!--{/if}-->
+
+<!-- MIDDLE -->
+<div id="middle">
+
+	<!-- FORM -->
+    <form action="publisher/core/pages/editor addpage.php" name="form_1" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="id" value="<!--{$xpage.id}-->" />
+    <h5>Add a new page, try out some different layouts.</h5>
+    
+    <!---->
+    <div class="section">
+      <p style="font-weight:bold;">
+      <a href="javascript:return;" class="help">Name </a><a href="javascript:return;" class="helpbox">
+      Will be displayed in the url. Only letters, numbers, dashes and spaces please. After creating, it's not a good idea to change it because other sites may have already linked to it. Instead, change the first title below.
+      </a>
+      </p>
+    <input type="hidden" name="oldname" value="<!--{$xpage.name}-->" />
+    <input type="text" name="name" value="<!--{$xpage.name}-->" />
+    </div>
+    
+    <!-- -->
+    <div class="section">
+      <p style="font-weight:bold;">
+      <a href="javascript:return;" class="help">Title </a><a href="javascript:return;" class="helpbox">
+    Some of your pages may display one, two or three titles. If left blank, the page name will be used.
+      </a>
+      </p>
+    <p><input type="text" name="title1" style="width:80%;" value="<!--{if $post.title1}--><!--{$post.title1}--><!--{elseif $xpage.title1}--><!--{$xpage.title1}--><!--{else}--><!--{$xpage.name}--><!--{/if}-->" /></p>
+    <h6 onClick="$('#pagetitles').show('slow');$(this).hide('slow');"><a href="javascript:return;">Add more titles.</a></h6>
+    <div id="pagetitles" style="display:none;">
+    <p><input type="text" name="title2" style="width:80%;" value="<!--{if $post.title2}--><!--{$post.title2}--><!--{elseif $xpage.title2}--><!--{$xpage.title2}--><!--{/if}-->" /></p>
+    <p><input type="text" name="title3" style="width:80%;" value="<!--{if $post.title3}--><!--{$post.title3}--><!--{elseif $xpage.title3}--><!--{$xpage.title3}--><!--{/if}-->" /></p>
+    </div>
+    </div>
+    
+    <!---->
+    <div class="section">
+      <p style="font-weight:bold;">
+      <a href="javascript:return;" class="help">Layout </a><a href="javascript:return;" class="helpbox">
+    What kind of page is this? Your site has been created with several designs to choose from.
+      </a>
+      </p>
+    <select name="type">
+    <!--{getfiles dir="" ext="html" name="layouts"}-->
+    <!--{foreach from=$layouts key=k item=val name=val}-->
+        <!--{if $val == "blog" || $val == "text"}-->selected="selected"<!--{/if}--> value="<!--{$val}-->"><!--{$val}--><option <!--{if $val == "blog" || $val == "text"}-->selected="selected"<!--{/if}--> value="<!--{$val}-->"><!--{$val}--></option>
+    <!--{/foreach}-->
+    </select>
+    </div>
+    
+    <!---->
+    <div class="section">
+      <p>
+      <a href="javascript:return;" class="help">Menu</a><a href="javascript:return;" class="helpbox">
+    Your site may have one or two navigation menus. Which one would you like to place this page on?
+      </a>
+      </p>
+    <select name="menu">
+    <option value="1" selected="selected">Main menu</option>
+    <option value="2" >Second menu</option>
+    <option value="hidden" >Hidden (link only)</option>
+    </select>
+    </div>
+    
+    <!---->
+    <div class="section">
+      <p>
+      <a href="javascript:return;" class="help">Sort entries</a><a href="javascript:return;" class="helpbox">
+    Whether you have products, photos, or links, they'll be arranged in this order. If you'd like to drag and drop your etries with the "Manage Entries" tool, choose "placement asc".
+      </a>
+      </p>
+    <select name="orderby">
+    <option value="name asc">name asc</option>
+    <option value="name desc">name desc</option>
+    <option value="date asc">date asc</option>
+    <option selected="selected" value="date desc">date desc</option>
+    <option value="page asc">page asc</option>
+    <option value="page desc">page desc</option>
+    <option value="price1 asc">price asc</option>
+    <option value="price1 desc">price desc</option>
+    <option value="category asc">category asc</option>
+    <option value="category desc">category desc</option>
+    <option value="placement asc">placement asc</option>
+    </select>
+    </div>
+        
+    <!---->
+    <div class="section">
+      <p style="font-weight:bold;">
+      <a href="javascript:return;" class="help">Text</a><a href="javascript:return;" class="helpbox">
+    This will be the main body of text for this page.
+      </a>
+      </p>
+    <textarea name="text1" style="width:100%;height:400px;">
+	<!--{if $post.text1}--><!--{$post.text1}--><!--{else}--><!--{$xpage.text1}--><!--{/if}-->
+    </textarea>
+    </div>
+	
+    <div class="section" style="cursor:hand;cursor:pointer;display:none;" onClick="$('#itemtexts').show('slow');$(this).hide('slow');">
+      <p style="font-weight:bold;">
+      <a href="javascript:return;" class="help">Add more text fields.</a><a href="javascript:return;" class="helpbox">
+      If your page supports more than one text field, add them here. Otherwise, contact your designer to add some.
+      </a>
+      </p>
+    </div>
+    <div id="itemtexts" style="display:block;">
+        
+    <!---->
+    <div class="section">
+      <p>
+      <a href="javascript:return;" class="help">Text 2</a><a href="javascript:return;" class="helpbox">
+    This is the secondary text that is usually displayed on the side or bottom of the page.
+      </a>
+      </p>
+    <textarea name="text2" style="width:100%;height:400px;">
+	<!--{if $post.text2}--><!--{$post.text2}--><!--{else}--><!--{$xpage.text2}--><!--{/if}-->
+    </textarea>
+    </div>
+    
+    </div>
+
+    <!-- advanced features -->
+    <div class="section">
+      <p>
+      <a href="javascript:return;" class="help">Advanced Options... </a><a href="javascript:return;" class="helpbox">
+      Advanced tools and settings. Visit www.friendlyeditor.com/editors for more info.
+      </a>
+      </p>
+      <input type="checkbox" name="clearformatting" value="yes"> Remove all html styles, colors, and behaviors in this page.
+    </div>
+
+  	</form>
+    
+</div>
+<!--{include file='publisher/core/editor/includes/tinymce.html'}-->
+</body>
+</html>

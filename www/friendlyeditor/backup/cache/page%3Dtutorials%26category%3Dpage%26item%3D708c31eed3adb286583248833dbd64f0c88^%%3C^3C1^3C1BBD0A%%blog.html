@@ -1,0 +1,392 @@
+223
+a:4:{s:8:"template";a:4:{s:9:"blog.html";b:1;s:21:"includes/scripts.html";b:1;s:18:"includes/head.html";b:1;s:18:"includes/foot.html";b:1;}s:9:"timestamp";i:1519429457;s:7:"expires";i:1519433057;s:13:"cache_serials";a:0:{}}<html><head>
+
+<!-- javascript -->
+	<!-- meta -->
+<meta http-equiv="charset" content="iso-8859-1">
+<meta http-equiv="expires" content="Feb 23, 2018">
+<title>Tutorials - Webdesign by Paul Shorey - Page</title>
+<link rel="shortcut icon" href="/images/layout/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="/images/layout/favicon.ico" type="image/x-icon" /> 
+<meta name="author" content="Paul Shorey ps@artspaces.net">
+<meta name="keywords" content="Manage, your, site, quickly, and, efficiently, Try, out, the, editor, as, if, editing, own, site., Your, finished, site, will, have, this, editor, built-in., When, its, time, to, add, more, content,, just, login,, and, all, the, tools, you, see, here, will, pop, up,, allowing, you, to, easilyedit, pages,, articles, and, users., If, you're, not, sure, about, a, question, in, the, editor,, mouse, over, it, and, a, help, box, will, appear., Webdesign, by, Paul, Shorey, Please, let, me, know, what, you, think, about, this, program., New, features, are, being, added, every, day., If, there">
+<meta name="description" content="Manage your site quickly and efficiently Try out the editor as if editing own site. Your finished site will have this editor built-in. When its time to add more content, just login, and all the tools you see here will pop up, allowing you to easilyedit pages, articles and users. If you're not sure about a question in the editor, mouse over it and a help box will appear. Webdesign by Paul Shorey Please let me know what you think about this program. New features are being added every day. If there">
+<meta name="copyright" content="Feb 23, 2018">
+<meta name="verify-v1" content="nq5WuPwBFgj55ZXqiYtJgWpGvc08ZUzAvJXSu2zOfbQ=" >
+
+<!-- css -->
+<link rel="stylesheet" href="/css/layout.css" type="text/css" id="css_layout" />
+<link rel="stylesheet" href="/css/style.css" type="text/css" id="css_style" />
+<!--[if IE]>
+<link rel="stylesheet" href="/css/layout-ie.css" type="text/css" />
+<![endif]-->
+<!--[if lt IE 7]>
+<style type="text/css">
+.trans {behavior: url('/publisher/scripts/iepngfix/iepngfix.htc');}
+</style>
+<![endif]-->
+<style type="text/css">
+
+</style>
+    
+<!-- swfobject -->
+<script type="text/javascript" src="/publisher/scripts/swfobject/swfobject.js"></script>
+<!-- quicktimeobject -->
+<script type="text/javascript" src="/publisher/scripts/qtobject/qtobject.js"></script>
+<!-- jquery -->
+<link rel="stylesheet" href="/publisher/scripts/jquery/css/jquery-css.css" type="text/css" media="screen" />
+<script type="text/javascript" src="/publisher/scripts/jquery/jquery-min.js"></script>
+<script type="text/javascript" src="/publisher/scripts/jquery/jquery-ui-min.js"></script>
+    <!-- mousewheel -->
+	<script type="text/javascript" src="/publisher/scripts/jquery/mousewheel/mousewheel.js"></script>
+    <!-- jscroll -->
+	<link rel="stylesheet" href="/publisher/scripts/jquery/jscroll/jscroll.css" type="text/css" media="screen" />
+	<script type="text/javascript" src="/publisher/scripts/jquery/jscroll/jscroll.js"></script>
+	<!-- thickbox -->
+	<link rel="stylesheet" href="/publisher/scripts/jquery/thickbox/thickbox.css" type="text/css" media="screen" />
+	<script src="/publisher/scripts/jquery/thickbox/thickbox.js" type="text/javascript"></script>
+	<!-- swftitles -->
+	<script src="/scripts/jquery/swftitles/swftitles.js" type="text/javascript"></script>
+    <!-- slideshow -->
+	<script type="text/javascript" src="/publisher/scripts/jquery/cycle/core.js"></script>
+    <!-- init -->
+	<script type="text/javascript">
+	// ONREADY
+	$(document).ready(function() {
+		// IF MSIE
+		if ($.browser.msie) {
+			// vAlign
+			(function ($) {
+			$.fn.vAlign = function() {
+				return this.each(function(i){
+				var ah = $(this).height();
+				var ph = $(this).parent().height();
+				var mh = (ph - ah) / 2;
+				$(this).css('margin-top', mh);
+				});
+			};
+			})(jQuery);
+			// Buttons toggle
+			if (jQuery.browser.version > 6) {
+				// Buttons replace
+				$(".buttonup > img").mouseover(function () {
+				  var str = $(this).attr("src");
+				  if (str.search(/-hover/) < 0) {
+					  str = str.replace(/.png/, "-hover.png");
+					  str = str.replace(/.gif/, "-hover.gif");
+					  str = str.replace(/.jpg/, "-hover.jpg");
+					  $(this).attr({src: str});
+				  }
+				});
+				$(".buttonup > img").mouseout(function () {
+				  var str = $(this).attr("src");
+				  if (str.search(/-hover/) > 0) {
+					  str = str.replace(/-hover/, "");
+					  $(this).attr({src: str});
+				  }
+				});
+			} else {
+			// Buttons fade
+			$(".buttonup").mouseenter(function () {
+			  $(this).children(".buttondown").fadeIn("slow");
+			});
+			$(".buttonup").mouseleave(function () {
+			  $(this).children(".buttondown").fadeOut("slow");
+			});
+			}
+		// IF NORMAL
+		} else {
+			// Buttons fade
+			$(".buttonup").mouseenter(function () {
+			  $(this).children(".buttondown").fadeIn("slow");
+			});
+			$(".buttonup").mouseleave(function () {
+			  $(this).children(".buttondown").fadeOut("slow");
+			});
+			// Safari fix
+			if ($.browser.safari) {
+				// Fix style
+        		$('head').append('<link rel="stylesheet" href="/css/layout-safari.css" type="text/css" id="css_safari" />');
+			}
+		}
+		// Preload images
+		jQuery.preloadImages = function() {
+		  for(var i = 0; i<arguments.length; i++) {
+			jQuery("<img>").attr("src", arguments[i]);
+		  }
+		}
+		// Swftitles
+		$("h1").each(function (i) {
+			$(this).swftitle({
+			path:	'/scripts/jquery/swftitles/',
+			font:	'h1',
+			color:	'fee67d',
+			hover:	'ffffff',
+			width:	$(this).parent().width(),
+			height:	34,
+			left:	-4,
+			top:	0,
+			zindex:	11
+			})
+		});
+		$("h2").each(function (i) {
+			$(this).swftitle({
+			path:	'/scripts/jquery/swftitles/',
+			font:	'h2',
+			color:	'ffffff',
+			hover:	'fee67d',
+			width:	$(this).parent().width(),
+			height:	32,
+			left:	-4,
+			top:	0,
+			zindex:	11
+			})
+		});
+		$("h3").each(function (i) {
+			$(this).swftitle({
+			path:	'/scripts/jquery/swftitles/',
+			font:	'h2',
+			color:	'fee67d',
+			hover:	'ffffff',
+			width:	$(this).parent().width(),
+			height:	32,
+			left:	-4,
+			top:	0,
+			zindex:	11
+			})
+		});
+		$("h4").each(function (i) {
+			$(this).swftitle({
+			path:	'/scripts/jquery/swftitles/',
+			font:	'h2',
+			color:	'ffffff',
+			hover:	'fee67d',
+			width:	$(this).parent().width(),
+			height:	30,
+			left:	-4,
+			top:	-3,
+			zindex:	11
+			})
+		});
+		if ($.browser.msie) {
+		// Slideshow
+		$('.slideshow').each(function (i) {
+			$(this).cycle({
+			fx:     'fade', 
+			speed:   1,
+			timeout: 4500,
+			prev:	'.slideshow_prev',
+			next:	'.slideshow_next'
+			})
+		});
+		} else {
+		// Slideshow
+		$('.slideshow').each(function (i) {
+			$(this).cycle({
+			fx:     'fade',
+			speed:   1000,
+			timeout: 4500,
+			prev:	'.slideshow_prev',
+			next:	'.slideshow_next'
+			})
+		});
+		}
+		// Messages
+		setTimeout('$(\'#message\').fadeOut("slow");$(\'#error\').fadeOut("slow");',9000);
+		// jScroll
+		$(function()
+			{
+				$('#scrollarea').jScrollPane({scrollbarWidth:20,dragMinHeight:28,dragMaxHeight:28,scrollbarMargin:0,showArrows:true,scrollbarOnLeft:true,animateTo:true});
+			});
+		// Triggers
+		$(".a_trigger").mouseleave(function () {$('.a_box').fadeOut('slow');$('.a_box').hide('slow');});
+	});
+	// ONLOAD
+	$(window).load(function() {
+		// vAlign
+		if($.browser.msie) {
+		$('#valignthis').vAlign();
+		}
+		// Preload images
+		$.preloadImages('/images/layout/logo-hover.png','/images/layout/top_1-hover.png','/images/layout/top_2-hover.png','/images/layout/top_3-hover.png','/images/layout/slideshow_prev-hover.png','/images/layout/slideshow_prev-hover.png');
+	});
+	// PRINTERFRIENDLY
+	function printerfriendly() {
+        $('head').append('<link rel="stylesheet" href="/css/printerfriendly.css" type="text/css" id="css_printerfriendly" />');
+	}
+	function unprinterfriendly() {
+		$("#css_printerfriendly").attr({href : "/css/x.css"});
+	}
+	</script>
+</head>
+<body>
+<div class="body_bg"><img src="/images/layout/bg.jpg" width="100%" /></div>
+<div class="body_fg" style="overflow-x:hidden;">
+
+
+<!-- align -->
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+<tr><td height="100%" align="center" valign="middle" style="padding:40px 0;">
+<center>
+<table width="1" height="1" border="0" cellspacing="0" cellpadding="0" id="valignthis" class="container">
+<tr><td align="left" valign="top" height="85">
+
+        <div class="body_img"><img src="/images/layout/bg_fg2.png" width="345" height="606" class="trans" class="body_img" /></div>
+    
+    <div style="position:absolute;margin:57px 0 0 515px;width:500px;z-index:20;">
+    <a href="/demo" class="buttonup"><img src="/images/layout/top_1-hover.png" width="91" height="34" class="buttondown" /><img src="/images/layout/top_1.png" width="91" height="34" /></a><a href="/tutorials" class="buttonup"><img src="/images/layout/top_2-hover.png" width="156" height="34" class="buttondown" /><img src="/images/layout/top_2.png" width="156" height="34" /></a><a href="/support" class="buttonup"><img src="/images/layout/top_3-hover.png" width="124" height="34" class="buttondown" /><img src="/images/layout/top_3.png" width="124" height="34" /></a>
+    </div>
+    
+    <div style="position:absolute;margin:61px 0 0 0;z-index:30;width:460px;">
+    <h4><a href="/home">An easy manager for your website</a></h4>
+    </div>
+    
+    <div style="position:absolute;margin:0 0 0 -8px;">
+    <a href="/"class="buttonup"><img src="/images/layout/logo-hover.png" width="895" height="61" class="buttondown" /><img src="/images/layout/logo.png" width="895" height="61" /></a>
+    </div>
+        
+</td></tr><tr><td align="left" valign="top">
+
+    <div style="float:left;margin:22px 0;" class="main">
+    
+    
+    	<h1>Manage your site quickly and efficiently</h1>
+    <p><p>Try out the editor as if editing own site. Your finished site will have this editor built-in. When its time to add more content, just login, and all the tools you see here will pop up, allowing you to easily&nbsp;edit pages, articles and users. If you're not sure about a question in the editor, mouse over it and a help box will appear.</p></p>
+        <p>&nbsp;</p>
+    
+    
+        
+    <h2>Edit page</h2>
+    <p><p>In the top toolbar, click "Page", "Edit" to edit the current page.</p></p>
+    
+        <p class="margintop">
+				<!-- Image -->
+				<img src="/images/uploads/image708-1.png" border="0" width="600" />
+				</p>
+    <p class="margintop"></p>
+                        
+    <p class="margintop"><p><strong>Edit a page:</strong></p>
+<p><strong>Page name </strong>- http://www.yourdomain.com/pagename (can have letters, numbers, spaces, _, and&nbsp; - )</p>
+<p><strong>Page title </strong>- will be displayed in the top of the page (defaults to page name), additional titles are sometimes displayed in the middle or side of your page. Type something, and even if it's not displayed, search engines will see it.</p>
+<p><strong>Page layout </strong>- your designer created several layouts for your site, usually including "homepage", "gallery", "blog", "products", and "contact". Choose a layout that fits your new page.</p>
+<p><strong>Menu</strong> - "1" is the main menu on the top of your site. "2" is a secondary menu on the side or bottom of your site. "Hidden" means the page will not be displayed in the menu, but you can still link to it with http://www.yourdomain.com/pagename</p>
+<p><strong>Sort entries </strong>- if your new page is a "blog", "gallery", or "products" listing, it will have many "entries", meaning photographs, articles, or products. How do you want these entries arranged on the page? By date, name, price? Choosing "date" allows you the greatest control over ordering the entries, because you can change the date of each article individually. If you have less than 50 articles on one page, you can order the entries by "placement". In the top toolbar, click "Entries" and "Manage Entries" to drag each product or article to its new position on the page.</p>
+<p><strong>Text </strong>- edit the main body of text for your page. It's usually displayed on the top of the page, followed by blog posts or gallery items. Even if your page does not display any text (its purely a photo-gallery layout), this field still allows you to enter a page description for search engines. Enter a paragraph or two.</p>
+<p><strong>Text2, Text3 </strong>- Your page layout might have a second or third body of text displayed somewhere on the bottom or side. Add some content to each with these fields.</p>
+<p><strong>Advanced options</strong> - check "remove all html styles" to remove all formatting from your page texts. It will remove all colors, sizes, and styles in the page.</p></p>
+    <p>&nbsp;</p>
+        <p>&nbsp;</p>
+    
+    
+        <h3>Webdesign by Paul Shorey</h3>
+    <p><p>Please let me know what you think about this program. New features are being added every day. If there's something special you're looking for, please make a request below. I'll let you know if it can be included in the next update.</p></p>
+        <p>&nbsp;</p>
+    
+    <form name="contact" action="publisher/plugins/mail/visitor sendmail.php" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="artspaces.net message" value="..." />
+    <input type="hidden" name="date" value="Feb 23, 2018" />
+    <input type="hidden" name="subject" value="artspaces.net message" />
+    <p>Your name<br />
+    <input type="text" name="name" value="" style="width:220px;" /></p>
+    <p class="margintop">Email<br />
+    <input type="text" name="email" value="" style="width:220px;" /></p>
+    <p class="margintop">Message<br />
+    <textarea name="site_structure" style="width:98%;height:80px"></textarea></p>
+    <p class="margintop">Please type "yes" into this box to prove that you're a real person.<br />
+    <input type="text" name="areyouhuman" style="width:80px;" /></p>
+    <p class="margintop"><input type="submit" value="Send" class="button" /></p>
+    <p>&nbsp;</p>
+    </form>
+    
+    <p>Thank you,<br />
+    Paul Shorey, designer (<a href="http://www.paulshorey.com" target="_blank">www.paulshorey.com</a>, <a href="http://www.artspaces.net" target="_blank">www.artspaces.net</a>)</p>
+    
+    </div>
+    
+    
+    <div style="float:right;margin:22px 0;" class="side">
+    
+    
+        <h2>Intro</h2>
+    
+        
+                
+        <p><a href="/tutorials/intro/694">Give it a try</a></p>
+                
+        <p><a href="/tutorials/intro/695">What it does</a></p>
+                
+        <p><a href="/tutorials/intro/696">How to get it</a></p>
+                
+    <p>&nbsp;</p>
+        <h2>Site</h2>
+    
+        
+                
+        <p><a href="/tutorials/site/697">Backup/restore</a></p>
+                
+        <p><a href="/tutorials/site/698">Manage pages</a></p>
+                
+        <p><a href="/tutorials/site/699">Page redirects</a></p>
+                
+    <p>&nbsp;</p>
+        <h2>Users</h2>
+    
+        
+                
+        <p><a href="/tutorials/users/700">Add new user</a></p>
+                
+        <p><a href="/tutorials/users/701">Manage users</a></p>
+                
+        <p><a href="/tutorials/users/702">edit user</a></p>
+                
+        <p><a href="/tutorials/users/707">send mail</a></p>
+                
+    <p>&nbsp;</p>
+        <h2>Page</h2>
+    
+        
+                
+        <p><a href="/tutorials/page/703">Add new page</a></p>
+                
+        <p><a href="/tutorials/page/708">Edit page</a></p>
+                
+        <p><a href="/tutorials/page/709">Page text</a></p>
+                
+        <p><a href="/tutorials/page/710">Page style</a></p>
+                
+        <p><a href="/tutorials/page/711">delete page</a></p>
+                
+    <p>&nbsp;</p>
+        <h2>Entries</h2>
+    
+        
+                
+        <p><a href="/tutorials/entries/704">Add new entry</a></p>
+                
+        <p><a href="/tutorials/entries/712">Edit entry</a></p>
+                
+        <p><a href="/tutorials/entries/713">manage entries</a></p>
+                
+        <p><a href="/tutorials/entries/714">Manage categories</a></p>
+                
+        <p><a href="/tutorials/entries/715">Manage comments</a></p>
+                
+    <p>&nbsp;</p>
+        
+    
+        <p>&nbsp;</p>
+    
+    </div>
+    
+</td></tr>
+<tr><td align="left" valign="top">
+</td></tr>
+</table>
+</center>
+</td></tr>
+</table>
+
+</div>
+
+</body>
+</html>

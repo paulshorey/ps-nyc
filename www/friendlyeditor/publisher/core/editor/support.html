@@ -1,0 +1,66 @@
+<!--{include file='publisher/core/editor/includes/head.html'}-->
+<body>
+
+<!-- TOP -->
+<div id="top">
+    <img src="publisher/core/editor/images/buttons/mail.png" border="0" />
+    <h3>UserFriendlyCMS - v1.3</h3>
+        <!-- buttons -->
+        <div class="buttons">
+        	<!-- submit -->
+            <input type="button" value="Send" class="button" onClick="document.form_1.submit();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- reset -->
+            <input type="button" value="Reset" class="button" onClick="window.location.reload();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+            <!-- cancel -->
+            <input type="button" value="Exit" class="button" onClick="self.parent.tb_remove();" onMouseOver="this.className='button_hover'" onMouseOut="this.className='button'" />
+        </div>
+</div>
+
+<!-- MESSAGE -->
+<!--{if $page.message}-->
+<div id="message">
+	<!--{$page.message}-->
+</div>
+<!--{/if}-->
+
+<!-- ERROR -->
+<!--{if $page.error}-->
+<div id="error">
+	<!--{$page.error}-->
+</div>
+<!--{/if}-->
+
+<!-- MIDDLE -->
+<div id="middle">
+
+	<!-- FORM -->
+    <form action="publisher/core/editor/support.php" name="form_1" method="post" enctype="multipart/form-data">
+    <p style="font-size:80%;color:#999999;">This is a simple editor program that manages the most basic aspects of site publishing. If there's something youre looking for, flip through the different options in the editor toolbar. If its not there, please visit <a href="http://www.userfriendlycms.com" target="_blank">www.userfriendlycms.com</a> to submit a feature request and check for upgrades. If you are experiencing problems using the interface, please visit <a href="http://www.friendlyeditor.com" target="_blank">www.friendlyeditor.com</a> for step-by-step instructions and useful tips. If you are a developer looking to display the backend media and data in your site, visit <a href="http://www.friendlypublisher.com" target="_blank">www.friendlypublisher.com</a> for documentation. If you are trying out this product, I hope you like it. Get a site like this for yourself at <a href="http://www.artspaces.net" target="_blank">www.artspaces.net</a> or check out what else I am working on, at <a href="<!--{$site.designer_link}-->" target="_blank"><!--{$site.designer_link}--></a>. Or, send me a message below. </p>
+    <p style="font-size:80%;color:#666666;">If you are requesting help with a problem, please specify the exact URL where it happened, and any error messages or issues you encountered.</p>
+    <p style="font-size:80%;color:#999999;">Sincerely, <!--{$site.designer_name}--> ~ your web designer</p>
+        
+    <div class="section">
+    <p class="margintop">From Name:
+    <input type="text" name="name" id="name" value="<!--{$site.owner|capitalize}-->" /></p>
+    <p>From Email:
+    <input type="text" name="email" id="email" value="<!--{$site.contact}-->" /></p>
+    <p>Subject:
+    <input type="text" name="subject" id="subject" value="" /></p>
+    <p class="margintop">Body:
+    <textarea name="text" style="width:100%;height:200px;"><!--{if $post.text}--><!--{$post.text}--><!--{/if}--></textarea></p>
+    <p class="margintop" style="font-size:80%;color:#333333;">Your browser info:</p>
+    <p id="browser_info" style="font-size:80%;color:#666666;padding-left:10px;"></p>
+    <p class="margintop" style="font-size:80%;color:#333333;">If this is not the computer that you are having problems with, please make sure to specify your browser name, version, and operating system of the computer that were using when you experienced the problem.</p>
+	<input type="hidden" name="browser" id="browser" value="" />
+	<script type="text/javascript">
+	var browser = 'browser:' + navigator.appName + ' <br />code:' + navigator.appCodeName + ' <br />version:'+ navigator.appVersion + ' <br />cookies:'+ navigator.cookieEnabled + ' <br />platform:'+ navigator.platform + ' <br />agent:' + navigator.userAgent;
+	$('#browser').val(browser);
+	$('#browser_info').html(browser);
+	</script>
+    </div>
+    
+  	</form>
+    
+</div>
+</body>
+</html>

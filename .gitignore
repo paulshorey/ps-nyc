@@ -31,3 +31,7 @@ public/console
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Ulysses files
+*.plist
+.!*
