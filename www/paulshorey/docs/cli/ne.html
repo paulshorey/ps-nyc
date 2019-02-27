@@ -46,15 +46,18 @@
 <strong>^w</strong>, <strong>^e</strong> - start of, end of line</p>
 </blockquote>
 <h2>Custom Key Bindings:</h2>
-<p>hit: <strong><code>^k</code></strong><br>
-type: <strong><code>kc</code></strong><br>
-hit <strong><code>key</code></strong> to see its hex code and currently bound command<br>
-<strong><code>echo 'KEY {CODE} {ACTION}' &gt;&gt; ~/.ne/.keys</code></strong></p>
+<ol>
+<li>hit: <strong><code>^k</code></strong></li>
+<li>type: <strong><code>kc</code></strong></li>
+<li>hit <strong><code>key</code></strong> to see its hex code and currently bound command</li>
+<li><strong><code>echo 'KEY {CODE} {ACTION}' &gt;&gt; ~/.ne/.keys</code></strong></li>
+</ol>
 <blockquote>
-<p><code>fn</code> key code is a prefix <code>0x</code>, plus the normal key code.<br>
-So, <code>delete</code> key code is <code>115</code>. But, <code>fn + delete</code> key code is <code>0x115</code>.</p>
+<p><strong><code>fn + a</code></strong><br>
+To convert any key (<code>delete</code>) to fn-key (<code>fn + delete</code>), just add a prefix <code>0x</code> before the key code.<br>
+Key code for <code>delete</code> is <code>115</code>. So, key code for <code>fn + delete</code> would be <code>0x115</code>.</p>
 </blockquote>
-<p><a href="%E2%80%8Bhttp://www.emerson.emory.edu/services/editors/ne/Key_Bindings.html">​http://www.emerson.emory.edu/services/editors/ne/Key_Bindings.html</a><br>
+<p><strong>Documentation:</strong> <a href="http://www.emerson.emory.edu/services/editors/ne/Key_Bindings.html">http://www.emerson.emory.edu/services/editors/ne/Key_Bindings.html</a><br>
 <strong>Defaults:</strong> <a href="https://github.com/vigna/ne/blob/master/doc/default.keys%E2%80%8B">https://github.com/vigna/ne/blob/master/doc/default.keys​</a></p>
 <h2>Sample ~/.ne/.keys file:</h2>
 <pre><code># [delete]  
