@@ -298,20 +298,25 @@
     #menu ul ul {
       margin-top: 0.5em;
       margin-left: 0.5em;
-      border-left: 4px solid rgba(255, 255, 255, 0.5);
+    }
+
+    #menu li a {
+      border-left: 4px solid transparent;
     }
 
     /* Change color of the anchor links on hover/focus. */
 
     #menu li a:hover,
     #menu li a:focus {
-      background: rgba(255, 255, 255, 0.4);
+      background: rgb(255, 255, 255);
+      border-color: #ccc;
     }
 
     /* This styles the selected menu item `<li>`. */
 
     #menu li a.active {
-      background: rgba(0, 0, 0, 0.05);
+      background: rgb(225, 225, 225);
+      border-color: #ccc;
     }
 
     /* This styles a link within a selected menu item `<li>`. */
