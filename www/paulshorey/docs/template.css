@@ -12,7 +12,8 @@ body {
 a,
 a *,
 a:visited {
-    color: hsl(190, 100%, 30%)
+    color: hsl(190, 100%, 30%);
+    text-decoration: none;
 }
 
 h1,
@@ -54,6 +55,7 @@ h4 {
 .page {
     display: flex;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .page::before {
@@ -66,6 +68,41 @@ h4 {
     background: #FDFDFD url(/assets/the_wilderness_downtown/img/paper.jpg) repeat;
 }
 
+header {
+    background: hsla(180, 5%, 10%, 0.94);
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0 0 0.45rem rgba(0, 0, 0, 0.75);
+    padding: 0.1rem 0.7rem 0.4rem;
+    color: hsla(190, 65%, 15%, 0.65);
+    letter-spacing: 0.25px;
+    font-size: 0.9rem;
+}
+
+header a,
+header a *,
+header a:visited {
+    opacity: 0.66;
+    color: white;
+}
+
+header * {
+    vertical-align: middle;
+}
+
+header .right {
+    float: right;
+}
+
+header img,
+header svg {
+    height: 1rem;
+    fill: white;
+    padding: 0 0.6rem 0.2rem 0.1rem;
+    width: 1rem;
+    vertical-align: middle;
+}
+
 /*
     NAV
 */
@@ -74,7 +111,7 @@ h4 {
     /* to bring in front of background .page::before */
     display: block;
     padding: 2rem 2rem;
-    background: rgba(45, 25, 0, 0.05);
+    background: rgba(35, 20, 0, 0.05);
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 1);
     font-family: monospace;
 }
