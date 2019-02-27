@@ -1,0 +1,26 @@
+{
+  "name": "ps",
+  "version": "1.0.0",
+  "description": "For a WIP FRONT-END KNOWLEDGEBASE.   * useful programming tips and tricks   * code snippets   * shortcuts   * reference links   * etc.",
+  "main": "./www/paulshorey.com/index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs": "markdown-folder-to-html docs www/paulshorey/_docs_html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulshorey/ps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulshorey/ps/issues"
+  },
+  "homepage": "https://github.com/paulshorey/ps#readme",
+  "dependencies": {
+    "markdown-folder-to-html-fork": "latest"
+  }
+}
