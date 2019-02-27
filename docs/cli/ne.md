@@ -7,7 +7,7 @@ echo "export EDITOR=ne" >> ~/.zprofile
 ```  
   
 #### Documentation:  
-[http://paulshorey.com/files/ne_docs.pdf](http://paulshorey.com/files/ne_docs.pdf)  
+[http://paulshorey.com/files/docs_ne.pdf](http://paulshorey.com/files/docs_ne.pdf)  
   
 ## Keyboard Shortcuts:  
 (including the custom ~/.ne/.keys configuration below)  
