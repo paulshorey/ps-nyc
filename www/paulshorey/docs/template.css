@@ -1,36 +1,90 @@
+html {
+    font-size: 15px;
+}
+
 body {
+    margin: 0;
     font-size: 1rem;
-    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #FDFDFD url(/assets/the_wilderness_downtown/img/paper.jpg) repeat-x;
 }
 
 a,
 a *,
 a:visited {
-    color: teal;
-    font-weight: bold;
+    color: hsl(190, 100%, 30%)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
 }
 
 .page {
     display: flex;
+    min-height: 100vh;
 }
 
 .nav {
-    margin: 2rem;
+    display: block;
+    padding: 2rem 2rem;
+    background: rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 1);
 }
 
 ul {
-    margin-left: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    line-height: 2rem;
+    font-weight: bold;
+}
+
+ul ul li {
+    line-height: 3rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+ul ul ul li {
+    line-height: 2rem;
+    text-transform: none;
 }
 
 ul ul {
-    margin-left: 2rem;
-}
-
-ul ul ul {
-    margin-left: 3rem;
+    border-left: dotted 2px rgba(0, 0, 0, 0.1);
+    padding-left: 0.75rem;
+    margin-left: 0;
 }
 
 .content {
     flex-grow: 1;
-    margin: 2rem 0;
+    padding: 1rem 2rem;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+p {
+    color: rgba(15, 15, 15, 0.75);
+}
+
+code {
+    opacity: 0.85;
+    font-size: 85%;
+    line-height: 0.85rem;
+    background: rgba(210, 220, 210, 0.5);
+    color: rgba(5, 35, 5, 0.8);
+    border: solid 1px rgba(5, 35, 5, 0.2);
+    display: inline-block;
+    padding: 1px 2px 2px;
+    margin-bottom: 0.5px;
+    vertical-align: middle;
+    border-radius: 3px;
 }
