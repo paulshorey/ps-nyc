@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "docs": "markdown-folder-to-html docs www/paulshorey/_docs_html",
+    "docs": "markdown-folder-to-html docs www/paulshorey/docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
