@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/paulshorey/ps#readme",
   "dependencies": {
-    "markdown-folder-to-html-fork": "0.0.2"
+    "markdown-folder-to-html-fork": "latest"
   }
 }
