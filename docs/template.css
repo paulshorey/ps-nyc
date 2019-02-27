@@ -7,7 +7,6 @@ body {
     font-size: 1rem;
     line-height: 1.3rem;
     font-family: Geneva, Verdana, 'Segoe UI', Tahoma, sans-serif;
-    background: #FDFDFD url(/assets/the_wilderness_downtown/img/paper.jpg) repeat-x;
 }
 
 a,
@@ -27,12 +26,14 @@ h6 {
 
 h1 {
     font-size: 1.8rem;
-    margin: 1.2rem -0.1rem 1.65rem;
+    margin: 1.3rem -0.1rem 1.7rem;
+    font-weight: bold;
+    opacity: 0.8;
 }
 
 h2 {
-    margin: 2.2rem 0 1.2rem;
-    padding: 2rem 0 0 0;
+    margin: 2.6rem 0 0.8rem;
+    padding: 2.3rem 0 0 0;
     font-size: 1.2rem;
     font-weight: bold;
     border-top: solid 1px #ccc;
@@ -46,7 +47,7 @@ h3 {
 
 h4 {
     font-weight: bold;
-    margin: 2rem 0 1rem;
+    margin: 1.6rem 0 0.6rem;
     opacity: 0.8;
 }
 
@@ -55,13 +56,25 @@ h4 {
     min-height: 100vh;
 }
 
+.page::before {
+    content: " ";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #FDFDFD url(/assets/the_wilderness_downtown/img/paper.jpg) repeat;
+}
+
 /*
     NAV
 */
 .nav {
+    position: relative;
+    /* to bring in front of background .page::before */
     display: block;
     padding: 2rem 2rem;
-    background: rgba(0, 0, 0, 0.05);
+    background: rgba(45, 25, 0, 0.05);
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 1);
     font-family: monospace;
 }
@@ -132,13 +145,16 @@ h4 {
     CONTENT
 */
 .content {
+    position: relative;
+    /* to bring in front of background .page::before */
     flex-grow: 1;
     padding: 1rem 2.2rem;
-    background: rgba(255, 255, 255, 0.33);
+    background: rgba(255, 255, 250, 0.33);
 }
 
 .content p {
     line-height: 1.6rem;
+    margin: 0.6rem 0;
     color: rgba(15, 15, 15, 0.75);
 }
 
