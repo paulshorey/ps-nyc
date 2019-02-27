@@ -445,37 +445,23 @@
       <span></span>
     </a>
     <nav id="menu">
-      <ul><li></li><li class="heading"><a class="" href="./../cli/README.html">cli</a></li>
-<ul><li></li><li><a class="" href="./../cli/ne.html">ne</a></li></ul><li class="heading"><a class="" href="./../css/README.html">css</a></li>
-<ul><li></li></ul><li class="heading"><a class="" href="./../devops/README.html">devops</a></li>
-<ul><li></li></ul><li class="heading"><a class="active" href="./README.html">git</a></li>
-<ul><li></li></ul><li class="heading"><a class="" href="./../ide/README.html">ide</a></li>
-<ul><li></li></ul><li class="heading"><a class="" href="./../javascript/README.html">javascript</a></li>
-<ul><li></li></ul><li class="heading"><a class="" href="./../regex/README.html">regex</a></li>
+      <ul><li></li><li class="heading"><a class="active" href="./index.html">cli</a></li>
+<ul><li></li><li><a class="" href="./ne.html">ne</a></li></ul><li class="heading"><a class="" href="./../css/index.html">css</a></li>
+<ul><li></li></ul><li class="heading"><a class="" href="./../devops/index.html">devops</a></li>
+<ul><li></li></ul><li class="heading"><a class="" href="./../git/index.html">git</a></li>
+<ul><li></li></ul><li class="heading"><a class="" href="./../ide/index.html">ide</a></li>
+<ul><li></li></ul><li class="heading"><a class="" href="./../javascript/index.html">javascript</a></li>
+<ul><li></li></ul><li class="heading"><a class="" href="./../regex/index.html">regex</a></li>
 <ul><li></li></ul></ul>
     </nav>
     <article id="main" class="content">
-      <h2>Config</h2>
-<h4>Install ssh key on new device</h4>
-<pre><code>echo &quot;{paste your ssh key contents}&quot; &gt;&gt; ~/.ssh/newssh  
-chmod -R 600 ~/.ssh/newssh  
-</code></pre>
-<h4>then, every time the CLI starts:</h4>
-<pre><code>eval &quot;$(ssh-agent -s)&quot;  
-ssh-add ~/.ssh/newssh  
-Set a value in global config  
-git config --global color.ui true  
-git config --global user.name Paul\ Shorey  
-git config --global user.email pshorey@beyond.ai  
-git config --global push.default simple  
-git config --global core.editor=ne  
-git config --global submodule.recurse=true  
-</code></pre>
-<p>Without <code>--global</code>, it edits local <code>./.git/config</code> file.</p>
-<h2>Best Practices</h2>
-<p><strong><code>git pull</code></strong> actually does git fetch;<br>
-<strong><code>git merge</code></strong> actually, should do <strong><code>git pull --rebase</code></strong> which does not leave so many “merge” commits when working with others</p>
+      <h2>Common Commands</h2>
+<p><strong><code>ls</code></strong>, <strong><code>grep</code></strong>, etc</p>
+<p><strong><code>ls -a ~ | grep &quot;^.n&quot;</code></strong> to find files in current folder that start with “.n”</p>
+<p><strong><code>fg</code></strong> resume suspended process, after accidentally doing <code>Ctrl X</code></p>
 <p>​</p>
+<h2>Advanced Commands</h2>
+<p><strong><code>sudo echo &quot;export PATH=\&quot;$PATH:/usr/local/bin\&quot;&quot; &gt;&gt; /etc/profile</code></strong> write to bottom of file</p>
 
     </article>
   </div>
