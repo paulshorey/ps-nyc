@@ -1,0 +1,36 @@
+body {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a,
+a *,
+a:visited {
+    color: teal;
+    font-weight: bold;
+}
+
+.page {
+    display: flex;
+}
+
+.nav {
+    margin: 2rem;
+}
+
+ul {
+    margin-left: 1rem;
+}
+
+ul ul {
+    margin-left: 2rem;
+}
+
+ul ul ul {
+    margin-left: 3rem;
+}
+
+.content {
+    flex-grow: 1;
+    margin: 2rem 0;
+}
