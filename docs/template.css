@@ -55,6 +55,7 @@ h4 {
 .emoji {
     text-shadow: 0 0 1px black;
     vertical-align: baseline;
+    margin-left: -2px;
 }
 
 .page {
@@ -72,41 +73,6 @@ h4 {
     height: 100vh;
     background: #FDFDFD url(/assets/the_wilderness_downtown/img/paper.jpg) repeat;
     background-size: contain;
-}
-
-header {
-    background: hsla(180, 5%, 10%, 0.94);
-    position: relative;
-    z-index: 1000;
-    box-shadow: 0 0 0.45rem rgba(0, 0, 0, 0.75);
-    padding: 0.1rem 0.7rem 0.4rem;
-    color: hsla(190, 65%, 15%, 0.65);
-    letter-spacing: 0.25px;
-    font-size: 0.9rem;
-}
-
-header a,
-header a *,
-header a:visited {
-    opacity: 0.66;
-    color: white;
-}
-
-header * {
-    vertical-align: middle;
-}
-
-header .right {
-    float: right;
-}
-
-header img,
-header svg {
-    height: 1rem;
-    fill: white;
-    margin: 0 0.1rem;
-    width: 1rem;
-    vertical-align: middle;
 }
 
 /*
