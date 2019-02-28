@@ -1,4 +1,4 @@
-## for IDEs  
+# REGEX for IDEs  
   
 ### HTML Examples  
 search `(\s*)</script>` replace `</script>` puts all closing tags on same line  
