@@ -127,6 +127,7 @@ html {
 
 body {
   overflow: auto;
+  overflow-x: hidden;
   font-family: "Bodoni 72", Georgia, serif;
 }
 
