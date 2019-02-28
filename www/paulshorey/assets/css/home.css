@@ -222,15 +222,15 @@ section article .image img {
 
 section article .collage {
   position: relative;
-}
-
-/* @media (min-width: 1040px) { */
-article .collage {
   margin: 0 -4.3rem;
   width: calc(100% + 9rem);
 }
 
-/* } */
+@media (min-width: 1040px) {
+  section article .collage {
+    margin: 0 -4.55rem;
+  }
+}
 
 section article .collage .playbutton {
   background-image: url(../gfx/ui/play.svg);
