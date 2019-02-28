@@ -16,3 +16,7 @@ Or navigate to `./docs` folder in this Git repo.
 ./www/paulshorey
 ```
 ### Visit [http://paulshorey.com/](http://paulshorey.com/)  
+<br /><br />    
+
+## NEW PROJECTS ALWAYS IN THE WORKS   
+Not ready yet. ;-)  
