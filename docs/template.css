@@ -155,11 +155,15 @@ header svg {
     margin: 0.2rem;
 }
 
+.nav ul ul li {
+    font-size: 90%;
+    /* in case there is no link inside, apply this style anyway */
+}
+
 .nav ul ul li a {
     line-height: 2.8rem;
     text-transform: uppercase;
     font-weight: normal;
-    font-size: 90%;
 }
 
 .nav ul ul ul li a {
@@ -186,8 +190,13 @@ header svg {
     border-left: dotted 2px rgba(0, 0, 0, 0.1);
 }
 
+/* Directory name with no IndexFile inside = not linked, just grey text */
 .nav ul ul ul li {
-    font-weight: bold;
+    color: #666;
+}
+
+.nav ul ul ul li:hover {
+    background: none !important;
 }
 
 /*
