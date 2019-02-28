@@ -27,7 +27,7 @@ h6 {
 
 h1 {
     font-size: 1.8rem;
-    margin: 1.3rem -0.1rem 1.7rem;
+    margin: 1.5rem -0.1rem 1.9rem;
     font-weight: bold;
     opacity: 0.8;
 }
@@ -98,7 +98,7 @@ header img,
 header svg {
     height: 1rem;
     fill: white;
-    padding: 0 0.6rem 0.2rem 0.1rem;
+    margin: 0 0.1rem;
     width: 1rem;
     vertical-align: middle;
 }
@@ -113,7 +113,9 @@ header svg {
     padding: 2rem 2rem;
     background: rgba(35, 20, 0, 0.05);
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 1);
-    font-family: monospace;
+    /* font-family: monospace; */
+    font-size: 120%;
+    min-width: 9rem;
 }
 
 .nav a {
@@ -127,31 +129,36 @@ header svg {
 
 .nav li.heading:hover,
 .nav ul ul li:hover {
-    background: rgba(255, 255, 255, 0.33);
+    background: rgba(255, 255, 255, 0.36);
+    border-radius: 3px;
 }
 
 .nav li.active {
-    background: rgba(5, 125, 10, 0.085);
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
 }
 
 .nav li.active,
 .nav li.active a {
     color: rgba(0, 0, 0, 0.8);
-}
-
-.nav ul li a {
-    line-height: 2rem;
     font-weight: bold;
 }
 
+.nav ul li a {
+    line-height: 2.4rem;
+    font-weight: bold;
+    margin: 0.2rem;
+}
+
 .nav ul ul li a {
-    line-height: 3rem;
+    line-height: 2.8rem;
     text-transform: uppercase;
     font-weight: normal;
+    font-size: 90%;
 }
 
 .nav ul ul ul li a {
-    line-height: 2rem;
+    line-height: 2.4rem;
     text-transform: none;
 }
 
