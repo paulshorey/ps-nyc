@@ -225,7 +225,7 @@ h4 {
     display: inline-block;
     min-width: 50vw;
     background: rgba(255, 255, 255, 0.4);
-    border-radius: 3px;
+    border-radius: 1px;
     border: solid 1px rgba(5, 35, 5, 0.08);
     border-left-width: 2px;
 }
@@ -250,7 +250,7 @@ h4 {
     padding: 3px 5px 3px;
     margin: 0 2px 2px 1px;
     vertical-align: middle;
-    border-radius: 3px;
+    border-radius: 1px;
     font-weight: bold;
     border-left-width: 2px;
     border-bottom-width: 1px;
