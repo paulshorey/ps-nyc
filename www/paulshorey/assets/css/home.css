@@ -88,6 +88,12 @@ html {
   }
 }
 
+@media (max-width: 950px) {
+  .hide-small {
+    display: none;
+  }
+}
+
 .aboutme {
   display: -webkit-flex;
   display: -ms-flexbox;
