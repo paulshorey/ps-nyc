@@ -133,19 +133,18 @@ header svg {
     padding: 0;
 }
 
-.nav li.heading:hover,
+.nav ul ul li.heading:hover,
 .nav ul ul li:hover {
     background: rgba(255, 255, 255, 0.36);
     border-radius: 3px;
 }
 
-.nav li.active {
+.nav ul ul li.active {
     background: rgba(255, 255, 255, 0.32);
     border-radius: 3px;
 }
 
-.nav li.active,
-.nav li.active a {
+.nav li.active>a {
     color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
 }

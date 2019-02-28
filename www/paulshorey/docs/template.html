@@ -23,9 +23,14 @@
   <div class="page">
     <nav class="nav">
       <ul>
-        <li>
+        <li class="heading" id="heading_primary">
           <a href="/docs"><span class="emoji">📝</span>/docs</a>
           <!--NAV-->
+          <script>
+            if (window.location.pathname == "/docs/" || window.location.pathname == "/docs") {
+              document.querySelector('#heading_primary').classList.add('active');
+            }
+          </script>
         </li>
       </ul>
     </nav>
