@@ -15,7 +15,7 @@
     <nav class="nav">
       <ul>
         <li class="heading" id="heading_primary">
-          <a href="/docs"><span class="emoji">📝</span>/docs</a>
+          <a href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
           <ul class="active"><li class="heading "><a href="./../cli/index.html">cli</a></li>
 <ul class=""><li class=""><a href="./../cli/ne.html">ne</a></li></ul><li class="heading "><a href="./../css/index.html">css</a></li>
 <ul class=""></ul><li class="heading "><a href="./../devops/index.html">devops</a></li>
@@ -38,14 +38,14 @@
 <h3>Find/Replace</h3>
 <p>Lets use the link above as an example. We want to convert local links from <code>.md</code> to <code>.html</code>…</p>
 <h4>in IDE:</h4>
-<pre><code>Find: (\[.*?\]\(\./.*?).md(\))
-Replace: $1.html$2
+<pre><code>Find: (\[.*?\]\(\./.*?).md(\))  
+Replace: $1.html$2  
 </code></pre>
 <h4>using Javascript:</h4>
-<pre><code>str.replace(\(\[.*?\]\(\./.*?).md(\))\g, &quot;$1.html$2&quot;);
+<pre><code>str.replace(\(\[.*?\]\(\./.*?).md(\))\g, &quot;$1.html$2&quot;);  
 </code></pre>
 <p>So, no matter the complexity, just write the match/replace as:</p>
-<pre><code>str.replace(\        \g, &quot;       &quot;)
+<pre><code>str.replace(\        \g, &quot;       &quot;)  
 </code></pre>
 
     </article>
