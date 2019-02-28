@@ -3,6 +3,8 @@
 * code snippets  
 * shortcuts  
 * reference links  
-* etc.  
-GoTo: (http://paulshorey.com/docs/)[http://paulshorey.com/docs/]
+* etc.   
+
+
+### [http://paulshorey.com/docs/](http://paulshorey.com/docs/)  
 Or open: `./docs` folder.
