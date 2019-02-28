@@ -1,6 +1,6 @@
 # What's new:
 
-## WEB DEVELOPMENT KNOWLEDGEBASE WEBSITE
+## WEB DEVELOPMENT KNOWLEDGEBASE
 Created from markdown files right here in `./docs` folder.  
 Currently using and contributing to `markdown-folder-to-html` project.  
 Can be included in any project, as NPM module. I'm already doing so in a couple personal and client projects.  
@@ -10,7 +10,7 @@ See mine at:
 <br /><br />    
 
 
-## ACTUAL WEBSITE CODEBASE IN:
+## ACTUAL WEBSITE CODEBASE
 ```
 ./www/paulshorey
 ```
