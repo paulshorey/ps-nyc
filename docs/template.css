@@ -52,6 +52,11 @@ h4 {
     opacity: 0.8;
 }
 
+.emoji {
+    text-shadow: 0 0 1px black;
+    vertical-align: baseline;
+}
+
 .page {
     display: flex;
     min-height: 100vh;
