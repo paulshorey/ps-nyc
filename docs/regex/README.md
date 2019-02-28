@@ -1,6 +1,6 @@
 # REGEX for IDEs  
   
-### HTML Examples  
+#### HTML Examples  
 search `(\s*)</script>` replace `</script>` puts all closing tags on same line  
   
 `\ ?data-(.*?)"(.*?)" `  
