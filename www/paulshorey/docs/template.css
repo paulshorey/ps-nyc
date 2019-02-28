@@ -71,6 +71,7 @@ h4 {
     width: 100vw;
     height: 100vh;
     background: #FDFDFD url(/assets/the_wilderness_downtown/img/paper.jpg) repeat;
+    background-size: contain;
 }
 
 header {
