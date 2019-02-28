@@ -116,7 +116,7 @@ h4 {
 }
 
 .nav ul.active {
-    border-left: solid 2.5px #6C6F72;
+    border-left: solid 1.5px #6C6F72;
 }
 
 .nav ul ul li.heading:hover,
@@ -183,8 +183,8 @@ h4 {
 /* Directory name with no IndexFile inside = not linked, just grey text */
 .nav ul ul ul li {
     color: #666;
-    border-left: solid 2.5px;
-    margin-left: 3px;
+    border-left: solid 1.5px #6C6F72;
+    margin-left: 4px;
 }
 
 .nav ul ul ul li.heading:hover {
