@@ -76,12 +76,11 @@ h4 {
     position: relative;
     /* to bring in front of background .page::before */
     display: block;
-    padding: 1.9rem 3rem 2rem 1.5rem;
+    padding: 1.9rem 2.5rem 2rem 1.5rem;
     background: rgba(1, 6, 12, 0.9);
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 1);
     /* font-family: monospace; */
     font-size: 120%;
-    min-width: 9rem;
 }
 
 .nav .emoji {
@@ -95,8 +94,8 @@ h4 {
 
 .nav .emoji-text {
     font-size: 1.4rem;
-    vertical-align: bottom;
-    line-height: 2.1rem;
+    vertical-align: baseline;
+    line-height: 2.2rem;
 }
 
 .nav a {
@@ -110,9 +109,21 @@ h4 {
     color: hsla(60, 20%, 96%, 0.8);
 }
 
+.nav li.heading>a {
+    font-weight: bold;
+}
+
 .nav ul {
     margin: 0;
     padding: 0;
+}
+
+.nav li {
+    color: #666;
+}
+
+.nav li>a {
+    padding-right: 0.5rem;
 }
 
 .nav>ul>li>ul {
@@ -137,7 +148,7 @@ h4 {
 }
 
 .nav ul li a {
-    line-height: 2rem;
+    line-height: 2.4rem;
     font-weight: bold;
     margin: 0.2rem;
 }
@@ -148,13 +159,11 @@ h4 {
 }
 
 .nav ul ul li a {
-    line-height: 3rem;
     text-transform: uppercase;
     font-weight: normal;
 }
 
 .nav ul ul ul li a {
-    line-height: 2.4rem;
     text-transform: none;
 }
 
@@ -180,11 +189,14 @@ h4 {
     margin-bottom: -1px;
 }
 
-/* Directory name with no IndexFile inside = not linked, just grey text */
 .nav ul ul ul li {
-    color: #666;
+    margin-left: 3px;
+    margin-bottom: 0.75rem;
+}
+
+.nav ul ul li.active ul li {
     border-left: solid 1.5px #6C6F72;
-    margin-left: 4px;
+    border-bottom: solid 1.5px #6C6F72;
 }
 
 .nav ul ul ul li.heading:hover {
@@ -198,7 +210,7 @@ h4 {
     position: relative;
     /* to bring in front of background .page::before */
     flex-grow: 1;
-    padding: 1rem 2.2rem;
+    padding: 1rem 2.2rem 1rem 2.8rem;
     background: rgba(255, 255, 252, 0.36);
 }
 

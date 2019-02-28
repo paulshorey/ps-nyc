@@ -140,8 +140,8 @@
     {
       "path": "ide/regex.md",
       "url": "ide/regex.html",
-      "content": "# Regular Expressions Examples for IDE (text editors)  \n  \n### See: [../regex/IDE Examples](../regex/IDE20%Examples.md)  \n  \n",
-      "html": "<h1>Regular Expressions Examples for IDE (text editors)</h1>\n<h3>See: <a href=\"../regex/IDE20%25Examples.html\">…/regex/IDE Examples</a></h3>\n",
+      "content": "# Regular Expressions Examples for IDE (text editors)  \n  \n### See: [../regex/IDE-Examples](../regex/IDE-Examples.md)  \n  \n",
+      "html": "<h1>Regular Expressions Examples for IDE (text editors)</h1>\n<h3>See: <a href=\"../regex/IDE-Examples.html\">…/regex/IDE-Examples</a></h3>\n",
       "id": 7
     },
     {
