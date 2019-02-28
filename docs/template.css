@@ -5,7 +5,6 @@ html {
 body {
     margin: 0;
     font-size: 1rem;
-    line-height: 1.3rem;
     font-family: Geneva, Verdana, 'Segoe UI', Tahoma, sans-serif;
 }
 
@@ -27,13 +26,13 @@ h6 {
 
 h1 {
     font-size: 1.8rem;
-    margin: 1.7rem -0.08rem 1.9rem;
+    margin: 1.2rem -0.08rem 1.3rem;
     font-weight: bold;
     opacity: 0.8;
 }
 
 h2 {
-    margin: 2.6rem 0 0.8rem;
+    margin: 2.5rem 0 0.8rem;
     padding: 2.3rem 0 0 0;
     font-size: 1.2rem;
     font-weight: bold;
@@ -41,7 +40,7 @@ h2 {
 }
 
 h3 {
-    margin: 1.6rem 0 1rem;
+    margin: 1.4rem 0 1rem;
     font-size: 1.2rem;
     font-weight: bold;
 }
@@ -76,7 +75,8 @@ h4 {
     position: relative;
     /* to bring in front of background .page::before */
     display: block;
-    padding: 1.9rem 2.5rem 2rem 1.5rem;
+    flex-grow: 0;
+    padding: 2.2rem 2.5rem 2rem 1.5rem;
     background: rgba(1, 6, 12, 0.9);
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 1);
     /* font-family: monospace; */
@@ -87,15 +87,20 @@ h4 {
     font-size: 2.2rem;
     text-shadow: 0 0 1px black;
     vertical-align: baseline;
-    margin-left: -3px;
-    margin-right: 3px;
+    margin-left: -2px;
+    margin-right: 5px;
     color: hsla(0, 100%, 100%, 0.9) !important;
 }
 
 .nav .emoji-text {
     font-size: 1.4rem;
     vertical-align: baseline;
-    line-height: 2.2rem;
+    line-height: 2rem;
+}
+
+.nav>ul>li>a {
+    display: block;
+    margin-bottom: 0.4rem;
 }
 
 .nav a {
@@ -118,6 +123,15 @@ h4 {
     padding: 0;
 }
 
+.nav li:not(.heading) {
+    display: none;
+}
+
+.nav ul.active>li,
+.nav li.active+ul>li {
+    display: block;
+}
+
 .nav li {
     color: #666;
 }
@@ -137,7 +151,7 @@ h4 {
 }
 
 .nav ul ul li.active {
-    background: #6C6F72;
+    background: #d7d7d6;
     border-radius: 1px;
 }
 
@@ -150,21 +164,11 @@ h4 {
 .nav ul li a {
     line-height: 2.4rem;
     font-weight: bold;
-    margin: 0.2rem;
-}
-
-.nav ul ul li {
-    font-size: 95%;
-    /* in case there is no link inside, apply this style anyway */
-}
-
-.nav ul ul li a {
-    text-transform: uppercase;
-    font-weight: normal;
 }
 
 .nav ul ul ul li a {
     text-transform: none;
+    font-size: 95%;
 }
 
 .nav ul ul li.active ul {
@@ -191,6 +195,9 @@ h4 {
 
 .nav ul ul ul li {
     margin-left: 3px;
+}
+
+.nav ul ul ul li:last-child {
     margin-bottom: 0.75rem;
 }
 

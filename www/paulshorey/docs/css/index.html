@@ -14,36 +14,59 @@
   <div class="page">
     <nav class="nav">
       <ul>
-        <li class="heading" id="heading_primary">
+        <li class="heading">
           <a href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
-          <ul class="active"><li class="heading "><a href="./../cli/index.html">cli</a></li>
-<ul class=""><li class=""><a href="./../cli/ne.html">ne</a></li></ul><li class="heading active"><a href="./index.html">css</a></li>
-<ul class=""></ul><li class="heading "><a href="./../devops/index.html">devops</a></li>
-<ul class=""></ul><li class="heading "><a href="./../git/index.html">git</a></li>
-<ul class=""></ul><li class="heading "><a href="./../ide/index.html">ide</a></li>
-<ul class=""><li class=""><a href="./../ide/regex.html">regex</a></li></ul><li class="heading "><a href="./../javascript/index.html">javascript</a></li>
-<ul class=""></ul><li class="heading "><a href="./../regex/index.html">regex</a></li>
-<ul class=""><li class=""><a href="./../regex/IDE-Examples.html">IDE Examples</a></li></ul></ul>
-          <script>
-            if (window.location.pathname == "/docs/" || window.location.pathname == "/docs") {
-              document.querySelector('#heading_primary').classList.add('active');
-            }
-          </script>
+          <ul class="active"><li class="heading "><a href="./../CLI/index.html">CLI</a></li>
+<ul class=""><li class=""><a href="./../CLI/Nice-Editor.html">Nice Editor</a></li></ul><li class="heading active"><a href="./index.html">CSS</a></li>
+<ul class=""><li class=""><a href="./frameworks.html">frameworks</a></li><li class=""><a href="./responsive.html">responsive</a></li></ul><li class="heading "><a href="./../IDE/index.html">IDE</a></li>
+<ul class=""><li class=""><a href="./../IDE/edit-over-SSH.html">edit over SSH</a></li></ul><li class="heading "><a href="./../JavaScript/index.html">JavaScript</a></li>
+<ul class=""></ul><li class="heading "><a href="./../RegEx/index.html">RegEx</a></li>
+<ul class=""><li class=""><a href="./../RegEx/IDE-Examples.html">IDE Examples</a></li></ul><li class="heading "><a href="./../Web Server/index.html">Web Server</a></li>
+<ul class=""><li class=""><a href="./../Web Server/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./../Web Server/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../Web Server/linux-from-scratch.html">linux from scratch</a></li><li class=""><a href="./../Web Server/ports.html">ports</a></li><li class=""><a href="./../Web Server/ssl.html">ssl</a></li></ul></ul>
         </li>
       </ul>
     </nav>
-    <article class="content">
-      <h1>CSS</h1>
-<h3>Frameworks</h3>
-<p>People only use Bootstrap because “everyone” uses Bootstrap, not because of the merits of that framework. Here are some better alternatives.</p>
-<p>General: AUI (Atlassian UI)<br>
-Proven for static sites with basic JS, maybe also good for a React or Angular SPA.</p>
-<p>React: <a href="https://material-ui.com/%E2%80%8B">https://material-ui.com/​</a></p>
-<p>Angular: <a href="https://ng.ant.design/docs/introduce/en%E2%80%8B">https://ng.ant.design/docs/introduce/en​</a></p>
+    <main class="content">
+      <h3>CSS is not hard. Just review the properties at the bottom of this page.</h3>
+<h2>If you know the basics, here are some gotchas and odditties:</h2>
+<pre><code></code></pre>
+<h2>Properties:</h2>
+<ul>
+<li>position:
+<ul>
+<li><strong>static</strong> ~ default value, makes element think it has NO position property.</li>
+<li><strong>relative</strong> ~ relative to its surroundings. Lets you to add <strong>top, left, bottom, right</strong>, to shift it a bit to any direction</li>
+<li><strong>fixed</strong> ~ relative to the window - use <strong>top, left, bottom, right</strong> to position the element any number of units from the top/left/bottom/right of the screen boundaries.</li>
+<li><strong>absolute</strong> ~ same as fixed, but relative to the parent element (well, the closest parent which has a specified positon property)</li>
+</ul>
+</li>
+<li>display:
+<ul>
+<li><strong>block</strong> ~ wrap to their own line, and take up 100% available width! Used to layout visual blocks on the page, with height, padding, border, etc. (<strong>div, blockquote, header, article, main</strong> have this by default)</li>
+<li><strong>inline</strong> ~ for text elements which do not have height or width or margin or vertical padding (<strong>span, b, i, u, img, code</strong> have this by default)</li>
+<li><strong>inline-block</strong> ~ best of both worlds. Can have vertical height and padding, but do not wrap to their own line! So, can style a padded button or highlight in the middle of a paragraph.</li>
+<li><strong>flex</strong> ~ read about it. It will change your life. <strong>Note:</strong> it affects the children, not itself! Simple example: Lets you have a fixed-width left column, and a main article section which takes up the remaining page width, no matter how wide or narrow the screen is.</li>
+<li><strong>inline-flex</strong> ~ flex content inline! Like a pill-button, with left/right sections.</li>
+<li><strong>grid</strong> ~ new hotness. Not like “masonry”, but still very useful.</li>
+</ul>
+</li>
+<li>margin:
+<ul>
+<li><strong>0 0 0 10px</strong> add 10px margin outside of the element to the left</li>
+<li><strong>0 10px</strong> add 10px margin to left and right. Zero to top/bottom</li>
+<li><strong>10px</strong> add to all sides</li>
+<li><strong>10px 0 0 0</strong> same as margin-top:10px</li>
+<li>Margin adds space <strong>outside</strong> of the element’s boundaries. So, <strong>outside</strong> of the element’s width/height, padding, border, background.</li>
+</ul>
+</li>
+<li>padding:
+like margin, but adds space <strong>inside</strong> the element’s boundarids. So, <strong>inside</strong> the border. Increases width/height, and is covered by background.</li>
+<li>float:
+never use</li>
+<li>top, left, right, bottom:</li>
+</ul>
 
-      <!-- All these spaces are in case the content on this page does not wrap on its own. It needs to wrap, to push this display:flex child exactly the same way as all the other pages. If some wrap and others don't then the width varies by (only) a few pixels, so the layout does not look solid.-->
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </article>
+    </main>
   </div>
 </body>
 
