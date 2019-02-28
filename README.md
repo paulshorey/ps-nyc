@@ -8,3 +8,9 @@ Can be included in any project, as NPM module. I'm already doing so in a couple 
 See mine at:
 ### [http://paulshorey.com/docs/](http://paulshorey.com/docs/)  
 Or navigate to `./docs` folder in this Git repo.
+
+## ACTUAL WEBSITE CODEBASE IN:
+```
+./www/paulshorey
+```
+### Visit [http://paulshorey.com/](http://paulshorey.com/)  
