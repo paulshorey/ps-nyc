@@ -181,14 +181,6 @@ section article {
   max-width: 700px;
 }
 
-/* @media (min-width: 1040px) { */
-article .collage {
-  margin: 0 -4.3rem;
-  width: calc(100% + 9rem);
-}
-
-/* } */
-
 section article .video {
   position: relative;
   max-width: 720px;
@@ -230,8 +222,15 @@ section article .image img {
 
 section article .collage {
   position: relative;
-  width: 100%;
 }
+
+/* @media (min-width: 1040px) { */
+article .collage {
+  margin: 0 -4.3rem;
+  width: calc(100% + 9rem);
+}
+
+/* } */
 
 section article .collage .playbutton {
   background-image: url(../gfx/ui/play.svg);
