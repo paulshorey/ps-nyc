@@ -226,9 +226,10 @@ section article .collage {
   width: calc(100% + 9rem);
 }
 
-@media (min-width: 1040px) {
+@media (min-width: 1000px) {
   section article .collage {
-    margin: 0 -4.55rem;
+    margin: 0 -4.6rem;
+    width: calc(100% + 8.8rem);
   }
 }
 
