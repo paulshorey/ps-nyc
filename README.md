@@ -18,4 +18,4 @@ See mine at:
 <br /><br />    
 
 ## NEW PROJECTS ALWAYS IN THE WORKS   
-Not ready yet. ;-)  
+Not ready yet. ;-) Currently happily employed at Beyond Limits, in Glendale CA.  
