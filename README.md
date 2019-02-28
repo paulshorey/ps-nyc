@@ -14,7 +14,7 @@ See mine at:
 ```
 ./www/paulshorey
 ```
-### Visit [http://paulshorey.com/](http://paulshorey.com/)  
+### [http://paulshorey.com/](http://paulshorey.com/)  
 <br /><br />    
 
 ## NEW PROJECTS ALWAYS IN THE WORKS   
