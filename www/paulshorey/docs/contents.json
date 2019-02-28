@@ -55,6 +55,10 @@
         {
           "type": "file",
           "value": "ide/index.md"
+        },
+        {
+          "type": "file",
+          "value": "ide/regex.md"
         }
       ]
     },
@@ -74,6 +78,10 @@
       "children": [
         {
           "type": "file",
+          "value": "regex/IDE-Examples.md"
+        },
+        {
+          "type": "file",
           "value": "regex/index.md"
         }
       ]
@@ -83,8 +91,8 @@
     {
       "path": "index.md",
       "url": "index.html",
-      "content": "# JAVASCRIPT APP DEVELOPMENT KNOWLEDGE BASE  \n  \n",
-      "html": "<h1>JAVASCRIPT APP DEVELOPMENT KNOWLEDGE BASE</h1>\n",
+      "content": "# Paul's Web Development Knowledgebase\nA repository of useful tips, tricks, shortcuts, and general knowledge about web programming <br />~ not necessarily popular or latest, just basic requirements for web development.\n  \n#### [CLI](./cli)\n#### [IDE](./ide)\n#### [GIT](./git)\n#### [REGEX](./regex)\n#### [Javascript](./javascript)\n#### [CSS](./css)\n\n",
+      "html": "<h1>Paul’s Web Development Knowledgebase</h1>\n<p>A repository of useful tips, tricks, shortcuts, and general knowledge about web programming <br />~ not necessarily popular or latest, just basic requirements for web development.</p>\n<h4><a href=\"./cli\">CLI</a></h4>\n<h4><a href=\"./ide\">IDE</a></h4>\n<h4><a href=\"./git\">GIT</a></h4>\n<h4><a href=\"./regex\">REGEX</a></h4>\n<h4><a href=\"./javascript\">Javascript</a></h4>\n<h4><a href=\"./css\">CSS</a></h4>\n",
       "id": 0
     },
     {
@@ -125,23 +133,37 @@
     {
       "path": "ide/index.md",
       "url": "ide/index.html",
-      "content": "# IDE",
-      "html": "<h1>IDE</h1>\n",
+      "content": "# IDE for Javascript\n\nAfter agreeing on and sticking to **tabs** or 2 spaces or 4 spaces, most important thing to is:  \n\nMake sure your **and your teammates'** text-editor or IDE do not change your code unexpectedly.\n\n### If using VS CODE:\n* Install the **`js beautify`** plugin\n* Add **`.jsbeautifyrc`** file to the root of your project, to specify formatting rules. \n* By default, it formats every file on save! To turn this off, toggle **`files.autoSave`** in Vs Code preferences.  \n\n### If using Sublime Text:\n* Install `htmlprettify` plulgin: https://github.com/victorporof/Sublime-HTMLPrettify\n* Use the same **`.jsbeautifyrc`** file as your teammates use for Vs Code.\n* Sublime does not format on save by default. Toggle **`format_on_save`** in HTMLPrettify plugin options.\n\n### If using something else:\n* Just make sure whatever settings you use matches your teammates' settings.  \n\n### Quick (one-off experiments) and Dirty (code):\n* This is a great online code beautifier: <br />https://www.10bestdesign.com/dirtymarkup/\n* Unlike others, this one actually maintains HTML tags hierarchy and indentation\n\n",
+      "html": "<h1>IDE for Javascript</h1>\n<p>After agreeing on and sticking to <strong>tabs</strong> or 2 spaces or 4 spaces, most important thing to is:</p>\n<p>Make sure your <strong>and your teammates’</strong> text-editor or IDE do not change your code unexpectedly.</p>\n<h3>If using VS CODE:</h3>\n<ul>\n<li>Install the <strong><code>js beautify</code></strong> plugin</li>\n<li>Add <strong><code>.jsbeautifyrc</code></strong> file to the root of your project, to specify formatting rules.</li>\n<li>By default, it formats every file on save! To turn this off, toggle <strong><code>files.autoSave</code></strong> in Vs Code preferences.</li>\n</ul>\n<h3>If using Sublime Text:</h3>\n<ul>\n<li>Install <code>htmlprettify</code> plulgin: <a href=\"https://github.com/victorporof/Sublime-HTMLPrettify\">https://github.com/victorporof/Sublime-HTMLPrettify</a></li>\n<li>Use the same <strong><code>.jsbeautifyrc</code></strong> file as your teammates use for Vs Code.</li>\n<li>Sublime does not format on save by default. Toggle <strong><code>format_on_save</code></strong> in HTMLPrettify plugin options.</li>\n</ul>\n<h3>If using something else:</h3>\n<ul>\n<li>Just make sure whatever settings you use matches your teammates’ settings.</li>\n</ul>\n<h3>Quick (one-off experiments) and Dirty (code):</h3>\n<ul>\n<li>This is a great online code beautifier: <br /><a href=\"https://www.10bestdesign.com/dirtymarkup/\">https://www.10bestdesign.com/dirtymarkup/</a></li>\n<li>Unlike others, this one actually maintains HTML tags hierarchy and indentation</li>\n</ul>\n",
       "id": 6
+    },
+    {
+      "path": "ide/regex.md",
+      "url": "ide/regex.html",
+      "content": "# Regular Expressions Examples for IDE (text editors)\n\n### See: [../regex/IDE Examples](../regex/IDE20%Examples.md)\n\n",
+      "html": "<h1>Regular Expressions Examples for IDE (text editors)</h1>\n<h3>See: <a href=\"../regex/IDE20%25Examples.html\">…/regex/IDE Examples</a></h3>\n",
+      "id": 7
     },
     {
       "path": "javascript/index.md",
       "url": "javascript/index.html",
       "content": "# ES6 vs ES5",
       "html": "<h1>ES6 vs ES5</h1>\n",
-      "id": 7
+      "id": 8
+    },
+    {
+      "path": "regex/IDE-Examples.md",
+      "url": "regex/IDE-Examples.html",
+      "content": "# Examples for IDEs\n\n### HTML:\nsearch `(\\s*)</script>` replace `</script>` puts all closing tags on same line  \n  \n`\\ ?data-(.*?)\"(.*?)\" `  \n`\\ ?tabindex=(\".*\") `  \nmatch all tag attributes starting with with or without leading spaces  \n  \n  \n`li\\ class(.*?)\"(.*?)\" `  \nstrip out class attribute from matching elements  \n  \n`<!--(.*?)\\.(.*?)-->`  \nmatch comments containing phrase \".\"  \n  \nsearch `href=\"(.*?)\"` replace `href=\"\"` clears all href attributes  \n  \nsearch `(\\ *?)((?!\\ ).*?)><span(.*?)</span> `  \nreplace `$1$2>\\n$1  <span$3\\n$1  </span> `  \nto add indent span elements  \n  \n### Javascript:\nRemove all console.logs (or .warn .error, etc):  \n`(\\s?)console.(.?)\\n([\\w\\s\\W\\t\\n]*?)`",
+      "html": "<h1>Examples for IDEs</h1>\n<h3>HTML:</h3>\n<p>search <code>(\\s*)&lt;/script&gt;</code> replace <code>&lt;/script&gt;</code> puts all closing tags on same line</p>\n<p><code>\\ ?data-(.*?)&quot;(.*?)&quot;</code><br>\n<code>\\ ?tabindex=(&quot;.*&quot;)</code><br>\nmatch all tag attributes starting with with or without leading spaces</p>\n<p><code>li\\ class(.*?)&quot;(.*?)&quot;</code><br>\nstrip out class attribute from matching elements</p>\n<p><code>&lt;!--(.*?)\\.(.*?)--&gt;</code><br>\nmatch comments containing phrase “.”</p>\n<p>search <code>href=&quot;(.*?)&quot;</code> replace <code>href=&quot;&quot;</code> clears all href attributes</p>\n<p>search <code>(\\ *?)((?!\\ ).*?)&gt;&lt;span(.*?)&lt;/span&gt;</code><br>\nreplace <code>$1$2&gt;\\n$1 &lt;span$3\\n$1 &lt;/span&gt;</code><br>\nto add indent span elements</p>\n<h3>Javascript:</h3>\n<p>Remove all console.logs (or .warn .error, etc):<br>\n<code>(\\s?)console.(.?)\\n([\\w\\s\\W\\t\\n]*?)</code></p>\n",
+      "id": 9
     },
     {
       "path": "regex/index.md",
       "url": "regex/index.html",
-      "content": "# REGEX for IDEs  \n  \n#### HTML Examples  \nsearch `(\\s*)</script>` replace `</script>` puts all closing tags on same line  \n  \n`\\ ?data-(.*?)\"(.*?)\" `  \n`\\ ?tabindex=(\".*\") `  \nmatch all tag attributes starting with with or without leading spaces  \n  \n  \n`li\\ class(.*?)\"(.*?)\" `  \nstrip out class attribute from matching elements  \n  \n`<!--(.*?)\\.(.*?)-->`  \nmatch comments containing phrase \".\"  \n  \nsearch `href=\"(.*?)\"` replace `href=\"\"` clears all href attributes  \n  \nsearch `(\\ *?)((?!\\ ).*?)><span(.*?)</span> `  \nreplace `$1$2>\\n$1  <span$3\\n$1  </span> `  \nto add indent span elements  \n  \nRemove all console.logs (or .warn .error, etc):  \n`(\\s?)console.(.?)\\n([\\w\\s\\W\\t\\n]*?)`",
-      "html": "<h1>REGEX for IDEs</h1>\n<h4>HTML Examples</h4>\n<p>search <code>(\\s*)&lt;/script&gt;</code> replace <code>&lt;/script&gt;</code> puts all closing tags on same line</p>\n<p><code>\\ ?data-(.*?)&quot;(.*?)&quot;</code><br>\n<code>\\ ?tabindex=(&quot;.*&quot;)</code><br>\nmatch all tag attributes starting with with or without leading spaces</p>\n<p><code>li\\ class(.*?)&quot;(.*?)&quot;</code><br>\nstrip out class attribute from matching elements</p>\n<p><code>&lt;!--(.*?)\\.(.*?)--&gt;</code><br>\nmatch comments containing phrase “.”</p>\n<p>search <code>href=&quot;(.*?)&quot;</code> replace <code>href=&quot;&quot;</code> clears all href attributes</p>\n<p>search <code>(\\ *?)((?!\\ ).*?)&gt;&lt;span(.*?)&lt;/span&gt;</code><br>\nreplace <code>$1$2&gt;\\n$1 &lt;span$3\\n$1 &lt;/span&gt;</code><br>\nto add indent span elements</p>\n<p>Remove all console.logs (or .warn .error, etc):<br>\n<code>(\\s?)console.(.?)\\n([\\w\\s\\W\\t\\n]*?)</code></p>\n",
-      "id": 8
+      "content": "# Regular Expressions\n\n[IDE Examples](./IDE-Examples.md)\n\n### Find/Replace\nLets use the link above as an example. We want to convert local links from `.md` to `.html`...\n#### in IDE:\n```\nFind: (\\[.*?\\]\\(\\./.*?).md(\\))\nReplace: $1.html$2\n```\n#### using Javascript:\n```\nstr.replace(\\(\\[.*?\\]\\(\\./.*?).md(\\))\\g, \"$1.html$2\");\n```\nSo, no matter the complexity, just write the match/replace as:   \n```\nstr.replace(\\        \\g, \"       \")\n```",
+      "html": "<h1>Regular Expressions</h1>\n<p><a href=\"./IDE-Examples.html\">IDE Examples</a></p>\n<h3>Find/Replace</h3>\n<p>Lets use the link above as an example. We want to convert local links from <code>.md</code> to <code>.html</code>…</p>\n<h4>in IDE:</h4>\n<pre><code>Find: (\\[.*?\\]\\(\\./.*?).md(\\))\nReplace: $1.html$2\n</code></pre>\n<h4>using Javascript:</h4>\n<pre><code>str.replace(\\(\\[.*?\\]\\(\\./.*?).md(\\))\\g, &quot;$1.html$2&quot;);\n</code></pre>\n<p>So, no matter the complexity, just write the match/replace as:</p>\n<pre><code>str.replace(\\        \\g, &quot;       &quot;)\n</code></pre>\n",
+      "id": 10
     }
   ]
 }
