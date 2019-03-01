@@ -128,35 +128,38 @@ h4 {
     display: none;
 }
 
-.nav ul.active>li,
-.nav li.active+ul>li {
+.nav ul.isActive>li,
+.nav li.isActive+ul>li {
     display: block;
 }
 
 .nav li {
     color: #666;
+    border-radius: 1px;
 }
 
 .nav li>a {
     padding-right: 0.5rem;
+    border-radius: 3px;
 }
 
-.nav>ul>li>ul {
-    border-left: solid 1.5px #6C6F72;
-}
-
-.nav ul ul li.heading:hover,
-.nav ul ul li:hover {
+.nav ul li.childIsActive,
+.nav ul li.heading:hover,
+.nav ul li:hover {
     background: #6C6F72;
-    border-radius: 1px;
 }
 
-.nav ul ul li.active {
+.nav ul li.isActive {
     background: #d7d7d6 !important;
     border-radius: 1px;
 }
 
-.nav li.active>a {
+.nav ul li ul.isActive,
+.nav ul li.isActive+ul {
+    border-left: solid 1.5px #6C6F72;
+}
+
+.nav li.isActive>a {
     color: rgba(0, 0, 0, 0.9);
     font-weight: bold;
     text-shadow: none;
@@ -174,7 +177,7 @@ h4 {
     font-size: 95%;
 }
 
-.nav ul ul li.active ul {
+.nav ul ul li.isActive ul {
     background: rgba(255, 255, 255, 0.8);
 }
 
@@ -195,7 +198,7 @@ h4 {
 }
 
 .nav ul ul ul li {
-    margin-left: 3px;
+    margin-left: 1px;
 }
 
 .nav ul ul ul li:last-child {
@@ -206,7 +209,7 @@ h4 {
     margin-bottom: 0.5rem;
 }
 
-.nav ul ul li.active ul li {
+.nav ul ul li.isActive ul li {
     border-left: solid 1.5px #6C6F72;
     border-bottom: solid 1.5px #6C6F72;
 }

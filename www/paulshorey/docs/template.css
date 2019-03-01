@@ -5,7 +5,7 @@ html {
 body {
     margin: 0;
     font-size: 1rem;
-    font-family: Geneva, Verdana, 'Segoe UI', Tahoma, sans-serif;
+    font-family: "Geneva", Verdana, 'Segoe UI', Tahoma, sans-serif;
 }
 
 a,
@@ -94,9 +94,9 @@ h4 {
 }
 
 .nav .emoji-text {
-    font-size: 1.4rem;
     vertical-align: baseline;
     line-height: 2rem;
+    text-transform: uppercase;
 }
 
 .nav>ul>li>a {
@@ -124,40 +124,58 @@ h4 {
     padding: 0;
 }
 
+.nav li {
+    list-style: none;
+}
+
 .nav li:not(.heading) {
     display: none;
 }
 
-.nav ul.active>li,
-.nav li.active+ul>li {
+.nav ul.isActive>li,
+.nav li.isActive+ul>li {
     display: block;
 }
 
 .nav li {
     color: #666;
+    border-radius: 1px;
 }
 
 .nav li>a {
     padding-right: 0.5rem;
+    border-radius: 3px;
 }
 
-.nav>ul>li>ul {
-    border-left: solid 1.5px #6C6F72;
+.nav ul ul ul ul {
+    margin-left: 0.95rem;
+}
+
+.nav ul ul ul li {
+    padding-left: 0.95rem;
 }
 
 .nav ul ul li.heading:hover,
 .nav ul ul li:hover {
-    background: #6C6F72;
+    color: #BB8D27;
+}
+
+.nav ul ul li.isActive {
     border-radius: 1px;
 }
 
-.nav ul ul li.active {
-    background: #d7d7d6 !important;
-    border-radius: 1px;
+.nav ul ul li ul.isActive,
+.nav ul ul li.isActive+ul {
+    border-left: solid 1.5px #6C6F72;
 }
 
-.nav li.active>a {
-    color: rgba(0, 0, 0, 0.9);
+.nav ul ul ul.isActive {
+    border-top: solid 1.5px #6C6F72;
+    border-left: solid 1.5px #6C6F72;
+}
+
+.nav li.isActive>a {
+    color: #E6BC3A;
     font-weight: bold;
     text-shadow: none;
 }
@@ -174,30 +192,6 @@ h4 {
     font-size: 95%;
 }
 
-.nav ul ul li.active ul {
-    background: rgba(255, 255, 255, 0.8);
-}
-
-.nav ul li {
-    list-style: none;
-}
-
-.nav ul ul {
-    margin-left: 0;
-}
-
-.nav ul ul li {
-    padding-left: 0.75rem;
-}
-
-.nav ul ul ul {
-    padding-left: 0.75rem;
-}
-
-.nav ul ul ul li {
-    margin-left: 3px;
-}
-
 .nav ul ul ul li:last-child {
     margin-bottom: 0.75rem;
 }
@@ -206,8 +200,8 @@ h4 {
     margin-bottom: 0.5rem;
 }
 
-.nav ul ul li.active ul li {
-    border-left: solid 1.5px #6C6F72;
+.nav ul ul li.isActive ul li {
+    .isActive-left: solid 1.5px #6C6F72;
     border-bottom: solid 1.5px #6C6F72;
 }
 
