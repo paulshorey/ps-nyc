@@ -151,7 +151,7 @@ h4 {
 }
 
 .nav ul ul li.active {
-    background: #d7d7d6;
+    background: #d7d7d6 !important;
     border-radius: 1px;
 }
 
@@ -162,11 +162,13 @@ h4 {
 }
 
 .nav ul li a {
-    line-height: 2.4rem;
+    line-height: 2.7rem;
     font-weight: bold;
+    padding-top: 0.1rem;
 }
 
 .nav ul ul ul li a {
+    line-height: 2.3rem;
     text-transform: none;
     font-size: 95%;
 }
@@ -189,8 +191,6 @@ h4 {
 
 .nav ul ul ul {
     padding-left: 0.75rem;
-    margin-top: -1px;
-    margin-bottom: -1px;
 }
 
 .nav ul ul ul li {
@@ -201,13 +201,18 @@ h4 {
     margin-bottom: 0.75rem;
 }
 
+.nav ul ul>*:last-child {
+    margin-bottom: 0.5rem;
+}
+
 .nav ul ul li.active ul li {
     border-left: solid 1.5px #6C6F72;
     border-bottom: solid 1.5px #6C6F72;
 }
 
+/* This was for folder headings which do not contain links - need to come back to that use case */
 .nav ul ul ul li.heading:hover {
-    background: none !important;
+    /* background: none !important; */
 }
 
 /*
@@ -219,10 +224,10 @@ h4 {
     flex-grow: 1;
     padding: 1rem 2.2rem 1rem 2.8rem;
     background: rgba(255, 255, 252, 0.36);
+    line-height: 1.4rem;
 }
 
 .content p {
-    line-height: 1.6rem;
     margin: 0.6rem 0;
     color: rgba(15, 15, 15, 0.75);
 }
@@ -235,6 +240,8 @@ h4 {
 
 .content li {
     padding-left: 0.62rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
 }
 
 .content blockquote {

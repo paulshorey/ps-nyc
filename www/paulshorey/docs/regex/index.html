@@ -16,13 +16,17 @@
       <ul>
         <li class="heading">
           <a href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
-          <ul class="active"><li class="heading "><a href="./../CLI/index.html">CLI</a></li>
-<ul class=""><li class=""><a href="./../CLI/Nice-Editor.html">Nice Editor</a></li></ul><li class="heading "><a href="./../CSS/index.html">CSS</a></li>
-<ul class=""><li class=""><a href="./../CSS/frameworks.html">frameworks</a></li><li class=""><a href="./../CSS/responsive.html">responsive</a></li></ul><li class="heading "><a href="./../IDE/index.html">IDE</a></li>
-<ul class=""><li class=""><a href="./../IDE/edit-over-SSH.html">edit over SSH</a></li></ul><li class="heading "><a href="./../JavaScript/index.html">JavaScript</a></li>
-<ul class=""></ul><li class="heading active"><a href="./index.html">RegEx</a></li>
-<ul class=""><li class=""><a href="./IDE-Examples.html">IDE Examples</a></li></ul><li class="heading "><a href="./../Web Server/index.html">Web Server</a></li>
-<ul class=""><li class=""><a href="./../Web Server/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./../Web Server/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../Web Server/linux-from-scratch.html">linux from scratch</a></li><li class=""><a href="./../Web Server/ports.html">ports</a></li><li class=""><a href="./../Web Server/ssl.html">ssl</a></li></ul></ul>
+          <ul class="active"><li class="heading "><a href="./../Back End/index.html">Back End</a></li>
+<ul class=""><li class="heading "><a href="./../Back End/Basics/index.html">Basics</a></li>
+<ul class=""><li class=""><a href="./../Back End/Basics/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./../Back End/Basics/ports.html">ports</a></li><li class=""><a href="./../Back End/Basics/ssl.html">ssl</a></li></ul><li class="heading "><a href="./../Back End/CLI/index.html">CLI</a></li>
+<ul class=""><li class=""><a href="./../Back End/CLI/Nice-Editor.html">Nice Editor</a></li></ul><li class="heading "><a href="./../Back End/Containers/index.html">Containers</a></li>
+<ul class=""></ul><li class="heading "><a href="./../Back End/VPS/index.html">VPS</a></li>
+<ul class=""><li class=""><a href="./../Back End/VPS/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../Back End/VPS/linux-from-scratch.html">linux from scratch</a></li></ul></ul><li class="heading "><a href="./../Front End/index.html">Front End</a></li>
+<ul class=""><li class="heading "><a href="./../Front End/CSS/index.html">CSS</a></li>
+<ul class=""><li class=""><a href="./../Front End/CSS/frameworks.html">frameworks</a></li><li class=""><a href="./../Front End/CSS/responsive.html">responsive</a></li></ul><li class="heading "><a href="./../Front End/IDE/index.html">IDE</a></li>
+<ul class=""><li class=""><a href="./../Front End/IDE/edit-over-SSH.html">edit over SSH</a></li></ul><li class="heading "><a href="./../Front End/JavaScript/index.html">JavaScript</a></li>
+<ul class=""></ul></ul><li class="heading active"><a href="./index.html">RegEx</a></li>
+<ul class=""></ul></ul>
         </li>
       </ul>
     </nav>
@@ -41,6 +45,23 @@ Replace: $1.html$2
 <p>So, no matter the complexity, just write the match/replace as:</p>
 <pre><code>str.replace(\        \g, &quot;       &quot;)  
 </code></pre>
+<h2>Examples</h2>
+<h3>HTML:</h3>
+<p>search <code>(\s*)&lt;/script&gt;</code> replace <code>&lt;/script&gt;</code> puts all closing tags on same line</p>
+<p><code>\ ?data-(.*?)&quot;(.*?)&quot;</code><br>
+<code>\ ?tabindex=(&quot;.*&quot;)</code><br>
+match all tag attributes starting with with or without leading spaces</p>
+<p><code>li\ class(.*?)&quot;(.*?)&quot;</code><br>
+strip out class attribute from matching elements</p>
+<p><code>&lt;!--(.*?)\.(.*?)--&gt;</code><br>
+match comments containing phrase “.”</p>
+<p>search <code>href=&quot;(.*?)&quot;</code> replace <code>href=&quot;&quot;</code> clears all href attributes</p>
+<p>search <code>(\ *?)((?!\ ).*?)&gt;&lt;span(.*?)&lt;/span&gt;</code><br>
+replace <code>$1$2&gt;\n$1 &lt;span$3\n$1 &lt;/span&gt;</code><br>
+to add indent span elements</p>
+<h3>Javascript:</h3>
+<p>Remove all console.logs (or .warn .error, etc):<br>
+<code>(\s?)console.(.?)\n([\w\s\W\t\n]*?)</code></p>
 
     </main>
   </div>
