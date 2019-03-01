@@ -99,11 +99,6 @@ h4 {
     text-transform: uppercase;
 }
 
-.nav>ul>li>a {
-    display: block;
-    margin-bottom: 0.4rem;
-}
-
 .nav a {
     display: block;
     white-space: nowrap;
@@ -113,10 +108,6 @@ h4 {
 .nav a *,
 .nav a:visited {
     color: hsla(60, 20%, 96%, 0.8);
-}
-
-.nav li.heading>a {
-    font-weight: bold;
 }
 
 .nav ul {
@@ -196,23 +187,20 @@ h4 {
     font-size: 95%;
 }
 
+
+.nav >ul>li,
+.nav ul ul>*:last-child,
 .nav ul ul ul li:last-child {
     margin-bottom: 0.75rem;
 }
 
-.nav ul ul>*:last-child {
-    margin-bottom: 0.5rem;
+/* folder label with no link */
+.nav ul li:hover > span,
+.nav ul li > span {
+    color:#666;
+    font-weight:bold;
 }
 
-.nav ul ul li.isActive ul li {
-    .isActive-left: solid 1.5px #6C6F72;
-    border-bottom: solid 1.5px #6C6F72;
-}
-
-/* This was for folder headings which do not contain links - need to come back to that use case */
-.nav ul ul ul li.heading:hover {
-    /* background: none !important; */
-}
 
 /*
     CONTENT

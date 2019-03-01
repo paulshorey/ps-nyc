@@ -15,18 +15,17 @@
     <nav class="nav">
       <ul>
         <li class="heading">
-          <a href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
-          <ul class=""><li class="heading "><a href="./Back End/index.html">Back End</a></li>
+          <a class="title-items" href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
+        </li>
+        <ul class=""><li class="heading"><span>Back End</span></li>
 <ul class=""><li class="heading "><a href="./Back End/Basics/index.html">Basics</a></li>
-<ul class=""><li class=""><a href="./Back End/Basics/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./Back End/Basics/ports.html">ports</a></li><li class=""><a href="./Back End/Basics/ssl.html">ssl</a></li></ul>
-<li class="heading "><a href="./Back End/CLI/index.html">CLI</a></li>
-<ul class=""><li class=""><a href="./Back End/CLI/Nice-Editor.html">Nice Editor</a></li></ul>
+<ul class=""><li class=""><a href="./Back End/Basics/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./Back End/Basics/SSL.html">SSL</a></li><li class=""><a href="./Back End/Basics/ports.html">ports</a></li></ul>
 <li class="heading "><a href="./Back End/Containers/index.html">Containers</a></li>
 
 <li class="heading "><a href="./Back End/VPS/index.html">VPS</a></li>
 <ul class=""><li class=""><a href="./Back End/VPS/easy-deployment.html">easy deployment</a></li><li class=""><a href="./Back End/VPS/linux-from-scratch.html">linux from scratch</a></li></ul>
 </ul>
-<li class="heading "><a href="./Front End/index.html">Front End</a></li>
+<li class="heading"><span>Front End</span></li>
 <ul class=""><li class="heading "><a href="./Front End/CSS/index.html">CSS</a></li>
 <ul class=""><li class=""><a href="./Front End/CSS/frameworks.html">frameworks</a></li><li class=""><a href="./Front End/CSS/responsive.html">responsive</a></li></ul>
 <li class="heading "><a href="./Front End/IDE/index.html">IDE</a></li>
@@ -34,10 +33,13 @@
 <li class="heading "><a href="./Front End/JavaScript/index.html">JavaScript</a></li>
 
 </ul>
-<li class="heading "><a href="./RegEx/index.html">RegEx</a></li>
+<li class="heading"><span>General</span></li>
+<ul class=""><li class="heading "><a href="./General/CLI/index.html">CLI</a></li>
+<ul class=""><li class=""><a href="./General/CLI/Nice-Editor.html">Nice Editor</a></li></ul>
+<li class="heading "><a href="./General/RegEx/index.html">RegEx</a></li>
 
 </ul>
-        </li>
+</ul>
       </ul>
     </nav>
     <main class="content">
@@ -55,15 +57,14 @@ to this knowledgebase, and share ownership, please contact me! I’ll be happy t
 <p><strong>Unfortunate issues:</strong></p>
 <ul>
 <li><strong>Folders and files are stored and displayed in alphabetical order.</strong></li>
-<li><strong>Currently, ALL folders MUST have README or index file.</strong> <br />In general… folders are expanded/collapsed with CSS, so the functionality is very limited. Currently, it works and looks ok though. All folder names are always visible. File names are only visible when you click to open the containing folder.</li>
 <li>File names can have spaces, but a space in the filename prevents you from linking to the file from other markdown files (this is a markdown issue).</li>
 </ul>
 <p><strong>Todo:</strong></p>
 <ul>
 <li>Fix mobile CSS</li>
-<li>Add functionality, when compiling .html files, to modify the original .md file… to add double space at the end of every line which does not already have them. (for Github flavor compatibility)</li>
-<li>Test more edge-cases with navigation list items.</li>
-<li>Fix underlying codebase to not convert filenames to (a href=&quot;&quot;) elements.</li>
+<li>When compiling .html files, to modify the original .md file… to add double space at the end of every line which does not already have them. (for Github flavor compatibility)</li>
+<li>Test more edge-cases with navigation - list items which are deeply nested or not containing README/index file.</li>
+<li>Maybe fix underlying codebase to not convert filenames to (a href=&quot;&quot;) elements.</li>
 </ul>
 
     </main>

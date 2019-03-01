@@ -16,12 +16,11 @@ to this knowledgebase, and share ownership, please contact me! I'll be happy to 
   
 **Unfortunate issues:**  
 * **Folders and files are stored and displayed in alphabetical order.**  
-* **Currently, ALL folders MUST have README or index file.** <br />In general... folders are expanded/collapsed with CSS, so the functionality is very limited. Currently, it works and looks ok though. All folder names are always visible. File names are only visible when you click to open the containing folder.  
 * File names can have spaces, but a space in the filename prevents you from linking to the file from other markdown files (this is a markdown issue).  
   
   
 **Todo:**  
 * Fix mobile CSS  
-* Add functionality, when compiling .html files, to modify the original .md file... to add double space at the end of every line which does not already have them. (for Github flavor compatibility)  
-* Test more edge-cases with navigation list items.  
-* Fix underlying codebase to not convert filenames to (a href="") elements.
+* When compiling .html files, to modify the original .md file... to add double space at the end of every line which does not already have them. (for Github flavor compatibility)  
+* Test more edge-cases with navigation - list items which are deeply nested or not containing README/index file.  
+* Maybe fix underlying codebase to not convert filenames to (a href="") elements.
