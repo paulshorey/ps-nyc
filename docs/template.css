@@ -81,6 +81,7 @@ h4 {
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 1);
     /* font-family: monospace; */
     font-size: 120%;
+    letter-spacing: 1px;
 }
 
 .nav .emoji {
