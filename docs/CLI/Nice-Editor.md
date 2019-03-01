@@ -1,10 +1,10 @@
 # EDITOR=ne  
-A "nice" editor. By far the most intuitive CLI editor to use, supports some basic features and bindings. `Ctr S` to save. `Ctr Q` to quit. `Esc Esc` for dropdown UI, right in the terminal.  
+A "nice" editor. By far the most intuitive CLI editor to use, supports some basic features and bindings. `Ctr S` to save. `Ctr Q` to quit. `Esc Esc` for an actual dropdown UI, right in the terminal. It's magic!  
   
 #### Make Default:  
 ```  
 echo "export EDITOR=ne" >> ~/.zprofile  
-echo "[core]\n        editor = ne" >> ~/.gitconfig  
+echo "[core]\n\teditor = ne" >> ~/.gitconfig  
 ```  
   
 #### Documentation:  
