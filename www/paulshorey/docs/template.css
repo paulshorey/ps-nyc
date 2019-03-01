@@ -164,14 +164,18 @@ h4 {
     border-radius: 1px;
 }
 
+.nav ul ul ul {
+    border-left: solid 1.5px transparent;
+}
+
 .nav ul ul li ul.isActive,
 .nav ul ul li.isActive+ul {
-    border-left: solid 1.5px #6C6F72;
+    border-color: #6C6F72;
 }
 
 .nav ul ul ul.isActive {
-    border-top: solid 1.5px #6C6F72;
-    border-left: solid 1.5px #6C6F72;
+    border-color: #6C6F72;
+    /* border-top: solid 1.5px; */
 }
 
 .nav li.isActive>a {
