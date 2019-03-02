@@ -42,19 +42,19 @@
         },
         {
           "type": "dir",
-          "name": "VPS",
+          "name": "Linux Management",
           "children": [
             {
               "type": "file",
-              "value": "Back End/VPS/index.md"
+              "value": "Back End/Linux Management/index.md"
             },
             {
               "type": "file",
-              "value": "Back End/VPS/easy-deployment.md"
+              "value": "Back End/Linux Management/easy-deployment.md"
             },
             {
               "type": "file",
-              "value": "Back End/VPS/linux-from-scratch.md"
+              "value": "Back End/Linux Management/linux-from-scratch.md"
             }
           ]
         }
@@ -178,27 +178,27 @@
     {
       "path": "Back End/Containers/index.md",
       "url": "Back End/Containers/index.html",
-      "content": "# Container vs Image vs Traditional Servers  \n  \n  \n**`docker-compose up -d`** runs **`docker-compose.yml`** \n\n",
+      "content": "# Container vs Image vs Traditional Servers  \n  \n  \n**`docker-compose up -d`** runs **`docker-compose.yml`**  \n  \n",
       "html": "<h1>Container vs Image vs Traditional Servers</h1>\n<p><strong><code>docker-compose up -d</code></strong> runs <strong><code>docker-compose.yml</code></strong></p>\n",
       "id": 5
     },
     {
-      "path": "Back End/VPS/index.md",
-      "url": "Back End/VPS/index.html",
+      "path": "Back End/Linux Management/index.md",
+      "url": "Back End/Linux Management/index.html",
       "content": "# etc.",
       "html": "<h1>etc.</h1>\n",
       "id": 6
     },
     {
-      "path": "Back End/VPS/easy-deployment.md",
-      "url": "Back End/VPS/easy-deployment.html",
+      "path": "Back End/Linux Management/easy-deployment.md",
+      "url": "Back End/Linux Management/easy-deployment.html",
       "content": "### Continuous Integration the quick and easy way...  \nAssuming your codebase is in /www/$(hostname)  \n  \n#### Optionally, install Yarn. Othwerwise continue and use NPM:  \n```  \ncurl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add  \necho \"deb https://dl.yarnpkg.com/debian/ stable main\" | sudo tee /etc/apt/sources.list.d/yarn.list  \nsudo apt-get update && sudo apt-get install yarn  \n```  \n#### /etc/crontab:  \n```  \n@reboot root bash /www/$(hostname)/_cron/deploy.sh  \n```  \n#### /www/ps-api/_cron/deploy.sh:  \n```  \neval \"$(ssh-agent -s)\"  \nssh-add ~/.ssh/gitlab  \n  \ncd /www/$(hostname)  \ngit reset HEAD -\\-hard;  \ngit pull  \nnpm install  \n```  \n#### /www/ps-api/_deploy.js  \n```  \nvar fs = require('fs');  \nvar express = require('express');  \nvar http = require('http');  \nvar app = express();  \n  \napp.set('port', 9999);  \n  \napp.post('/_deploy', function(req, res) {  \n  \n    // done  \n    res.status(200).json({  \n        message: 'Github Hook received!'  \n    });  \n  \n    // apply  \n    var spawn = require('child_process').spawn,  \n        deploy = spawn('sh', ['_deploy.sh']);  \n  \n});  \n  \nhttp.createServer(app).listen(app.get('port'), function() {  \n    console.log('Express server listening on port ' + app.get('port'));  \n});  \n```  \n#### So,  \nyour _deploy.js Node script will be listening to port http://YOUR-DOMAIN:9999/_deploy  \n  \n#### Then,  \nyour GitHub (or GitLab, or CMS) account will make a POST request to this url, which will trigger this script to run, which will trigger the \"deploy.sh\" script to run, which will GIT reset and pull the entire directory from your latest change in your repository.  \n",
       "html": "<h3>Continuous Integration the quick and easy way…</h3>\n<p>Assuming your codebase is in /www/$(hostname)</p>\n<h4>Optionally, install Yarn. Othwerwise continue and use NPM:</h4>\n<pre><code>curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add  \necho &quot;deb https://dl.yarnpkg.com/debian/ stable main&quot; | sudo tee /etc/apt/sources.list.d/yarn.list  \nsudo apt-get update &amp;&amp; sudo apt-get install yarn  \n</code></pre>\n<h4>/etc/crontab:</h4>\n<pre><code>@reboot root bash /www/$(hostname)/_cron/deploy.sh  \n</code></pre>\n<h4>/www/ps-api/_cron/deploy.sh:</h4>\n<pre><code>eval &quot;$(ssh-agent -s)&quot;  \nssh-add ~/.ssh/gitlab  \n  \ncd /www/$(hostname)  \ngit reset HEAD -\\-hard;  \ngit pull  \nnpm install  \n</code></pre>\n<h4>/www/ps-api/_deploy.js</h4>\n<pre><code>var fs = require('fs');  \nvar express = require('express');  \nvar http = require('http');  \nvar app = express();  \n  \napp.set('port', 9999);  \n  \napp.post('/_deploy', function(req, res) {  \n  \n    // done  \n    res.status(200).json({  \n        message: 'Github Hook received!'  \n    });  \n  \n    // apply  \n    var spawn = require('child_process').spawn,  \n        deploy = spawn('sh', ['_deploy.sh']);  \n  \n});  \n  \nhttp.createServer(app).listen(app.get('port'), function() {  \n    console.log('Express server listening on port ' + app.get('port'));  \n});  \n</code></pre>\n<h4>So,</h4>\n<p>your _deploy.js Node script will be listening to port <a href=\"http://YOUR-DOMAIN:9999/_deploy\">http://YOUR-DOMAIN:9999/_deploy</a></p>\n<h4>Then,</h4>\n<p>your GitHub (or GitLab, or CMS) account will make a POST request to this url, which will trigger this script to run, which will trigger the “<a href=\"http://deploy.sh\">deploy.sh</a>” script to run, which will GIT reset and pull the entire directory from your latest change in your repository.</p>\n",
       "id": 7
     },
     {
-      "path": "Back End/VPS/linux-from-scratch.md",
-      "url": "Back End/VPS/linux-from-scratch.html",
+      "path": "Back End/Linux Management/linux-from-scratch.md",
+      "url": "Back End/Linux Management/linux-from-scratch.html",
       "content": "",
       "html": "",
       "id": 8
@@ -248,8 +248,8 @@
     {
       "path": "General/IDE/index.md",
       "url": "General/IDE/index.html",
-      "content": "# Most important setting for collaboration:\n  \nAfter agreeing on and sticking to **tabs** or 2 spaces or 4 spaces, most important thing to is:  \n  \nMake sure your **and your teammates'** text-editor or IDE do not change your code unexpectedly.  \n  \n### If using VS CODE:  \n* Install the **`js beautify`** plugin  \n* Add **`.jsbeautifyrc`** file to the root of your project, to specify formatting rules.  \n* By default, it formats every file on save! To turn this off, toggle **`files.autoSave`** in Vs Code preferences.  \n  \n### If using Sublime Text:  \n* Install `htmlprettify` plulgin: https://github.com/victorporof/Sublime-HTMLPrettify  \n* Use the same **`.jsbeautifyrc`** file as your teammates use for Vs Code.  \n* Sublime does not format on save by default. Toggle **`format_on_save`** in HTMLPrettify plugin options.  \n  \n### If using something else:  \n* Just make sure whatever settings you use matches your teammates' settings.  \n  \n### Quick (one-off experiments) and Dirty (code):  \n* This is a great online code beautifier: <br />https://www.10bestdesign.com/dirtymarkup/  \n* Unlike others, this one actually maintains HTML tags hierarchy and indentation  \n  \n",
-      "html": "<h1>Most important setting for collaboration:</h1>\n<p>After agreeing on and sticking to <strong>tabs</strong> or 2 spaces or 4 spaces, most important thing to is:</p>\n<p>Make sure your <strong>and your teammates’</strong> text-editor or IDE do not change your code unexpectedly.</p>\n<h3>If using VS CODE:</h3>\n<ul>\n<li>Install the <strong><code>js beautify</code></strong> plugin</li>\n<li>Add <strong><code>.jsbeautifyrc</code></strong> file to the root of your project, to specify formatting rules.</li>\n<li>By default, it formats every file on save! To turn this off, toggle <strong><code>files.autoSave</code></strong> in Vs Code preferences.</li>\n</ul>\n<h3>If using Sublime Text:</h3>\n<ul>\n<li>Install <code>htmlprettify</code> plulgin: <a href=\"https://github.com/victorporof/Sublime-HTMLPrettify\">https://github.com/victorporof/Sublime-HTMLPrettify</a></li>\n<li>Use the same <strong><code>.jsbeautifyrc</code></strong> file as your teammates use for Vs Code.</li>\n<li>Sublime does not format on save by default. Toggle <strong><code>format_on_save</code></strong> in HTMLPrettify plugin options.</li>\n</ul>\n<h3>If using something else:</h3>\n<ul>\n<li>Just make sure whatever settings you use matches your teammates’ settings.</li>\n</ul>\n<h3>Quick (one-off experiments) and Dirty (code):</h3>\n<ul>\n<li>This is a great online code beautifier: <br /><a href=\"https://www.10bestdesign.com/dirtymarkup/\">https://www.10bestdesign.com/dirtymarkup/</a></li>\n<li>Unlike others, this one actually maintains HTML tags hierarchy and indentation</li>\n</ul>\n",
+      "content": "# Most important setting for collaboration:  \n  \nAfter agreeing on and sticking to **tabs** or 2 spaces or 4 spaces, most important thing to is:  \n  \nMake sure your **and your teammates'** text-editor or IDE do not change your code unexpectedly.  \n  \n### If using VS CODE:  \n* Install the **`js beautify`** plugin  \n* Add **`.jsbeautifyrc`** file to the root of your project, to specify formatting rules.  \n* By default, it formats every file on save! To turn this off, toggle **`files.autoSave`** in Vs Code preferences.  \n  \n### If using Sublime Text:  \n* Install `htmlprettify` plulgin: https://github.com/victorporof/Sublime-HTMLPrettify  \n* Use the same **`.jsbeautifyrc`** file as your teammates use for Vs Code.  \n* Sublime does not format on save by default. Toggle **`format_on_save`** in HTMLPrettify plugin options.  \n  \n### If using something else:  \n* Just make sure whatever settings you use matches your teammates' settings.  \n  \n### Otherwise, note: \n* This is a great online code beautifier: <br />https://www.10bestdesign.com/dirtymarkup/  \n* Unlike others, this one actually maintains HTML tags hierarchy and indentation  \n  \n",
+      "html": "<h1>Most important setting for collaboration:</h1>\n<p>After agreeing on and sticking to <strong>tabs</strong> or 2 spaces or 4 spaces, most important thing to is:</p>\n<p>Make sure your <strong>and your teammates’</strong> text-editor or IDE do not change your code unexpectedly.</p>\n<h3>If using VS CODE:</h3>\n<ul>\n<li>Install the <strong><code>js beautify</code></strong> plugin</li>\n<li>Add <strong><code>.jsbeautifyrc</code></strong> file to the root of your project, to specify formatting rules.</li>\n<li>By default, it formats every file on save! To turn this off, toggle <strong><code>files.autoSave</code></strong> in Vs Code preferences.</li>\n</ul>\n<h3>If using Sublime Text:</h3>\n<ul>\n<li>Install <code>htmlprettify</code> plulgin: <a href=\"https://github.com/victorporof/Sublime-HTMLPrettify\">https://github.com/victorporof/Sublime-HTMLPrettify</a></li>\n<li>Use the same <strong><code>.jsbeautifyrc</code></strong> file as your teammates use for Vs Code.</li>\n<li>Sublime does not format on save by default. Toggle <strong><code>format_on_save</code></strong> in HTMLPrettify plugin options.</li>\n</ul>\n<h3>If using something else:</h3>\n<ul>\n<li>Just make sure whatever settings you use matches your teammates’ settings.</li>\n</ul>\n<h3>Otherwise, note:</h3>\n<ul>\n<li>This is a great online code beautifier: <br /><a href=\"https://www.10bestdesign.com/dirtymarkup/\">https://www.10bestdesign.com/dirtymarkup/</a></li>\n<li>Unlike others, this one actually maintains HTML tags hierarchy and indentation</li>\n</ul>\n",
       "id": 15
     },
     {

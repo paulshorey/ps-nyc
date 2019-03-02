@@ -17,7 +17,7 @@ Make sure your **and your teammates'** text-editor or IDE do not change your cod
 ### If using something else:  
 * Just make sure whatever settings you use matches your teammates' settings.  
   
-### Quick (one-off experiments) and Dirty (code):  
+### Otherwise, note:  
 * This is a great online code beautifier: <br />https://www.10bestdesign.com/dirtymarkup/  
 * Unlike others, this one actually maintains HTML tags hierarchy and indentation  
   
