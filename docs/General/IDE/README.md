@@ -1,4 +1,4 @@
-# IDE for Javascript Projects  
+# Most important setting for collaboration:  
   
 After agreeing on and sticking to **tabs** or 2 spaces or 4 spaces, most important thing to is:  
   
