@@ -19,6 +19,6 @@ to this knowledgebase, and share ownership, please contact me! I'll be happy to 
   
 **Todo:**  
 * Fix mobile layout  
-* When compiling .html files, to modify the original .md file... add double space at the end of every line (for Github-flavor compatibility)  
+* When compiling .html files, to modify the original .md file... add double space at the end of every line (for Github-flavor compatibility). Currently done, but as a `git commit` hook.  
 * QC deep nested folders  
 * Maybe fix underlying codebase to not convert filename strings to (a href="") elements
