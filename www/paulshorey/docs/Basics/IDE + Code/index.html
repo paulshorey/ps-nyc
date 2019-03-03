@@ -45,12 +45,14 @@
     <main class="content">
       <h1>Try WebStorm</h1>
 <h3>Lately, I’ve had trouble with both Sublime Text and Vs Code.</h3>
-<p><strong>VsCode</strong> just does not format JSX correctly, no matter what options I set. Best case scenario - it sometimes ignores JSX indentation and sometimes indents incorrectly, that’s with the correct plugin and settings, explained in ./auto-formatting.md.
+<p><strong>VsCode</strong> just does not indent JSX correctly, no matter what options I set, using the popular plugin “js-beautify” or the default formatter. Best case scenario - it sometimes ignores JSX indentation and sometimes indents incorrectly, that’s with the correct plugin and settings, explained in ./auto-formatting.md.<br>
 In <strong>Sublime Text</strong>, I could not enable “format on save” no matter what I did. Instructions listed here in ./auto-formatting.md worked for others on the web.</p>
-<p>I do not like Prettier (the “opinionated” formatter), though I will use it if my team mates want to. Its formatting preferences are not as configurable as <strong>js-beautify</strong>, and force me to do a lot of scrolling.</p>
-<p>So, this remains an unsolved problem. Maybe I should try Emacs. I’ve spent enough time on this already.</p>
+<p>I do not like <strong>Prettier</strong> (the “opinionated” formatter), though I will use it if my team mates want to. Its formatting preferences are not as configurable as <strong>js-beautify</strong>, its preferences force me to do a lot of scrolling, and it still doesn’t work well with JSX. <strong>Vs-Code’s default formatter is the same</strong> (probably uses Prettier?).</p>
+<p>So, this remains unsolved, in 2019 !?</p>
 <h3>WebStorm simply works. No problems.</h3>
 <p>It indents JSX correctly, and has program settings which all actually do what they’re supposed to when you change them. WebStorm is a good little robot that does as you command it.</p>
+<p>Also, it lets you choose to put arguments on the same line as the brackets, or each on its own line. This is huge for readability. Sometimes one format is more legible. Other times it’s not. Now you, the human, can decide which to use.</p>
+<p>Examples at the bottom of this page.</p>
 <h3>Other benefits…</h3>
 <p>It has several more sophisticated features - ones you would have to spend a long time finding and configuring just right in open source editors.</p>
 <ul>
@@ -60,12 +62,46 @@ In <strong>Sublime Text</strong>, I could not enable “format on save” no mat
 <li>
 <p>Key mapping has a very easy interface! Feel free to remap all your favorite shortcuts, including Macros.</p>
 </li>
+<li>
+<p>Subtle things like -
+Pressing “Backspace” (Delete on Mac) when all you have to the left is whitespace, WebStorm deletes all the way to the end of the previous line, with one key stroke.</p>
+<ul>
+<li>Vs Code deletes one indentation level at a time, then you must press again to delete the new line</li>
+<li>Sublime Text actually is even worse. When indenting using spaces (for example 4), instead of deleting 4 spaces at a time, it deletes one space at a time.
+Lint tooltips are easier to use and read</li>
+</ul>
+</li>
 </ul>
 <h3>Unfortunately,</h3>
 <ul>
 <li>It costs money!</li>
 <li>Color themes are lacking in variety, and are difficult to customize.</li>
 </ul>
+<h3>Example 1</h3>
+<p>Long-form:</p>
+<pre><code>import {
+  ValidateForm,
+  ValidateField,
+  ValidateButton,
+  validations
+} from 'src/containers/validateForm';
+</code></pre>
+<p>Short-form:</p>
+<pre><code>import { ValidateForm, ValidateField, ValidateButton, validations } from 'src/containers/validateForm';
+</code></pre>
+<p>Imagine many of these imports.
+<strong>WebStorm</strong> allows you to use either format. You just code it. WebStorm will detect which format you’re using, and fix your indentation and spaces accordingly. VsCode and others force you to use the longer one, unless you specify in the setting to always use the all-in-line version.</p>
+<h3>Example 2</h3>
+<p>Code formatted by Vs Code (started out perfectly indented):</p>
+<pre><code>    SuggestedSelects.push(
+      &lt;SuggestRow
+                    words={lists}
+                    domains={domains}
+                /&gt;
+    );
+</code></pre>
+<p>Notice the broken indentation.
+Also… why is that <code>&lt;SuggestedRow...</code> indented by 2 spaces, while others by 4 spaces? Idk.</p>
 
     </main>
   </div>

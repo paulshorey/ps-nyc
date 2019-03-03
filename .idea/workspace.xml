@@ -4,6 +4,8 @@
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +23,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="90">
-                <caret line="4" column="77" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="77" />
+                <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
               </first_editor>
               <second_editor />
             </state>
@@ -158,12 +160,12 @@
       <workItem from="1551648800924" duration="59000" />
       <workItem from="1551648876211" duration="123000" />
       <workItem from="1551649018043" duration="148000" />
-      <workItem from="1551649315523" duration="234000" />
+      <workItem from="1551649315523" duration="333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5386000" />
+    <option name="totallyTimeSpent" value="5485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
@@ -224,7 +226,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="90">
-            <caret line="4" column="77" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="77" />
+            <caret line="4" column="77" selection-start-line="4" selection-start-column="77" selection-end-line="4" selection-end-column="77" />
           </first_editor>
           <second_editor />
         </state>
