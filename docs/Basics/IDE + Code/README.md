@@ -2,24 +2,28 @@
   
 ### Lately, I've had trouble with both Sublime Text and Vs Code.  
   
-**VsCode** just would not format JSX correctly, no matter what options I set. In **Sublime**, I could not enable "format on save" no matter what I did.  
+**VsCode** just does not format JSX correctly, no matter what options I set. Best case scenario - it sometimes ignores JSX indentation and sometimes indents incorrectly, that's with the correct plugin and settings, explained in ./auto-formatting.md.  
+In **Sublime Text**, I could not enable "format on save" no matter what I did. Instructions listed here in ./auto-formatting.md worked for others on the web.  
   
-WebStorm code formatting is much more sophisticated. You can still choose the preferences (tabs/spaces/2vs4, open or closed brackets, single/double quotes, etc).  
+I do not like Prettier (the "opinionated" formatter), though I will use it if my team mates want to. Its formatting preferences are not as configurable as **js-beautify**, and force me to do a lot of scrolling.  
   
-**WebStorm, when formatting, will indent your code, but it is more intelligent.** It will not fight your intentions.  
+So, this remains an unsolved problem. Maybe I should try Emacs. I've spent enough time on this already.  
   
-If you indent an if () round bracket on multiple lines, it will not squeeze them all into the same line again. If you put an HTML/JSX tag across multiple lines, it will not squeeze them to one. And vice versa. You can still have long if() and <html> code on one line. It is up to you.  
   
-**This is extremely important, because it**  
-1. keeps the file readable and standard, for **`Git Diff`**  
-2. keeps you and your team mates sane by allowing you to code the way that makes sense for that particular piece of logic, instead of conforming all code to the same formatting rules.  
+### WebStorm simply works. No problems.  
+It indents JSX correctly, and has program settings which all actually do what they're supposed to when you change them. WebStorm is a good little robot that does as you command it.  
   
-It's hard to explain, it just works. Just try it.  
   
-### Another benefit...  
+### Other benefits...  
   
 It has several more sophisticated features - ones you would have to spend a long time finding and configuring just right in open source editors.  
   
-Like, when you re-name a file or folder, it will search all the source code in the project, and rename any references to that file, to prevent broken links.  
+* When you re-name a file or folder, it can search all the source code in the project, and rename any references to that file, to prevent broken links.  
+  
+* Key mapping has a very easy interface! Feel free to remap all your favorite shortcuts, including Macros.  
   
   
+### Unfortunately,  
+  
+* It costs money!  
+* Color themes are lacking in variety, and are difficult to customize.  

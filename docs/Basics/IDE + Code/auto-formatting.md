@@ -23,8 +23,8 @@ Make sure your **and your teammates'** text-editor or IDE do not change your cod
     4. Select `File > Save All` in top bar. Do NOT just hit `Cmd + S`.  
     5. Click `Stop` in Macro notification on the bottom, to stop recording.  
     6. `Webstorm > Preferences > Keymap`  
-        * Search `Save`. Right click and remove key binding.  
-        * In that same list, find your newly created Macro. Right click, and add key binding `Cmd + S`.  
+        * Find your newly created Macro. Right click, and add key binding `Cmd + S`.  
+        * Agree to un-bind that key from its other function (simple save-all).  
   
 ### If using something else:  
 * Just make sure whatever settings you use matches your teammates' settings.  

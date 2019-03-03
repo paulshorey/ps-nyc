@@ -45,19 +45,27 @@
     <main class="content">
       <h1>Try WebStorm</h1>
 <h3>Lately, I’ve had trouble with both Sublime Text and Vs Code.</h3>
-<p><strong>VsCode</strong> just would not format JSX correctly, no matter what options I set. In <strong>Sublime</strong>, I could not enable “format on save” no matter what I did.</p>
-<p>WebStorm code formatting is much more sophisticated. You can still choose the preferences (tabs/spaces/2vs4, open or closed brackets, single/double quotes, etc).</p>
-<p><strong>WebStorm, when formatting, will indent your code, but it is more intelligent.</strong> It will not fight your intentions.</p>
-<p>If you indent an if () round bracket on multiple lines, it will not squeeze them all into the same line again. If you put an HTML/JSX tag across multiple lines, it will not squeeze them to one. And vice versa. You can still have long if() and <html> code on one line. It is up to you.</p>
-<p><strong>This is extremely important, because it</strong></p>
-<ol>
-<li>keeps the file readable and standard, for <strong><code>Git Diff</code></strong></li>
-<li>keeps you and your team mates sane by allowing you to code the way that makes sense for that particular piece of logic, instead of conforming all code to the same formatting rules.</li>
-</ol>
-<p>It’s hard to explain, it just works. Just try it.</p>
-<h3>Another benefit…</h3>
+<p><strong>VsCode</strong> just does not format JSX correctly, no matter what options I set. Best case scenario - it sometimes ignores JSX indentation and sometimes indents incorrectly, that’s with the correct plugin and settings, explained in ./auto-formatting.md.
+In <strong>Sublime Text</strong>, I could not enable “format on save” no matter what I did. Instructions listed here in ./auto-formatting.md worked for others on the web.</p>
+<p>I do not like Prettier (the “opinionated” formatter), though I will use it if my team mates want to. Its formatting preferences are not as configurable as <strong>js-beautify</strong>, and force me to do a lot of scrolling.</p>
+<p>So, this remains an unsolved problem. Maybe I should try Emacs. I’ve spent enough time on this already.</p>
+<h3>WebStorm simply works. No problems.</h3>
+<p>It indents JSX correctly, and has program settings which all actually do what they’re supposed to when you change them. WebStorm is a good little robot that does as you command it.</p>
+<h3>Other benefits…</h3>
 <p>It has several more sophisticated features - ones you would have to spend a long time finding and configuring just right in open source editors.</p>
-<p>Like, when you re-name a file or folder, it will search all the source code in the project, and rename any references to that file, to prevent broken links.</p>
+<ul>
+<li>
+<p>When you re-name a file or folder, it can search all the source code in the project, and rename any references to that file, to prevent broken links.</p>
+</li>
+<li>
+<p>Key mapping has a very easy interface! Feel free to remap all your favorite shortcuts, including Macros.</p>
+</li>
+</ul>
+<h3>Unfortunately,</h3>
+<ul>
+<li>It costs money!</li>
+<li>Color themes are lacking in variety, and are difficult to customize.</li>
+</ul>
 
     </main>
   </div>
