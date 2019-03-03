@@ -21,9 +21,6 @@
   },
   "homepage": "https://github.com/paulshorey/ps#readme",
   "dependencies": {
-    "markdown-folder-to-html-fork": "/www/markdown-folder-to-html"
-  },
-  "etctest": {
     "markdown-folder-to-html-fork": "github:paulshorey/markdown-folder-to-html"
   }
 }

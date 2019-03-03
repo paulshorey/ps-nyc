@@ -123,8 +123,8 @@ h4 {
     display: none;
 }
 
-.nav ul.isActive>li,
-.nav li.isActive+ul>li {
+.nav ul.isActive > li,
+.nav li.isActive + ul > li {
     display: block;
 }
 
@@ -133,7 +133,7 @@ h4 {
     border-radius: 1px;
 }
 
-.nav li>a {
+.nav li > a {
     padding-right: 0.5rem;
     border-radius: 3px;
 }
@@ -156,11 +156,11 @@ h4 {
 }
 
 .nav ul ul ul {
-    border-left: solid 1.5px transparent;
+    border-left: solid 1.5px #666666;
 }
 
 .nav ul ul li ul.isActive,
-.nav ul ul li.isActive+ul {
+.nav ul ul li.isActive + ul {
     border-color: #666666;
 }
 
@@ -169,27 +169,29 @@ h4 {
     /* border-top: solid 1.5px; */
 }
 
-.nav li.isActive>a {
+.nav li.isActive > a {
     color: #E6BC3A;
     font-weight: bold;
     text-shadow: none;
 }
 
-.nav ul li a {
+.nav ul li a,
+.nav ul li span {
     line-height: 2.7rem;
     font-weight: bold;
     padding-top: 0.1rem;
 }
 
-.nav ul ul ul li a {
+.nav ul ul ul li a,
+.nav ul ul ul li span {
     line-height: 2.3rem;
     text-transform: none;
     font-size: 95%;
 }
 
 
-.nav >ul>li,
-.nav ul ul>*:last-child,
+.nav > ul > li,
+.nav ul ul > *:last-child,
 .nav ul ul ul li:last-child {
     margin-bottom: 0.75rem;
 }
@@ -197,8 +199,8 @@ h4 {
 /* folder label with no link */
 .nav ul li:hover > span,
 .nav ul li > span {
-    color:#666;
-    font-weight:bold;
+    color: #666;
+    font-weight: bold;
 }
 
 
@@ -212,11 +214,20 @@ h4 {
     padding: 1rem 2.2rem 1rem 2.8rem;
     background: rgba(255, 255, 252, 0.36);
     line-height: 1.4rem;
+    color: rgba(15, 15, 15, 0.66);
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    color: #000;
 }
 
 .content p {
     margin: 0.6rem 0;
-    color: rgba(15, 15, 15, 0.75);
 }
 
 .content ol,
