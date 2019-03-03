@@ -18,15 +18,15 @@
             },
             {
               "type": "file",
+              "value": "Back End/Basics/Ports.md"
+            },
+            {
+              "type": "file",
               "value": "Back End/Basics/index.md"
             },
             {
               "type": "file",
               "value": "Back End/Basics/SSL.md"
-            },
-            {
-              "type": "file",
-              "value": "Back End/Basics/ports.md"
             }
           ]
         },
@@ -114,15 +114,19 @@
         },
         {
           "type": "dir",
-          "name": "IDE",
+          "name": "IDE + Code",
           "children": [
             {
               "type": "file",
-              "value": "General/IDE/index.md"
+              "value": "General/IDE + Code/index.md"
             },
             {
               "type": "file",
-              "value": "General/IDE/edit-over-SSH.md"
+              "value": "General/IDE + Code/auto-formatting.md"
+            },
+            {
+              "type": "file",
+              "value": "General/IDE + Code/edit-over-SSH.md"
             }
           ]
         },
@@ -143,8 +147,8 @@
     {
       "path": "index.md",
       "url": "index.html",
-      "content": "# Paul's Web Development Knowledgebase  \nA repository of useful tips, tricks, shortcuts, and general knowledge about web application development, because sometimes we forget.  \n<br /><br />  \n  \n**This is an exciting journey**  \nto find a decent solution for documenting small to medium size web projects. So far, it's a great success! Very easy to edit (markdown files), very easy to collaborate (same repository as the project), and very easy to convert to html (`npm run docs`).  \n  \n**This website was auto-generated**  \nfrom [my repository](http://github.com/paulshorey/ps) `./docs` folder, using [paulshorey/markdown-folder-to-html](https://github.com/paulshorey/markdown-folder-to-html).  \n  \n**If anyone wants to contribute**  \nto this knowledgebase, and share ownership, please contact me! I'll be happy to move this to its own repository.  \n<br /><br />  \n  \n# This is a work in progress  \n  \n**Unfortunate issues:**  \n* **Folders and files are stored and displayed in alphabetical order.**  \n* File names can have spaces, but a space in the filename prevents you from linking to the file from other markdown files (this is a markdown issue).  \n  \n  \n**Todo:**  \n* Fix mobile CSS  \n* When compiling .html files, to modify the original .md file... to add double space at the end of every line which does not already have them. (for Github flavor compatibility)  \n* Test more edge-cases with navigation - list items which are deeply nested or not containing README/index file.  \n* Maybe fix underlying codebase to not convert filenames to (a href=\"\") elements.",
-      "html": "<h1>Paul’s Web Development Knowledgebase</h1>\n<p>A repository of useful tips, tricks, shortcuts, and general knowledge about web application development, because sometimes we forget.<br>\n<br /><br /></p>\n<p><strong>This is an exciting journey</strong><br>\nto find a decent solution for documenting small to medium size web projects. So far, it’s a great success! Very easy to edit (markdown files), very easy to collaborate (same repository as the project), and very easy to convert to html (<code>npm run docs</code>).</p>\n<p><strong>This website was auto-generated</strong><br>\nfrom <a href=\"http://github.com/paulshorey/ps\">my repository</a> <code>./docs</code> folder, using <a href=\"https://github.com/paulshorey/markdown-folder-to-html\">paulshorey/markdown-folder-to-html</a>.</p>\n<p><strong>If anyone wants to contribute</strong><br>\nto this knowledgebase, and share ownership, please contact me! I’ll be happy to move this to its own repository.<br>\n<br /><br /></p>\n<h1>This is a work in progress</h1>\n<p><strong>Unfortunate issues:</strong></p>\n<ul>\n<li><strong>Folders and files are stored and displayed in alphabetical order.</strong></li>\n<li>File names can have spaces, but a space in the filename prevents you from linking to the file from other markdown files (this is a markdown issue).</li>\n</ul>\n<p><strong>Todo:</strong></p>\n<ul>\n<li>Fix mobile CSS</li>\n<li>When compiling .html files, to modify the original .md file… to add double space at the end of every line which does not already have them. (for Github flavor compatibility)</li>\n<li>Test more edge-cases with navigation - list items which are deeply nested or not containing README/index file.</li>\n<li>Maybe fix underlying codebase to not convert filenames to (a href=&quot;&quot;) elements.</li>\n</ul>\n",
+      "content": "# Paul's Web Development Notes\n1. A repository of useful tips, tricks, shortcuts, and general knowledge about web application development, for new developers, and forgetful old ones.  \n2. I've been trying to find a decent solution for documenting small to medium size web projects. So far, this is a success! Very easy to edit (markdown files), very easy to collaborate (same repository as the project), and very easy to convert to html (`npm run docs`).  \n<br /><br />    \n  \n**This website was auto-generated**  \nfrom [my repository](http://github.com/paulshorey/ps) `./docs` folder, using [paulshorey/markdown-folder-to-html](https://github.com/paulshorey/markdown-folder-to-html).  \n  \n**If anyone wants to contribute**  \nto this knowledgebase, and share ownership, please contact me! I'll be happy to move this to its own repository.  \n<br /><br />  \n  \n# This is a work in progress  \n  \n**Unfortunate issues:**  \n* **Folders and files must be in alphabetical order.**  \n* File names can have spaces, but a space in the filename prevents you from linking to the file from other markdown files (this is a markdown issue).  \n  \n  \n**Todo:**  \n* Fix mobile layout  \n* When compiling .html files, to modify the original .md file... add double space at the end of every line (for Github-flavor compatibility)  \n* QC deep nested folders  \n* Maybe fix underlying codebase to not convert filename strings to (a href=\"\") elements",
+      "html": "<h1>Paul’s Web Development Notes</h1>\n<ol>\n<li>A repository of useful tips, tricks, shortcuts, and general knowledge about web application development, for new developers, and forgetful old ones.</li>\n<li>I’ve been trying to find a decent solution for documenting small to medium size web projects. So far, this is a success! Very easy to edit (markdown files), very easy to collaborate (same repository as the project), and very easy to convert to html (<code>npm run docs</code>).<br>\n<br /><br /></li>\n</ol>\n<p><strong>This website was auto-generated</strong><br>\nfrom <a href=\"http://github.com/paulshorey/ps\">my repository</a> <code>./docs</code> folder, using <a href=\"https://github.com/paulshorey/markdown-folder-to-html\">paulshorey/markdown-folder-to-html</a>.</p>\n<p><strong>If anyone wants to contribute</strong><br>\nto this knowledgebase, and share ownership, please contact me! I’ll be happy to move this to its own repository.<br>\n<br /><br /></p>\n<h1>This is a work in progress</h1>\n<p><strong>Unfortunate issues:</strong></p>\n<ul>\n<li><strong>Folders and files must be in alphabetical order.</strong></li>\n<li>File names can have spaces, but a space in the filename prevents you from linking to the file from other markdown files (this is a markdown issue).</li>\n</ul>\n<p><strong>Todo:</strong></p>\n<ul>\n<li>Fix mobile layout</li>\n<li>When compiling .html files, to modify the original .md file… add double space at the end of every line (for Github-flavor compatibility)</li>\n<li>QC deep nested folders</li>\n<li>Maybe fix underlying codebase to not convert filename strings to (a href=&quot;&quot;) elements</li>\n</ul>\n",
       "id": 0
     },
     {
@@ -155,22 +159,22 @@
       "id": 1
     },
     {
+      "path": "Back End/Basics/Ports.md",
+      "url": "Back End/Basics/Ports.html",
+      "content": "",
+      "html": "",
+      "id": 2
+    },
+    {
       "path": "Back End/Basics/index.md",
       "url": "Back End/Basics/index.html",
       "content": "# Coming soon  \n",
       "html": "<h1>Coming soon</h1>\n",
-      "id": 2
+      "id": 3
     },
     {
       "path": "Back End/Basics/SSL.md",
       "url": "Back End/Basics/SSL.html",
-      "content": "",
-      "html": "",
-      "id": 3
-    },
-    {
-      "path": "Back End/Basics/ports.md",
-      "url": "Back End/Basics/ports.html",
       "content": "",
       "html": "",
       "id": 4
@@ -246,25 +250,32 @@
       "id": 14
     },
     {
-      "path": "General/IDE/index.md",
-      "url": "General/IDE/index.html",
-      "content": "# Most important setting for collaboration:  \n  \nAfter agreeing on and sticking to **tabs** or 2 spaces or 4 spaces, most important thing to is:  \n  \nMake sure your **and your teammates'** text-editor or IDE do not change your code unexpectedly.  \n  \n### If using VS CODE:  \n* Install the **`js beautify`** plugin  \n* Add **`.jsbeautifyrc`** file to the root of your project, to specify formatting rules.  \n* By default, it formats every file on save! To turn this off, toggle **`files.autoSave`** in Vs Code preferences.  \n  \n### If using Sublime Text:  \n* Install `htmlprettify` plulgin: https://github.com/victorporof/Sublime-HTMLPrettify  \n* Use the same **`.jsbeautifyrc`** file as your teammates use for Vs Code.  \n* Sublime does not format on save by default. Toggle **`format_on_save`** in HTMLPrettify plugin options.  \n  \n### If using something else:  \n* Just make sure whatever settings you use matches your teammates' settings.  \n  \n### Otherwise, note: \n* This is a great online code beautifier: <br />https://www.10bestdesign.com/dirtymarkup/  \n* Unlike others, this one actually maintains HTML tags hierarchy and indentation  \n  \n",
-      "html": "<h1>Most important setting for collaboration:</h1>\n<p>After agreeing on and sticking to <strong>tabs</strong> or 2 spaces or 4 spaces, most important thing to is:</p>\n<p>Make sure your <strong>and your teammates’</strong> text-editor or IDE do not change your code unexpectedly.</p>\n<h3>If using VS CODE:</h3>\n<ul>\n<li>Install the <strong><code>js beautify</code></strong> plugin</li>\n<li>Add <strong><code>.jsbeautifyrc</code></strong> file to the root of your project, to specify formatting rules.</li>\n<li>By default, it formats every file on save! To turn this off, toggle <strong><code>files.autoSave</code></strong> in Vs Code preferences.</li>\n</ul>\n<h3>If using Sublime Text:</h3>\n<ul>\n<li>Install <code>htmlprettify</code> plulgin: <a href=\"https://github.com/victorporof/Sublime-HTMLPrettify\">https://github.com/victorporof/Sublime-HTMLPrettify</a></li>\n<li>Use the same <strong><code>.jsbeautifyrc</code></strong> file as your teammates use for Vs Code.</li>\n<li>Sublime does not format on save by default. Toggle <strong><code>format_on_save</code></strong> in HTMLPrettify plugin options.</li>\n</ul>\n<h3>If using something else:</h3>\n<ul>\n<li>Just make sure whatever settings you use matches your teammates’ settings.</li>\n</ul>\n<h3>Otherwise, note:</h3>\n<ul>\n<li>This is a great online code beautifier: <br /><a href=\"https://www.10bestdesign.com/dirtymarkup/\">https://www.10bestdesign.com/dirtymarkup/</a></li>\n<li>Unlike others, this one actually maintains HTML tags hierarchy and indentation</li>\n</ul>\n",
+      "path": "General/IDE + Code/index.md",
+      "url": "General/IDE + Code/index.html",
+      "content": "# Try WebStorm \n\n### Lately, I've had trouble with both Sublime Text and Vs Code.  \n\n**VsCode** just would not format JSX correctly, no matter what options I set. In **Sublime**, I could not enable \"format on save\" no matter what I did.   \n\nWebStorm code formatting is much more sophisticated. You can still choose the preferences (tabs/spaces/2vs4, open or closed brackets, single/double quotes, etc). \n\n**WebStorm, when formatting, will indent your code, but it is more intelligent.** It will not fight your intentions. \n\nIf you indent an if () round bracket on multiple lines, it will not squeeze them all into the same line again. If you put an HTML/JSX tag across multiple lines, it will not squeeze them to one. And vice versa. You can still have long if() and <html> code on one line. It is up to you.\n\n**This is extremely important, because it**\n1. keeps the file readable and standard, for **`Git Diff`**\n2. keeps you and your team mates sane by allowing you to code the way that makes sense for that particular piece of logic, instead of conforming all code to the same formatting rules.\n\nIt's hard to explain, it just works. Just try it.  \n\n### Another benefit... \n\nIt has several more sophisticated features - ones you would have to spend a long time finding and configuring just right in open source editors.  \n\nLike, when you re-name a file or folder, it will search all the source code in the project, and rename any references to that file, to prevent broken links.    \n\n\n",
+      "html": "<h1>Try WebStorm</h1>\n<h3>Lately, I’ve had trouble with both Sublime Text and Vs Code.</h3>\n<p><strong>VsCode</strong> just would not format JSX correctly, no matter what options I set. In <strong>Sublime</strong>, I could not enable “format on save” no matter what I did.</p>\n<p>WebStorm code formatting is much more sophisticated. You can still choose the preferences (tabs/spaces/2vs4, open or closed brackets, single/double quotes, etc).</p>\n<p><strong>WebStorm, when formatting, will indent your code, but it is more intelligent.</strong> It will not fight your intentions.</p>\n<p>If you indent an if () round bracket on multiple lines, it will not squeeze them all into the same line again. If you put an HTML/JSX tag across multiple lines, it will not squeeze them to one. And vice versa. You can still have long if() and <html> code on one line. It is up to you.</p>\n<p><strong>This is extremely important, because it</strong></p>\n<ol>\n<li>keeps the file readable and standard, for <strong><code>Git Diff</code></strong></li>\n<li>keeps you and your team mates sane by allowing you to code the way that makes sense for that particular piece of logic, instead of conforming all code to the same formatting rules.</li>\n</ol>\n<p>It’s hard to explain, it just works. Just try it.</p>\n<h3>Another benefit…</h3>\n<p>It has several more sophisticated features - ones you would have to spend a long time finding and configuring just right in open source editors.</p>\n<p>Like, when you re-name a file or folder, it will search all the source code in the project, and rename any references to that file, to prevent broken links.</p>\n",
       "id": 15
     },
     {
-      "path": "General/IDE/edit-over-SSH.md",
-      "url": "General/IDE/edit-over-SSH.html",
+      "path": "General/IDE + Code/auto-formatting.md",
+      "url": "General/IDE + Code/auto-formatting.html",
+      "content": "# Most important editor setting for collaboration:  \n  \nAfter agreeing on and sticking to **tabs** or 2 spaces or 4 spaces, most important thing to is:  \n  \nMake sure your **and your teammates'** text-editor or IDE do not change your code unexpectedly.\n\n### If using VS CODE:  \n* Install the **`js beautify`** plugin  \n* Add **`.jsbeautifyrc`** file to the root of your project, to specify formatting rules.  \n* By default, it formats every file on save! To turn this off, toggle **`files.autoSave`** in Vs Code preferences.  \n  \n### If using Sublime Text:  \n* Install `htmlprettify` plulgin: https://github.com/victorporof/Sublime-HTMLPrettify  \n* Use the same **`.jsbeautifyrc`** file as your teammates use for Vs Code.  \n* Sublime does not format on save by default. Toggle **`format_on_save`** in HTMLPrettify plugin options.\n  \n### If using WebStorm: \n* `Webstorm > Preferences > Editor > Code Style > JavaScript` no manually editing a JSON file, use checkboxes/dropdowns\n* To auto-format on save, you must create a Macro, which is also different...\n    1. `Edit > Macros > Start Macro Recording`\n    2. Press `Esc`, to clear any selected text, which will affect your formatting\n    3. Press `Cmd + Opt + L` to format the current file\n    4. Select `File > Save All` in top bar. Do NOT just hit `Cmd + S`.\n    5. Click `Stop` in Macro notification on the bottom, to stop recording.\n    6. `Webstorm > Preferences > Keymap` \n        * Search `Save`. Right click and remove key binding.\n        * In that same list, find your newly created Macro. Right click, and add key binding `Cmd + S`.\n  \n### If using something else:  \n* Just make sure whatever settings you use matches your teammates' settings.  \n  \n### Otherwise, note:  \n* This is a great online code beautifier: <br />https://www.10bestdesign.com/dirtymarkup/  \n* Unlike others, this one actually maintains HTML tags hierarchy and indentation  \n  \n",
+      "html": "<h1>Most important editor setting for collaboration:</h1>\n<p>After agreeing on and sticking to <strong>tabs</strong> or 2 spaces or 4 spaces, most important thing to is:</p>\n<p>Make sure your <strong>and your teammates’</strong> text-editor or IDE do not change your code unexpectedly.</p>\n<h3>If using VS CODE:</h3>\n<ul>\n<li>Install the <strong><code>js beautify</code></strong> plugin</li>\n<li>Add <strong><code>.jsbeautifyrc</code></strong> file to the root of your project, to specify formatting rules.</li>\n<li>By default, it formats every file on save! To turn this off, toggle <strong><code>files.autoSave</code></strong> in Vs Code preferences.</li>\n</ul>\n<h3>If using Sublime Text:</h3>\n<ul>\n<li>Install <code>htmlprettify</code> plulgin: <a href=\"https://github.com/victorporof/Sublime-HTMLPrettify\">https://github.com/victorporof/Sublime-HTMLPrettify</a></li>\n<li>Use the same <strong><code>.jsbeautifyrc</code></strong> file as your teammates use for Vs Code.</li>\n<li>Sublime does not format on save by default. Toggle <strong><code>format_on_save</code></strong> in HTMLPrettify plugin options.</li>\n</ul>\n<h3>If using WebStorm:</h3>\n<ul>\n<li><code>Webstorm &gt; Preferences &gt; Editor &gt; Code Style &gt; JavaScript</code> no manually editing a JSON file, use checkboxes/dropdowns</li>\n<li>To auto-format on save, you must create a Macro, which is also different…\n<ol>\n<li><code>Edit &gt; Macros &gt; Start Macro Recording</code></li>\n<li>Press <code>Esc</code>, to clear any selected text, which will affect your formatting</li>\n<li>Press <code>Cmd + Opt + L</code> to format the current file</li>\n<li>Select <code>File &gt; Save All</code> in top bar. Do NOT just hit <code>Cmd + S</code>.</li>\n<li>Click <code>Stop</code> in Macro notification on the bottom, to stop recording.</li>\n<li><code>Webstorm &gt; Preferences &gt; Keymap</code>\n<ul>\n<li>Search <code>Save</code>. Right click and remove key binding.</li>\n<li>In that same list, find your newly created Macro. Right click, and add key binding <code>Cmd + S</code>.</li>\n</ul>\n</li>\n</ol>\n</li>\n</ul>\n<h3>If using something else:</h3>\n<ul>\n<li>Just make sure whatever settings you use matches your teammates’ settings.</li>\n</ul>\n<h3>Otherwise, note:</h3>\n<ul>\n<li>This is a great online code beautifier: <br /><a href=\"https://www.10bestdesign.com/dirtymarkup/\">https://www.10bestdesign.com/dirtymarkup/</a></li>\n<li>Unlike others, this one actually maintains HTML tags hierarchy and indentation</li>\n</ul>\n",
+      "id": 16
+    },
+    {
+      "path": "General/IDE + Code/edit-over-SSH.md",
+      "url": "General/IDE + Code/edit-over-SSH.html",
       "content": "# How To:  \n### Edit remote files over SSH connection  \n...not in the terminal, but using your favorite local IDE!  \n<br /><br />  \n  \n#### On server,  \nInstall rsub:  \n```  \nwget -O /usr/local/bin/rsub \\https://raw.github.com/aurora/rmate/master/rmate  \nchmod a+x /usr/local/bin/rsub  \n```  \n#### On local,  \nFor _SublimeText3_, or _Textmate_, install **`rsub`** package.  \nOr on _VsCode_, install **`remote-vscode`** package.  \nAdd proxy:  \n```  \necho \"RemoteForward 52698 localhost:52698\" >> ~/.ssh/config  \n```  \n#### Now you can connect to the server and edit any file:  \n```  \nssh user@hostname  \nrsub ~/.profile  \n```  \n<br /><br />  \n  \n## Emacs text editor  \nin addition to simply editing the file, it can act as the connection agent, and the remote filebrowser too ~~ so you can connect, browse, open, and edit files all in Emacs!",
       "html": "<h1>How To:</h1>\n<h3>Edit remote files over SSH connection</h3>\n<p>…not in the terminal, but using your favorite local IDE!<br>\n<br /><br /></p>\n<h4>On server,</h4>\n<p>Install rsub:</p>\n<pre><code>wget -O /usr/local/bin/rsub \\https://raw.github.com/aurora/rmate/master/rmate  \nchmod a+x /usr/local/bin/rsub  \n</code></pre>\n<h4>On local,</h4>\n<p>For <em>SublimeText3</em>, or <em>Textmate</em>, install <strong><code>rsub</code></strong> package.<br>\nOr on <em>VsCode</em>, install <strong><code>remote-vscode</code></strong> package.<br>\nAdd proxy:</p>\n<pre><code>echo &quot;RemoteForward 52698 localhost:52698&quot; &gt;&gt; ~/.ssh/config  \n</code></pre>\n<h4>Now you can connect to the server and edit any file:</h4>\n<pre><code>ssh user@hostname  \nrsub ~/.profile  \n</code></pre>\n<p><br /><br /></p>\n<h2>Emacs text editor</h2>\n<p>in addition to simply editing the file, it can act as the connection agent, and the remote filebrowser too ~~ so you can connect, browse, open, and edit files all in Emacs!</p>\n",
-      "id": 16
+      "id": 17
     },
     {
       "path": "General/RegEx/index.md",
       "url": "General/RegEx/index.html",
       "content": "# Regular Expressions  \n  \n[IDE Examples](./IDE-Examples.md)  \n  \n### Find/Replace  \nLets use the link above as an example. We want to convert local links from `.md` to `.html`...  \n#### in IDE:  \n```  \nFind: (\\[.*?\\]\\(\\./.*?).md(\\))  \nReplace: $1.html$2  \n```  \n#### using Javascript:  \n```  \nstr.replace(\\(\\[.*?\\]\\(\\./.*?).md(\\))\\g, \"$1.html$2\");  \n```  \nSo, no matter the complexity, just write the match/replace as:  \n```  \nstr.replace(\\        \\g, \"       \")  \n```  \n  \n## Examples  \n  \n### HTML:  \nsearch `(\\s*)</script>` replace `</script>` puts all closing tags on same line  \n  \n`\\ ?data-(.*?)\"(.*?)\" `  \n`\\ ?tabindex=(\".*\") `  \nmatch all tag attributes starting with with or without leading spaces  \n  \n  \n`li\\ class(.*?)\"(.*?)\" `  \nstrip out class attribute from matching elements  \n  \n`<!--(.*?)\\.(.*?)-->`  \nmatch comments containing phrase \".\"  \n  \nsearch `href=\"(.*?)\"` replace `href=\"\"` clears all href attributes  \n  \nsearch `(\\ *?)((?!\\ ).*?)><span(.*?)</span> `  \nreplace `$1$2>\\n$1  <span$3\\n$1  </span> `  \nto add indent span elements  \n  \n### Javascript:  \nRemove all console.logs (or .warn .error, etc):  \n`(\\s?)console.(.?)\\n([\\w\\s\\W\\t\\n]*?)`",
       "html": "<h1>Regular Expressions</h1>\n<p><a href=\"./IDE-Examples.html\">IDE Examples</a></p>\n<h3>Find/Replace</h3>\n<p>Lets use the link above as an example. We want to convert local links from <code>.md</code> to <code>.html</code>…</p>\n<h4>in IDE:</h4>\n<pre><code>Find: (\\[.*?\\]\\(\\./.*?).md(\\))  \nReplace: $1.html$2  \n</code></pre>\n<h4>using Javascript:</h4>\n<pre><code>str.replace(\\(\\[.*?\\]\\(\\./.*?).md(\\))\\g, &quot;$1.html$2&quot;);  \n</code></pre>\n<p>So, no matter the complexity, just write the match/replace as:</p>\n<pre><code>str.replace(\\        \\g, &quot;       &quot;)  \n</code></pre>\n<h2>Examples</h2>\n<h3>HTML:</h3>\n<p>search <code>(\\s*)&lt;/script&gt;</code> replace <code>&lt;/script&gt;</code> puts all closing tags on same line</p>\n<p><code>\\ ?data-(.*?)&quot;(.*?)&quot;</code><br>\n<code>\\ ?tabindex=(&quot;.*&quot;)</code><br>\nmatch all tag attributes starting with with or without leading spaces</p>\n<p><code>li\\ class(.*?)&quot;(.*?)&quot;</code><br>\nstrip out class attribute from matching elements</p>\n<p><code>&lt;!--(.*?)\\.(.*?)--&gt;</code><br>\nmatch comments containing phrase “.”</p>\n<p>search <code>href=&quot;(.*?)&quot;</code> replace <code>href=&quot;&quot;</code> clears all href attributes</p>\n<p>search <code>(\\ *?)((?!\\ ).*?)&gt;&lt;span(.*?)&lt;/span&gt;</code><br>\nreplace <code>$1$2&gt;\\n$1 &lt;span$3\\n$1 &lt;/span&gt;</code><br>\nto add indent span elements</p>\n<h3>Javascript:</h3>\n<p>Remove all console.logs (or .warn .error, etc):<br>\n<code>(\\s?)console.(.?)\\n([\\w\\s\\W\\t\\n]*?)</code></p>\n",
-      "id": 17
+      "id": 18
     }
   ]
 }

@@ -161,11 +161,11 @@ h4 {
 
 .nav ul ul li ul.isActive,
 .nav ul ul li.isActive+ul {
-    border-color: #6C6F72;
+    border-color: #666666;
 }
 
 .nav ul ul ul.isActive {
-    border-color: #6C6F72;
+    border-color: #666666;
     /* border-top: solid 1.5px; */
 }
 

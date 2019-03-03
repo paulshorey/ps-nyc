@@ -1,4 +1,4 @@
-# Most important setting for collaboration:  
+# Most important editor setting for collaboration:  
   
 After agreeing on and sticking to **tabs** or 2 spaces or 4 spaces, most important thing to is:  
   
@@ -13,6 +13,18 @@ Make sure your **and your teammates'** text-editor or IDE do not change your cod
 * Install `htmlprettify` plulgin: https://github.com/victorporof/Sublime-HTMLPrettify  
 * Use the same **`.jsbeautifyrc`** file as your teammates use for Vs Code.  
 * Sublime does not format on save by default. Toggle **`format_on_save`** in HTMLPrettify plugin options.  
+  
+### If using WebStorm:  
+* `Webstorm > Preferences > Editor > Code Style > JavaScript` no manually editing a JSON file, use checkboxes/dropdowns  
+* To auto-format on save, you must create a Macro, which is also different...  
+    1. `Edit > Macros > Start Macro Recording`  
+    2. Press `Esc`, to clear any selected text, which will affect your formatting  
+    3. Press `Cmd + Opt + L` to format the current file  
+    4. Select `File > Save All` in top bar. Do NOT just hit `Cmd + S`.  
+    5. Click `Stop` in Macro notification on the bottom, to stop recording.  
+    6. `Webstorm > Preferences > Keymap`  
+        * Search `Save`. Right click and remove key binding.  
+        * In that same list, find your newly created Macro. Right click, and add key binding `Cmd + S`.  
   
 ### If using something else:  
 * Just make sure whatever settings you use matches your teammates' settings.  
