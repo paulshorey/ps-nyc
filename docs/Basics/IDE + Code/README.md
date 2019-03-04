@@ -14,7 +14,7 @@ What do you use? I will be asking around. Meanwhile...
 ### WebStorm simply works,  
 **and I have confidence that it will still behave a year from now.**  
   
-It indents JSX correctly, and has program settings which all actually do what they're supposed to when you change them. WebStorm is a good little robot that does as you command it.  
+It indents JSX correctly every time, and has program settings which all actually do what they're supposed to when you change them. WebStorm is a good little robot that does as you command it.  
   
 Also, it lets you choose to put arguments on the same line as the brackets, or each on its own line. This is huge for readability. Sometimes one format is more legible. Other times it's not. Now you, the human, can decide which to use.  
   
