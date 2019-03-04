@@ -3,16 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/auto-formatting.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/IDE + Code/auto-formatting.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/auto-formatting.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/auto-formatting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/CLI/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/RegEx/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/template.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,12 +44,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+              <first_editor relative-caret-position="140">
+                <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Basics/CLI/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/Basics/RegEx/IDE-Examples.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="380">
+                <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -84,6 +103,9 @@
         <option value="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" />
         <option value="$PROJECT_DIR$/docs/README.md" />
         <option value="$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md" />
+        <option value="$PROJECT_DIR$/docs/Basics/CLI/README.md" />
+        <option value="$PROJECT_DIR$/docs/Basics/RegEx/README.md" />
+        <option value="$PROJECT_DIR$/docs/Basics/RegEx/IDE-Examples.md" />
       </list>
     </option>
   </component>
@@ -144,6 +166,13 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="IDE + Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="RegEx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
@@ -242,12 +271,12 @@
       <workItem from="1551649315523" duration="333000" />
       <workItem from="1551721655018" duration="157000" />
       <workItem from="1551721833388" duration="4824000" />
-      <workItem from="1551726907217" duration="811000" />
+      <workItem from="1551726907217" duration="991000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11277000" />
+    <option name="totallyTimeSpent" value="11457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
@@ -341,8 +370,38 @@
     <entry file="file://$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <first_editor relative-caret-position="140">
+            <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Basics/CLI/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Basics/RegEx/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="380">
+            <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Basics/RegEx/IDE-Examples.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="380">
+            <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>

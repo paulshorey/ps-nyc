@@ -15,11 +15,11 @@
   
 **`cat file.js`** to view file contents, without bothering to open in a text editor  
   
-or use **`rsub`** to [open the remote file](../ide/edit-over-SSH.md) in your local editor like Sublime/VsCode  
+or use **`rsub`** to open the remote file in your local editor like Sublime/VsCode  
   
 **`sudo echo "export PATH=\"$PATH:/usr/local/bin\"" >> /etc/profile`** write to bottom of file  
   
-**`vim`** is a built-in and usually default text editor. [Nice Editor](../cli/ne.md) is much nicer!  
+**`vim`** is a built-in and usually default text editor. Nice Editor is much nicer!  
 <br /><br />  
   
 #### Permissions:  
