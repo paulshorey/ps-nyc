@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/CSS/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/responsive.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/CSS/responsive.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/assets/css/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/responsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/responsive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/template.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,60 +23,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/paulshorey/assets/css/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/responsive.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="189">
+                <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/frameworks.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/Basics/IDE + Code/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor>
-                <caret column="58" selection-start-column="58" selection-end-column="58" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="140">
-                <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md">
+        <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="140">
-                <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Basics/CLI/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="100">
-                <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Basics/RegEx/IDE-Examples.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="300">
-                <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <first_editor relative-caret-position="417">
+                <caret line="12" column="497" selection-start-line="12" selection-start-column="497" selection-end-line="12" selection-end-column="497" />
               </first_editor>
               <second_editor />
             </state>
@@ -81,6 +72,7 @@
     <findStrings>
       <find>li a</find>
       <find>transparent</find>
+      <find>.content li {</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,13 +86,16 @@
         <option value="$PROJECT_DIR$/docs/General/IDE Code/README.md" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/docs/Basics/IDE + Code/auto-formatting.md" />
-        <option value="$PROJECT_DIR$/docs/template.css" />
         <option value="$PROJECT_DIR$/docs/README.md" />
         <option value="$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md" />
         <option value="$PROJECT_DIR$/docs/Basics/CLI/README.md" />
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/README.md" />
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/IDE-Examples.md" />
         <option value="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" />
+        <option value="$PROJECT_DIR$/www/paulshorey/assets/css/home.css" />
+        <option value="$PROJECT_DIR$/docs/Front End/CSS/responsive.md" />
+        <option value="$PROJECT_DIR$/docs/template.css" />
+        <option value="$PROJECT_DIR$/docs/Front End/CSS/README.md" />
       </list>
     </option>
   </component>
@@ -133,68 +128,14 @@
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="CLI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="IDE + Code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="RegEx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Communicating" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Linux Management" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
@@ -212,7 +153,15 @@
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="paulshorey" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="paulshorey" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,12 +215,12 @@
       <workItem from="1551649315523" duration="333000" />
       <workItem from="1551721655018" duration="157000" />
       <workItem from="1551721833388" duration="4824000" />
-      <workItem from="1551726907217" duration="1212000" />
+      <workItem from="1551726907217" duration="4256000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11678000" />
+    <option name="totallyTimeSpent" value="14722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="0" />
@@ -335,13 +284,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -397,6 +339,48 @@
         <state split_layout="FIRST">
           <first_editor>
             <caret column="58" selection-start-column="58" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/paulshorey/assets/css/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/responsive.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="189">
+            <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/frameworks.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="242" column="26" lean-forward="true" selection-start-line="242" selection-start-column="26" selection-end-line="242" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="417">
+            <caret line="12" column="497" selection-start-line="12" selection-start-column="497" selection-end-line="12" selection-end-column="497" />
           </first_editor>
           <second_editor />
         </state>

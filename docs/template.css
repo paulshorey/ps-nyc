@@ -233,14 +233,14 @@ h4 {
 
 .content ol,
 .content ul {
-    margin: 1rem;
+    margin: 1rem 1rem 0;
     padding: 0 0.4rem;
 }
 
 .content li {
     padding-left: 0.62rem;
     padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+    margin-bottom: 0.2rem;
 }
 
 .content blockquote {

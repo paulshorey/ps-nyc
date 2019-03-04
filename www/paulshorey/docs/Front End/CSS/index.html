@@ -44,9 +44,28 @@
     </nav>
     <main class="content">
       <h3>CSS is not hard. Just review the properties at the bottom of this page.</h3>
-<h2>If you know the basics, here are some gotchas and odditties:</h2>
-<pre><code></code></pre>
-<h2>Properties:</h2>
+<h2>And know these gotchas/oddities:</h2>
+<h4>Aligning vs. Centering</h4>
+<ul>
+<li>To <strong>“vertically-align”</strong> something, we mean to align some text or image, or icon relative to its siblings. To make text or a link look good next to a button or icon. To accomplish this, simply put <strong><code>vertical-align:middle</code></strong> on every <strong>SIBLING</strong>. The container doesn’t matter.</li>
+<li>To <strong>“vertically-center”</strong> something is to actually place a small element visibly in the middle of a larger element. You may think to off-set the child from the top with <code>padding</code> or <code>margin-top</code> or just <code>top</code>, but that would require you to know the exact height of the parent and child, and any other contents which could shove the child out of center. Instead, use  <strong><code>display:flex;align-items:center</code></strong> on the <strong>PARENT</strong>, and the web browser will take care of the sizing.</li>
+<li>To <strong>“horizontally align”</strong> or <strong>“horizontally center”</strong> something is usually the same thing, but is done differently for “inline” vs “block” level elements.
+<ul>
+<li>To center some text or an image in a line, you would add <strong><code>text-align:center</code></strong> to its <strong>PARENT</strong>.</li>
+<li>To center some block (like a div) on the page, add <strong><code>margin-left:auto;margin-right:auto;</code></strong> on <strong>ITSELF</strong>, the <strong>CHILD</strong>. For this block centering to work, the child must have some width, and the parent must also be a block element, with a greater width.</li>
+</ul>
+</li>
+</ul>
+<h4>Negative Margin-Top vs. Negative Top</h4>
+<ul>
+<li><strong><code>margin-left: -10px</code></strong> or <strong><code>margin-top: -10px</code></strong> is totally allowed, and can make your UI pixel perfect by nudging your element slightly to the side. But <strong>BEWARE</strong>. It is a hack. It will shift the element you’re nudging in unpredictable ways, and thus shift all its children and parents. <strong>INSTEAD</strong>, you may use <strong><code>position:relative; top:-10px</code></strong> to accomplish the same thing. This will nudge the element just as well, but will not affect any other elements. To the sibling and parent elements, it will be as if the child was never nudged at all.</li>
+</ul>
+<h4>Box-Sizing, and Width Surprises</h4>
+<ul>
+<li>You make a button of <strong><code>width:100px</code></strong>. It fits nicely into your UI. But then you add a <strong><code>padding: 20px</code></strong>, and it no longer fits. In fact, it looks now more like <strong><code>140px</code></strong>. <strong>Why?</strong> The padding was added to the element’s width. If you now add a border of <strong><code>2px</code></strong>, now the total width grows again to <strong><code>144px</code></strong>. This is because your container element has property <strong><code>box-sizing: content-box;</code></strong>. To make the <strong>padding</strong> and <strong>border</strong> widths fit <strong>INSIDE</strong> the specified element width (and height), change the parent (or entire page) to use <strong><code>box-sizing: border-box;</code></strong>.</li>
+</ul>
+<h2></h2>
+<h1>Basic Properties:</h1>
 <ul>
 <li>position:
 <ul>
@@ -101,6 +120,11 @@
 <li><strong>vertically</strong> align any inline or inline-block element, relative to its siblings</li>
 <li>put this on the element itself!!! unlike text-align, which you put on the parent</li>
 <li>this does not, unfortunately, vertically center text inside a larger container</li>
+</ul>
+</li>
+<li>box-sizing
+<ul>
+<li>see in the top gotchas/oddities</li>
 </ul>
 </li>
 </ul>
