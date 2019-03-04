@@ -1,15 +1,11 @@
 # Paul's Web Development Notes  
-1. **From a front-end perspective...** a repository of useful tips, tricks, shortcuts, and general knowledge about web application development, for new developers, and forgetful old ones.  
-2. **This is an experiment.** I've been trying to find a decent solution for documenting small web projects. So far, this is a success! Very easy to edit (markdown files), very easy to collaborate (same repository as the project), and very easy to convert to html (`npm run docs`).  
+1. **From a front-end perspective...** a repository of useful tips, tricks, shortcuts, and general knowledge about web application development. I've been doing this for 10 years now, and have regularly found myself coming back to a set of technologies after 6 months or more, and forgetting their settings and gotchas. Maybe this will also help others.  
+2. **This is an experiment.** I've been trying to find a decent solution for documenting small web projects. So far, this is a great success! Very easy to edit (markdown files), very easy to collaborate (same repository as the project), and very easy to convert to html (`npm run docs`).  
 <br />  
   
 **This website was auto-generated**  
-from [my repository](http://github.com/paulshorey/ps) `./docs` folder, using [paulshorey/markdown-folder-to-html](https://github.com/paulshorey/markdown-folder-to-html).  
-<br />  
-  
-**If anyone wants to contribute**  
-to this knowledgebase, and share ownership, please contact me! I'll be happy to move this to its own repository.  
-<br /><br /><br />  
+from [my repository](http://github.com/paulshorey/ps) `./docs` folder, using [paulshorey/markdown-folder-to-html](https://github.com/paulshorey/markdown-folder-to-html), which is an experimental copy of [joakin/markdown-folder-to-html](https://github.com/joakin/markdown-folder-to-html).  
+<br /><br />  
   
 # This is a work in progress  
   

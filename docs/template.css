@@ -26,9 +26,10 @@ h6 {
 
 h1 {
     font-size: 1.8rem;
-    margin: 1.2rem -0.08rem 1.3rem;
+    margin: 1.5rem -0.08rem 0;
     font-weight: bold;
     opacity: 0.8;
+    padding-bottom: 1.125rem;
 }
 
 h2 {

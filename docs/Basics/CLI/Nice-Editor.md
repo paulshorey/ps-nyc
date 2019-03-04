@@ -8,7 +8,7 @@ echo "[core]\n\teditor = ne" >> ~/.gitconfig
 ```  
   
 #### Documentation:  
-[http://paulshorey.com/files/docs_ne.pdf](http://paulshorey.com/files/docs_ne.pdf)  
+[NiceEditorDocs.pdf](../../assets/files/NiceEditorDocs.pdf)  
   
 ## Keyboard Shortcuts:  
 (including the custom ~/.ne/.keys configuration below)  

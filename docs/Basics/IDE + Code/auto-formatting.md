@@ -10,7 +10,7 @@ Make sure your **and your teammates'** text-editor or IDE do not change your cod
 * By default, it formats every file on save! To turn this off, toggle **`files.autoSave`** in Vs Code preferences.  
   
 ### If using Sublime Text:  
-* Install `htmlprettify` plulgin: https://github.com/victorporof/Sublime-HTMLPrettify  
+* Install `htmlprettify` plugin: https://github.com/victorporof/Sublime-HTMLPrettify  
 * Use the same **`.jsbeautifyrc`** file as your teammates use for Vs Code.  
 * Sublime does not format on save by default. Toggle **`format_on_save`** in HTMLPrettify plugin options.  
   
