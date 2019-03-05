@@ -1,8 +1,8 @@
-# Most important editor setting for collaboration:  
+# Important for collaborating:  
   
-After agreeing on and sticking to **tabs** or 2 spaces or 4 spaces, most important thing to is:  
+After agreeing on and sticking to **tabs** or 2 spaces or 4 spaces, maybe the most useful thing to do next is:  
   
-Make sure your **and your teammates'** text-editor or IDE do not change your code unexpectedly.  
+Make sure your **and your teammates'** text-editor or IDE will not format your code unexpectedly.  
   
 ### If using VS CODE:  
 * Install the **`js beautify`** plugin  

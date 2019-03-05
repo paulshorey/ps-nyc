@@ -3,21 +3,21 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-  <link href="/assets/gfx/puzzle.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link href="/assets/gfx/puzzle.ico" rel="shortcut icon" type="image/x-icon"/>
 
-  <link rel="stylesheet" type="text/css" href="/docs/template.css" />
+    <link rel="stylesheet" type="text/css" href="/docs/template.css"/>
 </head>
 
 <body>
-  <div class="page">
+<div class="page">
     <nav class="nav">
-      <ul>
-        <li class="heading">
-          <a class="title-items" href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
-        </li>
-        <ul class=""><li class="heading isActive"><span>Basics</span></li>
+        <ul>
+            <li class="heading">
+                <a class="title-items" href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
+            </li>
+            <ul class=""><li class="heading isActive"><span>Basics</span></li>
 <ul class=""><li class="heading "><a href="./../../Basics/CLI/index.html">CLI</a></li>
 <ul class=""><li class=""><a href="./../../Basics/CLI/Nice-Editor.html">Nice Editor</a></li></ul>
 <li class="heading "><a href="./../../Basics/IDE + Code/index.html">IDE + Code</a></li>
@@ -29,7 +29,9 @@
 <ul class=""><li class="heading "><a href="./../../Front End/CSS/index.html">CSS</a></li>
 <ul class=""><li class=""><a href="./../../Front End/CSS/frameworks.html">frameworks</a></li><li class=""><a href="./../../Front End/CSS/responsive.html">responsive</a></li></ul>
 <li class="heading "><a href="./../../Front End/JavaScript/index.html">JavaScript</a></li>
+<ul class=""><li class=""><a href="./../../Front End/JavaScript/ES6.html">ES6</a></li><li class="heading "><a href="./../../Front End/JavaScript/React/index.html">React</a></li>
 
+<li class=""><a href="./../../Front End/JavaScript/looping.html">looping</a></li><li class=""><a href="./../../Front End/JavaScript/sorting.html">sorting</a></li></ul>
 </ul>
 <li class="heading isActive"><span>Server</span></li>
 <ul class=""><li class="heading isActive"><span>Communicating</span></li>
@@ -40,12 +42,25 @@
 <ul class=""><li class=""><a href="./../Linux Management/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../Linux Management/linux-from-scratch.html">linux from scratch</a></li></ul>
 </ul>
 </ul>
-      </ul>
+        </ul>
     </nav>
     <main class="content">
-      
+        <p><strong>Servers usually serve incoming visitor web traffic on port 80. So, <a href="http://google.com">http://google.com</a> is the same as <a href="http://google.com:80">http://google.com:80</a></strong><br>
+<br /></p>
+<p><strong>However</strong>, on your local Macbook, ports below <strong>1000</strong> are blocked. So, running a Node webserver on port <strong>80</strong> will not work. The browser url will try to go to port 80, but that request will not find its way to your system process.<br>
+<br /></p>
+<p><strong>That’s ok, we can run our Node.js script on port 1080 instead.</strong>
+<br /></p>
+<p>But if we want to run the server at just <code>http://localhost</code>, not <code>http://localhost:80</code>, then we have to redirect all incoming requests from port 80 to port 1080:</p>
+<pre><code>iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 1080
+iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 443 -j REDIRECT --to-port 1443
+ufw allow 80/tcp
+ufw allow 443/tcp
+</code></pre>
+
     </main>
-  </div>
+</div>
 </body>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 
 </html>

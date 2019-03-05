@@ -233,7 +233,7 @@ h4 {
 
 .content ol,
 .content ul {
-    margin: 1rem 1rem 0;
+    margin: 0 1rem;
     padding: 0 0.4rem;
 }
 
@@ -276,14 +276,103 @@ h4 {
     margin: 0 2px 2px 1px;
     vertical-align: middle;
     border-radius: 1px;
-    font-weight: bold;
     border-left-width: 2px;
-    border-bottom-width: 1px;
 }
 
 .content pre code {
     box-sizing: border-box;
     line-height: 1.15rem;
-    padding: 6px 15px 7px;
+    padding: 10px 30px 10px 15px;
     min-width: 50vw;
+    font-weight: normal;
+}
+
+.content code span.com {
+    padding: 2px 0 4px 0;
+    display: inline-block;
+}
+
+.content code span.pln {
+    color: #284c4c;
+    font-weight: bold;
+}
+
+
+/*! Color themes for Google Code Prettify | MIT License | github.com/jmblog/color-themes-for-google-code-prettify */
+.prettyprint {
+    background: #ecf4ee;
+    font-family: Menlo, Bitstream Vera Sans Mono, DejaVu Sans Mono, Monaco, Consolas, monospace;
+    /*border: 0 !important*/
+}
+
+.prettyprint .pln {
+    color: #171c19
+}
+
+.prettyprint ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #78877d
+}
+
+.prettyprint li.L0, .prettyprint li.L1, .prettyprint li.L2, .prettyprint li.L3, .prettyprint li.L4, .prettyprint li.L5, .prettyprint li.L6, .prettyprint li.L7, .prettyprint li.L8, .prettyprint li.L9 {
+    padding-left: 1em;
+    background-color: #ecf4ee;
+    list-style-type: decimal
+}
+
+.prettyprint .str {
+    color: #489963
+}
+
+.prettyprint .kwd {
+    color: #55859b
+}
+
+.prettyprint .com {
+    color: #78877d
+}
+
+.prettyprint .typ {
+    color: #478c90
+}
+
+.prettyprint .lit {
+    color: #9f713c
+}
+
+.prettyprint .pun {
+    color: #171c19
+}
+
+.prettyprint .opn {
+    color: #171c19
+}
+
+.prettyprint .clo {
+    color: #171c19
+}
+
+.prettyprint .tag {
+    color: #b16139
+}
+
+.prettyprint .atn {
+    color: #9f713c
+}
+
+.prettyprint .atv {
+    color: #1c9aa0
+}
+
+.prettyprint .dec {
+    color: #9f713c
+}
+
+.prettyprint .var {
+    color: #b16139
+}
+
+.prettyprint .fun {
+    color: #478c90
 }

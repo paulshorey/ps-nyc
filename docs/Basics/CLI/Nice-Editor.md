@@ -3,18 +3,25 @@ A "nice" editor. By far the most intuitive CLI editor to use, supports some basi
   
 #### Make Default:  
 ```  
-echo "export EDITOR=ne" >> ~/.zprofile  
-echo "[core]\n\teditor = ne" >> ~/.gitconfig  
+echo "export EDITOR=ne" >> ~/.profile  # if you use the standard Mac terminal  
+echo "export EDITOR=ne" >> ~/.zprofile  # if you use Zsh  
+echo "[core]\n\teditor = ne" >> ~/.gitconfig  # to use it for git messages  
+```  
+Restart the terminal, then you'll be able to do:  
+```  
+ne myFile.txt # to edit stuff  
+git commit # to commit, as usual, but without having to use Vim  
 ```  
   
 #### Documentation:  
 [NiceEditorDocs.pdf](../../assets/files/NiceEditorDocs.pdf)  
   
 ## Keyboard Shortcuts:  
-(including the custom ~/.ne/.keys configuration below)  
+(when using the custom ~/.ne/.keys configuration below)  
   
 > **^s**, **^q** - save, quit  
-> **^z**, **^x**, **^c**, **^v**  - undo, cut, copy, paste  
+> **^z**, **^r**  - undo, redo  
+> **^x**, **^c**, **^v**  - cut, copy, paste  
 > **^y**  - delete current line  
 > **^u**  - paste deleted line  
 >  

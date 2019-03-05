@@ -1,6 +1,6 @@
 # Regular Expressions  
   
-[IDE Examples](./IDE-Examples.md)  
+> * **[IDE Examples](./IDE-Examples.md)**  
   
 ### Find/Replace  
 Lets use the link above as an example. We want to convert local links from `.md` to `.html`...  

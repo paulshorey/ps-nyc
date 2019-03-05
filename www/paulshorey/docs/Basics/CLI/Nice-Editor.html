@@ -3,21 +3,21 @@
 
 <head>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-  <link href="/assets/gfx/puzzle.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link href="/assets/gfx/puzzle.ico" rel="shortcut icon" type="image/x-icon"/>
 
-  <link rel="stylesheet" type="text/css" href="/docs/template.css" />
+    <link rel="stylesheet" type="text/css" href="/docs/template.css"/>
 </head>
 
 <body>
-  <div class="page">
+<div class="page">
     <nav class="nav">
-      <ul>
-        <li class="heading">
-          <a class="title-items" href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
-        </li>
-        <ul class=""><li class="heading isActive"><span>Basics</span></li>
+        <ul>
+            <li class="heading">
+                <a class="title-items" href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
+            </li>
+            <ul class=""><li class="heading isActive"><span>Basics</span></li>
 <ul class=""><li class="heading childIsActive"><a href="./index.html">CLI</a></li>
 <ul class="isActive"><li class="isActive"><a href="./Nice-Editor.html">Nice Editor</a></li></ul>
 <li class="heading "><a href="./../IDE + Code/index.html">IDE + Code</a></li>
@@ -29,7 +29,9 @@
 <ul class=""><li class="heading "><a href="./../../Front End/CSS/index.html">CSS</a></li>
 <ul class=""><li class=""><a href="./../../Front End/CSS/frameworks.html">frameworks</a></li><li class=""><a href="./../../Front End/CSS/responsive.html">responsive</a></li></ul>
 <li class="heading "><a href="./../../Front End/JavaScript/index.html">JavaScript</a></li>
+<ul class=""><li class=""><a href="./../../Front End/JavaScript/ES6.html">ES6</a></li><li class="heading "><a href="./../../Front End/JavaScript/React/index.html">React</a></li>
 
+<li class=""><a href="./../../Front End/JavaScript/looping.html">looping</a></li><li class=""><a href="./../../Front End/JavaScript/sorting.html">sorting</a></li></ul>
 </ul>
 <li class="heading isActive"><span>Server</span></li>
 <ul class=""><li class="heading isActive"><span>Communicating</span></li>
@@ -40,22 +42,28 @@
 <ul class=""><li class=""><a href="./../../Server/Linux Management/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../../Server/Linux Management/linux-from-scratch.html">linux from scratch</a></li></ul>
 </ul>
 </ul>
-      </ul>
+        </ul>
     </nav>
     <main class="content">
-      <h1>EDITOR=ne</h1>
+        <h1>EDITOR=ne</h1>
 <p>A “nice” editor. By far the most intuitive CLI editor to use, supports some basic features and bindings. <code>Ctr S</code> to save. <code>Ctr Q</code> to quit. <code>Esc Esc</code> for an actual dropdown UI, right in the terminal. It’s magic!</p>
 <h4>Make Default:</h4>
-<pre><code>echo &quot;export EDITOR=ne&quot; &gt;&gt; ~/.zprofile  
-echo &quot;[core]\n\teditor = ne&quot; &gt;&gt; ~/.gitconfig  
+<pre><code>echo &quot;export EDITOR=ne&quot; &gt;&gt; ~/.profile  # if you use the standard Mac terminal
+echo &quot;export EDITOR=ne&quot; &gt;&gt; ~/.zprofile  # if you use Zsh
+echo &quot;[core]\n\teditor = ne&quot; &gt;&gt; ~/.gitconfig  # to use it for git messages
+</code></pre>
+<p>Restart the terminal, then you’ll be able to do:</p>
+<pre><code>ne myFile.txt # to edit stuff
+git commit # to commit, as usual, but without having to use Vim
 </code></pre>
 <h4>Documentation:</h4>
 <p><a href="../../assets/files/NiceEditorDocs.pdf">NiceEditorDocs.pdf</a></p>
 <h2>Keyboard Shortcuts:</h2>
-<p>(including the custom ~/.ne/.keys configuration below)</p>
+<p>(when using the custom ~/.ne/.keys configuration below)</p>
 <blockquote>
 <p><strong>^s</strong>, <strong>^q</strong> - save, quit<br>
-<strong>^z</strong>, <strong>^x</strong>, <strong>^c</strong>, <strong>^v</strong>  - undo, cut, copy, paste<br>
+<strong>^z</strong>, <strong>^r</strong>  - undo, redo<br>
+<strong>^x</strong>, <strong>^c</strong>, <strong>^v</strong>  - cut, copy, paste<br>
 <strong>^y</strong>  - delete current line<br>
 <strong>^u</strong>  - paste deleted line</p>
 <p><strong>^d</strong> - delete line<br>
@@ -92,7 +100,8 @@ KEY     0x05    EOL
 </code></pre>
 
     </main>
-  </div>
+</div>
 </body>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
 
 </html>
