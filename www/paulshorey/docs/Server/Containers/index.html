@@ -46,7 +46,40 @@
     </nav>
     <main class="content">
         <h1>Container vs Image vs Traditional Servers</h1>
-<p><strong><code>docker-compose up -d</code></strong> runs <strong><code>docker-compose.yml</code></strong></p>
+<p><strong><code>docker-compose up -d</code></strong> runs <strong><code>docker-compose.yml</code></strong>, which may spawn multiple Docker images:</p>
+<pre><code class="language-bash prettyprint">version: '3'  
+  
+services:  
+  
+  api:  
+    image: api-image  
+    build: ./api-folder  
+    ports: - &quot;1081:1081&quot;  
+    volumes:  
+    - .:/code  
+    - logvolume01:/var/log  
+    links:  
+    - redis  
+  
+  app:  
+    image: app-image  
+    build: ./app-folder  
+    ports: - &quot;1080:1080&quot;  
+  
+  redis:  
+    image: redis  
+  
+volumes:  
+  logvolume01: {}  
+</code></pre>
+<p>or maybe simple and control only one Docker image, like this:</p>
+<pre><code class="language-bash prettyprint">version: '3'  
+services:  
+  app:  
+    image: app-image  
+    build: ./app-folder  
+    ports: - &quot;1080:1080&quot;  
+</code></pre>
 
     </main>
 </div>
