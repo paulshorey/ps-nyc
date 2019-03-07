@@ -7,3 +7,8 @@ Replace `\n**$1**\t_$2_\t$4`
 Replace with bold inline code block  
 **`$1`**  
   
+**between parentheses and newline**  
+`\)\s?\t?(.*?)\s?\t?\n`  
+Make the non-whitespace sentence of it bold  
+`) **$1**\n`  
+  

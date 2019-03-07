@@ -54,6 +54,10 @@ Replace <code>\n**$1**\t_$2_\t$4</code></p>
 <code>\*\*([^\n```.]*)\*\*</code><br>
 Replace with bold inline code block<br>
 <strong><code>$1</code></strong></p>
+<p><strong>between parentheses and newline</strong><br>
+<code>\)\s?\t?(.*?)\s?\t?\n</code><br>
+Make the non-whitespace sentence of it bold<br>
+<code>) **$1**\n</code></p>
 
     </main>
 </div>
