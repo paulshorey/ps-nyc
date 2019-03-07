@@ -2,8 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/files/test-ps1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/build/files/test-ps1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/CLI/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/auto-formatting.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/IDE + Code/auto-formatting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/edit-over-SSH.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/IDE + Code/edit-over-SSH.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/Basics.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/RegEx/Basics.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/HTML.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/RegEx/HTML.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/Javascript.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/RegEx/Javascript.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/Markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/RegEx/Markdown.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/RegEx/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/CSS/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/frameworks.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/CSS/frameworks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/responsive.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/CSS/responsive.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/ES6.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/JavaScript/ES6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/JavaScript/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/looping.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/JavaScript/looping.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/sorting.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/JavaScript/sorting.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Communicating/GIT-+-SSH.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Communicating/GIT-+-SSH.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Server/Docker/CLI (help)/docker-run.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Docker/CLI (help)/docker-run.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Docker/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Linux Management/easy-deployment.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Linux Management/easy-deployment.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/Nice-Editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/Nice-Editor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/edit-over-SSH.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/edit-over-SSH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/responsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/responsive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/ES6.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/ES6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/looping.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/looping.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/GIT-+-SSH.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/GIT-+-SSH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/Ports.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/Ports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Docker/CLI (help)/docker-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Server/Docker/CLI (help)/docker-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Docker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Server/Docker/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Linux Management/easy-deployment.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Server/Linux Management/easy-deployment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,23 +55,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/Server/Docker/CLI (help)/docker-run.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor>
-                <caret column="19" selection-start-column="19" selection-end-column="19" />
+                <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/.aliases.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="111">
+              <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -181,8 +220,8 @@
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/Basics.md" />
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/README.md" />
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/Markdown.md" />
-        <option value="$USER_HOME$/.aliases.sh" />
         <option value="$PROJECT_DIR$/docs/Server/Docker/CLI (help)/docker-run.md" />
+        <option value="$USER_HOME$/.aliases.sh" />
       </list>
     </option>
   </component>
@@ -319,7 +358,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38357000" />
+    <option name="totallyTimeSpent" value="38367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
@@ -691,20 +730,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.aliases.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Server/Docker/CLI (help)/docker-run.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor>
-            <caret column="19" selection-start-column="19" selection-end-column="19" />
+            <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.aliases.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="95" column="24" selection-start-line="95" selection-start-column="24" selection-end-line="95" selection-end-column="24" />
         </state>
       </provider>
     </entry>

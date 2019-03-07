@@ -50,13 +50,13 @@
         <h1>EDITOR=ne</h1>
 <p>A “nice” editor. By far the most intuitive CLI editor to use, supports some basic features and bindings. <code>Ctr S</code> to save. <code>Ctr Q</code> to quit. <code>Esc Esc</code> for an actual dropdown UI, right in the terminal. It’s magic!</p>
 <h4>Make Default:</h4>
-<pre><code>echo &quot;export EDITOR=ne&quot; &gt;&gt; ~/.profile  # if you use the standard Mac terminal     
-echo &quot;export EDITOR=ne&quot; &gt;&gt; ~/.zprofile  # if you use Zsh     
-echo &quot;[core]\n\teditor = ne&quot; &gt;&gt; ~/.gitconfig  # to use it for git messages     
+<pre><code>echo &quot;export EDITOR=ne&quot; &gt;&gt; ~/.profile  # if you use the standard Mac terminal  
+echo &quot;export EDITOR=ne&quot; &gt;&gt; ~/.zprofile  # if you use Zsh  
+echo &quot;[core]\n\teditor = ne&quot; &gt;&gt; ~/.gitconfig  # to use it for git messages  
 </code></pre>
 <p>Restart the terminal, then you’ll be able to do:</p>
-<pre><code>ne myFile.txt # to edit stuff     
-git commit # to commit, as usual, but without having to use Vim     
+<pre><code>ne myFile.txt # to edit stuff  
+git commit # to commit, as usual, but without having to use Vim  
 </code></pre>
 <h4>Documentation:</h4>
 <p><a href="../../assets/files/NiceEditorDocs.pdf">NiceEditorDocs.pdf</a></p>
@@ -86,19 +86,19 @@ Key code for <code>delete</code> is <code>115</code>. So, key code for <code>fn 
 <p><strong>Documentation:</strong> <a href="http://www.emerson.emory.edu/services/editors/ne/Key_Bindings.html">http://www.emerson.emory.edu/services/editors/ne/Key_Bindings.html</a><br>
 <strong>Defaults:</strong> <a href="https://github.com/vigna/ne/blob/master/doc/default.keys%E2%80%8B">https://github.com/vigna/ne/blob/master/doc/default.keys​</a></p>
 <h2>Sample ~/.ne/.keys file:</h2>
-<pre><code># [delete]     
-KEY     0x7f    Backspace     
-# [ctrl]+[z]     
-KEY     0x1a    Undo     
-# [ctrl]+[r]     
-KEY     0x12    Redo     
- 
-# [ctrl]+[d](delete line)     
-KEY     0x04    DL     
-# [ctrl]+[w]=(start of line)     
-KEY     0x17    SOL     
-# [ctrl]+[e]=(end of line)     
-KEY     0x05    EOL     
+<pre><code># [delete]  
+KEY     0x7f    Backspace  
+# [ctrl]+[z]  
+KEY     0x1a    Undo  
+# [ctrl]+[r]  
+KEY     0x12    Redo  
+
+# [ctrl]+[d](delete line)  
+KEY     0x04    DL  
+# [ctrl]+[w]=(start of line)  
+KEY     0x17    SOL  
+# [ctrl]+[e]=(end of line)  
+KEY     0x05    EOL  
 </code></pre>
 
     </main>
