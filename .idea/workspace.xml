@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/JavaScript/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/watch-changes.js" beforeDir="false" afterPath="$PROJECT_DIR$/watch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Containers/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Server/Containers/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Containers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Docker/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/files/WebStormSettings.zip" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/files/WebStormSettings.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/Nice-Editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/Nice-Editor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/auto-formatting.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/auto-formatting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/edit-over-SSH.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/edit-over-SSH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/IDE-Examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/IDE-Examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/frameworks.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/frameworks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/responsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/responsive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/ES6.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/ES6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/React/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/React/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/looping.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/looping.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/sorting.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/sorting.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/GIT-+-SSH.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/GIT-+-SSH.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/Ports.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/Ports.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/SSL.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/SSL.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Containers/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Linux Management/easy-deployment.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Server/Linux Management/easy-deployment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Linux Management/linux-from-scratch.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Server/Linux Management/linux-from-scratch.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/assets/files/WebStormSettings.zip" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/assets/files/WebStormSettings.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,10 +44,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/watch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <entry file="file://$PROJECT_DIR$/docs/Server/Docker/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="160">
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -82,10 +104,11 @@
         <option value="$PROJECT_DIR$/.jshintrc" />
         <option value="$PROJECT_DIR$/watch-changes.js" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/docs/README.md" />
-        <option value="$PROJECT_DIR$/docs/Front End/JavaScript/README.md" />
         <option value="$PROJECT_DIR$/watch.js" />
         <option value="$PROJECT_DIR$/www/paulshorey/index.html" />
+        <option value="$PROJECT_DIR$/docs/Front End/JavaScript/README.md" />
+        <option value="$PROJECT_DIR$/docs/README.md" />
+        <option value="$PROJECT_DIR$/docs/Server/Docker/README.md" />
       </list>
     </option>
   </component>
@@ -95,10 +118,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="283" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
     <option name="y" value="22" />
-    <option name="width" value="997" />
+    <option name="width" value="1279" />
     <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -126,25 +149,14 @@
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Front End" type="462c0819:PsiDirectoryNode" />
-              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="paulshorey" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Docker" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,7 +172,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -207,12 +219,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30141000" />
+    <option name="totallyTimeSpent" value="33392000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="283" y="22" width="997" height="774" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31394184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24453124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -472,16 +485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Server/Containers/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="60">
-            <caret line="3" column="97" lean-forward="true" selection-start-line="3" selection-start-column="97" selection-end-line="3" selection-end-column="97" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -493,13 +496,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -520,16 +516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="189">
-            <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/paulshorey/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -541,7 +527,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="160">
-            <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
@@ -549,8 +535,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/watch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        <state relative-caret-position="400">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="349">
+            <caret line="29" column="151" lean-forward="true" selection-start-line="29" selection-start-column="151" selection-end-line="29" selection-end-column="151" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Server/Docker/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="160">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

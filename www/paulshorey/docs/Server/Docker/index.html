@@ -36,7 +36,7 @@
 <li class="heading isActive"><span>Server</span></li>
 <ul class="isActive"><li class="heading isActive"><span>Communicating</span></li>
 <ul class=""><li class=""><a href="./../Communicating/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./../Communicating/Ports.html">Ports</a></li><li class=""><a href="./../Communicating/SSL.html">SSL</a></li></ul>
-<li class="heading isActive"><a href="./index.html">Containers</a></li>
+<li class="heading isActive"><a href="./index.html">Docker</a></li>
 
 <li class="heading isActive"><span>Linux Management</span></li>
 <ul class=""><li class=""><a href="./../Linux Management/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../Linux Management/linux-from-scratch.html">linux from scratch</a></li></ul>
@@ -45,41 +45,22 @@
         </ul>
     </nav>
     <main class="content">
-        <h1>Container vs Image vs Traditional Servers</h1>
-<p><strong><code>docker-compose up -d</code></strong> runs <strong><code>docker-compose.yml</code></strong>, which may spawn multiple Docker images:</p>
-<pre><code class="language-bash prettyprint">version: '3'  
-  
-services:  
-  
-  api:  
-    image: api-image  
-    build: ./api-folder  
-    ports: - &quot;1081:1081&quot;  
-    volumes:  
-    - .:/code  
-    - logvolume01:/var/log  
-    links:  
-    - redis  
-  
-  app:  
-    image: app-image  
-    build: ./app-folder  
-    ports: - &quot;1080:1080&quot;  
-  
-  redis:  
-    image: redis  
-  
-volumes:  
-  logvolume01: {}  
+        <h1>Dockerfiles and Docker Compose</h1>
+<h4>Is Docker efficient?</h4>
+<p>Spawning an entire operating system for just one process? Seems expensive. But, it must be becoming industry standard for a reason… easy to scale, start, stop, move.</p>
+<h4>Security concerns to read</h4>
+<p><a href="https://phusion.github.io/baseimage-docker/">https://phusion.github.io/baseimage-docker/</a></p>
+<h4>Don’t have to spawn a whole OS</h4>
+<h2>Useful Shortcuts:</h2>
+<p><strong><code>docker build</code></strong> runs <strong><code>docker-compose.yml</code></strong> in the same folder
+<strong><code>docker-compose up</code></strong> runs <strong><code>docker-compose.yml</code></strong> in the same folder</p>
+<h4>Stop and Remove all Docker containers:</h4>
+<pre><code class="language-bash prettyprint">docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
 </code></pre>
-<p>or maybe simple and control only one Docker image, like this:</p>
-<pre><code class="language-bash prettyprint">version: '3'  
-services:  
-  app:  
-    image: app-image  
-    build: ./app-folder  
-    ports: - &quot;1080:1080&quot;  
-</code></pre>
+<p>This command can not be used via SSH,
+Because $(docker ps -a) will be executed on your local machine, not on server.
+<a href="https://coderwall.com/p/ewk0mq/stop-remove-all-docker-containers">coderwall.com/…/stop-remove-all-docker-containers</a></p>
 
     </main>
 </div>

@@ -7,6 +7,22 @@
 from [my repository](http://github.com/paulshorey/ps) `./docs` folder, using [paulshorey/markdown-folder-to-html](https://github.com/paulshorey/markdown-folder-to-html), which is an experimental copy of [joakin/markdown-folder-to-html](https://github.com/joakin/markdown-folder-to-html).  
 <br /><br />  
   
+# This is not a replacement for real documentation  
+### Still use [Documentation.JS](https://github.com/documentationjs/documentation/blob/master/docs/GETTING_STARTED.md)  
+```javascript  
+    /**  
+     * This function adds one to its input.  
+     * @param {number} input any number  
+     * @returns {number} that number, plus one.  
+     */  
+    function addOne(input) {  
+      return input + 1;  
+    }  
+```  
+Instead, this is a way to document more abstract or trivial ideas, in a more literary format.  
+<br /><br />  
+  
+  
 # This is a work in progress  
   
 **Unfortunate issues:**  
