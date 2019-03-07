@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="" />
+    <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,7 +19,7 @@
         <entry file="file://$USER_HOME$/.aliases.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="953">
-              <caret line="128" column="19" lean-forward="true" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+              <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -27,7 +29,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="20">
-                <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+                <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -277,12 +279,12 @@
       <workItem from="1551755873792" duration="6000" />
       <workItem from="1551808831454" duration="805000" />
       <workItem from="1551809879757" duration="411000" />
-      <workItem from="1551928520821" duration="832000" />
+      <workItem from="1551928520821" duration="902000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39925000" />
+    <option name="totallyTimeSpent" value="39995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="-1898" width="1079" height="1432" extended-state="0" />
@@ -642,7 +644,7 @@
     <entry file="file://$USER_HOME$/.aliases.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="953">
-          <caret line="128" column="19" lean-forward="true" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -650,7 +652,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="20">
-            <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
