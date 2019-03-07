@@ -38,7 +38,7 @@
 <ul class=""><li class=""><a href="./../../Server/Communicating/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./../../Server/Communicating/Ports.html">Ports</a></li><li class=""><a href="./../../Server/Communicating/SSL.html">SSL</a></li></ul>
 <li class="heading childIsActive"><a href="./../../Server/Docker/index.html">Docker</a></li>
 <ul class=""><li class="heading isActive"><span>CLI (help)</span></li>
-<ul class=""><li class=""><a href="./../../Server/Docker/CLI (help)/docker-run.html">docker run</a></li></ul>
+<ul class=""><li class=""><a href="./../../Server/Docker/CLI (help)/docker-compose.html">docker compose</a></li><li class=""><a href="./../../Server/Docker/CLI (help)/docker-run.html">docker run</a></li></ul>
 </ul>
 <li class="heading isActive"><span>Linux Management</span></li>
 <ul class=""><li class=""><a href="./../../Server/Linux Management/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../../Server/Linux Management/linux-from-scratch.html">linux from scratch</a></li></ul>
@@ -50,37 +50,37 @@
         <h3>Units and Responsive design:</h3>
 <h4>With only a little work, your pixel sizes can scale proportionally with the viewer’s screen size.</h4>
 <p>But that’s not all. Keep reading, and this applies also to ALL CSS properties, not just font-size. Also margin, padding, top, left, border, width, height, etc. They can all be responsive just by adding some dynamic text sizes.</p>
-<pre><code class="language-css prettyprint">/* set your default text size for the page */   
-html {   
-    font-size: 16.5px;   
-}   
-/* make smaller for smaller screens */   
-@media (max-width: 950px),(max-height: 750px) {   
-    html {   
-        font-size: 15px;   
-    }   
-}   
-@media (max-width: 750px),(max-height: 650px) {   
-    html {   
-        font-size: 12.5px;   
-    }   
-}   
-@media (max-width: 380px),(max-height: 380px) {   
-    html {   
-        font-size: 11.5px;   
-    }   
-}   
-@media (max-width: 330px),(max-height: 330px) {   
-    html {   
-        font-size: 10.5px;   
-    }   
-}   
-/* make bigger for extra large screens */   
-@media (min-width: 1600px) {   
-    html {   
-        font-size: 19px;   
-    }   
-}   
+<pre><code class="language-css prettyprint">/* set your default text size for the page */      
+html {      
+    font-size: 16.5px;      
+}      
+/* make smaller for smaller screens */      
+@media (max-width: 950px),(max-height: 750px) {      
+    html {      
+        font-size: 15px;      
+    }      
+}      
+@media (max-width: 750px),(max-height: 650px) {      
+    html {      
+        font-size: 12.5px;      
+    }      
+}      
+@media (max-width: 380px),(max-height: 380px) {      
+    html {      
+        font-size: 11.5px;      
+    }      
+}      
+@media (max-width: 330px),(max-height: 330px) {      
+    html {      
+        font-size: 10.5px;      
+    }      
+}      
+/* make bigger for extra large screens */      
+@media (min-width: 1600px) {      
+    html {      
+        font-size: 19px;      
+    }      
+}      
 </code></pre>
 <h4>That’s it. You’re done. Now you can use responsive <strong><code>rem</code></strong> units instead of static pixels.</h4>
 <p>Now, you can style an <code>&lt;h1&gt;</code> tag to have <code>font-size</code> of <code>2rem</code> pixels instead of <code>30px</code>. The difference is:</p>

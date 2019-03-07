@@ -38,7 +38,7 @@
 <ul class=""><li class=""><a href="./../../Server/Communicating/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./../../Server/Communicating/Ports.html">Ports</a></li><li class=""><a href="./../../Server/Communicating/SSL.html">SSL</a></li></ul>
 <li class="heading childIsActive"><a href="./../../Server/Docker/index.html">Docker</a></li>
 <ul class=""><li class="heading isActive"><span>CLI (help)</span></li>
-<ul class=""><li class=""><a href="./../../Server/Docker/CLI (help)/docker-run.html">docker run</a></li></ul>
+<ul class=""><li class=""><a href="./../../Server/Docker/CLI (help)/docker-compose.html">docker compose</a></li><li class=""><a href="./../../Server/Docker/CLI (help)/docker-run.html">docker run</a></li></ul>
 </ul>
 <li class="heading isActive"><span>Linux Management</span></li>
 <ul class=""><li class=""><a href="./../../Server/Linux Management/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../../Server/Linux Management/linux-from-scratch.html">linux from scratch</a></li></ul>
@@ -88,36 +88,36 @@
 <h3>Code Example 1 (JSX)</h3>
 <p><strong>Worst case scenario</strong> (SublimeText using JsBeautify):<br>
 Totally broken.</p>
-<pre><code>    Options.push( &lt;   
-        option value = {   
-            option   
-        } &gt; {   
-            option   
-        } &lt;   
-        /option&gt;   
-    );   
+<pre><code>    Options.push( &lt;      
+        option value = {      
+            option      
+        } &gt; {      
+            option      
+        } &lt;      
+        /option&gt;      
+    );      
 </code></pre>
 <p><strong>Best case scenario</strong> (VsCode using Prettier or default or JsBeautify):<br>
 Notice the broken indentation. Also, why is that <code>&lt;SuggestedRow...</code> indented by 2 spaces, while others by 4 spaces? Idk.</p>
-<pre><code>    SuggestedSelects.push(   
-      &lt;SuggestRow   
-                    words={lists}   
-                    domains={domains}   
-                /&gt;   
-    );   
+<pre><code>    SuggestedSelects.push(      
+      &lt;SuggestRow      
+                    words={lists}      
+                    domains={domains}      
+                /&gt;      
+    );      
 </code></pre>
 <p><br /><br /></p>
 <h3>Code Example 2 (code blocks: imports, if/else, functions, etc)</h3>
 <p>Long-form:</p>
-<pre><code>import {   
-  ValidateForm,   
-  ValidateField,   
-  ValidateButton,   
-  validations   
-} from 'src/containers/validateForm';   
+<pre><code>import {      
+  ValidateForm,      
+  ValidateField,      
+  ValidateButton,      
+  validations      
+} from 'src/containers/validateForm';      
 </code></pre>
 <p>Short-form:</p>
-<pre><code>import { ValidateForm, ValidateField, ValidateButton, validations } from 'src/containers/validateForm';   
+<pre><code>import { ValidateForm, ValidateField, ValidateButton, validations } from 'src/containers/validateForm';      
 </code></pre>
 <p>Imagine many of these imports.<br>
 <strong>WebStorm</strong> allows you to use either format. You just code it. WebStorm will detect which format you’re using, and fix your indentation and spaces accordingly. VsCode and others force you to use the longer one, unless you specify in the setting to always use the all-in-line version.<br>
@@ -127,10 +127,10 @@ Notice the broken indentation. Also, why is that <code>&lt;SuggestedRow...</code
 <h3>Hints:</h3>
 <p>Disable all unnecessary left/bottom/top menus, to have a clean interface.<br>
 In file browser left column, open file with one click instead of two:</p>
-<pre><code>    Project settings [...] &gt; Autoscroll to source   
+<pre><code>    Project settings [...] &gt; Autoscroll to source      
 </code></pre>
 <p>Best syntax highlighting:</p>
-<pre><code>   WebStorm &gt; Preferences &gt; Editor &gt; Color Scheme &gt; General &gt; &quot;Monokai Pro&quot;   
+<pre><code>   WebStorm &gt; Preferences &gt; Editor &gt; Color Scheme &gt; General &gt; &quot;Monokai Pro&quot;      
 </code></pre>
 <p>Install <strong>Material Theme</strong> when first installing WebStorm, or as a Plugin. Material refers to the WebStorm application UI (not the code/text) styling. Theme refers to the header,menus,file browser, status bar, etc. Use this Material <code>One Dark</code> “Theme” to nicely match the Monokai “Scheme” above.</p>
 <h3>Import Settings:</h3>
@@ -138,7 +138,7 @@ In file browser left column, open file with one click instead of two:</p>
 Also key binding <code>Cmd + D</code> to do incremental find + add word to multiple cursor, like in Sublime/VsCode.<br>
 And theme/colors/plugins.<br>
 <a href="../../assets/files/WebStormSettings.zip">WebStormSettings</a></p>
-<pre><code>    File &gt; Import Settings   
+<pre><code>    File &gt; Import Settings      
 </code></pre>
 
     </main>
