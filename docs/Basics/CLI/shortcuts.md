@@ -1,6 +1,7 @@
 # ~/.aliases.sh     
 ```bash     
 #!/usr/bin/env bash     
+
 # RESET TO HEAD     
 function yx() {     
 	# reset     
@@ -13,6 +14,7 @@ function yx() {
 	echo "STATUS:";     
 	git status;     
 }     
+
 # UNDO LAST COMMIT     
 function yxx() {     
 	echo resetting to previous commit…;     
@@ -23,6 +25,7 @@ function yxx() {
 function yz() {     
 	git reset HEAD~1; # undo LOCAL commit which has not been pushed     
 }     
+
 # DELETE LOCAL     
 function yd() {     
 	# delete     
@@ -33,6 +36,7 @@ function yd() {
 	echo "STATUS:";     
 	git status;     
 }     
+
 # DELETE LOCAL AND REMOTE     
 function ydd() {     
 	echo DELETING REMOTE $1…;     
@@ -72,7 +76,7 @@ function ya() {
 	git status;     
 }     
      
-# UPDATE (WITH GIT STASH / POP)     
+# UPDATE (WITH GIT STASH / POP) - WORKS BETTER FOR COLLABORATION     
 function yaa() {     
 	echo STASHING AND PULLING $1…;     
 	echo "\n";     

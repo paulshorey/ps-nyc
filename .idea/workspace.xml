@@ -15,21 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/.aliases.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="953">
-              <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+            <state relative-caret-position="640">
+              <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="20">
-                <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <first_editor relative-caret-position="434">
+                <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -134,11 +134,11 @@
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/README.md" />
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/Markdown.md" />
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/HTML.md" />
-        <option value="$USER_HOME$/.aliases.sh" />
         <option value="$PROJECT_DIR$/docs/Server/Docker/CLI (help)/docker-compose.md" />
         <option value="$PROJECT_DIR$/docs/Server/Docker/CLI (help)/docker-run.md" />
         <option value="$PROJECT_DIR$/docs/Server/Docker/CLI (help)/README.md" />
         <option value="$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md" />
+        <option value="$USER_HOME$/.aliases.sh" />
       </list>
     </option>
   </component>
@@ -279,12 +279,12 @@
       <workItem from="1551755873792" duration="6000" />
       <workItem from="1551808831454" duration="805000" />
       <workItem from="1551809879757" duration="411000" />
-      <workItem from="1551928520821" duration="902000" />
+      <workItem from="1551928520821" duration="1177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39995000" />
+    <option name="totallyTimeSpent" value="40270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="-1898" width="1079" height="1432" extended-state="0" />
@@ -641,20 +641,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.aliases.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="953">
-          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="20">
-            <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <first_editor relative-caret-position="434">
+            <caret line="73" column="21" lean-forward="true" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.aliases.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
         </state>
       </provider>
     </entry>
