@@ -64,8 +64,13 @@ to add indent span elements</p>
 <p>Remove all console.logs (or .warn .error, etc):<br>
 <code>(\s?)console.(.?)\n([\w\s\W\t\n]*?)</code></p>
 <h3>CLI --help to Markdown</h3>
-<p>Search <code>\n(.*?) (([a-z]+) )?([A-Z])</code><br>
+<p>Find <code>\n(.*?) (([a-z]+) )?([A-Z])</code><br>
 Replace <code>\n**$1**\t_$2_\t$4</code></p>
+<h4>Any</h4>
+<p>Find any new line (including existing trailing spaces)<br>
+<code>([\ ]*?)\n</code><br>
+Replace with two spaces and a new line<br>
+<code>\n</code></p>
 
     </main>
 </div>
