@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cd7ec1e1-73ec-4374-a177-286ee29e1876" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/Server/Docker/CLI (help)/docker-run.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/Server/Docker/CLI (help)/docker-run.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
