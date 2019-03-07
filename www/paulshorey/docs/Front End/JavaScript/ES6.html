@@ -50,46 +50,46 @@
         <h1>ES6</h1>
 <p>Is simply EcmaScript version 6, or ES2015, or, the new web standards adopted in 2015.</p>
 <h4>Spread Operator</h4>
-<pre><code class="language-javascript prettyprint">    // Arrays            
-    var listAll = [...listDefault, ...listNew]            
-    // vs ES5:            
-    var listAll = listDefault.concat(listNew)            
-            
-    // Objects            
-    var dictAll = {...dictDefault, ...dictNew}            
-    // vs ES5:            
-    var dictAll = Object.assign(dictDefault, dictNew)            
+<pre><code class="language-javascript prettyprint">    // Arrays  
+    var listAll = [...listDefault, ...listNew]  
+    // vs ES5:  
+    var listAll = listDefault.concat(listNew)  
+  
+    // Objects  
+    var dictAll = {...dictDefault, ...dictNew}  
+    // vs ES5:  
+    var dictAll = Object.assign(dictDefault, dictNew)  
 </code></pre>
 <h4>Destructuring Assignment</h4>
-<pre><code class="language-javascript prettyprint">    function(first, second, ...theRest) {}            
-    // vs ES6:            
-    function(){            
-        let first = arguments.shift();            
-        let second = arguments.shift();            
-        let theRest = arguments;            
-    }            
+<pre><code class="language-javascript prettyprint">    function(first, second, ...theRest) {}  
+    // vs ES6:  
+    function(){  
+        let first = arguments.shift();  
+        let second = arguments.shift();  
+        let theRest = arguments;  
+    }  
 </code></pre>
 <h4>Functions</h4>
-<pre><code class="language-javascript prettyprint">    ()=&gt;{};            
-    /* is the same thing as... */            
-    function(){}.bind(this);            
-    /* maybe a good idea to use ES6 methods to show there IS a `this` context, */            
-    /* and ES5 functions to show there is not, or that it's a `pure function` */            
+<pre><code class="language-javascript prettyprint">    ()=&gt;{};  
+    /* is the same thing as... */  
+    function(){}.bind(this);  
+    /* maybe a good idea to use ES6 methods to show there IS a `this` context, */  
+    /* and ES5 functions to show there is not, or that it's a `pure function` */  
 </code></pre>
 <h4>Classes</h4>
-<pre><code class="language-javascript prettyprint">    // With a constructor            
-    function MyObjectA () {};            
-    var myInstanceA = new MyObjectA(); // {}            
-            
-    // With a function            
-    function MyObjectB () {            
-      return {};            
-    };            
-    var myInstanceB = MyObjectB(); // {}            
-            
-    // ES6 class            
-    class MyObjectC {}            
-    var myInstanceC = new MyObjectC(); // {}            
+<pre><code class="language-javascript prettyprint">    // With a constructor  
+    function MyObjectA () {};  
+    var myInstanceA = new MyObjectA(); // {}  
+  
+    // With a function  
+    function MyObjectB () {  
+      return {};  
+    };  
+    var myInstanceB = MyObjectB(); // {}  
+  
+    // ES6 class  
+    class MyObjectC {}  
+    var myInstanceC = new MyObjectC(); // {}  
 </code></pre>
 
     </main>
