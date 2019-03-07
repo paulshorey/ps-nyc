@@ -48,98 +48,100 @@
     </nav>
     <main class="content">
         <h1>docker run --help</h1>
-<p><strong><code>--add-host</code></strong> 	 (<em>list</em>) 	<strong>Add a custom host-to-IP mapping (host:ip)</strong><br>
-<strong><code>-a, --attach</code></strong> 	 (<em>list</em>) 	<strong>Attach to STDIN, STDOUT or STDERR</strong><br>
-<strong><code>--blkio-weight uint16</code></strong> 	 (<em>-</em>) 	<strong>Block IO (relative weight), between 10 and 1000, or 0 to disable (default 0)</strong><br>
-<strong><code>--blkio-weight-device</code></strong> 	 (<em>list</em>) 	<strong>Block IO weight (relative device weight) (default [])</strong><br>
-<strong><code>--cap-add</code></strong> 	 (<em>list</em>) 	<strong>Add Linux capabilities</strong><br>
-<strong><code>--cap-drop</code></strong> 	 (<em>list</em>) 	<strong>Drop Linux capabilities</strong><br>
-<strong><code>--cgroup-parent</code></strong> 	 (<em>string</em>) 	<strong>Optional parent cgroup for the container</strong><br>
-<strong><code>--cidfile</code></strong> 	 (<em>string</em>) 	<strong>Write the container ID to the file</strong><br>
-<strong><code>--cpu-period</code></strong> 	 (<em>int</em>) 	<strong>Limit CPU CFS (Completely Fair Scheduler) period</strong><br>
-<strong><code>--cpu-quota</code></strong> 	 (<em>int</em>) 	<strong>Limit CPU CFS (Completely Fair Scheduler) quota</strong><br>
-<strong><code>--cpu-rt-period</code></strong> 	 (<em>int</em>) 	<strong>Limit CPU real-time period in microseconds</strong><br>
-<strong><code>--cpu-rt-runtime</code></strong> 	 (<em>int</em>) 	<strong>Limit CPU real-time runtime in microseconds</strong><br>
-<strong><code>-c, --cpu-shares</code></strong> 	 (<em>int</em>) 	<strong>CPU shares (relative weight)</strong><br>
-<strong><code>--cpus</code></strong> 	 (<em>decimal</em>) 	<strong>Number of CPUs</strong><br>
-<strong><code>--cpuset-cpus</code></strong> 	 (<em>string</em>) 	<strong>CPUs in which to allow execution (0-3, 0,1)</strong><br>
-<strong><code>--cpuset-mems</code></strong> 	 (<em>string</em>) 	<strong>MEMs in which to allow execution (0-3, 0,1)</strong><br>
-<strong><code>-d, --detach</code></strong> 	 (<em>-</em>) 	<strong>Run container in background and print container ID</strong><br>
-<strong><code>--detach-keys</code></strong> 	 (<em>string</em>) 	<strong>Override the key sequence for detaching a container</strong><br>
-<strong><code>--device</code></strong> 	 (<em>list</em>) 	<strong>Add a host device to the container</strong><br>
-<strong><code>--device-cgroup-rule</code></strong> 	 (<em>list</em>) 	<strong>Add a rule to the cgroup allowed devices list</strong><br>
-<strong><code>--device-read-bps</code></strong> 	 (<em>list</em>) 	<strong>Limit read rate (bytes per second) from a device (default [])</strong><br>
-<strong><code>--device-read-iops</code></strong> 	 (<em>list</em>) 	<strong>Limit read rate (IO per second) from a device (default [])</strong><br>
-<strong><code>--device-write-bps</code></strong> 	 (<em>list</em>) 	<strong>Limit write rate (bytes per second) to a device (default [])</strong><br>
-<strong><code>--device-write-iops</code></strong> 	 (<em>list</em>) 	<strong>Limit write rate (IO per second) to a device (default [])</strong><br>
-<strong><code>--disable-content-trust</code></strong> 	 (<em>-</em>) 	<strong>Skip image verification (default true)</strong><br>
-<strong><code>--dns</code></strong> 	 (<em>list</em>) 	<strong>Set custom DNS servers</strong><br>
-<strong><code>--dns-option</code></strong> 	 (<em>list</em>) 	<strong>Set DNS options</strong><br>
-<strong><code>--dns-search</code></strong> 	 (<em>list</em>) 	<strong>Set custom DNS search domains</strong><br>
-<strong><code>--entrypoint</code></strong> 	 (<em>string</em>) 	<strong>Overwrite the default ENTRYPOINT of the image</strong><br>
-<strong><code>-e, --env</code></strong> 	 (<em>list</em>) 	<strong>Set environment variables</strong><br>
-<strong><code>--env-file</code></strong> 	 (<em>list</em>) 	<strong>Read in a file of environment variables</strong><br>
-<strong><code>--expose</code></strong> 	 (<em>list</em>) 	<strong>Expose a port or a range of ports</strong><br>
-<strong><code>--group-add</code></strong> 	 (<em>list</em>) 	<strong>Add additional groups to join</strong><br>
-<strong><code>--health-cmd</code></strong> 	 (<em>string</em>) 	<strong>Command to run to check health</strong><br>
-<strong><code>--health-interval</code></strong> 	 (<em>duration</em>) 	<strong>Time between running the check (ms|s|m|h) (default 0s)</strong><br>
-<strong><code>--health-retries</code></strong> 	 (<em>int</em>) 	<strong>Consecutive failures needed to report unhealthy</strong><br>
-<strong><code>--health-start-period</code></strong> 	 (<em>duration</em>) 	<strong>Start period for the container to initialize before starting health-retries countdown (ms|s|m|h) (default 0s)</strong><br>
-<strong><code>--health-timeout</code></strong> 	 (<em>duration</em>) 	<strong>Maximum time to allow one check to run (ms|s|m|h) (default 0s)</strong><br>
-<strong><code>--help</code></strong> 	 (<em>-</em>) 	<strong>Print usage</strong><br>
-<strong><code>-h, --hostname</code></strong> 	 (<em>string</em>) 	<strong>Container host name</strong><br>
-<strong><code>--init</code></strong> 	 (<em>-</em>) 	<strong>Run an init inside the container that forwards signals and reaps processes</strong><br>
-<strong><code>-i, --interactive</code></strong> 	 (<em>-</em>) 	<strong>Keep STDIN open even if not attached</strong><br>
-<strong><code>--ip</code></strong> 	 (<em>string</em>) 	<strong>IPv4 address (e.g., 172.30.100.104)</strong><br>
-<strong><code>--ip6</code></strong> 	 (<em>string</em>) 	<strong>IPv6 address (e.g., 2001:db8::33)</strong><br>
-<strong><code>--ipc</code></strong> 	 (<em>string</em>) 	<strong>IPC mode to use</strong><br>
-<strong><code>--isolation</code></strong> 	 (<em>string</em>) 	<strong>Container isolation technology</strong><br>
-<strong><code>--kernel-memory</code></strong> 	 (<em>bytes</em>) 	<strong>Kernel memory limit</strong><br>
-<strong><code>-l, --label</code></strong> 	 (<em>list</em>) 	<strong>Set meta data on a container</strong><br>
-<strong><code>--label-file</code></strong> 	 (<em>list</em>) 	<strong>Read in a line delimited file of labels</strong><br>
-<strong><code>--link</code></strong> 	 (<em>list</em>) 	<strong>Add link to another container</strong><br>
-<strong><code>--link-local-ip</code></strong> 	 (<em>list</em>) 	<strong>Container IPv4/IPv6 link-local addresses</strong><br>
-<strong><code>--log-driver</code></strong> 	 (<em>string</em>) 	<strong>Logging driver for the container</strong><br>
-<strong><code>--log-opt</code></strong> 	 (<em>list</em>) 	<strong>Log driver options</strong><br>
-<strong><code>--mac-address</code></strong> 	 (<em>string</em>) 	<strong>Container MAC address (e.g., 92:d0:c6:0a:29:33)</strong><br>
-<strong><code>-m, --memory</code></strong> 	 (<em>bytes</em>) 	<strong>Memory limit</strong><br>
-<strong><code>--memory-reservation</code></strong> 	 (<em>bytes</em>) 	<strong>Memory soft limit</strong><br>
-<strong><code>--memory-swap</code></strong> 	 (<em>bytes</em>) 	<strong>Swap limit equal to memory plus swap: ‘-1’ to enable unlimited swap</strong><br>
-<strong><code>--memory-swappiness</code></strong> 	 (<em>int</em>) 	<strong>Tune container memory swappiness (0 to 100) (default -1)</strong><br>
-<strong><code>--mount</code></strong> 	 (<em>mount</em>) 	<strong>Attach a filesystem mount to the container</strong><br>
-<strong><code>--name</code></strong> 	 (<em>string</em>) 	<strong>Assign a name to the container</strong><br>
-<strong><code>--network</code></strong> 	 (<em>string</em>) 	<strong>Connect a container to a network (default “default”)</strong><br>
-<strong><code>--network-alias</code></strong> 	 (<em>list</em>) 	<strong>Add network-scoped alias for the container</strong><br>
-<strong><code>--no-healthcheck</code></strong> 	 (<em>-</em>) 	<strong>Disable any container-specified HEALTHCHECK</strong><br>
-<strong><code>--oom-kill-disable</code></strong> 	 (<em>-</em>) 	<strong>Disable OOM Killer</strong><br>
-<strong><code>--oom-score-adj</code></strong> 	 (<em>int</em>) 	<strong>Tune host’s OOM preferences (-1000 to 1000)</strong><br>
-<strong><code>--pid</code></strong> 	 (<em>string</em>) 	<strong>PID namespace to use</strong><br>
-<strong><code>--pids-limit</code></strong> 	 (<em>int</em>) 	<strong>Tune container pids limit (set -1 for unlimited)</strong><br>
-<strong><code>--platform</code></strong> 	 (<em>string</em>) 	<strong>Set platform if server is multi-platform capable</strong><br>
-<strong><code>--privileged</code></strong> 	 (<em>-</em>) 	<strong>Give extended privileges to this container</strong><br>
-<strong><code>-p, --publish</code></strong> 	 (<em>list</em>) 	<strong>Publish a container’s port(s) to the host</strong><br>
-<strong><code>-P, --publish-all</code></strong> 	 (<em>-</em>) 	<strong>Publish all exposed ports to random ports</strong><br>
-<strong><code>--read-only</code></strong> 	 (<em>-</em>) 	<strong>Mount the container’s root filesystem as read only</strong><br>
-<strong><code>--restart</code></strong> 	 (<em>string</em>) 	<strong>Restart policy to apply when a container exits (default “no”)</strong><br>
-<strong><code>--rm</code></strong> 	 (<em>-</em>) 	<strong>Automatically remove the container when it exits</strong><br>
-<strong><code>--runtime</code></strong> 	 (<em>string</em>) 	<strong>Runtime to use for this container</strong><br>
-<strong><code>--security-opt</code></strong> 	 (<em>list</em>) 	<strong>Security Options</strong><br>
-<strong><code>--shm-size</code></strong> 	 (<em>bytes</em>) 	<strong>Size of /dev/shm</strong><br>
-<strong><code>--sig-proxy</code></strong> 	 (<em>-</em>) 	<strong>Proxy received signals to the process (default true)</strong><br>
-<strong><code>--stop-signal</code></strong> 	 (<em>string</em>) 	<strong>Signal to stop a container (default “SIGTERM”)</strong><br>
-<strong><code>--stop-timeout</code></strong> 	 (<em>int</em>) 	<strong>Timeout (in seconds) to stop a container</strong><br>
-<strong><code>--storage-opt</code></strong> 	 (<em>list</em>) 	<strong>Storage driver options for the container</strong><br>
-<strong><code>--sysctl</code></strong> 	 (<em>map</em>) 	<strong>Sysctl options (default map[])</strong><br>
-<strong><code>--tmpfs</code></strong> 	 (<em>list</em>) 	<strong>Mount a tmpfs directory</strong><br>
-<strong><code>-t, --tty</code></strong> 	 (<em>-</em>) 	<strong>Allocate a pseudo-TTY</strong><br>
-<strong><code>--ulimit</code></strong> 	 (<em>ulimit</em>) 	<strong>Ulimit options (default [])</strong><br>
-<strong><code>-u, --user</code></strong> 	 (<em>string</em>) 	<strong>Username or UID (format: &lt;name|uid&gt;[:&lt;group|gid&gt;])</strong><br>
-<strong><code>--userns</code></strong> 	 (<em>string</em>) 	<strong>User namespace to use</strong><br>
-<strong><code>--uts</code></strong> 	 (<em>string</em>) 	<strong>UTS namespace to use</strong><br>
-<strong><code>-v, --volume</code></strong> 	 (<em>list</em>) 	<strong>Bind mount a volume</strong><br>
-<strong><code>--volume-driver</code></strong> 	 (<em>string</em>) 	<strong>Optional volume driver for the container</strong><br>
-<strong><code>--volumes-from</code></strong> 	 (<em>list</em>) 	<strong>Mount volumes from the specified container(s)</strong><br>
-<strong><code>-w, --workdir</code></strong> 	 (<em>string</em>) 	<strong>Working directory inside the container</strong></p>
+<ul>
+<li><strong><code>--add-host</code></strong> 	 (<em>list</em>) 	<strong>Add a custom host-to-IP mapping (host:ip)</strong></li>
+<li><strong><code>-a, --attach</code></strong> 	 (<em>list</em>) 	<strong>Attach to STDIN, STDOUT or STDERR</strong></li>
+<li><strong><code>--blkio-weight uint16</code></strong> 	 (<em>-</em>) 	<strong>Block IO (relative weight), between 10 and 1000, or 0 to disable (default 0)</strong></li>
+<li><strong><code>--blkio-weight-device</code></strong> 	 (<em>list</em>) 	<strong>Block IO weight (relative device weight) (default [])</strong></li>
+<li><strong><code>--cap-add</code></strong> 	 (<em>list</em>) 	<strong>Add Linux capabilities</strong></li>
+<li><strong><code>--cap-drop</code></strong> 	 (<em>list</em>) 	<strong>Drop Linux capabilities</strong></li>
+<li><strong><code>--cgroup-parent</code></strong> 	 (<em>string</em>) 	<strong>Optional parent cgroup for the container</strong></li>
+<li><strong><code>--cidfile</code></strong> 	 (<em>string</em>) 	<strong>Write the container ID to the file</strong></li>
+<li><strong><code>--cpu-period</code></strong> 	 (<em>int</em>) 	<strong>Limit CPU CFS (Completely Fair Scheduler) period</strong></li>
+<li><strong><code>--cpu-quota</code></strong> 	 (<em>int</em>) 	<strong>Limit CPU CFS (Completely Fair Scheduler) quota</strong></li>
+<li><strong><code>--cpu-rt-period</code></strong> 	 (<em>int</em>) 	<strong>Limit CPU real-time period in microseconds</strong></li>
+<li><strong><code>--cpu-rt-runtime</code></strong> 	 (<em>int</em>) 	<strong>Limit CPU real-time runtime in microseconds</strong></li>
+<li><strong><code>-c, --cpu-shares</code></strong> 	 (<em>int</em>) 	<strong>CPU shares (relative weight)</strong></li>
+<li><strong><code>--cpus</code></strong> 	 (<em>decimal</em>) 	<strong>Number of CPUs</strong></li>
+<li><strong><code>--cpuset-cpus</code></strong> 	 (<em>string</em>) 	<strong>CPUs in which to allow execution (0-3, 0,1)</strong></li>
+<li><strong><code>--cpuset-mems</code></strong> 	 (<em>string</em>) 	<strong>MEMs in which to allow execution (0-3, 0,1)</strong></li>
+<li><strong><code>-d, --detach</code></strong> 	 (<em>-</em>) 	<strong>Run container in background and print container ID</strong></li>
+<li><strong><code>--detach-keys</code></strong> 	 (<em>string</em>) 	<strong>Override the key sequence for detaching a container</strong></li>
+<li><strong><code>--device</code></strong> 	 (<em>list</em>) 	<strong>Add a host device to the container</strong></li>
+<li><strong><code>--device-cgroup-rule</code></strong> 	 (<em>list</em>) 	<strong>Add a rule to the cgroup allowed devices list</strong></li>
+<li><strong><code>--device-read-bps</code></strong> 	 (<em>list</em>) 	<strong>Limit read rate (bytes per second) from a device (default [])</strong></li>
+<li><strong><code>--device-read-iops</code></strong> 	 (<em>list</em>) 	<strong>Limit read rate (IO per second) from a device (default [])</strong></li>
+<li><strong><code>--device-write-bps</code></strong> 	 (<em>list</em>) 	<strong>Limit write rate (bytes per second) to a device (default [])</strong></li>
+<li><strong><code>--device-write-iops</code></strong> 	 (<em>list</em>) 	<strong>Limit write rate (IO per second) to a device (default [])</strong></li>
+<li><strong><code>--disable-content-trust</code></strong> 	 (<em>-</em>) 	<strong>Skip image verification (default true)</strong></li>
+<li><strong><code>--dns</code></strong> 	 (<em>list</em>) 	<strong>Set custom DNS servers</strong></li>
+<li><strong><code>--dns-option</code></strong> 	 (<em>list</em>) 	<strong>Set DNS options</strong></li>
+<li><strong><code>--dns-search</code></strong> 	 (<em>list</em>) 	<strong>Set custom DNS search domains</strong></li>
+<li><strong><code>--entrypoint</code></strong> 	 (<em>string</em>) 	<strong>Overwrite the default ENTRYPOINT of the image</strong></li>
+<li><strong><code>-e, --env</code></strong> 	 (<em>list</em>) 	<strong>Set environment variables</strong></li>
+<li><strong><code>--env-file</code></strong> 	 (<em>list</em>) 	<strong>Read in a file of environment variables</strong></li>
+<li><strong><code>--expose</code></strong> 	 (<em>list</em>) 	<strong>Expose a port or a range of ports</strong></li>
+<li><strong><code>--group-add</code></strong> 	 (<em>list</em>) 	<strong>Add additional groups to join</strong></li>
+<li><strong><code>--health-cmd</code></strong> 	 (<em>string</em>) 	<strong>Command to run to check health</strong></li>
+<li><strong><code>--health-interval</code></strong> 	 (<em>duration</em>) 	<strong>Time between running the check (ms|s|m|h) (default 0s)</strong></li>
+<li><strong><code>--health-retries</code></strong> 	 (<em>int</em>) 	<strong>Consecutive failures needed to report unhealthy</strong></li>
+<li><strong><code>--health-start-period</code></strong> 	 (<em>duration</em>) 	<strong>Start period for the container to initialize before starting health-retries countdown (ms|s|m|h) (default 0s)</strong></li>
+<li><strong><code>--health-timeout</code></strong> 	 (<em>duration</em>) 	<strong>Maximum time to allow one check to run (ms|s|m|h) (default 0s)</strong></li>
+<li><strong><code>--help</code></strong> 	 (<em>-</em>) 	<strong>Print usage</strong></li>
+<li><strong><code>-h, --hostname</code></strong> 	 (<em>string</em>) 	<strong>Container host name</strong></li>
+<li><strong><code>--init</code></strong> 	 (<em>-</em>) 	<strong>Run an init inside the container that forwards signals and reaps processes</strong></li>
+<li><strong><code>-i, --interactive</code></strong> 	 (<em>-</em>) 	<strong>Keep STDIN open even if not attached</strong></li>
+<li><strong><code>--ip</code></strong> 	 (<em>string</em>) 	<strong>IPv4 address (e.g., 172.30.100.104)</strong></li>
+<li><strong><code>--ip6</code></strong> 	 (<em>string</em>) 	<strong>IPv6 address (e.g., 2001:db8::33)</strong></li>
+<li><strong><code>--ipc</code></strong> 	 (<em>string</em>) 	<strong>IPC mode to use</strong></li>
+<li><strong><code>--isolation</code></strong> 	 (<em>string</em>) 	<strong>Container isolation technology</strong></li>
+<li><strong><code>--kernel-memory</code></strong> 	 (<em>bytes</em>) 	<strong>Kernel memory limit</strong></li>
+<li><strong><code>-l, --label</code></strong> 	 (<em>list</em>) 	<strong>Set meta data on a container</strong></li>
+<li><strong><code>--label-file</code></strong> 	 (<em>list</em>) 	<strong>Read in a line delimited file of labels</strong></li>
+<li><strong><code>--link</code></strong> 	 (<em>list</em>) 	<strong>Add link to another container</strong></li>
+<li><strong><code>--link-local-ip</code></strong> 	 (<em>list</em>) 	<strong>Container IPv4/IPv6 link-local addresses</strong></li>
+<li><strong><code>--log-driver</code></strong> 	 (<em>string</em>) 	<strong>Logging driver for the container</strong></li>
+<li><strong><code>--log-opt</code></strong> 	 (<em>list</em>) 	<strong>Log driver options</strong></li>
+<li><strong><code>--mac-address</code></strong> 	 (<em>string</em>) 	<strong>Container MAC address (e.g., 92:d0:c6:0a:29:33)</strong></li>
+<li><strong><code>-m, --memory</code></strong> 	 (<em>bytes</em>) 	<strong>Memory limit</strong></li>
+<li><strong><code>--memory-reservation</code></strong> 	 (<em>bytes</em>) 	<strong>Memory soft limit</strong></li>
+<li><strong><code>--memory-swap</code></strong> 	 (<em>bytes</em>) 	<strong>Swap limit equal to memory plus swap: ‘-1’ to enable unlimited swap</strong></li>
+<li><strong><code>--memory-swappiness</code></strong> 	 (<em>int</em>) 	<strong>Tune container memory swappiness (0 to 100) (default -1)</strong></li>
+<li><strong><code>--mount</code></strong> 	 (<em>mount</em>) 	<strong>Attach a filesystem mount to the container</strong></li>
+<li><strong><code>--name</code></strong> 	 (<em>string</em>) 	<strong>Assign a name to the container</strong></li>
+<li><strong><code>--network</code></strong> 	 (<em>string</em>) 	<strong>Connect a container to a network (default “default”)</strong></li>
+<li><strong><code>--network-alias</code></strong> 	 (<em>list</em>) 	<strong>Add network-scoped alias for the container</strong></li>
+<li><strong><code>--no-healthcheck</code></strong> 	 (<em>-</em>) 	<strong>Disable any container-specified HEALTHCHECK</strong></li>
+<li><strong><code>--oom-kill-disable</code></strong> 	 (<em>-</em>) 	<strong>Disable OOM Killer</strong></li>
+<li><strong><code>--oom-score-adj</code></strong> 	 (<em>int</em>) 	<strong>Tune host’s OOM preferences (-1000 to 1000)</strong></li>
+<li><strong><code>--pid</code></strong> 	 (<em>string</em>) 	<strong>PID namespace to use</strong></li>
+<li><strong><code>--pids-limit</code></strong> 	 (<em>int</em>) 	<strong>Tune container pids limit (set -1 for unlimited)</strong></li>
+<li><strong><code>--platform</code></strong> 	 (<em>string</em>) 	<strong>Set platform if server is multi-platform capable</strong></li>
+<li><strong><code>--privileged</code></strong> 	 (<em>-</em>) 	<strong>Give extended privileges to this container</strong></li>
+<li><strong><code>-p, --publish</code></strong> 	 (<em>list</em>) 	<strong>Publish a container’s port(s) to the host</strong></li>
+<li><strong><code>-P, --publish-all</code></strong> 	 (<em>-</em>) 	<strong>Publish all exposed ports to random ports</strong></li>
+<li><strong><code>--read-only</code></strong> 	 (<em>-</em>) 	<strong>Mount the container’s root filesystem as read only</strong></li>
+<li><strong><code>--restart</code></strong> 	 (<em>string</em>) 	<strong>Restart policy to apply when a container exits (default “no”)</strong></li>
+<li><strong><code>--rm</code></strong> 	 (<em>-</em>) 	<strong>Automatically remove the container when it exits</strong></li>
+<li><strong><code>--runtime</code></strong> 	 (<em>string</em>) 	<strong>Runtime to use for this container</strong></li>
+<li><strong><code>--security-opt</code></strong> 	 (<em>list</em>) 	<strong>Security Options</strong></li>
+<li><strong><code>--shm-size</code></strong> 	 (<em>bytes</em>) 	<strong>Size of /dev/shm</strong></li>
+<li><strong><code>--sig-proxy</code></strong> 	 (<em>-</em>) 	<strong>Proxy received signals to the process (default true)</strong></li>
+<li><strong><code>--stop-signal</code></strong> 	 (<em>string</em>) 	<strong>Signal to stop a container (default “SIGTERM”)</strong></li>
+<li><strong><code>--stop-timeout</code></strong> 	 (<em>int</em>) 	<strong>Timeout (in seconds) to stop a container</strong></li>
+<li><strong><code>--storage-opt</code></strong> 	 (<em>list</em>) 	<strong>Storage driver options for the container</strong></li>
+<li><strong><code>--sysctl</code></strong> 	 (<em>map</em>) 	<strong>Sysctl options (default map[])</strong></li>
+<li><strong><code>--tmpfs</code></strong> 	 (<em>list</em>) 	<strong>Mount a tmpfs directory</strong></li>
+<li><strong><code>-t, --tty</code></strong> 	 (<em>-</em>) 	<strong>Allocate a pseudo-TTY</strong></li>
+<li><strong><code>--ulimit</code></strong> 	 (<em>ulimit</em>) 	<strong>Ulimit options (default [])</strong></li>
+<li><strong><code>-u, --user</code></strong> 	 (<em>string</em>) 	<strong>Username or UID (format: &lt;name|uid&gt;[:&lt;group|gid&gt;])</strong></li>
+<li><strong><code>--userns</code></strong> 	 (<em>string</em>) 	<strong>User namespace to use</strong></li>
+<li><strong><code>--uts</code></strong> 	 (<em>string</em>) 	<strong>UTS namespace to use</strong></li>
+<li><strong><code>-v, --volume</code></strong> 	 (<em>list</em>) 	<strong>Bind mount a volume</strong></li>
+<li><strong><code>--volume-driver</code></strong> 	 (<em>string</em>) 	<strong>Optional volume driver for the container</strong></li>
+<li><strong><code>--volumes-from</code></strong> 	 (<em>list</em>) 	<strong>Mount volumes from the specified container(s)</strong></li>
+<li><strong><code>-w, --workdir</code></strong> 	 (<em>string</em>) 	<strong>Working directory inside the container</strong></li>
+</ul>
 
     </main>
 </div>
