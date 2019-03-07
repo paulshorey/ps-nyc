@@ -21,7 +21,7 @@
 <ul class=""><li class="heading "><a href="./../CLI/index.html">CLI</a></li>
 <ul class=""><li class=""><a href="./../CLI/Nice-Editor.html">Nice Editor</a></li></ul>
 <li class="heading "><a href="./../IDE + Code/index.html">IDE + Code</a></li>
-<ul class=""><li class=""><a href="./../IDE + Code/auto-formatting.html">auto formatting</a></li><li class=""><a href="./../IDE + Code/edit-over-SSH.html">edit over SSH</a></li><li class=""><a href="./../IDE + Code/whatever.html">whatever</a></li></ul>
+<ul class=""><li class=""><a href="./../IDE + Code/auto-formatting.html">auto formatting</a></li><li class=""><a href="./../IDE + Code/edit-over-SSH.html">edit over SSH</a></li></ul>
 <li class="heading childIsActive"><a href="./index.html">RegEx</a></li>
 <ul class="isActive"><li class="isActive"><a href="./IDE-Examples.html">IDE Examples</a></li></ul>
 </ul>
@@ -36,8 +36,10 @@
 <li class="heading isActive"><span>Server</span></li>
 <ul class=""><li class="heading isActive"><span>Communicating</span></li>
 <ul class=""><li class=""><a href="./../../Server/Communicating/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./../../Server/Communicating/Ports.html">Ports</a></li><li class=""><a href="./../../Server/Communicating/SSL.html">SSL</a></li></ul>
-<li class="heading "><a href="./../../Server/Docker/index.html">Docker</a></li>
-
+<li class="heading childIsActive"><a href="./../../Server/Docker/index.html">Docker</a></li>
+<ul class=""><li class="heading isActive"><span>CLI (help)</span></li>
+<ul class=""><li class=""><a href="./../../Server/Docker/CLI (help)/docker-run.html">docker run</a></li></ul>
+</ul>
 <li class="heading isActive"><span>Linux Management</span></li>
 <ul class=""><li class=""><a href="./../../Server/Linux Management/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../../Server/Linux Management/linux-from-scratch.html">linux from scratch</a></li></ul>
 </ul>
@@ -61,6 +63,9 @@ to add indent span elements</p>
 <h3>Javascript:</h3>
 <p>Remove all console.logs (or .warn .error, etc):<br>
 <code>(\s?)console.(.?)\n([\w\s\W\t\n]*?)</code></p>
+<h3>CLI --help to Markdown</h3>
+<p>Search <code>\n(.*?) (([a-z]+) )?([A-Z])</code><br>
+Replace <code>\n**$1**\t_$2_\t$4</code></p>
 
     </main>
 </div>

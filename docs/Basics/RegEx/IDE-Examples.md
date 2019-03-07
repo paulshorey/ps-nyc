@@ -20,4 +20,11 @@ to add indent span elements
   
 ### Javascript:  
 Remove all console.logs (or .warn .error, etc):  
-`(\s?)console.(.?)\n([\w\s\W\t\n]*?)`
+`(\s?)console.(.?)\n([\w\s\W\t\n]*?)`  
+  
+### CLI --help to Markdown  
+Search `\n(.*?) (([a-z]+) )?([A-Z])`  
+Replace `\n**$1**\t_$2_\t$4`  
+  
+  
+  
