@@ -18,12 +18,12 @@
                 <a class="title-items" href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
             </li>
             <ul class=""><li class="heading isActive"><span>Basics</span></li>
-<ul class="isActive"><li class="heading "><a href="./../CLI/index.html">CLI</a></li>
+<ul class=""><li class="heading "><a href="./../CLI/index.html">CLI</a></li>
 <ul class=""><li class=""><a href="./../CLI/Nice-Editor.html">Nice Editor</a></li></ul>
-<li class="heading "><a href="./../IDE + Code/index.html">IDE + Code</a></li>
-<ul class=""><li class=""><a href="./../IDE + Code/auto-formatting.html">auto formatting</a></li><li class=""><a href="./../IDE + Code/edit-over-SSH.html">edit over SSH</a></li><li class=""><a href="./../IDE + Code/whatever.html">whatever</a></li></ul>
-<li class="heading isActive"><a href="./index.html">RegEx</a></li>
-<ul class=""><li class=""><a href="./IDE-Examples.html">IDE Examples</a></li></ul>
+<li class="heading childIsActive"><a href="./index.html">IDE + Code</a></li>
+<ul class="isActive"><li class=""><a href="./auto-formatting.html">auto formatting</a></li><li class=""><a href="./edit-over-SSH.html">edit over SSH</a></li><li class="isActive"><a href="./whatever.html">whatever</a></li></ul>
+<li class="heading "><a href="./../RegEx/index.html">RegEx</a></li>
+<ul class=""><li class=""><a href="./../RegEx/IDE-Examples.html">IDE Examples</a></li></ul>
 </ul>
 <li class="heading isActive"><span>Front End</span></li>
 <ul class=""><li class="heading "><a href="./../../Front End/CSS/index.html">CSS</a></li>
@@ -45,24 +45,7 @@
         </ul>
     </nav>
     <main class="content">
-        <h1>Regular Expressions</h1>
-<blockquote>
-<ul>
-<li><strong><a href="./IDE-Examples.html">IDE Examples</a></strong></li>
-</ul>
-</blockquote>
-<h3>Find/Replace</h3>
-<p>Lets use the link above as an example. We want to convert local links from <code>.md</code> to <code>.html</code>…</p>
-<h4>in IDE:</h4>
-<pre><code>Find: (\[.*?\]\(\./.*?).md(\))  
-Replace: $1.html$2  
-</code></pre>
-<h4>using Javascript:</h4>
-<pre><code>str.replace(\(\[.*?\]\(\./.*?).md(\))\g, &quot;$1.html$2&quot;);  
-</code></pre>
-<p>So, no matter the complexity, just write the match/replace as:</p>
-<pre><code>str.replace(\        \g, &quot;       &quot;)  
-</code></pre>
+        <h1>Hello</h1>
 
     </main>
 </div>

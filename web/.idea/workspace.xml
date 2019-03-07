@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd7ec1e1-73ec-4374-a177-286ee29e1876" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/Server/Containers/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/Server/Docker/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/assets/files/WebStormSettings.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/assets/files/WebStormSettings.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/CLI/Nice-Editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/CLI/Nice-Editor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/CLI/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/CLI/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/IDE + Code/auto-formatting.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/IDE + Code/auto-formatting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/IDE + Code/edit-over-SSH.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/IDE + Code/edit-over-SSH.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/IDE + Code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/IDE + Code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/RegEx/IDE-Examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/RegEx/IDE-Examples.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/RegEx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Basics/RegEx/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/CSS/frameworks.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/CSS/frameworks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/CSS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/CSS/responsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/CSS/responsive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/JavaScript/ES6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/JavaScript/ES6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/JavaScript/React/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/JavaScript/React/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/JavaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/JavaScript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/JavaScript/looping.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/JavaScript/looping.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/JavaScript/sorting.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Front End/JavaScript/sorting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Server/Communicating/GIT-+-SSH.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Server/Communicating/GIT-+-SSH.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Server/Communicating/Ports.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Server/Communicating/Ports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Server/Communicating/SSL.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Server/Communicating/SSL.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Server/Containers/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Server/Linux Management/easy-deployment.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Server/Linux Management/easy-deployment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/Server/Linux Management/linux-from-scratch.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/Server/Linux Management/linux-from-scratch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/assets/files/WebStormSettings.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/assets/files/WebStormSettings.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../www/paulshorey/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../www/paulshorey/docs/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,10 +38,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
-    <option name="width" value="1279" />
+    <option name="width" value="1280" />
     <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -126,15 +97,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551916948803</updated>
-      <workItem from="1551916950030" duration="241000" />
+      <workItem from="1551916950030" duration="336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241000" />
+    <option name="totallyTimeSpent" value="336000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="22" width="1279" height="774" extended-state="0" />
+    <frame x="1" y="22" width="1279" height="774" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
