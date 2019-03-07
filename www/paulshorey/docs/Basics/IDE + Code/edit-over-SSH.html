@@ -19,7 +19,7 @@
             </li>
             <ul class=""><li class="heading isActive"><span>Basics</span></li>
 <ul class=""><li class="heading "><a href="./../CLI/index.html">CLI</a></li>
-<ul class=""><li class=""><a href="./../CLI/Nice-Editor.html">Nice Editor</a></li></ul>
+<ul class=""><li class=""><a href="./../CLI/Nice-Editor.html">Nice Editor</a></li><li class=""><a href="./../CLI/shortcuts.html">shortcuts</a></li></ul>
 <li class="heading childIsActive"><a href="./index.html">IDE + Code</a></li>
 <ul class="isActive"><li class=""><a href="./auto-formatting.html">auto formatting</a></li><li class="isActive"><a href="./edit-over-SSH.html">edit over SSH</a></li></ul>
 <li class="heading "><a href="./../RegEx/index.html">RegEx</a></li>
@@ -53,18 +53,18 @@
 <br /><br /></p>
 <h4>On server,</h4>
 <p>Install rsub:</p>
-<pre><code>wget -O /usr/local/bin/rsub \https://raw.github.com/aurora/rmate/master/rmate        
-chmod a+x /usr/local/bin/rsub        
+<pre><code>wget -O /usr/local/bin/rsub \https://raw.github.com/aurora/rmate/master/rmate          
+chmod a+x /usr/local/bin/rsub          
 </code></pre>
 <h4>On local,</h4>
 <p>For <em>SublimeText3</em>, or <em>Textmate</em>, install <strong><code>rsub</code></strong> package.<br>
 Or on <em>VsCode</em>, install <strong><code>remote-vscode</code></strong> package.<br>
 Add proxy:</p>
-<pre><code>echo &quot;RemoteForward 52698 localhost:52698&quot; &gt;&gt; ~/.ssh/config        
+<pre><code>echo &quot;RemoteForward 52698 localhost:52698&quot; &gt;&gt; ~/.ssh/config          
 </code></pre>
 <h4>Now you can connect to the server and edit any file:</h4>
-<pre><code>ssh user@hostname        
-rsub ~/.profile        
+<pre><code>ssh user@hostname          
+rsub ~/.profile          
 </code></pre>
 <p><br /><br /></p>
 <h2>Emacs text editor</h2>

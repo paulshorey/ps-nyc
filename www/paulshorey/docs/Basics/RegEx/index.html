@@ -19,7 +19,7 @@
             </li>
             <ul class=""><li class="heading isActive"><span>Basics</span></li>
 <ul class="isActive"><li class="heading "><a href="./../CLI/index.html">CLI</a></li>
-<ul class=""><li class=""><a href="./../CLI/Nice-Editor.html">Nice Editor</a></li></ul>
+<ul class=""><li class=""><a href="./../CLI/Nice-Editor.html">Nice Editor</a></li><li class=""><a href="./../CLI/shortcuts.html">shortcuts</a></li></ul>
 <li class="heading "><a href="./../IDE + Code/index.html">IDE + Code</a></li>
 <ul class=""><li class=""><a href="./../IDE + Code/auto-formatting.html">auto formatting</a></li><li class=""><a href="./../IDE + Code/edit-over-SSH.html">edit over SSH</a></li></ul>
 <li class="heading isActive"><a href="./index.html">RegEx</a></li>
@@ -59,14 +59,14 @@
 <h3>Find/Replace</h3>
 <p>Lets use the link above as an example. We want to convert local links from <code>.md</code> to <code>.html</code>…</p>
 <h4>in IDE:</h4>
-<pre><code>Find: (\[.*?\]\(\./.*?).md(\))        
-Replace: $1.html$2        
+<pre><code>Find: (\[.*?\]\(\./.*?).md(\))          
+Replace: $1.html$2          
 </code></pre>
 <h4>using Javascript:</h4>
-<pre><code>str.replace(\(\[.*?\]\(\./.*?).md(\))\g, &quot;$1.html$2&quot;);        
+<pre><code>str.replace(\(\[.*?\]\(\./.*?).md(\))\g, &quot;$1.html$2&quot;);          
 </code></pre>
 <p>So, no matter the complexity, just write the match/replace as:</p>
-<pre><code>str.replace(\        \g, &quot;       &quot;)        
+<pre><code>str.replace(\        \g, &quot;       &quot;)          
 </code></pre>
 
     </main>
