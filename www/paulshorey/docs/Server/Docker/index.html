@@ -37,8 +37,8 @@
 <ul class="isActive"><li class="heading isActive"><span>Communicating</span></li>
 <ul class=""><li class=""><a href="./../Communicating/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./../Communicating/Ports.html">Ports</a></li><li class=""><a href="./../Communicating/SSL.html">SSL</a></li></ul>
 <li class="heading isActive"><a href="./index.html">Docker</a></li>
-<ul class=""><li class="heading isActive"><span>CLI (help)</span></li>
-<ul class=""><li class=""><a href="./CLI (help)/docker-compose.html">docker compose</a></li><li class=""><a href="./CLI (help)/docker-run.html">docker run</a></li></ul>
+<ul class=""><li class="heading "><a href="./cli help/index.html">cli help</a></li>
+<ul class=""><li class=""><a href="./cli help/docker-compose.html">docker compose</a></li><li class=""><a href="./cli help/docker-run.html">docker run</a></li></ul>
 </ul>
 <li class="heading isActive"><span>Linux Management</span></li>
 <ul class=""><li class=""><a href="./../Linux Management/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../Linux Management/linux-from-scratch.html">linux from scratch</a></li></ul>
@@ -57,8 +57,8 @@
 <p><strong><code>docker build</code></strong> runs <strong><code>docker-compose.yml</code></strong> in the same folder<br>
 <strong><code>docker-compose up</code></strong> runs <strong><code>docker-compose.yml</code></strong> in the same folder</p>
 <h4>Stop and Remove all Docker containers:</h4>
-<pre><code class="language-bash prettyprint">docker stop $(docker ps -a -q)      
-docker rm $(docker ps -a -q)      
+<pre><code class="language-bash prettyprint">docker stop $(docker ps -a -q)        
+docker rm $(docker ps -a -q)        
 </code></pre>
 <p>This command can not be used via SSH,<br>
 Because $(docker ps -a) will be executed on your local machine, not on server.<br>

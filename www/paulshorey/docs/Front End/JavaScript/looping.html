@@ -36,9 +36,9 @@
 <li class="heading isActive"><span>Server</span></li>
 <ul class=""><li class="heading isActive"><span>Communicating</span></li>
 <ul class=""><li class=""><a href="./../../Server/Communicating/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./../../Server/Communicating/Ports.html">Ports</a></li><li class=""><a href="./../../Server/Communicating/SSL.html">SSL</a></li></ul>
-<li class="heading childIsActive"><a href="./../../Server/Docker/index.html">Docker</a></li>
-<ul class=""><li class="heading isActive"><span>CLI (help)</span></li>
-<ul class=""><li class=""><a href="./../../Server/Docker/CLI (help)/docker-compose.html">docker compose</a></li><li class=""><a href="./../../Server/Docker/CLI (help)/docker-run.html">docker run</a></li></ul>
+<li class="heading "><a href="./../../Server/Docker/index.html">Docker</a></li>
+<ul class=""><li class="heading "><a href="./../../Server/Docker/cli help/index.html">cli help</a></li>
+<ul class=""><li class=""><a href="./../../Server/Docker/cli help/docker-compose.html">docker compose</a></li><li class=""><a href="./../../Server/Docker/cli help/docker-run.html">docker run</a></li></ul>
 </ul>
 <li class="heading isActive"><span>Linux Management</span></li>
 <ul class=""><li class=""><a href="./../../Server/Linux Management/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../../Server/Linux Management/linux-from-scratch.html">linux from scratch</a></li></ul>
@@ -48,78 +48,78 @@
     </nav>
     <main class="content">
         <h1>How to loop over Arrays</h1>
-<pre><code class="language-javascript prettyprint">    /*  &quot;forEach&quot; is preferred because of this option to skip the loop item */      
-    arr.forEach(function(item, i){      
-        if (!item) {      
-            return;      
-        }      
-        console.log(item);      
-    });      
+<pre><code class="language-javascript prettyprint">    /*  &quot;forEach&quot; is preferred because of this option to skip the loop item */        
+    arr.forEach(function(item, i){        
+        if (!item) {        
+            return;        
+        }        
+        console.log(item);        
+    });        
 </code></pre>
-<pre><code class="language-javascript prettyprint">    /* &quot;for&quot; works well, but is verbose */      
-    for (let i = 0; i &lt; arr.length; i++) {      
-        const item = arr[i];      
-        console.log(item, i);      
-    }      
+<pre><code class="language-javascript prettyprint">    /* &quot;for&quot; works well, but is verbose */        
+    for (let i = 0; i &lt; arr.length; i++) {        
+        const item = arr[i];        
+        console.log(item, i);        
+    }        
 </code></pre>
-<pre><code class="language-javascript prettyprint">    /* &quot;for of&quot; works fine, but is annoying because I have to manage all my own variables */      
-    let i = 0;      
-    for (let item of arr) {      
-        console.log(item, i);      
-        i++;      
-    }      
+<pre><code class="language-javascript prettyprint">    /* &quot;for of&quot; works fine, but is annoying because I have to manage all my own variables */        
+    let i = 0;        
+    for (let item of arr) {        
+        console.log(item, i);        
+        i++;        
+    }        
 </code></pre>
-<pre><code class="language-javascript prettyprint">    /* &quot;while&quot; is not recommended because you have to remember to increment the index */      
-    let i = 0;      
-    while (i&lt;arr.length) {      
-        const item = arr[i];      
-        console.log(item, i);      
-        i++;      
-    }      
+<pre><code class="language-javascript prettyprint">    /* &quot;while&quot; is not recommended because you have to remember to increment the index */        
+    let i = 0;        
+    while (i&lt;arr.length) {        
+        const item = arr[i];        
+        console.log(item, i);        
+        i++;        
+    }        
 </code></pre>
-<pre><code class="language-javascript prettyprint">    /* &quot;for in&quot; is not recommended. It iterates indexed items, as well as named properties! */      
-    /* yes, btw, Arrays can have named properties, just like Objects */      
-    for (const i in arr) {      
-        const item = arr[i];      
-        console.log(item, i);      
-    }      
+<pre><code class="language-javascript prettyprint">    /* &quot;for in&quot; is not recommended. It iterates indexed items, as well as named properties! */        
+    /* yes, btw, Arrays can have named properties, just like Objects */        
+    for (const i in arr) {        
+        const item = arr[i];        
+        console.log(item, i);        
+    }        
 </code></pre>
 <h2></h2>
 <h1>How to loop over Objects</h1>
-<pre><code class="language-javascript prettyprint">    /* &quot;for in&quot; */      
-    for (const key in obj) {      
-        const value = obj[key];      
-        console.log(value, key);      
-    }      
+<pre><code class="language-javascript prettyprint">    /* &quot;for in&quot; */        
+    for (const key in obj) {        
+        const value = obj[key];        
+        console.log(value, key);        
+    }        
 </code></pre>
 <h2></h2>
 <h1>How to loop over Strings</h1>
-<pre><code class="language-javascript prettyprint">    /*  &quot;forEach&quot; */      
-    &quot;some word&quot;.forEach(function(letter, i){      
-        if (letter===&quot; &quot;) {      
-            return;      
-        }      
-        console.log(letter);      
-    });      
+<pre><code class="language-javascript prettyprint">    /*  &quot;forEach&quot; */        
+    &quot;some word&quot;.forEach(function(letter, i){        
+        if (letter===&quot; &quot;) {        
+            return;        
+        }        
+        console.log(letter);        
+    });        
 </code></pre>
 <h2></h2>
 <h1>How to loop over Numbers (well, you can’t, but…)</h1>
-<pre><code class="language-javascript prettyprint">    const loop_min = 0;      
-    const loop_max = 100;      
-    const loop_inc = 1;      
+<pre><code class="language-javascript prettyprint">    const loop_min = 0;        
+    const loop_max = 100;        
+    const loop_inc = 1;        
 </code></pre>
-<pre><code class="language-javascript prettyprint">    /* &quot;while&quot; */      
-    let num = loop_min;      
-    while (num&lt;loop_max) {      
-        /* do something with num */      
-        num += loop_inc;      
-    }      
+<pre><code class="language-javascript prettyprint">    /* &quot;while&quot; */        
+    let num = loop_min;        
+    while (num&lt;loop_max) {        
+        /* do something with num */        
+        num += loop_inc;        
+    }        
 </code></pre>
-<pre><code class="language-javascript prettyprint">    /* &quot;for&quot; */      
-    for (let i = loop_min; i &lt; loop_max; i++) {      
-        /* do something with num */      
-        num += loop_inc;      
-    }      
+<pre><code class="language-javascript prettyprint">    /* &quot;for&quot; */        
+    for (let i = loop_min; i &lt; loop_max; i++) {        
+        /* do something with num */        
+        num += loop_inc;        
+    }        
 </code></pre>
 
     </main>
