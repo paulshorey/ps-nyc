@@ -55,9 +55,13 @@ Replace <code>\n**$1**\t_$2_\t$4</code></p>
 Replace with bold inline code block<br>
 <strong><code>$1</code></strong></p>
 <p><strong>between parentheses and newline</strong><br>
-<code>\)[\s\t]?(.*?)[\s\t]?\n</code><br>
+<code>\)\s?(.*?)\s?\n</code><br>
 Make the non-whitespace sentence of it bold<br>
 <code>) \t**$1**\n</code></p>
+<p><strong>whitespace on the left side of bold stars</strong><br>
+<code>\*\*\s?([A-Za-z])</code><br>
+Remove that whitespace<br>
+<code>**$1</code></p>
 
     </main>
 </div>
