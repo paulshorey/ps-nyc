@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Deployment/Containers/docker.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Docker/cli help/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Deployment/Containers/cli help/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Docker/cli help/docker-compose.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Deployment/Containers/cli help/docker-compose.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Docker/cli help/docker-run.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Deployment/Containers/cli help/docker-run.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Docker/compose.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Deployment/Containers/compose.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Linux Management/easy-deployment.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Deployment/VMs/easy-deployment.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Linux Management/linux-from-scratch.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Deployment/VMs/linux-from-scratch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/web.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/private_key" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/site.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/www/index.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,7 +32,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="540">
-                <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+                <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="260">
-                <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+              <first_editor relative-caret-position="40">
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -291,12 +273,12 @@
       <workItem from="1551755873792" duration="6000" />
       <workItem from="1551808831454" duration="805000" />
       <workItem from="1551809879757" duration="411000" />
-      <workItem from="1551928520821" duration="5938000" />
+      <workItem from="1551928520821" duration="6044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45031000" />
+    <option name="totallyTimeSpent" value="45137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="-1898" width="1079" height="1405" extended-state="0" />
@@ -627,7 +609,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="540">
-            <caret line="27" column="3" lean-forward="true" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+            <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -660,8 +642,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="260">
-            <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+          <first_editor relative-caret-position="40">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
         </state>
