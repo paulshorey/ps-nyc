@@ -35,11 +35,11 @@
 </ul>
 <li class="heading isActive"><span>Server</span></li>
 <ul class=""><li class="heading isActive"><span>Communicating</span></li>
-<ul class="isActive"><li class="isActive"><a href="./GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./Ports.html">Ports</a></li><li class=""><a href="./SSL.html">SSL</a></li></ul>
-<li class="heading "><a href="./../Docker/index.html">Docker</a></li>
-<ul class=""><li class="heading "><a href="./../Docker/cli help/index.html">cli help</a></li>
-<ul class=""><li class=""><a href="./../Docker/cli help/docker-compose.html">docker compose</a></li><li class=""><a href="./../Docker/cli help/docker-run.html">docker run</a></li></ul>
-<li class=""><a href="./../Docker/compose.html">compose</a></li></ul>
+<ul class=""><li class=""><a href="./../Communicating/GIT-+-SSH.html">GIT + SSH</a></li><li class=""><a href="./../Communicating/Ports.html">Ports</a></li><li class=""><a href="./../Communicating/SSL.html">SSL</a></li></ul>
+<li class="heading childIsActive"><a href="./index.html">Docker</a></li>
+<ul class="isActive"><li class="heading "><a href="./cli help/index.html">cli help</a></li>
+<ul class=""><li class=""><a href="./cli help/docker-compose.html">docker compose</a></li><li class=""><a href="./cli help/docker-run.html">docker run</a></li></ul>
+<li class="isActive"><a href="./compose.html">compose</a></li></ul>
 <li class="heading isActive"><span>Linux Management</span></li>
 <ul class=""><li class=""><a href="./../Linux Management/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../Linux Management/linux-from-scratch.html">linux from scratch</a></li></ul>
 </ul>
@@ -47,28 +47,30 @@
         </ul>
     </nav>
     <main class="content">
-        <h1>GIT</h1>
-<h2>Config</h2>
-<h4>Install ssh key on new device</h4>
-<pre><code>echo &quot;{paste your ssh key contents}&quot; &gt;&gt; ~/.ssh/newssh  
-chmod -R 600 ~/.ssh/newssh  
+        <h1>docker compose</h1>
+<p><a href="https://docs.docker.com/engine/reference/builder/">https://docs.docker.com/engine/reference/builder/</a></p>
+<pre><code class="language-bash prettyprint"># Build everything defined in the .yml file  
+docker-compose build  
+  
+# Bring up the whole application defined in .yml file (all the individual services)  
+docker-compose up -d  
+  
+# Bring up only one service defined in the .yml file  
+docker-compose up -d rte  
+  
+# Or force a build during with the up command  
+docker-compose up -d --build  
 </code></pre>
-<h4>then, every time the CLI starts:</h4>
-<pre><code>eval &quot;$(ssh-agent -s)&quot;  
-ssh-add ~/.ssh/newssh  
-Set a value in global config  
-git config --global color.ui true  
-git config --global user.name Paul\ Shorey  
-git config --global user.email pshorey@beyond.ai  
-git config --global push.default simple  
-git config --global core.editor=ne  
-git config --global submodule.recurse=true  
+<h4>Build current folder (Dockerfile), allow port 8080</h4>
+<pre><code class="language-bash prettyprint">version: '3'  
+  
+services:  
+  servicename1:  
+    image: localrepo/name1:0.0.1  
+    build: .  
+    ports:  
+      - &quot;8080:8080&quot;  
 </code></pre>
-<p>Without <code>--global</code>, it edits local <code>./.git/config</code> file.</p>
-<h2>Best Practices</h2>
-<p><strong><code>git pull</code></strong> actually does git fetch;<br>
-<strong><code>git merge</code></strong> actually, should do <strong><code>git pull --rebase</code></strong> which does not leave so many “merge” commits when working with others</p>
-<p>​</p>
 
     </main>
 </div>

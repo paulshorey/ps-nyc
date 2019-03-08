@@ -39,7 +39,7 @@
 <li class="heading isActive"><a href="./index.html">Docker</a></li>
 <ul class=""><li class="heading "><a href="./cli help/index.html">cli help</a></li>
 <ul class=""><li class=""><a href="./cli help/docker-compose.html">docker compose</a></li><li class=""><a href="./cli help/docker-run.html">docker run</a></li></ul>
-</ul>
+<li class=""><a href="./compose.html">compose</a></li></ul>
 <li class="heading isActive"><span>Linux Management</span></li>
 <ul class=""><li class=""><a href="./../Linux Management/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../Linux Management/linux-from-scratch.html">linux from scratch</a></li></ul>
 </ul>
@@ -48,20 +48,40 @@
     </nav>
     <main class="content">
         <h1>Dockerfiles and Docker Compose</h1>
-<h4>Is Docker efficient?</h4>
-<p>Spawning an entire operating system for just one process? Seems expensive. But, it must be becoming industry standard for a reason… easy to scale, start, stop, move.</p>
-<h4>Security concerns to read</h4>
-<p><a href="https://phusion.github.io/baseimage-docker/">https://phusion.github.io/baseimage-docker/</a></p>
-<h4>Don’t have to spawn a whole OS</h4>
-<h2>Useful Shortcuts:</h2>
-<p><strong><code>docker build</code></strong> runs <strong><code>docker-compose.yml</code></strong> in the same folder<br>
-<strong><code>docker-compose up</code></strong> runs <strong><code>docker-compose.yml</code></strong> in the same folder</p>
-<h4>Stop and Remove all Docker containers:</h4>
-<pre><code class="language-bash prettyprint">docker stop $(docker ps -a -q)  
-docker rm $(docker ps -a -q)  
-</code></pre>
-<p>This command can not be used via SSH,<br>
-Because $(docker ps -a) will be executed on your local machine, not on server.<br>
+<h2>Commands:</h2>
+<ul>
+<li>
+<p><strong><code>docker container ls</code></strong> see list of running containers</p>
+</li>
+<li>
+<p><strong><code>docker stats</code></strong> see memory/cpu % of each container</p>
+</li>
+<li>
+<p><strong><code>docker build</code></strong> runs <strong><code>docker-compose.yml</code></strong> in the same folder</p>
+</li>
+<li>
+<p><strong><code>docker-compose up</code></strong> runs <strong><code>docker-compose.yml</code></strong> in the same folder</p>
+</li>
+<li>
+<p><strong><code>docker stop $(docker ps -a -q)</code></strong> stop all (or specify container ID)</p>
+</li>
+<li>
+<p><strong><code>docker rm $(docker ps -a -q)</code></strong> remove all (or specify container ID)</p>
+</li>
+<li>
+<p><strong><code>docker rmi $(docker images -a -q)</code></strong> remove all images (or specify image ID)</p>
+</li>
+<li>
+<p><strong><code>docker images -f &quot;dangling=true&quot; -q</code></strong> list all dangling (untagged) images</p>
+</li>
+<li>
+<p><strong><code>docker rmi $(docker images -f &quot;dangling=true&quot; -q)</code></strong> remove all dangling (untagged) images</p>
+</li>
+<li>
+<p><strong>``</strong></p>
+</li>
+</ul>
+<p>$(docker ps -a) can not be done over SSH, because it will be executed in the local terminal.<br>
 <a href="https://coderwall.com/p/ewk0mq/stop-remove-all-docker-containers">coderwall.com/…/stop-remove-all-docker-containers</a></p>
 
     </main>
