@@ -8,15 +8,16 @@ Currently using and contributing to `markdown-folder-to-html` project.
 <br />  
   
 ### Dev (test local changes)  
+Shortcut: **`sh/run`** runs bash script
 ```bash  
 # first install node and npm  
 # npm install;
 http-server www/paulshorey # or whatever site to test  
 ```  
-Shortcut: **`sh/run``** runs bash script
 <br />  
   
-### Build docs (deploy local changes)  
+### Build docs (deploy local changes)
+Shortcut: **`sh/doc`** runs bash script  
 ```bash  
 # first install node and npm  
 # npm install;  
@@ -24,10 +25,10 @@ npm run docs;
         # this is an npm package.json shortcut for the following:  
         # markdown-folder-to-html docs www/paulshorey/docs;  
 ```  
-Shortcut: **`sh/doc``** runs bash script
 <br />  
   
 ### Publish (to server)
+Shortcut: **`sh/pub`** runs bash script:
 ```bash
 # first setup GIT+SSH  
 git add.;  
@@ -37,5 +38,4 @@ git push;
         # which is caught by running node process on server, in _deploy.js  
         # it executes bash _deploy.sh, which does  `git pull` to get latest files  
 ```
-Shortcut: **`sh/pub``** runs bash script
 <br />  
