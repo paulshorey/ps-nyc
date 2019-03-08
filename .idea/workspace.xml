@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Docker/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,32 +16,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.aliases.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="83" column="19" lean-forward="true" selection-end-line="210" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md">
+        <entry file="file://$PROJECT_DIR$/docs/Server/Docker/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1207">
-                <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
+              <first_editor relative-caret-position="460">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Server/Docker/cli help/docker-compose.md">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/Server/Docker/compose.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="180">
-                <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+              <first_editor relative-caret-position="540">
+                <caret line="27" column="3" selection-start-line="27" selection-end-line="27" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -125,7 +116,6 @@
         <option value="$PROJECT_DIR$/www/paulshorey/index.html" />
         <option value="$PROJECT_DIR$/docs/Front End/JavaScript/README.md" />
         <option value="$PROJECT_DIR$/docs/README.md" />
-        <option value="$PROJECT_DIR$/docs/Server/Docker/README.md" />
         <option value="$PROJECT_DIR$/docs/Basics/IDE + Code/Emacs.md" />
         <option value="$PROJECT_DIR$/docs/Basics/IDE + Code/whatever.md" />
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/IDE-Examples.md" />
@@ -139,6 +129,8 @@
         <option value="$PROJECT_DIR$/docs/Server/Docker/CLI (help)/README.md" />
         <option value="$USER_HOME$/.aliases.sh" />
         <option value="$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md" />
+        <option value="$PROJECT_DIR$/docs/Server/Docker/README.md" />
+        <option value="$PROJECT_DIR$/docs/Server/Docker/compose.md" />
       </list>
     </option>
   </component>
@@ -152,7 +144,7 @@
     <option name="x" value="103" />
     <option name="y" value="-1898" />
     <option name="width" value="1079" />
-    <option name="height" value="1432" />
+    <option name="height" value="1405" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -178,32 +170,6 @@
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="CLI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="RegEx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Front End" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -216,10 +182,7 @@
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Docker" type="462c0819:PsiDirectoryNode" />
-              <item name="cli help" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,18 +242,18 @@
       <workItem from="1551755873792" duration="6000" />
       <workItem from="1551808831454" duration="805000" />
       <workItem from="1551809879757" duration="411000" />
-      <workItem from="1551928520821" duration="1458000" />
+      <workItem from="1551928520821" duration="4328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40551000" />
+    <option name="totallyTimeSpent" value="43421000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="-1898" width="1079" height="1432" extended-state="0" />
+    <frame x="103" y="-1898" width="1079" height="1405" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3429101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22984244" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -315,21 +278,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/Front End/JavaScript/ES6.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="520">
-            <caret line="26" selection-start-line="26" selection-end-line="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -551,16 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Server/Docker/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="120">
-            <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Basics/RegEx/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -611,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Server/Docker/cli help/docker-compose.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="180">
-            <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Server/Docker/cli help/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -641,18 +569,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.aliases.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="83" column="19" lean-forward="true" selection-end-line="210" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1207">
-            <caret line="212" lean-forward="true" selection-start-line="212" selection-end-line="212" />
+          <first_editor relative-caret-position="167">
+            <caret line="160" column="16" lean-forward="true" selection-start-line="160" selection-start-column="16" selection-end-line="160" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.aliases.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="85" column="1" lean-forward="true" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Server/Docker/cli help/docker-compose.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="200">
+            <caret line="10" column="55" lean-forward="true" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Server/Docker/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="460">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Server/Docker/compose.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="540">
+            <caret line="27" column="3" selection-start-line="27" selection-end-line="27" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
