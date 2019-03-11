@@ -406,8 +406,8 @@
     {
       "path": "SysAdmin/Containers/Docker/index.md",
       "url": "SysAdmin/Containers/Docker/index.html",
-      "content": "[docker compose](docker-compose.md)   \n[docker](docker.md)  \n[help docker compose](help docker-compose.md)  \n[help docker run](help docker-run.md)  \n[help docker](help docker.md)  \n  \n[Linux](../Linux/easy-deployment.md)  ",
-      "html": "<p><a href=\"docker-compose.html\">docker compose</a><br>\n<a href=\"docker.html\">docker</a><br>\n[help docker compose](help <a href=\"http://docker-compose.md\">docker-compose.md</a>)<br>\n[help docker run](help <a href=\"http://docker-run.md\">docker-run.md</a>)<br>\n[help docker](help <a href=\"http://docker.md\">docker.md</a>)</p>\n<p><a href=\"../Linux/easy-deployment.html\">Linux</a></p>\n",
+      "content": "<script>window.scrollBy(1000, 0);</script>",
+      "html": "<script>window.scrollBy(1000, 0);</script>",
       "id": 23
     },
     {
