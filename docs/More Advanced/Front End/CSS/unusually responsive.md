@@ -25,7 +25,8 @@ Unfortunately, this page/site has a bunch of `<pre>` and other elements which so
     overflow-x: hidden;
     box-sizing: border-box;
 }
-.content * {
+.content pre,
+ .content code {
     max-width: 100vw;
     overflow-x: auto;
     position: relative;

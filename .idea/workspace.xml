@@ -3,43 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/unusually responsive.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/unusually responsive.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/assets/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/template.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Beginner/Front End/CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Beginner/Front End/CSS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Beginner/Front End/JavaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/Beginner/Front End/JavaScript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/CLI/Nice-Editor.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/CLI/Nice-Editor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/CLI/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/CLI/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/CLI/shortcuts.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/CLI/shortcuts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/GIT + SSH/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/GIT + SSH/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/GIT + SSH/porcelain.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/GIT + SSH/porcelain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/IDE + Code/auto-formatting.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/IDE + Code/auto-formatting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/IDE + Code/edit-over-SSH.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/IDE + Code/edit-over-SSH.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/IDE + Code/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/IDE + Code/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/RegEx/Basics.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/RegEx/Basics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/RegEx/HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/RegEx/HTML.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/RegEx/Javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/RegEx/Javascript.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/RegEx/Markdown.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/RegEx/Markdown.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/RegEx/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Basics/RegEx/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/CSS/frameworks.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/CSS/frameworks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/CSS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/CSS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/JavaScript/ES6.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/JavaScript/ES6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/JavaScript/React/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/JavaScript/React/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/JavaScript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/JavaScript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/JavaScript/looping.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/JavaScript/looping.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/JavaScript/sorting.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/JavaScript/sorting.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/docker-compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/docker-compose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/docker.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/docker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/help docker-compose.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/help docker-compose.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/help docker-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/help docker-run.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/help docker.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/help docker.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Linux/easy-deployment.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Linux/easy-deployment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Linux/linux-from-scratch.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Linux/linux-from-scratch.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Ports.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Ports.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/SSL.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/SSL.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/assets/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/assets/template.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/CSS/unusually responsive.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/More Advanced/Front End/CSS/unusually responsive.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,21 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/assets/template.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="619">
-              <caret line="220" selection-start-line="220" selection-end-line="230" selection-end-column="1" />
+            <state relative-caret-position="759">
+              <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/More Advanced/Front End/CSS/unusually responsive.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="260">
-                <caret line="7" column="469" selection-start-line="7" selection-start-column="469" selection-end-line="7" selection-end-column="469" />
+              <first_editor relative-caret-position="700">
+                <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -213,10 +180,10 @@
         <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-compose.md" />
         <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-run.md" />
         <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/README.md" />
-        <option value="$PROJECT_DIR$/docs/assets/template.css" />
         <option value="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/README.md" />
         <option value="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/responsive.md" />
         <option value="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/unusually responsive.md" />
+        <option value="$PROJECT_DIR$/docs/assets/template.css" />
       </list>
     </option>
   </component>
@@ -415,12 +382,12 @@
       <workItem from="1551808831454" duration="805000" />
       <workItem from="1551809879757" duration="411000" />
       <workItem from="1551928520821" duration="9007000" />
-      <workItem from="1552321676375" duration="5775000" />
+      <workItem from="1552321676375" duration="5937000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53875000" />
+    <option name="totallyTimeSpent" value="54037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="-1898" width="1079" height="1432" extended-state="0" />
@@ -879,20 +846,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="220" selection-start-line="220" selection-end-line="230" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/More Advanced/Front End/CSS/unusually responsive.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="260">
-            <caret line="7" column="469" selection-start-line="7" selection-start-column="469" selection-end-line="7" selection-end-column="469" />
+          <first_editor relative-caret-position="700">
+            <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="227" column="13" selection-start-line="227" selection-start-column="13" selection-end-line="227" selection-end-column="13" />
         </state>
       </provider>
     </entry>
