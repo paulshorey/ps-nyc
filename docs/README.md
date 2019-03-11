@@ -29,7 +29,6 @@ Instead, this is a way to document more abstract or trivial ideas, in a more lit
 **Todo:**  
 * Fix mobile layout  
 * When compiling .html files, to modify the original .md file... add double space at the end of every line (for Github-flavor compatibility). Currently implemented as a `git commit` hook, but needs to first remove spaces before adding new ones.  
-* QC deep nested folders  
 * Maybe fix underlying codebase to not convert filename strings to (a href="") elements  
 * Experiment with this: https://markdowntomedium.com/  
   

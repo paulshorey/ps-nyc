@@ -7,7 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
-    "docs": "markdown-folder-to-html docs www/paulshorey/docs",
+    "docs": "markdown-folder-to-html docs www/paulshorey/docs; # call ghmd manually in terminal",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

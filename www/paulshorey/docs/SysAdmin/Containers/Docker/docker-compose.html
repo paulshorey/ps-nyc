@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link href="/assets/gfx/puzzle.ico" rel="shortcut icon" type="image/x-icon"/>
+
+    <link rel="stylesheet" type="text/css" href="/docs/template.css"/>
+</head>
+
+<body>
+<div class="page">
+    <nav class="nav">
+        <ul>
+            <li class="heading">
+                <a class="title-items" href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
+            </li>
+            <ul class=""><li class="heading isActive"><span>Beginner</span></li>
+<ul class=""><li class="heading isActive"><span>Front End</span></li>
+<ul class=""><li class="heading "><a href="./../../../Beginner/Front End/CSS/index.html">CSS</a></li>
+
+<li class="heading "><a href="./../../../Beginner/Front End/JavaScript/index.html">JavaScript</a></li>
+
+</ul>
+</ul>
+<li class="heading isActive"><span>More Advanced</span></li>
+<ul class=""><li class="heading isActive"><span>Basics</span></li>
+<ul class=""><li class="heading "><a href="./../../../More Advanced/Basics/CLI/index.html">CLI</a></li>
+<ul class=""><li class=""><a href="./../../../More Advanced/Basics/CLI/Nice-Editor.html">Nice Editor</a></li><li class=""><a href="./../../../More Advanced/Basics/CLI/shortcuts.html">shortcuts</a></li></ul>
+<li class="heading "><a href="./../../../More Advanced/Basics/GIT + SSH/index.html">GIT + SSH</a></li>
+<ul class=""><li class=""><a href="./../../../More Advanced/Basics/GIT + SSH/porcelain.html">porcelain</a></li></ul>
+<li class="heading "><a href="./../../../More Advanced/Basics/IDE + Code/index.html">IDE + Code</a></li>
+<ul class=""><li class=""><a href="./../../../More Advanced/Basics/IDE + Code/auto-formatting.html">auto formatting</a></li><li class=""><a href="./../../../More Advanced/Basics/IDE + Code/edit-over-SSH.html">edit over SSH</a></li></ul>
+<li class="heading "><a href="./../../../More Advanced/Basics/RegEx/index.html">RegEx</a></li>
+<ul class=""><li class=""><a href="./../../../More Advanced/Basics/RegEx/Basics.html">Basics</a></li><li class=""><a href="./../../../More Advanced/Basics/RegEx/HTML.html">HTML</a></li><li class=""><a href="./../../../More Advanced/Basics/RegEx/Javascript.html">Javascript</a></li><li class=""><a href="./../../../More Advanced/Basics/RegEx/Markdown.html">Markdown</a></li></ul>
+</ul>
+<li class="heading isActive"><span>Front End</span></li>
+<ul class=""><li class="heading "><a href="./../../../More Advanced/Front End/CSS/index.html">CSS</a></li>
+<ul class=""><li class=""><a href="./../../../More Advanced/Front End/CSS/frameworks.html">frameworks</a></li></ul>
+<li class="heading "><a href="./../../../More Advanced/Front End/JavaScript/index.html">JavaScript</a></li>
+<ul class=""><li class=""><a href="./../../../More Advanced/Front End/JavaScript/ES6.html">ES6</a></li><li class="heading "><a href="./../../../More Advanced/Front End/JavaScript/React/index.html">React</a></li>
+
+<li class=""><a href="./../../../More Advanced/Front End/JavaScript/looping.html">looping</a></li><li class=""><a href="./../../../More Advanced/Front End/JavaScript/sorting.html">sorting</a></li></ul>
+</ul>
+</ul>
+<li class="heading isActive"><span>SysAdmin</span></li>
+<ul class=""><li class="heading isActive"><span>Containers</span></li>
+<ul class=""><li class="heading childIsActive"><a href="./index.html">Docker</a></li>
+<ul class="isActive"><li class="isActive"><a href="./docker-compose.html">docker compose</a></li><li class=""><a href="./docker.html">docker</a></li><li class=""><a href="./help docker-compose.html">help docker compose</a></li><li class=""><a href="./help docker-run.html">help docker run</a></li><li class=""><a href="./help docker.html">help docker</a></li></ul>
+</ul>
+<li class="heading isActive"><span>Linux</span></li>
+<ul class=""><li class=""><a href="./../../Linux/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../../Linux/linux-from-scratch.html">linux from scratch</a></li></ul>
+<li class=""><a href="./../../Ports.html">Ports</a></li><li class=""><a href="./../../SSL.html">SSL</a></li></ul>
+</ul>
+        </ul>
+    </nav>
+    <main class="content">
+        <h1>docker compose</h1>
+<p><a href="https://docs.docker.com/engine/reference/builder/">https://docs.docker.com/engine/reference/builder/</a></p>
+<pre><code class="language-bash prettyprint"># Build everything defined in the .yml file  
+docker-compose build  
+  
+# Bring up the whole application defined in .yml file (all the individual services)  
+docker-compose up -d  
+  
+# Bring up only one service defined in the .yml file  
+docker-compose up -d rte  
+  
+# Or force a build during with the up command  
+docker-compose up -d --build  
+</code></pre>
+<h4>Build current folder (Dockerfile), allow port 8080</h4>
+<pre><code class="language-bash prettyprint">version: '3'  
+  
+services:  
+  servicename1:  
+    image: localrepo/name1:0.0.1  
+    build: .  
+    ports:  
+      - &quot;8080:8080&quot;  
+</code></pre>
+
+    </main>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+</html>

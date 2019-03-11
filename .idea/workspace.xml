@@ -2,8 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Communicating/SSL.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Communicating/SSL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/GIT + SSH/porcelain.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/auto-formatting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/edit-over-SSH.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/Basics.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/HTML.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/Javascript.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/Markdown.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/frameworks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/responsive.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/ES6.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/React/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/looping.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/sorting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Communicating/SSL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/Containers/cli help/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/Containers/cli help/docker-compose.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/Containers/cli help/docker-run.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/Containers/compose.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/Containers/docker.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/VMs/easy-deployment.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/VMs/linux-from-scratch.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/Nice-Editor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/shortcuts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/GIT + SSH/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/GIT + SSH/porcelain.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/auto-formatting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/edit-over-SSH.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/Basics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/HTML.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/Javascript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/Markdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/frameworks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/responsive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/ES6.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/React/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/looping.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/sorting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/Ports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/SSL.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/Containers/cli help/docker-compose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/Containers/cli help/docker-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/Containers/cli help/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/Containers/compose.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/Containers/docker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/VMs/easy-deployment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/VMs/linux-from-scratch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,11 +80,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md">
+        <entry file="file://$PROJECT_DIR$/docs/More Advanced/Front End/CSS/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="300">
+                <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -29,35 +92,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/README.md">
+        <entry file="file://$PROJECT_DIR$/docs/More Advanced/Front End/JavaScript/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="560">
-                <caret line="12" column="368" selection-start-line="12" selection-start-column="368" selection-end-line="12" selection-end-column="368" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/frameworks.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="720">
-                <caret line="29" column="155" selection-start-line="29" selection-start-column="155" selection-end-line="29" selection-end-column="155" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Server/Communicating/Ports.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="440">
-                <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <first_editor relative-caret-position="180">
+                <caret line="6" selection-start-line="6" selection-end-line="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -65,34 +104,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/Server/Communicating/SSL.md">
+        <entry file="file://$PROJECT_DIR$/docs/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor>
-                <caret column="16" selection-start-column="16" selection-end-column="16" />
+              <first_editor relative-caret-position="800">
+                <caret line="31" selection-start-line="31" selection-end-line="31" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Basics/GIT + SSH/porcelain.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="80">
-                <caret line="4" selection-start-line="4" selection-end-line="4" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.zprofile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" selection-start-line="2" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -145,11 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/Front End/CSS/responsive.md" />
-        <option value="$PROJECT_DIR$/docs/Front End/JavaScript/loops.md" />
-        <option value="$PROJECT_DIR$/docs/template.css" />
-        <option value="$PROJECT_DIR$/docs/Front End/JavaScript/React/README.md" />
-        <option value="$PROJECT_DIR$/docs/Front End/JavaScript/ES6.md" />
         <option value="$PROJECT_DIR$/docs/Front End/JavaScript/sorting.md" />
         <option value="$PROJECT_DIR$/docs/Basics/IDE + Code/auto-formatting.md" />
         <option value="$PROJECT_DIR$/docs/template.html" />
@@ -178,7 +191,6 @@
         <option value="$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md" />
         <option value="$PROJECT_DIR$/docs/Server/Docker/README.md" />
         <option value="$PROJECT_DIR$/docs/Server/Docker/compose.md" />
-        <option value="$PROJECT_DIR$/docs/README.md" />
         <option value="$PROJECT_DIR$/sh/testdocs" />
         <option value="$PROJECT_DIR$/sh/doc" />
         <option value="$PROJECT_DIR$/sh/pub" />
@@ -196,6 +208,12 @@
         <option value="$PROJECT_DIR$/docs/Front End/CSS/frameworks.md" />
         <option value="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" />
         <option value="$PROJECT_DIR$/docs/Server/Communicating/SSL.md" />
+        <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/README.md" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/README.md" />
+        <option value="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/responsive.md" />
+        <option value="$PROJECT_DIR$/docs/More Advanced/Front End/JavaScript/README.md" />
+        <option value="$PROJECT_DIR$/docs/README.md" />
       </list>
     </option>
   </component>
@@ -240,38 +258,20 @@
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="More Advanced" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Basics" type="462c0819:PsiDirectoryNode" />
-              <item name="GIT + SSH" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="More Advanced" type="462c0819:PsiDirectoryNode" />
               <item name="Front End" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="More Advanced" type="462c0819:PsiDirectoryNode" />
               <item name="Front End" type="462c0819:PsiDirectoryNode" />
               <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -279,21 +279,18 @@
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="More Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Communicating" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Server" type="462c0819:PsiDirectoryNode" />
-              <item name="Deployment" type="462c0819:PsiDirectoryNode" />
+              <item name="More Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="Front End" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
+              <item name="React" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
@@ -394,12 +391,12 @@
       <workItem from="1551808831454" duration="805000" />
       <workItem from="1551809879757" duration="411000" />
       <workItem from="1551928520821" duration="9007000" />
-      <workItem from="1552321676375" duration="2105000" />
+      <workItem from="1552321676375" duration="3222000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50205000" />
+    <option name="totallyTimeSpent" value="51322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="-1898" width="1079" height="1432" extended-state="0" />
@@ -430,40 +427,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/Front End/JavaScript/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="160">
-            <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/watch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.emacs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="38" column="15" lean-forward="true" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Basics/IDE + Code/Emacs.md" />
     <entry file="file://$PROJECT_DIR$/docs/Basics/IDE + Code/whatever.md" />
     <entry file="file://$PROJECT_DIR$/docs/Basics/IDE + Code/auto-formatting.md">
@@ -589,13 +552,6 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="61" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -615,16 +571,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="540">
             <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="240">
-            <caret line="6" column="120" selection-start-line="6" selection-start-column="120" selection-end-line="6" selection-end-column="120" />
           </first_editor>
           <second_editor />
         </state>
@@ -782,13 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.zprofile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Basics/GIT + SSH/porcelain.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -833,7 +772,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="440">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <caret line="18" selection-start-line="18" selection-end-line="18" />
           </first_editor>
           <second_editor />
         </state>
@@ -842,8 +781,80 @@
     <entry file="file://$PROJECT_DIR$/docs/Server/Communicating/SSL.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor>
-            <caret column="16" selection-start-column="16" selection-end-column="16" />
+          <first_editor relative-caret-position="60">
+            <caret line="2" column="119" lean-forward="true" selection-start-line="2" selection-start-column="119" selection-end-line="2" selection-end-column="119" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.zprofile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="120">
+            <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/More Advanced/Front End/CSS/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/More Advanced/Front End/JavaScript/sorting.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="40">
+            <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/More Advanced/Front End/CSS/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="300">
+            <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/More Advanced/Front End/JavaScript/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="180">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="800">
+            <caret line="31" selection-start-line="31" selection-end-line="31" />
           </first_editor>
           <second_editor />
         </state>

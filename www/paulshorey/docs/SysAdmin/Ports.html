@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link href="/assets/gfx/puzzle.ico" rel="shortcut icon" type="image/x-icon"/>
+
+    <link rel="stylesheet" type="text/css" href="/docs/template.css"/>
+</head>
+
+<body>
+<div class="page">
+    <nav class="nav">
+        <ul>
+            <li class="heading">
+                <a class="title-items" href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
+            </li>
+            <ul class=""><li class="heading isActive"><span>Beginner</span></li>
+<ul class=""><li class="heading isActive"><span>Front End</span></li>
+<ul class=""><li class="heading "><a href="./../Beginner/Front End/CSS/index.html">CSS</a></li>
+
+<li class="heading "><a href="./../Beginner/Front End/JavaScript/index.html">JavaScript</a></li>
+
+</ul>
+</ul>
+<li class="heading isActive"><span>More Advanced</span></li>
+<ul class=""><li class="heading isActive"><span>Basics</span></li>
+<ul class=""><li class="heading "><a href="./../More Advanced/Basics/CLI/index.html">CLI</a></li>
+<ul class=""><li class=""><a href="./../More Advanced/Basics/CLI/Nice-Editor.html">Nice Editor</a></li><li class=""><a href="./../More Advanced/Basics/CLI/shortcuts.html">shortcuts</a></li></ul>
+<li class="heading "><a href="./../More Advanced/Basics/GIT + SSH/index.html">GIT + SSH</a></li>
+<ul class=""><li class=""><a href="./../More Advanced/Basics/GIT + SSH/porcelain.html">porcelain</a></li></ul>
+<li class="heading "><a href="./../More Advanced/Basics/IDE + Code/index.html">IDE + Code</a></li>
+<ul class=""><li class=""><a href="./../More Advanced/Basics/IDE + Code/auto-formatting.html">auto formatting</a></li><li class=""><a href="./../More Advanced/Basics/IDE + Code/edit-over-SSH.html">edit over SSH</a></li></ul>
+<li class="heading "><a href="./../More Advanced/Basics/RegEx/index.html">RegEx</a></li>
+<ul class=""><li class=""><a href="./../More Advanced/Basics/RegEx/Basics.html">Basics</a></li><li class=""><a href="./../More Advanced/Basics/RegEx/HTML.html">HTML</a></li><li class=""><a href="./../More Advanced/Basics/RegEx/Javascript.html">Javascript</a></li><li class=""><a href="./../More Advanced/Basics/RegEx/Markdown.html">Markdown</a></li></ul>
+</ul>
+<li class="heading isActive"><span>Front End</span></li>
+<ul class=""><li class="heading "><a href="./../More Advanced/Front End/CSS/index.html">CSS</a></li>
+<ul class=""><li class=""><a href="./../More Advanced/Front End/CSS/frameworks.html">frameworks</a></li></ul>
+<li class="heading "><a href="./../More Advanced/Front End/JavaScript/index.html">JavaScript</a></li>
+<ul class=""><li class=""><a href="./../More Advanced/Front End/JavaScript/ES6.html">ES6</a></li><li class="heading "><a href="./../More Advanced/Front End/JavaScript/React/index.html">React</a></li>
+
+<li class=""><a href="./../More Advanced/Front End/JavaScript/looping.html">looping</a></li><li class=""><a href="./../More Advanced/Front End/JavaScript/sorting.html">sorting</a></li></ul>
+</ul>
+</ul>
+<li class="heading isActive"><span>SysAdmin</span></li>
+<ul class="isActive"><li class="heading isActive"><span>Containers</span></li>
+<ul class=""><li class="heading "><a href="./Containers/Docker/index.html">Docker</a></li>
+<ul class=""><li class=""><a href="./Containers/Docker/docker-compose.html">docker compose</a></li><li class=""><a href="./Containers/Docker/docker.html">docker</a></li><li class=""><a href="./Containers/Docker/help docker-compose.html">help docker compose</a></li><li class=""><a href="./Containers/Docker/help docker-run.html">help docker run</a></li><li class=""><a href="./Containers/Docker/help docker.html">help docker</a></li></ul>
+</ul>
+<li class="heading isActive"><span>Linux</span></li>
+<ul class=""><li class=""><a href="./Linux/easy-deployment.html">easy deployment</a></li><li class=""><a href="./Linux/linux-from-scratch.html">linux from scratch</a></li></ul>
+<li class="isActive"><a href="./Ports.html">Ports</a></li><li class=""><a href="./SSL.html">SSL</a></li></ul>
+</ul>
+        </ul>
+    </nav>
+    <main class="content">
+        <p><strong>Servers usually serve incoming visitor web traffic on port 80. So, <a href="http://google.com">http://google.com</a> is the same as <a href="http://google.com:80">http://google.com:80</a></strong><br>
+<br /></p>
+<p><strong>However</strong>, on your local Macbook, ports below <strong>1000</strong> are blocked. So, running a Node webserver on port <strong>80</strong> will not work. The browser url will try to go to port 80, but that request will not find its way to your system process.<br>
+<br /></p>
+<p><strong>That’s ok, we can run our server on port 1080 instead.</strong><br>
+<br /></p>
+<p>But if we want to run the server at just <code>http://localhost</code>, not <code>http://localhost:1080</code>? Then we have to redirect all incoming requests from port 80 to port 1080:</p>
+<pre><code>iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 80 -j REDIRECT --to-port 1080  
+iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 443 -j REDIRECT --to-port 1443  
+ufw allow 80/tcp  
+ufw allow 443/tcp  
+</code></pre>
+
+    </main>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+
+</html>
