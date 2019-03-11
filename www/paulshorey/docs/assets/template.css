@@ -55,7 +55,6 @@ h4 {
 .page {
     display: flex;
     min-height: 100vh;
-    overflow: hidden;
 }
 
 .page::before {

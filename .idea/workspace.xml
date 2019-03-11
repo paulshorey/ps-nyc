@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/docker-compose.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/docker-compose.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/docker.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-compose.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-compose.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-run.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-run.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SysAdmin/Linux/easy-deployment.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SysAdmin/Linux/easy-deployment.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SysAdmin/Linux/linux-from-scratch.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SysAdmin/Linux/linux-from-scratch.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SysAdmin/Ports.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SysAdmin/Ports.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/SysAdmin/SSL.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/SysAdmin/SSL.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/template.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/template.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,14 +63,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="40">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/assets/template.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="596">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -113,7 +113,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="40">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                <caret line="2" selection-start-line="2" selection-end-line="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -125,19 +125,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="20">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/SysAdmin/SSL.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="40">
-                <caret line="2" selection-start-line="2" selection-end-line="2" />
+                <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
@@ -192,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/watch.js" />
         <option value="$PROJECT_DIR$/www/paulshorey/index.html" />
         <option value="$PROJECT_DIR$/docs/Front End/JavaScript/README.md" />
         <option value="$PROJECT_DIR$/docs/Basics/IDE + Code/Emacs.md" />
@@ -243,6 +230,7 @@
         <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-compose.md" />
         <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-run.md" />
         <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/README.md" />
+        <option value="$PROJECT_DIR$/docs/assets/template.css" />
       </list>
     </option>
   </component>
@@ -426,12 +414,12 @@
       <workItem from="1551808831454" duration="805000" />
       <workItem from="1551809879757" duration="411000" />
       <workItem from="1551928520821" duration="9007000" />
-      <workItem from="1552321676375" duration="3967000" />
+      <workItem from="1552321676375" duration="4047000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52067000" />
+    <option name="totallyTimeSpent" value="52147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="-1898" width="1079" height="1432" extended-state="0" />
@@ -793,9 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/template.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -817,7 +802,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="20">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
@@ -827,7 +812,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="40">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
         </state>
@@ -897,9 +882,16 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="40">
-            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/assets/template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
