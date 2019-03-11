@@ -26,16 +26,16 @@
 
 </ul>
 </ul>
-<li class="heading isActive"><span>More Advanced</span></li>
+<li class="heading isActive"><span>Pro</span></li>
 <ul class=""><li class="heading isActive"><span>Basics</span></li>
-<ul class="isActive"><li class="heading "><a href="./../CLI/index.html">CLI</a></li>
+<ul class=""><li class="heading "><a href="./../CLI/index.html">CLI</a></li>
 <ul class=""><li class=""><a href="./../CLI/Nice-Editor.html">Nice Editor</a></li><li class=""><a href="./../CLI/shortcuts.html">shortcuts</a></li></ul>
-<li class="heading isActive"><a href="./index.html">GIT + SSH</a></li>
-<ul class=""><li class=""><a href="./porcelain.html">porcelain</a></li></ul>
+<li class="heading "><a href="./../GIT + SSH/index.html">GIT + SSH</a></li>
+<ul class=""><li class=""><a href="./../GIT + SSH/porcelain.html">porcelain</a></li></ul>
 <li class="heading "><a href="./../IDE + Code/index.html">IDE + Code</a></li>
 <ul class=""><li class=""><a href="./../IDE + Code/auto-formatting.html">auto formatting</a></li><li class=""><a href="./../IDE + Code/edit-over-SSH.html">edit over SSH</a></li></ul>
-<li class="heading "><a href="./../RegEx/index.html">RegEx</a></li>
-<ul class=""><li class=""><a href="./../RegEx/Basics.html">Basics</a></li><li class=""><a href="./../RegEx/HTML.html">HTML</a></li><li class=""><a href="./../RegEx/Javascript.html">Javascript</a></li><li class=""><a href="./../RegEx/Markdown.html">Markdown</a></li></ul>
+<li class="heading childIsActive"><a href="./index.html">RegEx</a></li>
+<ul class="isActive"><li class=""><a href="./Basics.html">Basics</a></li><li class=""><a href="./HTML.html">HTML</a></li><li class=""><a href="./Javascript.html">Javascript</a></li><li class="isActive"><a href="./Markdown.html">Markdown</a></li></ul>
 </ul>
 <li class="heading isActive"><span>Front End</span></li>
 <ul class=""><li class="heading "><a href="./../../Front End/CSS/index.html">CSS</a></li>
@@ -58,35 +58,21 @@
         </ul>
     </nav>
     <main class="content">
-        <h1>GIT</h1>
-<h3>Config</h3>
-<h4>Install ssh key on new device</h4>
-<pre><code class="language-bash prettyprint">echo &quot;{paste your ssh key contents}&quot; &gt;&gt; ~/.ssh/newssh  
-chmod -R 600 ~/.ssh/newssh  
-</code></pre>
-<h4>then, every time the CLI starts:</h4>
-<pre><code class="language-bash prettyprint">eval &quot;$(ssh-agent -s)&quot;  
-ssh-add ~/.ssh/newssh  
-</code></pre>
-<h4>set <code>~/.gitconfig</code> variables:</h4>
-<pre><code class="language-bash prettyprint">git config --global color.ui true  
-git config --global user.name Paul\ Shorey  
-git config --global user.email pshorey@beyond.ai  
-git config --global push.default simple  
-git config --global core.editor=ne  
-git config --global submodule.recurse=true  
-</code></pre>
-<p>Without <code>--global</code>, it edits local <code>./.git/config</code> file.</p>
-<h2>Best Practices</h2>
-<h4>pull (update)</h4>
-<p>When updating your local codebase, but a team mate changed some lines on the remote codebase, <strong><code>git pull</code></strong> actually does a <strong><code>merge</code></strong>. This leaves a mess of post-merge commit messages in your commit history.</p>
-<ul>
-<li>Try doing <strong><code>git pull --rebase</code></strong> which does not leave so many “merge” commits when working with others.</li>
-<li><strong>or</strong>, try <code>git stash</code> first, then <code>git pull</code>, then <code>git stash pop</code> to avoid having a merge/commit message for each pull operation.</li>
-</ul>
-<h4>rebase</h4>
-<p><strong><code>git rebase -i HEAD~3</code></strong> # 3, or however many commits you’d like to rename/squash<br>
-…</p>
+        <p><strong>CLI command “–help” output lines to Markdown file</strong><br>
+Find <code>\n(.*?) (([a-z]+) )?([A-Z])</code><br>
+Replace <code>\n**$1**\t_$2_\t$4</code></p>
+<p><strong>bold</strong><br>
+<code>\*\*([^\n```.]*)\*\*</code><br>
+Replace with bold inline code block<br>
+<strong><code>$1</code></strong></p>
+<p><strong>between parentheses and newline</strong><br>
+<code>\)\s?(.*?)\s?\n</code><br>
+Make the non-whitespace sentence of it bold<br>
+<code>) \t**$1**\n</code></p>
+<p><strong>whitespace on the left side of bold stars</strong><br>
+<code>\*\*\s?([A-Za-z])</code><br>
+Remove that whitespace<br>
+<code>**$1</code></p>
 
     </main>
 </div>

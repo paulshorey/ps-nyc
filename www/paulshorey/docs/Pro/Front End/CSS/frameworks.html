@@ -26,7 +26,7 @@
 
 </ul>
 </ul>
-<li class="heading isActive"><span>More Advanced</span></li>
+<li class="heading isActive"><span>Pro</span></li>
 <ul class=""><li class="heading isActive"><span>Basics</span></li>
 <ul class=""><li class="heading "><a href="./../../Basics/CLI/index.html">CLI</a></li>
 <ul class=""><li class=""><a href="./../../Basics/CLI/Nice-Editor.html">Nice Editor</a></li><li class=""><a href="./../../Basics/CLI/shortcuts.html">shortcuts</a></li></ul>
@@ -39,7 +39,7 @@
 </ul>
 <li class="heading isActive"><span>Front End</span></li>
 <ul class=""><li class="heading childIsActive"><a href="./index.html">CSS</a></li>
-<ul class="isActive"><li class=""><a href="./frameworks.html">frameworks</a></li><li class="isActive"><a href="./unusually responsive.html">unusually responsive</a></li></ul>
+<ul class="isActive"><li class="isActive"><a href="./frameworks.html">frameworks</a></li><li class=""><a href="./unusually responsive.html">unusually responsive</a></li></ul>
 <li class="heading "><a href="./../JavaScript/index.html">JavaScript</a></li>
 <ul class=""><li class=""><a href="./../JavaScript/ES6.html">ES6</a></li><li class="heading "><a href="./../JavaScript/React/index.html">React</a></li>
 
@@ -58,44 +58,38 @@
         </ul>
     </nav>
     <main class="content">
-        <h3>A responsive case study, this very page…</h3>
-<p>On the phone or small device, all this content and nav column does not fit on the screen. However, the typical hamburger icon and dropdown menu is very cumbersome and forces the user to sit through several operations before seeing the desired content</p>
-<blockquote>
-<ol>
-<li>find hamburger icon</li>
-<li>click on it</li>
-<li>wait for it to drop down</li>
-<li>scroll the nav dropdown to the desired link</li>
-</ol>
-</blockquote>
-<p>Ideally, on a mobile site, I want to access the navigation and content seamlessly, quickly, without much clicking and waiting. The problem isn’t time, but that the content of the screen changes - appears, dissapears. This is stressful, a lack of control. Scrolling is sometimes more intuitive. The hamburger icon is great, when you want to preserve your layout, and present your brand in a clean and well designed way. But this is just a documentation note taking site.</p>
-<p>So, I decided to keep the vertical nav menu as is, only limit the screen from getting too small. Text will always be big enough to be legible with this meta tag:</p>
-<pre><code class="language-html prettyprint">&lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width&quot;&gt;
-</code></pre>
-<p>Now, to get to the content, all you have to do is scroll right. To get to the nav, scroll left. Quick and simple! Now the tricky part, to make the content legible on the small screen. Fortunately, that is very easy:</p>
-<pre><code class="language-css prettyprint">.content {  max-width: 100vw;  } 
-</code></pre>
-<p>Unfortunately, this page/site has a bunch of <code>&lt;pre&gt;</code> and other elements which sometimes take up <code>1000px</code> or more of width. So this makes it more complicated. The above fix would work with simple text, like blog posts. But, we need:</p>
-<pre><code class="language-css prettyprint">/* mobile scrolling */
-.content {
-    max-width: 100vw;
-    overflow-x: hidden;
-    box-sizing: border-box;
-}
-.content pre,
- .content code {
-    max-width: 100vw;
-    overflow-x: auto;
-    position: relative;
-}
-@media (max-width: 720px) {
-    .content {
-        min-width: 100vw;
-    }
-}
-</code></pre>
-<h2>The rest of the text, and even images, divs, padding, etc…</h2>
-<p>See the main index.html/README.md for this section.</p>
+        <h3>Bootstrap</h3>
+<p>People only use Bootstrap because “everyone” uses Bootstrap, and because it has a great name, not because of the merits of that framework.</p>
+<p>Unfortunately, Bootstrap is poorely written, buggy, not aligned (sloppy), looks cheap, and most importantly, it badly clutters your global namespace. So, when you create a new class name like <code>.map</code> or <code>.error</code>, it may or may not be taken over by one of Bootstrap’s hundreds of class names on the global namespace.</p>
+<p>If you must use Bootstrap, try this:<br>
+<a href="https://www.google.com/search?q=bootstrap+namespace+conflict&amp;oq=bootstrap+namespace&amp;aqs=chrome.2.69i57j0l5.4104j1j7&amp;sourceid=chrome&amp;ie=UTF-8">https://www.google.com/search?q=bootstrap+namespace+conflict&amp;oq=bootstrap+namespace&amp;aqs=chrome.2.69i57j0l5.4104j1j7&amp;sourceid=chrome&amp;ie=UTF-8</a></p>
+<h3>Consider these alternatives:</h3>
+<p><strong>Static sites (with jQuery):</strong></p>
+<ul>
+<li><a href="https://bulma.io/alternative-to-bootstrap/">Bulma</a></li>
+<li><a href="https://www.agriya.com/blog/15-alternatives-bootstrap-foundation-skeleton/">several alternatives</a></li>
+</ul>
+<p><strong>React app:</strong></p>
+<ul>
+<li><a href="https://material-ui.com/%E2%80%8B">Material UI</a> (standard)</li>
+<li><a href="https://blueprintjs.com/">Blueprint</a> (Powerful and customizable! Unfortunately, their documentation/examples are difficult)</li>
+<li><a href="https://ant.design/docs/react/introduce">Ant design</a></li>
+</ul>
+<p><strong>Angular app:</strong></p>
+<ul>
+<li>Angular Material (standard)</li>
+<li><a href="https://ng.ant.design/docs/introduce/en%E2%80%8B">Ant design</a> (alternative, minimal outlined look without so much solid color)</li>
+</ul>
+<p><strong>Worth considering:</strong></p>
+<ul>
+<li><a href="https://docs.atlassian.com/aui">AUI (Atlassian UI)</a><br>
+<br />Two ways to use:
+<ul>
+<li><strong>CSS + Javascript</strong> - perfect for static sites. Alternative to jQueryUI.</li>
+<li><strong>CSS only</strong> - can be used with React or Angular or anything, not for dynamic components like a datepicker, but just to give the page layout (like header, nav, menus, buttons) that polished “enterprise” feel.</li>
+</ul>
+</li>
+</ul>
 
     </main>
 </div>
