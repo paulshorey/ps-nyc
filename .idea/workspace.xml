@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/CSS/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/frameworks.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Front End/CSS/frameworks.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/files/WebStormSettings.zip" beforeDir="false" afterPath="$PROJECT_DIR$/docs/assets/files/WebStormSettings.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Server/Communicating/SSL.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Communicating/SSL.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,7 +21,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="95">
-                <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+                <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -41,12 +40,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/frameworks.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="280">
-                <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <first_editor relative-caret-position="720">
+                <caret line="29" column="155" selection-start-line="29" selection-start-column="155" selection-end-line="29" selection-end-column="155" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/Server/Communicating/Ports.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="440">
+                <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/Server/Communicating/SSL.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor>
+                <caret column="16" selection-start-column="16" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -122,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/paulshorey/assets/css/home.css" />
         <option value="$PROJECT_DIR$/docs/Front End/CSS/responsive.md" />
         <option value="$PROJECT_DIR$/docs/Front End/JavaScript/loops.md" />
         <option value="$PROJECT_DIR$/docs/template.css" />
@@ -130,7 +152,6 @@
         <option value="$PROJECT_DIR$/docs/Front End/JavaScript/ES6.md" />
         <option value="$PROJECT_DIR$/docs/Front End/JavaScript/sorting.md" />
         <option value="$PROJECT_DIR$/docs/Basics/IDE + Code/auto-formatting.md" />
-        <option value="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" />
         <option value="$PROJECT_DIR$/docs/template.html" />
         <option value="$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md" />
         <option value="$PROJECT_DIR$/www/paulshorey/chat.html" />
@@ -173,6 +194,8 @@
         <option value="$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md" />
         <option value="$PROJECT_DIR$/docs/Front End/CSS/README.md" />
         <option value="$PROJECT_DIR$/docs/Front End/CSS/frameworks.md" />
+        <option value="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" />
+        <option value="$PROJECT_DIR$/docs/Server/Communicating/SSL.md" />
       </list>
     </option>
   </component>
@@ -264,6 +287,13 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="Server" type="462c0819:PsiDirectoryNode" />
               <item name="Communicating" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+              <item name="Deployment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
@@ -364,12 +394,12 @@
       <workItem from="1551808831454" duration="805000" />
       <workItem from="1551809879757" duration="411000" />
       <workItem from="1551928520821" duration="9007000" />
-      <workItem from="1552321676375" duration="1968000" />
+      <workItem from="1552321676375" duration="2105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50068000" />
+    <option name="totallyTimeSpent" value="50205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="-1898" width="1079" height="1432" extended-state="0" />
@@ -400,20 +430,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.jshintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/paulshorey/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="131" column="37" lean-forward="true" selection-start-line="131" selection-start-column="37" selection-end-line="131" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Front End/JavaScript/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -787,7 +803,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="95">
-            <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+            <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
@@ -806,8 +822,28 @@
     <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/frameworks.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="280">
-            <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <first_editor relative-caret-position="720">
+            <caret line="29" column="155" selection-start-line="29" selection-start-column="155" selection-end-line="29" selection-end-column="155" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Server/Communicating/Ports.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="440">
+            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Server/Communicating/SSL.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor>
+            <caret column="16" selection-start-column="16" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
