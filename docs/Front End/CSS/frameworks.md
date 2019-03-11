@@ -8,7 +8,7 @@ If you must use Bootstrap, try this:
 https://www.google.com/search?q=bootstrap+namespace+conflict&oq=bootstrap+namespace&aqs=chrome.2.69i57j0l5.4104j1j7&sourceid=chrome&ie=UTF-8  
   
   
-### Here are some better UI libraries:  
+### Consider these alternatives:  
   
 **Static sites (with jQuery):**  
 * [Bulma](https://bulma.io/alternative-to-bootstrap/)  
