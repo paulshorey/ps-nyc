@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Communicating/GIT-+-SSH.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Server/Communicating/GIT-+-SSH.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,36 +15,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Server/Communicating/GIT-+-SSH.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="271">
-                <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+              <first_editor relative-caret-position="315">
+                <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/Basics/GIT + SSH/porcelain.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-68">
-                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <first_editor relative-caret-position="80">
+                <caret line="4" selection-start-line="4" selection-end-line="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -159,9 +144,9 @@
         <option value="$PROJECT_DIR$/api/v1/chat/index.js" />
         <option value="$PROJECT_DIR$/api/package.json" />
         <option value="$PROJECT_DIR$/docs/Server/Communicating/GIT-+-SSH.md" />
-        <option value="$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md" />
         <option value="$PROJECT_DIR$/docs/Basics/GIT + SSH/shortcuts.md" />
         <option value="$PROJECT_DIR$/docs/Basics/GIT + SSH/porcelain.md" />
+        <option value="$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md" />
       </list>
     </option>
   </component>
@@ -327,12 +312,12 @@
       <workItem from="1551808831454" duration="805000" />
       <workItem from="1551809879757" duration="411000" />
       <workItem from="1551928520821" duration="9007000" />
-      <workItem from="1552321676375" duration="1318000" />
+      <workItem from="1552321676375" duration="1713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49418000" />
+    <option name="totallyTimeSpent" value="49813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="-1898" width="1079" height="1432" extended-state="0" />
@@ -732,16 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.aliases.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
@@ -759,8 +734,18 @@
     <entry file="file://$PROJECT_DIR$/docs/Basics/GIT + SSH/porcelain.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-68">
-            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <first_editor relative-caret-position="80">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           </first_editor>
           <second_editor />
         </state>

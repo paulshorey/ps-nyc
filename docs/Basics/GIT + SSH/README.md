@@ -24,7 +24,11 @@ Without `--global`, it edits local `./.git/config` file.
   
   
 ## Best Practices  
-**`git pull `** actually does git fetch;  
-**`git merge`** actually, should do **`git pull --rebase`** which does not leave so many "merge" commits when working with others  
   
-​
+#### pull (update)  
+When updating your local codebase, but a team mate changed some lines on the remote codebase, **`git pull`** actually does a **`merge`**. This leaves a mess of post-merge commit messages in your commit history.  
+* Try doing **`git pull --rebase`** which does not leave so many "merge" commits when working with others.  
+* **or**, try `git stash` first, then `git pull`, then `git stash pop` to avoid having a merge/commit message for each pull operation.  
+  
+#### rebase  
+Coming soon...

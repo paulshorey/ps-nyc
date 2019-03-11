@@ -71,9 +71,14 @@ git config --global submodule.recurse=true
 </code></pre>
 <p>Without <code>--global</code>, it edits local <code>./.git/config</code> file.</p>
 <h2>Best Practices</h2>
-<p><strong><code>git pull</code></strong> actually does git fetch;<br>
-<strong><code>git merge</code></strong> actually, should do <strong><code>git pull --rebase</code></strong> which does not leave so many “merge” commits when working with others</p>
-<p>​</p>
+<h4>pull (update)</h4>
+<p>When updating your local codebase, but a team mate changed some lines on the remote codebase, <strong><code>git pull</code></strong> actually does a <strong><code>merge</code></strong>. This leaves a mess of post-merge commit messages in your commit history.</p>
+<ul>
+<li>Try doing <strong><code>git pull --rebase</code></strong> which does not leave so many “merge” commits when working with others.</li>
+<li><strong>or</strong>, try <code>git stash</code> first, then <code>git pull</code>, then <code>git stash pop</code> to avoid having a merge/commit message for each pull operation.</li>
+</ul>
+<h4>rebase</h4>
+<p>Coming soon…</p>
 
     </main>
 </div>
