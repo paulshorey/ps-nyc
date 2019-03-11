@@ -2,71 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/Nice-Editor.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/CLI/shortcuts.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/GIT + SSH/porcelain.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/auto-formatting.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/IDE + Code/edit-over-SSH.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/Basics.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/HTML.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/Javascript.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/Markdown.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Basics/RegEx/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/frameworks.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front End/CSS/responsive.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/ES6.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/React/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/looping.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Front End/JavaScript/sorting.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Communicating/SSL.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/Containers/cli help/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/Containers/cli help/docker-compose.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/Containers/cli help/docker-run.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/Containers/compose.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/Containers/docker.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/VMs/easy-deployment.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Server/Deployment/VMs/linux-from-scratch.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/Nice-Editor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI/shortcuts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/GIT + SSH/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/GIT + SSH/porcelain.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/auto-formatting.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/edit-over-SSH.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/IDE + Code/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/Basics.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/HTML.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/Javascript.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/Markdown.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Basics/RegEx/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/frameworks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/CSS/responsive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/ES6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/React/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/looping.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Front End/JavaScript/sorting.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/Ports.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Communicating/SSL.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/Containers/cli help/docker-compose.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/Containers/cli help/docker-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/Containers/cli help/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/Containers/compose.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/Containers/docker.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/VMs/easy-deployment.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/Server/Deployment/VMs/linux-from-scratch.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/docs/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -107,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/docs/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="800">
-                <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <first_editor relative-caret-position="860">
+                <caret line="34" selection-start-line="34" selection-end-line="34" />
               </first_editor>
               <second_editor />
             </state>
@@ -391,12 +327,12 @@
       <workItem from="1551808831454" duration="805000" />
       <workItem from="1551809879757" duration="411000" />
       <workItem from="1551928520821" duration="9007000" />
-      <workItem from="1552321676375" duration="3222000" />
+      <workItem from="1552321676375" duration="3248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51322000" />
+    <option name="totallyTimeSpent" value="51348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="-1898" width="1079" height="1432" extended-state="0" />
@@ -853,8 +789,8 @@
     <entry file="file://$PROJECT_DIR$/docs/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="800">
-            <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <first_editor relative-caret-position="860">
+            <caret line="34" selection-start-line="34" selection-end-line="34" />
           </first_editor>
           <second_editor />
         </state>
