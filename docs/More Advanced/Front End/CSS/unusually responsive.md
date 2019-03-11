@@ -4,7 +4,8 @@ On the phone or small device, all this content and nav column does not fit on th
 > 1. find hamburger icon
 > 2. click on it
 > 3. wait for it to drop down
-> 4. scroll the nav dropdown to the desired link
+> 4. scroll the nav dropdown to the desired link   
+
 Ideally, on a mobile site, I want to access the navigation and content seamlessly, quickly, without much clicking and waiting. The problem isn't time, but that the content of the screen changes - appears, dissapears. This is stressful, a lack of control. Scrolling is sometimes more intuitive. The hamburger icon is great, when you want to preserve your layout, and present your brand in a clean and well designed way. But this is just a documentation note taking site.
 
 So, I decided to keep the vertical nav menu as is, only limit the screen from getting too small. Text will always be big enough to be legible with this meta tag:
