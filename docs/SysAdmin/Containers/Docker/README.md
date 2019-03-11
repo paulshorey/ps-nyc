@@ -1,1 +1,1 @@
-<script>window.scrollBy(1000, 0);</script>
+<script>window.scrollTo(0,document.body.scrollHeight);</script>
