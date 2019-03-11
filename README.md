@@ -8,15 +8,15 @@ Currently using and contributing to `markdown-folder-to-html` project.
 <br />  
   
 ### Dev (test local changes)  
-Shortcut: **`sh/run`** runs bash script
+Shortcut: **`sh/run`** runs bash script  
 ```bash  
 # first install node and npm  
-# npm install;
+# npm install;  
 http-server www/paulshorey # or whatever site to test  
 ```  
 <br />  
   
-### Build docs (deploy local changes)
+### Build docs (deploy local changes)  
 Shortcut: **`sh/doc`** runs bash script  
 ```bash  
 # first install node and npm  
@@ -27,9 +27,9 @@ npm run docs;
 ```  
 <br />  
   
-### Publish (to server)
-Shortcut: **`sh/pub`** runs bash script:
-```bash
+### Publish (to server)  
+Shortcut: **`sh/pub`** runs bash script:  
+```bash  
 # first setup GIT+SSH  
 git add.;  
 git commit -m 'comment';  
@@ -37,5 +37,5 @@ git push;
 # github webhook sends POST TO http://paulshorey.com:9999/_deploy  
         # which is caught by running node process on server, in _deploy.js  
         # it executes bash _deploy.sh, which does  `git pull` to get latest files  
-```
+```  
 <br />  

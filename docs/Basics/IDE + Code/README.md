@@ -109,3 +109,8 @@ And theme/colors/plugins.
 ```  
     File > Import Settings  
 ```  
+**Keyboard shortcuts (for above settings file)**  
+* Ctrl + F        ~ new folder  
+* Ctrl + N        ~ new file  
+* Ctrl + R        ~ rename file/folder  
+ 

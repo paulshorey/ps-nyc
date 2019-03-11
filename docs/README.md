@@ -33,7 +33,7 @@ Instead, this is a way to document more abstract or trivial ideas, in a more lit
 * Maybe fix underlying codebase to not convert filename strings to (a href="") elements  
 * Experiment with this: https://markdowntomedium.com/  
   
-
+  
   
 # This website was auto-generated  
 from [my repository](http://github.com/paulshorey/ps) `./docs` folder, using [paulshorey/markdown-folder-to-html](https://github.com/paulshorey/markdown-folder-to-html), which is an experimental copy of [joakin/markdown-folder-to-html](https://github.com/joakin/markdown-folder-to-html).  

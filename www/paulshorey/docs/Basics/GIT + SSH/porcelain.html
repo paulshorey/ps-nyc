@@ -18,10 +18,10 @@
                 <a class="title-items" href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
             </li>
             <ul class=""><li class="heading isActive"><span>Basics</span></li>
-<ul class=""><li class="heading childIsActive"><a href="./index.html">CLI</a></li>
-<ul class="isActive"><li class=""><a href="./Nice-Editor.html">Nice Editor</a></li><li class="isActive"><a href="./shortcuts.html">shortcuts</a></li></ul>
-<li class="heading "><a href="./../GIT + SSH/index.html">GIT + SSH</a></li>
-<ul class=""><li class=""><a href="./../GIT + SSH/porcelain.html">porcelain</a></li></ul>
+<ul class=""><li class="heading "><a href="./../CLI/index.html">CLI</a></li>
+<ul class=""><li class=""><a href="./../CLI/Nice-Editor.html">Nice Editor</a></li><li class=""><a href="./../CLI/shortcuts.html">shortcuts</a></li></ul>
+<li class="heading childIsActive"><a href="./index.html">GIT + SSH</a></li>
+<ul class="isActive"><li class="isActive"><a href="./porcelain.html">porcelain</a></li></ul>
 <li class="heading "><a href="./../IDE + Code/index.html">IDE + Code</a></li>
 <ul class=""><li class=""><a href="./../IDE + Code/auto-formatting.html">auto formatting</a></li><li class=""><a href="./../IDE + Code/edit-over-SSH.html">edit over SSH</a></li></ul>
 <li class="heading "><a href="./../RegEx/index.html">RegEx</a></li>
@@ -51,7 +51,31 @@
         </ul>
     </nav>
     <main class="content">
-        <h1>~/.aliases.sh</h1>
+        <h1>Porcelain == Abstraction</h1>
+<ul>
+<li>####Emacs has Magit, which is agreed to be the best set of GIT shortcuts</li>
+<li>
+<h4>VsCode has GitLens, and a very handy Diff UI</h4>
+</li>
+</ul>
+<h2>I have some custom shortcuts</h2>
+<h4>include them, and other settings in <code>~/.profile</code> or <code>~/.zprofile</code>:</h4>
+<pre><code class="language-bash prettyprint"># GIT  
+source ~/.aliases.sh;  
+  
+eval &quot;$(ssh-agent -s)&quot;;  
+ssh-add ~/.ssh/newssh;  
+  
+# EDITORS  
+alias sublime='open -a /Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text';  
+alias vscode='open -a /Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron';  
+alias webstorm='open -a /Applications/WebStorm.app/Contents/MacOS/webstorm';  
+  
+export EDITOR=ne  
+  
+# ETC  
+</code></pre>
+<h4><code>~/.aliases.sh</code>:</h4>
 <pre><code class="language-bash prettyprint">#!/usr/bin/env bash  
   
 # RESET TO HEAD  
