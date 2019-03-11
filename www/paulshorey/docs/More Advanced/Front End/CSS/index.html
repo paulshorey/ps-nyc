@@ -59,6 +59,15 @@
     </nav>
     <main class="content">
         <h3>Units and Responsive design:</h3>
+<h4>First, a quick case study, this very page…</h4>
+<p>On the phone or small device, all this content and nav column does not fit on the screen. However, the typical hamburger icon and dropdown menu is very cumbersome and bulky. Ideally, on a mobile site, I want to access the navigation and content seamlessly, quickly, without much clicking and waiting.
+So, I decided to keep the vertical nav menu as is, only limit the screen from getting too small. Text will always be big enough to be legible with this meta tag:</p>
+<pre><code class="language-html prettyprint">&lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width&quot;&gt;
+</code></pre>
+<p>Now, to get to the content, all you have to do is scroll right. To get to the nav, scroll left. Quick and simple! Now the tricky part, to make the content legible on the small screen. Fortunately, that is very easy:</p>
+<pre><code class="language-css prettyprint">.content {  max-width: 100vw;  } 
+</code></pre>
+<h2>The rest of the text, and even images, divs, padding, etc…</h2>
 <h4>With only a little work, your pixel sizes can scale proportionally with the viewer’s screen size.</h4>
 <p>But that’s not all. Keep reading, and this applies also to ALL CSS properties, not just font-size. Also margin, padding, top, left, border, width, height, etc. They can all be responsive just by adding some dynamic text sizes.</p>
 <pre><code class="language-css prettyprint">/* set your default text size for the page */  
