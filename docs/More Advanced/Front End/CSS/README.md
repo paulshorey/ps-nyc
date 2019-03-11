@@ -1,16 +1,4 @@
 ### Units and Responsive design:
-
-#### First, a quick case study, this very page...
-On the phone or small device, all this content and nav column does not fit on the screen. However, the typical hamburger icon and dropdown menu is very cumbersome and bulky. Ideally, on a mobile site, I want to access the navigation and content seamlessly, quickly, without much clicking and waiting. 
-So, I decided to keep the vertical nav menu as is, only limit the screen from getting too small. Text will always be big enough to be legible with this meta tag:
-```html
-<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-```
-Now, to get to the content, all you have to do is scroll right. To get to the nav, scroll left. Quick and simple! Now the tricky part, to make the content legible on the small screen. Fortunately, that is very easy:
-```css
-.content {  max-width: 100vw;  } 
-```
-## The rest of the text, and even images, divs, padding, etc...
 #### With only a little work, your pixel sizes can scale proportionally with the viewer's screen size.  
 But that's not all. Keep reading, and this applies also to ALL CSS properties, not just font-size. Also margin, padding, top, left, border, width, height, etc. They can all be responsive just by adding some dynamic text sizes.  
   

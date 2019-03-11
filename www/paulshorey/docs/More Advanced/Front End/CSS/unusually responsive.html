@@ -38,12 +38,12 @@
 <ul class=""><li class=""><a href="./../../Basics/RegEx/Basics.html">Basics</a></li><li class=""><a href="./../../Basics/RegEx/HTML.html">HTML</a></li><li class=""><a href="./../../Basics/RegEx/Javascript.html">Javascript</a></li><li class=""><a href="./../../Basics/RegEx/Markdown.html">Markdown</a></li></ul>
 </ul>
 <li class="heading isActive"><span>Front End</span></li>
-<ul class=""><li class="heading "><a href="./../CSS/index.html">CSS</a></li>
-<ul class=""><li class=""><a href="./../CSS/frameworks.html">frameworks</a></li><li class=""><a href="./../CSS/unusually responsive.html">unusually responsive</a></li></ul>
-<li class="heading childIsActive"><a href="./index.html">JavaScript</a></li>
-<ul class="isActive"><li class=""><a href="./ES6.html">ES6</a></li><li class="heading "><a href="./React/index.html">React</a></li>
+<ul class=""><li class="heading childIsActive"><a href="./index.html">CSS</a></li>
+<ul class="isActive"><li class=""><a href="./frameworks.html">frameworks</a></li><li class="isActive"><a href="./unusually responsive.html">unusually responsive</a></li></ul>
+<li class="heading "><a href="./../JavaScript/index.html">JavaScript</a></li>
+<ul class=""><li class=""><a href="./../JavaScript/ES6.html">ES6</a></li><li class="heading "><a href="./../JavaScript/React/index.html">React</a></li>
 
-<li class=""><a href="./looping.html">looping</a></li><li class="isActive"><a href="./sorting.html">sorting</a></li></ul>
+<li class=""><a href="./../JavaScript/looping.html">looping</a></li><li class=""><a href="./../JavaScript/sorting.html">sorting</a></li></ul>
 </ul>
 </ul>
 <li class="heading isActive"><span>SysAdmin</span></li>
@@ -58,8 +58,43 @@
         </ul>
     </nav>
     <main class="content">
-        <h1>[].sort() and such…</h1>
-<p>coming soon…</p>
+        <h3>A responsive case study, this very page…</h3>
+<p>On the phone or small device, all this content and nav column does not fit on the screen. However, the typical hamburger icon and dropdown menu is very cumbersome and forces the user to sit through several operations before seeing the desired content</p>
+<blockquote>
+<ol>
+<li>find hamburger icon</li>
+<li>click on it</li>
+<li>wait for it to drop down</li>
+<li>scroll the nav dropdown to the desired link
+Ideally, on a mobile site, I want to access the navigation and content seamlessly, quickly, without much clicking and waiting. The problem isn’t time, but that the content of the screen changes - appears, dissapears. This is stressful, a lack of control. Scrolling is sometimes more intuitive. The hamburger icon is great, when you want to preserve your layout, and present your brand in a clean and well designed way. But this is just a documentation note taking site.</li>
+</ol>
+</blockquote>
+<p>So, I decided to keep the vertical nav menu as is, only limit the screen from getting too small. Text will always be big enough to be legible with this meta tag:</p>
+<pre><code class="language-html prettyprint">&lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width&quot;&gt;
+</code></pre>
+<p>Now, to get to the content, all you have to do is scroll right. To get to the nav, scroll left. Quick and simple! Now the tricky part, to make the content legible on the small screen. Fortunately, that is very easy:</p>
+<pre><code class="language-css prettyprint">.content {  max-width: 100vw;  } 
+</code></pre>
+<p>Unfortunately, this page/site has a bunch of <code>&lt;pre&gt;</code> and other elements which sometimes take up <code>1000px</code> or more of width. So this makes it more complicated. The above fix would work with simple text, like blog posts. But, we need:</p>
+<pre><code class="language-css prettyprint">/* mobile scrolling */
+.content {
+    max-width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+.content * {
+    max-width: 100vw;
+    overflow-x: auto;
+    position: relative;
+}
+@media (max-width: 720px) {
+    .content {
+        min-width: 100vw;
+    }
+}
+</code></pre>
+<h2>The rest of the text, and even images, divs, padding, etc…</h2>
+<p>See the main index.html/README.md for this section.</p>
 
     </main>
 </div>

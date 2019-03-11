@@ -215,7 +215,25 @@ h4 {
     background: rgba(255, 255, 252, 0.36);
     line-height: 1.4rem;
     color: rgba(15, 15, 15, 0.66);
+}
+
+/* mobile scrolling */
+.content {
     max-width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.content * {
+    max-width: 100vw;
+    overflow-x: auto;
+    position: relative;
+}
+
+@media (max-width: 720px) {
+    .content {
+        min-width: 100vw;
+    }
 }
 
 .content h1,
