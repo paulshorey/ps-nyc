@@ -3,7 +3,8 @@
 **`cd`** enter directory of choice, like this for example:  
 ```bash  
 cd ~  
-cd /  
+cd ..  
+cd /tmp  
 cd Documents  
 cd /Volumes/Media/Photos\ 2018  
 ```  
