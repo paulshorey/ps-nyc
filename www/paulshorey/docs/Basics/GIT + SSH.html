@@ -19,13 +19,13 @@
                 <a class="title-items" href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
             </li>
             <ul class=""><li class="heading isActive"><span>Basics</span></li>
-<ul class=""><li class="heading isActive"><span>Front End</span></li>
-<ul class=""><li class="heading "><a href="./../Basics/Front End/CSS/index.html">CSS</a></li>
+<ul class="isActive"><li class="heading isActive"><span>Front End</span></li>
+<ul class=""><li class="heading "><a href="./Front End/CSS/index.html">CSS</a></li>
 
-<li class="heading "><a href="./../Basics/Front End/JavaScript/index.html">JavaScript</a></li>
+<li class="heading "><a href="./Front End/JavaScript/index.html">JavaScript</a></li>
 
 </ul>
-<li class=""><a href="./../Basics/GIT + SSH.html">GIT + SSH</a></li></ul>
+<li class="isActive"><a href="./GIT + SSH.html">GIT + SSH</a></li></ul>
 <li class="heading isActive"><span>Pro Tips</span></li>
 <ul class=""><li class="heading isActive"><span>Basics</span></li>
 <ul class=""><li class="heading "><a href="./../Pro Tips/Basics/CLI/index.html">CLI</a></li>
@@ -47,20 +47,35 @@
 </ul>
 </ul>
 <li class="heading isActive"><span>SysAdmin</span></li>
-<ul class="isActive"><li class="heading isActive"><span>Containers</span></li>
-<ul class=""><li class="heading "><a href="./Containers/Docker/index.html">Docker</a></li>
-<ul class=""><li class=""><a href="./Containers/Docker/docker-compose.html">docker compose</a></li><li class=""><a href="./Containers/Docker/docker.html">docker</a></li><li class=""><a href="./Containers/Docker/help docker-compose.html">help docker compose</a></li><li class=""><a href="./Containers/Docker/help docker-run.html">help docker run</a></li><li class=""><a href="./Containers/Docker/help docker.html">help docker</a></li></ul>
+<ul class=""><li class="heading isActive"><span>Containers</span></li>
+<ul class=""><li class="heading "><a href="./../SysAdmin/Containers/Docker/index.html">Docker</a></li>
+<ul class=""><li class=""><a href="./../SysAdmin/Containers/Docker/docker-compose.html">docker compose</a></li><li class=""><a href="./../SysAdmin/Containers/Docker/docker.html">docker</a></li><li class=""><a href="./../SysAdmin/Containers/Docker/help docker-compose.html">help docker compose</a></li><li class=""><a href="./../SysAdmin/Containers/Docker/help docker-run.html">help docker run</a></li><li class=""><a href="./../SysAdmin/Containers/Docker/help docker.html">help docker</a></li></ul>
 </ul>
 <li class="heading isActive"><span>Linux</span></li>
-<ul class=""><li class=""><a href="./Linux/easy-deployment.html">easy deployment</a></li><li class=""><a href="./Linux/linux-from-scratch.html">linux from scratch</a></li></ul>
-<li class=""><a href="./Ports.html">Ports</a></li><li class="isActive"><a href="./SSL.html">SSL</a></li></ul>
+<ul class=""><li class=""><a href="./../SysAdmin/Linux/easy-deployment.html">easy deployment</a></li><li class=""><a href="./../SysAdmin/Linux/linux-from-scratch.html">linux from scratch</a></li></ul>
+<li class=""><a href="./../SysAdmin/Ports.html">Ports</a></li><li class=""><a href="./../SysAdmin/SSL.html">SSL</a></li></ul>
 </ul>
         </ul>
     </nav>
     <main class="content">
-        <script>window.scrollTo(0,document.body.scrollHeight);</script>  
-<p>Coming soon…</p>
-<p><a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-18-04">https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-apache-in-ubuntu-18-04</a></p>
+        <h1>Configs</h1>
+<h4>Install ssh key on new device</h4>
+<pre><code class="language-bash prettyprint">echo &quot;{paste your ssh key contents}&quot; &gt;&gt; ~/.ssh/newssh  
+chmod -R 600 ~/.ssh/newssh  
+</code></pre>
+<h4>then, every time the CLI starts:</h4>
+<pre><code class="language-bash prettyprint">eval &quot;$(ssh-agent -s)&quot;  
+ssh-add ~/.ssh/newssh  
+</code></pre>
+<h4>set <code>~/.gitconfig</code> variables:</h4>
+<pre><code class="language-bash prettyprint">git config --global color.ui true  
+git config --global user.name Paul\ Shorey  
+git config --global user.email pshorey@beyond.ai  
+git config --global push.default simple  
+git config --global core.editor=ne  
+git config --global submodule.recurse=true  
+</code></pre>
+<p>Without <code>--global</code>, it edits local <code>./.git/config</code> file.</p>
 
     </main>
 </div>
