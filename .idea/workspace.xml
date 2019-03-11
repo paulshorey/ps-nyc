@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/porcelain.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/porcelain.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/carteblanchejazzband/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/carteblanchejazzband/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,19 +65,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="420">
-                <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="1307">
-                <caret line="248" column="3" selection-start-line="248" selection-start-column="3" selection-end-line="248" selection-end-column="3" />
+                <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -86,13 +73,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/porcelain.md">
+        <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="440">
-                <caret line="20" column="23" lean-forward="true" selection-end-line="248" selection-end-column="3" />
+              <first_editor relative-caret-position="580">
+                <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/carteblanchejazzband/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="520" column="62" selection-start-line="520" selection-start-column="62" selection-end-line="520" selection-end-column="62" />
+              <folding>
+                <element signature="n#style#0;n#p#11;n#div#0;n#div#0;n#div#0;n#div#13;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,6 +140,7 @@
       <find>\s\*\*\n</find>
       <find>[\s]*?\n</find>
       <find>\n\*\*</find>
+      <find>fineandrare</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -166,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/Basics/IDE + Code/whatever.md" />
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/IDE-Examples.md" />
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/Javascript.md" />
         <option value="$PROJECT_DIR$/docs/Basics/RegEx/Basics.md" />
@@ -217,6 +216,7 @@
         <option value="$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/porcelain.md" />
         <option value="$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md" />
         <option value="$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/README.md" />
+        <option value="$PROJECT_DIR$/www/carteblanchejazzband/index.html" />
       </list>
     </option>
   </component>
@@ -274,6 +274,13 @@
               <item name="ps" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="GIT + SSH" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -295,7 +302,31 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="Pro Tips" type="462c0819:PsiDirectoryNode" />
               <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="CLI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Pro Tips" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
               <item name="GIT + SSH" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Pro Tips" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="IDE + Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="Pro Tips" type="462c0819:PsiDirectoryNode" />
+              <item name="Basics" type="462c0819:PsiDirectoryNode" />
+              <item name="RegEx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
@@ -343,37 +374,13 @@
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="sh" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ps" type="b2602c69:ProjectViewProjectNode" />
               <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="chat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="error" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="carteblanchejazzband" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -443,12 +450,12 @@
       <workItem from="1551808831454" duration="805000" />
       <workItem from="1551809879757" duration="411000" />
       <workItem from="1551928520821" duration="9007000" />
-      <workItem from="1552321676375" duration="6359000" />
+      <workItem from="1552321676375" duration="6876000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54459000" />
+    <option name="totallyTimeSpent" value="54976000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="103" y="-1898" width="1079" height="1432" extended-state="0" />
@@ -479,9 +486,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -898,7 +902,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="420">
-            <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+            <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           </first_editor>
           <second_editor />
         </state>
@@ -917,10 +921,20 @@
     <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="1307">
-            <caret line="248" column="3" selection-start-line="248" selection-start-column="3" selection-end-line="248" selection-end-column="3" />
+          <first_editor relative-caret-position="580">
+            <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/carteblanchejazzband/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="520" column="62" selection-start-line="520" selection-start-column="62" selection-end-line="520" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#p#11;n#div#0;n#div#0;n#div#0;n#div#13;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
