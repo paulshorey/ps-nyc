@@ -1,3 +1,5 @@
+<script>window.scrollTo(0,document.body.scrollHeight);</script>  
+  
 **Servers usually serve incoming visitor web traffic on port 80. So, http://google.com is the same as http://google.com:80**  
 <br />  
   

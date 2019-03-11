@@ -1,3 +1,5 @@
+<script>window.scrollTo(0,document.body.scrollHeight);</script>  
+  
 ### Continuous Integration the quick and easy way...  
 Assuming your codebase is in /www/$(hostname)  
   
