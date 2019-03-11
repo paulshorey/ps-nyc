@@ -1,6 +1,5 @@
-### CSS is not hard. Just review the properties at the bottom of this page.  
-  
-### And know these gotchas/oddities:  
+### CSS is not hard. Just review the properties at the bottom of this page, and know these gotchas/oddities:  
+
 #### Aligning vs. Centering  
 * To **"vertically-align"** something, we mean to align some text or image, or icon relative to its siblings. To make text or a link look good next to a button or icon. To accomplish this, simply put **`vertical-align:middle`** on every **SIBLING**. The container doesn't matter.  
 * To **"vertically-center"** something is to actually place a small element visibly in the middle of a larger element. You may think to off-set the child from the top with `padding` or `margin-top` or just `top`, but that would require you to know the exact height of the parent and child, and any other contents which could shove the child out of center. Instead, use  **`display:flex;align-items:center`** on the **PARENT**, and the web browser will take care of the sizing.  

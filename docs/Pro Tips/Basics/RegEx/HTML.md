@@ -1,4 +1,5 @@
 ### HTML:  
+
 search `(\s*)</script>` replace `</script>` puts all closing tags on same line  
   
 `\ ?data-(.*?)"(.*?)" `  
