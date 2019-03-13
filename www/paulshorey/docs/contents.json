@@ -10,6 +10,10 @@
       "children": [
         {
           "type": "file",
+          "value": "Basics/GIT + SSH.md"
+        },
+        {
+          "type": "file",
           "value": "Basics/CLI.md"
         },
         {
@@ -37,10 +41,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "file",
-          "value": "Basics/GIT + SSH.md"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "children": [
         {
           "type": "dir",
-          "name": "Basics",
+          "name": "Dev",
           "children": [
             {
               "type": "dir",
@@ -58,11 +58,11 @@
               "children": [
                 {
                   "type": "file",
-                  "value": "Pro Tips/Basics/CLI/Nice-Editor.md"
+                  "value": "Pro Tips/Dev/CLI/index.md"
                 },
                 {
                   "type": "file",
-                  "value": "Pro Tips/Basics/CLI/index.md"
+                  "value": "Pro Tips/Dev/CLI/Nice-Editor.md"
                 }
               ]
             },
@@ -72,7 +72,7 @@
               "children": [
                 {
                   "type": "file",
-                  "value": "Pro Tips/Basics/GIT + SSH/index.md"
+                  "value": "Pro Tips/Dev/GIT + SSH/index.md"
                 }
               ]
             },
@@ -82,15 +82,15 @@
               "children": [
                 {
                   "type": "file",
-                  "value": "Pro Tips/Basics/IDE + Code/index.md"
+                  "value": "Pro Tips/Dev/IDE + Code/edit-over-SSH.md"
                 },
                 {
                   "type": "file",
-                  "value": "Pro Tips/Basics/IDE + Code/auto-formatting.md"
+                  "value": "Pro Tips/Dev/IDE + Code/auto-formatting.md"
                 },
                 {
                   "type": "file",
-                  "value": "Pro Tips/Basics/IDE + Code/edit-over-SSH.md"
+                  "value": "Pro Tips/Dev/IDE + Code/index.md"
                 }
               ]
             },
@@ -100,23 +100,23 @@
               "children": [
                 {
                   "type": "file",
-                  "value": "Pro Tips/Basics/RegEx/Basics.md"
+                  "value": "Pro Tips/Dev/RegEx/index.md"
                 },
                 {
                   "type": "file",
-                  "value": "Pro Tips/Basics/RegEx/HTML.md"
+                  "value": "Pro Tips/Dev/RegEx/Markdown.md"
                 },
                 {
                   "type": "file",
-                  "value": "Pro Tips/Basics/RegEx/Javascript.md"
+                  "value": "Pro Tips/Dev/RegEx/Javascript.md"
                 },
                 {
                   "type": "file",
-                  "value": "Pro Tips/Basics/RegEx/Markdown.md"
+                  "value": "Pro Tips/Dev/RegEx/HTML.md"
                 },
                 {
                   "type": "file",
-                  "value": "Pro Tips/Basics/RegEx/index.md"
+                  "value": "Pro Tips/Dev/RegEx/Basics.md"
                 }
               ]
             }
@@ -132,7 +132,7 @@
               "children": [
                 {
                   "type": "file",
-                  "value": "Pro Tips/Front End/CSS/index.md"
+                  "value": "Pro Tips/Front End/CSS/unusually responsive.md"
                 },
                 {
                   "type": "file",
@@ -140,7 +140,7 @@
                 },
                 {
                   "type": "file",
-                  "value": "Pro Tips/Front End/CSS/unusually responsive.md"
+                  "value": "Pro Tips/Front End/CSS/index.md"
                 }
               ]
             },
@@ -150,11 +150,19 @@
               "children": [
                 {
                   "type": "file",
-                  "value": "Pro Tips/Front End/JavaScript/ES6.md"
+                  "value": "Pro Tips/Front End/JavaScript/sorting.md"
+                },
+                {
+                  "type": "file",
+                  "value": "Pro Tips/Front End/JavaScript/looping.md"
                 },
                 {
                   "type": "file",
                   "value": "Pro Tips/Front End/JavaScript/index.md"
+                },
+                {
+                  "type": "file",
+                  "value": "Pro Tips/Front End/JavaScript/ES6.md"
                 },
                 {
                   "type": "dir",
@@ -165,14 +173,6 @@
                       "value": "Pro Tips/Front End/JavaScript/React/index.md"
                     }
                   ]
-                },
-                {
-                  "type": "file",
-                  "value": "Pro Tips/Front End/JavaScript/looping.md"
-                },
-                {
-                  "type": "file",
-                  "value": "Pro Tips/Front End/JavaScript/sorting.md"
                 }
               ]
             }
@@ -185,6 +185,14 @@
       "name": "SysAdmin",
       "children": [
         {
+          "type": "file",
+          "value": "SysAdmin/SSL.md"
+        },
+        {
+          "type": "file",
+          "value": "SysAdmin/Ports.md"
+        },
+        {
           "type": "dir",
           "name": "Containers",
           "children": [
@@ -194,19 +202,7 @@
               "children": [
                 {
                   "type": "file",
-                  "value": "SysAdmin/Containers/Docker/index.md"
-                },
-                {
-                  "type": "file",
-                  "value": "SysAdmin/Containers/Docker/docker-compose.md"
-                },
-                {
-                  "type": "file",
-                  "value": "SysAdmin/Containers/Docker/docker.md"
-                },
-                {
-                  "type": "file",
-                  "value": "SysAdmin/Containers/Docker/help docker-compose.md"
+                  "value": "SysAdmin/Containers/Docker/help docker.md"
                 },
                 {
                   "type": "file",
@@ -214,7 +210,19 @@
                 },
                 {
                   "type": "file",
-                  "value": "SysAdmin/Containers/Docker/help docker.md"
+                  "value": "SysAdmin/Containers/Docker/help docker-compose.md"
+                },
+                {
+                  "type": "file",
+                  "value": "SysAdmin/Containers/Docker/docker.md"
+                },
+                {
+                  "type": "file",
+                  "value": "SysAdmin/Containers/Docker/docker-compose.md"
+                },
+                {
+                  "type": "file",
+                  "value": "SysAdmin/Containers/Docker/index.md"
                 }
               ]
             }
@@ -226,21 +234,13 @@
           "children": [
             {
               "type": "file",
-              "value": "SysAdmin/Linux/easy-deployment.md"
+              "value": "SysAdmin/Linux/linux-from-scratch.md"
             },
             {
               "type": "file",
-              "value": "SysAdmin/Linux/linux-from-scratch.md"
+              "value": "SysAdmin/Linux/easy-deployment.md"
             }
           ]
-        },
-        {
-          "type": "file",
-          "value": "SysAdmin/Ports.md"
-        },
-        {
-          "type": "file",
-          "value": "SysAdmin/SSL.md"
         }
       ]
     }
@@ -256,8 +256,8 @@
     {
       "path": "Basics/CLI.md",
       "url": "Basics/CLI.html",
-      "content": "#### Common Commands:  \n  \n**`cd`** enter directory of choice, like this for example:  \n```bash  \ncd ~  \ncd ..  \ncd /tmp  \ncd Documents  \ncd /Volumes/Media/Photos\\ 2018  \n```  \n**`Ctrl C`** quit running process (to re-gain control of the CLI)  \n**`fg`** resume suspended process, after accidentally doing `Ctrl X`  \n<br /><br />  \n  \n  \n  \n#### Files and Folders:  \n**`ls`** see contents of current directory  \n**`ls -a`** see all contents, including hidden files/folders  \n  \nEditing files inside the terminal:  \n**`vim Filename.txt`** \"vim\" is usually the default CLI text editor. Nice Editor is much nicer!  \n**`Esc`**, then **`q!`**, then **`Enter`** exit vim without saving  \n**`Esc`**, then **`wq`**, then **`Enter`** save changes, and exit  \n  \nAlternately, in Nice Editor:  \n**`ne Filename.txt`**  \n**`^s ^q`** save changes, and exit  \n**`^q`**, then **`y`** to exit without saving changes (y was to confirm prompt)  \n<br /><br />  \n  \n  \n<br /><br />  \n  \n  \n",
-      "html": "<h4>Common Commands:</h4>\n<p><strong><code>cd</code></strong> enter directory of choice, like this for example:</p>\n<pre><code class=\"language-bash\">cd ~  \ncd ..  \ncd /tmp  \ncd Documents  \ncd /Volumes/Media/Photos\\ 2018  \n</code></pre>\n<p><strong><code>Ctrl C</code></strong> quit running process (to re-gain control of the CLI)<br>\n<strong><code>fg</code></strong> resume suspended process, after accidentally doing <code>Ctrl X</code><br>\n<br /><br /></p>\n<h4>Files and Folders:</h4>\n<p><strong><code>ls</code></strong> see contents of current directory<br>\n<strong><code>ls -a</code></strong> see all contents, including hidden files/folders</p>\n<p>Editing files inside the terminal:<br>\n<strong><code>vim Filename.txt</code></strong> “vim” is usually the default CLI text editor. Nice Editor is much nicer!<br>\n<strong><code>Esc</code></strong>, then <strong><code>q!</code></strong>, then <strong><code>Enter</code></strong> exit vim without saving<br>\n<strong><code>Esc</code></strong>, then <strong><code>wq</code></strong>, then <strong><code>Enter</code></strong> save changes, and exit</p>\n<p>Alternately, in Nice Editor:<br>\n<strong><code>ne Filename.txt</code></strong><br>\n<strong><code>^s ^q</code></strong> save changes, and exit<br>\n<strong><code>^q</code></strong>, then <strong><code>y</code></strong> to exit without saving changes (y was to confirm prompt)<br>\n<br /><br /></p>\n<p><br /><br /></p>\n",
+      "content": "\n* `ls` prints out contents of current directory   \n* `pwd` see the full path of current directory\n\n* starting path with `~` searches user's Home directory  \n* starting path with `/` searches the base/root of the computer\n\nstarting with `/` points to the root (base) of the computer filesystem\nso, `/www` looks for `www` in the base, beginning of the computer\nonly `www` looks for `www` in the current directory ONLY\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n#### Browsing and Running files:  \n  \n**`cd`** enter directory of choice, like this for example:  \n```bash  \ncd ~  \ncd ..  \ncd /tmp  \ncd Documents  \ncd /Volumes/Media/Photos\\ 2018  \n```  \n**`open .`** open something (follow by path of file to open)\n        `open -t ~/.ssh/newssh.pub` open in default desktop text editor, outside of terminal\n\n*copy text file to memory:*\n**`cat ~/ssh/newssh.pub | pbcopy`**\n\n**`Ctrl C`** quit running process (to re-gain control of the CLI)  \n**`fg`** resume suspended process, after accidentally doing `Ctrl X`  \n<br /><br />  \n  \n  \n#### Files and Folders:  \n**`ls`** see contents of current directory  \n**`ls -a`** see all contents, including hidden files/folders  \n  \nEditing files inside the terminal:  \n**`vim Filename.txt`** \"vim\" is usually the default CLI text editor. Nice Editor is much nicer!  \n**`Esc`**, then **`q!`**, then **`Enter`** exit vim without saving  \n**`Esc`**, then **`wq`**, then **`Enter`** save changes, and exit  \n  \nAlternately, in Nice Editor:  \n**`ne Filename.txt`**  \n**`^s ^q`** save changes, and exit  \n**`^q`**, then **`y`** to exit without saving changes (y was to confirm prompt)  \n<br /><br />  \n  \n  \n<br /><br />  \n  \n  \n",
+      "html": "<ul>\n<li>\n<p><code>ls</code> prints out contents of current directory</p>\n</li>\n<li>\n<p><code>pwd</code> see the full path of current directory</p>\n</li>\n<li>\n<p>starting path with <code>~</code> searches user’s Home directory</p>\n</li>\n<li>\n<p>starting path with <code>/</code> searches the base/root of the computer</p>\n</li>\n</ul>\n<p>starting with <code>/</code> points to the root (base) of the computer filesystem\nso, <code>/www</code> looks for <code>www</code> in the base, beginning of the computer\nonly <code>www</code> looks for <code>www</code> in the current directory ONLY</p>\n<h4>Browsing and Running files:</h4>\n<p><strong><code>cd</code></strong> enter directory of choice, like this for example:</p>\n<pre><code class=\"language-bash\">cd ~  \ncd ..  \ncd /tmp  \ncd Documents  \ncd /Volumes/Media/Photos\\ 2018  \n</code></pre>\n<p><strong><code>open .</code></strong> open something (follow by path of file to open)\n<code>open -t ~/.ssh/newssh.pub</code> open in default desktop text editor, outside of terminal</p>\n<p><em>copy text file to memory:</em>\n<strong><code>cat ~/ssh/newssh.pub | pbcopy</code></strong></p>\n<p><strong><code>Ctrl C</code></strong> quit running process (to re-gain control of the CLI)<br>\n<strong><code>fg</code></strong> resume suspended process, after accidentally doing <code>Ctrl X</code><br>\n<br /><br /></p>\n<h4>Files and Folders:</h4>\n<p><strong><code>ls</code></strong> see contents of current directory<br>\n<strong><code>ls -a</code></strong> see all contents, including hidden files/folders</p>\n<p>Editing files inside the terminal:<br>\n<strong><code>vim Filename.txt</code></strong> “vim” is usually the default CLI text editor. Nice Editor is much nicer!<br>\n<strong><code>Esc</code></strong>, then <strong><code>q!</code></strong>, then <strong><code>Enter</code></strong> exit vim without saving<br>\n<strong><code>Esc</code></strong>, then <strong><code>wq</code></strong>, then <strong><code>Enter</code></strong> save changes, and exit</p>\n<p>Alternately, in Nice Editor:<br>\n<strong><code>ne Filename.txt</code></strong><br>\n<strong><code>^s ^q</code></strong> save changes, and exit<br>\n<strong><code>^q</code></strong>, then <strong><code>y</code></strong> to exit without saving changes (y was to confirm prompt)<br>\n<br /><br /></p>\n<p><br /><br /></p>\n",
       "id": 1
     },
     {
@@ -270,8 +270,8 @@
     {
       "path": "Basics/Front End/JavaScript/index.md",
       "url": "Basics/Front End/JavaScript/index.html",
-      "content": "# How to loop over Arrays  \n```javascript  \n    /*  \"forEach\" is preferred because of this option to skip the loop item */  \n    arr.forEach(function(item, i){  \n        if (!item) {  \n            return;  \n        }  \n        console.log(item);  \n    });  \n```  \n```javascript  \n    /* \"for\" works well, but is verbose */  \n    for (let i = 0; i < arr.length; i++) {  \n        const item = arr[i];  \n        console.log(item, i);  \n    }  \n```  \n```javascript  \n    /* \"for of\" works fine, but is annoying because I have to manage all my own variables */  \n    let i = 0;  \n    for (let item of arr) {  \n        console.log(item, i);  \n        i++;  \n    }  \n```  \n```javascript  \n    /* \"while\" is not recommended because you have to remember to increment the index */  \n    let i = 0;  \n    while (i<arr.length) {  \n        const item = arr[i];  \n        console.log(item, i);  \n        i++;  \n    }  \n```  \n```javascript  \n    /* \"for in\" is not recommended. It iterates indexed items, as well as named properties! */  \n    /* yes, btw, Arrays can have named properties, just like Objects */  \n    for (const i in arr) {  \n        const item = arr[i];  \n        console.log(item, i);  \n    }  \n```  \n##  \n# How to loop over Objects  \n```javascript  \n    /* \"for in\" */  \n    for (const key in obj) {  \n        const value = obj[key];  \n        console.log(value, key);  \n    }  \n```  \n##  \n# How to loop over Strings  \n```javascript  \n    /*  \"forEach\" */  \n    \"some word\".forEach(function(letter, i){  \n        if (letter===\" \") {  \n            return;  \n        }  \n        console.log(letter);  \n    });  \n```  \n##  \n# How to loop over Numbers (well, you can't, but...)  \n```javascript  \n    const loop_min = 0;  \n    const loop_max = 100;  \n    const loop_inc = 1;  \n```  \n```javascript  \n    /* \"while\" */  \n    let num = loop_min;  \n    while (num<loop_max) {  \n        /* do something with num */  \n        num += loop_inc;  \n    }  \n```  \n```javascript  \n    /* \"for\" */  \n    for (let i = loop_min; i < loop_max; i++) {  \n        /* do something with num */  \n        num += loop_inc;  \n    }  \n```",
-      "html": "<h1>How to loop over Arrays</h1>\n<pre><code class=\"language-javascript\">    /*  &quot;forEach&quot; is preferred because of this option to skip the loop item */  \n    arr.forEach(function(item, i){  \n        if (!item) {  \n            return;  \n        }  \n        console.log(item);  \n    });  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;for&quot; works well, but is verbose */  \n    for (let i = 0; i &lt; arr.length; i++) {  \n        const item = arr[i];  \n        console.log(item, i);  \n    }  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;for of&quot; works fine, but is annoying because I have to manage all my own variables */  \n    let i = 0;  \n    for (let item of arr) {  \n        console.log(item, i);  \n        i++;  \n    }  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;while&quot; is not recommended because you have to remember to increment the index */  \n    let i = 0;  \n    while (i&lt;arr.length) {  \n        const item = arr[i];  \n        console.log(item, i);  \n        i++;  \n    }  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;for in&quot; is not recommended. It iterates indexed items, as well as named properties! */  \n    /* yes, btw, Arrays can have named properties, just like Objects */  \n    for (const i in arr) {  \n        const item = arr[i];  \n        console.log(item, i);  \n    }  \n</code></pre>\n<h2></h2>\n<h1>How to loop over Objects</h1>\n<pre><code class=\"language-javascript\">    /* &quot;for in&quot; */  \n    for (const key in obj) {  \n        const value = obj[key];  \n        console.log(value, key);  \n    }  \n</code></pre>\n<h2></h2>\n<h1>How to loop over Strings</h1>\n<pre><code class=\"language-javascript\">    /*  &quot;forEach&quot; */  \n    &quot;some word&quot;.forEach(function(letter, i){  \n        if (letter===&quot; &quot;) {  \n            return;  \n        }  \n        console.log(letter);  \n    });  \n</code></pre>\n<h2></h2>\n<h1>How to loop over Numbers (well, you can’t, but…)</h1>\n<pre><code class=\"language-javascript\">    const loop_min = 0;  \n    const loop_max = 100;  \n    const loop_inc = 1;  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;while&quot; */  \n    let num = loop_min;  \n    while (num&lt;loop_max) {  \n        /* do something with num */  \n        num += loop_inc;  \n    }  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;for&quot; */  \n    for (let i = loop_min; i &lt; loop_max; i++) {  \n        /* do something with num */  \n        num += loop_inc;  \n    }  \n</code></pre>\n",
+      "content": "* [Mozilla Developer Network](https://developer.mozilla.org/en-US/search?q=sort&topic=api&topic=css&topic=canvas&topic=html&topic=http&topic=js&topic=mobile&topic=apps&topic=svg&topic=webdev&topic=standards&topic=webext&topic=webgl) is an excellent reference website to **search** for Javascript features, like in this link, you search `sort`, and the first answer is `Array.prototype.sort`, which is what you use for sorting lists alphabetically, by size or length, or using more complex logic.\n\n* [FreeCodeCamp.Org](https://guide.freecodecamp.org/miscellaneous/capitalize-the-first-letter-of-a-string/) is an excellent website to **browse** for Javascript features. Or, [search it using google](first letter site:freecodecamp.org).\n\n\n## How to loop over Arrays  \n```javascript  \n    /*  \"forEach\" is preferred because of this option to skip the loop item */  \n    arr.forEach(function(item, i){  \n        if (!item) {  \n            return;  \n        }  \n        console.log(item);  \n    });  \n```  \n```javascript  \n    /* \"for\" works well, but is verbose */  \n    for (let i = 0; i < arr.length; i++) {  \n        const item = arr[i];  \n        console.log(item, i);  \n    }  \n```  \n```javascript  \n    /* \"for of\" works fine, but is annoying because I have to manage all my own variables */  \n    let i = 0;  \n    for (let item of arr) {  \n        console.log(item, i);  \n        i++;  \n    }  \n```  \n```javascript  \n    /* \"while\" is not recommended because you have to remember to increment the index */  \n    let i = 0;  \n    while (i<arr.length) {  \n        const item = arr[i];  \n        console.log(item, i);  \n        i++;  \n    }  \n```  \n```javascript  \n    /* \"for in\" is not recommended. It iterates indexed items, as well as named properties! */  \n    /* yes, btw, Arrays can have named properties, just like Objects */  \n    for (const i in arr) {  \n        const item = arr[i];  \n        console.log(item, i);  \n    }  \n```  \n##  \n# How to loop over Objects  \n```javascript  \n    /* \"for in\" */  \n    for (const key in obj) {  \n        const value = obj[key];  \n        console.log(value, key);  \n    }  \n```  \n##  \n# How to loop over Strings  \n```javascript  \n    /*  \"forEach\" */  \n    \"some word\".forEach(function(letter, i){  \n        if (letter===\" \") {  \n            return;  \n        }  \n        console.log(letter);  \n    });  \n```  \n##  \n# How to loop over Numbers (well, you can't, but...)  \n```javascript  \n    const loop_min = 0;  \n    const loop_max = 100;  \n    const loop_inc = 1;  \n```  \n```javascript  \n    /* \"while\" */  \n    let num = loop_min;  \n    while (num<loop_max) {  \n        /* do something with num */  \n        num += loop_inc;  \n    }  \n```  \n```javascript  \n    /* \"for\" */  \n    for (let i = loop_min; i < loop_max; i++) {  \n        /* do something with num */  \n        num += loop_inc;  \n    }  \n```",
+      "html": "<ul>\n<li>\n<p><a href=\"https://developer.mozilla.org/en-US/search?q=sort&amp;topic=api&amp;topic=css&amp;topic=canvas&amp;topic=html&amp;topic=http&amp;topic=js&amp;topic=mobile&amp;topic=apps&amp;topic=svg&amp;topic=webdev&amp;topic=standards&amp;topic=webext&amp;topic=webgl\">Mozilla Developer Network</a> is an excellent reference website to <strong>search</strong> for Javascript features, like in this link, you search <code>sort</code>, and the first answer is <code>Array.prototype.sort</code>, which is what you use for sorting lists alphabetically, by size or length, or using more complex logic.</p>\n</li>\n<li>\n<p><a href=\"https://guide.freecodecamp.org/miscellaneous/capitalize-the-first-letter-of-a-string/\">FreeCodeCamp.Org</a> is an excellent website to <strong>browse</strong> for Javascript features. Or, [search it using google](first letter site:freecodecamp.org).</p>\n</li>\n</ul>\n<h2>How to loop over Arrays</h2>\n<pre><code class=\"language-javascript\">    /*  &quot;forEach&quot; is preferred because of this option to skip the loop item */  \n    arr.forEach(function(item, i){  \n        if (!item) {  \n            return;  \n        }  \n        console.log(item);  \n    });  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;for&quot; works well, but is verbose */  \n    for (let i = 0; i &lt; arr.length; i++) {  \n        const item = arr[i];  \n        console.log(item, i);  \n    }  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;for of&quot; works fine, but is annoying because I have to manage all my own variables */  \n    let i = 0;  \n    for (let item of arr) {  \n        console.log(item, i);  \n        i++;  \n    }  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;while&quot; is not recommended because you have to remember to increment the index */  \n    let i = 0;  \n    while (i&lt;arr.length) {  \n        const item = arr[i];  \n        console.log(item, i);  \n        i++;  \n    }  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;for in&quot; is not recommended. It iterates indexed items, as well as named properties! */  \n    /* yes, btw, Arrays can have named properties, just like Objects */  \n    for (const i in arr) {  \n        const item = arr[i];  \n        console.log(item, i);  \n    }  \n</code></pre>\n<h2></h2>\n<h1>How to loop over Objects</h1>\n<pre><code class=\"language-javascript\">    /* &quot;for in&quot; */  \n    for (const key in obj) {  \n        const value = obj[key];  \n        console.log(value, key);  \n    }  \n</code></pre>\n<h2></h2>\n<h1>How to loop over Strings</h1>\n<pre><code class=\"language-javascript\">    /*  &quot;forEach&quot; */  \n    &quot;some word&quot;.forEach(function(letter, i){  \n        if (letter===&quot; &quot;) {  \n            return;  \n        }  \n        console.log(letter);  \n    });  \n</code></pre>\n<h2></h2>\n<h1>How to loop over Numbers (well, you can’t, but…)</h1>\n<pre><code class=\"language-javascript\">    const loop_min = 0;  \n    const loop_max = 100;  \n    const loop_inc = 1;  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;while&quot; */  \n    let num = loop_min;  \n    while (num&lt;loop_max) {  \n        /* do something with num */  \n        num += loop_inc;  \n    }  \n</code></pre>\n<pre><code class=\"language-javascript\">    /* &quot;for&quot; */  \n    for (let i = loop_min; i &lt; loop_max; i++) {  \n        /* do something with num */  \n        num += loop_inc;  \n    }  \n</code></pre>\n",
       "id": 3
     },
     {
@@ -282,78 +282,78 @@
       "id": 4
     },
     {
-      "path": "Pro Tips/Basics/CLI/Nice-Editor.md",
-      "url": "Pro Tips/Basics/CLI/Nice-Editor.html",
+      "path": "Pro Tips/Dev/CLI/Nice-Editor.md",
+      "url": "Pro Tips/Dev/CLI/Nice-Editor.html",
       "content": "# EDITOR=ne  \nA \"nice\" editor. By far the most intuitive CLI editor to use, supports some basic features and bindings. `Ctr S` to save. `Ctr Q` to quit. `Esc Esc` for an actual dropdown UI, right in the terminal. It's magic!  \n  \n#### Make Default:  \n```  \necho \"export EDITOR=ne\" >> ~/.profile  # if you use the standard Mac terminal  \necho \"export EDITOR=ne\" >> ~/.zprofile  # if you use Zsh  \necho \"[core]\\n\\teditor = ne\" >> ~/.gitconfig  # to use it for git messages  \n```  \nRestart the terminal, then you'll be able to do:  \n```  \nne myFile.txt # to edit stuff  \ngit commit # to commit, as usual, but without having to use Vim  \n```  \n  \n#### Documentation:  \n[NiceEditorDocs.pdf](../../assets/files/NiceEditorDocs.pdf)  \n  \n## Keyboard Shortcuts:  \n(when using the custom ~/.ne/.keys configuration below)  \n  \n> **^s**, **^q** - save, quit  \n> **^z**, **^r**  - undo, redo  \n> **^x**, **^c**, **^v**  - cut, copy, paste  \n> **^y**  - delete current line  \n> **^u**  - paste deleted line  \n>  \n> **^d** - delete line  \n> **^w**, **^e** - start of, end of line  \n  \n## Custom Key Bindings:  \n1. hit: **`^k`**  \n2. type: **`kc`**  \n3. hit **`key`** to see its hex code and currently bound command  \n4. **`echo 'KEY {CODE} {ACTION}' >> ~/.ne/.keys`**  \n  \n> **`fn + a`**  \n> To convert any key (`delete`) to fn-key (`fn + delete`), just add a prefix `0x` before the key code.  \n> Key code for `delete` is `115`. So, key code for `fn + delete` would be `0x115`.  \n  \n**Documentation:** http://www.emerson.emory.edu/services/editors/ne/Key_Bindings.html  \n**Defaults:** https://github.com/vigna/ne/blob/master/doc/default.keys​  \n  \n## Sample ~/.ne/.keys file:  \n  \n    # [delete]  \n    KEY     0x7f    Backspace  \n    # [ctrl]+[z]  \n    KEY     0x1a    Undo  \n    # [ctrl]+[r]  \n    KEY     0x12    Redo  \n  \n    # [ctrl]+[d](delete line)  \n    KEY     0x04    DL  \n    # [ctrl]+[w]=(start of line)  \n    KEY     0x17    SOL  \n    # [ctrl]+[e]=(end of line)  \n    KEY     0x05    EOL  \n",
       "html": "<h1>EDITOR=ne</h1>\n<p>A “nice” editor. By far the most intuitive CLI editor to use, supports some basic features and bindings. <code>Ctr S</code> to save. <code>Ctr Q</code> to quit. <code>Esc Esc</code> for an actual dropdown UI, right in the terminal. It’s magic!</p>\n<h4>Make Default:</h4>\n<pre><code>echo &quot;export EDITOR=ne&quot; &gt;&gt; ~/.profile  # if you use the standard Mac terminal  \necho &quot;export EDITOR=ne&quot; &gt;&gt; ~/.zprofile  # if you use Zsh  \necho &quot;[core]\\n\\teditor = ne&quot; &gt;&gt; ~/.gitconfig  # to use it for git messages  \n</code></pre>\n<p>Restart the terminal, then you’ll be able to do:</p>\n<pre><code>ne myFile.txt # to edit stuff  \ngit commit # to commit, as usual, but without having to use Vim  \n</code></pre>\n<h4>Documentation:</h4>\n<p><a href=\"../../assets/files/NiceEditorDocs.pdf\">NiceEditorDocs.pdf</a></p>\n<h2>Keyboard Shortcuts:</h2>\n<p>(when using the custom ~/.ne/.keys configuration below)</p>\n<blockquote>\n<p><strong>^s</strong>, <strong>^q</strong> - save, quit<br>\n<strong>^z</strong>, <strong>^r</strong>  - undo, redo<br>\n<strong>^x</strong>, <strong>^c</strong>, <strong>^v</strong>  - cut, copy, paste<br>\n<strong>^y</strong>  - delete current line<br>\n<strong>^u</strong>  - paste deleted line</p>\n<p><strong>^d</strong> - delete line<br>\n<strong>^w</strong>, <strong>^e</strong> - start of, end of line</p>\n</blockquote>\n<h2>Custom Key Bindings:</h2>\n<ol>\n<li>hit: <strong><code>^k</code></strong></li>\n<li>type: <strong><code>kc</code></strong></li>\n<li>hit <strong><code>key</code></strong> to see its hex code and currently bound command</li>\n<li><strong><code>echo 'KEY {CODE} {ACTION}' &gt;&gt; ~/.ne/.keys</code></strong></li>\n</ol>\n<blockquote>\n<p><strong><code>fn + a</code></strong><br>\nTo convert any key (<code>delete</code>) to fn-key (<code>fn + delete</code>), just add a prefix <code>0x</code> before the key code.<br>\nKey code for <code>delete</code> is <code>115</code>. So, key code for <code>fn + delete</code> would be <code>0x115</code>.</p>\n</blockquote>\n<p><strong>Documentation:</strong> <a href=\"http://www.emerson.emory.edu/services/editors/ne/Key_Bindings.html\">http://www.emerson.emory.edu/services/editors/ne/Key_Bindings.html</a><br>\n<strong>Defaults:</strong> <a href=\"https://github.com/vigna/ne/blob/master/doc/default.keys%E2%80%8B\">https://github.com/vigna/ne/blob/master/doc/default.keys​</a></p>\n<h2>Sample ~/.ne/.keys file:</h2>\n<pre><code># [delete]  \nKEY     0x7f    Backspace  \n# [ctrl]+[z]  \nKEY     0x1a    Undo  \n# [ctrl]+[r]  \nKEY     0x12    Redo  \n\n# [ctrl]+[d](delete line)  \nKEY     0x04    DL  \n# [ctrl]+[w]=(start of line)  \nKEY     0x17    SOL  \n# [ctrl]+[e]=(end of line)  \nKEY     0x05    EOL  \n</code></pre>\n",
       "id": 5
     },
     {
-      "path": "Pro Tips/Basics/CLI/index.md",
-      "url": "Pro Tips/Basics/CLI/index.html",
+      "path": "Pro Tips/Dev/CLI/index.md",
+      "url": "Pro Tips/Dev/CLI/index.html",
       "content": "#### Common Commands:  \n  \n**`mkdir -p`** recursively create directory  \n**`ls -a`** show hidden files  \n**`ls -a ~ | grep \"^.n\"`** find files in current folder that start with \".n\"  \n  \n**`ps cax | grep node`** or **`ps aux | grep node`** find running processes matching \"node\"  \n  \n**`fg`** resume suspended process, after accidentally doing `Ctrl X`  \n<br /><br />  \n  \n  \n  \n#### Files and Folders:  \n  \n**`cat file.js`** to view file contents, without bothering to open in a text editor  \n  \nor use **`rsub`** to open the remote file in your local editor like Sublime/VsCode  \n  \n**`sudo echo \"export PATH=\\\"$PATH:/usr/local/bin\\\"\" >> /etc/profile`** write to bottom of file  \n  \n**`vim`** is a built-in and usually default text editor. Nice Editor is much nicer!  \n<br /><br />  \n  \n#### Permissions:  \n  \n**`chmod -R 600 ~/.ssh/YOUR-FILE`** you'll need to apply this to any newly created SSH key file before GIT can use it  \n  \n**`chown $USER -R /www`** or whatever folder or file you want to take back ownership of, if you run into write permission issues  \n​  \n#### Advanced Commands:  \n  \n<br /><br />  \n  \n  \n",
       "html": "<h4>Common Commands:</h4>\n<p><strong><code>mkdir -p</code></strong> recursively create directory<br>\n<strong><code>ls -a</code></strong> show hidden files<br>\n<strong><code>ls -a ~ | grep &quot;^.n&quot;</code></strong> find files in current folder that start with “.n”</p>\n<p><strong><code>ps cax | grep node</code></strong> or <strong><code>ps aux | grep node</code></strong> find running processes matching “node”</p>\n<p><strong><code>fg</code></strong> resume suspended process, after accidentally doing <code>Ctrl X</code><br>\n<br /><br /></p>\n<h4>Files and Folders:</h4>\n<p><strong><code>cat file.js</code></strong> to view file contents, without bothering to open in a text editor</p>\n<p>or use <strong><code>rsub</code></strong> to open the remote file in your local editor like Sublime/VsCode</p>\n<p><strong><code>sudo echo &quot;export PATH=\\&quot;$PATH:/usr/local/bin\\&quot;&quot; &gt;&gt; /etc/profile</code></strong> write to bottom of file</p>\n<p><strong><code>vim</code></strong> is a built-in and usually default text editor. Nice Editor is much nicer!<br>\n<br /><br /></p>\n<h4>Permissions:</h4>\n<p><strong><code>chmod -R 600 ~/.ssh/YOUR-FILE</code></strong> you’ll need to apply this to any newly created SSH key file before GIT can use it</p>\n<p><strong><code>chown $USER -R /www</code></strong> or whatever folder or file you want to take back ownership of, if you run into write permission issues<br>\n​</p>\n<h4>Advanced Commands:</h4>\n<p><br /><br /></p>\n",
       "id": 6
     },
     {
-      "path": "Pro Tips/Basics/GIT + SSH/index.md",
-      "url": "Pro Tips/Basics/GIT + SSH/index.html",
+      "path": "Pro Tips/Dev/GIT + SSH/index.md",
+      "url": "Pro Tips/Dev/GIT + SSH/index.html",
       "content": "# Best Practices  \n  \n#### pull (update)  \nWhen updating your local codebase, but a team mate changed some lines on the remote codebase, **`git pull`** actually does a **`merge`**. This leaves a mess of post-merge commit messages in your commit history.  \n* Try doing **`git pull --rebase`** which does not leave so many \"merge\" commits when working with others.  \n* **or**, try `git stash` first, then `git pull`, then `git stash pop` to avoid having a merge/commit message for each pull operation.  \n  \n#### rebase  \n**`git rebase -i HEAD~3`** # 3, or however many commits you'd like to rename/squash  \n\n\n\n# Automate\n* ####Emacs has Magit, which is agreed to be the best set of GIT shortcuts  \n* #### VsCode has GitLens, and a very handy Diff UI  \n  \n## I have some custom shortcuts  \n#### include them, and other settings in `~/.profile` or `~/.zprofile`:  \n```bash  \n# GIT  \nsource ~/.aliases.sh;  \n  \neval \"$(ssh-agent -s)\";  \nssh-add ~/.ssh/newssh;  \n  \n# EDITORS  \nalias sublime='open -a /Applications/Sublime\\ Text.app/Contents/MacOS/Sublime\\ Text';  \nalias vscode='open -a /Applications/Visual\\ Studio\\ Code.app/Contents/MacOS/Electron';  \nalias webstorm='open -a /Applications/WebStorm.app/Contents/MacOS/webstorm';  \n  \nexport EDITOR=ne  \n  \n# ETC  \n```  \n  \n#### `~/.aliases.sh`:  \n```bash  \n#!/usr/bin/env bash  \n  \n# RESET TO HEAD  \nfunction yx() {  \n\t# reset  \n\techo resetting to HEAD;  \n\tgit add .;  \n\tgit reset HEAD -\\-hard; # revert to remote  \n\tgit pull;  \n\t# log  \n\techo \"\\n\\n\";  \n\techo \"STATUS:\";  \n\tgit status;  \n}  \n  \n# UNDO LAST COMMIT  \nfunction yxx() {  \n\techo resetting to previous commit;  \n\tgit add .;  \n\tgit reset HEAD^ -\\-hard;  \n\tgit pull;  \n}  \nfunction yz() {  \n\tgit reset HEAD~1; # undo LOCAL commit which has not been pushed  \n}  \n  \n# DELETE LOCAL  \nfunction yd() {  \n\t# delete  \n\techo DELETING LOCAL $1;  \n\tgit branch -D $1;  \n\t# log  \n\techo \"\\n\\n\";  \n\techo \"STATUS:\";  \n\tgit status;  \n}  \n  \n# DELETE LOCAL AND REMOTE  \nfunction ydd() {  \n\techo DELETING REMOTE $1;  \n\techo \"\\n\\n\";  \n\t# delete  \n\tif [ \"$1\" = \"master\" ]  \n\tthen  \n\t\techo cannot delete master;  \n\telif [ \"$1\" = \"dev\" ]  \n\tthen  \n\t\techo CANNOT DELETE DEV;  \n\telse  \n\t\tgit branch -D $1;  \n\t\tgit push origin :$1;  \n\tfi;  \n}  \n  \n# UPDATE  \nfunction ya() {  \n\techo PULLING $1;  \n\techo \"\\n\";  \n\t# update  \n\tgit fetch;  \n\tif [ $1 ]  \n\tthen  \n\t\tgit checkout $1;  \n\t\tgit pull;  \n\telse  \n\t\tgit pull;  \n\tfi;  \n\t# log  \n\techo \"\\n\\n\";  \n\techo \"STATUS:\";  \n\tgit status;  \n}  \n  \n# UPDATE (WITH GIT STASH / POP) - USE WHEN COLLABORATION  \nfunction yaa() {  \n\techo STASHING AND PULLING $1;  \n\techo \"\\n\";  \n\t# update  \n\tgit stash;  \n\tgit pull;  \n\tgit stash pop;  \n\t# log  \n\techo \"\\n\\n\";  \n\techo \"STATUS:\";  \n\tgit status;  \n}  \n  \n# FIX MARKDOWN for GitHub flavor  \n function ghmd() {  \n \tperl -pi -e 's/[\\s]*?\\n/\\ \\ \\n/g' *.md;  \n \tperl -pi -e 's/[\\s]*?\\n/\\ \\ \\n/g' */*.md;  \n \tperl -pi -e 's/[\\s]*?\\n/\\ \\ \\n/g' */*/*.md;  \n \tperl -pi -e 's/[\\s]*?\\n/\\ \\ \\n/g' */*/*/*.md;  \n }  \n  \n# SAVE (BUT FIRST RUN DOCS)  \nfunction yds() {  \n\t# First, go through and fix markdown files to be GitHub compatible  \n\tghmd;  \n  \n\t# convert docs to html  \n    npm run docs;  \n  \n    # save  \n    ys $1;  \n}  \n  \n# SAVE  \nfunction ys() {  \n\t# First, go through and fix markdown files to be GitHub compatible  \n\tghmd;  \n  \n\t# branch=$(git symbolic-ref --short HEAD);  \n\t# if [ $branch = dev ]  \n\t# then  \n\t# \techo cannot merge $branch;  \n\t# elif [ $1 = staging ] || [ $1 = master ]  \n\t# then  \n\t# \techo cannot merge to $1;  \n\t# else  \n\t\techo COMMITTING $1;  \n\t\techo \"\\n\\n\";  \n\t\t# pull  \n\t\tgit pull;  \n\t\t# git stash;  \n\t\t# git pull;  \n\t\t# git stash pop;  \n\t\t# save  \n\t\tgit add .;  \n\t\tgit commit -m $1;  \n\t\t# push  \n\t\techo \"\\n\\n\";  \n\t\techo PUSHING TO $branch;  \n\t\tgit push;  \n\t\t# log  \n\t\techo \"\\n\\n\";  \n\t\techo \"STATUS:\";  \n\t\tgit status;  \n\t# fi;  \n}  \nfunction yss() {  \n\t# First, go through and fix markdown files to be GitHub compatible  \n\tghmd;  \n  \n\t# branch=$(git symbolic-ref --short HEAD);  \n\t# if [ $branch = dev ]  \n\t# then  \n\t# \techo cannot merge $branch;  \n\t# elif [ $1 = staging ] || [ $1 = master ]  \n\t# then  \n\t# \techo cannot merge to $1;  \n\t# else  \n\t\techo COMMITTING $1;  \n\t\techo \"\\n\\n\";  \n\t\t# pull  \n\t\tgit stash;  \n\t\tgit pull;  \n\t\tgit stash pop;  \n\t\t# save  \n\t\tgit add .;  \n\t\tgit commit -m $1;  \n\t\t# push  \n\t\techo \"\\n\\n\";  \n\t\techo PUSHING TO $branch;  \n\t\tgit push;  \n\t\t# log  \n\t\techo \"\\n\\n\";  \n\t\techo \"STATUS:\";  \n\t\tgit status;  \n\t# fi;  \n}  \n  \n# MERGE  \nfunction ym() {  \n\tbranch=$(git symbolic-ref --short HEAD);  \n\techo MERGING $branch TO $1;  \n\techo \"\\n\\n\";  \n  \n\t# if [ $branch = dev ]  \n\t# then  \n\t# \techo cannot merge $branch;  \n\t# elif [ $1 = staging ] || [ $1 = master ]  \n\t# then  \n\t# \techo cannot merge to $1;  \n\t# else  \n\t\tif [ $1 ]  \n\t\tthen  \n  \n\t\t\tgit fetch;  \n\t\t\tgit checkout $1;  \n\t\t\tgit pull;  \n  \n\t\t\tif [ $2 ]  \n\t\t\tthen  \n\t\t\t\t2=merging$branch$2;  \n\t\t\telse  \n\t\t\t\t2=merging$branch;  \n\t\t\tfi;  \n  \n\t\t\techo $2;  \n\t\t\tgit merge $branch -m $2;  \n\t\t\tgit push;  \n  \n\t\t\t# log  \n\t\t\techo \"\\n\\n\";  \n\t\t\techo \"STATUS:\";  \n\t\t\tgit status;  \n\t\tfi;  \n\t# fi;  \n}  \n  \n```",
       "html": "<h1>Best Practices</h1>\n<h4>pull (update)</h4>\n<p>When updating your local codebase, but a team mate changed some lines on the remote codebase, <strong><code>git pull</code></strong> actually does a <strong><code>merge</code></strong>. This leaves a mess of post-merge commit messages in your commit history.</p>\n<ul>\n<li>Try doing <strong><code>git pull --rebase</code></strong> which does not leave so many “merge” commits when working with others.</li>\n<li><strong>or</strong>, try <code>git stash</code> first, then <code>git pull</code>, then <code>git stash pop</code> to avoid having a merge/commit message for each pull operation.</li>\n</ul>\n<h4>rebase</h4>\n<p><strong><code>git rebase -i HEAD~3</code></strong> # 3, or however many commits you’d like to rename/squash</p>\n<h1>Automate</h1>\n<ul>\n<li>####Emacs has Magit, which is agreed to be the best set of GIT shortcuts</li>\n<li>\n<h4>VsCode has GitLens, and a very handy Diff UI</h4>\n</li>\n</ul>\n<h2>I have some custom shortcuts</h2>\n<h4>include them, and other settings in <code>~/.profile</code> or <code>~/.zprofile</code>:</h4>\n<pre><code class=\"language-bash\"># GIT  \nsource ~/.aliases.sh;  \n  \neval &quot;$(ssh-agent -s)&quot;;  \nssh-add ~/.ssh/newssh;  \n  \n# EDITORS  \nalias sublime='open -a /Applications/Sublime\\ Text.app/Contents/MacOS/Sublime\\ Text';  \nalias vscode='open -a /Applications/Visual\\ Studio\\ Code.app/Contents/MacOS/Electron';  \nalias webstorm='open -a /Applications/WebStorm.app/Contents/MacOS/webstorm';  \n  \nexport EDITOR=ne  \n  \n# ETC  \n</code></pre>\n<h4><code>~/.aliases.sh</code>:</h4>\n<pre><code class=\"language-bash\">#!/usr/bin/env bash  \n  \n# RESET TO HEAD  \nfunction yx() {  \n\t# reset  \n\techo resetting to HEAD;  \n\tgit add .;  \n\tgit reset HEAD -\\-hard; # revert to remote  \n\tgit pull;  \n\t# log  \n\techo &quot;\\n\\n&quot;;  \n\techo &quot;STATUS:&quot;;  \n\tgit status;  \n}  \n  \n# UNDO LAST COMMIT  \nfunction yxx() {  \n\techo resetting to previous commit;  \n\tgit add .;  \n\tgit reset HEAD^ -\\-hard;  \n\tgit pull;  \n}  \nfunction yz() {  \n\tgit reset HEAD~1; # undo LOCAL commit which has not been pushed  \n}  \n  \n# DELETE LOCAL  \nfunction yd() {  \n\t# delete  \n\techo DELETING LOCAL $1;  \n\tgit branch -D $1;  \n\t# log  \n\techo &quot;\\n\\n&quot;;  \n\techo &quot;STATUS:&quot;;  \n\tgit status;  \n}  \n  \n# DELETE LOCAL AND REMOTE  \nfunction ydd() {  \n\techo DELETING REMOTE $1;  \n\techo &quot;\\n\\n&quot;;  \n\t# delete  \n\tif [ &quot;$1&quot; = &quot;master&quot; ]  \n\tthen  \n\t\techo cannot delete master;  \n\telif [ &quot;$1&quot; = &quot;dev&quot; ]  \n\tthen  \n\t\techo CANNOT DELETE DEV;  \n\telse  \n\t\tgit branch -D $1;  \n\t\tgit push origin :$1;  \n\tfi;  \n}  \n  \n# UPDATE  \nfunction ya() {  \n\techo PULLING $1;  \n\techo &quot;\\n&quot;;  \n\t# update  \n\tgit fetch;  \n\tif [ $1 ]  \n\tthen  \n\t\tgit checkout $1;  \n\t\tgit pull;  \n\telse  \n\t\tgit pull;  \n\tfi;  \n\t# log  \n\techo &quot;\\n\\n&quot;;  \n\techo &quot;STATUS:&quot;;  \n\tgit status;  \n}  \n  \n# UPDATE (WITH GIT STASH / POP) - USE WHEN COLLABORATION  \nfunction yaa() {  \n\techo STASHING AND PULLING $1;  \n\techo &quot;\\n&quot;;  \n\t# update  \n\tgit stash;  \n\tgit pull;  \n\tgit stash pop;  \n\t# log  \n\techo &quot;\\n\\n&quot;;  \n\techo &quot;STATUS:&quot;;  \n\tgit status;  \n}  \n  \n# FIX MARKDOWN for GitHub flavor  \n function ghmd() {  \n \tperl -pi -e 's/[\\s]*?\\n/\\ \\ \\n/g' *.md;  \n \tperl -pi -e 's/[\\s]*?\\n/\\ \\ \\n/g' */*.md;  \n \tperl -pi -e 's/[\\s]*?\\n/\\ \\ \\n/g' */*/*.md;  \n \tperl -pi -e 's/[\\s]*?\\n/\\ \\ \\n/g' */*/*/*.md;  \n }  \n  \n# SAVE (BUT FIRST RUN DOCS)  \nfunction yds() {  \n\t# First, go through and fix markdown files to be GitHub compatible  \n\tghmd;  \n  \n\t# convert docs to html  \n    npm run docs;  \n  \n    # save  \n    ys $1;  \n}  \n  \n# SAVE  \nfunction ys() {  \n\t# First, go through and fix markdown files to be GitHub compatible  \n\tghmd;  \n  \n\t# branch=$(git symbolic-ref --short HEAD);  \n\t# if [ $branch = dev ]  \n\t# then  \n\t# \techo cannot merge $branch;  \n\t# elif [ $1 = staging ] || [ $1 = master ]  \n\t# then  \n\t# \techo cannot merge to $1;  \n\t# else  \n\t\techo COMMITTING $1;  \n\t\techo &quot;\\n\\n&quot;;  \n\t\t# pull  \n\t\tgit pull;  \n\t\t# git stash;  \n\t\t# git pull;  \n\t\t# git stash pop;  \n\t\t# save  \n\t\tgit add .;  \n\t\tgit commit -m $1;  \n\t\t# push  \n\t\techo &quot;\\n\\n&quot;;  \n\t\techo PUSHING TO $branch;  \n\t\tgit push;  \n\t\t# log  \n\t\techo &quot;\\n\\n&quot;;  \n\t\techo &quot;STATUS:&quot;;  \n\t\tgit status;  \n\t# fi;  \n}  \nfunction yss() {  \n\t# First, go through and fix markdown files to be GitHub compatible  \n\tghmd;  \n  \n\t# branch=$(git symbolic-ref --short HEAD);  \n\t# if [ $branch = dev ]  \n\t# then  \n\t# \techo cannot merge $branch;  \n\t# elif [ $1 = staging ] || [ $1 = master ]  \n\t# then  \n\t# \techo cannot merge to $1;  \n\t# else  \n\t\techo COMMITTING $1;  \n\t\techo &quot;\\n\\n&quot;;  \n\t\t# pull  \n\t\tgit stash;  \n\t\tgit pull;  \n\t\tgit stash pop;  \n\t\t# save  \n\t\tgit add .;  \n\t\tgit commit -m $1;  \n\t\t# push  \n\t\techo &quot;\\n\\n&quot;;  \n\t\techo PUSHING TO $branch;  \n\t\tgit push;  \n\t\t# log  \n\t\techo &quot;\\n\\n&quot;;  \n\t\techo &quot;STATUS:&quot;;  \n\t\tgit status;  \n\t# fi;  \n}  \n  \n# MERGE  \nfunction ym() {  \n\tbranch=$(git symbolic-ref --short HEAD);  \n\techo MERGING $branch TO $1;  \n\techo &quot;\\n\\n&quot;;  \n  \n\t# if [ $branch = dev ]  \n\t# then  \n\t# \techo cannot merge $branch;  \n\t# elif [ $1 = staging ] || [ $1 = master ]  \n\t# then  \n\t# \techo cannot merge to $1;  \n\t# else  \n\t\tif [ $1 ]  \n\t\tthen  \n  \n\t\t\tgit fetch;  \n\t\t\tgit checkout $1;  \n\t\t\tgit pull;  \n  \n\t\t\tif [ $2 ]  \n\t\t\tthen  \n\t\t\t\t2=merging$branch$2;  \n\t\t\telse  \n\t\t\t\t2=merging$branch;  \n\t\t\tfi;  \n  \n\t\t\techo $2;  \n\t\t\tgit merge $branch -m $2;  \n\t\t\tgit push;  \n  \n\t\t\t# log  \n\t\t\techo &quot;\\n\\n&quot;;  \n\t\t\techo &quot;STATUS:&quot;;  \n\t\t\tgit status;  \n\t\tfi;  \n\t# fi;  \n}  \n  \n</code></pre>\n",
       "id": 7
     },
     {
-      "path": "Pro Tips/Basics/IDE + Code/index.md",
-      "url": "Pro Tips/Basics/IDE + Code/index.html",
+      "path": "Pro Tips/Dev/IDE + Code/index.md",
+      "url": "Pro Tips/Dev/IDE + Code/index.html",
       "content": "# Consider [WebStorm](https://www.jetbrains.com/webstorm/)  \n  \n### Lately, I've had trouble with both Sublime Text and Vs Code.  \n  \n**VsCode** just does not indent JSX correctly, no matter what options I set, using the popular plugin \"js-beautify\" or \"prettier\" or the default formatter. After figuring out the best plugin and settings - it still sometimes breaks JSX.  \n  \n**Sublime Text** can format JSX using \"Sublime-HTMLPrettify\", but with this I could not enable \"format on save\" no matter what I did. It can do format on save with \"js-beautify\", but then it mangles JSX even worse than in VsCode (using the same engine and same .jsbeautifyrc file).  \n  \nThis has been spurred by the **Prettier** plugin for Sublime text being broken recently. It had a bad release, and it took me forever to figure out that was actually the problem, because I have just come back to React programming after doing other things, so did not remember every setting. I tried every other plugin, switched to VsCode and messed around with that, but VsCode had its own issues. Even if I get Prettier to work again, it would be too little too late.  \n  \nWhat do you use? I will be asking around. Meanwhile...  \n  \n  \n### WebStorm simply works,  \n**and I have confidence that it will still behave a year from now.**  \n  \nIt indents JSX correctly every time, and has program settings which all actually do what they're supposed to when you change them. WebStorm is a good little robot that does as you command it.  \n  \nAlso, it lets you choose to put arguments on the same line as the brackets, or each on its own line. This is huge for readability. Sometimes one format is more legible. Other times it's not. Now you, the human, can decide which to use.  \n  \nExamples at the bottom of this page.  \n  \n  \n### Other benefits...  \n  \nIt has several more sophisticated features - ones you would have to spend a long time finding and configuring just right in open source editors.  \n  \n* When you re-name a file or folder, it can search all the source code in the project, and rename any references to that file, to prevent broken links.  \n  \n* Key mapping has a very easy search interface. Feel free to remap all your favorite shortcuts, including Macros.  \n  \n* Pressing \"Backspace\" (Delete on Mac) when all you have to the left is whitespace, WebStorm deletes all the way to the end of the previous line, with one key stroke.  \n    * Vs Code deletes one indentation level at a time, then you must press again to delete the new line  \n    * Sublime Text actually is even worse. When indenting using spaces (for example 4), instead of deleting 4 spaces at a time, it deletes one space at a time.  \n  \n* Lint tooltips are easier to use and read  \n  \n* Syntax highlighting - customizing the scheme takes a bit of getting used to when coming from Sublime/VsCode. But it has more powerful and more sophisticated syntax coloring! For example, WebStorm is smart enough to color function curly brackets differently than React variable curly brackets which contain the function.  \n  \n  \n### Unfortunately,  \n* It costs $130+. But, if you are trying to get paid for the code you write, then you can't afford not to use this. I have seen a productivity increase after just a couple days of getting used to it.  \n  \n  \n### Code Example 1 (JSX)  \n**Worst case scenario** (SublimeText using JsBeautify):  \nTotally broken.  \n```  \n    Options.push( <  \n        option value = {  \n            option  \n        } > {  \n            option  \n        } <  \n        /option>  \n    );  \n```  \n**Best case scenario** (VsCode using Prettier or default or JsBeautify):  \nNotice the broken indentation. Also, why is that `<SuggestedRow...` indented by 2 spaces, while others by 4 spaces? Idk.  \n```  \n    SuggestedSelects.push(  \n      <SuggestRow  \n                    words={lists}  \n                    domains={domains}  \n                />  \n    );  \n```  \n<br /><br />  \n  \n  \n### Code Example 2 (code blocks: imports, if/else, functions, etc)  \nLong-form:  \n```  \nimport {  \n  ValidateForm,  \n  ValidateField,  \n  ValidateButton,  \n  validations  \n} from 'src/containers/validateForm';  \n```  \nShort-form:  \n```  \nimport { ValidateForm, ValidateField, ValidateButton, validations } from 'src/containers/validateForm';  \n```  \nImagine many of these imports.  \n**WebStorm** allows you to use either format. You just code it. WebStorm will detect which format you're using, and fix your indentation and spaces accordingly. VsCode and others force you to use the longer one, unless you specify in the setting to always use the all-in-line version.  \n**Same case for open/closed functions and if statements.** Now you can choose how to organize the code.  \n <br /><br /><br />  \n  \n # Getting Started with WebStorm  \n  \n ### Hints:  \nDisable all unnecessary left/bottom/top menus, to have a clean interface.  \nIn file browser left column, open file with one click instead of two:  \n```  \n    Project settings [...] > Autoscroll to source  \n```  \n Best syntax highlighting:  \n ```  \n    WebStorm > Preferences > Editor > Color Scheme > General > \"Monokai Pro\"  \n```  \nInstall **Material Theme** when first installing WebStorm, or as a Plugin. Material refers to the WebStorm application UI (not the code/text) styling. Theme refers to the header,menus,file browser, status bar, etc. Use this Material `One Dark` \"Theme\" to nicely match the Monokai \"Scheme\" above.  \n  \n### Import Settings:  \nIncludes auto-format macro and key binding `Cmd + S` to Esc, Format, Save.  \nAlso key binding `Cmd + D` to do incremental find + add word to multiple cursor, like in Sublime/VsCode.  \nAnd theme/colors/plugins.  \n[WebStormSettings](../../assets/files/WebStormSettings.zip)  \n```  \n    File > Import Settings  \n```  \n**Keyboard shortcuts (for above settings file)**  \n* Ctrl + F        ~ new folder  \n* Ctrl + N        ~ new file  \n* Ctrl + R        ~ rename file/folder  \n ",
       "html": "<h1>Consider <a href=\"https://www.jetbrains.com/webstorm/\">WebStorm</a></h1>\n<h3>Lately, I’ve had trouble with both Sublime Text and Vs Code.</h3>\n<p><strong>VsCode</strong> just does not indent JSX correctly, no matter what options I set, using the popular plugin “js-beautify” or “prettier” or the default formatter. After figuring out the best plugin and settings - it still sometimes breaks JSX.</p>\n<p><strong>Sublime Text</strong> can format JSX using “Sublime-HTMLPrettify”, but with this I could not enable “format on save” no matter what I did. It can do format on save with “js-beautify”, but then it mangles JSX even worse than in VsCode (using the same engine and same .jsbeautifyrc file).</p>\n<p>This has been spurred by the <strong>Prettier</strong> plugin for Sublime text being broken recently. It had a bad release, and it took me forever to figure out that was actually the problem, because I have just come back to React programming after doing other things, so did not remember every setting. I tried every other plugin, switched to VsCode and messed around with that, but VsCode had its own issues. Even if I get Prettier to work again, it would be too little too late.</p>\n<p>What do you use? I will be asking around. Meanwhile…</p>\n<h3>WebStorm simply works,</h3>\n<p><strong>and I have confidence that it will still behave a year from now.</strong></p>\n<p>It indents JSX correctly every time, and has program settings which all actually do what they’re supposed to when you change them. WebStorm is a good little robot that does as you command it.</p>\n<p>Also, it lets you choose to put arguments on the same line as the brackets, or each on its own line. This is huge for readability. Sometimes one format is more legible. Other times it’s not. Now you, the human, can decide which to use.</p>\n<p>Examples at the bottom of this page.</p>\n<h3>Other benefits…</h3>\n<p>It has several more sophisticated features - ones you would have to spend a long time finding and configuring just right in open source editors.</p>\n<ul>\n<li>\n<p>When you re-name a file or folder, it can search all the source code in the project, and rename any references to that file, to prevent broken links.</p>\n</li>\n<li>\n<p>Key mapping has a very easy search interface. Feel free to remap all your favorite shortcuts, including Macros.</p>\n</li>\n<li>\n<p>Pressing “Backspace” (Delete on Mac) when all you have to the left is whitespace, WebStorm deletes all the way to the end of the previous line, with one key stroke.</p>\n<ul>\n<li>Vs Code deletes one indentation level at a time, then you must press again to delete the new line</li>\n<li>Sublime Text actually is even worse. When indenting using spaces (for example 4), instead of deleting 4 spaces at a time, it deletes one space at a time.</li>\n</ul>\n</li>\n<li>\n<p>Lint tooltips are easier to use and read</p>\n</li>\n<li>\n<p>Syntax highlighting - customizing the scheme takes a bit of getting used to when coming from Sublime/VsCode. But it has more powerful and more sophisticated syntax coloring! For example, WebStorm is smart enough to color function curly brackets differently than React variable curly brackets which contain the function.</p>\n</li>\n</ul>\n<h3>Unfortunately,</h3>\n<ul>\n<li>It costs $130+. But, if you are trying to get paid for the code you write, then you can’t afford not to use this. I have seen a productivity increase after just a couple days of getting used to it.</li>\n</ul>\n<h3>Code Example 1 (JSX)</h3>\n<p><strong>Worst case scenario</strong> (SublimeText using JsBeautify):<br>\nTotally broken.</p>\n<pre><code>    Options.push( &lt;  \n        option value = {  \n            option  \n        } &gt; {  \n            option  \n        } &lt;  \n        /option&gt;  \n    );  \n</code></pre>\n<p><strong>Best case scenario</strong> (VsCode using Prettier or default or JsBeautify):<br>\nNotice the broken indentation. Also, why is that <code>&lt;SuggestedRow...</code> indented by 2 spaces, while others by 4 spaces? Idk.</p>\n<pre><code>    SuggestedSelects.push(  \n      &lt;SuggestRow  \n                    words={lists}  \n                    domains={domains}  \n                /&gt;  \n    );  \n</code></pre>\n<p><br /><br /></p>\n<h3>Code Example 2 (code blocks: imports, if/else, functions, etc)</h3>\n<p>Long-form:</p>\n<pre><code>import {  \n  ValidateForm,  \n  ValidateField,  \n  ValidateButton,  \n  validations  \n} from 'src/containers/validateForm';  \n</code></pre>\n<p>Short-form:</p>\n<pre><code>import { ValidateForm, ValidateField, ValidateButton, validations } from 'src/containers/validateForm';  \n</code></pre>\n<p>Imagine many of these imports.<br>\n<strong>WebStorm</strong> allows you to use either format. You just code it. WebStorm will detect which format you’re using, and fix your indentation and spaces accordingly. VsCode and others force you to use the longer one, unless you specify in the setting to always use the all-in-line version.<br>\n<strong>Same case for open/closed functions and if statements.</strong> Now you can choose how to organize the code.<br>\n<br /><br /><br /></p>\n<h1>Getting Started with WebStorm</h1>\n<h3>Hints:</h3>\n<p>Disable all unnecessary left/bottom/top menus, to have a clean interface.<br>\nIn file browser left column, open file with one click instead of two:</p>\n<pre><code>    Project settings [...] &gt; Autoscroll to source  \n</code></pre>\n<p>Best syntax highlighting:</p>\n<pre><code>   WebStorm &gt; Preferences &gt; Editor &gt; Color Scheme &gt; General &gt; &quot;Monokai Pro&quot;  \n</code></pre>\n<p>Install <strong>Material Theme</strong> when first installing WebStorm, or as a Plugin. Material refers to the WebStorm application UI (not the code/text) styling. Theme refers to the header,menus,file browser, status bar, etc. Use this Material <code>One Dark</code> “Theme” to nicely match the Monokai “Scheme” above.</p>\n<h3>Import Settings:</h3>\n<p>Includes auto-format macro and key binding <code>Cmd + S</code> to Esc, Format, Save.<br>\nAlso key binding <code>Cmd + D</code> to do incremental find + add word to multiple cursor, like in Sublime/VsCode.<br>\nAnd theme/colors/plugins.<br>\n<a href=\"../../assets/files/WebStormSettings.zip\">WebStormSettings</a></p>\n<pre><code>    File &gt; Import Settings  \n</code></pre>\n<p><strong>Keyboard shortcuts (for above settings file)</strong></p>\n<ul>\n<li>Ctrl + F        ~ new folder</li>\n<li>Ctrl + N        ~ new file</li>\n<li>Ctrl + R        ~ rename file/folder</li>\n</ul>\n",
       "id": 8
     },
     {
-      "path": "Pro Tips/Basics/IDE + Code/auto-formatting.md",
-      "url": "Pro Tips/Basics/IDE + Code/auto-formatting.html",
+      "path": "Pro Tips/Dev/IDE + Code/auto-formatting.md",
+      "url": "Pro Tips/Dev/IDE + Code/auto-formatting.html",
       "content": "# Important for collaborating:  \n  \nAfter agreeing on and sticking to **tabs** or 2 spaces or 4 spaces, maybe the most useful thing to do next is:  \n  \nMake sure your **and your teammates'** text-editor or IDE will not format your code unexpectedly.  \n  \n### If using VS CODE:  \n* Install the **`js beautify`** plugin  \n* Add **`.jsbeautifyrc`** file to the root of your project, to specify formatting rules.  \n* By default, it formats every file on save! To turn this off, toggle **`files.autoSave`** in Vs Code preferences.  \n  \n### If using Sublime Text:  \n* Install `htmlprettify` plugin: https://github.com/victorporof/Sublime-HTMLPrettify  \n* Use the same **`.jsbeautifyrc`** file as your teammates use for Vs Code.  \n* Sublime does not format on save by default. Toggle **`format_on_save`** in HTMLPrettify plugin options.  \n  \n### If using WebStorm:  \n* `Webstorm > Preferences > Editor > Code Style > JavaScript` no manually editing a JSON file, use checkboxes/dropdowns  \n* To auto-format on save, you must create a Macro, which is also different...  \n    1. `Edit > Macros > Start Macro Recording`  \n    2. Press `Esc`, to clear any selected text, which will affect your formatting  \n    3. Press `Cmd + Opt + L` to format the current file  \n    4. Select `File > Save All` in top bar. Do NOT just hit `Cmd + S`.  \n    5. Click `Stop` in Macro notification on the bottom, to stop recording.  \n    6. `Webstorm > Preferences > Keymap`  \n        * Find your newly created Macro. Right click, and add key binding `Cmd + S`.  \n        * Agree to un-bind that key from its other function (simple save-all).  \n  \n### If using something else:  \n* Just make sure whatever settings you use matches your teammates' settings.  \n  \n### Otherwise, note:  \n* This is a great online code beautifier: <br />https://www.10bestdesign.com/dirtymarkup/  \n* Unlike others, this one actually maintains HTML tags hierarchy and indentation  \n  \n",
       "html": "<h1>Important for collaborating:</h1>\n<p>After agreeing on and sticking to <strong>tabs</strong> or 2 spaces or 4 spaces, maybe the most useful thing to do next is:</p>\n<p>Make sure your <strong>and your teammates’</strong> text-editor or IDE will not format your code unexpectedly.</p>\n<h3>If using VS CODE:</h3>\n<ul>\n<li>Install the <strong><code>js beautify</code></strong> plugin</li>\n<li>Add <strong><code>.jsbeautifyrc</code></strong> file to the root of your project, to specify formatting rules.</li>\n<li>By default, it formats every file on save! To turn this off, toggle <strong><code>files.autoSave</code></strong> in Vs Code preferences.</li>\n</ul>\n<h3>If using Sublime Text:</h3>\n<ul>\n<li>Install <code>htmlprettify</code> plugin: <a href=\"https://github.com/victorporof/Sublime-HTMLPrettify\">https://github.com/victorporof/Sublime-HTMLPrettify</a></li>\n<li>Use the same <strong><code>.jsbeautifyrc</code></strong> file as your teammates use for Vs Code.</li>\n<li>Sublime does not format on save by default. Toggle <strong><code>format_on_save</code></strong> in HTMLPrettify plugin options.</li>\n</ul>\n<h3>If using WebStorm:</h3>\n<ul>\n<li><code>Webstorm &gt; Preferences &gt; Editor &gt; Code Style &gt; JavaScript</code> no manually editing a JSON file, use checkboxes/dropdowns</li>\n<li>To auto-format on save, you must create a Macro, which is also different…\n<ol>\n<li><code>Edit &gt; Macros &gt; Start Macro Recording</code></li>\n<li>Press <code>Esc</code>, to clear any selected text, which will affect your formatting</li>\n<li>Press <code>Cmd + Opt + L</code> to format the current file</li>\n<li>Select <code>File &gt; Save All</code> in top bar. Do NOT just hit <code>Cmd + S</code>.</li>\n<li>Click <code>Stop</code> in Macro notification on the bottom, to stop recording.</li>\n<li><code>Webstorm &gt; Preferences &gt; Keymap</code>\n<ul>\n<li>Find your newly created Macro. Right click, and add key binding <code>Cmd + S</code>.</li>\n<li>Agree to un-bind that key from its other function (simple save-all).</li>\n</ul>\n</li>\n</ol>\n</li>\n</ul>\n<h3>If using something else:</h3>\n<ul>\n<li>Just make sure whatever settings you use matches your teammates’ settings.</li>\n</ul>\n<h3>Otherwise, note:</h3>\n<ul>\n<li>This is a great online code beautifier: <br /><a href=\"https://www.10bestdesign.com/dirtymarkup/\">https://www.10bestdesign.com/dirtymarkup/</a></li>\n<li>Unlike others, this one actually maintains HTML tags hierarchy and indentation</li>\n</ul>\n",
       "id": 9
     },
     {
-      "path": "Pro Tips/Basics/IDE + Code/edit-over-SSH.md",
-      "url": "Pro Tips/Basics/IDE + Code/edit-over-SSH.html",
+      "path": "Pro Tips/Dev/IDE + Code/edit-over-SSH.md",
+      "url": "Pro Tips/Dev/IDE + Code/edit-over-SSH.html",
       "content": "# How To:  \n### Edit remote files over SSH connection  \n...not in the terminal, but using your favorite local IDE!  \n<br /><br />  \n  \n#### On server,  \nInstall rsub:  \n```  \nwget -O /usr/local/bin/rsub \\https://raw.github.com/aurora/rmate/master/rmate  \nchmod a+x /usr/local/bin/rsub  \n```  \n#### On local,  \nFor _SublimeText3_, or _Textmate_, install **`rsub`** package.  \nOr on _VsCode_, install **`remote-vscode`** package.  \nAdd proxy:  \n```  \necho \"RemoteForward 52698 localhost:52698\" >> ~/.ssh/config  \n```  \n#### Now you can connect to the server and edit any file:  \n```  \nssh user@hostname  \nrsub ~/.profile  \n```  \n<br /><br />  \n  \n## Emacs text editor  \nin addition to simply editing the file, it can act as the connection agent, and the remote filebrowser too ~~ so you can connect, browse, open, and edit files all in Emacs!",
       "html": "<h1>How To:</h1>\n<h3>Edit remote files over SSH connection</h3>\n<p>…not in the terminal, but using your favorite local IDE!<br>\n<br /><br /></p>\n<h4>On server,</h4>\n<p>Install rsub:</p>\n<pre><code>wget -O /usr/local/bin/rsub \\https://raw.github.com/aurora/rmate/master/rmate  \nchmod a+x /usr/local/bin/rsub  \n</code></pre>\n<h4>On local,</h4>\n<p>For <em>SublimeText3</em>, or <em>Textmate</em>, install <strong><code>rsub</code></strong> package.<br>\nOr on <em>VsCode</em>, install <strong><code>remote-vscode</code></strong> package.<br>\nAdd proxy:</p>\n<pre><code>echo &quot;RemoteForward 52698 localhost:52698&quot; &gt;&gt; ~/.ssh/config  \n</code></pre>\n<h4>Now you can connect to the server and edit any file:</h4>\n<pre><code>ssh user@hostname  \nrsub ~/.profile  \n</code></pre>\n<p><br /><br /></p>\n<h2>Emacs text editor</h2>\n<p>in addition to simply editing the file, it can act as the connection agent, and the remote filebrowser too ~~ so you can connect, browse, open, and edit files all in Emacs!</p>\n",
       "id": 10
     },
     {
-      "path": "Pro Tips/Basics/RegEx/Basics.md",
-      "url": "Pro Tips/Basics/RegEx/Basics.html",
+      "path": "Pro Tips/Dev/RegEx/Basics.md",
+      "url": "Pro Tips/Dev/RegEx/Basics.html",
       "content": "### Basics:  \n\nAny new line (including existing trailing spaces)  \n`([\\ ]*?)\\n`  \nReplace with two spaces and a new line  \n`  \\n`  \n<br />  \n  \n",
       "html": "<h3>Basics:</h3>\n<p>Any new line (including existing trailing spaces)<br>\n<code>([\\ ]*?)\\n</code><br>\nReplace with two spaces and a new line<br>\n<code>\\n</code><br>\n<br /></p>\n",
       "id": 11
     },
     {
-      "path": "Pro Tips/Basics/RegEx/HTML.md",
-      "url": "Pro Tips/Basics/RegEx/HTML.html",
+      "path": "Pro Tips/Dev/RegEx/HTML.md",
+      "url": "Pro Tips/Dev/RegEx/HTML.html",
       "content": "### HTML:  \n\nsearch `(\\s*)</script>` replace `</script>` puts all closing tags on same line  \n  \n`\\ ?data-(.*?)\"(.*?)\" `  \n`\\ ?tabindex=(\".*\") `  \nmatch all tag attributes starting with with or without leading spaces  \n  \n  \n`li\\ class(.*?)\"(.*?)\" `  \nstrip out class attribute from matching elements  \n  \n`<!--(.*?)\\.(.*?)-->`  \nmatch comments containing phrase \".\"  \n  \nsearch `href=\"(.*?)\"` replace `href=\"\"` clears all href attributes  \n  \nsearch `(\\ *?)((?!\\ ).*?)><span(.*?)</span> `  \nreplace `$1$2>\\n$1  <span$3\\n$1  </span> `  \nto add indent span elements  \n  \n",
       "html": "<h3>HTML:</h3>\n<p>search <code>(\\s*)&lt;/script&gt;</code> replace <code>&lt;/script&gt;</code> puts all closing tags on same line</p>\n<p><code>\\ ?data-(.*?)&quot;(.*?)&quot;</code><br>\n<code>\\ ?tabindex=(&quot;.*&quot;)</code><br>\nmatch all tag attributes starting with with or without leading spaces</p>\n<p><code>li\\ class(.*?)&quot;(.*?)&quot;</code><br>\nstrip out class attribute from matching elements</p>\n<p><code>&lt;!--(.*?)\\.(.*?)--&gt;</code><br>\nmatch comments containing phrase “.”</p>\n<p>search <code>href=&quot;(.*?)&quot;</code> replace <code>href=&quot;&quot;</code> clears all href attributes</p>\n<p>search <code>(\\ *?)((?!\\ ).*?)&gt;&lt;span(.*?)&lt;/span&gt;</code><br>\nreplace <code>$1$2&gt;\\n$1 &lt;span$3\\n$1 &lt;/span&gt;</code><br>\nto add indent span elements</p>\n",
       "id": 12
     },
     {
-      "path": "Pro Tips/Basics/RegEx/Javascript.md",
-      "url": "Pro Tips/Basics/RegEx/Javascript.html",
+      "path": "Pro Tips/Dev/RegEx/Javascript.md",
+      "url": "Pro Tips/Dev/RegEx/Javascript.html",
       "content": "### Javascript:  \n\nRemove all console.logs (or .warn .error, etc):  \n`(\\s?)console.(.?)\\n([\\w\\s\\W\\t\\n]*?)`  \n  \n",
       "html": "<h3>Javascript:</h3>\n<p>Remove all console.logs (or .warn .error, etc):<br>\n<code>(\\s?)console.(.?)\\n([\\w\\s\\W\\t\\n]*?)</code></p>\n",
       "id": 13
     },
     {
-      "path": "Pro Tips/Basics/RegEx/Markdown.md",
-      "url": "Pro Tips/Basics/RegEx/Markdown.html",
+      "path": "Pro Tips/Dev/RegEx/Markdown.md",
+      "url": "Pro Tips/Dev/RegEx/Markdown.html",
       "content": "### Markdown:  \n\n**CLI command \"--help\" output lines to Markdown file**  \nFind `\\n(.*?) (([a-z]+) )?([A-Z])`  \nReplace `\\n**$1**\\t_$2_\\t$4`  \n  \n  \n**bold**  \n`\\*\\*([^\\n```.]*)\\*\\*`  \nReplace with bold inline code block  \n**`$1`**  \n  \n  \n**between parentheses and newline**  \n`\\)\\s?(.*?)\\s?\\n`  \nMake the non-whitespace sentence of it bold  \n`) \\t**$1**\\n`  \n  \n  \n**whitespace on the left side of bold stars**  \n`\\*\\*\\s?([A-Za-z])`  \nRemove that whitespace  \n`**$1`  \n  \n  \n  ",
       "html": "<h3>Markdown:</h3>\n<p><strong>CLI command “–help” output lines to Markdown file</strong><br>\nFind <code>\\n(.*?) (([a-z]+) )?([A-Z])</code><br>\nReplace <code>\\n**$1**\\t_$2_\\t$4</code></p>\n<p><strong>bold</strong><br>\n<code>\\*\\*([^\\n```.]*)\\*\\*</code><br>\nReplace with bold inline code block<br>\n<strong><code>$1</code></strong></p>\n<p><strong>between parentheses and newline</strong><br>\n<code>\\)\\s?(.*?)\\s?\\n</code><br>\nMake the non-whitespace sentence of it bold<br>\n<code>) \\t**$1**\\n</code></p>\n<p><strong>whitespace on the left side of bold stars</strong><br>\n<code>\\*\\*\\s?([A-Za-z])</code><br>\nRemove that whitespace<br>\n<code>**$1</code></p>\n",
       "id": 14
     },
     {
-      "path": "Pro Tips/Basics/RegEx/index.md",
-      "url": "Pro Tips/Basics/RegEx/index.html",
+      "path": "Pro Tips/Dev/RegEx/index.md",
+      "url": "Pro Tips/Dev/RegEx/index.html",
       "content": "# Regular Expressions  \n  \n> * **[Basics](./Basics.md)**  \n> * **[HTML](./HTML.md)**  \n> * **[Javascript](./Javascript.md)**  \n> * **[Markdown](./Markdown.md)**  \n  \n### Find/Replace  \nLets use the link above as an example. We want to convert local links from `.md` to `.html`...  \n#### in IDE:  \n```  \nFind: (\\[.*?\\]\\(\\./.*?).md(\\))  \nReplace: $1.html$2  \n```  \n#### using Javascript:  \n```  \nstr.replace(\\(\\[.*?\\]\\(\\./.*?).md(\\))\\g, \"$1.html$2\");  \n```  \nSo, no matter the complexity, just write the match/replace as:  \n```  \nstr.replace(\\        \\g, \"       \")  \n```  \n ",
       "html": "<h1>Regular Expressions</h1>\n<blockquote>\n<ul>\n<li><strong><a href=\"./Basics.html\">Basics</a></strong></li>\n<li><strong><a href=\"./HTML.html\">HTML</a></strong></li>\n<li><strong><a href=\"./Javascript.html\">Javascript</a></strong></li>\n<li><strong><a href=\"./Markdown.html\">Markdown</a></strong></li>\n</ul>\n</blockquote>\n<h3>Find/Replace</h3>\n<p>Lets use the link above as an example. We want to convert local links from <code>.md</code> to <code>.html</code>…</p>\n<h4>in IDE:</h4>\n<pre><code>Find: (\\[.*?\\]\\(\\./.*?).md(\\))  \nReplace: $1.html$2  \n</code></pre>\n<h4>using Javascript:</h4>\n<pre><code>str.replace(\\(\\[.*?\\]\\(\\./.*?).md(\\))\\g, &quot;$1.html$2&quot;);  \n</code></pre>\n<p>So, no matter the complexity, just write the match/replace as:</p>\n<pre><code>str.replace(\\        \\g, &quot;       &quot;)  \n</code></pre>\n",
       "id": 15

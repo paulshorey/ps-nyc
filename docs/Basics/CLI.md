@@ -1,4 +1,28 @@
-#### Common Commands:  
+  
+* `ls` prints out contents of current directory  
+* `pwd` see the full path of current directory  
+  
+* starting path with `~` searches user's Home directory  
+* starting path with `/` searches the base/root of the computer  
+  
+starting with `/` points to the root (base) of the computer filesystem  
+so, `/www` looks for `www` in the base, beginning of the computer  
+only `www` looks for `www` in the current directory ONLY  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+#### Browsing and Running files:  
   
 **`cd`** enter directory of choice, like this for example:  
 ```bash  
@@ -8,10 +32,15 @@ cd /tmp
 cd Documents  
 cd /Volumes/Media/Photos\ 2018  
 ```  
+**`open .`** open something (follow by path of file to open)  
+        `open -t ~/.ssh/newssh.pub` open in default desktop text editor, outside of terminal  
+  
+*copy text file to memory:*  
+**`cat ~/ssh/newssh.pub | pbcopy`**  
+  
 **`Ctrl C`** quit running process (to re-gain control of the CLI)  
 **`fg`** resume suspended process, after accidentally doing `Ctrl X`  
 <br /><br />  
-  
   
   
 #### Files and Folders:  

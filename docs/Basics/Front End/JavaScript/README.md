@@ -1,4 +1,9 @@
-# How to loop over Arrays  
+* [Mozilla Developer Network](https://developer.mozilla.org/en-US/search?q=sort&topic=api&topic=css&topic=canvas&topic=html&topic=http&topic=js&topic=mobile&topic=apps&topic=svg&topic=webdev&topic=standards&topic=webext&topic=webgl) is an excellent reference website to **search** for Javascript features, like in this link, you search `sort`, and the first answer is `Array.prototype.sort`, which is what you use for sorting lists alphabetically, by size or length, or using more complex logic.
+
+* [FreeCodeCamp.Org](https://guide.freecodecamp.org/miscellaneous/capitalize-the-first-letter-of-a-string/) is an excellent website to **browse** for Javascript features. Or, [search it using google](first letter site:freecodecamp.org).
+
+
+## How to loop over Arrays  
 ```javascript  
     /*  "forEach" is preferred because of this option to skip the loop item */  
     arr.forEach(function(item, i){  
