@@ -19,13 +19,13 @@
                 <a class="title-items" href="/docs"><span class="emoji">📝</span><span class="emoji-text">/docs</span></a>
             </li>
             <ul class=""><li class="heading isActive"><span>Basics</span></li>
-<ul class=""><li class=""><a href="./../../Basics/GIT + SSH.html">GIT + SSH</a></li><li class=""><a href="./../../Basics/CLI.html">CLI</a></li><li class="heading isActive"><span>Front End</span></li>
-<ul class=""><li class="heading "><a href="./../../Basics/Front End/CSS/index.html">CSS</a></li>
+<ul class="isActive"><li class=""><a href="./../GIT + SSH.html">GIT + SSH</a></li><li class=""><a href="./../CLI.html">CLI</a></li><li class="heading isActive"><span>Front End</span></li>
+<ul class=""><li class="heading "><a href="./../Front End/CSS/index.html">CSS</a></li>
 
-<li class="heading "><a href="./../../Basics/Front End/JavaScript/index.html">JavaScript</a></li>
+<li class="heading "><a href="./../Front End/JavaScript/index.html">JavaScript</a></li>
 
 </ul>
-<li class="heading "><a href="./../../Basics/GoLang/index.html">GoLang</a></li>
+<li class="heading isActive"><a href="./index.html">GoLang</a></li>
 
 </ul>
 <li class="heading isActive"><span>Pro Tips</span></li>
@@ -49,18 +49,50 @@
 </ul>
 </ul>
 <li class="heading isActive"><span>SysAdmin</span></li>
-<ul class=""><li class=""><a href="./../SSL.html">SSL</a></li><li class=""><a href="./../Ports.html">Ports</a></li><li class="heading isActive"><span>Containers</span></li>
-<ul class=""><li class="heading "><a href="./../Containers/Docker/index.html">Docker</a></li>
-<ul class=""><li class=""><a href="./../Containers/Docker/help docker.html">help docker</a></li><li class=""><a href="./../Containers/Docker/help docker-run.html">help docker run</a></li><li class=""><a href="./../Containers/Docker/help docker-compose.html">help docker compose</a></li><li class=""><a href="./../Containers/Docker/docker.html">docker</a></li><li class=""><a href="./../Containers/Docker/docker-compose.html">docker compose</a></li></ul>
+<ul class=""><li class=""><a href="./../../SysAdmin/SSL.html">SSL</a></li><li class=""><a href="./../../SysAdmin/Ports.html">Ports</a></li><li class="heading isActive"><span>Containers</span></li>
+<ul class=""><li class="heading "><a href="./../../SysAdmin/Containers/Docker/index.html">Docker</a></li>
+<ul class=""><li class=""><a href="./../../SysAdmin/Containers/Docker/help docker.html">help docker</a></li><li class=""><a href="./../../SysAdmin/Containers/Docker/help docker-run.html">help docker run</a></li><li class=""><a href="./../../SysAdmin/Containers/Docker/help docker-compose.html">help docker compose</a></li><li class=""><a href="./../../SysAdmin/Containers/Docker/docker.html">docker</a></li><li class=""><a href="./../../SysAdmin/Containers/Docker/docker-compose.html">docker compose</a></li></ul>
 </ul>
 <li class="heading isActive"><span>Linux</span></li>
-<ul class="isActive"><li class="isActive"><a href="./linux-from-scratch.html">linux from scratch</a></li><li class=""><a href="./easy-deployment.html">easy deployment</a></li></ul>
+<ul class=""><li class=""><a href="./../../SysAdmin/Linux/linux-from-scratch.html">linux from scratch</a></li><li class=""><a href="./../../SysAdmin/Linux/easy-deployment.html">easy deployment</a></li></ul>
 </ul>
 </ul>
         </ul>
     </nav>
     <main class="content">
-        <script>window.scrollTo(0,document.body.scrollHeight);</script>  
+        <h2>Install GO</h2>
+<pre><code class="language-bash prettyprint"># first, remove  
+sudo rm -rf /usr/local/opt/go;  
+sudo rm -rf /usr/local/go;  
+sudo rm -rf /usr/local/.git;  
+sudo rm -rf /usr/local/Cellar/go;  
+brew cleanup;  
+brew remove go;  
+  
+# set paths  
+export GOPATH=$HOME/go  
+export GOROOT=/usr/local/opt/go/libexec  
+export PATH=$PATH:${GOPATH}/bin  
+export PATH=$PATH:${GOROOT}/bin  
+mkdir ${GOPATH}  
+  
+# use brew on mac  
+/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;  
+brew update  
+brew install go  
+  
+# install goodies  
+go get golang.org/x/tools/cmd/godoc  
+go get golang.org/x/tools/cmd/vet  
+  
+</code></pre>
+<h2>Programming</h2>
+<pre><code class="language-bash prettyprint">cd $GOPATH  
+vscode .  
+</code></pre>
+<p>add a folder/file.go</p>
+<pre><code>  
+</code></pre>
 
     </main>
 </div>
