@@ -15,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/carteblanchejazzband/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="535" column="41" selection-start-line="535" selection-start-column="41" selection-end-line="535" selection-end-column="41" />
+            <state relative-caret-position="251">
+              <caret line="528" column="70" selection-start-line="528" selection-start-column="70" selection-end-line="528" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file:///private/etc/hosts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -137,9 +146,9 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/api/package.json" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
-    <option name="width" value="1280" />
+    <option name="width" value="1080" />
     <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -151,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,6 +182,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,16 +250,16 @@
       <workItem from="1552321676375" duration="10786000" />
       <workItem from="1552411308732" duration="4931000" />
       <workItem from="1552588209925" duration="1159000" />
-      <workItem from="1553044198050" duration="195000" />
+      <workItem from="1553044198050" duration="298000" />
+      <workItem from="1553099072404" duration="716000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65171000" />
+    <option name="totallyTimeSpent" value="65990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19296876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -590,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///private/etc/hosts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Basics/GoLang/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -609,8 +611,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/carteblanchejazzband/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="535" column="41" selection-start-line="535" selection-start-column="41" selection-end-line="535" selection-end-column="41" />
+        <state relative-caret-position="251">
+          <caret line="528" column="70" selection-start-line="528" selection-start-column="70" selection-end-line="528" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///private/etc/hosts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
