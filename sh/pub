@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo publishing to github, and beyond...;
+echo $(pwd);
+
+git add .;
+git commit -m 'publishing site';
+git push;
