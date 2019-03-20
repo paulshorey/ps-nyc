@@ -105,7 +105,7 @@ Install **Material Theme** when first installing WebStorm, or as a Plugin. Mater
 Includes auto-format macro and key binding `Cmd + S` to Esc, Format, Save.  
 Also key binding `Cmd + D` to do incremental find + add word to multiple cursor, like in Sublime/VsCode.  
 And theme/colors/plugins.  
-[WebStormSettings](../../assets/files/WebStormSettings.zip)  
+[WebStormSettings](/docs/assets/files/WebStormSettings.zip)  
 ```  
     File > Import Settings  
 ```  
