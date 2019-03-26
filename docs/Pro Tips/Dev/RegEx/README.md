@@ -6,7 +6,7 @@
 > * **[Markdown](./Markdown.md)**  
 <br />
 
-Lets use the link above as an example. 
+Lets use the link above as an example.   
 We want to find/replace local links from `.md` to `.html`...
   
 #### in IDE:  
