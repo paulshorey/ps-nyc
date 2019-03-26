@@ -35,7 +35,7 @@ alias cdsand='cd ${sand}';
 ```  
 <br /><br />  
   
-The below bash functions are little bash programs. Some expect arguments, some don't. Always be sure not to overwrite existing system functions...  
+The below bash functions are little bash programs. I've been using these for years now. Still important not to forget GIT commands, for more advanced operations like **Rebase**. If renaming or adding such functions, be sure not to overwrite existing system function names...  
   
 ### ~/.functions.sh  
 ```  
