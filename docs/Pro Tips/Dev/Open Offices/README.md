@@ -10,7 +10,7 @@ but if you're trying to develop top-quality high-end applications, and have mill
 
 * **Hangouts**/**Zoom**/**Skype** ~ more than face to face with audio meetings, we can actually do screen shares, even take over each others' computers. That is amazing technology, and is even more productive than two people looking at one's computer sharing the mouse/keyboard.
 
-* **GIT** ~ we really don't need to solve merge conflicts face to face anymore. Embrace the green/red highlighted lines in a diff or merge request. 
+* **GIT** ~ we really don't need to solve merge conflicts face to face anymore. Embrace the green/red highlighted lines in a diff or merge request. We can make notes and annotations for each line of code in a merge request, or in a merge conflict, for others to read and discuss, or change their code accordingly.
 
 * **Kanban boards** ~ JIRA/Trello/Asana/Basecamp, there are so many of them, and more coming out every year. In conjunction with Slack and Email, this is an extremely productive way to communicate progress and goals, for the team and beetween individual collaborators. You can still meet in person, but how many times have you forgotten what you agreed to do in a meeting. Having meetings online, you can immediately make or edit a task for what you're talking about.     
 
