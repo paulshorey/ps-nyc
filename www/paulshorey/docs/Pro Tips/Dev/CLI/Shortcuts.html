@@ -30,9 +30,9 @@
 </ul>
 <li class="heading isActive"><span>Pro Tips</span></li>
 <ul class=""><li class="heading isActive"><span>Dev</span></li>
-<ul class="isActive"><li class="heading "><a href="./../CLI/index.html">CLI</a></li>
-<ul class=""><li class=""><a href="./../CLI/Nice-Editor.html">Nice Editor</a></li><li class=""><a href="./../CLI/Shortcuts.html">Shortcuts</a></li></ul>
-<li class="heading isActive"><a href="./index.html">GIT + SSH</a></li>
+<ul class=""><li class="heading childIsActive"><a href="./index.html">CLI</a></li>
+<ul class="isActive"><li class=""><a href="./Nice-Editor.html">Nice Editor</a></li><li class="isActive"><a href="./Shortcuts.html">Shortcuts</a></li></ul>
+<li class="heading "><a href="./../GIT + SSH/index.html">GIT + SSH</a></li>
 
 <li class="heading "><a href="./../IDE + Code/index.html">IDE + Code</a></li>
 <ul class=""><li class=""><a href="./../IDE + Code/auto-formatting.html">auto formatting</a></li><li class=""><a href="./../IDE + Code/edit-over-SSH.html">edit over SSH</a></li></ul>
@@ -62,41 +62,61 @@
         </ul>
     </nav>
     <main class="content">
-        <h1>Best Practices</h1>
-<h4>pull (update)</h4>
-<p>When updating your local codebase, but a team mate changed some lines on the remote codebase, <strong><code>git pull</code></strong> actually does a <strong><code>merge</code></strong>. This leaves a mess of post-merge commit messages in your commit history.</p>
-<ul>
-<li>Try doing <strong><code>git pull --rebase</code></strong> which does not leave so many “merge” commits when working with others.</li>
-<li><strong>or</strong>, try <code>git stash</code> first, then <code>git pull</code>, then <code>git stash pop</code> to avoid having a merge/commit message for each pull operation.</li>
-</ul>
-<h4>rebase</h4>
-<p><strong><code>git rebase -i HEAD~3</code></strong> # 3, or however many commits you’d like to rename/squash</p>
-<h1>Automate</h1>
-<ul>
-<li>####Emacs has Magit, which is agreed to be the best set of GIT shortcuts</li>
-<li>
-<h4>VsCode has GitLens, and a very handy Diff UI</h4>
-</li>
-</ul>
-<h2>I have some custom shortcuts</h2>
-<h4>include them, and other settings in <code>~/.profile</code> or <code>~/.zprofile</code>:</h4>
-<pre><code class="language-bash prettyprint"># GIT  
+        <h3>~/.zprofile</h3>
+<pre><code>#!/usr/bin/env bash  
+#alwaysexport PATH=/usr/local/bin:$PATH;  
+  
 source ~/.aliases.sh;  
+  
+alias sublime='open -a /Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text';  
+alias vscode='open -a /Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron';  
+alias webstorm='open -a /Applications/WebStorm.app/Contents/MacOS/webstorm';  
+alias ws='open -a /Applications/WebStorm.app/Contents/MacOS/webstorm';  
+  
+cdls() { cd &quot;$@&quot; &amp;&amp; ls; }  
+cdla() { cd &quot;$@&quot; &amp;&amp; la; }  
   
 eval &quot;$(ssh-agent -s)&quot;;  
 ssh-add ~/.ssh/newssh;  
   
-# EDITORS  
-alias sublime='open -a /Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text';  
-alias vscode='open -a /Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron';  
-alias webstorm='open -a /Applications/WebStorm.app/Contents/MacOS/webstorm';  
-  
 export EDITOR=ne  
+export PATH=$PATH:$(npm bin -g)  
   
-# ETC  
+#  
+# GO LANG  
+  
+export GOPATH=$HOME/go  
+export GOROOT=/usr/local/opt/go/libexec  
+  
+export PATH=$PATH:${GOPATH}/bin  
+export PATH=$PATH:${GOROOT}/bin  
+  
+export sand=${GOPATH}/src/sandman;  
+alias cdsand='cd ${sand}';  
 </code></pre>
-<h4><code>~/.aliases.sh</code>:</h4>
-<pre><code class="language-bash prettyprint">#!/usr/bin/env bash  
+<h3>~/.functions.sh</h3>
+<pre><code>#!/usr/bin/env bash  
+  
+# DOCKER STOP/REMOVE ALL  
+function docker_killall() {  
+    docker stop $(docker ps -a -q);  
+    docker rm $(docker ps -a -q);  
+}  
+function docker_list() {  
+    docker container ls;  
+}  
+function docker_cleanup() {  
+    docker rmi $(docker images -f &quot;dangling=true&quot; -q);  
+}  
+function docker_run_perfecta() {  
+    docker run \  
+      --name=perfecta \  
+      --rm \  
+      -v /ai/perfecta-web-ide/data:/home/perfecta/perfecta-web-ide/data \  
+      -p 8000:80 \  
+      -d \  
+      docker-registry.beyond.ai/pwi  
+}  
   
 # RESET TO HEAD  
 function yx() {  
@@ -189,6 +209,8 @@ function yaa() {
  	perl -pi -e 's/[\s]*?\n/\ \ \n/g' */*.md;  
  	perl -pi -e 's/[\s]*?\n/\ \ \n/g' */*/*.md;  
  	perl -pi -e 's/[\s]*?\n/\ \ \n/g' */*/*/*.md;  
+ 	perl -pi -e 's/[\s]*?\n/\ \ \n/g' */*/*/*/*.md;  
+ 	perl -pi -e 's/[\s]*?\n/\ \ \n/g' */*/*/*/*/*.md;  
  }  
   
 # SAVE (BUT FIRST RUN DOCS)  
@@ -306,7 +328,6 @@ function ym() {
 		fi;  
 	# fi;  
 }  
-  
 </code></pre>
 
     </main>
