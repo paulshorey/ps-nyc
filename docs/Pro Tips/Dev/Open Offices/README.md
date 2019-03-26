@@ -1,5 +1,5 @@
 ### Open Office space is cheaper per employee, 
-but if you're trying to develop top-quality high-end applications, and have millions in investment capital, can't you afford more private spaces? Probably. But why bother? Doesn't everyone prefer the open office? Not anyone I've ever talked to. Everyone seems afraid to disagree, to be unrealistic, and is choosing their battles.
+but if you're trying to develop top-quality high-end applications, and have millions in investment capital, can't you afford more private spaces? Probably. But why bother? Doesn't everyone prefer the open office? Not any one I've ever talked to. Everyone seems afraid to disagree, to be unrealistic, and is picking their battles.
 
 ### In an open office environment, there is no place where someone can really focus and concentrate.
  Every space is a public meeting with the entire company. Others people talking, **laughing loudly,** joking, or discussing, is heard by everyone else. It is a very stressful environment that modern laborers have to deal with. The alternative is to be ousted from their otherwise comfortable (and highpaying) jobs. **Dealing with the stress and distractions is better than the alternative, but we can do even better.**
