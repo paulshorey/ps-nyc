@@ -1,7 +1,9 @@
 
 ### Why [WebStorm](https://www.jetbrains.com/webstorm/) is the best JavaScript IDE:  
 
-* It indents JSX correctly every time, and has program settings which all actually do what they're supposed to when you change them. WebStorm is a good little robot that does as you command it.  
+* It indents JSX correctly every time.
+
+* It is a premium commercial product (read: "reliable"). It has program settings which all actually do what they're supposed to when you change them. WebStorm is a good little robot that does as you command it.  
   
 * It lets you choose to put arguments on the same line as the brackets and commas, or each bit of code on its own line. Other code formatters use one or the other convention. Webstorm (like Emacs) can detect your intention, and format the indentation without breaking your coding style. It lets you be human and creative.
   
