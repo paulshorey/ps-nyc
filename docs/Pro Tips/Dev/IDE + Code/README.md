@@ -26,67 +26,23 @@ It has several more sophisticated features - ones you would have to spend a long
   
   
 ### Unfortunately,  
-* It costs $130+. But, if you are trying to get paid for the code you write, then you can't afford not to use this. I have seen a productivity increase after just a couple days of getting used to it.  
+* It costs $130+. But, if you are trying to get paid for the code you write, then you will make back this amount very quickly. I have seen a productivity increase after just a couple days of getting used to it.   
+
   
+# Getting Started with WebStorm  
   
-### Code Example 1 (JSX)  
-**Worst case scenario** (SublimeText using JsBeautify):  
-Totally broken.  
-```  
-    Options.push( <  
-        option value = {  
-            option  
-        } > {  
-            option  
-        } <  
-        /option>  
-    );  
-```  
-**Best case scenario** (VsCode using Prettier or default or JsBeautify):  
-Notice the broken indentation. Also, why is that `<SuggestedRow...` indented by 2 spaces, while others by 4 spaces? Idk.  
-```  
-    SuggestedSelects.push(  
-      <SuggestRow  
-                    words={lists}  
-                    domains={domains}  
-                />  
-    );  
-```  
-<br /><br />  
-  
-  
-### Code Example 2 (code blocks: imports, if/else, functions, etc)  
-Long-form:  
-```  
-import {  
-  ValidateForm,  
-  ValidateField,  
-  ValidateButton,  
-  validations  
-} from 'src/containers/validateForm';  
-```  
-Short-form:  
-```  
-import { ValidateForm, ValidateField, ValidateButton, validations } from 'src/containers/validateForm';  
-```  
-Imagine many of these imports.  
-**WebStorm** allows you to use either format. You just code it. WebStorm will detect which format you're using, and fix your indentation and spaces accordingly. VsCode and others force you to use the longer one, unless you specify in the setting to always use the all-in-line version.  
-**Same case for open/closed functions and if statements.** Now you can choose how to organize the code.  
- <br /><br /><br />  
-  
- # Getting Started with WebStorm  
-  
- ### Hints:  
-Disable all unnecessary left/bottom/top menus, to have a clean interface.  
-In file browser left column, open file with one click instead of two:  
-```  
-    Project settings [...] > Autoscroll to source  
-```  
- Best syntax highlighting:  
- ```  
-    WebStorm > Preferences > Editor > Color Scheme > General > "Monokai Pro"  
-```  
-Install **Material Theme** when first installing WebStorm, or as a Plugin. Material refers to the WebStorm application UI (not the code/text) styling. Theme refers to the header,menus,file browser, status bar, etc. Use this Material `One Dark` "Theme" to nicely match the Monokai "Scheme" above.  
+### Tips:  
+* Disable all unnecessary left/bottom/top menus, to have a clean interface.
+* If you lose the file tree, press `Cmd+1`. Also press it to enter the navigaton, to open or rename a file without using the mouse.  
+* In file browser left column, open file with one click instead of two:  
+    ```  
+        Project settings [...] > Autoscroll to source  
+    ```  
+     Best syntax highlighting:  
+     ```  
+        WebStorm > Preferences > Editor > Color Scheme > General > "Monokai Pro"  
+    ```  
+* Install **Material Theme** when first installing WebStorm, or as a Plugin. *Material refers to the WebStorm application UI (**not the code/text**) styling.* Theme refers to the header,menus,file browser, status bar, etc. Use this Material `One Dark` "Theme" to nicely match the Monokai "Scheme" above.  
   
 ### Import Settings:  
 Includes auto-format macro and key binding `Cmd + S` to Esc, Format, Save.  
@@ -96,8 +52,22 @@ And theme/colors/plugins.
 ```  
     File > Import Settings  
 ```  
-**Keyboard shortcuts (for above settings file)**  
+<br /> 
+
+### Keyboard shortcuts (for above settings file)  
 * Ctrl + F        ~ new folder  
 * Ctrl + N        ~ new file  
 * Ctrl + R        ~ rename file/folder  
+* Ctrl + D        ~ delete line
+
+* Cmd + F           ~ find in page
+* Cmd + G           ~ next found instance
+* Cmd + Shift + G           ~ previous found instance
+
+* Cmd + R           ~ replace in page
+
+* Cmd + Shift + F       ~ find in folder/project
+* Cmd + Shift + R       ~ replace in folder/project
+
+
  

@@ -99,56 +99,20 @@
 </ul>
 <h3>Unfortunately,</h3>
 <ul>
-<li>It costs $130+. But, if you are trying to get paid for the code you write, then you can’t afford not to use this. I have seen a productivity increase after just a couple days of getting used to it.</li>
+<li>It costs $130+. But, if you are trying to get paid for the code you write, then you will make back this amount very quickly. I have seen a productivity increase after just a couple days of getting used to it.</li>
 </ul>
-<h3>Code Example 1 (JSX)</h3>
-<p><strong>Worst case scenario</strong> (SublimeText using JsBeautify):<br>
-Totally broken.</p>
-<pre><code>    Options.push( &lt;  
-        option value = {  
-            option  
-        } &gt; {  
-            option  
-        } &lt;  
-        /option&gt;  
-    );  
-</code></pre>
-<p><strong>Best case scenario</strong> (VsCode using Prettier or default or JsBeautify):<br>
-Notice the broken indentation. Also, why is that <code>&lt;SuggestedRow...</code> indented by 2 spaces, while others by 4 spaces? Idk.</p>
-<pre><code>    SuggestedSelects.push(  
-      &lt;SuggestRow  
-                    words={lists}  
-                    domains={domains}  
-                /&gt;  
-    );  
-</code></pre>
-<p><br /><br /></p>
-<h3>Code Example 2 (code blocks: imports, if/else, functions, etc)</h3>
-<p>Long-form:</p>
-<pre><code>import {  
-  ValidateForm,  
-  ValidateField,  
-  ValidateButton,  
-  validations  
-} from 'src/containers/validateForm';  
-</code></pre>
-<p>Short-form:</p>
-<pre><code>import { ValidateForm, ValidateField, ValidateButton, validations } from 'src/containers/validateForm';  
-</code></pre>
-<p>Imagine many of these imports.<br>
-<strong>WebStorm</strong> allows you to use either format. You just code it. WebStorm will detect which format you’re using, and fix your indentation and spaces accordingly. VsCode and others force you to use the longer one, unless you specify in the setting to always use the all-in-line version.<br>
-<strong>Same case for open/closed functions and if statements.</strong> Now you can choose how to organize the code.<br>
-<br /><br /><br /></p>
 <h1>Getting Started with WebStorm</h1>
-<h3>Hints:</h3>
-<p>Disable all unnecessary left/bottom/top menus, to have a clean interface.<br>
-In file browser left column, open file with one click instead of two:</p>
-<pre><code>    Project settings [...] &gt; Autoscroll to source  
+<h3>Tips:</h3>
+<ul>
+<li>Disable all unnecessary left/bottom/top menus, to have a clean interface.</li>
+<li>If you lose the file tree, press <code>Cmd+1</code>. Also press it to enter the navigaton, to open or rename a file without using the mouse.</li>
+<li>In file browser left column, open file with one click instead of two:<pre><code>    Project settings [...] &gt; Autoscroll to source  
 </code></pre>
-<p>Best syntax highlighting:</p>
-<pre><code>   WebStorm &gt; Preferences &gt; Editor &gt; Color Scheme &gt; General &gt; &quot;Monokai Pro&quot;  
+Best syntax highlighting:<pre><code>   WebStorm &gt; Preferences &gt; Editor &gt; Color Scheme &gt; General &gt; &quot;Monokai Pro&quot;  
 </code></pre>
-<p>Install <strong>Material Theme</strong> when first installing WebStorm, or as a Plugin. Material refers to the WebStorm application UI (not the code/text) styling. Theme refers to the header,menus,file browser, status bar, etc. Use this Material <code>One Dark</code> “Theme” to nicely match the Monokai “Scheme” above.</p>
+</li>
+<li>Install <strong>Material Theme</strong> when first installing WebStorm, or as a Plugin. <em>Material refers to the WebStorm application UI (<strong>not the code/text</strong>) styling.</em> Theme refers to the header,menus,file browser, status bar, etc. Use this Material <code>One Dark</code> “Theme” to nicely match the Monokai “Scheme” above.</li>
+</ul>
 <h3>Import Settings:</h3>
 <p>Includes auto-format macro and key binding <code>Cmd + S</code> to Esc, Format, Save.<br>
 Also key binding <code>Cmd + D</code> to do incremental find + add word to multiple cursor, like in Sublime/VsCode.<br>
@@ -156,11 +120,39 @@ And theme/colors/plugins.<br>
 <a href="/docs/assets/files/WebStormSettings.zip">WebStormSettings</a></p>
 <pre><code>    File &gt; Import Settings  
 </code></pre>
-<p><strong>Keyboard shortcuts (for above settings file)</strong></p>
+<br /> 
+<h3>Keyboard shortcuts (for above settings file)</h3>
 <ul>
-<li>Ctrl + F        ~ new folder</li>
-<li>Ctrl + N        ~ new file</li>
-<li>Ctrl + R        ~ rename file/folder</li>
+<li>
+<p>Ctrl + F        ~ new folder</p>
+</li>
+<li>
+<p>Ctrl + N        ~ new file</p>
+</li>
+<li>
+<p>Ctrl + R        ~ rename file/folder</p>
+</li>
+<li>
+<p>Ctrl + D        ~ delete line</p>
+</li>
+<li>
+<p>Cmd + F           ~ find in page</p>
+</li>
+<li>
+<p>Cmd + G           ~ next found instance</p>
+</li>
+<li>
+<p>Cmd + Shift + G           ~ previous found instance</p>
+</li>
+<li>
+<p>Cmd + R           ~ replace in page</p>
+</li>
+<li>
+<p>Cmd + Shift + F       ~ find in folder/project</p>
+</li>
+<li>
+<p>Cmd + Shift + R       ~ replace in folder/project</p>
+</li>
 </ul>
 
     </main>
