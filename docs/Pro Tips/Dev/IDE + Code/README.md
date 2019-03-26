@@ -1,24 +1,11 @@
-# Consider [WebStorm](https://www.jetbrains.com/webstorm/)  
+
+### Why [WebStorm](https://www.jetbrains.com/webstorm/) is the best JavaScript IDE:  
+
+* It indents JSX correctly every time, and has program settings which all actually do what they're supposed to when you change them. WebStorm is a good little robot that does as you command it.  
   
-### Lately, I've had trouble with both Sublime Text and Vs Code.  
+* It lets you choose to put arguments on the same line as the brackets and commas, or each bit of code on its own line. Other code formatters use one or the other convention. Webstorm (like Emacs) can detect your intention, and format the indentation without breaking your coding style. It lets you be human and creative.
   
-**VsCode** just does not indent JSX correctly, no matter what options I set, using the popular plugin "js-beautify" or "prettier" or the default formatter. After figuring out the best plugin and settings - it still sometimes breaks JSX.  
-  
-**Sublime Text** can format JSX using "Sublime-HTMLPrettify", but with this I could not enable "format on save" no matter what I did. It can do format on save with "js-beautify", but then it mangles JSX even worse than in VsCode (using the same engine and same .jsbeautifyrc file).  
-  
-This has been spurred by the **Prettier** plugin for Sublime text being broken recently. It had a bad release, and it took me forever to figure out that was actually the problem, because I have just come back to React programming after doing other things, so did not remember every setting. I tried every other plugin, switched to VsCode and messed around with that, but VsCode had its own issues. Even if I get Prettier to work again, it would be too little too late.  
-  
-What do you use? I will be asking around. Meanwhile...  
-  
-  
-### WebStorm simply works,  
-**and I have confidence that it will still behave a year from now.**  
-  
-It indents JSX correctly every time, and has program settings which all actually do what they're supposed to when you change them. WebStorm is a good little robot that does as you command it.  
-  
-Also, it lets you choose to put arguments on the same line as the brackets, or each on its own line. This is huge for readability. Sometimes one format is more legible. Other times it's not. Now you, the human, can decide which to use.  
-  
-Examples at the bottom of this page.  
+* Key mapping has a very easy search interface. Feel free to remap all your favorite shortcuts, including Macros. It even lets you search key assignment by pressing the key combination.
   
   
 ### Other benefits...  
@@ -26,9 +13,7 @@ Examples at the bottom of this page.
 It has several more sophisticated features - ones you would have to spend a long time finding and configuring just right in open source editors.  
   
 * When you re-name a file or folder, it can search all the source code in the project, and rename any references to that file, to prevent broken links.  
-  
-* Key mapping has a very easy search interface. Feel free to remap all your favorite shortcuts, including Macros.  
-  
+    
 * Pressing "Backspace" (Delete on Mac) when all you have to the left is whitespace, WebStorm deletes all the way to the end of the previous line, with one key stroke.  
     * Vs Code deletes one indentation level at a time, then you must press again to delete the new line  
     * Sublime Text actually is even worse. When indenting using spaces (for example 4), instead of deleting 4 spaces at a time, it deletes one space at a time.  
