@@ -23,11 +23,11 @@ It has several more sophisticated features - ones you would have to spend a long
 * Lint tooltips are easier to use and read  
   
 * Syntax highlighting - customizing the scheme takes a bit of getting used to when coming from Sublime/VsCode. But it has more powerful and more sophisticated syntax coloring! For example, WebStorm is smart enough to color function curly brackets differently than React variable curly brackets which contain the function.  
-  
+<br /> 
   
 ### Unfortunately,  
 * It costs $130+. But, if you are trying to get paid for the code you write, then you will make back this amount very quickly. I have seen a productivity increase after just a couple days of getting used to it.   
-
+<br /><br />
   
 # Getting Started with WebStorm  
   
@@ -43,8 +43,9 @@ It has several more sophisticated features - ones you would have to spend a long
         WebStorm > Preferences > Editor > Color Scheme > General > "Monokai Pro"  
     ```  
 * Install **Material Theme** when first installing WebStorm, or as a Plugin. *Material refers to the WebStorm application UI (**not the code/text**) styling.* Theme refers to the header,menus,file browser, status bar, etc. Use this Material `One Dark` "Theme" to nicely match the Monokai "Scheme" above.  
+<br /><br />
   
-### Import Settings:  
+# Import Settings:  
 Includes auto-format macro and key binding `Cmd + S` to Esc, Format, Save.  
 Also key binding `Cmd + D` to do incremental find + add word to multiple cursor, like in Sublime/VsCode.  
 And theme/colors/plugins.  
