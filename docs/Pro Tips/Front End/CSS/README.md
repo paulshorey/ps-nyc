@@ -1,4 +1,4 @@
-### Units and Responsive design:
+### Units and Responsive design:  
 #### With only a little work, your pixel sizes can scale proportionally with the viewer's screen size.  
 But that's not all. Keep reading, and this applies also to ALL CSS properties, not just font-size. Also margin, padding, top, left, border, width, height, etc. They can all be responsive just by adding some dynamic text sizes.  
   
@@ -40,8 +40,8 @@ html {
   
 Now, you can style an `<h1>` tag to have `font-size` of `2rem` pixels instead of `30px`. The difference is:  
 1. Traditionally, with static pixels, no matter what screen size, your text would be always 30px. On a big screen, it may be too small. On a phone screen, it would be too big.  
-2. Responsive size of `2rem` means that whatever you are sizing is 2 times the font-size of the `<html>` element. 
-
+2. Responsive size of `2rem` means that whatever you are sizing is 2 times the font-size of the `<html>` element.  
+  
 > **If the `<html>`  font size is "16.5px", then "2rem" equates to "33px". On a small screen, where the `<html>` font size is "11.5px", then "2rem" means only "23px".**  
   
 > `3rem` is 3 times the `<html>` font size.  

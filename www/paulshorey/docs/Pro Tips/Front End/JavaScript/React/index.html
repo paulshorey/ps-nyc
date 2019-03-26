@@ -64,32 +64,32 @@
     <main class="content">
         <h1>React</h1>
 <h3>Shorthand (only render method, no lifecycle):</h3>
-<pre><code class="language-javascript prettyprint">const Profile = props =&gt; {
-    
-  // validate inputs
-  if (!props.someList || !props.someList.length) {
-      return null;
-  }
+<pre><code class="language-javascript prettyprint">const Profile = props =&gt; {  
   
-  // what are we rendering?
-  const Items = [];
-  for (let i=0; i&lt;props.someList.length; i++) {
-      Items.push(&lt;li&gt;{props.someList[i]}&lt;/li&gt;);
-  };
+  // validate inputs  
+  if (!props.someList || !props.someList.length) {  
+      return null;  
+  }  
   
-  // ok, lets render it
-  return (&lt;ol&gt;{Items}&lt;/ol&gt;);
-};
+  // what are we rendering?  
+  const Items = [];  
+  for (let i=0; i&lt;props.someList.length; i++) {  
+      Items.push(&lt;li&gt;{props.someList[i]}&lt;/li&gt;);  
+  };  
+  
+  // ok, lets render it  
+  return (&lt;ol&gt;{Items}&lt;/ol&gt;);  
+};  
 </code></pre>
 <h2></h2>
 <h3>this.state</h3>
 <p><strong>Set state only after render(), in componentDidUpdate() and custom methods.</strong>, always being paranoid to avoid infinite loops.</p>
 <p><strong>Also,</strong><br>
 Because <code>this.props</code> and <code>this.state</code> may be updated asynchronously, you should not rely on their values for calculating the next state.</p>
-<pre><code class="language-javascript prettyprint">    /* do this if there's any possibility of vars changing in the meanwhile */
-    this.setState((state, props)=&gt;(
-        { counter: state.counter + props.increment }
-    ));
+<pre><code class="language-javascript prettyprint">    /* do this if there's any possibility of vars changing in the meanwhile */  
+    this.setState((state, props)=&gt;(  
+        { counter: state.counter + props.increment }  
+    ));  
 </code></pre>
 <p><a href="https://medium.freecodecamp.org/get-pro-with-react-setstate-in-10-minutes-d38251d1c781">https://medium.freecodecamp.org/get-pro-with-react-setstate-in-10-minutes-d38251d1c781</a></p>
 <h2></h2>

@@ -7,10 +7,10 @@ When updating your local codebase, but a team mate changed some lines on the rem
   
 #### rebase  
 **`git rebase -i HEAD~3`** # 3, or however many commits you'd like to rename/squash  
-
-
-
-# Automate
+  
+  
+  
+# Automate  
 * ####Emacs has Magit, which is agreed to be the best set of GIT shortcuts  
 * #### VsCode has GitLens, and a very handy Diff UI  
   
