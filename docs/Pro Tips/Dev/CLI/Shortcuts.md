@@ -1,4 +1,4 @@
-**ZSH + oh-my-zsh** and **iTerm2** are great, and add some useful features to the default terminal experience. If you're using the standard Apple/Linux "bash" terminal, then put this code into `~/.bash_profile` instead of this `~/.zprofile`.  
+**ZSH + oh-my-zsh** and **iTerm2** are great, and add some useful features to the default terminal experience. If you're using the standard Apple/Linux "bash" terminal, then put this code into `~/.bash_profile` instead of the `~/.zprofile`.  
   
 ### ~/.zprofile  
 ```  
@@ -33,6 +33,7 @@ export PATH=$PATH:${GOROOT}/bin
 export sand=${GOPATH}/src/sandman;  
 alias cdsand='cd ${sand}';  
 ```  
+<br /><br />  
   
 The below bash functions are little bash programs. Some expect arguments, some don't. Always be sure not to overwrite existing system functions...  
   
