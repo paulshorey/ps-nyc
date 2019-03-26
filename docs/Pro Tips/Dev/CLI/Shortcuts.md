@@ -1,9 +1,11 @@
+**ZSH + oh-my-zsh** and **iTerm2** are great, and add some useful features to the default terminal experience. If you're using the standard Apple/Linux "bash" terminal, then put this code into `~/.bash_profile` instead of this `~/.zprofile`.  
+  
 ### ~/.zprofile  
 ```  
 #!/usr/bin/env bash  
 #alwaysexport PATH=/usr/local/bin:$PATH;  
   
-source ~/.aliases.sh;  
+source ~/.functions.sh;  
   
 alias sublime='open -a /Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text';  
 alias vscode='open -a /Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron';  
@@ -32,6 +34,7 @@ export sand=${GOPATH}/src/sandman;
 alias cdsand='cd ${sand}';  
 ```  
   
+The below bash functions are little bash programs. Some expect arguments, some don't. Always be sure not to overwrite existing system functions...  
   
 ### ~/.functions.sh  
 ```  

@@ -62,11 +62,12 @@
         </ul>
     </nav>
     <main class="content">
-        <h3>~/.zprofile</h3>
+        <p><strong>ZSH + oh-my-zsh</strong> and <strong>iTerm2</strong> are great, and add some useful features to the default terminal experience. If you’re using the standard Apple/Linux “bash” terminal, then put this code into <code>~/.bash_profile</code> instead of this <code>~/.zprofile</code>.</p>
+<h3>~/.zprofile</h3>
 <pre><code>#!/usr/bin/env bash  
 #alwaysexport PATH=/usr/local/bin:$PATH;  
   
-source ~/.aliases.sh;  
+source ~/.functions.sh;  
   
 alias sublime='open -a /Applications/Sublime\ Text.app/Contents/MacOS/Sublime\ Text';  
 alias vscode='open -a /Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron';  
@@ -94,6 +95,7 @@ export PATH=$PATH:${GOROOT}/bin
 export sand=${GOPATH}/src/sandman;  
 alias cdsand='cd ${sand}';  
 </code></pre>
+<p>The below bash functions are little bash programs. Some expect arguments, some don’t. Always be sure not to overwrite existing system functions…</p>
 <h3>~/.functions.sh</h3>
 <pre><code>#!/usr/bin/env bash  
   
