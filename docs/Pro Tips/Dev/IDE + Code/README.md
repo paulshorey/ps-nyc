@@ -49,7 +49,8 @@ It has several more sophisticated features - ones you would have to spend a long
 Includes auto-format macro and key binding `Cmd + S` to Esc, Format, Save.  
 Also key binding `Cmd + D` to do incremental find + add word to multiple cursor, like in Sublime/VsCode.  
 And theme/colors/plugins.  
-[WebStormSettings](/docs/assets/files/WebStormSettings.zip)  
+
+### [WebStormSettings](/docs/assets/files/WebStormSettings.zip)  
 ```  
     File > Import Settings  
 ```  
