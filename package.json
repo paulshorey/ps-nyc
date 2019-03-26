@@ -22,6 +22,6 @@
   "homepage": "https://github.com/paulshorey/ps#readme",
   "dependencies": {
     "chokidar": "^2.1.2",
-    "markdown-folder-to-html-fork": "file:../markdown-folder-to-html"
+    "markdown-folder-to-html-fork": "latest"
   }
 }
