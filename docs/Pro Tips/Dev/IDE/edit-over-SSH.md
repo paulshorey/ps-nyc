@@ -24,4 +24,5 @@ rsub ~/.profile
 <br /><br />  
   
 ## Emacs text editor  
-in addition to simply editing the file, it can act as the connection agent, and the remote filebrowser too ~~ so you can connect, browse, open, and edit files all in Emacs!
+in addition to simply editing the file, it can act as the connection agent, and the remote filebrowser too ~~ so you can connect, browse, open, and edit files all in Emacs!  
+  
