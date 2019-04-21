@@ -9,10 +9,8 @@ netstat -tulpn
 **Servers usually serve incoming visitor web traffic on port 80. So, http://google.com is the same as http://google.com:80**  
   
 **However**, on your local Macbook, ports below **1000** are blocked. So, running a Node webserver on port **80** will not work. The browser url will try to go to port 80, but that request will not find its way to your system process.  
-<br />  
   
-**That's ok, we can run our server on port 1080 instead.**  
-<br />  
+**That's ok, we can run our server on port 1080 instead.** 
   
 But if we want to run the server at just `http://localhost`, not `http://localhost:1080`? Then we have to redirect all incoming requests from port 80 to port 1080:  
   
