@@ -26,8 +26,10 @@ or use **`rsub`** to open the remote file in your local editor like Sublime/VsCo
   
 **`chmod -R 600 ~/.ssh/YOUR-FILE`** you'll need to apply this to any newly created SSH key file before GIT can use it  
   
-**`chown $USER -R /www`** or whatever folder or file you want to take back ownership of, if you run into write permission issues  
-​  
+**`chown -R $USER /www`** or whatever folder or file you want to take back ownership of
+
+**`sudo chown -R $(id -u):$(id -g) $HOME`** even better! assign to current user and group 
+
 #### Advanced Commands:  
   
 <br /><br />  
