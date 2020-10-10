@@ -1,0 +1,58 @@
+header {
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-top: 2rem;
+  color: #666;
+
+  .h-left {
+    font-weight: 600;
+    width: 1px;
+    overflow: visible;
+    @media (max-width: 800px) {
+      position: relative;
+      display: block;
+    }
+
+    .icon {
+      svg {
+        width: 1rem;
+        fill: currentColor;
+      }
+      img {
+        width: 1rem;
+        height: auto;
+      }
+    }
+  }
+
+  .h-right {
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    @media (max-width: 800px) {
+      position: relative;
+      text-align: right;
+      display: block;
+    }
+
+    .icon {
+      display: inline-block;
+      position: absolute;
+      right: -1.5rem;
+      width: 1.5rem;
+      overflow: visible;
+      text-align: right;
+    }
+  }
+
+  .h-left,
+  .h-right {
+    > * {
+      position: relative;
+      display: inline-block;
+      white-space: nowrap;
+    }
+  }
+}

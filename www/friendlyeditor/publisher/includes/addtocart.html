@@ -1,8 +1,0 @@
-<!--{if $item.qty1 > 0 && $item.price1 > 0}-->
-<span class="addtocart" onmouseover="$(this).addClass('hover');" onmouseout="$(this).removeClass('hover');">
-	<a href="<!--{addtocart item=$item.id var=1}-->">
-	<span class="first">Add to cart </span>
-	<span class="second">$<!--{$item.price1}--> + $<!--{$item.shipping + $item.tax}--> S&amp;H </span>
-	</a>
-</span>
-<!--{/if}-->

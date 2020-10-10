@@ -1,1006 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/admin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_user/.aliases.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/chat/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/console/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/console/src/console.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/jobs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_public/v1/console/assets/js/console.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_public/v1/console/assets/js/sockjs-client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_public/v1/console/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Basics/CLI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Basics/Front End/CSS/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Basics/Front End/JavaScript/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Basics/GIT + SSH.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Basics/GoLang/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Dev/CLI/Nice-Editor.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Dev/CLI/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Dev/GIT + SSH/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Dev/IDE + Code/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Dev/IDE + Code/auto-formatting.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Dev/IDE + Code/edit-over-SSH.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Dev/RegEx/Basics.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Dev/RegEx/HTML.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Dev/RegEx/Javascript.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Dev/RegEx/Markdown.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Dev/RegEx/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Front End/CSS/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Front End/CSS/frameworks.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Front End/CSS/unusually responsive.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Front End/JavaScript/ES6.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Front End/JavaScript/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Front End/JavaScript/React/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Front End/JavaScript/looping.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Pro Tips/Front End/JavaScript/sorting.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/docker-compose.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/docker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-compose.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-run.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SysAdmin/Linux/easy-deployment.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SysAdmin/Linux/linux-from-scratch.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SysAdmin/Ports.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/SysAdmin/SSL.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/files/NiceEditorDocs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/files/WebStormSettings.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/images/js.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/assets/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sh/doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sh/pub" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sh/run" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/watch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/CLI.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/Front End/CSS/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/Front End/JavaScript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/GIT + SSH.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Basics/GoLang/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Dev/CLI/Nice-Editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Dev/CLI/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Dev/GIT + SSH/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Dev/IDE + Code/auto-formatting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Dev/IDE + Code/edit-over-SSH.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Dev/IDE + Code/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Dev/RegEx/Basics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Dev/RegEx/HTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Dev/RegEx/Javascript.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Dev/RegEx/Markdown.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Dev/RegEx/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Front End/CSS/frameworks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Front End/CSS/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Front End/CSS/unusually responsive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Front End/JavaScript/ES6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Front End/JavaScript/React/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Front End/JavaScript/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Front End/JavaScript/looping.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/Pro Tips/Front End/JavaScript/sorting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/docker-compose.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/docker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/help docker-compose.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/help docker-run.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/help docker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Containers/Docker/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Linux/easy-deployment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Linux/linux-from-scratch.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/Ports.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/SysAdmin/SSL.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/assets/files/NiceEditorDocs.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/assets/files/WebStormSettings.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/assets/images/js.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/assets/template.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/docs/template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/paulshorey/files/docs_ne.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.bowerrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Untitled - 2.md" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Untitled.md" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/#dpcs#" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cli/Untitled - 2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cli/Untitled.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/devops/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/devops/basicsetup.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/devops/nginx.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/git/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/git/bestpracticesshortcuts.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ide/Untitled - 2.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ide/Untitled - 3.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ide/Untitled - 4.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ide/Untitled - 5.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ide/Untitled.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/ide/editorne.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/javascript/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/javascript/typesafety.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" />
+    <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/carteblanchejazzband/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/carteblanchejazzband/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/hangglidingmap.com/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/hangglidingmap.com/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/assets/css/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/assets/css/home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/jobs/assets/jobs.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/jobs/assets/jobs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/jobs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/lib/randomWord.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/_downloads.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/_downloads.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/bio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/css/framework/standard.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/css/framework/standard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/gallery/book projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/gallery/book projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/gallery/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/gallery/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/home/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/home/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/home/thought bubble.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/home/thought bubble.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/favico.ico" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/favico.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/follow.gif" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/follow.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/follow_facebook.gif" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/follow_facebook.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/follow_tumblr.gif" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/follow_tumblr.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/add_to_cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/add_to_cart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/add_to_cart_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/add_to_cart_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/bg_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/bg_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/checkout.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/checkout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/checkout_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/checkout_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/checkout_paypal.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/checkout_paypal.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/checkout_paypal_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/checkout_paypal_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/home_banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/home_banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/home_girl.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/home_girl.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/inside_banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/inside_banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/nav_bio.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/nav_bio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/nav_bio_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/nav_bio_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/nav_blog.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/nav_blog.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/nav_blog_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/nav_blog_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/nav_contact.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/nav_contact.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/nav_contact_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/nav_contact_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/nav_gallery.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/nav_gallery.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/nav_gallery_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/nav_gallery_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/nav_home.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/nav_home.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/nav_home_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/nav_home_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/paypal_verified.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/paypal_verified.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/recent_works.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/recent_works.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll_body.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll_body.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll_down.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll_down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll_left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll_left_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll_left_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll_left_x.png.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll_left_x.png.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll_right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll_right_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll_right_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll_right_x.png.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll_right_x.png.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll_up.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll_up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll_up_h.png.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll_up_h.png.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scroll_up_x.png.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scroll_up_x.png.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scrollbody.png.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scrollbody.png.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scrollbottom.png.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scrollbottom.png.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scrolltip.png.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scrolltip.png.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/scrolltop.png.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/scrolltop.png.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/shopping_cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/shopping_cart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/thumb_frame.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/thumb_frame.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/top_email.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/top_email.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/top_email_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/top_email_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/top_phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/top_phone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/layout/top_phone_h.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/layout/top_phone_h.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image720-1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image720-1.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image720-2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image720-2.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image720-3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image720-3.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image720-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image720-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image720-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image720-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image730-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image730-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image731-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image731-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image732-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image732-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image733-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image733-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image734-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image734-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image735-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image735-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image736-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image736-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image737-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image737-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image738-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image738-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image739-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image739-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image742-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image742-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image760-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image760-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image771-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image771-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image772-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image772-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image773-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image773-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image774-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image774-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image775-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image775-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image776-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image776-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image777-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image777-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image778-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image778-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image782-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image782-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image786-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image786-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image788-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image788-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image789-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image789-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image790-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image790-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image791-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image791-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image792-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image792-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image793-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image793-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image794-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image794-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image795-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image795-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image800-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image800-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image801-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image801-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image803-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image803-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image806-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image806-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/image807-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/image807-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/about1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/about1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image730-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image730-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image731-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image731-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image732-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image732-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image733-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image733-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image734-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image734-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image735-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image735-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image736-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image736-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image737-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image737-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image738-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image738-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image739-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image739-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image742-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image742-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image760-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image760-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image771-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image771-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image772-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image772-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image773-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image773-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image774-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image774-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image775-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image775-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image776-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image776-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image777-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image777-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image778-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image778-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image782-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image782-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image786-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image786-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image788-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image788-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image789-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image789-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image790-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image790-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image791-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image791-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image792-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image792-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image793-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image793-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image794-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image794-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image795-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image795-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image800-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image800-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image801-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image801-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image803-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image803-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image806-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image806-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/image807-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/image807-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/images/uploads/thumbs/primrosemailf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/images/uploads/thumbs/primrosemailf.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/index.php-.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/index.php-.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/index.php-page=.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/index.php-page=.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/index.php-page=gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/index.php-page=gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/join mailinglist.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/join mailinglist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/join.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/mailinglist.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/mailinglist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/parties.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/parties.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/core/users/visitor adduser.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/core/users/visitor adduser.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/core/users/visitor login.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/core/users/visitor login.php.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/scripts/jquery/cycle/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/scripts/jquery/cycle/core.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/scripts/jquery/jcarousel/defaultskin.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/scripts/jquery/jcarousel/defaultskin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/scripts/jquery/jcarousel/jcarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/scripts/jquery/jcarousel/jcarousel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/scripts/jquery/jcarousel/next-vertical.png.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/scripts/jquery/jcarousel/next-vertical.png.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/scripts/jquery/jscroll/jscroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/scripts/jquery/jscroll/jscroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/scripts/jquery/jscroll/jscroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/scripts/jquery/jscroll/jscroll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/scripts/jquery/thickbox/macFFBgHack.png.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/scripts/jquery/thickbox/macFFBgHack.png.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/scripts/jquery/thickbox/thickbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/scripts/jquery/thickbox/thickbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/scripts/jquery/thickbox/thickbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/scripts/jquery/thickbox/thickbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/publisher/scripts/jquery/tools/jquery_tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/publisher/scripts/jquery/tools/jquery_tools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/robots.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/paulshorey/sites/purplelanternstudio.com/scripts/jquery/swftitles/swftitles.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/paulshorey/sites-archive/purplelanternstudio.com/scripts/jquery/swftitles/swftitles.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-<<<<<<< HEAD
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/carteblanchejazzband/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="528" column="70" selection-start-line="528" selection-start-column="70" selection-end-line="528" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file:///private/etc/hosts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-=======
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Dev/IDE + Code/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="970">
-                <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
-              </first_editor>
-              <second_editor />
->>>>>>> 71821e3c654ac8587cb0ceaede0df4b7e0155c95
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>li a</find>
-      <find>transparent</find>
-      <find>.content li {</find>
-      <find>\n</find>
-      <find>([\ ]*?)\n</find>
-      <find>_\ ([A-Z])</find>
-      <find>aws</find>
-      <find>__</find>
-      <find>\*\*(.*?)\*\*</find>
-      <find>\*\*(.*)\*\*</find>
-      <find>\*\*([^\n`.]*)\*\*</find>
-      <find>\)\s?\t?(.*?)\s?\t?\n</find>
-      <find>\)[\s\t]?(.*?)[\s\t]?\n</find>
-      <find>\)\s?(.*?)\s?\n</find>
-      <find>\*\*[\s]([^\s^\n])</find>
-      <find>\*\*\s?([A-Za-z])</find>
-      <find>\s\*\*\n</find>
-      <find>[\s]*?\n</find>
-      <find>\n\*\*</find>
-      <find>fineandrare</find>
-      <find>rare</find>
-      <find>&lt;&lt;&lt;</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>_) $1</replace>
-      <replace>_-_</replace>
-      <replace>**`$11**</replace>
-      <replace>**`$11`**</replace>
-      <replace>**`$1`**</replace>
-      <replace>) **$1**\n</replace>
-      <replace>) \t**$1**\n</replace>
-      <replace>**$1</replace>
-      <replace>**\n</replace>
-      <replace>\n</replace>
-      <replace>\n* **</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/scripts</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/sh/pub" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/sh/run" />
-        <option value="$PROJECT_DIR$/api/index.js" />
-        <option value="$PROJECT_DIR$/docs/Basics/IDE + Code/README.md" />
-        <option value="$PROJECT_DIR$/api/v1/chat/index.js" />
-        <option value="$PROJECT_DIR$/api/package.json" />
-        <option value="$PROJECT_DIR$/docs/Server/Communicating/GIT-+-SSH.md" />
-        <option value="$PROJECT_DIR$/docs/Basics/GIT + SSH/shortcuts.md" />
-        <option value="$PROJECT_DIR$/docs/Basics/GIT + SSH/porcelain.md" />
-        <option value="$PROJECT_DIR$/docs/Front End/CSS/README.md" />
-        <option value="$PROJECT_DIR$/docs/Front End/CSS/frameworks.md" />
-        <option value="$PROJECT_DIR$/docs/Server/Communicating/Ports.md" />
-        <option value="$PROJECT_DIR$/docs/Server/Communicating/SSL.md" />
-        <option value="$PROJECT_DIR$/docs/More Advanced/Front End/JavaScript/README.md" />
-        <option value="$PROJECT_DIR$/docs/README.md" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/docs/template.html" />
-        <option value="$PROJECT_DIR$/docs/SysAdmin/Linux/easy-deployment.md" />
-        <option value="$PROJECT_DIR$/docs/SysAdmin/Ports.md" />
-        <option value="$PROJECT_DIR$/docs/SysAdmin/SSL.md" />
-        <option value="$PROJECT_DIR$/docs/SysAdmin/Linux/linux-from-scratch.md" />
-        <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/docker.md" />
-        <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/docker-compose.md" />
-        <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker.md" />
-        <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-compose.md" />
-        <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-run.md" />
-        <option value="$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/README.md" />
-        <option value="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/README.md" />
-        <option value="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/responsive.md" />
-        <option value="$PROJECT_DIR$/docs/assets/template.css" />
-        <option value="$PROJECT_DIR$/docs/More Advanced/Front End/CSS/unusually responsive.md" />
-        <option value="$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/porcelain.md" />
-        <option value="$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md" />
-        <option value="$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/README.md" />
-        <option value="$PROJECT_DIR$/docs/Basics/Front End/CSS/README.md" />
-        <option value="$PROJECT_DIR$/docs/Pro Tips/Basics/RegEx/HTML.md" />
-        <option value="$PROJECT_DIR$/docs/Pro Tips/Basics/RegEx/Basics.md" />
-        <option value="$PROJECT_DIR$/docs/Pro Tips/Basics/RegEx/Javascript.md" />
-        <option value="$PROJECT_DIR$/docs/Pro Tips/Basics/RegEx/Markdown.md" />
-        <option value="$PROJECT_DIR$/docs/Pro Tips/Front End/CSS/README.md" />
-        <option value="$PROJECT_DIR$/docs/Pro Tips/Front End/JavaScript/sorting.md" />
-        <option value="$PROJECT_DIR$/docs/Pro Tips/Front End/JavaScript/README.md" />
-        <option value="$PROJECT_DIR$/docs/Basics/Front End/JavaScript/README.md" />
-        <option value="$USER_HOME$/.aliases.sh" />
-        <option value="$PROJECT_DIR$/docs/Basics/CLI.md" />
-        <option value="$PROJECT_DIR$/docs/Basics/GoLang/README.md" />
-        <option value="/private/etc/hosts" />
-        <option value="$PROJECT_DIR$/www/carteblanchejazzband/index.html" />
-        <option value="$PROJECT_DIR$/_deploy.sh" />
-        <option value="$PROJECT_DIR$/docs/Pro Tips/Dev/IDE + Code/README.md" />
-      </list>
-    </option>
-  </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/api/package.json" />
-    <dismissed value="$PROJECT_DIR$/package.json" />
-  </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="22" />
-    <option name="width" value="1080" />
-    <option name="height" value="774" />
-=======
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-1080" />
-    <option name="y" value="-892" />
-    <option name="width" value="1080" />
-    <option name="height" value="1322" />
->>>>>>> 71821e3c654ac8587cb0ceaede0df4b7e0155c95
-  </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectId" id="1gk6gchjIpaciggKZoQA2MtPnMC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <autoscrollFromSource ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Pro Tips" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Pro Tips" type="462c0819:PsiDirectoryNode" />
-              <item name="Dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ps" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ps" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="Pro Tips" type="462c0819:PsiDirectoryNode" />
-              <item name="Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="IDE + Code" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="9.10.0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/html" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="/usr/local/bin/node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/api" />
-      <recent name="$PROJECT_DIR$/api/v1" />
-      <recent name="$PROJECT_DIR$/docs/assets/files" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs/assets" />
-      <recent name="$PROJECT_DIR$/www/paulshorey" />
-      <recent name="$PROJECT_DIR$/www" />
-      <recent name="$PROJECT_DIR$/www/docs" />
-      <recent name="$PROJECT_DIR$/docs/Server/Deployment" />
+      <recent name="$PROJECT_DIR$/static/assets" />
+      <recent name="$PROJECT_DIR$/src/assets/gfx" />
+      <recent name="$PROJECT_DIR$/src/assets/gfx/ui" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/assets/style" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/html" />
+      <recent name="$PROJECT_DIR$/src/style" />
+      <recent name="$PROJECT_DIR$/src/containers" />
+      <recent name="$PROJECT_DIR$/src/pages" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="679e4539-75df-4610-b0b9-2c1c60e30ca1" name="Default Changelist" comment="" />
-      <created>1551637724722</created>
+      <changelist id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="" />
+      <created>1598646355409</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1551637724722</updated>
-      <workItem from="1551637725792" duration="64000" />
-      <workItem from="1551637973915" duration="4641000" />
-      <workItem from="1551648654021" duration="52000" />
-      <workItem from="1551648721090" duration="65000" />
-      <workItem from="1551648800924" duration="59000" />
-      <workItem from="1551648876211" duration="123000" />
-      <workItem from="1551649018043" duration="148000" />
-      <workItem from="1551649315523" duration="333000" />
-      <workItem from="1551721655018" duration="157000" />
-      <workItem from="1551721833388" duration="4824000" />
-      <workItem from="1551726907217" duration="13125000" />
-      <workItem from="1551755873792" duration="6000" />
-      <workItem from="1551808831454" duration="805000" />
-      <workItem from="1551809879757" duration="411000" />
-      <workItem from="1551928520821" duration="9007000" />
-      <workItem from="1552321676375" duration="10786000" />
-      <workItem from="1552411308732" duration="4931000" />
-      <workItem from="1552588209925" duration="1159000" />
-<<<<<<< HEAD
-      <workItem from="1553044198050" duration="298000" />
-      <workItem from="1553099072404" duration="716000" />
-=======
-      <workItem from="1553044198050" duration="195000" />
-      <workItem from="1553103595970" duration="20000" />
-      <workItem from="1553103733422" duration="259000" />
->>>>>>> 71821e3c654ac8587cb0ceaede0df4b7e0155c95
+      <updated>1598646355409</updated>
+      <workItem from="1598646358790" duration="4632000" />
+      <workItem from="1598652042235" duration="6518000" />
+      <workItem from="1601669700396" duration="6718000" />
+      <workItem from="1602175171533" duration="20960000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="65990000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
-=======
-    <option name="totallyTimeSpent" value="65450000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1080" y="-892" width="1080" height="1322" extended-state="0" />
-    <editor active="true" />
->>>>>>> 71821e3c654ac8587cb0ceaede0df4b7e0155c95
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2175926" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info id="npm" order="3" side_tool="true" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32978722" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="320">
-            <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_public/v1/console/assets/js/console.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_public/v1/console/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_public/v1/console/assets/js/sockjs-client.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="1" column="3571" selection-start-line="1" selection-start-column="3571" selection-end-line="1" selection-end-column="3571" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Server/Communicating/GIT-+-SSH.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Basics/GIT + SSH/porcelain.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/README.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Front End/CSS/frameworks.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Server/Communicating/Ports.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Server/Communicating/SSL.md" />
-    <entry file="file://$USER_HOME$/.zprofile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sh/run">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sh/pub">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sh/doc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="700">
-            <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/SysAdmin/SSL.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="40">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/SysAdmin/Ports.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="20">
-            <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/SysAdmin/Linux/linux-from-scratch.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="40">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/SysAdmin/Linux/easy-deployment.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="360">
-            <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-run.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="520">
-            <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="40">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker-compose.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="40">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/help docker.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="40">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Basics/GIT + SSH/README.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/porcelain.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Basics/Front End/CSS/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="980">
-            <caret line="24" column="173" selection-start-line="24" selection-start-column="173" selection-end-line="24" selection-end-column="173" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Basics/RegEx/Markdown.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Basics/RegEx/Javascript.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Basics/RegEx/Basics.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Basics/GIT + SSH/README.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Front End/CSS/unusually responsive.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="760">
-            <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/assets/template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="619">
-          <caret line="220" column="10" selection-start-line="220" selection-start-column="10" selection-end-line="220" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/docker-compose.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="40">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Basics/RegEx/HTML.md" />
-    <entry file="file://$PROJECT_DIR$/docs/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="107" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Front End/JavaScript/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="320">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Front End/CSS/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="460">
-            <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Basics/CLI/README.md" />
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Front End/JavaScript/sorting.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="460">
-            <caret line="23" column="30" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Basics/CLI.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="172">
-            <caret line="31" column="2" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Basics/Front End/JavaScript/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="540">
-            <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/SysAdmin/Containers/Docker/docker.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="340">
-            <caret line="17" column="54" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="54" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.aliases.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1550">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Basics/GoLang/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="60">
-            <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/carteblanchejazzband/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="251">
-          <caret line="528" column="70" selection-start-line="528" selection-start-column="70" selection-end-line="528" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/etc/hosts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-=======
-        <state relative-caret-position="443">
-          <caret line="495" column="78" selection-start-line="495" selection-start-column="78" selection-end-line="495" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_deploy.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Pro Tips/Dev/IDE + Code/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="970">
-            <caret line="107" column="24" selection-start-line="107" selection-start-column="24" selection-end-line="107" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
->>>>>>> 71821e3c654ac8587cb0ceaede0df4b7e0155c95
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="WindowStateProjectService">
+    <state x="795" y="-639" key="#Prettier" timestamp="1602273018687">
+      <screen x="-567" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="795" y="-639" key="#Prettier/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602273018687" />
+    <state x="444" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598651956140">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="444" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1598651956140" />
+    <state x="596" y="-890" key="SettingsEditor" timestamp="1602273006861">
+      <screen x="-567" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="596" y="-890" key="SettingsEditor/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602273006861" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1602278440095">
+      <screen x="-567" y="-1057" width="2560" height="1057" />
+    </state>
+    <state width="500" height="445" key="SwitcherDM/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602278440095" />
+    <state x="670" y="-911" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602284666586">
+      <screen x="-567" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="670" y="-911" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602284666586" />
+    <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601670648344">
+      <screen x="-567" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
+    <state x="183" y="-822" width="1060" height="586" key="find.popup" timestamp="1602282640211">
+      <screen x="-567" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602282640211" />
+    <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1598654185054" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598650220977">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1598650220977" />
   </component>
 </project>

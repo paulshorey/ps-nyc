@@ -1,27 +1,80 @@
 {
   "name": "ps",
-  "version": "1.0.0",
-  "description": "For a WIP FRONT-END KNOWLEDGEBASE.   * useful programming tips and tricks   * code snippets   * shortcuts   * reference links   * etc.",
-  "main": "./www/paulshorey.com/index.html",
-  "directories": {
-    "doc": "docs"
+  "description": "Personal portfolio site",
+  "version": "0.0.2",
+  "author": "Paul Shorey <hellol@paulshorye.com>",
+  "bugs": {
+    "url": "https://github.com/paulshorey/ps/issues"
   },
-  "scripts": {
-    "docs": "markdown-folder-to-html docs www/paulshorey/docs; # call ghmd manually in terminal",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependenciesNotUsed": {
+    "express": "^4.17.1",
+    "serve-handler": "^6.1.3"
   },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/pro-light-svg-icons": "^5.15.1",
+    "@fortawesome/pro-regular-svg-icons": "^5.15.1",
+    "@fortawesome/pro-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "gatsby": "^2.24.50",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-sass": "^2.3.12",
+    "gatsby-plugin-styled-jsx": "^3.3.14",
+    "node-sass": "^4.14.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "src": "file:/srv/ps/src",
+    "styled-jsx": "^3.3.0",
+    "styled-jsx-plugin-sass": "^1.0.0",
+    "typeface-quicksand": "^1.1.13",
+    "gatsby-plugin-styled-components": "^3.1.21",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "html-loader": "^1.3.0",
+    "markdown-loader": "^6.0.0",
+    "prettier": "^2.1.0"
+  },
+  "homepage": "https://github.com/paulshorey/ps",
+  "keywords": [
+    "gatsby",
+    "contentful"
+  ],
+  "license": "MIT",
+  "main": "n/a",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/paulshorey/ps.git"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/paulshorey/ps/issues"
-  },
-  "homepage": "https://github.com/paulshorey/ps#readme",
-  "dependencies": {
-    "chokidar": "^2.1.2",
-    "markdown-folder-to-html-fork": "latest"
+  "scripts": {
+    "start": "npm run dev:dev",
+    "dev": "npm run dev:dev",
+    "dev:dev": "npm run ip_local && GATSBY_ACTIVE_ENV=development gatsby develop",
+    "dev:stage": "npm run ip_stage && GATSBY_ACTIVE_ENV=development gatsby develop",
+    "dev:production": "GATSBY_ACTIVE_ENV=production gatsby develop",
+    "build": "echo please specify build:dev or build:stage or build:production",
+    "build:dev": "rm -rf ./build_dev && npm run ip_local && GATSBY_ACTIVE_ENV=development gatsby build && mv ./public ./build_dev",
+    "build:stage": "rm -rf ./build_stage && npm run ip_stage && GATSBY_ACTIVE_ENV=development gatsby build && mv ./public ./build_stage",
+    "build:production": "rm -rf /srv/public/ps &&GATSBY_ACTIVE_ENV=production gatsby build && mv ./public /srv/public/ps",
+    "post_build_production": "cp ./public /srv/public && mv /srv/public/public /srv/public/ps",
+    "serve": "npm run serve:production",
+    "serve:dev": "echo \"serving dev @ localhost:8000\" && http-server build_stage -p 8000",
+    "serve:stage": "echo \"serving stage @ http://$(ipconfig getifaddr en0):9000\" && http-server build_stage -p 9000",
+    "serve:production": "echo \"serving production @ port 9000\" && http-server build_stage -p 9000",
+    "#######": "#",
+    "# etc #": "#",
+    "######!": "#",
+    "pull": "git add . && rm package-lock.json && git reset --hard HEAD && git pull",
+    "ip_stage": "echo \"\nPUBLIC_API_HOST = '$(ipconfig getifaddr en0):1090'\nADMIN_API_HOST = '$(ipconfig getifaddr en0):1090'\" >> .env.development",
+    "ip_local": "echo \"\nPUBLIC_API_HOST = '127.0.0.1:1080'\nADMIN_API_HOST = '127.0.0.1:1080'\" >> .env.development",
+    "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md' 'bin/*.js'",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix *.js bin/*.js",
+    "contentful-postinstall": "node ./bin/hello.js",
+    "contentful-setup": "node ./bin/setup.js",
+    "contentful-cleanup": "rimraf bin contentful && yarn remove contentful-import chalk inquirer rimraf "
   }
 }

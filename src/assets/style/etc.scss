@@ -1,0 +1,137 @@
+.content {
+  position: relative;
+  width: 75%;
+  min-width: 800px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: 699px) {
+    width: calc(100% - 4rem);
+    min-width: calc(100% - 4rem);
+    margin-right: 1.125rem;
+    margin-left: 2.25rem;
+  }
+}
+
+body {
+  font-family: "Bodoni 72", Georgia, serif;
+  background: url(../gfx/background_paper.jpg) center top repeat-x;
+  background-size: contain;
+  //font-family: system-ui, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, "Open Sans", "AuroRegular", sans-serif;
+  min-width: 380px;
+  > div:first-child {
+    overflow: auto;
+    height: 100vh;
+    width: 100vw;
+  }
+  img,
+  video,
+  iframe {
+    max-width: 100%;
+  }
+}
+
+p {
+  margin-bottom: 0.85rem;
+  letter-spacing: 0.15px;
+  line-height: 1.3rem;
+  font-size: 1rem;
+  color: #666;
+}
+
+a {
+  color: orange;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4bafe1;
+  text-decoration: underline;
+}
+
+.bit_wider {
+  margin-left: -1.75rem;
+  margin-right: -1.75rem;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  background: #ccc;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: none;
+}
+
+h2 {
+  color: #666;
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.75rem;
+  .icon {
+    display: inline-block;
+    width: 1.5rem;
+  }
+}
+
+h3 {
+  line-height: 1.33rem;
+  font-size: 1.33rem;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * EFFECTS
+ */
+@-webkit-keyframes playGlow {
+  0% {
+    box-shadow: 0 0 5px 0 orange;
+  }
+
+  40% {
+    box-shadow: 0 0 25px 0 orange;
+  }
+
+  100% {
+    box-shadow: 0 0 5px 0 orange;
+  }
+}
+
+@keyframes playGlow {
+  0% {
+    box-shadow: 0 0 5px 0 orange;
+  }
+
+  40% {
+    box-shadow: 0 0 25px 0 orange;
+  }
+
+  100% {
+    box-shadow: 0 0 5px 0 orange;
+  }
+}
+
+/*
+ * CHEESY EFFECT - forget what it does
+*/
+.h-hidden {
+  transition: opacity 1s linear 10s;
+  opacity: 0;
+}
+
+.h-visible {
+  transition: opacity 1s linear 10s;
+  opacity: 1;
+}
+
+body.ready .h-hidden {
+  opacity: 1;
+}
+
+body.ready .h-visible {
+  opacity: 0;
+}

@@ -1,0 +1,90 @@
+section {
+  margin: 2.5vh 5.5vw 2.5vh 5vw;
+  position: relative;
+  header {
+    position: relative;
+    width: 100%;
+    font-size: 1.14rem;
+    line-height: 1.45rem;
+    min-height: calc(1.45rem + 4px);
+    margin-bottom: 3rem;
+    color: #666;
+    .h-left {
+      position: absolute;
+      left: 0;
+      .icon-heart {
+        &:before {
+          font-size: 90%;
+          vertical-align: 1px;
+        }
+      }
+    }
+    .h-right {
+      position: absolute;
+      right: 0;
+      .ion-thumbsup {
+        &:before {
+          font-size: 125%;
+        }
+      }
+    }
+  }
+  article {
+    margin: 3rem auto;
+    max-width: 800px;
+    &.full {
+      max-width: 1400px;
+    }
+    &.full {
+      max-width: 1400px;
+    }
+    .video {
+      position: relative;
+      max-width: 720px;
+      margin: 0 0 1vh;
+      .playpause {
+        background-image: url(../gfx/play.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+      }
+      video {
+        width: 100%;
+        display: block;
+      }
+    }
+    .image {
+      position: relative;
+      max-width: 720px;
+      img {
+        width: 100%;
+      }
+    }
+    .collage {
+      position: relative;
+      margin: 0;
+      .playbutton {
+        background-image: url(../gfx/play.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        position: absolute;
+        width: 6vw;
+        height: 6vw;
+        background-size: auto 50%;
+        background-color: #fff;
+        top: calc(50% - 3vw);
+        left: calc(50% - 3vw);
+        border-radius: 50%;
+        box-shadow: 0 0 5px #000;
+        background-position-x: 60%;
+        border: solid 1px orange;
+        -webkit-animation: playGlow 3s infinite;
+        animation: playGlow 3s infinite;
+      }
+    }
+  }
+}

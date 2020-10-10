@@ -1,3 +1,0 @@
-IndexIgnore *.php *.html *.htm *.txt *.ini *.htaccess
-
-RewriteEngine off

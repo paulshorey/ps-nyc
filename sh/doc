@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-
-echo building documentation...;
-echo $(pwd);
-
-npm run docs;

@@ -1,0 +1,4 @@
+{
+  "name": "src",
+  "description": "Local module, import as a node module path. Install with `npm link ./path/to/here`"
+}
