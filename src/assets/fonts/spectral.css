@@ -1,0 +1,45 @@
+@font-face {
+	font-family: 'spectral';
+	font-weight: 200;
+	src: url('./spectral/Spectral-Light.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'spectral';
+	font-weight: 400;
+	src: url('./spectral/Spectral-Medium.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'spectral';
+	font-weight: 600;
+	src: url('./spectral/Spectral-SemiBold.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'spectral';
+	font-weight: 800;
+	src: url('./spectral/Spectral-Bold.ttf')  format('truetype');
+}
+
+@font-face {
+	font-family: 'spectral';
+	font-weight: 200;
+	font-style:italic;
+	src: url('./spectral/Spectral-LightItalic.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'spectral';
+	font-weight: 400;
+	font-style:italic;
+	src: url('./spectral/Spectral-MediumItalic.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'spectral';
+	font-weight: 600;
+	font-style:italic;
+	src: url('./spectral/Spectral-SemiBoldItalic.ttf')  format('truetype');
+}
+@font-face {
+	font-family: 'spectral';
+	font-weight: 800;
+	font-style:italic;
+	src: url('./spectral/Spectral-BoldItalic.ttf')  format('truetype');
+}

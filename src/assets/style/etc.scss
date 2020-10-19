@@ -1,23 +1,7 @@
-.content {
-  position: relative;
-  width: 75%;
-  min-width: 800px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-
-  @media (max-width: 699px) {
-    width: calc(100% - 4rem);
-    min-width: calc(100% - 4rem);
-    margin-right: 1.125rem;
-    margin-left: 2.25rem;
-  }
-}
-
 body {
-  font-family: "Bodoni 72", Georgia, serif;
+  font-family: serif; //"bodoni 72",
   background: url(../gfx/background_paper.jpg) center top repeat-x;
-  background-size: contain;
+  //background-size: contain;
   //font-family: system-ui, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, "Open Sans", "AuroRegular", sans-serif;
   min-width: 380px;
   > div:first-child {
@@ -32,7 +16,93 @@ body {
   }
 }
 
-p {
+.pageProjectsForClients {
+  .uuiCarousel {
+    img {
+      height: 8rem;
+    }
+    .arrows {
+      display: none;
+    }
+  }
+}
+
+.pageAbout {
+  .aboutus {
+    .column.nowrap img {
+      width: 300px;
+    }
+    p {
+      background: url(http://localhost:8080/static/background_paper-785c540b527881e33bec7ce84f7bf12c.jpg) center;
+    }
+  }
+  .uuiCarousel {
+    img {
+      height: 12.5rem;
+    }
+    .arrows {
+      display:none;
+    }
+  }
+}
+
+.content {
+  position: relative;
+  width: 80%;
+  min-width: 600px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  @media (max-width: 1099px) {
+    width: 90%;
+  }
+  @media (max-width: 699px) {
+    width: calc(100% - 3.5rem);
+    min-width: calc(100% - 3.5rem);
+    margin-right: 0;
+    margin-left: 1.675rem;
+  }
+  &.full {
+    width: calc(100% - 3rem);
+    min-width: calc(100% - 3rem);
+    margin-right: 0;
+    margin-left: 1.5rem;
+  }
+}
+
+.uui-icon {
+  position: relative;
+  top: 2px;
+  padding: 0 2px;
+}
+
+form {
+  input {
+    padding: 0.125rem 0.25rem;
+    line-height: 1.25rem;
+    border: solid 1px #999;
+    border-radius: 2px;
+    margin-left: 0.125rem;
+    margin-right: 0.25rem;
+  }
+  button {
+    padding: 0.125rem 0.25rem;
+    line-height: 1.25rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    margin-right: 0.125rem;
+  }
+  &.inline {
+    display: inline;
+    * {
+      display: inline;
+      line-height: 1rem;
+    }
+  }
+}
+
+p,
+.p {
   margin-bottom: 0.85rem;
   letter-spacing: 0.15px;
   line-height: 1.3rem;
@@ -50,11 +120,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.bit_wider {
-  margin-left: -1.75rem;
-  margin-right: -1.75rem;
-}
-
 hr {
   display: block;
   height: 1px;
@@ -65,11 +130,9 @@ hr {
 }
 
 h2 {
-  color: #666;
   padding: 0;
   margin: 0;
   font-size: 1rem;
-  font-weight: normal;
   line-height: 1.75rem;
   .icon {
     display: inline-block;
@@ -134,4 +197,14 @@ body.ready .h-hidden {
 
 body.ready .h-visible {
   opacity: 0;
+}
+
+/*
+ * Classes
+ */
+.flex {
+  display: flex;
+  .flex-grow {
+    flex-grow: 1;
+  }
 }

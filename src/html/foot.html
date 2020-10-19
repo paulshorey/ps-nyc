@@ -1,181 +1,63 @@
-<!--&lt;!&ndash;-->
-<!--      begin CONTACT FORM-->
-<!--      &ndash;&gt;-->
-<!--            <div class="contactContent">-->
-<!--                <form id="submitSubscribeForm">-->
-<!--                  <h3>Stay informed about new product releases:</h3>-->
-<!--                  <div class="formContent">-->
-<!--                     <fieldset>-->
-<!--                        <input type="text" name="email" placeholder="Your email..." onchange="updateContactData('email',this.value)" />-->
-<!--                     </fieldset>-->
-<!--                     <button class="g-recaptcha" type="submit">Subscribe</button>-->
-<!--                  </div>-->
-<!--                  <div class="response"><p><sup>We include an instant "unsubscribe" link in all emails.</sup></p></div>-->
-<!--      </form>-->
+<!--
+CONTACT FORM
+-->
+<!--<div class="contactContent">-->
+<!--  <form id="submitSubscribeForm">-->
+<!--    <h3>Stay informed about new product releases:</h3>-->
+<!--    <div class="formContent">-->
+<!--       <fieldset>-->
+<!--          <input type="text" name="email" placeholder="Your email..." onchange="updateContactData('email',this.value)" />-->
+<!--       </fieldset>-->
+<!--       <button class="g-recaptcha" type="submit">Subscribe</button>-->
+<!--    </div>-->
+<!--    <div class="response"><p><sup>We include an instant "unsubscribe" link in all emails.</sup></p></div>-->
+<!--</form>-->
 
-<!--      <form id="submitContactForm">-->
-<!--                  <h3>Say hello:</h3>-->
-<!--                  <div class="formContent">-->
-<!--                     <fieldset>-->
-<!--                        <input type="text" name="email" placeholder="Your email..." onchange="updateContactData('email',this.value)" />-->
-<!--                     </fieldset>-->
-<!--                     <fieldset>-->
-<!--                        <input type="text" name="name" placeholder="Your name..." onchange="updateContactData('name',this.value)" />-->
-<!--                     </fieldset>-->
-<!--                     <fieldset>-->
-<!--                        <textarea name="text" placeholder="Your message..." onchange="updateContactData('text',this.value)"></textarea>-->
-<!--                     </fieldset>-->
-<!--                     <button class="g-recaptcha" type="submit">-->
-<!--                        <img class="svg" alt="send" src="/images/icon-send.svg" />-->
-<!--                        <span> Send</span>-->
-<!--                     </button>-->
-<!--                  </div>-->
-<!--                  <div class="response">-->
-<!--                  </div>-->
-<!--                </form>-->
-<!--               <script>document.write('<p><sup>Or email <a href="mailto:paul@nlp.studio">paul@nlp.studio</a></sup></p>')</script>-->
-<!--      </div>-->
-<!--      &lt;!&ndash;-->
-<!--       end CONTACT FORM-->
-<!--       &ndash;&gt;-->
+<!--<form id="submitContactForm">-->
+<!--    <h3>Say hello:</h3>-->
+<!--    <div class="formContent">-->
+<!--       <fieldset>-->
+<!--          <input type="text" name="email" placeholder="Your email..." onchange="updateContactData('email',this.value)" />-->
+<!--       </fieldset>-->
+<!--       <fieldset>-->
+<!--          <input type="text" name="name" placeholder="Your name..." onchange="updateContactData('name',this.value)" />-->
+<!--       </fieldset>-->
+<!--       <fieldset>-->
+<!--          <textarea name="text" placeholder="Your message..." onchange="updateContactData('text',this.value)"></textarea>-->
+<!--       </fieldset>-->
+<!--       <button class="g-recaptcha" type="submit">-->
+<!--          <img class="svg" alt="send" src="/images/icon-send.svg" />-->
+<!--          <span> Send</span>-->
+<!--       </button>-->
+<!--    </div>-->
+<!--    <div class="response">-->
+<!--    </div>-->
+<!--  </form>-->
+<!-- <script>document.write('<p><sup>Or email <a href="mailto:paul@nlp.studio">paul@nlp.studio</a></sup></p>')</script>-->
+<!--</div>-->
 
-<!--&lt;!&ndash;-->
-<!--   CONTACT FORM-->
-<!--&ndash;&gt;-->
-<!--      <script>-->
-<!--         /*-->
-<!--          * Contact data-->
-<!--          */-->
-<!--         let updateContactData = function (key,value) {-->
-<!--           contactData[key] = value-->
-<!--           if (key==='email') {-->
-<!--             Array.from(document.querySelectorAll('form')).forEach(form=> {-->
-<!--               form['email'].value = value-->
-<!--             })-->
-<!--           }-->
-<!--         }-->
-<!--         let contactData = {-->
-<!--           email:'only_this_is_required@whateveHTMLr.com',-->
-<!--           name:'',-->
-<!--           text:'',-->
-<!--           updates_product:'',-->
-<!--         }-->
-<!--         let putUrl = 'https://subscribe-and-contact-form.p.rapidapi.com/v1/contacts'-->
-<!--         let putHeaders = {-->
-<!--           "content-type": "application/json",-->
-<!--           "x-rapidapi-host": "subscribe-and-contact-form.p.rapidapi.com",-->
-<!--           "x-rapidapi-key": "024726ac3bmsh58ecf30df1dcaa9p187c38jsnae3868b21908",-->
-<!--           "useQueryString": true-->
-<!--         }-->
-<!--         // let putUrl = 'http://142.93.251.57/v1/contacts'-->
-<!--         // let putHeaders = { "content-type": "application/json", };-->
-<!--         let putContactData = function(captcha_response='any_string') {-->
-<!--           return new Promise(function(resolve) {-->
-<!--             // request-->
-<!--             axios({-->
-<!--               method: "put",-->
-<!--               url: putUrl,-->
-<!--               headers: putHeaders,-->
-<!--               data: {-->
-<!--                 contact: contactData,-->
-<!--                 captcha_response: captcha_response-->
-<!--               },-->
-<!--             })-->
-<!--               .then((results) => {-->
-<!--                 // parse data from object-->
-<!--                 if (results.data && "data" in results.data) {-->
-<!--                   resolve(results.data.data)-->
-<!--                 } else {-->
-<!--                   console.warn('server response did not have "data" key')-->
-<!--                   resolve(results.data)-->
-<!--                 }-->
-<!--               })-->
-<!--               .catch((error) => {-->
-<!--                 // parse error message from object-->
-<!--                 let data = error.response ? error.response.data : {error:""}-->
-<!--                 data.error = data.error || error.message ? error.message : error-->
-<!--                 console.log('axios error', data )-->
-<!--                 resolve(data)-->
-<!--               })-->
-<!--           })-->
-<!--         }-->
+<script src="https://www.google.com/recaptcha/api.js?render=6LfSN-MUAAAAAOxMUojSlBxkicjSeX1YLW8ds8C1"></script>
 
-<!--         /*-->
-<!--          * Submit subscribe form-->
-<!--          */-->
-<!--         let subscribeForm = document.getElementById('submitSubscribeForm');-->
-<!--         subscribeForm.addEventListener('submit', function(e) {-->
-<!--           console.log('submitSubscribeForm',contactData);-->
-<!--           e.preventDefault();-->
-<!--           if (!contactData.email) {-->
-<!--             subscribeForm.querySelector('.response').innerHTML = `-->
-<!--                  <p class="error">Please enter your email address.</p>-->
-<!--               `;-->
-<!--             return-->
-<!--           }-->
-<!--           grecaptcha.ready(function() {-->
-<!--             grecaptcha.execute('6LfSN-MUAAAAAOxMUojSlBxkicjSeX1YLW8ds8C1', { action: 'submit' }).then(function (token) {-->
-<!--               console.log('captcha_response', token);-->
-<!--               putContactData(token).then(function(data){-->
-<!--                 if (data.error) {-->
-<!--                   subscribeForm.querySelector('.response').innerHTML = `-->
-<!--                           <p class="error">${data.error || 'Could not send. Something went wrong.'}</p>-->
-<!--                        `;-->
-<!--                 } else {-->
-<!--                   subscribeForm.querySelector('.response').innerHTML = `-->
-<!--                           <p class="success">Email saved.</p>-->
-<!--                        `;-->
-<!--                 }-->
-<!--                 contactForm.querySelector('.response').innerHTML = ``-->
-<!--               })-->
-<!--             });-->
-<!--           });-->
-<!--         });-->
-<!--         /*-->
-<!--          * Submit contact form-->
-<!--          */-->
-<!--         let contactForm = document.getElementById('submitContactForm');-->
-<!--         contactForm.addEventListener('submit', function(e) {-->
-<!--           e.preventDefault();-->
-<!--           if (!contactData.email) {-->
-<!--             contactForm.querySelector('.response').innerHTML = `-->
-<!--                  <p class="error">Please enter your email address.</p>-->
-<!--               `;-->
-<!--             return-->
-<!--           }-->
-<!--           else if (!contactData.text) {-->
-<!--             contactForm.querySelector('.response').innerHTML = `-->
-<!--                  <p class="error">Please enter a message.</p>-->
-<!--               `;-->
-<!--             return-->
-<!--           }-->
-<!--           else if (!contactData.name) {-->
-<!--             contactForm.querySelector('.response').innerHTML = `-->
-<!--                  <p class="error">Please enter your name.</p>-->
-<!--               `;-->
-<!--             return-->
-<!--           }-->
-<!--           grecaptcha.ready(function() {-->
-<!--             grecaptcha.execute('6LfSN-MUAAAAAOxMUojSlBxkicjSeX1YLW8ds8C1', { action: 'submit' }).then(function (token) {-->
-<!--               console.log('captcha_response',token);-->
-<!--               putContactData(token).then(function(data){-->
-<!--                 if (data.error) {-->
-<!--                   contactForm.querySelector('.response').innerHTML = `-->
-<!--                           <p class="error">${data.error || 'Could not send. Something went wrong.'}</p>-->
-<!--                        `;-->
-<!--                 } else {-->
-<!--                   contactForm.querySelector('.response').innerHTML = `-->
-<!--                           <p class="success">Message sent. Thank you. We'll get back to you soon.</p>-->
-<!--                        `;-->
-<!--                 }-->
-<!--                 subscribeForm.querySelector('.response').innerHTML = ``-->
-<!--               })-->
-<!--             });-->
-<!--           });-->
-<!--         });-->
-<!--      </script>-->
+<link rel="stylesheet" type="text/css" href="/assets/icomoon/style.css" />
 
-<!--      <script src="https://www.google.com/recaptcha/api.js?render=6LfSN-MUAAAAAOxMUojSlBxkicjSeX1YLW8ds8C1"></script>-->
-<!--&lt;!&ndash;-->
-<!--   end CONTACT FORM-->
-<!--&ndash;&gt;-->
+<script src="/assets/js/init.js"></script>
+<script src="/assets/js/uuiModal/uuiModal.js"></script>
+<link href="/assets/js/uuiModal/uuiModal.css" rel="stylesheet" type="text/css" />
+<script src="/assets/js/uuiCarousel/uuiCarousel.js"></script>
+<link href="/assets/js/uuiCarousel/uuiCarousel.css" rel="stylesheet" type="text/css" />
+
+<!-- curator, for about/media page -->
+<script type="text/javascript">
+  /* curator-feed-default-feed-layout */
+  setTimeout(function () {
+    let i,
+      e,
+      d = document,
+      s = "script"
+    i = d.createElement("script")
+    i.async = 1
+    i.src = "https://cdn.curator.io/published/ae097518-c61c-44a8-ad54-51b0310906ee.js"
+    e = d.getElementsByTagName(s)[0]
+    e.parentNode.insertBefore(i, e)
+  }, 500)
+</script>

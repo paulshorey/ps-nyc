@@ -1,5 +1,5 @@
 section {
-  margin: 2.5vh 5.5vw 2.5vh 5vw;
+  margin: 0;
   position: relative;
   header {
     position: relative;
@@ -84,6 +84,14 @@ section {
         border: solid 1px orange;
         -webkit-animation: playGlow 3s infinite;
         animation: playGlow 3s infinite;
+      }
+      .playlink {
+        display: block;
+        text-align: right;
+        margin: -0.5rem 0 0.5rem;
+        > * {
+          display: inline-block;
+        }
       }
     }
   }

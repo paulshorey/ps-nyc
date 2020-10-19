@@ -3,17 +3,17 @@ header {
   font-size: 1rem;
   line-height: 1.75rem;
   margin-top: 2rem;
+  margin-bottom: 0.75rem;
   color: #666;
 
   .h-left {
-    font-weight: 600;
+    white-space: nowrap;
     width: 1px;
     overflow: visible;
     @media (max-width: 800px) {
       position: relative;
       display: block;
     }
-
     .icon {
       svg {
         width: 1rem;
@@ -36,7 +36,6 @@ header {
       text-align: right;
       display: block;
     }
-
     .icon {
       display: inline-block;
       position: absolute;

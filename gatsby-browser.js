@@ -12,6 +12,10 @@ import "src/assets/style/etc.scss"
 import "src/assets/style/header.scss"
 import "src/assets/style/section.scss"
 
+// import "src/assets/fonts/taviraj.css"
+// import "src/assets/fonts/spectral.css"
+// import "src/assets/fonts/garamond.css"
+
 // The following import prevents a Font Awesome icon server-side rendering bug,
 // where the icons flash from a very large icon down to a properly sized one:
 import "@fortawesome/fontawesome-svg-core/styles.css"

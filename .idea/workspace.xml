@@ -2,11 +2,151 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/ProjectsForJobs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/etc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Projects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/about/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about/media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/foot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/current.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/past.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/fonts/robinson.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/fonts/robinson.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/fonts/robinson.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/fonts/robinson.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/fonts/robinson.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/fonts/robinson.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/funny/mongodb-hacked" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/gfx/happyface.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/gfx/puzzle.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/cycle/cycle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/jquery.cycle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/ionic/js/ionic-angular.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/ionic/js/ionic-angular.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/ionic/js/ionic.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/ionic/js/ionic.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/ajax/parseJSON.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/ajax/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/ajax/var/location.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/ajax/var/nonce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/ajax/var/rquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/adjustCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/defaultDisplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/showHide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/var/cssExpand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/var/getStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/var/isHidden.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/var/rmargin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/css/var/swap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/data/var/acceptData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/data/var/dataPriv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/data/var/dataUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/event/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/event/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/event/focusin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/event/trigger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/intro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/manipulation/getAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/outro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/traversing/var/dir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/traversing/var/siblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/arr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/class2type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/concat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/documentElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/hasOwn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/pnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/rcssNum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/rnotwhite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/slice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/var/toString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/photos/me/vintage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/the_wilderness_downtown/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/the_wilderness_downtown/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +169,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/carousels" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,21 +181,22 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="/usr/local/bin/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.webOptions" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/assets" />
-      <recent name="$PROJECT_DIR$/src/assets/gfx" />
-      <recent name="$PROJECT_DIR$/src/assets/gfx/ui" />
-      <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/assets/style" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/html" />
-      <recent name="$PROJECT_DIR$/src/style" />
+      <recent name="$PROJECT_DIR$/src/components/carousels" />
+      <recent name="$PROJECT_DIR$/src/components/beyondlimits" />
+      <recent name="$PROJECT_DIR$/src/html/projects" />
       <recent name="$PROJECT_DIR$/src/containers" />
-      <recent name="$PROJECT_DIR$/src/pages" />
+      <recent name="$PROJECT_DIR$/src/assets/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/assets/js" />
+      <recent name="$PROJECT_DIR$/static/assets" />
+      <recent name="$PROJECT_DIR$/src/html/projects/2020" />
+      <recent name="$PROJECT_DIR$/src/assets/fonts/spectral" />
+      <recent name="$PROJECT_DIR$/static/assets/js/jquery" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -71,7 +212,13 @@
       <workItem from="1598646358790" duration="4632000" />
       <workItem from="1598652042235" duration="6518000" />
       <workItem from="1601669700396" duration="6718000" />
-      <workItem from="1602175171533" duration="20960000" />
+      <workItem from="1602175171533" duration="30861000" />
+      <workItem from="1602311051432" duration="250000" />
+      <workItem from="1602311320694" duration="28892000" />
+      <workItem from="1602895748493" duration="597000" />
+      <workItem from="1602966191010" duration="1761000" />
+      <workItem from="1603117655705" duration="7608000" />
+      <workItem from="1603128758990" duration="1685000" />
     </task>
     <servers />
   </component>
@@ -83,34 +230,37 @@
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
     <state x="795" y="-639" key="#Prettier/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602273018687" />
-    <state x="444" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1598651956140">
+    <state x="444" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603140949359">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="444" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1598651956140" />
-    <state x="596" y="-890" key="SettingsEditor" timestamp="1602273006861">
+    <state x="222" y="-758" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602302101912" />
+    <state x="444" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603140949359" />
+    <state x="596" y="-890" key="SettingsEditor" timestamp="1602436494438">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
-    <state x="596" y="-890" key="SettingsEditor/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602273006861" />
+    <state x="596" y="-890" key="SettingsEditor/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602436494438" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1602278440095">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602278440095" />
-    <state x="670" y="-911" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602284666586">
+    <state x="670" y="-911" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602443361466">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
-    <state x="670" y="-911" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602284666586" />
-    <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601670648344">
+    <state x="670" y="-911" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602443361466" />
+    <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602437871381">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
+    <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="183" y="-822" width="1060" height="586" key="find.popup" timestamp="1602282640211">
-      <screen x="-567" y="-1057" width="2560" height="1057" />
-    </state>
-    <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602282640211" />
-    <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1598654185054" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1598650220977">
+    <state x="422" y="218" width="596" height="486" key="find.popup" timestamp="1603123943388">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602456747756" />
+    <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />
+    <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup" timestamp="1602435759098">
+      <screen x="-567" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602435759098" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1598650220977" />
   </component>
 </project>
