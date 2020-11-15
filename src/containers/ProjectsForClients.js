@@ -18,17 +18,17 @@ export default class extends React.Component {
       <App className="pageProjectsForClients">
         <SectionStyled>
           <div className="content full">
-            <p>
-              I just want to build cool stuff, learn about new industries, and meet interesting people. I've been coding
-              since 2008. Earlier this year, I quit my day job to move to Kansas City and launch some exciting products.
-              What do you think? What are you up to? Let's collaborate! &nbsp;
+            <p style={{ marginRight: "-1rem" }}>
+              I've been coding since 2008. Really enjoy web technologies, creating something from nothing, collaborating
+              with people, learning about new industries. <span className="nowrap">What are you up to?</span>{" "}
+              <span className="nowrap">Let's chat!</span>
             </p>
           </div>
 
           <hr className="content full" />
           <div className="content full flex">
             <div className="simple_nav">
-              <a href="/about"> 🌇 About / Photos </a>
+              <a href="/about"> 🌇 About me </a>
               <br />
               {/*<a href=""> 📓 Writing (coming soon)</a> <br />*/}
               <a href="https://notes.paulshorey.com" target="_blank">
@@ -62,7 +62,9 @@ export default class extends React.Component {
 
             <br />
             <a name="work-experience" />
-            <h2>👨‍💻 Work Experience:</h2>
+            <h2>
+              👨‍💻 Work Experience <FA icon={faArrowDown} className="faArrowDown x70" />
+            </h2>
             <hr />
             {/*<BeyondLimits />*/}
             <div dangerouslySetInnerHTML={{ __html: projects_past }} />
