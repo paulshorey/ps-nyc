@@ -6,7 +6,7 @@ import styled from "styled-components"
 import carousel_aboutme from "src/html/carousel/aboutme.html"
 import domains from "src/html/projects/2020/domains.html"
 import thesaurus from "src/html/projects/2020/thesaurus.html"
-import fixtheweb_signup from "src/html/projects/2020/fixtheweb_signup.html"
+import other from "src/html/projects/2020/other.html"
 import projects_past from "src/html/projects/past.html"
 import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
 import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
@@ -16,7 +16,7 @@ export default class extends React.Component {
   render() {
     return (
       <App className="pageProjectsForClients">
-        <SectionStyled>
+        <ProjectsStyled>
           <div className="content full">
             <p style={{ marginRight: "-1rem" }}>
               I've been coding since 2008. Really enjoy web technologies, creating something from nothing, collaborating
@@ -55,12 +55,13 @@ export default class extends React.Component {
           </div>
           <hr className="content full" />
 
-          <div className="content">
+          <section className="content section-new-projects">
             <div dangerouslySetInnerHTML={{ __html: domains }} />
             <div dangerouslySetInnerHTML={{ __html: thesaurus }} />
-            <div dangerouslySetInnerHTML={{ __html: fixtheweb_signup }} />
+            <div dangerouslySetInnerHTML={{ __html: other }} />
+          </section>
 
-            <br />
+          <section className="content section-work-experience">
             <a name="work-experience" />
             <h2>
               👨‍💻 Work Experience <FA icon={faArrowDown} className="faArrowDown x70" />
@@ -68,14 +69,14 @@ export default class extends React.Component {
             <hr />
             {/*<BeyondLimits />*/}
             <div dangerouslySetInnerHTML={{ __html: projects_past }} />
-          </div>
-        </SectionStyled>
+          </section>
+        </ProjectsStyled>
       </App>
     )
   }
 }
 
-const SectionStyled = styled.section`
+const ProjectsStyled = styled.div`
   .carousel {
     margin-left: 2rem;
     height: 8.25rem;
@@ -92,6 +93,14 @@ const SectionStyled = styled.section`
       position: absolute;
       bottom: 0;
       white-space: nowrap;
+    }
+  }
+  .section-new-projects {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    > div {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
   }
 `
