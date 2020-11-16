@@ -92,6 +92,8 @@ const ProjectsStyled = styled.div`
     h2:last-child {
       position: absolute;
       bottom: 0;
+    }
+    > * {
       white-space: nowrap;
     }
   }

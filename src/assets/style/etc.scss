@@ -16,6 +16,12 @@ body {
   }
 }
 
+.eapps-form-floating-button,
+.eapps-form-floating-button-visible,
+.eapps-form-floating-button-position-right.eapps-form-floating-button-visible {
+  background-color: hsl(38deg, 95%, 49%) !important;
+}
+
 .pageProjectsForClients {
   .uuiCarousel {
     img {
@@ -41,7 +47,7 @@ body {
       height: 12.5rem;
     }
     .arrows {
-      display:none;
+      display: none;
     }
   }
 }

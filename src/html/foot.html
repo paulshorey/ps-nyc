@@ -1,63 +1,50 @@
-<!--
-CONTACT FORM
--->
-<!--<div class="contactContent">-->
-<!--  <form id="submitSubscribeForm">-->
-<!--    <h3>Stay informed about new product releases:</h3>-->
-<!--    <div class="formContent">-->
-<!--       <fieldset>-->
-<!--          <input type="text" name="email" placeholder="Your email..." onchange="updateContactData('email',this.value)" />-->
-<!--       </fieldset>-->
-<!--       <button class="g-recaptcha" type="submit">Subscribe</button>-->
-<!--    </div>-->
-<!--    <div class="response"><p><sup>We include an instant "unsubscribe" link in all emails.</sup></p></div>-->
-<!--</form>-->
-
-<!--<form id="submitContactForm">-->
-<!--    <h3>Say hello:</h3>-->
-<!--    <div class="formContent">-->
-<!--       <fieldset>-->
-<!--          <input type="text" name="email" placeholder="Your email..." onchange="updateContactData('email',this.value)" />-->
-<!--       </fieldset>-->
-<!--       <fieldset>-->
-<!--          <input type="text" name="name" placeholder="Your name..." onchange="updateContactData('name',this.value)" />-->
-<!--       </fieldset>-->
-<!--       <fieldset>-->
-<!--          <textarea name="text" placeholder="Your message..." onchange="updateContactData('text',this.value)"></textarea>-->
-<!--       </fieldset>-->
-<!--       <button class="g-recaptcha" type="submit">-->
-<!--          <img class="svg" alt="send" src="/images/icon-send.svg" />-->
-<!--          <span> Send</span>-->
-<!--       </button>-->
-<!--    </div>-->
-<!--    <div class="response">-->
-<!--    </div>-->
-<!--  </form>-->
-<!-- <script>document.write('<p><sup>Or email <a href="mailto:paul@nlp.studio">paul@nlp.studio</a></sup></p>')</script>-->
-<!--</div>-->
-
+<!-- Google captcha/analytics -->
 <script src="https://www.google.com/recaptcha/api.js?render=6LfSN-MUAAAAAOxMUojSlBxkicjSeX1YLW8ds8C1"></script>
 
+<!--
+  CUSTOM SITE STYLE AND WIDGETS
+ -->
 <link rel="stylesheet" type="text/css" href="/assets/icomoon/style.css" />
-
 <script src="/assets/js/init.js"></script>
 <script src="/assets/js/uuiModal/uuiModal.js"></script>
 <link href="/assets/js/uuiModal/uuiModal.css" rel="stylesheet" type="text/css" />
 <script src="/assets/js/uuiCarousel/uuiCarousel.js"></script>
 <link href="/assets/js/uuiCarousel/uuiCarousel.css" rel="stylesheet" type="text/css" />
 
-<!-- curator, for about/media page -->
-<script type="text/javascript">
-  /* curator-feed-default-feed-layout */
-  setTimeout(function () {
-    let i,
-      e,
-      d = document,
-      s = "script"
-    i = d.createElement("script")
-    i.async = 1
-    i.src = "https://cdn.curator.io/published/ae097518-c61c-44a8-ad54-51b0310906ee.js"
-    e = d.getElementsByTagName(s)[0]
-    e.parentNode.insertBefore(i, e)
-  }, 500)
+<!--
+  ELFSIGHT CONTACT FORM
+ -->
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-bcf06b3b-b3f9-47c0-a7f0-11e2e4a2418f"></div>
+<script>
+  // eapps-form-floating-button eapps-form-floating-button-type-icon eapps-form-floating-button-position-right eapps-form-button eapps-form-floating-button-visible
+  // change button appearance
+  $(".eapps-form-floating-button").ready(function () {
+    console.log("ready!", this)
+    this.css("background-color", "hsl(38deg 95% 49%)")
+  })
+  // change contact form text
+  $(".eapps-form-header-text").ready(function () {
+    this.html(
+      `Thanks a lot for reaching out. I'm looking forward to chatting. Feel free to contact me directly: <a href="mailto:paul@besta.domains" target="_blank">hello@paulshorey.com</a> or call <a href="mailto:13857706789" target="_blank">+1.385.770.6789</a>`
+    )
+  })
 </script>
+
+<!-- 
+  CURATOR (social media aggregator) 
+ -->
+<!--<script type="text/javascript">-->
+<!--  /* curator-feed-default-feed-layout */-->
+<!--  setTimeout(function () {-->
+<!--    let i,-->
+<!--      e,-->
+<!--      d = document,-->
+<!--      s = "script"-->
+<!--    i = d.createElement("script")-->
+<!--    i.async = 1-->
+<!--    i.src = "https://cdn.curator.io/published/ae097518-c61c-44a8-ad54-51b0310906ee.js"-->
+<!--    e = d.getElementsByTagName(s)[0]-->
+<!--    e.parentNode.insertBefore(i, e)-->
+<!--  }, 500)-->
+<!--</script>-->

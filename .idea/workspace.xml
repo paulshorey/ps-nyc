@@ -3,8 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/etc.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/ProjectsForClients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ProjectsForClients.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/about/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about/media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/foot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/domains.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/domains.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/uuiCarousel/uuiCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/uuiCarousel/uuiCarousel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +88,7 @@
       <workItem from="1603597500121" duration="1161000" />
       <workItem from="1604550288875" duration="1334000" />
       <workItem from="1604983436602" duration="483000" />
-      <workItem from="1605378988703" duration="8705000" />
+      <workItem from="1605378988703" duration="14208000" />
     </task>
     <servers />
   </component>
@@ -115,11 +122,12 @@
     </state>
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="183" y="-822" width="1060" height="586" key="find.popup" timestamp="1605379461730">
-      <screen x="-567" y="-1057" width="2560" height="1057" />
+    <state x="422" y="218" width="597" height="544" key="find.popup" timestamp="1605566811091">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1605379461730" />
     <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />
+    <state x="422" y="218" width="597" height="544" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1605566811091" />
     <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup" timestamp="1602435759098">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
