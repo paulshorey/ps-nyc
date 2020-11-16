@@ -18,7 +18,7 @@ export default class extends React.Component {
       <App className="pageProjectsForClients">
         <ProjectsStyled>
           <div className="content full">
-            <p style={{ marginRight: "-1rem" }}>
+            <p>
               I've been coding since 2008. Really enjoy web technologies, creating something from nothing, collaborating
               with people, learning about new industries. <span className="nowrap">What are you up to?</span>{" "}
               <span className="nowrap">Let's chat!</span>

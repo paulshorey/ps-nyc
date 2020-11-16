@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/style/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/etc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/style/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/ProjectsForClients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ProjectsForClients.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/about/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about/media.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/foot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/domains.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/domains.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/js/uuiCarousel/uuiCarousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/js/uuiCarousel/uuiCarousel.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +82,7 @@
       <workItem from="1603597500121" duration="1161000" />
       <workItem from="1604550288875" duration="1334000" />
       <workItem from="1604983436602" duration="483000" />
-      <workItem from="1605378988703" duration="14208000" />
+      <workItem from="1605378988703" duration="14505000" />
     </task>
     <servers />
   </component>

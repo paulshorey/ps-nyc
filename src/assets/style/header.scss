@@ -5,6 +5,9 @@ header {
   margin-top: 2rem;
   margin-bottom: 0.75rem;
   color: #666;
+  @media (max-width: 699px) {
+    margin-top: 1rem;
+  }
 
   .h-left {
     white-space: nowrap;

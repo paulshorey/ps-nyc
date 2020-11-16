@@ -63,16 +63,22 @@ body {
     width: 90%;
   }
   @media (max-width: 699px) {
-    width: calc(100% - 3.5rem);
-    min-width: calc(100% - 3.5rem);
+    width: calc(100% - 3rem);
+    min-width: calc(100% - 3rem);
     margin-right: 0;
-    margin-left: 1.675rem;
+    margin-left: 1.5rem;
   }
   &.full {
     width: calc(100% - 3rem);
     min-width: calc(100% - 3rem);
     margin-right: 0;
     margin-left: 1.5rem;
+  }
+  @media (max-width: 599px) {
+    width: calc(100% - 2rem) !important;
+    min-width: calc(100% - 2rem) !important;
+    margin-right: 0 !important;
+    margin-left: 1rem !important;
   }
 }
 
