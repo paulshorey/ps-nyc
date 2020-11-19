@@ -26,7 +26,7 @@ export default class extends React.Component {
           </div>
 
           <hr className="content full" />
-          <div className="content full flex">
+          <div className="content full flex" style={{ maxHeight: "9rem" }}>
             <div className="simple_nav">
               <a href="/about"> 🌇 About me </a>
               <br />

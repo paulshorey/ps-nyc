@@ -42,6 +42,9 @@ export const onPreRenderHTML = ({
       <script src="/assets/js/jquery.js"></script>
       <script src="/assets/js/jquery.cycle.js"></script>
 
+      <script src="/assets/js/uuiCarousel/uuiCarousel.js"></script>
+      <link href="/assets/js/uuiCarousel/uuiCarousel.css" rel="stylesheet" type="text/css" />
+
       <link rel="stylesheet" type="text/css" href="/assets/the_wilderness_downtown/style.css" />
       <div id="birdsCanvas">
         <div id="birdsCanvas_bg">
@@ -72,8 +75,6 @@ export const onPreRenderHTML = ({
       <script src="/assets/js/init.js"></script>
       <script src="/assets/js/uuiModal/uuiModal.js"></script>
       <link href="/assets/js/uuiModal/uuiModal.css" rel="stylesheet" type="text/css" />
-      <script src="/assets/js/uuiCarousel/uuiCarousel.js"></script>
-      <link href="/assets/js/uuiCarousel/uuiCarousel.css" rel="stylesheet" type="text/css" />
 
       {/*
       ELFSIGHT CONTACT FORM
