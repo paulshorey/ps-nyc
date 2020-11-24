@@ -48,7 +48,7 @@ export default class extends React.Component {
               </a>
               <br />
               <h2>
-                🚀 Side Projects <FA icon={faArrowDown} className="faArrowDown x70" />
+                🚀 Latest Projects <FA icon={faArrowDown} className="faArrowDown x70" />
               </h2>
             </div>
             <div className="flex-grow" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} />
