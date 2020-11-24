@@ -16,6 +16,17 @@ body {
   }
 }
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-weight: 600;
+  font-size: 75%;
+  background: #efefef;
+  padding: 0.2rem 0.4rem;
+  margin-right: 0.1rem;
+  margin-left: 0.1rem;
+  border-radius: 0.2rem;
+}
+
 .eapps-form-floating-button,
 .eapps-form-floating-button-visible,
 .eapps-form-floating-button-position-right.eapps-form-floating-button-visible {
@@ -56,7 +67,7 @@ body {
   position: relative;
   width: 80%;
   min-width: 600px;
-  max-width: 1600px;
+  max-width: 1160px;
   margin-left: auto;
   margin-right: auto;
   @media (max-width: 1099px) {
@@ -70,9 +81,9 @@ body {
   }
   &.full {
     width: calc(100% - 3rem);
-    min-width: calc(100% - 3rem);
-    margin-right: 0;
-    margin-left: 1.5rem;
+    max-width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
   }
   @media (max-width: 599px) {
     width: calc(100% - 2rem) !important;
@@ -124,12 +135,12 @@ p,
 
 a {
   color: orange;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
   color: #4bafe1;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 hr {
@@ -157,6 +168,12 @@ h3 {
   font-size: 1.33rem;
   margin: 0;
   padding: 0;
+  sup {
+    top: auto;
+    line-height: 1;
+    position: static;
+    vertical-align: 0.125rem;
+  }
 }
 
 /*

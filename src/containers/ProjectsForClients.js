@@ -44,11 +44,11 @@ export default class extends React.Component {
                 }}
               >
                 {" "}
-                👨‍💻 Work Experience{" "}
+                👨‍💻 Work Experience <FA icon={faArrowDown} className="faArrowDown x70" />
               </a>
               <br />
               <h2>
-                🚀 New Projects <FA icon={faArrowDown} className="faArrowDown x70" />
+                🚀 Side Projects <FA icon={faArrowDown} className="faArrowDown x70" />
               </h2>
             </div>
             <div className="flex-grow" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} />
@@ -64,7 +64,7 @@ export default class extends React.Component {
           <section className="content section-work-experience">
             <a name="work-experience" />
             <h2>
-              👨‍💻 Work Experience <FA icon={faArrowDown} className="faArrowDown x70" />
+              👨‍💻 Previous Experience <FA icon={faArrowDown} className="faArrowDown x70" />
             </h2>
             <hr />
             {/*<BeyondLimits />*/}
