@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/containers/ProjectsForClients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ProjectsForClients.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +40,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.webOptions" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/assets/js" />
-      <recent name="$PROJECT_DIR$/static/assets" />
-      <recent name="$PROJECT_DIR$/src/html/projects/2020" />
-      <recent name="$PROJECT_DIR$/src/assets/fonts/spectral" />
-      <recent name="$PROJECT_DIR$/static/assets/js/jquery" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/carousels" />
       <recent name="$PROJECT_DIR$/src/components/beyondlimits" />
       <recent name="$PROJECT_DIR$/src/html/projects" />
       <recent name="$PROJECT_DIR$/src/containers" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/json" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/containers/Jobs/data" />
+      <recent name="$PROJECT_DIR$/src/containers/Jobs" />
+      <recent name="$PROJECT_DIR$/src/components/jobs" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -80,7 +80,8 @@
       <workItem from="1604550288875" duration="1334000" />
       <workItem from="1604983436602" duration="483000" />
       <workItem from="1605378988703" duration="15905000" />
-      <workItem from="1606077671452" duration="3954000" />
+      <workItem from="1606077671452" duration="4485000" />
+      <workItem from="1606271736409" duration="7080000" />
     </task>
     <servers />
   </component>
