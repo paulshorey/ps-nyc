@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
-export const JobStyled = styled.div`
+export const JobFullStyled = styled.div`
   overflow: hidden;
+  margin: 0.5rem 0 0;
   .title {
     white-space: nowrap;
   }
@@ -16,19 +17,17 @@ export const JobStyled = styled.div`
   span.highlighted {
     background: hsla(57deg, 100%, 70%, 0.75);
   }
+
   .mentions {
+    margin: 0 0 1.5rem;
     .mention {
-      &:before {
-        content: "| ";
+      border-bottom: solid 2px hsla(57deg, 100%, 70%, 0.75);
+      margin: 0 0.5rem 0.5rem;
+      &:first-child {
+        margin-left: 0;
       }
-      &:first-child:before {
-        content: "";
-      }
-      &:after {
-        content: " ";
-      }
-      &:last-child:after {
-        content: "";
+      &:last-child {
+        margin-right: 0;
       }
     }
   }

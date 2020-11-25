@@ -3,6 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Jobs/Job.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Jobs/Job.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Jobs/Job.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Jobs/Job.styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Jobs/JobFull.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Jobs/JobFull.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Jobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Jobs/Jobs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Jobs.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Jobs/Jobs.styled.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +31,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/carousels" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,11 +47,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/lib" />
+      <recent name="$PROJECT_DIR$/src/containers/Jobs" />
+      <recent name="$PROJECT_DIR$/src/components/Jobs" />
       <recent name="$PROJECT_DIR$/src/components/carousels" />
       <recent name="$PROJECT_DIR$/src/components/beyondlimits" />
-      <recent name="$PROJECT_DIR$/src/html/projects" />
-      <recent name="$PROJECT_DIR$/src/containers" />
-      <recent name="$PROJECT_DIR$/src/assets/fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/json" />
@@ -81,7 +87,7 @@
       <workItem from="1604983436602" duration="483000" />
       <workItem from="1605378988703" duration="15905000" />
       <workItem from="1606077671452" duration="4485000" />
-      <workItem from="1606271736409" duration="7080000" />
+      <workItem from="1606271736409" duration="19016000" />
     </task>
     <servers />
   </component>
@@ -121,10 +127,22 @@
     <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606238907419" />
     <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />
     <state x="422" y="218" width="597" height="544" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1605566811091" />
-    <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup" timestamp="1602435759098">
+    <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup" timestamp="1606332944338">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
-    <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602435759098" />
+    <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606332944338" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1598650220977" />
+    <state x="385" y="213" width="671" height="677" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1606323760315" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Jobs/JobFull.styled.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

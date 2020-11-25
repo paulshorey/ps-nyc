@@ -14,17 +14,18 @@ export const JobsStyled = styled.div`
     .side {
       color: #2557a7;
       position: relative;
+      min-width: 240px;
       max-width: 360px;
-      padding: 0 0.75rem;
+      padding: 0 0.5rem;
       overflow: auto;
-      div {
+      .Links {
         padding: 0 0.5rem;
         cursor: pointer;
         .highlighted {
           background: hsla(57deg, 100%, 70%, 0.75);
         }
       }
-      form {
+      .Search {
         padding: 0 0.5rem;
       }
     }

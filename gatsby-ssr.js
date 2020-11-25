@@ -1,5 +1,9 @@
 import React from "react"
-import foot from "src/html/foot.html"
+// // to use Redux:
+// import wrapWithProvider from "./gatsby-wrap-provider"
+// export const wrapRootElement = wrapWithProvider
+
+// import foot from "src/html/foot.html"
 
 // import foot from "src/html/foot.html"
 // import head from "src/html/head.html"
