@@ -2,8 +2,14 @@ import styled from "styled-components"
 
 export const JobStyled = styled.div`
   overflow: hidden;
+  padding: 0 0.33rem;
+  margin: 0 0.33rem;
+  &.highlighted {
+    background: hsla(57deg, 100%, 70%, 0.75);
+  }
   .title {
     white-space: nowrap;
+    text-decoration: underline;
   }
   .meta {
     white-space: nowrap;

@@ -1,23 +1,18 @@
-import React from "react"
-import Job from "src/components/Jobs/Job.js"
+import React, { useEffect, useRef } from "react"
+import Job from "src/components/jobs/Job.js"
 
 export default function ({ jobsFound = {}, jobSelected = {}, srcText = "", onClick = () => {} }) {
   // const [srcText, set_srcText] = useState("remote|wfh|telecommute|remotely|work from")
   // const [jobSelected, set_jobSelected] = useState({})
-  console.log('Links.js jobsFound',jobsFound);
-  let jobsList = []
-  for (let uid in jobsFound) {
-    jobsList.push(jobsFound[uid])
-  }
-  console.log('Links.js jobsList',jobsList);
   return (
     <div className="Links">
-      {jobsList.map((job, i) => {
+      {Object.values(jobsFound).map((job, i) => {
         if (job) {
           return (
             <div
               key={i + job.title}
               onClick={() => {
+                console.log("Links.js JOB CLICKED", job)
                 onClick(job)
               }}
             >

@@ -8,9 +8,9 @@ import "/srv/nlp-fe/src/style/reset.scss"
 import "/srv/nlp-fe/src/style/responsive.scss"
 import "/srv/nlp-fe/src/style/classes.scss"
 
-import "src/assets/style/etc.scss"
-import "src/assets/style/header.scss"
-import "src/assets/style/section.scss"
+import "src/assets/scss/etc.scss"
+import "src/assets/scss/header.scss"
+import "src/assets/scss/section.scss"
 
 // import "src/assets/fonts/taviraj.css"
 // import "src/assets/fonts/spectral.css"

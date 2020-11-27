@@ -2,13 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/jobs/Jobs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/jobs/Search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/jobs/Search.styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/jobs/lib/str-jsx.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Jobs/Job.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Jobs/Job.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Jobs/Job.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Jobs/Job.styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Jobs/JobFull.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Jobs/JobFull.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Jobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Jobs/Jobs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Jobs.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Jobs/Jobs.styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/indeed-js-node-remote.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/indeed-js-node.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/json/quotes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/json/quotes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/lib/str-jsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/etc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/style/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Jobs/Job.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/Job.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Jobs/Job.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/Job.styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Jobs/JobFull.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/JobFull.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Jobs/JobFull.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/JobFull.styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Jobs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Jobs.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/Jobs.styled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Links.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/Links.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Search.styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/foot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/init.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/init.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/domains.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/domains.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/fixtheweb_signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/open_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/other.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/jobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/jobs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +69,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="/usr/local/bin/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.webOptions" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -54,11 +80,11 @@
       <recent name="$PROJECT_DIR$/src/components/beyondlimits" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Jobs" />
       <recent name="$PROJECT_DIR$/src/assets/json" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/containers/Jobs/data" />
       <recent name="$PROJECT_DIR$/src/containers/Jobs" />
-      <recent name="$PROJECT_DIR$/src/components/jobs" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -87,7 +113,7 @@
       <workItem from="1604983436602" duration="483000" />
       <workItem from="1605378988703" duration="15905000" />
       <workItem from="1606077671452" duration="4485000" />
-      <workItem from="1606271736409" duration="19016000" />
+      <workItem from="1606271736409" duration="55501000" />
     </task>
     <servers />
   </component>
@@ -104,10 +130,10 @@
     </state>
     <state x="222" y="-758" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602302101912" />
     <state x="444" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603140949359" />
-    <state x="596" y="-890" key="SettingsEditor" timestamp="1602436494438">
+    <state x="596" y="-890" key="SettingsEditor" timestamp="1606423628359">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
-    <state x="596" y="-890" key="SettingsEditor/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602436494438" />
+    <state x="596" y="-890" key="SettingsEditor/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606423628359" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1602278440095">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
@@ -121,16 +147,20 @@
     </state>
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="183" y="-822" width="1060" height="586" key="find.popup" timestamp="1606238907419">
+    <state x="183" y="-822" width="1060" height="586" key="find.popup" timestamp="1606451289948">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
-    <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606238907419" />
+    <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606451289948" />
     <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />
-    <state x="422" y="218" width="597" height="544" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1605566811091" />
-    <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup" timestamp="1606332944338">
+    <state x="422" y="218" width="597" height="544" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1606366500175" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1606346372698">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
-    <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606332944338" />
+    <state width="600" height="440" key="javadoc.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606346372698" />
+    <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup" timestamp="1606457684747">
+      <screen x="-567" y="-1057" width="2560" height="1057" />
+    </state>
+    <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606457684747" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1598650220977" />
     <state x="385" y="213" width="671" height="677" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1606323760315" />
   </component>
@@ -138,7 +168,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Jobs/JobFull.styled.js</url>
+          <url>file://$PROJECT_DIR$/src/components/jobs/JobFull.styled.js</url>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>

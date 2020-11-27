@@ -1,6 +1,18 @@
 import React from "react"
-import Page from "src/containers/Jobs/Jobs"
+import Page from "src/components/jobs/Jobs"
+import { createGlobalStyle } from "styled-components"
 
-export default function() {
-  return <Page />
+const GlobalStyle = createGlobalStyle`
+  body {
+    overflow:hidden;
+  }
+`
+
+export default function () {
+  return (
+    <>
+      <GlobalStyle />
+      <Page />
+    </>
+  )
 }

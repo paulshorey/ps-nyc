@@ -16,11 +16,49 @@ body {
   }
 }
 
+.fieldset.radio {
+  [type="radio"] {
+    width: 1em;
+    height: 1rem;
+    margin: 0.1rem;
+  }
+
+  .radioStyled {
+    width: 0.89rem;
+    height: 0.9rem;
+    margin-top: 0;
+    margin-left: -0.9rem;
+    pointer-events: none;
+  }
+
+  [type="radio"]:checked + .radioStyled {
+    box-shadow: 0 2px 3px hsla(0deg, 0%, 50%, 0.5);
+    background: orange;
+    box-sizing: border-box;
+    border: solid 0.2rem transparent;
+    border-radius: 50%;
+  }
+
+  label {
+    margin-right: 0.75rem;
+    margin-left: 0.25rem;
+    height: 1rem;
+    line-height: 1rem;
+  }
+
+  [type="radio"],
+  label,
+  .radioStyled {
+    vertical-align: middle;
+    display: inline-block;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
   font-weight: 600;
   font-size: 75%;
-  background: #efefef;
+  background: hsl(20deg, 12%, 92%);
   padding: 0.2rem 0.4rem;
   margin-right: 0.1rem;
   margin-left: 0.1rem;
@@ -130,15 +168,17 @@ p,
   letter-spacing: 0.15px;
   line-height: 1.3rem;
   font-size: 1rem;
-  color: #666;
+  color: hsl(20deg, 10%, 20%);
 }
 
-a {
+a,
+.link {
   color: orange;
   text-decoration: underline;
 }
 
-a:hover {
+a:hover,
+.link:hover {
   color: #4bafe1;
   text-decoration: none;
 }

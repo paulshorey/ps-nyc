@@ -15,11 +15,11 @@ export default class Links extends React.Component {
   }
 
   render() {
-    const { job = {}, src = "", ...props } = this.props
+    const { job = {}, src = "" } = this.props
     if (!job.title) return null
     return (
-      <JobStyled {...props}>
-        <h4 className="title">{job.title}</h4>
+      <JobStyled className={"Job " + (this.props.className || "")}>
+        <h4 className="title" dangerouslySetInnerHTML={{ __html: job.title }} />
         {!!job.mentions && !!job.mentions.length && (
           <div className="meta mentions">{job.mentions.map((found) => found)}</div>
         )}
