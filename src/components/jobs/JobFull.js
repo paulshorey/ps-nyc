@@ -19,6 +19,7 @@ function set_ss(key, value) {
 }
 
 export default function ({ job = {} }) {
+
   /*
    * State
    */

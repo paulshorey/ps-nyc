@@ -21,6 +21,7 @@
     "gatsby-plugin-sass": "^2.6.0",
     "gatsby-plugin-styled-components": "^3.5.0",
     "gatsby-plugin-styled-jsx": "^3.5.0",
+    "idb": "^5.0.7",
     "node-sass": "^4.14.0",
     "pure-react-carousel": "^1.27.5",
     "react": "^16.12.0",

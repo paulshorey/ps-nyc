@@ -2,39 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/jobs/Jobs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/jobs/Search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/jobs/Search.styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/jobs/lib/str-jsx.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/indeed-js-node-remote.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/indeed-js-node.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/json/quotes.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/json/quotes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/lib/str-jsx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/etc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Jobs/Job.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/Job.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Jobs/Job.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/Job.styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Jobs/JobFull.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/JobFull.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Jobs/JobFull.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/JobFull.styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Jobs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Jobs.styled.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/Jobs.styled.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Links.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/Links.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Jobs/Search.styled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/foot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/init.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/init.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/domains.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/domains.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/fixtheweb_signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/open_source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/other.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/jobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/jobs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/JobFull.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/JobFull.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +84,7 @@
       <workItem from="1604983436602" duration="483000" />
       <workItem from="1605378988703" duration="15905000" />
       <workItem from="1606077671452" duration="4485000" />
-      <workItem from="1606271736409" duration="55501000" />
+      <workItem from="1606271736409" duration="56471000" />
     </task>
     <servers />
   </component>
