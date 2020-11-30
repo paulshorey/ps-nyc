@@ -5,12 +5,12 @@ import "typeface-quicksand"
 
 import "/srv/nlp-fe/src/style/variables.scss"
 import "/srv/nlp-fe/src/style/reset.scss"
-import "/srv/nlp-fe/src/style/responsive.scss"
 import "/srv/nlp-fe/src/style/classes.scss"
 
 import "src/assets/scss/etc.scss"
 import "src/assets/scss/header.scss"
 import "src/assets/scss/section.scss"
+import "src/assets/scss/responsive.scss"
 
 // import "src/assets/fonts/taviraj.css"
 // import "src/assets/fonts/spectral.css"

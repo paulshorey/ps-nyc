@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/JobFull.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/jobs/JobFull.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/etc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/ProjectsForClients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/ProjectsForJobs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/other.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +89,8 @@
       <workItem from="1605378988703" duration="15905000" />
       <workItem from="1606077671452" duration="4485000" />
       <workItem from="1606271736409" duration="56471000" />
+      <workItem from="1606542471224" duration="2019000" />
+      <workItem from="1606693264128" duration="1413000" />
     </task>
     <servers />
   </component>
@@ -140,7 +146,6 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/jobs/JobFull.styled.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

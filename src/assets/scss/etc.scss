@@ -1,5 +1,5 @@
 body {
-  font-family: serif; //"bodoni 72",
+  font-family: "Adobe Caslon Pro", "Adobe Garamond Pro", serif; //"bodoni 72",
   background: url(../gfx/background_paper.jpg) center top repeat-x;
   //background-size: contain;
   //font-family: system-ui, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, "Open Sans", "AuroRegular", sans-serif;
@@ -103,9 +103,9 @@ code {
 
 .content {
   position: relative;
-  width: 80%;
+  width: 85%;
   min-width: 600px;
-  max-width: 1160px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   @media (max-width: 1099px) {
@@ -166,7 +166,7 @@ p,
 .p {
   margin-bottom: 0.85rem;
   letter-spacing: 0.15px;
-  line-height: 1.3rem;
+  line-height: 1.5rem;
   font-size: 1rem;
   color: hsl(20deg, 10%, 20%);
 }
