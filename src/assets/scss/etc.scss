@@ -1,8 +1,7 @@
 body {
   font-family: "Adobe Caslon Pro", "Adobe Garamond Pro", serif; //"bodoni 72",
   background: url(../gfx/background_paper.jpg) center top repeat-x;
-  //background-size: contain;
-  //font-family: system-ui, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "\5FAE\8F6F\96C5\9ED1", Arial, "Open Sans", "AuroRegular", sans-serif;
+  color: hsl(2deg, 2%, 20%);
   min-width: 380px;
   > div:first-child {
     overflow: auto;
@@ -58,7 +57,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
   font-weight: 600;
   font-size: 75%;
-  background: hsl(20deg, 12%, 92%);
+  background: hsl(30deg, 22%, 93%);
   padding: 0.2rem 0.4rem;
   margin-right: 0.1rem;
   margin-left: 0.1rem;

@@ -3,13 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/etc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/ProjectsForClients.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/ProjectsForJobs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/Header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/Header.styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/Home.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/Job.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/Job.styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/JobFull.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/JobFull.styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/Jobs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/Jobs.styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/Links.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/Search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/Search.styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/json/indeed-node-remote.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/json/quotes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/json/stackoverflow-remote.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/jobs/lib/str-jsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/domains.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/domains.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/projects/2020/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/other.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/jobs.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +107,7 @@
       <workItem from="1606077671452" duration="4485000" />
       <workItem from="1606271736409" duration="56471000" />
       <workItem from="1606542471224" duration="2019000" />
-      <workItem from="1606693264128" duration="1413000" />
+      <workItem from="1606693264128" duration="4649000" />
     </task>
     <servers />
   </component>
@@ -124,12 +141,12 @@
     </state>
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="183" y="-822" width="1060" height="586" key="find.popup" timestamp="1606451289948">
-      <screen x="-567" y="-1057" width="2560" height="1057" />
+    <state x="422" y="218" width="597" height="544" key="find.popup" timestamp="1606717058314">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606451289948" />
     <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />
-    <state x="422" y="218" width="597" height="544" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1606366500175" />
+    <state x="422" y="218" width="597" height="544" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1606717058314" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1606346372698">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>

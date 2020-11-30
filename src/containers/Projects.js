@@ -1,5 +1,6 @@
 import React from "react"
 import App from "src/components/App"
+import RecentOther from "src/components/Projects/RecentOther"
 // import CarouselAboutUs from "src/components/carousels/AboutUs"
 // import BeyondLimits from "src/components/beyondlimits/BeyondLimits"
 import styled from "styled-components"
@@ -58,7 +59,7 @@ export default class extends React.Component {
           <section className="content section-new-projects">
             <div dangerouslySetInnerHTML={{ __html: domains }} />
             <div dangerouslySetInnerHTML={{ __html: thesaurus }} />
-            <div dangerouslySetInnerHTML={{ __html: other }} />
+            <RecentOther />
           </section>
 
           <section className="content section-work-experience">
@@ -100,9 +101,5 @@ const ProjectsStyled = styled.div`
   .section-new-projects {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    > div {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-    }
   }
 `
