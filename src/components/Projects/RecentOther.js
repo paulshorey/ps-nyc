@@ -6,7 +6,7 @@ import styled from "styled-components"
 class RecentOther extends React.Component {
   render() {
     return (
-      <ProjectsStyled className="content full">
+      <ProjectsStyled>
         <article className="full">
           <div className="description">
             <h3>
@@ -45,8 +45,8 @@ class RecentOther extends React.Component {
                 </a>
               </b>{" "}
               - Tutorials, recipes, tips for developers. Working on using a note-taking platform (Notion, GitBook) as a
-              website CMS. Publish your support documentation or knowldgebase on your primary domain instead of onto a
-              separate subdomain, for improved SEO.
+              website CMS, to publish support documentation or knowldgebase on "site.com/docs" instead of
+              "docs.site.com", for improved SEO.
             </p>
             <p>
               <b>
@@ -68,19 +68,22 @@ class RecentOther extends React.Component {
 export default RecentOther
 
 const ProjectsStyled = styled.div`
-  code {
-    //text-shadow: 0 0 5px white;
-    font-size: 80%;
-    background: none;
-    padding: 0;
-  }
-  h3 {
-    svg {
-      font-size: 95%;
-      margin: 0.125rem 0.125rem 0 0;
+  article {
+    margin: 1.75rem 0 3.5rem 0;
+    code {
+      //text-shadow: 0 0 5px white;
+      font-size: 80%;
+      background: none;
+      padding: 0;
     }
-  }
-  .description > div {
-    margin: 0.75rem 0 1.05rem 0;
+    h3 {
+      svg {
+        font-size: 95%;
+        margin: 0.125rem 0.125rem 0 0;
+      }
+    }
+    .description > div {
+      margin: 1rem 0 0.75rem 0;
+    }
   }
 `

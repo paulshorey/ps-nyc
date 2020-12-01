@@ -171,7 +171,8 @@ p,
 
 a,
 .link {
-  color: orange;
+  color: hsl(35, 95%, 47.5%);
+  text-shadow: 0 0 5px white;
   text-decoration: underline;
 }
 
@@ -202,16 +203,27 @@ h2 {
 }
 
 h3 {
-  line-height: 1.33rem;
-  font-size: 1.33rem;
+  line-height: 1.5rem;
+  font-size: 1.5rem;
   margin: 0;
   padding: 0;
+  transform: scaleX(0.9);
+  transform-origin: left;
   sup {
     top: auto;
     line-height: 1;
     position: static;
     vertical-align: 0.125rem;
   }
+}
+
+.squishLeft {
+  transform: scaleX(0.9);
+  transform-origin: left;
+}
+.squishCenterSlightly {
+  transform: scaleX(0.975);
+  display: inline-block;
 }
 
 /*

@@ -1,10 +1,8 @@
 import React from "react"
 import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
-// import { faSmileBeam } from "@fortawesome/pro-regular-svg-icons"
-import { faPhone, faFilePdf, faEnvelope } from "@fortawesome/pro-solid-svg-icons"
-import styled from "styled-components"
+import { faPhone, faFileDownload, faEnvelope } from "@fortawesome/pro-solid-svg-icons"
 import svg_happyface from "src/html/svg/happyface.html"
-// import projects_past from "../html/projects/past.html"
+import styled from "styled-components"
 
 class Header extends React.Component {
   constructor(props) {
@@ -61,20 +59,31 @@ class Header extends React.Component {
               {/*</span>*/}
               <b>Paul Shorey</b>
             </a>
-            <span>
-              &nbsp;&nbsp;|&nbsp;&nbsp; <b>Web App + API</b>&thinsp;&thinsp;<b>Developer</b>
+            &nbsp;&nbsp;|&nbsp;&nbsp;
+            <span className="squishLeft">
+              <b>Web App </b>+<b> API</b>&thinsp;&thinsp;<b>Developer</b>
               {/*<span className="hide-small"> &amp; UI Designer</span>*/}
               {/*<span className="show-large">, &thinsp;UI designer</span>*/}
             </span>
           </div>
           <div className="h-right">
             <a href={"mailto:" + this.state.email} target="_blank">
-              <b>
-                {this.state.email} <FA icon={faEnvelope} className="x85" style={{ verticalAlign: "-0.175rem" }} />
-              </b>
+              <span>
+                Resume <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
+              </span>
             </a>{" "}
-            <span>
-              &nbsp;<span className="hide-small">|&nbsp;</span>
+            <span className="squishCenterSlightly">
+              <span>
+                &nbsp;<span className="hide-small">|&nbsp;</span>
+              </span>
+              <a href={"mailto:" + this.state.email} target="_blank" className="squishCenterSlightly">
+                <b>
+                  {this.state.email} <FA icon={faEnvelope} className="x85" style={{ verticalAlign: "-0.175rem" }} />
+                </b>
+              </a>{" "}
+              <span>
+                &nbsp;<span className="hide-small">|&nbsp;</span>
+              </span>
             </span>
             <a href={"tel:" + this.state.phone}>
               {this.state.phone} <FA icon={faPhone} className="x85" />
@@ -84,7 +93,7 @@ class Header extends React.Component {
             {/*</span>*/}
             {/*<a href={this.state.resume}>*/}
             {/*  Resume &nbsp;*/}
-            {/*  <FA icon={faFilePdf} className="x85" />*/}
+            {/*  <FA icon={faFileDownload} className="x85" />*/}
             {/*</a>*/}
           </div>
         </div>

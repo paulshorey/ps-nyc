@@ -48,7 +48,7 @@ export default class extends React.Component {
               </a>
               <br />
               <h2>
-                🚀 Latest Projects <FA icon={faArrowDown} className="faArrowDown x70" />
+                🚀 Side Projects <FA icon={faArrowDown} className="faArrowDown x70" />
               </h2>
             </div>
             <div className="flex-grow" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} />
@@ -89,6 +89,7 @@ const ProjectsStyled = styled.div`
     min-width: 11.5rem;
     font-weight: 600;
     line-height: 2.125rem;
+    margin-right: 0.5rem;
     h2:last-child {
       position: absolute;
       bottom: 0;
