@@ -55,9 +55,9 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "npm run ip_local && GATSBY_ACTIVE_ENV=development gatsby develop -p 8080",
-    "build": "rm -rf ./../public/ps &&GATSBY_ACTIVE_ENV=production gatsby build && mv ./public ./../public/ps",
+    "build": "GATSBY_ACTIVE_ENV=production gatsby build",
     "save": "git add . && git commit -m 'ps' && git push",
-    "pub": "cd ./../public && git add . && git commit -m 'ps'",
+    "pub": "rm -rf ./../public/ps && mv ./public ./../public/ps && cd ./../public && git add . && git commit -m 'ps'",
     "#######": "#",
     "# etc #": "#",
     "######!": "#",
