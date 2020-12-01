@@ -1,8 +1,0 @@
-#!/bin/bash
-
-#
-# usage:
-# `bash bin/pub`
-#
-
-cd /srv/ps && npm run build && cd /srv/public && git add . && git commit -m 'ps' && git push

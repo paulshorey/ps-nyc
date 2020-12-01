@@ -2,31 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ps.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/etc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/Header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/Header.styled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/Home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/Job.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/Job.styled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/JobFull.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/JobFull.styled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/Jobs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/Jobs.styled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/Links.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/Search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/Search.styled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/json/indeed-node-remote.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/json/quotes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/json/stackoverflow-remote.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/jobs/lib/str-jsx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/domains.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/domains.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/other.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/carousel/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/carousel/aboutme.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/jobs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/past.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/sami" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,22 +46,22 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="/usr/local/bin/node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/lib" />
-      <recent name="$PROJECT_DIR$/src/containers/Jobs" />
-      <recent name="$PROJECT_DIR$/src/components/Jobs" />
-      <recent name="$PROJECT_DIR$/src/components/carousels" />
-      <recent name="$PROJECT_DIR$/src/components/beyondlimits" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/Jobs" />
       <recent name="$PROJECT_DIR$/src/assets/json" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/containers/Jobs/data" />
       <recent name="$PROJECT_DIR$/src/containers/Jobs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/sami" />
+      <recent name="$PROJECT_DIR$/src/assets/lib" />
+      <recent name="$PROJECT_DIR$/src/containers/Jobs" />
+      <recent name="$PROJECT_DIR$/src/components/Jobs" />
+      <recent name="$PROJECT_DIR$/src/components/carousels" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -107,7 +92,8 @@
       <workItem from="1606077671452" duration="4485000" />
       <workItem from="1606271736409" duration="56471000" />
       <workItem from="1606542471224" duration="2019000" />
-      <workItem from="1606693264128" duration="4649000" />
+      <workItem from="1606693264128" duration="8906000" />
+      <workItem from="1606795462803" duration="2501000" />
     </task>
     <servers />
   </component>
@@ -124,10 +110,11 @@
     </state>
     <state x="222" y="-758" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602302101912" />
     <state x="444" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603140949359" />
-    <state x="596" y="-890" key="SettingsEditor" timestamp="1606423628359">
-      <screen x="-567" y="-1057" width="2560" height="1057" />
+    <state x="319" y="64" key="SettingsEditor" timestamp="1606803033629">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="596" y="-890" key="SettingsEditor/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606423628359" />
+    <state x="319" y="64" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1606803033629" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1602278440095">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
@@ -141,12 +128,12 @@
     </state>
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="422" y="218" width="597" height="544" key="find.popup" timestamp="1606717058314">
+    <state x="0" y="23" width="1440" height="877" key="find.popup" timestamp="1606803146379">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606451289948" />
     <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />
-    <state x="422" y="218" width="597" height="544" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1606717058314" />
+    <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1606803146379" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1606346372698">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>

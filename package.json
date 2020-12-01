@@ -38,7 +38,8 @@
   "devDependencies": {
     "html-loader": "^1.3.0",
     "markdown-loader": "^6.0.0",
-    "prettier": "^2.1.0"
+    "prettier": "^2.1.0",
+    "sharp": "^0.26.3"
   },
   "homepage": "https://github.com/paulshorey/ps",
   "keywords": [
@@ -54,14 +55,15 @@
   "scripts": {
     "start": "npm run dev",
     "dev": "npm run ip_local && GATSBY_ACTIVE_ENV=development gatsby develop -p 8080",
-    "build": "rm -rf /srv/public/ps &&GATSBY_ACTIVE_ENV=production gatsby build && mv ./public /srv/public/ps",
+    "build": "rm -rf ./../public/ps &&GATSBY_ACTIVE_ENV=production gatsby build && mv ./public ./../public/ps",
     "save": "git add . && git commit -m 'ps' && git push",
-    "pub": "cd /srv/public && git add . && git commit -m 'ps' && git push && cd /srv/ps",
+    "pub": "cd ./../public && git add . && git commit -m 'ps'",
     "#######": "#",
     "# etc #": "#",
     "######!": "#",
-    "sami": "cp -R static/sami/* /srv/public/ps/sami && npm run pub",
-    "files": "cp -R static/files/* /srv/public/ps/files && npm run pub",
+    "ls": "ls ./../ps",
+    "sami": "cp -R static/sami/* ./../public/ps/sami && npm run pub",
+    "files": "cp -R static/files/* ./../public/ps/files && npm run pub",
     "serve": "echo \"serving production @ port 9090\" && http-server build_stage -p 9090",
     "pull": "git add . && rm package-lock.json && git reset --hard HEAD && git pull",
     "ip_stage": "echo \"\nPUBLIC_API_HOST = '$(ipconfig getifaddr en0):1090'\nADMIN_API_HOST = '$(ipconfig getifaddr en0):1090'\" >> .env.development",
