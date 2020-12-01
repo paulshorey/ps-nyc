@@ -2,34 +2,34 @@
  * 1rem =
  */
 html {
-  font-size: 22px; /* 4K */
+  font-size: 21px; /* 4K */
   //@media (max-aspect-ratio: 3/2) {
   @media (max-width: 2400px) {
-	font-size: 21px;
-  }
-  @media (max-width: 2200px) {
 	font-size: 20px;
   }
-  @media (max-width: 1800px) {
+  @media (max-width: 2200px) {
 	font-size: 19px;
   }
-  @media (max-width: 1600px) {
+  @media (max-width: 1800px) {
 	font-size: 18px;
   }
-  @media (max-width: 1450px) {
+  @media (max-width: 1600px) {
 	font-size: 17px;
   }
+  @media (max-width: 1450px) {
+	font-size: 16.5px;
+  }
   @media (max-width: 1400px) {
-	font-size: 16.75px;
-  }
-  @media (max-width: 1350px) {
-	font-size: 16.25px;
-  }
-  @media (max-width: 1300px) {
 	font-size: 16px;
   }
+  @media (max-width: 1350px) {
+	font-size: 15.75px;
+  }
+  @media (max-width: 1300px) {
+	font-size: 15.5px;
+  }
   @media (max-width: 1000px) {
-	font-size: 16.5px;
+	font-size: 16px;
   }
   @media (max-width: 750px) {
 	font-size: 17px;

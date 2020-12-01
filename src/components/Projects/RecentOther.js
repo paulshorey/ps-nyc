@@ -50,7 +50,7 @@ class RecentOther extends React.Component {
             </p>
             <p>
               <b>
-                <a href="http://paulshorey.com/jobs" target="_blank">
+                <a href="http://jobs.paulshorey.com" target="_blank">
                   JS jobs
                 </a>
               </b>{" "}

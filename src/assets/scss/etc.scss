@@ -1,5 +1,5 @@
 body {
-  font-family: "Adobe Caslon Pro", "Adobe Garamond Pro", serif; //"bodoni 72",
+  font-family: Georgia, "Adobe Caslon Pro", "Adobe Garamond Pro", serif; //"bodoni 72",
   background: url(../gfx/background_paper.jpg) center top repeat-x;
   color: hsl(2deg, 2%, 20%);
   min-width: 380px;
@@ -164,7 +164,6 @@ form {
 p,
 .p {
   margin-bottom: 0.85rem;
-  letter-spacing: 0.15px;
   line-height: 1.5rem;
   font-size: 1rem;
   color: hsl(20deg, 10%, 20%);

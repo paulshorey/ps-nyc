@@ -76,9 +76,7 @@ export const onPreRenderHTML = ({
       CUSTOM SITE STYLE AND WIDGETS
      */}
       <link rel="stylesheet" type="text/css" href="/assets/icomoon/style.css" />
-      <script src="/assets/js/init.js"></script>
-      <script src="/assets/js/uuiModal/uuiModal.js"></script>
-      <link href="/assets/js/uuiModal/uuiModal.css" rel="stylesheet" type="text/css" />
+      <script src="/js/init.js"></script>
 
       {/*
       ELFSIGHT CONTACT FORM

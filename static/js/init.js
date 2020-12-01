@@ -20,13 +20,13 @@ const elfContactText = function () {
 }
 const int_elfContactText = setInterval(elfContactText, 100)
 
-// function isElementInView(el) {
-//   let middle = (window.innerHeight || document.documentElement.clientHeight) * (2 / 5)
-//   let rect = el.getBoundingClientRect()
-//   if (rect.top < middle && rect.top + el.clientHeight >= middle) {
-//     return true
-//   }
-// }
+function isElementInView(el) {
+  let middle = (window.innerHeight || document.documentElement.clientHeight) * (2 / 5)
+  let rect = el.getBoundingClientRect()
+  if (rect.top < middle && rect.top + el.clientHeight >= middle) {
+    return true
+  }
+}
 
 // setTimeout(function () {
 $(document).ready(function () {

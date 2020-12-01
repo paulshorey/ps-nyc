@@ -35,12 +35,23 @@ section {
     &.full {
       max-width: 1400px;
     }
+    h3 {
+      margin-bottom: 0.75rem;
+    }
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+      margin: 0.6rem 0 1.3rem 0;
+    }
     &.full {
-      max-width: 1400px;
+      p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
     }
     .video {
       position: relative;
-      max-width: 720px;
+      max-width: 900px;
       margin: 0 0 1vh;
       .playpause {
         background-image: url(../gfx/play.png);
@@ -58,14 +69,17 @@ section {
     }
     .image {
       position: relative;
-      max-width: 720px;
+      max-width: 900px;
       img {
         width: 100%;
       }
     }
     .collage {
       position: relative;
-      margin: 0;
+      margin: 0 -4rem 0 -5rem;
+      @media (max-width: 700px) {
+        margin: 0 -2.5rem 0 -3rem;
+      }
       .playbutton {
         background-image: url(../gfx/play.svg);
         background-repeat: no-repeat;
