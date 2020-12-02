@@ -100,6 +100,7 @@ export default class extends React.Component {
 }
 
 const ProjectsStyled = styled.div`
+  overflow: hidden;
   .carousel {
     margin-left: 2rem;
     height: 8.25rem;
@@ -124,8 +125,10 @@ const ProjectsStyled = styled.div`
   p.top_text {
     font-size: 1rem;
     line-height: 1.5rem;
-    margin-right: -2rem;
     margin-bottom: 1.25rem;
+    @media (min-width: 860px) {
+      margin-right: -2rem;
+    }
     .nowrap {
       @media (max-width: 860px) {
         display: block;
