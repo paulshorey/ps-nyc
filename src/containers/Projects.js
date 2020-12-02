@@ -28,8 +28,9 @@ export default class extends React.Component {
     const options = {
       caption: function (el) {
         if (el && el.dataset && el.dataset.title) {
-          return el.dataset.title || ""
+          return el.dataset.title
         }
+        return ""
       }
     }
     new LuminousGallery(document.querySelectorAll(".uuiCarousel a"), {}, options)
