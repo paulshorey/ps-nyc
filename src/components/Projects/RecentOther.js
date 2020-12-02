@@ -29,7 +29,7 @@ class RecentOther extends React.Component {
               </p>
             </div>
             <p>
-              <b>
+              <b className="titleFont">
                 <a href="https://flyswatter.tech" target="_blank">
                   FlySwatter.tech
                 </a>
@@ -39,24 +39,27 @@ class RecentOther extends React.Component {
               ad-blocker blocker. Finally, browse in peace.
             </p>
             <p>
-              <b>
+              <b className="titleFont">
                 <a href="http://notes.paulshorey.com" target="_blank">
                   Dev notes
                 </a>
               </b>{" "}
-              - Tutorials, recipes, tips for developers. Working on using a note-taking platform (Notion, GitBook) as a
-              website CMS, to publish support documentation or knowldgebase on "site.com/docs" instead of
-              "docs.site.com", for improved SEO.
+              - Tutorials, recipes, tips for developers. Few years of JavaScript programming notes. When I come accross
+              an interesting issue, I try to document it for others, or for myself in the future. Now working on adding
+              general useful tips, and converting to "how to" articles.
+              {/*Working on using a note-taking platform (Notion,*/}
+              {/*GitBook) as a website CMS, to publish support documentation or knowldgebase on "site.com/docs" instead of*/}
+              {/*"docs.site.com", for improved SEO.*/}
             </p>
             <p>
-              <b>
+              <b className="titleFont">
                 <a href="http://jobs.paulshorey.com" target="_blank">
                   JS jobs
                 </a>
               </b>{" "}
-              - Quick proof of concept. Took a week to build, including data-mining. Interface for technical users to
-              search through mounds of content. Search using Regular Expressions. Can be easily adapted to other types
-              of content like news, events, and research or legal articles.
+              - Interface for technical users to search through mounds of content. Search using Regular Expressions. Can
+              be easily adapted to other types of content like news, events, and research or legal articles. Quick proof
+              of concept. Took a week to build, including data-mining. Made with React.
             </p>
           </div>
         </article>

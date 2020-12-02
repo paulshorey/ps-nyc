@@ -143,4 +143,7 @@ const ProjectsStyled = styled.div`
       height: 1.5rem;
     }
   }
+  a {
+    text-shadow: 1px 1px 1px white;
+  }
 `

@@ -80,6 +80,9 @@ section {
       @media (max-width: 700px) {
         margin: 0 -2.5rem 0 -3rem;
       }
+      img {
+        width:100%;
+      }
       .playbutton {
         background-image: url(../gfx/play.svg);
         background-repeat: no-repeat;
