@@ -100,6 +100,7 @@ export default class extends React.Component {
 }
 
 const ProjectsStyled = styled.div`
+  max-width: 100vw;
   overflow: hidden;
   .carousel {
     margin-left: 2rem;
