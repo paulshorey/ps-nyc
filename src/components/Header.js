@@ -60,7 +60,7 @@ class Header extends React.Component {
               <b>Paul Shorey</b>
             </a>
             &nbsp;&nbsp;|&nbsp;&nbsp;
-            <span className="squishLeft">
+            <span>
               <b>Web App </b>+<b> API</b>&thinsp;&thinsp;<b>Developer</b>
               {/*<span className="hide-small"> &amp; UI Designer</span>*/}
               {/*<span className="show-large">, &thinsp;UI designer</span>*/}
@@ -72,11 +72,11 @@ class Header extends React.Component {
                 Resume <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
               </span>
             </a>{" "}
-            <span className="squishCenterSlightly">
+            <span>
               <span>
                 &nbsp;<span className="hide-small">|&nbsp;</span>
               </span>
-              <a href={"mailto:" + this.state.email} target="_blank" className="squishCenterSlightly">
+              <a href={"mailto:" + this.state.email} target="_blank" style={{ marginLeft: "0.125rem" }}>
                 <b>
                   {this.state.email} <FA icon={faEnvelope} className="x85" style={{ verticalAlign: "-0.175rem" }} />
                 </b>
@@ -88,13 +88,6 @@ class Header extends React.Component {
             <a href={"tel:" + this.state.phone}>
               {this.state.phone} <FA icon={faPhone} className="x85" />
             </a>
-            {/*<span>*/}
-            {/*  &nbsp;<span className="hide-small">|&nbsp;</span>*/}
-            {/*</span>*/}
-            {/*<a href={this.state.resume}>*/}
-            {/*  Resume &nbsp;*/}
-            {/*  <FA icon={faFileDownload} className="x85" />*/}
-            {/*</a>*/}
           </div>
         </div>
       </HeaderStyled>

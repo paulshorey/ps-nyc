@@ -1,6 +1,22 @@
-body {
-  font-family: Georgia, "Adobe Caslon Pro", "Adobe Garamond Pro", serif; //"bodoni 72",
+.topStyle {
+  background: var(--color-attention);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  a,
+  .link {
+    color: white !important;
+  }
+}
+.navStyle {
   background: url(../gfx/background_paper.jpg) center top repeat-x;
+  overflow: auto;
+  padding: 1rem 0 1.5rem;
+  background: hsl(48deg, 25%, 90%);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+}
+
+body {
+  font-family: Georgia, serif; //"bodoni 72",
+  background: hsl(48deg, 25%, 98%);
   color: hsl(2deg, 2%, 20%);
   min-width: 380px;
   > div:first-child {
@@ -13,6 +29,11 @@ body {
   iframe {
     max-width: 100%;
   }
+}
+
+.titleFont {
+  font-family: "Adobe Caslon Pro", "Adobe Garamond Pro", "bodoni 72", serif;
+  font-size: 110%;
 }
 
 .fieldset.radio {
@@ -164,15 +185,15 @@ form {
 p,
 .p {
   margin-bottom: 0.85rem;
-  line-height: 1.5rem;
-  font-size: 1rem;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
   color: hsl(20deg, 10%, 20%);
 }
 
 a,
 .link {
   color: hsl(35, 95%, 47.5%);
-  text-shadow: 0 0 5px white;
+  //text-shadow: 0 0 5px white;
   text-decoration: underline;
 }
 
@@ -220,6 +241,7 @@ h3 {
 .squishLeft {
   transform: scaleX(0.9);
   transform-origin: left;
+  display: inline-block;
 }
 .squishCenterSlightly {
   transform: scaleX(0.975);

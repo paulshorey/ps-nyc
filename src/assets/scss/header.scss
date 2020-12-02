@@ -2,69 +2,84 @@ header {
   position: relative;
   font-size: 1rem;
   line-height: 1.75rem;
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.5rem;
   color: hsl(20deg, 20%, 20%);
-  @media (max-width: 699px) {
-    margin-top: 1rem;
-  }
 
-  .h-left {
-    white-space: nowrap;
-    width: 1px;
-    overflow: visible;
-    @media (max-width: 800px) {
-      position: relative;
-      display: block;
-    }
-    .icon {
-      svg {
-        width: 1rem;
-        fill: currentColor;
-      }
-      img {
-        width: 1rem;
-        height: auto;
-      }
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
     }
   }
 
-  .h-right {
-    text-align: right;
-    position: absolute;
-    top: 0;
-    right: 0;
-    @media (max-width: 800px) {
-      position: relative;
-      text-align: right;
-      display: block;
-      margin-right: 1rem;
+  .h {
+    display: flex;
+    width: 100%;
+    @media (max-width: 860px) {
+      flex-direction: column;
     }
-    .icon {
-      display: inline-block;
-      position: absolute;
-      right: -1.5rem;
-      width: 1.5rem;
-      overflow: visible;
-      text-align: right;
-    }
-    //a {
-    //  color: var(--color-link);
-    //  &:hover {
-    //    color: var(--color-primary);
-    //  }
-    //  //svg {
-    //  //  color: var(--color-accent);
-    //  //}
-    //}
-  }
 
-  .h-left,
-  .h-right {
-    > * {
-      position: relative;
-      display: inline-block;
+    .h-left {
+      flex-grow: 1;
       white-space: nowrap;
+      overflow: visible;
+      font-family: "Adobe Caslon Pro", "Adobe Garamond Pro", "bodoni 72", serif;
+      font-size: 105%;
+      @media (max-width: 800px) {
+        position: relative;
+        display: block;
+      }
+
+      .icon {
+        svg {
+          width: 1rem;
+          fill: currentColor;
+        }
+
+        img {
+          width: 1rem;
+          height: auto;
+        }
+      }
+    }
+
+    .h-right {
+      flex-grow: 1;
+      text-align: right;
+
+      b {
+        font-family: "Adobe Caslon Pro", "Adobe Garamond Pro", "bodoni 72", serif;
+        font-size: 110%;
+      }
+
+      .icon {
+        display: inline-block;
+        position: absolute;
+        right: -1.5rem;
+        width: 1.5rem;
+        overflow: visible;
+        text-align: right;
+      }
+
+      //a {
+      //  color: var(--color-link);
+      //  &:hover {
+      //    color: var(--color-primary);
+      //  }
+      //  //svg {
+      //  //  color: var(--color-accent);
+      //  //}
+      //}
+    }
+
+    .h-left,
+    .h-right {
+      > * {
+        position: relative;
+        display: inline-block;
+        white-space: nowrap;
+      }
     }
   }
 }

@@ -5,11 +5,12 @@ import RecentOther from "src/components/Projects/RecentOther"
 // import BeyondLimits from "src/components/beyondlimits/BeyondLimits"
 import styled from "styled-components"
 import carousel_aboutme from "src/html/carousel/aboutme.html"
-import domains from "src/html/projects/2020/domains.html"
-import thesaurus from "src/html/projects/2020/thesaurus.html"
+import wordio from "src/html/projects/2020/wordio.html"
+// import thesaurus from "src/html/projects/2020/thesaurus.html"
 import projects_past from "src/html/projects/past.html"
 import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
 import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
+// import { faFileDownload } from "@fortawesome/pro-solid-svg-icons"
 // import { faEnvelope, faPhone } from "@fortawesome/pro-solid-svg-icons"
 
 export default class extends React.Component {
@@ -17,56 +18,57 @@ export default class extends React.Component {
     return (
       <App className="pageProjectsForClients">
         <ProjectsStyled>
-          <div className="content full">
-            <p>
-              I've been coding since 2008. Really enjoy web technologies, creating something from nothing, collaborating
-              with people, learning about new industries. <span className="nowrap">What are you up to?</span>{" "}
-              <span className="nowrap">Let's chat!</span>
-            </p>
-          </div>
-
-          <hr className="content full" />
-          <div className="content full flex" style={{ maxHeight: "9rem" }}>
-            <div className="simple_nav">
-              <a href="/about"> 🌇 About me </a>
-              <br />
-              {/*<a href=""> 📓 Writing (coming soon)</a> <br />*/}
-              <a href="https://notes.paulshorey.com" target="_blank">
-                {" "}
-                🤖 Programming Notes{" "}
-              </a>
-              <br />
-              <a
-                onClick={() => {
-                  document.querySelector('[name="work-experience"]').scrollIntoView({
-                    behavior: "smooth"
-                  })
-                }}
-              >
-                {" "}
-                👨‍💻 Work Experience <FA icon={faArrowDown} className="faArrowDown x70" />
-              </a>
-              <br />
-              <h2>
-                🚀 Side Projects <FA icon={faArrowDown} className="faArrowDown x70" />
-              </h2>
+          <div className="navStyle">
+            <div className="content full">
+              <p className="top_text">
+                I've been coding since 2008. Really enjoy web technologies, creating something from nothing, meeting new
+                people, learning about new industries. Now looking for a new job!&nbsp;
+                {/*<b className="nowrap">Now looking for a new full-time gig.&thinsp;</b> Love JavaScript, ES6 modules,*/}
+                {/*UI/UX, and data-driven solutions. Will continue to learn, experiment, and create in my free time.{" "}*/}
+              </p>
             </div>
-            <div className="flex-grow" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} />
-          </div>
-          <hr className="content full" />
 
-          <section className="content section-new-projects">
-            <div dangerouslySetInnerHTML={{ __html: domains }} />
-            <div dangerouslySetInnerHTML={{ __html: thesaurus }} />
+            <div className="content full flex" style={{ maxHeight: "9rem" }}>
+              <div className="titleFont simple_nav">
+                <a href="/about"> 🌇 About me </a>
+                <br />
+                {/*<a href=""> 📓 Writing (coming soon)</a> <br />*/}
+                <a href="https://notes.paulshorey.com" target="_blank">
+                  {" "}
+                  📓 Programming Notes{" "}
+                </a>
+                <br />
+                <a
+                  onClick={() => {
+                    document.querySelector('[name="work-experience"]').scrollIntoView({
+                      behavior: "smooth"
+                    })
+                  }}
+                >
+                  {" "}
+                  💻 Work Experience
+                </a>
+                <br />
+                <a href="" target="_blank">
+                  🚀 Code samples
+                </a>
+              </div>
+              <div className="flex-grow" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} />
+            </div>
+          </div>
+
+          <section className="content section_new_projects">
+            <div dangerouslySetInnerHTML={{ __html: wordio }} />
+            {/*<div dangerouslySetInnerHTML={{ __html: thesaurus }} />*/}
             <RecentOther />
           </section>
 
-          <section className="content section-work-experience">
+          <section className="content section_work_experience">
             <a name="work-experience" />
-            <h2>
-              👨‍💻 Previous Experience <FA icon={faArrowDown} className="faArrowDown x70" />
-            </h2>
-            <hr />
+            {/*<h2>*/}
+            {/*  👨‍💻 Previous Experience <FA icon={faArrowDown} className="faArrowDown x70" />*/}
+            {/*</h2>*/}
+            {/*<hr />*/}
             {/*<BeyondLimits />*/}
             <div dangerouslySetInnerHTML={{ __html: projects_past }} />
           </section>
@@ -87,19 +89,37 @@ const ProjectsStyled = styled.div`
   .simple_nav {
     position: relative;
     min-width: 11.5rem;
-    font-weight: 600;
+    font-weight: bold;
     line-height: 2.125rem;
     margin-right: 0.5rem;
-    h2:last-child {
-      position: absolute;
-      bottom: 0;
-    }
     > * {
       white-space: nowrap;
     }
   }
-  .section-new-projects {
+  .section_new_projects {
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+  p.top_text {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-right: -2rem;
+    margin-bottom: 1.25rem;
+    .nowrap {
+      @media (max-width: 860px) {
+        display: block;
+        margin-top: 1.5rem;
+      }
+    }
+  }
+  hr {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 0;
+    @media (max-width: 860px) {
+      height: 1.5rem;
+    }
   }
 `

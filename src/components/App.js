@@ -4,7 +4,9 @@ import Header from "src/components/Header"
 export default function (props) {
   return (
     <div className={"App " + (props.className || "")}>
-      <Header />
+      <div className="topStyle">
+        <Header />
+      </div>
       {props.children}
       <p>&nbsp;</p>
       <Header />

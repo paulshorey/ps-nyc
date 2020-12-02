@@ -62,7 +62,7 @@
     "# etc #": "#",
     "######!": "#",
     "ls": "ls ./../ps",
-    "sami": "cp -R static/sami/* ./../public/ps/sami && npm run pub",
+    "sami": "cp -R static/sami/* public/ps/sami && npm run pub",
     "files": "cp -R static/files/* ./../public/ps/files && npm run pub",
     "serve": "echo \"serving production @ port 9090\" && http-server build_stage -p 9090",
     "pull": "git add . && rm package-lock.json && git reset --hard HEAD && git pull",
