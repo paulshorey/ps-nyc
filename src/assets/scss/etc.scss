@@ -19,16 +19,12 @@ body {
   background: hsl(48deg, 25%, 98%);
   color: hsl(2deg, 2%, 20%);
   min-width: 380px;
-  > div:first-child {
-    overflow: auto;
-    height: 100vh;
-    width: 100vw;
-  }
-  img,
-  video,
-  iframe {
-    max-width: 100%;
-  }
+}
+
+.lum-close-button {
+  opacity: 1 !important;
+  right: 0.85rem !important;
+  top: 0.75rem !important;
 }
 
 .titleFont {

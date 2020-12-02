@@ -8,12 +8,32 @@ import carousel_aboutme from "src/html/carousel/aboutme.html"
 import wordio from "src/html/projects/2020/wordio.html"
 // import thesaurus from "src/html/projects/2020/thesaurus.html"
 import projects_past from "src/html/projects/past.html"
-import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
-import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
+// import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
+// import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
 // import { faFileDownload } from "@fortawesome/pro-solid-svg-icons"
 // import { faEnvelope, faPhone } from "@fortawesome/pro-solid-svg-icons"
+import { LuminousGallery } from "luminous-lightbox"
+import "luminous-lightbox/dist/luminous-basic.css"
 
 export default class extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      phone: "",
+      email: "",
+      resume: ""
+    }
+  }
+  componentDidMount() {
+    const options = {
+      caption: function (el) {
+        if (el && el.dataset && el.dataset.title) {
+          return el.dataset.title || ""
+        }
+      }
+    }
+    new LuminousGallery(document.querySelectorAll(".uuiCarousel a"), {}, options)
+  }
   render() {
     return (
       <App className="pageProjectsForClients">
