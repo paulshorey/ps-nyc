@@ -103,4 +103,4 @@ The only requirement for the slideshow is that you include a parent element with
 
 # About
 
-Built by PaulShorey for paulshorey.com. Not tested at all outside that one site! Please contact me if you find any bugs, or have ideas to improve this.
+Built by Paul for paulshorey.com. Not tested at all outside that one site! Please contact me if you'd like to work on this together.

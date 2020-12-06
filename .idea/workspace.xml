@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/etc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/RecentOther.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/OpenSource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/about/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about/media.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/carousel/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/carousel/aboutme.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/domains.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/wordio.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/wordio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/x_other.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/open_source.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/projects/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/past.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/js/uuiCarousel/uuiCarousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/js/uuiCarousel/uuiCarousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/default-skin/default-skin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/default-skin/default-skin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/default-skin/default-skin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/default-skin/preloader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/photoswipe-ui-default.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/photoswipe-ui-default.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/photoswipe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/photoswipe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/photoswipe.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/horizontal_carousel/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/horizontal_carousel/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +85,7 @@
       <workItem from="1606271736409" duration="56471000" />
       <workItem from="1606542471224" duration="2019000" />
       <workItem from="1606693264128" duration="8906000" />
-      <workItem from="1606795462803" duration="55947000" />
+      <workItem from="1606795462803" duration="56050000" />
     </task>
     <servers />
   </component>
