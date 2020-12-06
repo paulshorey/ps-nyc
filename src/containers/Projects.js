@@ -1,15 +1,16 @@
 import React from "react"
 import App from "src/components/App"
-import RecentOther from "src/components/Projects/RecentOther"
+import OpenSource from "src/components/Projects/OpenSource"
+import Wordio from "src/components/Projects/Wordio"
 // import CarouselAboutUs from "src/components/carousels/AboutUs"
 // import BeyondLimits from "src/components/beyondlimits/BeyondLimits"
 import styled from "styled-components"
 import carousel_aboutme from "src/html/carousel/aboutme.html"
 import wordio from "src/html/projects/2020/wordio.html"
-// import thesaurus from "src/html/projects/2020/thesaurus.html"
+import open_source from "src/html/projects/2020/open_source.html"
 import projects_past from "src/html/projects/past.html"
-// import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
-// import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
+import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
+import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
 // import { faFileDownload } from "@fortawesome/pro-solid-svg-icons"
 // import { faEnvelope, faPhone } from "@fortawesome/pro-solid-svg-icons"
 import { LuminousGallery } from "luminous-lightbox"
@@ -33,7 +34,7 @@ export default class extends React.Component {
         return ""
       }
     }
-    new LuminousGallery(document.querySelectorAll(".uuiCarousel a"), {}, options)
+    new LuminousGallery(document.querySelectorAll(".horizontal_carousel a"), {}, options)
   }
   render() {
     return (
@@ -42,17 +43,15 @@ export default class extends React.Component {
           <div className="navStyle">
             <div className="content full">
               <p className="top_text">
-                I've been coding since 2008. Really enjoy web technologies, creating something from nothing, meeting new
-                people, learning about new industries. Now looking for a new job!&nbsp;
+                👋 I've been coding since 2008. Really enjoy web technologies, creating something from nothing,
+                collaborating with people. Always building something. Now looking for a full-time job!&nbsp;
                 {/*<b className="nowrap">Now looking for a new full-time gig.&thinsp;</b> Love JavaScript, ES6 modules,*/}
                 {/*UI/UX, and data-driven solutions. Will continue to learn, experiment, and create in my free time.{" "}*/}
               </p>
             </div>
 
-            <div className="content full flex" style={{ maxHeight: "9rem" }}>
+            <div className="content full flex" style={{ maxHeight: "10rem" }}>
               <div className="titleFont simple_nav">
-                <a href="/about"> 🌇 About me </a>
-                <br />
                 {/*<a href=""> 📓 Writing (coming soon)</a> <br />*/}
                 <a href="https://notes.paulshorey.com" target="_blank">
                   {" "}
@@ -61,27 +60,34 @@ export default class extends React.Component {
                 <br />
                 <a
                   onClick={() => {
-                    document.querySelector('[name="work-experience"]').scrollIntoView({
+                    document.querySelector('[name="beyond"]').scrollIntoView({
                       behavior: "smooth"
                     })
                   }}
                 >
                   {" "}
-                  💻 Work Experience
+                  💻 Work Experience <FA icon={faArrowDown} className="faArrowDown x70" />
                 </a>
                 <br />
-                <a href="" target="_blank">
-                  🚀 Code samples
+                <a
+                  onClick={() => {
+                    document.querySelector('[name="wordio"]').scrollIntoView({
+                      behavior: "smooth"
+                    })
+                  }}
+                >
+                  🚀 Code samples <FA icon={faArrowDown} className="faArrowDown x70" />
                 </a>
+                <br />
+                <a href="/about"> 🌇 About me </a>
               </div>
-              <div className="flex-grow" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} />
+              <div dangerouslySetInnerHTML={{ __html: carousel_aboutme }} style={{ overflow: "auto" }} />
             </div>
           </div>
 
           <section className="content section_new_projects">
-            <div dangerouslySetInnerHTML={{ __html: wordio }} />
-            {/*<div dangerouslySetInnerHTML={{ __html: thesaurus }} />*/}
-            <RecentOther />
+            <Wordio />
+            <OpenSource />
           </section>
 
           <section className="content section_work_experience">
@@ -115,6 +121,9 @@ const ProjectsStyled = styled.div`
     font-weight: bold;
     line-height: 2.125rem;
     margin-right: 0.5rem;
+    @media (max-width: 1100px) {
+      display: none;
+    }
     > * {
       white-space: nowrap;
     }

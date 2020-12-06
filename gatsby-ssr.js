@@ -46,8 +46,8 @@ export const onPreRenderHTML = ({
       <script src="/assets/js/jquery.js"></script>
       <script src="/assets/js/jquery.cycle.js"></script>
 
-      <script src="/assets/js/uuiCarousel/uuiCarousel.js"></script>
-      <link href="/assets/js/uuiCarousel/uuiCarousel.css" rel="stylesheet" type="text/css" />
+      <script src="/js/horizontal_carousel/horizontal_carousel.js"></script>
+      <link href="/js/horizontal_carousel/horizontal_carousel.css" rel="stylesheet" type="text/css" />
 
       <link rel="stylesheet" type="text/css" href="/assets/the_wilderness_downtown/style.css" />
       <div id="birdsCanvas">
@@ -83,15 +83,6 @@ export const onPreRenderHTML = ({
      */}
       <script src="https://apps.elfsight.com/p/platform.js" defer></script>
       <div className="elfsight-app-bcf06b3b-b3f9-47c0-a7f0-11e2e4a2418f"></div>
-
-      {/*
-       * PHOTO SWIPE
-       */}
-      <link rel="stylesheet" href="/js/photoswipe/photoswipe.css" />
-      <link rel="stylesheet" href="/js/photoswipe/default-skin/default-skin.css" />
-      <script src="/js/photoswipe/photoswipe.min.js"></script>
-      <script src="/js/photoswipe/photoswipe-ui-default.min.js"></script>
-
     </>
   )
   // done altering <html>

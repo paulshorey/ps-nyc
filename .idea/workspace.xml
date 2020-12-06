@@ -2,9 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/scss/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/etc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/RecentOther.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/OpenSource.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/about/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about/media.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/carousel/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/carousel/aboutme.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/domains.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/thesaurus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/wordio.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/wordio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/x_other.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/2020/open_source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/past.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/uuiCarousel/uuiCarousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/js/uuiCarousel/uuiCarousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/default-skin/default-skin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/default-skin/default-skin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/default-skin/default-skin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/default-skin/preloader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/photoswipe-ui-default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/photoswipe-ui-default.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/photoswipe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/photoswipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/photoswipe/photoswipe.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +109,7 @@
       <workItem from="1606271736409" duration="56471000" />
       <workItem from="1606542471224" duration="2019000" />
       <workItem from="1606693264128" duration="8906000" />
-      <workItem from="1606795462803" duration="22426000" />
+      <workItem from="1606795462803" duration="55947000" />
     </task>
     <servers />
   </component>
@@ -117,26 +140,29 @@
     </state>
     <state x="670" y="-911" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602443361466" />
     <state x="687" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1606856042848" />
-    <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602437871381">
-      <screen x="-567" y="-1057" width="2560" height="1057" />
+    <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607141951672">
+      <screen x="-1120" y="-1057" width="2560" height="1057" />
     </state>
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
+    <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607141951672" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="0" y="23" width="1440" height="877" key="find.popup" timestamp="1606803146379">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="-1120" y="-1057" width="2560" height="1057" key="find.popup" timestamp="1607135648352">
+      <screen x="-1120" y="-1057" width="2560" height="1057" />
     </state>
     <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606451289948" />
     <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />
+    <state x="-1120" y="-1057" width="2560" height="1057" key="find.popup/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607135648352" />
     <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1606803146379" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1606346372698">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606346372698" />
-    <state x="385" y="213" width="671" height="677" key="search.everywhere.popup" timestamp="1606854291151">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="-436" y="-828" width="1193" height="816" key="search.everywhere.popup" timestamp="1607221233166">
+      <screen x="-1120" y="-1057" width="2560" height="1057" />
     </state>
     <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606457684747" />
     <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1598650220977" />
+    <state x="-436" y="-828" width="1193" height="816" key="search.everywhere.popup/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607221233166" />
     <state x="385" y="213" width="671" height="677" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1606854291151" />
   </component>
   <component name="XDebuggerManager">
