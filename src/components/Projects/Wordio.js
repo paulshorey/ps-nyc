@@ -16,10 +16,10 @@ class Wordio extends React.Component {
                 </a>{" "}
                 {/*<code className="color-medium vrsn">beta</code>{" "}*/}
               </b>
-              - After working at an AI company for a couple years, I wanted to try building an AI product, working with
-              NLP, text generation, text analysis. This started out as a quick evening side project. It's now the best
-              domain name suggestions engine in the industry. I'll be promoting this in my spare time in 2021/2022.{" "}
-              <span className="hide-small">Suggestions </span>API for registars/hosting companies is now ready to
+              - After working at an AI company for a couple years, I wanted to try building an AI product and work with
+              data and text analysis. This started out as a quick evening side project. It's now the best domain name
+              suggestions engine in the industry. This is not just a search. It's actually generating new phrases using
+              NLP. <span className="hide-small">Suggestions </span>API for registars/hosting companies is now ready to
               demo.&nbsp;
               <span className="nowrap hide-small">
                 Documentation:{" "}
