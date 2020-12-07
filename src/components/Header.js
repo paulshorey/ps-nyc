@@ -12,35 +12,20 @@ class Header extends React.Component {
       email: "",
       resume: ""
     }
+    this.secretState={
+      phone: "385.770.6789",
+      email: "hello@paulshorey.com",
+      resume: "https://paulshorey.com/files/PaulShorey-SoftwareEngineer.pdf"
+    }
   }
   componentDidMount() {
-    if (typeof window === "object" && "$" in window && !this.state.phone) {
-      this.setState({
-        phone: "385.770.6789",
-        email: "hello@paulshorey.com",
-        resume: "/file.docx"
-      })
-    }
-    if (typeof window === "object" && "$" in window) {
-      let $ = window.$
-      $("[secretmailto]").each(function () {
-        $(this).get(0).innerHTML = $(this).attr("secretmailto")
-        $(this).attr("href", "mailto:" + $(this).attr("secretmailto"))
-      })
-
-      $("[secrettel]").each(function () {
-        $(this).get(0).innerHTML = $(this).attr("secrettel")
-        $(this).attr("href", "tel:" + $(this).attr("secrettel").replace(/./g, ""))
-      })
+    if (!this.state.phone) {
+      this.setState(this.secretState)
     }
   }
   componentDidUpdate() {
-    if (typeof window === "object" && "$" in window && !this.state.phone) {
-      this.setState({
-        phone: "385.770.6789",
-        email: "hello@paulshorey.com",
-        resume: "/file.docx"
-      })
+    if (!this.state.phone) {
+      this.setState(this.secretState)
     }
   }
   render() {
@@ -67,10 +52,10 @@ class Header extends React.Component {
             </span>
           </div>
           <div className="h-right">
-            <a href={"mailto:" + this.state.email} target="_blank">
-              <span>
+            <a href={this.state.resume} target="_blank">
+              <b style={{fontWeight:'normal'}}>
                 Resume <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
-              </span>
+              </b>
             </a>{" "}
             <span>
               <span>

@@ -34,12 +34,12 @@ class OpenSource extends React.Component {
                   FlySwatter.tech
                 </a>
               </b>{" "}
-              - Browser extension to reliably{" "}
+              - Browser extension to{" "}
               <b className="titleFont">
                 close popups, cookie/terms consent banners, floating advertisements, newsletter promotions,&nbsp;
               </b>
-              etc. Does not break the page like others I've tried. Does not trigger news sites' ad-blocker blocker.
-              Finally, browse in peace. Try it.
+              etc. Works reliably without breaking the page, unlike others I've tried. Does not trigger news sites'
+              ad-blocker blocker. Finally, browse in peace. Try it.
             </p>
             <p>
               <b className="titleFont">
@@ -59,7 +59,7 @@ class OpenSource extends React.Component {
                 </a>
               </b>{" "}
               - Work in progress, recipes and tips for developers. Few years of JavaScript programming notes. When I
-              come accross an interesting issue, I try to document it for myself and others. Currently starting to
+              come across an interesting issue, I try to document it for myself and others. Currently starting to
               organize notes and write "how to" articles.
               {/*Streamline a way to convert markdown files into HTML, to embed a*/}
               {/*knowledgebase into an existing website with your own branding, instead of hosting documentation on a*/}
@@ -116,7 +116,8 @@ class OpenSource extends React.Component {
             <p>
               I love making stuff! Coming from a fine art background, rather than computer-science, I focus on the end
               product and user experience. Of course I agree that code quality and maintainability is equaly important.
-              Self-taught. Never done learning. Looking forward to collaborating, sharing ideas, new challenges.
+              Self-taught. Never done learning. Looking forward to collaborating, sharing ideas, facing new
+              challenges.
               {/*Spent most of 2020 practicing full-stack web development, data science, documentation, and copywriting.*/}
               {/*These projects are works in progress. Currently adding unit tests and more complete documentation.*/}
             </p>

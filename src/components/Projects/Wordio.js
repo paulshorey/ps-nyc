@@ -18,23 +18,23 @@ class Wordio extends React.Component {
               </b>
               - After working at an AI company for a couple years, I wanted to try building an AI product and work with
               data and text analysis. This started out as a quick evening side project. It's now the best domain name
-              suggestions engine in the industry. This is not just a search. It actually generates new phrases using
-              NLP. API for registars/hosting companies now ready to
-              demo.&nbsp;
-              <span className="nowrap hide-small">
-                Documentation:{" "}
-                <a href="https://besta.domains/api" target="_blank">
-                  besta.domains/api
-                </a>
-                .&nbsp;
-              </span>
+              suggestions engine in the industry. It doesn't just search. It actually generates new phrases using NLP.
+              APIs for registars/hosting companies now ready for testing.&nbsp;
               <span className="nowrap">
                 <span className="hide-small">
                   Get the API:{" "}
                   <a href="https://rapidapi.com/besta-domains/api/domain-suggestions-tlds" target="_blank">
                     rapidapi.com
                   </a>
-                  .{" "}
+                  .&nbsp;
+                </span>
+
+                <span className="nowrap hide-small">
+                  Documentation:{" "}
+                  <a href="https://besta.domains/api" target="_blank">
+                    besta.domains/api
+                  </a>
+                  .&nbsp;
                 </span>
                 {/*<span className="hide-large">*/}
                 {/*  Demo:{" "}*/}
