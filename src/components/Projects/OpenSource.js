@@ -22,8 +22,8 @@ class OpenSource extends React.Component {
               browser or Node.js
             </p>
             <p className="with_code">
-              <a href="https://github.com/paulshorey/universal-common-scripts" target="_blank" className="code">
-                npm i universal-common-scripts
+              <a href="https://github.com/paulshorey/universal-common-functions" target="_blank" className="code">
+                npm i universal-common-functions
               </a>{" "}
               &nbsp;JavaScript functions. Like underscore/lodash, but more for data manipulation, filtering, sorting.
               For browser or Node.js
