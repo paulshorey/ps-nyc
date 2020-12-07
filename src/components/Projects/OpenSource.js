@@ -44,7 +44,7 @@ class OpenSource extends React.Component {
             <p>
               <b className="titleFont">
                 <a href="http://jobs.paulshorey.com" target="_blank">
-                  JavaScript jobs
+                  Research portal
                 </a>
               </b>{" "}
               - Proof of concept. Interface for technical users to search through mounds of content.{" "}
