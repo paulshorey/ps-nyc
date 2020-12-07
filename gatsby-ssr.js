@@ -73,16 +73,21 @@ export const onPreRenderHTML = ({
       <script src="https://www.google.com/recaptcha/api.js?render=6LfSN-MUAAAAAOxMUojSlBxkicjSeX1YLW8ds8C1"></script>
 
       {/*
-      CUSTOM SITE STYLE AND WIDGETS
-     */}
+       * CUSTOM SITE STYLE AND WIDGETS
+       */}
       <link rel="stylesheet" type="text/css" href="/assets/icomoon/style.css" />
       <script src="/js/init.js"></script>
 
       {/*
-      ELFSIGHT CONTACT FORM
-     */}
+       * ELFSIGHT CONTACT FORM
+       */}
       <script src="https://apps.elfsight.com/p/platform.js" defer></script>
       <div className="elfsight-app-bcf06b3b-b3f9-47c0-a7f0-11e2e4a2418f"></div>
+
+      {/*
+       * ETC
+       */}
+      <script src="https://cdn.jsdelivr.net/gh/paulshorey/colorful-console-logger@latest/dist/cconsole.js"></script>
     </>
   )
   // done altering <html>

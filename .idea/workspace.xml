@@ -3,8 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/OpenSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/OpenSource.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Wordio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Wordio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/about/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/blog/notion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/carousel/aboutme.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/aboutme_carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/open_source.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/2020/wordio.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,19 +51,19 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/js" />
-      <recent name="$PROJECT_DIR$/src/components/Jobs" />
-      <recent name="$PROJECT_DIR$/src/assets/json" />
-      <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/containers/Jobs/data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/sami" />
       <recent name="$PROJECT_DIR$/src/assets/lib" />
       <recent name="$PROJECT_DIR$/src/containers/Jobs" />
       <recent name="$PROJECT_DIR$/src/components/Jobs" />
       <recent name="$PROJECT_DIR$/src/components/carousels" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/html/projects" />
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/src/components/Jobs" />
+      <recent name="$PROJECT_DIR$/src/assets/json" />
+      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -86,7 +95,8 @@
       <workItem from="1606271736409" duration="56471000" />
       <workItem from="1606542471224" duration="2019000" />
       <workItem from="1606693264128" duration="8906000" />
-      <workItem from="1606795462803" duration="56324000" />
+      <workItem from="1606795462803" duration="58716000" />
+      <workItem from="1607283476192" duration="3703000" />
     </task>
     <servers />
   </component>
@@ -123,12 +133,12 @@
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
     <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607141951672" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="-1120" y="-1057" width="2560" height="1057" key="find.popup" timestamp="1607135648352">
+    <state x="-1120" y="-1057" width="2560" height="1057" key="find.popup" timestamp="1607303888260">
       <screen x="-1120" y="-1057" width="2560" height="1057" />
     </state>
     <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606451289948" />
     <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />
-    <state x="-1120" y="-1057" width="2560" height="1057" key="find.popup/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607135648352" />
+    <state x="-1120" y="-1057" width="2560" height="1057" key="find.popup/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607303888260" />
     <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1606803146379" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1606346372698">
       <screen x="-567" y="-1057" width="2560" height="1057" />
@@ -138,7 +148,6 @@
       <screen x="-1120" y="-1057" width="2560" height="1057" />
     </state>
     <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606457684747" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1598650220977" />
     <state x="-436" y="-828" width="1193" height="816" key="search.everywhere.popup/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607221233166" />
     <state x="385" y="213" width="671" height="677" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1606854291151" />
   </component>

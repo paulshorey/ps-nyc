@@ -15,18 +15,18 @@ class OpenSource extends React.Component {
           </h3>
           <div className="description">
             <p className="with_code">
-              <a href="#" className="code">
-                npm i universal-common-scripts
-              </a>{" "}
-              &nbsp;JavaScript functions. Like underscore/lodash, but more for data manipulation, filtering, sorting.
-              For browser or Node.js
-            </p>
-            <p className="with_code">
-              <a href="#" className="code">
+              <a href="https://github.com/paulshorey/colorful-console-logger" target="_blank" className="code">
                 npm i colorful-console-logger
               </a>{" "}
               &nbsp;Universal console.log replacement. Adds color, and integrates with cloud-logging like LogDNA. For
               browser or Node.js
+            </p>
+            <p className="with_code">
+              <a href="https://github.com/paulshorey/universal-common-scripts" target="_blank" className="code">
+                npm i universal-common-scripts
+              </a>{" "}
+              &nbsp;JavaScript functions. Like underscore/lodash, but more for data manipulation, filtering, sorting.
+              For browser or Node.js
             </p>
             <p>
               <b className="titleFont">
@@ -78,45 +78,45 @@ class OpenSource extends React.Component {
               and custom styles.
             </p>
           </div>
-          <div className="horizontal_carousel">
-            <div className="slides">
-              <a
-                href="/screenshots/domains/domains.png"
-                data-title="https://besta.domains - app to help you find an available domain name"
-              >
-                <img src="/screenshots/domains/_thumb-domains.png" />
-              </a>
-              <a
-                href="/screenshots/domains/domain_wordbreak.png"
-                data-title="Using my own linguistic tools to do word breaking / lemmatization / tokenization"
-              >
-                <img src="/screenshots/domains/_thumb-domain_wordbreak.png" />
-              </a>
-              <a href="/screenshots/domains/domain_wip.png">
-                <img src="/screenshots/domains/_thumb-domain_wip.png" />
-              </a>
-              <a href="/screenshots/domains/domain_edit.png">
-                <img src="/screenshots/domains/_thumb-domain_edit.png" />
-              </a>
-              <a href="/screenshots/domains/domains_all_edit.png">
-                <img src="/screenshots/domains/_thumb-domains_all_edit.png" />
-              </a>
-              <a href="/screenshots/domains/api_docs.png">
-                <img src="/screenshots/domains/_thumb-api_docs.png" />
-              </a>
-              <a href="/screenshots/domains/word_view.png">
-                <img src="/screenshots/domains/_thumb-word_view.png" />
-              </a>
-              <a href="/screenshots/domains/word_edit.png">
-                <img src="/screenshots/domains/_thumb-word_edit.png" />
-              </a>
-            </div>
-          </div>
+          {/*<div className="horizontal_carousel">*/}
+          {/*  <div className="slides">*/}
+          {/*    <a*/}
+          {/*      href="/screenshots/domains/domains.png"*/}
+          {/*      data-title="https://besta.domains - app to help you find an available domain name"*/}
+          {/*    >*/}
+          {/*      <img src="/screenshots/domains/_thumb-domains.png" />*/}
+          {/*    </a>*/}
+          {/*    <a*/}
+          {/*      href="/screenshots/domains/domain_wordbreak.png"*/}
+          {/*      data-title="Using my own linguistic tools to do word breaking / lemmatization / tokenization"*/}
+          {/*    >*/}
+          {/*      <img src="/screenshots/domains/_thumb-domain_wordbreak.png" />*/}
+          {/*    </a>*/}
+          {/*    <a href="/screenshots/domains/domain_wip.png">*/}
+          {/*      <img src="/screenshots/domains/_thumb-domain_wip.png" />*/}
+          {/*    </a>*/}
+          {/*    <a href="/screenshots/domains/domain_edit.png">*/}
+          {/*      <img src="/screenshots/domains/_thumb-domain_edit.png" />*/}
+          {/*    </a>*/}
+          {/*    <a href="/screenshots/domains/domains_all_edit.png">*/}
+          {/*      <img src="/screenshots/domains/_thumb-domains_all_edit.png" />*/}
+          {/*    </a>*/}
+          {/*    <a href="/screenshots/domains/api_docs.png">*/}
+          {/*      <img src="/screenshots/domains/_thumb-api_docs.png" />*/}
+          {/*    </a>*/}
+          {/*    <a href="/screenshots/domains/word_view.png">*/}
+          {/*      <img src="/screenshots/domains/_thumb-word_view.png" />*/}
+          {/*    </a>*/}
+          {/*    <a href="/screenshots/domains/word_edit.png">*/}
+          {/*      <img src="/screenshots/domains/_thumb-word_edit.png" />*/}
+          {/*    </a>*/}
+          {/*  </div>*/}
+          {/*</div>*/}
           <div className="description">
             <p>
               I love making stuff! Coming from a fine art background, rather than computer-science, I focus on the end
               product and user experience. Of course I agree that code quality and maintainability is equaly important.
-              Self-taught. Never done learning. Looking forward to collaborating, and sharing ideas.
+              Self-taught. Never done learning. Looking forward to collaborating, sharing ideas, new challenges.
               {/*Spent most of 2020 practicing full-stack web development, data science, documentation, and copywriting.*/}
               {/*These projects are works in progress. Currently adding unit tests and more complete documentation.*/}
             </p>

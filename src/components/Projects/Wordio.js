@@ -18,8 +18,8 @@ class Wordio extends React.Component {
               </b>
               - After working at an AI company for a couple years, I wanted to try building an AI product and work with
               data and text analysis. This started out as a quick evening side project. It's now the best domain name
-              suggestions engine in the industry. This is not just a search. It's actually generating new phrases using
-              NLP. <span className="hide-small">Suggestions </span>API for registars/hosting companies is now ready to
+              suggestions engine in the industry. This is not just a search. It actually generates new phrases using
+              NLP. API for registars/hosting companies now ready to
               demo.&nbsp;
               <span className="nowrap hide-small">
                 Documentation:{" "}
@@ -92,8 +92,8 @@ class Wordio extends React.Component {
               - Wrote some linguistic APIs and algorithms, for AI, writing, or search applications. Compiled and edited
               a thesaurus of 300,000+ words. Find the root-word, parts-of-speech, sentiment analysis, abbreviations,
               contractions, singular/plural, etc. Get synonyms and related words, organized by sentiment. Word-breaking,
-              tokenization, lemmatization and spellcheck on text inputs without spaces (useful for domain names). Please
-              contact me for a demo.
+              tokenization, lemmatization and spellcheck on text inputs without spaces (useful for domain names).
+              {/*Please contact me for a demo.*/}
               {/*Created some nifty open-source scripts{" "}*/}
               {/*<span*/}
               {/*  className="link"*/}
