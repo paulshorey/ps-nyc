@@ -30,7 +30,7 @@ class OpenSource extends React.Component {
             </p>
             <p>
               <b className="titleFont">
-                <a href="https://flyswatter.tech" target="_blank">
+                <a href="https://github.com/paulshorey/FlySwatterTech" target="_blank">
                   FlySwatter.tech
                 </a>
               </b>{" "}
