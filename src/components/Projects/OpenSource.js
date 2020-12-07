@@ -31,10 +31,10 @@ class OpenSource extends React.Component {
             <p>
               <b className="titleFont">
                 <a href="https://github.com/paulshorey/FlySwatterTech" target="_blank">
-                  FlySwatter.tech
+                  Browser extension
                 </a>
               </b>{" "}
-              - Browser extension to{" "}
+              - to{" "}
               <b className="titleFont">
                 close popups, cookie/terms consent banners, floating advertisements, newsletter promotions,&nbsp;
               </b>
@@ -44,7 +44,7 @@ class OpenSource extends React.Component {
             <p>
               <b className="titleFont">
                 <a href="http://jobs.paulshorey.com" target="_blank">
-                  JavaScript Jobs
+                  JavaScript jobs
                 </a>
               </b>{" "}
               - Proof of concept. Interface for technical users to search through mounds of content.{" "}
@@ -71,7 +71,7 @@ class OpenSource extends React.Component {
             <p className="">
               <b className="titleFont">
                 <a href="https://github.com/paulshorey/ps/tree/master/static/js/horizontal_carousel" target="_blank">
-                  Flexible Horizontal Carousel
+                  Flexible horizontal carousel
                 </a>
               </b>{" "}
               - The image carousels you see here. Built from scratch. No dependencies. Supports variable width content,
@@ -116,8 +116,7 @@ class OpenSource extends React.Component {
             <p>
               I love making stuff! Coming from a fine art background, rather than computer-science, I focus on the end
               product and user experience. Of course I agree that code quality and maintainability is equaly important.
-              Self-taught. Never done learning. Looking forward to collaborating, sharing ideas, facing new
-              challenges.
+              Self-taught. Never done learning. Looking forward to collaborating, sharing ideas, facing new challenges.
               {/*Spent most of 2020 practicing full-stack web development, data science, documentation, and copywriting.*/}
               {/*These projects are works in progress. Currently adding unit tests and more complete documentation.*/}
             </p>
