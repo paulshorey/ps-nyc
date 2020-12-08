@@ -22,11 +22,11 @@ class OpenSource extends React.Component {
               browser or Node.js
             </p>
             <p className="with_code">
-              <a href="https://github.com/paulshorey/universal-common-functions" target="_blank" className="code">
-                npm i universal-common-functions
+              <a href="https://github.com/paulshorey/pauls-pure-functions" target="_blank" className="code">
+                npm i pauls-pure-functions
               </a>{" "}
-              &nbsp;JavaScript functions. Like underscore/lodash, but more for data manipulation, filtering, sorting.
-              For browser or Node.js
+              &nbsp;My own JavaScript library, like underscore/lodash. For data manipulation, filtering, sorting,
+              text-analysis, requests and promises.
             </p>
             <p>
               <b className="titleFont">
