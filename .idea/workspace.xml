@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,8 @@
       <workItem from="1606542471224" duration="2019000" />
       <workItem from="1606693264128" duration="8906000" />
       <workItem from="1606795462803" duration="58716000" />
-      <workItem from="1607283476192" duration="15425000" />
+      <workItem from="1607283476192" duration="16330000" />
+      <workItem from="1607501818999" duration="280000" />
     </task>
     <servers />
   </component>
@@ -97,11 +99,12 @@
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
     <state x="795" y="-639" key="#Prettier/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602273018687" />
-    <state x="444" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603140949359">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="-331" y="-758" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607495662675">
+      <screen x="-1120" y="-1057" width="2560" height="1057" />
     </state>
     <state x="222" y="-758" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602302101912" />
     <state x="444" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603140949359" />
+    <state x="-331" y="-758" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/1440.-925.2048.841/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607495662675" />
     <state x="319" y="64" key="SettingsEditor" timestamp="1606803033629">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
