@@ -11,7 +11,7 @@ import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
 // import { faEnvelope, faPhone } from "@fortawesome/pro-solid-svg-icons"
 import { LuminousGallery } from "luminous-lightbox"
 import "luminous-lightbox/dist/luminous-basic.css"
-import { Link } from "gatsby";
+import { Link } from "gatsby"
 
 export default class extends React.Component {
   constructor(props) {
@@ -41,7 +41,7 @@ export default class extends React.Component {
             <div className="content full">
               <p className="top_text">
                 👋 I've been coding since 2008. Really enjoy web technologies, creating something from nothing,
-                collaborating with people. Always building something. Now looking for a full-time job!&nbsp;
+                collaborating with people. Always building something. Let's chat!
                 {/*<b className="nowrap">Now looking for a new full-time gig.&thinsp;</b> Love JavaScript, ES6 modules,*/}
                 {/*UI/UX, and data-driven solutions. Will continue to learn, experiment, and create in my free time.{" "}*/}
               </p>
