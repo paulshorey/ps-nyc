@@ -15,18 +15,18 @@ class OpenSource extends React.Component {
           </h3>
           <div className="description">
             <p className="with_code">
-              <a href="https://github.com/paulshorey/colorful-console-logger" target="_blank" className="code">
+              <a href="https://github.com/paulshorey/colorful-console-logger" target="_blank" className="code_link">
                 npm i colorful-console-logger
               </a>{" "}
-              &nbsp;Universal console.log replacement. Adds color, and integrates with cloud-logging like LogDNA. For
-              browser or Node.js
+              &nbsp;Universal console.log replacement. Adds colors, trace, integrates with cloud-logging like LogDNA.
             </p>
             <p className="with_code">
-              <a href="https://github.com/paulshorey/pauls-pure-functions" target="_blank" className="code">
-                npm i pauls-pure-functions
+              <a href="https://github.com/twodashes/universal" target="_blank" className="code_link">
+                npm i @twodashes/universal
               </a>{" "}
-              &nbsp;My own JavaScript library, like underscore/lodash. For data manipulation, filtering, sorting,
-              text-analysis, requests and promises.
+              &nbsp;Created a utility JavaScript library like lodash. For data manipulation, filtering, sorting,
+              text-analysis, requests, promises, error handling. Also @twodashes/browser for platform-specific functions
+              like AJAX, URL, resolution, etc.
             </p>
             <p>
               <b className="titleFont">
@@ -134,23 +134,19 @@ const ProjectsStyled = styled.div`
     margin: 1.75rem 0 3.5rem 0;
     p {
       &.with_code {
-        margin: 1.25rem 0;
+        margin: 1rem 0;
       }
     }
-    a.code {
+    a.code_link {
       position: relative;
+      top: -0.095rem;
       text-decoration: none !important;
-      //&::after {
-      //  content: "»";
-      //  padding-left: 0.33rem;
-      //  font-size: 125%;
-      //  line-height: 100%;
-      //  //display: block;
-      //  //position: absolute;
-      //  //bottom: 0;
-      //  //right: 0;
-      //  //color: currentColor;
-      //}
+      font-family: monospace;
+      font-size: 0.95rem;
+      font-weight: bold;
+      letter-spacing: -0.025rem;
+      border-bottom: solid 2px;
+      line-height: 0.5rem;
     }
     h3 {
       svg {

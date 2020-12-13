@@ -11,6 +11,7 @@ import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
 // import { faEnvelope, faPhone } from "@fortawesome/pro-solid-svg-icons"
 import { LuminousGallery } from "luminous-lightbox"
 import "luminous-lightbox/dist/luminous-basic.css"
+import { Link } from "gatsby";
 
 export default class extends React.Component {
   constructor(props) {
@@ -75,7 +76,7 @@ export default class extends React.Component {
                   🚀 Code samples <FA icon={faArrowDown} className="faArrowDown x70" />
                 </a>
                 <br />
-                <a href="/about"> 🌇 About me </a>
+                <Link to="/about"> 🌇 About me </Link>
               </div>
               <div dangerouslySetInnerHTML={{ __html: carousel_aboutme }} style={{ overflow: "auto" }} />
             </div>

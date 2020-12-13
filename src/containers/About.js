@@ -6,9 +6,6 @@ import App from "src/components/App"
 export default function () {
   return (
     <App className="pageAbout">
-      {/*<div className="content full">*/}
-      {/*  <CarouselAboutUs />*/}
-      {/*</div>*/}
       <div dangerouslySetInnerHTML={{ __html: about_media }} />
     </App>
   )

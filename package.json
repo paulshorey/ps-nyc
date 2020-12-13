@@ -55,7 +55,7 @@
   },
   "scripts": {
     "start": "npm run dev",
-    "dev": "npm run ip_local && GATSBY_ACTIVE_ENV=development gatsby develop -p 8080",
+    "dev": "npm run ip_local && GATSBY_ACTIVE_ENV=development gatsby develop -p 1090",
     "build": "GATSBY_ACTIVE_ENV=production gatsby build",
     "pub": "rm -rf ./../public/ps && mv ./public ./../public/ps && cd ./../public && git add . && git commit -m 'ps' && git push",
     "#######": "#",
@@ -67,7 +67,7 @@
     "serve": "echo \"serving production @ port 9090\" && http-server build_stage -p 9090",
     "pull": "git add . && rm package-lock.json && git reset --hard HEAD && git pull",
     "ip_stage": "echo \"\nPUBLIC_API_HOST = '$(ipconfig getifaddr en0):1090'\nADMIN_API_HOST = '$(ipconfig getifaddr en0):1090'\" >> .env.development",
-    "ip_local": "echo \"\nPUBLIC_API_HOST = '127.0.0.1:1080'\nADMIN_API_HOST = '127.0.0.1:1080'\" >> .env.development",
+    "ip_local": "echo \"\nPUBLIC_API_HOST = '127.0.0.1:1090'\nADMIN_API_HOST = '127.0.0.1:1090'\" >> .env.development",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md' 'bin/*.js'",
