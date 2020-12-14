@@ -58,6 +58,7 @@
     "dev": "npm run ip_local && GATSBY_ACTIVE_ENV=development gatsby develop -p 1090",
     "build": "GATSBY_ACTIVE_ENV=production gatsby build",
     "pub": "rm -rf ./../public/ps && mv ./public ./../public/ps && cd ./../public && git add . && git commit -m 'ps' && git push",
+    "thumb": "node image-thumbnails ./static/screenshots",
     "#######": "#",
     "# etc #": "#",
     "######!": "#",

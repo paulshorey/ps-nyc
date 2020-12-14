@@ -11,22 +11,30 @@ class OpenSource extends React.Component {
         <article className="full">
           <a name="open_source" id="open_source" className="a_target" />
           <h3>
-            <FA icon={faGithub} /> 2020 - Open-Source projects:
+            <FA icon={faGithub} />
+            &thinsp;&thinsp;2020 - Open-Source projects:
           </h3>
           <div className="description">
             <p className="with_code">
-              <a href="https://github.com/paulshorey/colorful-console-logger" target="_blank" className="code_link">
+              <a
+                href="https://github.com/paulshorey/colorful-console-logger"
+                target="_blank"
+                className="code_link bold"
+              >
                 npm i colorful-console-logger
               </a>{" "}
               &nbsp;Universal console.log replacement. Adds colors, trace, integrates with cloud-logging like LogDNA.
             </p>
             <p className="with_code">
-              <a href="https://github.com/twodashes/universal" target="_blank" className="code_link">
+              <a href="https://github.com/twodashes/universal" target="_blank" className="code_link bold">
                 npm i @twodashes/universal
               </a>{" "}
-              &nbsp;Created a utility JavaScript library like lodash. For data manipulation, filtering, sorting,
-              text-analysis, requests, promises, error handling. Also @twodashes/browser for platform-specific functions
-              like AJAX, URL, resolution, etc.
+              &nbsp;Started a utility JavaScript library like lodash. For data manipulation, filtering, sorting,
+              text-analysis, requests, promises, error handling. Also{" "}
+              <a href="https://github.com/twodashes/browser" target="_blank" className="code_link">
+                @twodashes/browser
+              </a>{" "}
+              for platform-specific functions like AJAX, URL, resolution, etc.
             </p>
             <p>
               <b className="titleFont">
@@ -34,7 +42,7 @@ class OpenSource extends React.Component {
                   Browser extension
                 </a>
               </b>{" "}
-              - to{" "}
+              to{" "}
               <b className="titleFont">
                 close popups, cookie/terms consent banners, floating advertisements, newsletter promotions,&nbsp;
               </b>
@@ -47,10 +55,10 @@ class OpenSource extends React.Component {
                   Research portal
                 </a>
               </b>{" "}
-              - Proof of concept. Interface for technical users to search through mounds of content.{" "}
-              <b className="titleFont">Search using Regular Expressions. </b>Can be easily adapted to other types of
-              content like news, events, and research or legal articles. Took a week to build, including data-mining.
-              Made with React.
+              - Fun React mini app. A job search aggregator.{" "}
+              <b className="titleFont">Search using Regular Expressions. </b> Next iteration would perform RegExp search
+              in ElasticSearch instead of in React. Can be easily adapted to other types of content like news, events,
+              and research or legal articles. Took a week to build, including data-mining.
             </p>
             <p>
               <b className="titleFont">
@@ -58,9 +66,8 @@ class OpenSource extends React.Component {
                   Dev notes
                 </a>
               </b>{" "}
-              - Work in progress, recipes and tips for developers. Few years of JavaScript programming notes. When I
-              come across an interesting issue, I try to document it for myself and others. Currently starting to
-              organize notes and write "how to" articles.
+              - Few years of JavaScript programming notes. When I come across an interesting issue, I try to document it
+              for myself and others. Now starting to organize the notes and convert into "how to" articles.
               {/*Streamline a way to convert markdown files into HTML, to embed a*/}
               {/*knowledgebase into an existing website with your own branding, instead of hosting documentation on a*/}
               {/*separate subdomain.*/}
@@ -74,8 +81,8 @@ class OpenSource extends React.Component {
                   Flexible horizontal carousel
                 </a>
               </b>{" "}
-              - The image carousels you see here. Built from scratch. No dependencies. Supports variable width content,
-              and custom styles.
+              - Image carousels you see here. Built from scratch. No dependencies. Supports variable width content and
+              custom styles.
             </p>
           </div>
           {/*<div className="horizontal_carousel">*/}
@@ -114,9 +121,10 @@ class OpenSource extends React.Component {
           {/*</div>*/}
           <div className="description">
             <p>
-              I love making stuff! Coming from a fine art background, rather than computer-science, I focus on the end
-              product and user experience. Of course I agree that code quality and maintainability is equaly important.
-              Self-taught. Never done learning. Looking forward to collaborating, sharing ideas, facing new challenges.
+              I love making stuff! Coming from a design background, self taught, I enjoy making the end product and best
+              possible user experience. Of course code quality and maintainability are extremely important. I constantly
+              strive to write better code, to learn more. Never done learning. Looking forward to collaborating, sharing
+              ideas, learning from new colleagues, solving new challenges.
               {/*Spent most of 2020 practicing full-stack web development, data science, documentation, and copywriting.*/}
               {/*These projects are works in progress. Currently adding unit tests and more complete documentation.*/}
             </p>
@@ -142,11 +150,15 @@ const ProjectsStyled = styled.div`
       top: -0.095rem;
       text-decoration: none !important;
       font-family: monospace;
-      font-size: 0.95rem;
-      font-weight: bold;
+      font-size: 0.9rem;
       letter-spacing: -0.025rem;
-      border-bottom: solid 2px;
+      border-bottom: solid 1px;
       line-height: 0.5rem;
+      &.bold {
+        font-size: 0.95rem;
+        font-weight: bold;
+        border-bottom: solid 2px;
+      }
     }
     h3 {
       svg {

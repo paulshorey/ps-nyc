@@ -1,3 +1,26 @@
+.lum-lightbox-inner {
+  top: 1.5% !important;
+  bottom: 1.5% !important;
+  padding-bottom: 1.5rem;
+  .lum-img {
+    border-radius: 0.36rem;
+    max-height: calc(100% - 0.5rem);
+  }
+  .lum-lightbox-caption {
+    font-family: sans-serif !important;
+    max-width: 100% !important;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+    line-height: 1.67rem !important;
+    font-size: 1rem !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    background: hsl(219deg, 69%, 49%);
+    height: 1.67rem;
+    white-space: nowrap;
+    display: inline-block;
+    border-radius: 3px;
+  }
+}
+
 .topStyle {
   background: var(--color-attention);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
@@ -19,8 +42,9 @@
   color: var(--color-attention);
   // default styles in case JS does not load:
   white-space: nowrap;
-  height: 9.25rem;
+  height: 9rem;
   overflow: auto;
+  margin-top: 0.25rem;
   .slides > * {
     margin-right: 0.25rem;
   }
@@ -114,36 +138,6 @@ a.code {
 .eapps-form-floating-button-visible,
 .eapps-form-floating-button-position-right.eapps-form-floating-button-visible {
   background-color: hsl(38deg, 95%, 49%) !important;
-}
-
-.content {
-  position: relative;
-  width: 85%;
-  min-width: 600px;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  @media (max-width: 1099px) {
-    width: 90%;
-  }
-  @media (max-width: 699px) {
-    width: calc(100% - 3rem);
-    min-width: calc(100% - 3rem);
-    margin-right: 0;
-    margin-left: 1.5rem;
-  }
-  &.full {
-    width: calc(100% - 3rem);
-    max-width: 1420px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  @media (max-width: 599px) {
-    width: calc(100% - 2rem) !important;
-    min-width: calc(100% - 2rem) !important;
-    margin-right: 0 !important;
-    margin-left: 1rem !important;
-  }
 }
 
 .uui-icon {

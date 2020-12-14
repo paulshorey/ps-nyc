@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
 import { faPhone, faFileDownload, faEnvelope } from "@fortawesome/pro-solid-svg-icons"
 import { faChevronLeft } from "@fortawesome/pro-light-svg-icons"
@@ -42,14 +42,14 @@ class Header extends React.Component {
                 &thinsp;&thinsp;
               </>
             )}
-            <Link to="/">
+            <a href="/">
               <span
                 className="icon"
                 style={{ verticalAlign: "-0.1rem" }}
                 dangerouslySetInnerHTML={{ __html: svg_happyface }}
               />
               <b>Paul Shorey</b>
-            </Link>
+            </a>
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <span>
               <b>Web App </b>+<b> API</b>&thinsp;&thinsp;<b>Developer</b>
