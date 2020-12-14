@@ -42,23 +42,32 @@ class OpenSource extends React.Component {
                   Browser extension
                 </a>
               </b>{" "}
-              to{" "}
               <b className="titleFont">
-                close popups, cookie/terms consent banners, floating advertisements, newsletter promotions,&nbsp;
+                to close popups, cookie/terms consent banners, floating advertisements, newsletter promotions,&nbsp;
               </b>
               etc. Works reliably without breaking the page, unlike others I've tried. Does not trigger news sites'
               ad-blocker blocker. Finally, browse in peace. Try it.
             </p>
             <p>
+              <span className="imagesFloatRight">
+                <a href="/screenshots/jobs/senior-software-engineer.png">
+                  <img src="/screenshots/jobs/_thumb-senior-software-engineer.png" />
+                </a>
+                <a
+                  href="/screenshots/domains-code/npm-run-thumb.png"
+                  data-title="&nbsp;&nbsp; Node script started by `npm run thumb` - makes a small thumbnail copy of all images in specified path (recursively). &nbsp;&nbsp;"
+                >
+                  <img src="/screenshots/domains-code/_thumb-npm-run-thumb.png" />
+                </a>
+              </span>
               <b className="titleFont">
                 <a href="http://jobs.paulshorey.com" target="_blank">
                   Research portal
                 </a>
               </b>{" "}
-              - Fun React mini app. A job search aggregator.{" "}
-              <b className="titleFont">Search using Regular Expressions. </b> Next iteration would perform RegExp search
-              in ElasticSearch instead of in React. Can be easily adapted to other types of content like news, events,
-              and research or legal articles. Took a week to build, including data-mining.
+              - <b className="titleFont">Search using Regular Expressions. </b> Job ad aggregator. Can
+              be adapted to any other type of content like news, events, academic and legal articles. Next iteration
+              would perform RegExp search in ElasticSearch instead of in React.
             </p>
             <p>
               <b className="titleFont">
@@ -81,49 +90,16 @@ class OpenSource extends React.Component {
                   Flexible horizontal carousel
                 </a>
               </b>{" "}
-              - Image carousels you see here. Made because I could not find any script out there which would easily support variable-width content. No dependencies.
+              - Image carousels you see here. Made because I could not find any script out there which would easily
+              support variable-width content. No dependencies.
             </p>
           </div>
-          {/*<div className="horizontal_carousel">*/}
-          {/*  <div className="slides">*/}
-          {/*    <a*/}
-          {/*      href="/screenshots/domains/domains.png"*/}
-          {/*      data-title="https://besta.domains - app to help you find an available domain name"*/}
-          {/*    >*/}
-          {/*      <img src="/screenshots/domains/_thumb-domains.png" />*/}
-          {/*    </a>*/}
-          {/*    <a*/}
-          {/*      href="/screenshots/domains/domain_wordbreak.png"*/}
-          {/*      data-title="Using my own linguistic tools to do word breaking / lemmatization / tokenization"*/}
-          {/*    >*/}
-          {/*      <img src="/screenshots/domains/_thumb-domain_wordbreak.png" />*/}
-          {/*    </a>*/}
-          {/*    <a href="/screenshots/domains/domain_wip.png">*/}
-          {/*      <img src="/screenshots/domains/_thumb-domain_wip.png" />*/}
-          {/*    </a>*/}
-          {/*    <a href="/screenshots/domains/domain_edit.png">*/}
-          {/*      <img src="/screenshots/domains/_thumb-domain_edit.png" />*/}
-          {/*    </a>*/}
-          {/*    <a href="/screenshots/domains/domains_all_edit.png">*/}
-          {/*      <img src="/screenshots/domains/_thumb-domains_all_edit.png" />*/}
-          {/*    </a>*/}
-          {/*    <a href="/screenshots/domains/api_docs.png">*/}
-          {/*      <img src="/screenshots/domains/_thumb-api_docs.png" />*/}
-          {/*    </a>*/}
-          {/*    <a href="/screenshots/domains/word_view.png">*/}
-          {/*      <img src="/screenshots/domains/_thumb-word_view.png" />*/}
-          {/*    </a>*/}
-          {/*    <a href="/screenshots/domains/word_edit.png">*/}
-          {/*      <img src="/screenshots/domains/_thumb-word_edit.png" />*/}
-          {/*    </a>*/}
-          {/*  </div>*/}
-          {/*</div>*/}
           <div className="description" id="past_work">
             <p>
-              I love making stuff! Coming from a design background, self taught, I enjoy making the end product and best
+              I'm always building something! Coming from a design background, self taught, I enjoy making the end product and best
               possible user experience. Of course code quality and maintainability are extremely important. I constantly
-              strive to write better code, to learn more. Never done learning. Looking forward to collaborating, sharing
-              ideas, learning from new colleagues, solving new challenges.
+              strive to write better code, to learn more. Never done learning.
+              {/*Looking forward to collaborating, sharing ideas, learning from new colleagues, solving new challenges.*/}
               {/*Spent most of 2020 practicing full-stack web development, data science, documentation, and copywriting.*/}
               {/*These projects are works in progress. Currently adding unit tests and more complete documentation.*/}
             </p>

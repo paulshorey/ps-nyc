@@ -160,12 +160,6 @@ class Wordio extends React.Component {
                 <img src="/screenshots/domains-code/_thumb-nlp-be-domains_lists.png" />
               </a>
               <a
-                href="/screenshots/domains-code/npm-run-thumb.png"
-                data-title="&nbsp;&nbsp; Node script started by `npm run thumb` - makes a small thumbnail copy of all images in specified path (recursively). &nbsp;&nbsp;"
-              >
-                <img src="/screenshots/domains-code/_thumb-npm-run-thumb.png" />
-              </a>
-              <a
                 href="/screenshots/domains-code/nlp-fe-Dom.png"
                 data-title="&nbsp;&nbsp; Render each domain suggestion result - find status code (available/premium/etc). &nbsp;&nbsp;"
               >

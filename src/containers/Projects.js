@@ -42,7 +42,7 @@ export default class extends React.Component {
             <div className="content full">
               <p className="top_text">
                 👋 I've been coding since 2008. Really enjoy web technologies, creating something from nothing,
-                collaborating with people. Always building something. Let's chat!
+                collaborating with people. Always building something. Let's work together!
                 {/*<b className="nowrap">Now looking for a new full-time gig.&thinsp;</b> Love JavaScript, ES6 modules,*/}
                 {/*UI/UX, and data-driven solutions. Will continue to learn, experiment, and create in my free time.{" "}*/}
               </p>
@@ -58,7 +58,7 @@ export default class extends React.Component {
                 <br />
                 <a
                   onClick={() => {
-                    document.querySelector('#past_work').scrollIntoView({
+                    document.querySelector("#past_work").scrollIntoView({
                       behavior: "smooth",
                       alignTo: "top"
                     })
@@ -70,13 +70,14 @@ export default class extends React.Component {
                 <br />
                 <a
                   onClick={() => {
-                    document.querySelector('#code_samples').scrollIntoView({
+                    document.querySelector("#code_samples").scrollIntoView({
                       behavior: "smooth",
                       alignTo: "top"
                     })
                   }}
                 >
-                  <FA icon={faGithub} style={{marginRight:'2px'}} /> Code samples <FA icon={faArrowDown} className="faArrowDown x70" />
+                  <FA icon={faGithub} style={{ marginRight: "2px" }} /> Code samples{" "}
+                  <FA icon={faArrowDown} className="faArrowDown x70" />
                 </a>
                 <br />
                 <a href="/about"> 🌇 About me </a>
