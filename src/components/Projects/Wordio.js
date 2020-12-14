@@ -183,21 +183,6 @@ class Wordio extends React.Component {
               >
                 <img src="/screenshots/domains-code/_thumb-nlp-fe-inputTld.png" />
               </a>
-              <a href="/screenshots/domains-code/domain_edit.png" data-title="&nbsp;&nbsp;  &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-domain_edit.png" />
-              </a>
-              <a href="/screenshots/domains/domains_all_edit.png" data-title="&nbsp;&nbsp;  &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-domains_all_edit.png" />
-              </a>
-              <a href="/screenshots/domains/api_docs.png" data-title="&nbsp;&nbsp;  &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-api_docs.png" />
-              </a>
-              <a href="/screenshots/domains/word_view.png" data-title="&nbsp;&nbsp;  &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-word_view.png" />
-              </a>
-              <a href="/screenshots/domains/word_edit.png" data-title="&nbsp;&nbsp;  &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-word_edit.png" />
-              </a>
             </div>
           </div>
         </article>
