@@ -22,20 +22,22 @@ const findImageFilesRecursive = function (dirPath = "", arrayOfFiles = []) {
   return arrayOfFiles
 }
 
-/*
- * FOLDER NAME should be specified as FIRST ARGUMENT when running CLI script
- */
-const myArgs = process.argv.slice(2)
-const dir = myArgs[0]
+// FOLDER NAME FROM CLI first argument
+const dir = process.argv.slice(2)[0]
 
+// RUN, then quit process after finished
 ;(async function () {
   try {
-    /*
-     * PROCESS EACH FOLDER in folder, RECURSIVELY
-     */
-    for (let file of findImageFilesRecursive(dir)) {
-      // do not resize - already resized
-      if (file.includes("_thumb-")) continue
+    // PROCESS EACH FOLDER in folder, RECURSIVELY
+    let files = findImageFilesRecursive(dir)
+    // delete old thumbnail
+    for (let file of files) {
+      if (file.includes("_thumb-")) {
+        fs.unlinkSync(file)
+      }
+    }
+    // make new thumbnails
+    for (let file of files) {
       // resize options
       let file_name_start = file.lastIndexOf("/") + 1
       let file_name = file.substr(file_name_start)
@@ -43,15 +45,13 @@ const dir = myArgs[0]
       let file_thumb = file_path + "_thumb-" + file_name
       // resize image
       await sharp(file).resize(null, 272).toFile(file_thumb).catch(console.warn)
-
     }
 
-    /*
-     * ERROR?
-     */
+    // ERROR
   } catch (err) {
     console.error(err)
     process.exit()
   }
   process.exit()
 })()
+

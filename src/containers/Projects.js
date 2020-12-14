@@ -11,6 +11,7 @@ import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
 // import { faEnvelope, faPhone } from "@fortawesome/pro-solid-svg-icons"
 import { LuminousGallery } from "luminous-lightbox"
 import "luminous-lightbox/dist/luminous-basic.css"
+import { faGithub } from "@fortawesome/free-brands-svg-icons"
 // import { Link } from "gatsby"
 
 export default class extends React.Component {
@@ -57,8 +58,9 @@ export default class extends React.Component {
                 <br />
                 <a
                   onClick={() => {
-                    document.querySelector('[name="beyond"]').scrollIntoView({
-                      behavior: "smooth"
+                    document.querySelector('#past_work').scrollIntoView({
+                      behavior: "smooth",
+                      alignTo: "top"
                     })
                   }}
                 >
@@ -68,12 +70,13 @@ export default class extends React.Component {
                 <br />
                 <a
                   onClick={() => {
-                    document.querySelector('[name="wordio"]').scrollIntoView({
-                      behavior: "smooth"
+                    document.querySelector('#code_samples').scrollIntoView({
+                      behavior: "smooth",
+                      alignTo: "top"
                     })
                   }}
                 >
-                  🚀 Code samples <FA icon={faArrowDown} className="faArrowDown x70" />
+                  <FA icon={faGithub} style={{marginRight:'2px'}} /> Code samples <FA icon={faArrowDown} className="faArrowDown x70" />
                 </a>
                 <br />
                 <a href="/about"> 🌇 About me </a>

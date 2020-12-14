@@ -4,23 +4,29 @@
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/image-thumbnails.js" beforeDir="false" afterPath="$PROJECT_DIR$/image-thumbnails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/etc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/OpenSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/OpenSource.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Projects/Wordio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Wordio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/beyondlimits/BeyondLimits.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carousels/AboutUs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carousels/BeyondLimits.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carousels/BeyondLimits.styled.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carousels/ImageDiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/carousels/carousels.styled.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/init.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/aboutme_carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/aboutme_carousel.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/html/projects/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/projects/past.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/screenshots/domains/_thumb-_thumb-word_view.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/files/PaulShorey-SoftwareEngineer.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/files/PaulShorey-SoftwareEngineer.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/static/files/PaulShorey-SoftwareEngineer.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains-code/_thumb-api.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains-code/_thumb-markov-strings-simple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains-code/_thumb-nlp-be-domains_lists.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshots/domains-code/_thumb-nlp-be-domains_lists.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains-code/_thumb-nlp-be-markov-strings.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshots/domains-code/_thumb-nlp-be-markov-strings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains-code/_thumb-nlp-be-rate_domain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains-code/_thumb-npm-run-thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshots/domains-code/_thumb-npm-run-thumb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains-code/api.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains-code/nlp-be-domains_lists.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshots/domains-code/nlp-be-domains_lists.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains-code/nlp-be-markov-strings.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshots/domains-code/nlp-be-markov-strings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains-code/nlp-be-rate_domain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains-code/npm-run-thumb.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshots/domains-code/npm-run-thumb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains/_thumb-domain_wip.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshots/domains/_thumb-domain_wip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains/_thumb-domains.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshots/domains/_thumb-domains.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains/domain_wip.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshots/domains/domain_wip.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/screenshots/domains/domains.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/screenshots/domains/domains.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +110,7 @@
       <workItem from="1606693264128" duration="8906000" />
       <workItem from="1606795462803" duration="58716000" />
       <workItem from="1607283476192" duration="16330000" />
-      <workItem from="1607501818999" duration="17591000" />
+      <workItem from="1607501818999" duration="23752000" />
     </task>
     <servers />
   </component>

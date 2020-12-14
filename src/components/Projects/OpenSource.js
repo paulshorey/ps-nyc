@@ -2,6 +2,7 @@ import React from "react"
 import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import styled from "styled-components"
+import Wordio from "./Wordio"
 // import { Link } from "gatsby"
 
 class OpenSource extends React.Component {
@@ -9,10 +10,9 @@ class OpenSource extends React.Component {
     return (
       <ProjectsStyled>
         <article className="full">
-          <a name="open_source" id="open_source" className="a_target" />
           <h3>
             <FA icon={faGithub} />
-            &thinsp;&thinsp;2020 - Open-Source projects:
+            &thinsp;&thinsp;Open-Source projects:
           </h3>
           <div className="description">
             <p className="with_code">
@@ -81,8 +81,7 @@ class OpenSource extends React.Component {
                   Flexible horizontal carousel
                 </a>
               </b>{" "}
-              - Image carousels you see here. Built from scratch. No dependencies. Supports variable width content and
-              custom styles.
+              - Image carousels you see here. Made because I could not find any script out there which would easily support variable-width content. No dependencies.
             </p>
           </div>
           {/*<div className="horizontal_carousel">*/}
@@ -119,7 +118,7 @@ class OpenSource extends React.Component {
           {/*    </a>*/}
           {/*  </div>*/}
           {/*</div>*/}
-          <div className="description">
+          <div className="description" id="past_work">
             <p>
               I love making stuff! Coming from a design background, self taught, I enjoy making the end product and best
               possible user experience. Of course code quality and maintainability are extremely important. I constantly

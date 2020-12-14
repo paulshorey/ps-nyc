@@ -11,7 +11,7 @@ class Wordio extends React.Component {
           <a name="besta" id="besta" className="a_target" />
           <h3>
             <FA icon={faChartPie} className="x85" />
-            &thinsp;&thinsp;2020 - Micro-SaaS projects:
+            &thinsp;&thinsp;2020 - Micro-SaaS APIs and apps:
           </h3>
           <div className="description">
             <p>
@@ -54,7 +54,6 @@ class Wordio extends React.Component {
             </p>
           </div>
           <div className="description">
-            <a name="wordio" id="wordio" className="a_target" />
             <p>
               <b className="titleFont">
                 <a href="https://wordio.co" target="_blank">
@@ -126,21 +125,21 @@ class Wordio extends React.Component {
               >
                 <img src="/screenshots/domains/_thumb-word_view.png" />
               </a>
-              <a href="/screenshots/domains/word_edit.png" data-title="&nbsp;&nbsp;  &nbsp;&nbsp;">
+              <a href="/screenshots/domains/word_edit.png" data-title="&nbsp;&nbsp; Admin tool: edit the word - parts of speech, sentiment, synonyms, abbreviations, etc. &nbsp;&nbsp;">
                 <img src="/screenshots/domains/_thumb-word_edit.png" />
               </a>
-              <a href="/screenshots/domains/api_docs.png" data-title="&nbsp;&nbsp;  &nbsp;&nbsp;">
+              <a href="/screenshots/domains/api_docs.png" data-title="&nbsp;&nbsp; Learn about endpoints, inputs, outputs, links to subscribe and to test in sandbox. &nbsp;&nbsp;">
                 <img src="/screenshots/domains/_thumb-api_docs.png" />
               </a>
             </div>
           </div>
-          <div className="horizontal_carousel">
+          <div className="horizontal_carousel" id="code_samples">
             <div className="slides">
               <a
-                href="/screenshots/domains-code/api.png"
-                data-title="&nbsp;&nbsp; Node.js Express API - logic organized into small easy to manage ES Modules &nbsp;&nbsp;"
+                href="/screenshots/domains-code/nlp-be-api.png"
+                data-title="&nbsp;&nbsp; Node.js Express API - each endpoint in its own folder - helper code in ES Modules &nbsp;&nbsp;"
               >
-                <img src="/screenshots/domains-code/_thumb-api.png" />
+                <img src="/screenshots/domains-code/_thumb-nlp-be-api.png" />
               </a>
               <a
                 href="/screenshots/domains-code/nlp-be-markov-strings.png"
@@ -149,26 +148,26 @@ class Wordio extends React.Component {
                 <img src="/screenshots/domains-code/_thumb-nlp-be-markov-strings.png" />
               </a>
               <a
-                href="/screenshots/domains-code/nlp-be-rate_domain.png"
-                data-title="&nbsp;&nbsp; MORE SCREENSHOTS AND CAPTIONS COMING SOON &nbsp;&nbsp;"
+                href="/screenshots/domains-code/nlp-be-add_original.png"
+                data-title="&nbsp;&nbsp; Makes a matrix data structure from an array, then finds all possibilities and saves as a flat list &nbsp;&nbsp;"
               >
-                <img src="/screenshots/domains-code/_thumb-nlp-be-rate_domain.png" />
+                <img src="/screenshots/domains-code/_thumb-nlp-be-add_original.png" />
               </a>
               <a
                 href="/screenshots/domains-code/nlp-be-domains_lists.png"
-                data-title="&nbsp;&nbsp; MORE SCREENSHOTS AND CAPTIONS COMING SOON &nbsp;&nbsp;"
+                data-title="&nbsp;&nbsp; Domain suggestions created in a dictionary of collections. Converted to list. Rated. Sorted. &nbsp;&nbsp;"
               >
                 <img src="/screenshots/domains-code/_thumb-nlp-be-domains_lists.png" />
               </a>
               <a
                 href="/screenshots/domains-code/npm-run-thumb.png"
-                data-title="&nbsp;&nbsp; Node script started by command `npm run thumb`, makes a small thumbnail version of all image files in specified path (recursively). &nbsp;&nbsp;"
+                data-title="&nbsp;&nbsp; Node script started by `npm run thumb` - makes a small thumbnail copy of all images in specified path (recursively). &nbsp;&nbsp;"
               >
                 <img src="/screenshots/domains-code/_thumb-npm-run-thumb.png" />
               </a>
               <a
                 href="/screenshots/domains-code/nlp-fe-Dom.png"
-                data-title="&nbsp;&nbsp; Render each domain suggestion result - first find status code (available/premium/etc). &nbsp;&nbsp;"
+                data-title="&nbsp;&nbsp; Render each domain suggestion result - find status code (available/premium/etc). &nbsp;&nbsp;"
               >
                 <img src="/screenshots/domains-code/_thumb-nlp-fe-Dom.png" />
               </a>
