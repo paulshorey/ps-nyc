@@ -96,9 +96,10 @@ class OpenSource extends React.Component {
           </div>
           <div className="description" id="past_work">
             <p>
-              I'm always building something! Coming from a design background, self taught, I enjoy making the end product and best
-              possible user experience. Of course code quality and maintainability are extremely important. I constantly
-              strive to write better code, to learn more. Never done learning.
+              {/*I'm always building something! Coming from a design background, self taught, I enjoy making the end product and best*/}
+              {/*possible user experience. Of course code quality and maintainability are extremely important. I constantly*/}
+              {/*strive to write better code, to learn more. Never done learning.*/}
+
               {/*Looking forward to collaborating, sharing ideas, learning from new colleagues, solving new challenges.*/}
               {/*Spent most of 2020 practicing full-stack web development, data science, documentation, and copywriting.*/}
               {/*These projects are works in progress. Currently adding unit tests and more complete documentation.*/}

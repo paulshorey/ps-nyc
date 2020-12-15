@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
-import { faChartPie } from "@fortawesome/pro-solid-svg-icons"
+// import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
+// import { faChartPie } from "@fortawesome/pro-solid-svg-icons"
 
 class Wordio extends React.Component {
   render() {
@@ -10,8 +10,8 @@ class Wordio extends React.Component {
         <article className="full">
           <a name="besta" id="besta" className="a_target" />
           <h3>
-            <FA icon={faChartPie} className="x85" />
-            &thinsp;&thinsp;2020 - Micro-SaaS APIs and apps:
+            {/*<FA icon={faChartPie} className="x85" /> &thinsp;&thinsp;*/}
+            2020 - Micro-SaaS APIs and apps:
           </h3>
           <div className="description">
             <p>
@@ -125,10 +125,16 @@ class Wordio extends React.Component {
               >
                 <img src="/screenshots/domains/_thumb-word_view.png" />
               </a>
-              <a href="/screenshots/domains/word_edit.png" data-title="&nbsp;&nbsp; Admin tool: edit the word - parts of speech, sentiment, synonyms, abbreviations, etc. &nbsp;&nbsp;">
+              <a
+                href="/screenshots/domains/word_edit.png"
+                data-title="&nbsp;&nbsp; Admin tool: edit the word - parts of speech, sentiment, synonyms, abbreviations, etc. &nbsp;&nbsp;"
+              >
                 <img src="/screenshots/domains/_thumb-word_edit.png" />
               </a>
-              <a href="/screenshots/domains/api_docs.png" data-title="&nbsp;&nbsp; Learn about endpoints, inputs, outputs, links to subscribe and to test in sandbox. &nbsp;&nbsp;">
+              <a
+                href="/screenshots/domains/api_docs.png"
+                data-title="&nbsp;&nbsp; Learn about endpoints, inputs, outputs, links to subscribe and to test in sandbox. &nbsp;&nbsp;"
+              >
                 <img src="/screenshots/domains/_thumb-api_docs.png" />
               </a>
             </div>
