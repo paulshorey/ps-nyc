@@ -49,15 +49,16 @@ export const onPreRenderHTML = ({
       <script src="/js/horizontal_carousel/horizontal_carousel.js"></script>
       <link href="/js/horizontal_carousel/horizontal_carousel.css" rel="stylesheet" type="text/css" />
 
-      <link rel="stylesheet" type="text/css" href="/assets/the_wilderness_downtown/style.css" />
-      <div id="birdsCanvas">
-        <div id="birdsCanvas_bg">
-          {/*
-      I did not make this interactive flying birds background. I appropriated it from a very cool Google Chrome experiment from 2010 called "The Wilderness Downtown", designed/directed by Chris Milk, and developed by some smart guys at Google, for Arcade Fire\'s song "We Used to Wait" and album "The Suburbs".
-      The real thing is much more than just the birds! It's been forgotten after all these years. So, I adopted some of their birds for my own site. See the experiment: (http://www.thewildernessdowntown.com). Read about it: (https://en.wikipedia.org/wiki/The_Wilderness_Downtown).
-    */}
-        </div>
-      </div>
+      {/*  <link rel="stylesheet" type="text/css" href="/assets/the_wilderness_downtown/style.css" />*/}
+      {/*  <div id="birdsCanvas">*/}
+      {/*    <div id="birdsCanvas_bg">*/}
+      {/*      /!**/}
+      {/*  I did not make this interactive flying birds background. I appropriated it from a very cool Google Chrome experiment from 2010 called "The Wilderness Downtown", designed/directed by Chris Milk, and developed by some smart guys at Google, for Arcade Fire\'s song "We Used to Wait" and album "The Suburbs".*/}
+      {/*  The real thing is much more than just the birds! It's been forgotten after all these years. So, I adopted some of their birds for my own site. See the experiment: (http://www.thewildernessdowntown.com). Read about it: (https://en.wikipedia.org/wiki/The_Wilderness_Downtown).*/}
+      {/**!/*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*  <script src="/assets/the_wilderness_downtown/canvas.js"></script>*/}
     </>
   )
   // save <head>

@@ -30,32 +30,17 @@
   }
 }
 
-.topStyle {
-  background: var(--color-attention);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
-  a,
-  .link {
-    color: white !important;
-  }
-}
-.navStyle {
-  background: url(../gfx/background_paper.jpg) center top repeat-x;
-  overflow: auto;
-  padding: 1rem 0 1.5rem;
-  background: hsl(48deg, 25%, 90%);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-}
-
 .horizontal_carousel {
   // define color for prev/next arrows:
   color: var(--color-attention);
   // default styles in case JS does not load:
   white-space: nowrap;
-  height: 9rem;
+  height: 10rem;
   overflow: auto;
   margin-top: 0.25rem;
   .slides > * {
     margin-right: 0.25rem;
+    height: 10rem;
   }
   img {
     height: 9rem;
@@ -74,8 +59,8 @@ div {
 
 body {
   font-family: Georgia, serif; //"bodoni 72",
-  background: hsl(48deg, 25%, 98%);
   color: hsl(2deg, 2%, 20%);
+  background: linear-gradient(to bottom, hsl(50deg, 50%, 93%) 0px, hsl(50deg, 50%, 97.5%) 250px, white 750px);
 }
 
 .lum-close-button {
@@ -185,12 +170,12 @@ p,
   margin-bottom: 0.85rem;
   line-height: 1.6rem;
   font-size: 1.1rem;
-  color: hsl(20deg, 10%, 20%);
+  color: #333;
 }
 
 a,
 .link {
-  color: hsl(35, 95%, 47.5%);
+  color: hsl(36deg, 97%, 48%);
   //text-shadow: 0 0 5px white;
   text-decoration: underline;
 }

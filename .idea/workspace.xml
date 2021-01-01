@@ -3,9 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/OpenSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/OpenSource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Projects/Wordio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/Wordio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/files/PaulShorey-SoftwareEngineer.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/static/files/PaulShorey-SoftwareEngineer.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/apify/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/apify/jobs-indeed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/apify/jobs-stackoverflow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/etc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/scss/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/About.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Projects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/the_wilderness_downtown/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/the_wilderness_downtown/canvas.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +60,19 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/html/projects" />
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/src/components/Jobs" />
+      <recent name="$PROJECT_DIR$/src/assets/json" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/sami" />
       <recent name="$PROJECT_DIR$/src/assets/lib" />
       <recent name="$PROJECT_DIR$/src/containers/Jobs" />
       <recent name="$PROJECT_DIR$/src/components/Jobs" />
       <recent name="$PROJECT_DIR$/src/components/carousels" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/html/projects" />
-      <recent name="$PROJECT_DIR$/static/js" />
-      <recent name="$PROJECT_DIR$/src/components/Jobs" />
-      <recent name="$PROJECT_DIR$/src/assets/json" />
-      <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -89,7 +106,11 @@
       <workItem from="1606693264128" duration="8906000" />
       <workItem from="1606795462803" duration="58716000" />
       <workItem from="1607283476192" duration="16330000" />
-      <workItem from="1607501818999" duration="28136000" />
+      <workItem from="1607501818999" duration="29071000" />
+      <workItem from="1608416860872" duration="245000" />
+      <workItem from="1608576286337" duration="119000" />
+      <workItem from="1608655832792" duration="129000" />
+      <workItem from="1609444621111" duration="4628000" />
     </task>
     <servers />
   </component>
@@ -116,9 +137,10 @@
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602278440095" />
-    <state x="687" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606856042848">
+    <state x="679" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609466282282">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="679" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/-561.-1057.2560.1057@0.23.1440.877" timestamp="1609466282282" />
     <state x="670" y="-911" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602443361466" />
     <state x="687" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1606856042848" />
     <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607320623226">
@@ -138,9 +160,10 @@
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606346372698" />
-    <state x="-436" y="-828" width="1193" height="816" key="search.everywhere.popup" timestamp="1607221233166">
-      <screen x="-1120" y="-1057" width="2560" height="1057" />
+    <state x="385" y="213" width="672" height="678" key="search.everywhere.popup" timestamp="1609464827010">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="385" y="213" width="672" height="678" key="search.everywhere.popup/0.23.1440.877/-561.-1057.2560.1057@0.23.1440.877" timestamp="1609464827010" />
     <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606457684747" />
     <state x="-436" y="-828" width="1193" height="816" key="search.everywhere.popup/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607221233166" />
     <state x="385" y="213" width="671" height="677" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1606854291151" />

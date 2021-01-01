@@ -1,5 +1,4 @@
 import React from "react"
-// import { Link } from "gatsby"
 import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
 import { faPhone, faFileDownload, faEnvelope } from "@fortawesome/pro-solid-svg-icons"
 import { faChevronLeft } from "@fortawesome/pro-light-svg-icons"
@@ -33,7 +32,7 @@ class Header extends React.Component {
   render() {
     let goback = typeof window === "object" && window.location.pathname !== "/"
     return (
-      <HeaderStyled className="content full">
+      <HeaderStyled className="">
         <div className="h bit_wider">
           <div className={"h-left" + (goback ? " go-back" : "")}>
             {goback && (

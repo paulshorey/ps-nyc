@@ -50,7 +50,7 @@ section {
       max-width: 1080px;
       margin: 0 0 1vh;
       .playpause {
-        background-image: url(../gfx/play.png);
+        background-image: url(../assets/gfx/play.png);
         background-repeat: no-repeat;
         background-position: center;
         cursor: pointer;
@@ -77,11 +77,11 @@ section {
         margin: 0 -2.5rem 0 -3rem;
       }
       img {
-        width:100%;
+        width: 100%;
       }
     }
     .playbutton {
-      background-image: url(../gfx/play.svg);
+      background-image: url(../assets/gfx/play.svg);
       background-repeat: no-repeat;
       background-position: center;
       cursor: pointer;
