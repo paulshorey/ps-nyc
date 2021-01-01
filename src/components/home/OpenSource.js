@@ -15,14 +15,14 @@ class OpenSource extends React.Component {
             &thinsp;&thinsp;Open-Source projects:
           </h3>
           <div className="description">
-          {/*<div className="horizontal_carousel">*/}
-          {/*  <div className="slides">*/}
-          {/*    <a*/}
-          {/*      href="/screenshots/domains/domains.png"*/}
-          {/*      data-title="&nbsp;&nbsp; https://besta.domains - app to help you find available domain names &nbsp;&nbsp;"*/}
-          {/*    >*/}
-          {/*      <img src="/screenshots/domains/_thumb-domains.png" />*/}
-          {/*    </a>*/}
+            {/*<div className="horizontal_carousel">*/}
+            {/*  <div className="slides">*/}
+            {/*    <a*/}
+            {/*      href="/screenshots/domains/domains.png"*/}
+            {/*      data-title="&nbsp;&nbsp; https://besta.domains - app to help you find available domain names &nbsp;&nbsp;"*/}
+            {/*    >*/}
+            {/*      <img src="/screenshots/domains/_thumb-domains.png" />*/}
+            {/*    </a>*/}
             <p className="with_code">
               <a
                 href="https://github.com/paulshorey/colorful-console-logger"
@@ -73,9 +73,9 @@ class OpenSource extends React.Component {
                   Research portal
                 </a>
               </b>{" "}
-              - <b className="titleFont">Search using Regular Expressions. </b> Job ad aggregator. Can
-              be adapted to any other type of content like news, events, academic and legal articles. Next iteration
-              would perform RegExp search in ElasticSearch instead of in React.
+              - <b className="titleFont">Search using Regular Expressions. </b> Job ad aggregator. Can be adapted to any
+              other type of content like news, events, academic and legal articles. Next iteration would perform RegExp
+              search in ElasticSearch instead of in React.
             </p>
             <p>
               <b className="titleFont">
@@ -84,7 +84,8 @@ class OpenSource extends React.Component {
                 </a>
               </b>{" "}
               - Few years of JavaScript programming notes. When I come across an interesting issue, I try to document it
-              for myself and others. Now starting to organize the notes and convert into "how to" articles.
+              for myself and others.
+              {/*Now starting to organize the notes and convert into "how to" articles.*/}
               {/*Streamline a way to convert markdown files into HTML, to embed a*/}
               {/*knowledgebase into an existing website with your own branding, instead of hosting documentation on a*/}
               {/*separate subdomain.*/}
@@ -99,7 +100,8 @@ class OpenSource extends React.Component {
                 </a>
               </b>{" "}
               - Image carousels you see here. Made because I could not find any script out there which would easily
-              support variable-width content. No dependencies.
+              support variable-width content. No dependencies. Very quickly put together, but works well on this site at
+              least.
             </p>
           </div>
           <div className="description" id="past_work">

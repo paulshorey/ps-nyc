@@ -80,11 +80,10 @@ class Wordio extends React.Component {
               {/*  below*/}
               {/*</span>*/}
               {/*, to help perform data manipulation in JavaScript.*/}
-              {/*APIs are currently private.*/}
-              {/*Demo:{" "}*/}
-              {/*<a href="https://wordio.co" target="_blank">*/}
-              {/*  wordio.co*/}
-              {/*</a>*/}
+              {/*APIs are currently private.*/} Demo:{" "}
+              <a href="https://wordio.co" target="_blank">
+                wordio.co
+              </a>
             </p>
           </div>
           <div className="horizontal_carousel lightbox">
