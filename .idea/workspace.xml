@@ -3,26 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/apify/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/apify/jobs-indeed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/apify/jobs-stackoverflow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/etc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/About.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Blog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Projects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/OpenSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/OpenSource.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/Wordio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Wordio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/aboutme_carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/home/aboutme_carousel.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/projects/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/home/past.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/the_wilderness_downtown/canvas.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/assets/the_wilderness_downtown/canvas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/etc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/responsive.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +98,7 @@
       <workItem from="1608416860872" duration="245000" />
       <workItem from="1608576286337" duration="119000" />
       <workItem from="1608655832792" duration="129000" />
-      <workItem from="1609444621111" duration="4628000" />
+      <workItem from="1609444621111" duration="5995000" />
     </task>
     <servers />
   </component>
@@ -149,9 +137,10 @@
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
     <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607320623226" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="-1120" y="-1057" width="2560" height="1057" key="find.popup" timestamp="1607379549928">
-      <screen x="-1120" y="-1057" width="2560" height="1057" />
+    <state x="0" y="23" width="1440" height="877" key="find.popup" timestamp="1609475557247">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877/-1120.-1057.2560.1057@0.23.1440.877" timestamp="1609475557247" />
     <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606451289948" />
     <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />
     <state x="-1120" y="-1057" width="2560" height="1057" key="find.popup/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607379549928" />

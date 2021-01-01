@@ -11,7 +11,7 @@ class Wordio extends React.Component {
           <a name="besta" id="besta" className="a_target" />
           <h3>
             {/*<FA icon={faChartPie} className="x85" /> &thinsp;&thinsp;*/}
-            2020 - Micro-SaaS APIs and apps:
+            2020 - Micro-SaaS APIs and Web Apps:
           </h3>
           <div className="description">
             <p>

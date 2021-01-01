@@ -51,7 +51,10 @@ class Header extends React.Component {
             </a>
             &nbsp;&nbsp;|&nbsp;&nbsp;
             <span>
-              <b>Web App </b>+<b> API</b>&thinsp;&thinsp;<b>Developer</b>
+              <b>
+                <span className="hide-small">Web </span>App{" "}
+              </b>
+              +<b> API</b>&thinsp;&thinsp;<b>Developer</b>
               {/*<span className="hide-small"> &amp; UI Designer</span>*/}
               {/*<span className="show-large">, &thinsp;UI designer</span>*/}
             </span>

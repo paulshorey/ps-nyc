@@ -209,6 +209,9 @@ h2 {
 h3 {
   line-height: 1.5rem;
   font-size: 1.5rem;
+  @media (max-width: 800px) {
+    font-size: 1.33rem;
+  }
   margin: 0;
   padding: 0;
   transform: scaleX(0.9);
