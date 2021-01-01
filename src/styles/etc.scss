@@ -5,6 +5,7 @@
   .lum-img {
     border-radius: 0.36rem;
     max-height: calc(100% - 0.5rem);
+    max-width: 100% !important;
   }
   .lum-lightbox-caption {
     font-family: sans-serif !important;
