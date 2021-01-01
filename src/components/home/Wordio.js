@@ -87,7 +87,7 @@ class Wordio extends React.Component {
               {/*</a>*/}
             </p>
           </div>
-          <div className="horizontal_carousel">
+          <div className="horizontal_carousel lightbox">
             <div className="slides">
               <a
                 href="/screenshots/domains/domains.png"
@@ -139,7 +139,7 @@ class Wordio extends React.Component {
               </a>
             </div>
           </div>
-          <div className="horizontal_carousel" id="code_samples">
+          <div className="horizontal_carousel lightbox" id="code_samples">
             <div className="slides">
               <a
                 href="/screenshots/domains-code/nlp-be-api.png"

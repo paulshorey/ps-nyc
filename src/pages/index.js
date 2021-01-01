@@ -29,7 +29,7 @@ export default class extends React.Component {
         return ""
       }
     }
-    new LuminousGallery(document.querySelectorAll(".horizontal_carousel a"), {}, options)
+    new LuminousGallery(document.querySelectorAll(".lightbox a"), {}, options)
   }
   render() {
     return (

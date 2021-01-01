@@ -2,7 +2,7 @@ import React from "react"
 import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import styled from "styled-components"
-import Wordio from "./Wordio"
+// import Wordio from "./Wordio"
 // import { Link } from "gatsby"
 
 class OpenSource extends React.Component {
@@ -15,6 +15,14 @@ class OpenSource extends React.Component {
             &thinsp;&thinsp;Open-Source projects:
           </h3>
           <div className="description">
+          {/*<div className="horizontal_carousel">*/}
+          {/*  <div className="slides">*/}
+          {/*    <a*/}
+          {/*      href="/screenshots/domains/domains.png"*/}
+          {/*      data-title="&nbsp;&nbsp; https://besta.domains - app to help you find available domain names &nbsp;&nbsp;"*/}
+          {/*    >*/}
+          {/*      <img src="/screenshots/domains/_thumb-domains.png" />*/}
+          {/*    </a>*/}
             <p className="with_code">
               <a
                 href="https://github.com/paulshorey/colorful-console-logger"
@@ -49,7 +57,7 @@ class OpenSource extends React.Component {
               ad-blocker blocker. Finally, browse in peace. Try it.
             </p>
             <p>
-              <span className="imagesFloatRight">
+              <span className="imagesFloatRight lightbox">
                 <a href="/screenshots/jobs/senior-software-engineer.png">
                   <img src="/screenshots/jobs/_thumb-senior-software-engineer.png" />
                 </a>
