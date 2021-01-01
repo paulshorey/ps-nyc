@@ -34,7 +34,7 @@ export default class extends React.Component {
   render() {
     return (
       <ProjectsStyled>
-        <div className="navStyle">
+        <div className="featuredCard">
           <Header />
           <div className="content full">
             <p className="top_text">

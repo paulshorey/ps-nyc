@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/OpenSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/OpenSource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Wordio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Wordio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/about/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/about/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/home/aboutme_carousel.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/home/aboutme_carousel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/home/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/home/past.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/etc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +93,7 @@
       <workItem from="1608416860872" duration="245000" />
       <workItem from="1608576286337" duration="119000" />
       <workItem from="1608655832792" duration="129000" />
-      <workItem from="1609444621111" duration="7891000" />
+      <workItem from="1609444621111" duration="8842000" />
     </task>
     <servers />
   </component>
@@ -136,14 +132,15 @@
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
     <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607320623226" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="0" y="23" width="1440" height="877" key="find.popup" timestamp="1609479419462">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="716" y="-1057" width="1920" height="1057" key="find.popup" timestamp="1609526129421">
+      <screen x="716" y="-1057" width="1920" height="1057" />
     </state>
     <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877/-1120.-1057.2560.1057@0.23.1440.877" timestamp="1609479419462" />
     <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606451289948" />
     <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />
     <state x="-1120" y="-1057" width="2560" height="1057" key="find.popup/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607379549928" />
     <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1606803146379" />
+    <state x="716" y="-1057" width="1920" height="1057" key="find.popup/716.-1057.1920.1057/0.23.1440.877/-1844.-1057.2560.1057@716.-1057.1920.1057" timestamp="1609526129421" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1606346372698">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>

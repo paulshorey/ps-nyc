@@ -36,15 +36,15 @@
   color: var(--color-attention);
   // default styles in case JS does not load:
   white-space: nowrap;
-  height: 10rem;
+  height: 10rem !important;
   overflow: auto;
   margin-top: 0.25rem;
   .slides > * {
     margin-right: 0.25rem;
-    height: 10rem;
+    height: 10rem !important;
   }
   img {
-    height: 9rem;
+    height: 10rem !important;
   }
 }
 
