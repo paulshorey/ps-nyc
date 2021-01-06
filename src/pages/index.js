@@ -45,7 +45,11 @@ export default class extends React.Component {
             </p>
           </div>
 
-          <div className="content full flex" style={{ maxHeight: "10rem" }}>
+          <div
+            className="content full flex"
+            dangerouslySetInnerHTML={{ __html: carousel_aboutme }}
+            style={{ overflow: "auto" }}
+          >
             {/*<div className="titleFont simple_nav">*/}
             {/*  /!*<a href=""> 📓 Writing (coming soon)</a> <br />*!/*/}
             {/*  <a href="https://notes.paulshorey.com" target="_blank">*/}
@@ -79,7 +83,7 @@ export default class extends React.Component {
             {/*  <br />*/}
             {/*  <a href="/about"> 🌇 About me </a>*/}
             {/*</div>*/}
-            <div dangerouslySetInnerHTML={{ __html: carousel_aboutme }} style={{ overflow: "auto" }} />
+            {/*<div dangerouslySetInnerHTML={{ __html: carousel_aboutme }} style={{ overflow: "auto" }} />*/}
           </div>
         </div>
 

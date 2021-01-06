@@ -38,15 +38,11 @@
   white-space: nowrap;
   overflow: auto;
   margin-top: 0.25rem;
-  .slides {
-    height: 10rem !important;
-  }
   .slides > * {
     margin-right: 0.25rem;
-    height: 10rem !important;
   }
   img {
-    height: 10rem !important;
+    height: 12rem;
   }
 }
 

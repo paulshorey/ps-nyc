@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/etc.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/sami" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -41,19 +44,19 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/styles" />
+      <recent name="$PROJECT_DIR$/static/sami" />
+      <recent name="$PROJECT_DIR$/src/assets/lib" />
+      <recent name="$PROJECT_DIR$/src/containers/Jobs" />
+      <recent name="$PROJECT_DIR$/src/components/Jobs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/html/projects" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/src/components/Jobs" />
       <recent name="$PROJECT_DIR$/src/assets/json" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/sami" />
-      <recent name="$PROJECT_DIR$/src/assets/lib" />
-      <recent name="$PROJECT_DIR$/src/containers/Jobs" />
-      <recent name="$PROJECT_DIR$/src/components/Jobs" />
-      <recent name="$PROJECT_DIR$/src/components/carousels" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -92,7 +95,16 @@
       <workItem from="1608576286337" duration="119000" />
       <workItem from="1608655832792" duration="129000" />
       <workItem from="1609444621111" duration="10231000" />
-      <workItem from="1577836883726" duration="746000" />
+      <workItem from="1577836883726" duration="1403000" />
+      <workItem from="1609642331030" duration="812000" />
+      <workItem from="1609671028897" duration="16000" />
+      <workItem from="1609711392519" duration="651000" />
+      <workItem from="1609712291517" duration="370000" />
+      <workItem from="1609722746590" duration="597000" />
+      <workItem from="1609792494679" duration="619000" />
+      <workItem from="1609822484815" duration="176000" />
+      <workItem from="1609891346086" duration="13000" />
+      <workItem from="1609913943624" duration="558000" />
     </task>
     <servers />
   </component>
@@ -131,9 +143,10 @@
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
     <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607320623226" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="716" y="-1057" width="1920" height="1057" key="find.popup" timestamp="1609526129421">
-      <screen x="716" y="-1057" width="1920" height="1057" />
+    <state x="0" y="23" width="1280" height="777" key="find.popup" timestamp="1609914746773">
+      <screen x="0" y="23" width="1280" height="777" />
     </state>
+    <state x="0" y="23" width="1280" height="777" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1609914746773" />
     <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877/-1120.-1057.2560.1057@0.23.1440.877" timestamp="1609479419462" />
     <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606451289948" />
     <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />

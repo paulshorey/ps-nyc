@@ -3,9 +3,9 @@
 // import "typeface-merriweather"
 import "typeface-quicksand"
 
-import "/users/Admin/srv/nlp-fe/src/style/variables.scss"
-import "/users/Admin/srv/nlp-fe/src/style/reset.scss"
-import "/users/Admin/srv/nlp-fe/src/style/classes.scss"
+import "src/styles/variables.scss"
+import "src/styles/reset.scss"
+import "src/styles/classes.scss"
 
 import "src/styles/etc.scss"
 import "src/styles/header.scss"
