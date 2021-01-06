@@ -12,6 +12,8 @@ import "src/styles/header.scss"
 import "src/styles/section.scss"
 import "src/styles/responsive.scss"
 
+import "horizontal_carousel/css/default.css"
+
 // import "src/assets/fonts/taviraj.css"
 // import "src/assets/fonts/spectral.css"
 // import "src/assets/fonts/garamond.css"

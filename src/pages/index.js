@@ -10,6 +10,7 @@ import projects_past from "src/html/home/past.html"
 import { LuminousGallery } from "luminous-lightbox"
 import "luminous-lightbox/dist/luminous-basic.css"
 import Header from "../components/Header"
+import HorizontalCarousel from "horizontal_carousel/esm"
 
 export default class extends React.Component {
   constructor(props) {
@@ -30,6 +31,22 @@ export default class extends React.Component {
       }
     }
     new LuminousGallery(document.querySelectorAll(".lightbox a"), {}, options)
+    /*
+     * Carousels
+     */
+    this.crefs = []
+    let els = document.querySelectorAll(".horizontal_carousel")
+    if (els) {
+      for (let el of els) {
+        this.crefs.push(new HorizontalCarousel(el))
+      }
+    }
+  }
+  componentWillUnmount() {
+    for (let ref of this.crefs) {
+      if (!ref || !ref.end) continue
+      ref.end()
+    }
   }
   render() {
     return (

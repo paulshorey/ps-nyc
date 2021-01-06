@@ -44,6 +44,13 @@ class OpenSource extends React.Component {
               </a>{" "}
               for platform-specific functions like AJAX, URL, resolution, etc.
             </p>
+            <p className="with_code">
+              <a href="https://github.com/paulshorey/horizontal_carousel" target="_blank" className="code_link bold">
+                npm i horizontal_carousel
+              </a>{" "}
+              - Image carousels you see here. Made because I could not find any script out there which would easily
+              support variable-width content. No dependencies. Import as a React/app module or from CDN for website.
+            </p>
             <p>
               <b className="titleFont">
                 <a href="https://github.com/paulshorey/FlySwatterTech" target="_blank">
@@ -93,16 +100,6 @@ class OpenSource extends React.Component {
               {/*GitBook) as a website CMS, to publish support documentation or knowldgebase on "site.com/docs" instead of*/}
               {/*"docs.site.com", for improved SEO.*/}
             </p>
-            <p className="">
-              <b className="titleFont">
-                <a href="https://github.com/paulshorey/ps/tree/master/static/js/horizontal_carousel" target="_blank">
-                  Flexible horizontal carousel
-                </a>
-              </b>{" "}
-              - Image carousels you see here. Made because I could not find any script out there which would easily
-              support variable-width content. No dependencies. Very quickly put together, but works well on this site at
-              least.
-            </p>
           </div>
           <div className="description" id="past_work">
             <p>
@@ -141,7 +138,7 @@ const ProjectsStyled = styled.div`
       border-bottom: solid 1px;
       line-height: 0.5rem;
       &.bold {
-        font-size: 0.95rem;
+        font-size: 1rem;
         font-weight: bold;
         border-bottom: solid 2px;
       }

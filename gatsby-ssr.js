@@ -46,8 +46,8 @@ export const onPreRenderHTML = ({
       <script src="/assets/js/jquery.js"></script>
       <script src="/assets/js/jquery.cycle.js"></script>
 
-      <script src="/js/horizontal_carousel/horizontal_carousel.js"></script>
-      <link href="/js/horizontal_carousel/horizontal_carousel.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.jsdelivr.net/npm/horizontal_carousel@latest/window/index.js"></script>
+      <link href="https://cdn.jsdelivr.net/npm/horizontal_carousel@latest/css/default.css" rel="stylesheet" type="text/css" />
 
       {/*  <link rel="stylesheet" type="text/css" href="/assets/the_wilderness_downtown/style.css" />*/}
       {/*  <div id="birdsCanvas">*/}
