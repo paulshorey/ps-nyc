@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/etc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/section.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +102,7 @@
       <workItem from="1609792494679" duration="619000" />
       <workItem from="1609822484815" duration="176000" />
       <workItem from="1609891346086" duration="13000" />
-      <workItem from="1609913943624" duration="558000" />
+      <workItem from="1609913943624" duration="686000" />
     </task>
     <servers />
   </component>
