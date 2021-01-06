@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/etc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/header.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,7 @@
       <workItem from="1609792494679" duration="619000" />
       <workItem from="1609822484815" duration="176000" />
       <workItem from="1609891346086" duration="13000" />
-      <workItem from="1609913943624" duration="686000" />
+      <workItem from="1609913943624" duration="828000" />
     </task>
     <servers />
   </component>
@@ -141,8 +139,8 @@
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
     <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607320623226" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="0" y="23" width="1280" height="777" key="find.popup" timestamp="1609914746773">
-      <screen x="0" y="23" width="1280" height="777" />
+    <state x="0" y="23" width="1680" height="1027" key="find.popup" timestamp="1609915320941">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="0" y="23" width="1280" height="777" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1609914746773" />
     <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877/-1120.-1057.2560.1057@0.23.1440.877" timestamp="1609479419462" />
@@ -150,6 +148,7 @@
     <state x="422" y="218" width="596" height="486" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603123943388" />
     <state x="-1120" y="-1057" width="2560" height="1057" key="find.popup/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607379549928" />
     <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1606803146379" />
+    <state x="0" y="23" width="1680" height="1027" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1609915320941" />
     <state x="716" y="-1057" width="1920" height="1057" key="find.popup/716.-1057.1920.1057/0.23.1440.877/-1844.-1057.2560.1057@716.-1057.1920.1057" timestamp="1609526129421" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1606346372698">
       <screen x="-567" y="-1057" width="2560" height="1057" />
