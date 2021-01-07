@@ -10,7 +10,7 @@ import projects_past from "src/html/home/past.html"
 import { LuminousGallery } from "luminous-lightbox"
 import "luminous-lightbox/dist/luminous-basic.css"
 import Header from "../components/Header"
-import HorizontalCarousel from "horizontal_carousel/esm"
+import HorizontalCarousel from "horizontal_carousel"
 
 export default class extends React.Component {
   constructor(props) {
@@ -22,6 +22,9 @@ export default class extends React.Component {
     }
   }
   componentDidMount() {
+    /*
+     * Popup lightbox
+     */
     const options = {
       caption: function (el) {
         if (el && el.dataset && el.dataset.title) {
@@ -32,18 +35,21 @@ export default class extends React.Component {
     }
     new LuminousGallery(document.querySelectorAll(".lightbox a"), {}, options)
     /*
-     * Carousels
+     * Mount carousels
      */
-    this.crefs = []
-    let els = document.querySelectorAll(".horizontal_carousel")
+    this.carousels = []
+    let els = document.querySelectorAll(".horizontal_carousel") // <-- lazy method! Can also use array of React refs
     if (els) {
       for (let el of els) {
-        this.crefs.push(new HorizontalCarousel(el))
+        this.carousels.push(new HorizontalCarousel(el))
       }
     }
   }
   componentWillUnmount() {
-    for (let ref of this.crefs) {
+    /*
+     * Unmount carousels
+     */
+    for (let ref of this.carousels) {
       if (!ref || !ref.end) continue
       ref.end()
     }
@@ -55,18 +61,12 @@ export default class extends React.Component {
           <Header />
           <div className="content full">
             <p className="top_text">
-              👋&thinsp;&thinsp;I've been coding since 2008. Really enjoy web technologies, creating something from
-              nothing, collaborating with people. Always building something. Let's work together!
-              {/*<b className="nowrap">Now looking for a new full-time gig.&thinsp;</b> Love JavaScript, ES6 modules,*/}
-              {/*UI/UX, and data-driven solutions. Will continue to learn, experiment, and create in my free time.{" "}*/}
+              👋&thinsp;&thinsp;I've been coding since 2008. Really enjoy web technologies, creating something from nothing, collaborating with people. Always building something. Let's work
+              together!
             </p>
           </div>
 
-          <div
-            className="content full flex"
-            dangerouslySetInnerHTML={{ __html: carousel_aboutme }}
-            style={{ overflow: "auto" }}
-          >
+          <div className="content full flex" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} style={{ overflow: "auto" }}>
             {/*<div className="titleFont simple_nav">*/}
             {/*  /!*<a href=""> 📓 Writing (coming soon)</a> <br />*!/*/}
             {/*  <a href="https://notes.paulshorey.com" target="_blank">*/}

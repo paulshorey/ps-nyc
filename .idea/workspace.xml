@@ -3,17 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/OpenSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/OpenSource.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/etc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/etc.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/horizontal_carousel/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/horizontal_carousel/horizontal_carousel.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +41,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="/usr/local/bin/node" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -112,7 +106,7 @@
       <workItem from="1609822484815" duration="176000" />
       <workItem from="1609891346086" duration="13000" />
       <workItem from="1609913943624" duration="3633000" />
-      <workItem from="1609961978846" duration="2402000" />
+      <workItem from="1609961978846" duration="8908000" />
     </task>
     <servers />
   </component>
@@ -130,11 +124,12 @@
     <state x="222" y="-758" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602302101912" />
     <state x="444" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-567.-1057.2560.1057@0.23.1440.877" timestamp="1603140949359" />
     <state x="-331" y="-758" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/1440.-925.2048.841/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607495662675" />
-    <state x="319" y="64" key="SettingsEditor" timestamp="1606803033629">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="744" y="-1057" width="1920" height="1057" key="SettingsEditor" timestamp="1609979708676">
+      <screen x="744" y="-1057" width="1920" height="1057" />
     </state>
     <state x="596" y="-890" key="SettingsEditor/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606423628359" />
     <state x="319" y="64" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1606803033629" />
+    <state x="744" y="-1057" width="1920" height="1057" key="SettingsEditor/744.-1057.1920.1057/-1176.-1057.1920.1057/0.23.1440.877@744.-1057.1920.1057" timestamp="1609979708676" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1602278440095">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>
@@ -151,8 +146,8 @@
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1602437871381" />
     <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607320623226" />
     <state x="857" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1920.1177/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1601670648344" />
-    <state x="0" y="23" width="1680" height="1027" key="find.popup" timestamp="1609915320941">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="744" y="-1057" width="1920" height="1057" key="find.popup" timestamp="1609981256569">
+      <screen x="744" y="-1057" width="1920" height="1057" />
     </state>
     <state x="0" y="23" width="1280" height="777" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1609914746773" />
     <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877/-1120.-1057.2560.1057@0.23.1440.877" timestamp="1609479419462" />
@@ -162,6 +157,7 @@
     <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1606803146379" />
     <state x="0" y="23" width="1680" height="1027" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1609915320941" />
     <state x="716" y="-1057" width="1920" height="1057" key="find.popup/716.-1057.1920.1057/0.23.1440.877/-1844.-1057.2560.1057@716.-1057.1920.1057" timestamp="1609526129421" />
+    <state x="744" y="-1057" width="1920" height="1057" key="find.popup/744.-1057.1920.1057/-1176.-1057.1920.1057/0.23.1440.877@744.-1057.1920.1057" timestamp="1609981256569" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1606346372698">
       <screen x="-567" y="-1057" width="2560" height="1057" />
     </state>

@@ -1,7 +1,7 @@
 import React from "react"
 import about_media from "src/html/about/about.html"
 import Header from "../components/Header"
-import HorizontalCarousel from "horizontal_carousel/esm"
+import HorizontalCarousel from "horizontal_carousel"
 
 export default class extends React.Component {
   componentDidMount() {
