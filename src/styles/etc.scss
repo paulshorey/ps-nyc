@@ -17,16 +17,26 @@
     background: hsl(219deg, 69%, 49%);
     height: 1.67rem;
     white-space: nowrap;
-    display: inline-block;
+    display: inline-block;npm 
     border-radius: 3px;
   }
 }
-.lum-previous-button:after,
-.lum-next-button:after,
-.lum-gallery-button:after,
+.lum-next-button:after {
+  transform: translateY(-50%) rotate(45deg);
+  border-right: 5px solid hsl(0deg 0% 99%);
+  box-shadow: 2px -0.5px hsl(0deg 0% 45%);
+  right: 15%;
+  border-radius: 0 3px 0 0;
+}
 .lum-previous-button:after {
-  border-radius: 0 !important;
-  border-color: #2763d3 !important;
+  transform: translateY(-50%) rotate(-45deg);
+  border-left: 4px solid hsl(0deg 0% 99%);
+  box-shadow: -2px 0.5px hsl(0deg 0% 45%);
+  left: 15%;
+  border-radius: 3px 0 0 0;
+}
+.lum-gallery-button:after {
+  border-top: 5px solid hsl(0deg 0% 99%);
 }
 
 .imagesFloatRight {
