@@ -12,7 +12,7 @@ class OpenSource extends React.Component {
         <article className="full">
           <h3>
             <FA icon={faGithub} />
-            &thinsp;&thinsp;Open-Source projects:
+            &thinsp;&thinsp;Open-Source + code samples:
           </h3>
           <div className="description">
             {/*<div className="horizontal_carousel">*/}
@@ -24,11 +24,7 @@ class OpenSource extends React.Component {
             {/*      <img src="/screenshots/domains/_thumb-domains.png" />*/}
             {/*    </a>*/}
             <p className="with_code">
-              <a
-                href="https://github.com/paulshorey/colorful-console-logger"
-                target="_blank"
-                className="code_link bold"
-              >
+              <a href="https://github.com/paulshorey/colorful-console-logger" target="_blank" className="code_link bold">
                 npm i colorful-console-logger
               </a>{" "}
               &nbsp;Universal console.log replacement. Adds colors, trace, integrates with cloud-logging like LogDNA.
@@ -37,8 +33,7 @@ class OpenSource extends React.Component {
               <a href="https://github.com/twodashes/universal" target="_blank" className="code_link bold">
                 npm i @twodashes/universal
               </a>{" "}
-              &nbsp;Started a utility JavaScript library like lodash. For data manipulation, filtering, sorting,
-              text-analysis, requests, promises, error handling. Also{" "}
+              &nbsp;Started a utility JavaScript library like lodash. For data manipulation, filtering, sorting, text-analysis, requests, promises, error handling. Also{" "}
               <a href="https://github.com/twodashes/browser" target="_blank" className="code_link">
                 @twodashes/browser
               </a>{" "}
@@ -48,8 +43,8 @@ class OpenSource extends React.Component {
               <a href="https://github.com/paulshorey/horizontal_carousel" target="_blank" className="code_link bold">
                 npm i horizontal_carousel
               </a>{" "}
-              - Image carousels you see here. Made because I could not find any script out there which would easily
-              support variable-width content. No dependencies. Import as a React/app module or from CDN for website.
+              - Image carousels you see here. Made because I could not find any script out there which would easily support variable-width content. No dependencies. Import as a React/app
+              module or from CDN for website.
             </p>
             <p>
               <b className="titleFont">
@@ -57,11 +52,8 @@ class OpenSource extends React.Component {
                   Browser extension
                 </a>
               </b>{" "}
-              <b className="titleFont">
-                to close popups, cookie/terms consent banners, floating advertisements, newsletter promotions,&nbsp;
-              </b>
-              etc. Works reliably without breaking the page, unlike others I've tried. Does not trigger news sites'
-              ad-blocker blocker. Finally, browse in peace. Try it.
+              <b className="titleFont">to close popups, cookie/terms consent banners, floating advertisements, newsletter promotions,&nbsp;</b>
+              etc. Works reliably without breaking the page, unlike others I've tried. Does not trigger news sites' ad-blocker blocker. Finally, browse in peace. Try it.
             </p>
             <p>
               <span className="imagesFloatRight lightbox">
@@ -80,9 +72,8 @@ class OpenSource extends React.Component {
                   Research portal
                 </a>
               </b>{" "}
-              - <b className="titleFont">Search using Regular Expressions. </b> Job ad aggregator. Can be adapted to any
-              other type of content like news, events, academic and legal articles. Next iteration would perform RegExp
-              search in ElasticSearch instead of in React.
+              - <b className="titleFont">Search using Regular Expressions. </b> Job ad aggregator. Can be adapted to any other type of content like news, events, academic and legal articles.
+              Next iteration would perform RegExp search in ElasticSearch instead of in React.
             </p>
             <p>
               <b className="titleFont">
@@ -90,15 +81,15 @@ class OpenSource extends React.Component {
                   Dev notes
                 </a>
               </b>{" "}
-              - Few years of JavaScript programming notes. When I come across an interesting issue, I try to document it
-              for myself and others.
-              {/*Now starting to organize the notes and convert into "how to" articles.*/}
-              {/*Streamline a way to convert markdown files into HTML, to embed a*/}
-              {/*knowledgebase into an existing website with your own branding, instead of hosting documentation on a*/}
-              {/*separate subdomain.*/}
-              {/*Working on using a note-taking platform (Notion,*/}
-              {/*GitBook) as a website CMS, to publish support documentation or knowldgebase on "site.com/docs" instead of*/}
-              {/*"docs.site.com", for improved SEO.*/}
+              - Few years of JavaScript programming notes. When I come across an interesting issue, I try to document it for myself and others.
+            </p>
+            <p>
+              <b className="titleFont">
+                <a href="https://github.com/paulshorey/minesweeper" target="_blank">
+                  Minesweeper game
+                </a>
+              </b>{" "}
+              - JavaScript coding test - uses a JS Class to manage the data, and React for visualization and user interaction
             </p>
           </div>
           <div className="description" id="past_work">
