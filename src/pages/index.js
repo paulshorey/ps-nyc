@@ -10,7 +10,7 @@ import projects_past from "src/html/home/past.html"
 import { LuminousGallery } from "luminous-lightbox"
 import "luminous-lightbox/dist/luminous-basic.css"
 import Header from "../components/Header"
-import HorizontalCarousel from "horizontal_carousel"
+import HorizontalCarousel from "horizontal_carousel/src"
 
 export default class extends React.Component {
   constructor(props) {

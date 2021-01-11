@@ -10,12 +10,7 @@ import React from "react"
 
 const PRODUCTION = process.env.GATSBY_ACTIVE_ENV === "production"
 
-export const onPreRenderHTML = ({
-  getHeadComponents,
-  replaceHeadComponents,
-  getPostBodyComponents,
-  replacePostBodyComponents
-}) => {
+export const onPreRenderHTML = ({ getHeadComponents, replaceHeadComponents, getPostBodyComponents, replacePostBodyComponents }) => {
   // alter <head>
   const headComponents = getHeadComponents()
   // INSERT INTO BOTTOM OF <head>
@@ -43,11 +38,8 @@ export const onPreRenderHTML = ({
       <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" />
       {/*<script src="/assets/js/mailchimp.js"></script>*/}
 
-      <script src="/assets/js/jquery.js"></script>
-      <script src="/assets/js/jquery.cycle.js"></script>
-
-      <script src="https://cdn.jsdelivr.net/npm/horizontal_carousel@latest/window/index.js"></script>
-      <link href="https://cdn.jsdelivr.net/npm/horizontal_carousel@latest/css/default.css" rel="stylesheet" type="text/css" />
+      {/*<script src="/assets/js/jquery.js"></script>*/}
+      {/*<script src="/assets/js/jquery.cycle.js"></script>*/}
 
       {/*  <link rel="stylesheet" type="text/css" href="/assets/the_wilderness_downtown/style.css" />*/}
       {/*  <div id="birdsCanvas">*/}
@@ -70,25 +62,25 @@ export const onPreRenderHTML = ({
   // bodyComponents.push(<div dangerouslySetInnerHTML={{ __html: foot }} />)
   bodyComponents.push(
     <>
-      {/* Google captcha/analytics */}
-      <script src="https://www.google.com/recaptcha/api.js?render=6LfSN-MUAAAAAOxMUojSlBxkicjSeX1YLW8ds8C1"></script>
+      {/*/!* Google captcha/analytics *!/*/}
+      {/*<script src="https://www.google.com/recaptcha/api.js?render=6LfSN-MUAAAAAOxMUojSlBxkicjSeX1YLW8ds8C1"></script>*/}
 
-      {/*
-       * CUSTOM SITE STYLE AND WIDGETS
-       */}
-      <link rel="stylesheet" type="text/css" href="/assets/icomoon/style.css" />
-      <script src="/js/init.js"></script>
+      {/*/!**/}
+      {/* * CUSTOM SITE STYLE AND WIDGETS*/}
+      {/* *!/*/}
+      {/*<link rel="stylesheet" type="text/css" href="/assets/icomoon/style.css" />*/}
+      {/*<script src="/js/init.js"></script>*/}
 
-      {/*
-       * ELFSIGHT CONTACT FORM
-       */}
-      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-      <div className="elfsight-app-bcf06b3b-b3f9-47c0-a7f0-11e2e4a2418f"></div>
+      {/*/!**/}
+      {/* * ELFSIGHT CONTACT FORM*/}
+      {/* *!/*/}
+      {/*<script src="https://apps.elfsight.com/p/platform.js" defer></script>*/}
+      {/*<div className="elfsight-app-bcf06b3b-b3f9-47c0-a7f0-11e2e4a2418f"></div>*/}
 
-      {/*
-       * ETC
-       */}
-      <script src="https://cdn.jsdelivr.net/gh/paulshorey/colorful-console-logger@latest/dist/cconsole.js"></script>
+      {/*/!**/}
+      {/* * ETC*/}
+      {/* *!/*/}
+      {/*<script src="https://cdn.jsdelivr.net/gh/paulshorey/colorful-console-logger@latest/dist/cconsole.js"></script>*/}
     </>
   )
   // done altering <html>

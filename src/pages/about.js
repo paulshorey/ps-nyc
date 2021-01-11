@@ -1,21 +1,21 @@
 import React from "react"
 import about_media from "src/html/about/about.html"
 import Header from "../components/Header"
-import HorizontalCarousel from "horizontal_carousel"
+import HorizontalCarousel from "horizontal_carousel/src"
 
 export default class extends React.Component {
   componentDidMount() {
     /*
      * Carousels
      */
-    this.crefs = []
-    let els = document.querySelectorAll(".horizontal_carousel")
-    if (els) {
-      this.crefs.push(new HorizontalCarousel(document.querySelectorAll(".horizontal_carousel")))
+    this.hc_refs = []
+    let el = document.querySelector(".horizontal_carousel")
+    if (el) {
+      this.hc_refs.push(new HorizontalCarousel(el))
     }
   }
   componentWillUnmount() {
-    for (let ref of this.crefs) {
+    for (let ref of this.hc_refs) {
       if (!ref || !ref.end) continue
       ref.end()
     }

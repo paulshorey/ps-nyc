@@ -22,7 +22,7 @@
     "gatsby-plugin-sass": "^2.6.0",
     "gatsby-plugin-styled-components": "^3.5.0",
     "gatsby-plugin-styled-jsx": "^3.5.0",
-    "horizontal_carousel": "^0.1.2",
+    "horizontal_carousel": "^0.1.3",
     "luminous-lightbox": "^2.3.3",
     "node-sass": "^4.14.0",
     "react": "^16.12.0",
