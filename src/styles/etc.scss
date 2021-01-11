@@ -21,6 +21,13 @@
     border-radius: 3px;
   }
 }
+.lum-previous-button:after,
+.lum-next-button:after,
+.lum-gallery-button:after,
+.lum-previous-button:after {
+  border-radius: 0 !important;
+  border-color: #2763d3 !important;
+}
 
 .imagesFloatRight {
   float: right;
