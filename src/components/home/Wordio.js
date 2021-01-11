@@ -89,12 +89,6 @@ class Wordio extends React.Component {
           <div className="horizontal_carousel lightbox">
             <div className="slides">
               <a
-                href="/screenshots/domains/wordio-co.png"
-                data-title="&nbsp;&nbsp; https://besta.domains - app to help you find available domain names &nbsp;&nbsp;"
-              >
-                <img src="/screenshots/domains/_thumb-wordio-co.png" />
-              </a>
-              <a
                 href="/screenshots/domains/domains.png"
                 data-title="&nbsp;&nbsp; https://besta.domains - app to help you find available domain names &nbsp;&nbsp;"
               >
@@ -146,6 +140,12 @@ class Wordio extends React.Component {
           </div>
           <div className="horizontal_carousel lightbox" id="code_samples">
             <div className="slides">
+              <a
+                href="/screenshots/domains/wordio-co.png"
+                data-title="&nbsp;&nbsp; https://wordio.co - API explorer. Test out the data without signing up for anything. &nbsp;&nbsp;"
+              >
+                <img src="/screenshots/domains/_thumb-wordio-co.png" />
+              </a>
               <a
                 href="/screenshots/domains-code/nlp-be-api.png"
                 data-title="&nbsp;&nbsp; Node.js Express API - each endpoint in its own folder - helper code in ES Modules &nbsp;&nbsp;"

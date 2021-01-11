@@ -17,26 +17,24 @@
     background: hsl(219deg, 69%, 49%);
     height: 1.67rem;
     white-space: nowrap;
-    display: inline-block;npm 
+    display: inline-block;
     border-radius: 3px;
   }
 }
 .lum-next-button:after {
-  transform: translateY(-50%) rotate(45deg);
-  border-right: 5px solid hsl(0deg 0% 99%);
-  box-shadow: 2px -0.5px hsl(0deg 0% 45%);
-  right: 15%;
-  border-radius: 0 3px 0 0;
+  border-right: 3px solid hsl(0deg, 0%, 96% / 0.9) !important;
+  box-shadow: 2px -0.5px rgba(0, 0, 0, 0.3) !important;
+  right: 15% !important;
+  border-radius: 0 3px 0 0 !important;
 }
 .lum-previous-button:after {
-  transform: translateY(-50%) rotate(-45deg);
-  border-left: 4px solid hsl(0deg 0% 99%);
-  box-shadow: -2px 0.5px hsl(0deg 0% 45%);
-  left: 15%;
-  border-radius: 3px 0 0 0;
+  border-left: 3px solid hsl(0deg, 0%, 96% / 0.9) !important;
+  box-shadow: -2px -0.5px rgba(0, 0, 0, 0.3) !important;
+  left: 15% !important;
+  border-radius: 3px 0 0 0 !important;
 }
 .lum-gallery-button:after {
-  border-top: 5px solid hsl(0deg 0% 99%);
+  border-top: 3.5px solid hsl(0deg, 0%, 96% / 0.9) !important;
 }
 
 .imagesFloatRight {
