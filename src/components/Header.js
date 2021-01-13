@@ -16,7 +16,7 @@ class Header extends React.Component {
     this.secretState = {
       phone: "385.770.6789",
       email: "hello@paulshorey.com",
-      resume: "https://paulshorey.com/files/PaulShorey-SoftwareEngineer.pdf"
+      resume: "https://paulshorey.com/files/PaulShorey-Resume.pdf"
     }
   }
   componentDidMount() {
