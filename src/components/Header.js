@@ -77,9 +77,9 @@ class Header extends React.Component {
                 &nbsp;<span className="">|&nbsp;</span>
               </span>
             </span>
-            <a href={"tel:" + this.state.phone}>
-              {this.state.phone} <FA icon={faPhone} className="x85" />
-            </a>
+            {/*<a href={"tel:" + this.state.phone}>*/}
+            {/*  {this.state.phone} <FA icon={faPhone} className="x85" />*/}
+            {/*</a>*/}
           </div>
         </div>
       </HeaderStyled>
