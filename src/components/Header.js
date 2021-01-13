@@ -66,22 +66,24 @@ class Header extends React.Component {
                 FrontEnd <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
               </b>
             </a>{" "}
-            |{" "}
-            <span>
-              <a href={"mailto:" + this.state.email} target="_blank" style={{ marginLeft: "0.125rem" }}>
-                <b>
-                  {this.state.email} <FA icon={faEnvelope} className="x85" style={{ verticalAlign: "-0.175rem" }} />
-                </b>
-              </a>{" "}
+            {!!this.state.email && (
               <span>
-                &nbsp;<span className="">|&nbsp;</span>
+                |{" "}
+                <a href={"mailto:" + this.state.email} target="_blank" style={{ marginLeft: "0.125rem" }}>
+                  <b>
+                    {this.state.email} <FA icon={faEnvelope} className="x85" style={{ verticalAlign: "-0.175rem" }} />
+                  </b>
+                </a>{" "}
               </span>
-            </span>
-            <span>
-              <a href={"tel:" + this.state.phone}>
-                {this.state.phone} <FA icon={faPhone} className="x85" />
-              </a>
-            </span>
+            )}
+            {!!this.state.phone && (
+              <span>
+                |{" "}
+                <a href={"tel:" + this.state.phone}>
+                  {this.state.phone} <FA icon={faPhone} className="x85" />
+                </a>
+              </span>
+            )}
           </div>
         </div>
       </HeaderStyled>
