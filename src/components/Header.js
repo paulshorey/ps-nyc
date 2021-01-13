@@ -10,8 +10,7 @@ class Header extends React.Component {
     super(props)
     this.state = {
       phone: "",
-      email: "",
-      resume: "https://paulshorey.com/files/PaulShorey-Resume.pdf"
+      email: ""
     }
     this.secretState = {
       phone: "385.770.6789",
@@ -55,22 +54,27 @@ class Header extends React.Component {
             </span>
           </div>
           <div className="h-right">
-            <a href={this.state.resume} target="_blank">
+            Resume:&nbsp;
+            <a href="https://paulshorey.com/files/PaulShorey-FullStack.pdf" target="_blank">
               <b style={{ fontWeight: "normal" }}>
-                Resume <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
+                FullStack <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
               </b>
             </a>{" "}
+            |{" "}
+            <a href="https://paulshorey.com/files/PaulShorey-FrontEnd.pdf" target="_blank">
+              <b style={{ fontWeight: "normal" }}>
+                FrontEnd <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
+              </b>
+            </a>{" "}
+            |{" "}
             <span>
-              <span>
-                &nbsp;<span className="hide-small">|&nbsp;</span>
-              </span>
               <a href={"mailto:" + this.state.email} target="_blank" style={{ marginLeft: "0.125rem" }}>
                 <b>
                   {this.state.email} <FA icon={faEnvelope} className="x85" style={{ verticalAlign: "-0.175rem" }} />
                 </b>
               </a>{" "}
               <span>
-                &nbsp;<span className="hide-small">|&nbsp;</span>
+                &nbsp;<span className="">|&nbsp;</span>
               </span>
             </span>
             <a href={"tel:" + this.state.phone}>

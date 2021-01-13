@@ -15,11 +15,6 @@ import HorizontalCarousel from "horizontal_carousel/src"
 export default class extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {
-      phone: "",
-      email: "",
-      resume: ""
-    }
   }
   componentDidMount() {
     /*
@@ -106,9 +101,9 @@ export default class extends React.Component {
 
         <section className="content section_new_projects">
           <p className="rem1">
-            <FA icon={faArrowDown} className="faArrowDown x85 color-attention" /> Below is some past work. Almost everything below I have also designed, while working as a Front-End
-            Engineer, or for personal projects. Currently finishing adding testing, documentation, and CI to the recent and open-source projects below. Now looking for a stable job for the forseeable
-            future. Settling down with my wife in Kansas City. Will continue to enjoy designing, developing side projects, and trying out new ideas in my spare time.
+            <FA icon={faArrowDown} className="faArrowDown x85 color-attention" /> Below is some past work. Almost everything below I have also designed, while working as a Software Engineer,
+            or for personal projects. Currently finishing adding testing, documentation, and CI to the recent and open-source projects below. Now looking for full time employment. Settling
+            down with my wife in Kansas City. Will continue to enjoy developing side projects and trying out new ideas in my spare time.
           </p>
           <Wordio />
           <OpenSource />

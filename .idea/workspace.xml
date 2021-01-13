@@ -5,9 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/classes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/files/PaulShorey-Resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/static/files/PaulShorey-Resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/files/PaulShorey-Resume.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
