@@ -13,7 +13,7 @@ class Header extends React.Component {
       email: ""
     }
     this.secretState = {
-      phone: "385.770.6789",
+      phone: "3857706789",
       email: "hello@paulshorey.com"
     }
   }
@@ -77,9 +77,11 @@ class Header extends React.Component {
                 &nbsp;<span className="">|&nbsp;</span>
               </span>
             </span>
-            {/*<a href={"tel:" + this.state.phone}>*/}
-            {/*  {this.state.phone} <FA icon={faPhone} className="x85" />*/}
-            {/*</a>*/}
+            <span>
+              <a href={"tel:" + this.state.phone}>
+                {this.state.phone} <FA icon={faPhone} className="x85" />
+              </a>
+            </span>
           </div>
         </div>
       </HeaderStyled>
