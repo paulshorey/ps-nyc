@@ -13,7 +13,7 @@ class Header extends React.Component {
       email: ""
     }
     this.secretState = {
-      phone: "3857706789",
+      phone: "385.770.6789",
       email: "hello@paulshorey.com"
     }
   }
@@ -79,7 +79,7 @@ class Header extends React.Component {
             {!!this.state.phone && (
               <span>
                 |{" "}
-                <a href={"tel:" + this.state.phone}>
+                <a href={"tel:" + this.state.phone.replace(/\./g, "")}>
                   {this.state.phone} <FA icon={faPhone} className="x85" />
                 </a>
               </span>
