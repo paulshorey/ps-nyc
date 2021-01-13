@@ -4,8 +4,8 @@ import Wordio from "src/components/home/Wordio"
 import styled from "styled-components"
 import carousel_aboutme from "src/html/home/aboutme_carousel.html"
 import projects_past from "src/html/home/past.html"
-// import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
-// import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
+import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
+import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
 // import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import { LuminousGallery } from "luminous-lightbox"
 import "luminous-lightbox/dist/luminous-basic.css"
@@ -105,6 +105,11 @@ export default class extends React.Component {
         </div>
 
         <section className="content section_new_projects">
+          <p className="rem1">
+            <FA icon={faArrowDown} className="faArrowDown x85 color-attention" /> Below is some past work. Almost everything below I have also designed, while working as a Front-End
+            Engineer, or for personal projects. Currently finishing adding testing, documentation, and CI to the recent and open-source projects below. Now looking for a stable job for the forseeable
+            future. Settling down with my wife in Kansas City. Will continue to enjoy designing, developing side projects, and trying out new ideas in my spare time.
+          </p>
           <Wordio />
           <OpenSource />
         </section>

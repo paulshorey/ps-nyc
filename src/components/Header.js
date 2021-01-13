@@ -11,12 +11,11 @@ class Header extends React.Component {
     this.state = {
       phone: "",
       email: "",
-      resume: ""
+      resume: "https://paulshorey.com/files/PaulShorey-Resume.pdf"
     }
     this.secretState = {
       phone: "385.770.6789",
-      email: "hello@paulshorey.com",
-      resume: "https://paulshorey.com/files/PaulShorey-Resume.pdf"
+      email: "hello@paulshorey.com"
     }
   }
   componentDidMount() {
@@ -42,11 +41,7 @@ class Header extends React.Component {
               </>
             )}
             <a href="/">
-              <span
-                className="icon"
-                style={{ verticalAlign: "-0.1rem" }}
-                dangerouslySetInnerHTML={{ __html: svg_happyface }}
-              />
+              <span className="icon" style={{ verticalAlign: "-0.1rem" }} dangerouslySetInnerHTML={{ __html: svg_happyface }} />
               <b>Paul Shorey</b>
             </a>
             &nbsp;&nbsp;|&nbsp;&nbsp;
