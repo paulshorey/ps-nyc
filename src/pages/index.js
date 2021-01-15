@@ -5,8 +5,8 @@ import styled from "styled-components"
 import carousel_aboutme from "src/html/home/aboutme_carousel.html"
 import projects_past from "src/html/home/past.html"
 import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
-import { faArrowDown } from "@fortawesome/pro-regular-svg-icons"
-// import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faArrowDown } from "@fortawesome/pro-regular-svg-icons/faArrowDown"
+// import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
 import { LuminousGallery } from "luminous-lightbox"
 import "luminous-lightbox/dist/luminous-basic.css"
 import Header from "../components/Header"
@@ -102,8 +102,8 @@ export default class extends React.Component {
         <section className="content section_new_projects">
           <p className="rem1">
             <FA icon={faArrowDown} className="faArrowDown x85 color-attention" /> Below is some past work. Almost everything below I have also designed, while working as a Software Engineer,
-            or for personal projects. Currently finishing adding testing, documentation, and CI to the recent and open-source projects below. Now looking for full time employment. Settling
-            down with my wife in Kansas City. Will continue to enjoy developing side projects and trying out new ideas in my spare time.
+            or for personal projects. Currently finishing adding testing, documentation, and CI to the recent and open-source projects below. Now settling down with my wife in Kansas City,
+            and looking for a remote full time job for the foreseeable future. I'll always enjoy developing side projects and trying out new ideas in my spare time.
           </p>
           <Wordio />
           <OpenSource />

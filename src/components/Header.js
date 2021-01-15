@@ -2,6 +2,8 @@ import React from "react"
 import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
 import { faPhone, faFileDownload, faEnvelope } from "@fortawesome/pro-solid-svg-icons"
 import { faChevronLeft } from "@fortawesome/pro-light-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
+import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter"
 import svg_happyface from "src/html/svg/happyface.html"
 import styled from "styled-components"
 
@@ -54,7 +56,6 @@ class Header extends React.Component {
             </span>
           </div>
           <div className="h-right">
-            Resume:&nbsp;
             <a href="https://paulshorey.com/files/PaulShorey-FullStack.pdf" target="_blank">
               <b style={{ fontWeight: "normal" }}>
                 FullStack <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
@@ -84,6 +85,18 @@ class Header extends React.Component {
                 </a>
               </span>
             )}
+            <span>
+              |{" "}
+              <a href="https://twitter.com/paulshoreytech" target="_blank">
+                <FA icon={faTwitter} />
+              </a>
+            </span>
+            <span>
+              |{" "}
+              <a href="https://github.com/paulshorey" target="_blank">
+                <FA icon={faGithub} />
+              </a>
+            </span>
           </div>
         </div>
       </HeaderStyled>

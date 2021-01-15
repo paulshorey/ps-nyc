@@ -1,6 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
 import styled from "styled-components"
 // import Wordio from "./Wordio"
 // import { Link } from "gatsby"
