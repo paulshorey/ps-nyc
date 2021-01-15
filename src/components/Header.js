@@ -56,15 +56,15 @@ class Header extends React.Component {
             </span>
           </div>
           <div className="h-right">
-            <a href="https://paulshorey.com/files/PaulShorey-FullStack.pdf" target="_blank">
-              <b style={{ fontWeight: "normal" }}>
-                FullStack <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
-              </b>
-            </a>{" "}
-            |{" "}
             <a href="https://paulshorey.com/files/PaulShorey-FrontEnd.pdf" target="_blank">
               <b style={{ fontWeight: "normal" }}>
                 FrontEnd <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
+              </b>
+            </a>{" "}
+            |{" "}
+            <a href="https://paulshorey.com/files/PaulShorey-FullStack.pdf" target="_blank">
+              <b style={{ fontWeight: "normal" }}>
+                FullStack <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
               </b>
             </a>{" "}
             {!!this.state.email && (
