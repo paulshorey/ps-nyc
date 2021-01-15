@@ -11,7 +11,7 @@ class Wordio extends React.Component {
           <a name="besta" id="besta" className="a_target" />
           <h3>
             {/*<FA icon={faChartPie} className="x85" /> &thinsp;&thinsp;*/}
-            2020 - Micro-SaaS APIs and Web Apps:
+            2020 - Node.js APIs and React Apps:
           </h3>
           <div className="description">
             <p>
@@ -21,12 +21,10 @@ class Wordio extends React.Component {
                 </a>{" "}
                 {/*<code className="color-medium vrsn">beta</code>{" "}*/}
               </b>
-              - After working at an AI company for a couple years, I wanted try my hand at data and text analysis. This
-              started out as a quick evening side project. It's now the best domain name suggestions engine in the
-              industry. It doesn't just search. It actually generates new phrases using NLP! Also, an API to check
-              domain availability of 100s of domains at a time. For this I created a load-balancer of 10 cloud servers.
-              When you make a call to the API, it distributes the 100s of domains evenly accross the servers, for x10
-              faster response.&nbsp;
+              - After working at an AI company for a couple years, I wanted try my hand at data and text analysis. This started out as a quick evening side project. It's now the best domain
+              name suggestions engine in the industry. It doesn't just search. It actually generates new phrases using NLP! Also, an API to check domain availability of 100s of domains at a
+              time. For this I created a load-balancer of 10 cloud servers. When you make a call to the API, it distributes the 100s of domains evenly accross the servers, for x10 faster
+              response.&nbsp;
               <span className="nowrap">
                 <span className="hide-small">
                   Get the APIs at{" "}
@@ -61,10 +59,9 @@ class Wordio extends React.Component {
                 </a>{" "}
                 {/*<code className="color-medium vrsn">alpha</code>{" "}*/}
               </b>
-              - Wrote some linguistic APIs and algorithms, for AI, writing, or search applications. Compiled and edited
-              a thesaurus of 300,000+ words. Find the root-word, parts-of-speech, sentiment analysis, abbreviations,
-              contractions, singular/plural, etc. Get synonyms and related words, organized by sentiment. Word-breaking,
-              tokenization, lemmatization and spellcheck on text inputs without spaces (useful for domain names).
+              - Wrote some linguistic APIs and algorithms, for AI, writing, or search applications. Compiled and edited a thesaurus of 300,000+ words. Find the root-word, parts-of-speech,
+              sentiment analysis, abbreviations, contractions, singular/plural, etc. Get synonyms and related words, organized by sentiment. Word-breaking, tokenization, lemmatization and
+              spellcheck on text inputs without spaces (useful for domain names).
               {/*Please contact me for a demo.*/}
               {/*Created some nifty open-source scripts{" "}*/}
               {/*<span*/}
@@ -88,16 +85,10 @@ class Wordio extends React.Component {
           </div>
           <div className="horizontal_carousel lightbox">
             <div className="slides">
-              <a
-                href="/screenshots/domains/domains.png"
-                data-title="&nbsp;&nbsp; https://besta.domains - app to help you find available domain names &nbsp;&nbsp;"
-              >
+              <a href="/screenshots/domains/domains.png" data-title="&nbsp;&nbsp; https://besta.domains - app to help you find available domain names &nbsp;&nbsp;">
                 <img src="/screenshots/domains/_thumb-domains.png" />
               </a>
-              <a
-                href="/screenshots/domains/domain_wordbreak.png"
-                data-title="&nbsp;&nbsp; Using my own linguistic tools to do word breaking / lemmatization / tokenization &nbsp;&nbsp;"
-              >
+              <a href="/screenshots/domains/domain_wordbreak.png" data-title="&nbsp;&nbsp; Using my own linguistic tools to do word breaking / lemmatization / tokenization &nbsp;&nbsp;">
                 <img src="/screenshots/domains/_thumb-domain_wordbreak.png" />
               </a>
               <a
@@ -112,44 +103,26 @@ class Wordio extends React.Component {
               >
                 <img src="/screenshots/domains/_thumb-domain_edit.png" />
               </a>
-              <a
-                href="/screenshots/domains/domains_all_edit.png"
-                data-title="&nbsp;&nbsp; Admin tool: look through each TLD, and find any that need more synonyms. &nbsp;&nbsp;"
-              >
+              <a href="/screenshots/domains/domains_all_edit.png" data-title="&nbsp;&nbsp; Admin tool: look through each TLD, and find any that need more synonyms. &nbsp;&nbsp;">
                 <img src="/screenshots/domains/_thumb-domains_all_edit.png" />
               </a>
-              <a
-                href="/screenshots/domains/word_view.png"
-                data-title="&nbsp;&nbsp; https://wordio.co - thesaurus app (demo to browse our database) &nbsp;&nbsp;"
-              >
+              <a href="/screenshots/domains/word_view.png" data-title="&nbsp;&nbsp; https://wordio.co - thesaurus app (demo to browse our database) &nbsp;&nbsp;">
                 <img src="/screenshots/domains/_thumb-word_view.png" />
               </a>
-              <a
-                href="/screenshots/domains/word_edit.png"
-                data-title="&nbsp;&nbsp; Admin tool: edit the word - parts of speech, sentiment, synonyms, abbreviations, etc. &nbsp;&nbsp;"
-              >
+              <a href="/screenshots/domains/word_edit.png" data-title="&nbsp;&nbsp; Admin tool: edit the word - parts of speech, sentiment, synonyms, abbreviations, etc. &nbsp;&nbsp;">
                 <img src="/screenshots/domains/_thumb-word_edit.png" />
               </a>
-              <a
-                href="/screenshots/domains/api_docs.png"
-                data-title="&nbsp;&nbsp; Learn about endpoints, inputs, outputs, links to subscribe and to test in sandbox. &nbsp;&nbsp;"
-              >
+              <a href="/screenshots/domains/api_docs.png" data-title="&nbsp;&nbsp; Learn about endpoints, inputs, outputs, links to subscribe and to test in sandbox. &nbsp;&nbsp;">
                 <img src="/screenshots/domains/_thumb-api_docs.png" />
               </a>
             </div>
           </div>
           <div className="horizontal_carousel lightbox" id="code_samples">
             <div className="slides">
-              <a
-                href="/screenshots/domains/wordio-co.png"
-                data-title="&nbsp;&nbsp; https://wordio.co - API explorer. Test out the data without signing up for anything. &nbsp;&nbsp;"
-              >
+              <a href="/screenshots/domains/wordio-co.png" data-title="&nbsp;&nbsp; https://wordio.co - API explorer. Test out the data without signing up for anything. &nbsp;&nbsp;">
                 <img src="/screenshots/domains/_thumb-wordio-co.png" />
               </a>
-              <a
-                href="/screenshots/domains-code/nlp-be-api.png"
-                data-title="&nbsp;&nbsp; Node.js Express API - each endpoint in its own folder - helper code in ES Modules &nbsp;&nbsp;"
-              >
+              <a href="/screenshots/domains-code/nlp-be-api.png" data-title="&nbsp;&nbsp; Node.js Express API - each endpoint in its own folder - helper code in ES Modules &nbsp;&nbsp;">
                 <img src="/screenshots/domains-code/_thumb-nlp-be-api.png" />
               </a>
               <a
@@ -170,10 +143,7 @@ class Wordio extends React.Component {
               >
                 <img src="/screenshots/domains-code/_thumb-nlp-be-domains_lists.png" />
               </a>
-              <a
-                href="/screenshots/domains-code/nlp-fe-Dom.png"
-                data-title="&nbsp;&nbsp; Render each domain suggestion result - find status code (available/premium/etc). &nbsp;&nbsp;"
-              >
+              <a href="/screenshots/domains-code/nlp-fe-Dom.png" data-title="&nbsp;&nbsp; Render each domain suggestion result - find status code (available/premium/etc). &nbsp;&nbsp;">
                 <img src="/screenshots/domains-code/_thumb-nlp-fe-Dom.png" />
               </a>
               <a
