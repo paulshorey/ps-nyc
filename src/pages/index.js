@@ -1,4 +1,5 @@
 import React from "react"
+import Helmet from "react-helmet"
 import OpenSource from "src/components/home/OpenSource"
 import Wordio from "src/components/home/Wordio"
 import styled from "styled-components"
@@ -52,6 +53,9 @@ export default class extends React.Component {
   render() {
     return (
       <ProjectsStyled>
+        <Helmet>
+          <title>Paul Shorey ~ Web Software Engineer and Designer</title>
+        </Helmet>
         <div className="featuredCard">
           <Header />
           <div className="content full">
