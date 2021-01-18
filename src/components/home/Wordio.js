@@ -6,13 +6,11 @@ import styled from "styled-components"
 class Wordio extends React.Component {
   render() {
     return (
-      <WordioStyled>
-        <article className="full">
+      <WordioStyled className="content">
+        <article>
           <a name="besta" id="besta" className="a_target" />
-          <h3>
-            {/*<FA icon={faChartPie} className="x85" /> &thinsp;&thinsp;*/}
-            2020 - Node.js APIs and React Apps:
-          </h3>
+
+          <h3>2020 - Built some Micro-SaaS APIs and apps:</h3>
           <div className="description">
             <p>
               <b className="titleFont">
@@ -23,32 +21,38 @@ class Wordio extends React.Component {
               </b>
               - After working at an AI company for a couple years, I wanted try my hand at data and text analysis. This started out as a quick evening side project. It's now the best domain
               name suggestions engine in the industry. It doesn't just search. It actually generates new phrases using Natural Language Processing! Also, an API to check availability of 100s
-              of names at a time, load balanced across 10 servers for x10 speed. The front-end however is optimized to check only the results which are in view.{" "}
+              of names at a time, load balanced across 10 servers for x10 speed. The front-end is optimized to check only the results which are in view.{" "}
               {/*For this I created a load-balancer of 10 cloud servers. When you make a call to the API, it distributes the 100s of domains evenly accross the servers, for x10 faster response.&nbsp;*/}
-              <span className="nowrap">
-                <span className="hide-small">
-                  Get the APIs at{" "}
-                  <a href="https://rapidapi.com/besta-domains/api/domain-suggestions-tlds" target="_blank">
-                    rapidapi.com
-                  </a>
-                  .&nbsp;
-                </span>
-
-                <span className="nowrap hide-small">
-                  Documentation:{" "}
-                  <a href="https://besta.domains/api" target="_blank">
-                    besta.domains/api
-                  </a>
-                  .&nbsp;
-                </span>
-                {/*<span className="hide-large">*/}
-                {/*  Demo:{" "}*/}
-                {/*  <a href="https://besta.domains" target="_blank">*/}
-                {/*    besta.domains*/}
-                {/*  </a>*/}
-                {/*  .*/}
-                {/*</span>*/}
+              <span className="nowrap hide-small">
+                API documentation:{" "}
+                <a href="https://besta.domains/api" target="_blank">
+                  besta.domains/api
+                </a>
+                .
               </span>
+              {/*<span className="nowrap">*/}
+              {/*  <span className="hide-small">*/}
+              {/*    Get the APIs at{" "}*/}
+              {/*    <a href="https://rapidapi.com/besta-domains/api/domain-suggestions-tlds" target="_blank">*/}
+              {/*      rapidapi.com*/}
+              {/*    </a>*/}
+              {/*    .&nbsp;*/}
+              {/*  </span>*/}
+              {/*  <span className="nowrap hide-small">*/}
+              {/*    Documentation:{" "}*/}
+              {/*    <a href="https://besta.domains/api" target="_blank">*/}
+              {/*      besta.domains/api*/}
+              {/*    </a>*/}
+              {/*    .&nbsp;*/}
+              {/*  </span>*/}
+              {/*  /!*<span className="hide-large">*!/*/}
+              {/*  /!*  Demo:{" "}*!/*/}
+              {/*  /!*  <a href="https://besta.domains" target="_blank">*!/*/}
+              {/*  /!*    besta.domains*!/*/}
+              {/*  /!*  </a>*!/*/}
+              {/*  /!*  .*!/*/}
+              {/*  /!*</span>*!/*/}
+              {/*</span>*/}
             </p>
           </div>
           <div className="description">
@@ -61,7 +65,7 @@ class Wordio extends React.Component {
               </b>
               - Wrote some linguistic APIs and algorithms, for AI, writing, or search applications. Compiled and edited a thesaurus of 300,000+ words. Find the root-word, parts-of-speech,
               sentiment analysis, abbreviations, contractions, singular/plural, etc. Get synonyms and related words, organized by sentiment. Word-breaking, tokenization, lemmatization and
-              spellcheck on text inputs without spaces (useful for domain names).
+              spellcheck on text inputs without spaces.
               {/*Please contact me for a demo.*/}
               {/*Created some nifty open-source scripts{" "}*/}
               {/*<span*/}
@@ -77,10 +81,11 @@ class Wordio extends React.Component {
               {/*  below*/}
               {/*</span>*/}
               {/*, to help perform data manipulation in JavaScript.*/}
-              {/*APIs are currently private.*/} Demo:{" "}
-              <a href="https://wordio.co" target="_blank">
-                wordio.co
-              </a>
+              {/*APIs are currently private.*/}
+              {/*Demo:{" "}*/}
+              {/*<a href="https://wordio.co" target="_blank">*/}
+              {/*  wordio.co*/}
+              {/*</a>*/}
             </p>
           </div>
           <div className="horizontal_carousel lightbox">

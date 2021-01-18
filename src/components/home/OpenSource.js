@@ -1,6 +1,6 @@
 import React from "react"
-import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
+// import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
+// import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
 import styled from "styled-components"
 // import Wordio from "./Wordio"
 // import { Link } from "gatsby"
@@ -8,11 +8,12 @@ import styled from "styled-components"
 class OpenSource extends React.Component {
   render() {
     return (
-      <ProjectsStyled>
-        <article className="full">
+      <ProjectsStyled className="content">
+        <article>
           <h3>
-            <FA icon={faGithub} />
-            &thinsp;&thinsp;Open-Source + code samples:
+            {/*<FA icon={faGithub} />*/}
+            {/*&thinsp;&thinsp;*/}
+            2020 - Open-Source projects + experiments:
           </h3>
           <div className="description">
             {/*<div className="horizontal_carousel">*/}

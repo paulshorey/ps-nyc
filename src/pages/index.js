@@ -60,66 +60,84 @@ export default class extends React.Component {
           <Header />
           <div className="content full">
             <p className="top_text">
-              👋&thinsp;&thinsp;I've been coding since 2008. Really enjoy web technologies, creating something from nothing, collaborating with people. Always building something. Let's work
-              together!
+              👋&thinsp;&thinsp;I've been coding since 2008. Really enjoy web technologies, creating something from nothing, collaborating with people. Love designing and building software.
+              Let's meet!
             </p>
           </div>
-
-          <div className="content full flex" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} style={{ overflow: "auto" }}>
-            {/*<div className="titleFont simple_nav">*/}
-            {/*  /!*<a href=""> 📓 Writing (coming soon)</a> <br />*!/*/}
-            {/*  <a href="https://notes.paulshorey.com" target="_blank">*/}
-            {/*    {" "}*/}
-            {/*    📓 Programming Notes{" "}*/}
-            {/*  </a>*/}
-            {/*  <br />*/}
-            {/*  <a*/}
-            {/*    onClick={() => {*/}
-            {/*      document.querySelector("#past_work").scrollIntoView({*/}
-            {/*        behavior: "smooth",*/}
-            {/*        alignTo: "top"*/}
-            {/*      })*/}
-            {/*    }}*/}
-            {/*  >*/}
-            {/*    {" "}*/}
-            {/*    💻 Work Experience <FA icon={faArrowDown} className="faArrowDown x70" />*/}
-            {/*  </a>*/}
-            {/*  <br />*/}
-            {/*  <a*/}
-            {/*    onClick={() => {*/}
-            {/*      document.querySelector("#code_samples").scrollIntoView({*/}
-            {/*        behavior: "smooth",*/}
-            {/*        alignTo: "top"*/}
-            {/*      })*/}
-            {/*    }}*/}
-            {/*  >*/}
-            {/*    <FA icon={faGithub} style={{ marginRight: "2px" }} /> Code samples{" "}*/}
-            {/*    <FA icon={faArrowDown} className="faArrowDown x70" />*/}
-            {/*  </a>*/}
-            {/*  <br />*/}
-            {/*  <a href="/about"> 🌇 About me </a>*/}
-            {/*</div>*/}
-            {/*<div dangerouslySetInnerHTML={{ __html: carousel_aboutme }} style={{ overflow: "auto" }} />*/}
-          </div>
+          <div className="content full flex" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} style={{ overflow: "auto" }}></div>
         </div>
 
-        <section className="content section_new_projects">
-          <p className="rem1">
-            <FA icon={faArrowDown} className="faArrowDown x85 color-attention" /> Below is some past work. Almost everything below I have also designed, while working as a Software Engineer,
-            or for personal projects. Currently finishing adding documentation, testing, and CI to the recent and open-source projects below. Now settling down with my wife in Kansas City,
-            and looking for a remote full time job for the foreseeable future. I'll always enjoy developing side projects and trying out new ideas in my spare time.
-          </p>
+        <section className="content full">
+          <section className="content">
+            <p className="top_caption slight_right_overflow">
+              <FA icon={faArrowDown} className="faArrowDown x85 color-attention" />
+              &thinsp; Below is a timeline of my development experience. Scroll down to go back in time. Most of this stuff I also designed. Click the links and photos.{" "}
+              <span className="nowrap"> In the works: </span> finishing documenting, testing, adding continuous integration. Looking for a remote company that I can grow with.
+            </p>
+          </section>
+
           <Wordio />
           <OpenSource />
-        </section>
 
-        <section className="content section_work_experience">
           <a name="work-experience" />
-          {/*<h2>*/}
-          {/*  👨‍💻 Previous Experience <FA icon={faArrowDown} className="faArrowDown x70" />*/}
-          {/*</h2>*/}
-          {/*<hr />*/}
-          {/*<BeyondLimits />*/}
+
+          {/*<div className="featuredCard">*/}
+          <article className="beyond_limits">
+            <h3 className="content featured">2018-2020 - Beyond Limits:</h3>
+            <div className="content full horizontal_carousel lightbox">
+              <div className="slides">
+                <a href="/screenshots/bl/ist-1.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-ist-1.png" />
+                </a>
+                <a href="/screenshots/bl/aira-1.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-aira-1.png" />
+                </a>
+                <a href="/screenshots/bl/sm-1.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-sm-1.png" />
+                </a>
+                <a href="/screenshots/bl/sm-2.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-sm-2.png" />
+                </a>
+                <a href="/screenshots/bl/aira-2.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-aira-2.png" />
+                </a>
+                <a href="/screenshots/bl/aira-3.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-aira-3.png" />
+                </a>
+                <a href="/screenshots/bl/aira-4.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-aira-4.png" />
+                </a>
+                <a href="/screenshots/bl/sm-4.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-sm-4.png" />
+                </a>
+                <a href="/screenshots/bl/sm-3.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-sm-3.png" />
+                </a>
+                <a href="/screenshots/bl/ist-2.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-ist-2.png" />
+                </a>
+                <a href="/screenshots/bl/ist-3.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-ist-3.png" />
+                </a>
+                <a href="/screenshots/bl/ist-4.png" data-title="">
+                  <img src="/screenshots/bl/_thumb-ist-4.png" />
+                </a>
+              </div>
+            </div>
+            <div className="description content">
+              <p>
+                Worked at an AI agency building automation tools and analytics dashboards for enterprise clients, especially for oil and gas industry. We built browser-based apps which
+                queried/manipulated/rendered a lot of data in real time.
+              </p>
+              <p>
+                Worked with brilliant CS majors, built admin dashboards and data visualizations. Worked a lot with React.JS, Vanilla JS, and D3 based graphing libraries. We built custom
+                tools from scratch. Also used Vue.js and Angular 8. I was tasked with improving the UI of our software products, then adding features to meet tight deadlines. It was
+                important to communicate efficiently and architect each app for easy refactoring in the future.
+              </p>
+            </div>
+          </article>
+          {/*</div>*/}
+
           <div dangerouslySetInnerHTML={{ __html: projects_past }} />
         </section>
       </ProjectsStyled>
@@ -130,9 +148,19 @@ export default class extends React.Component {
 const ProjectsStyled = styled.div`
   max-width: 100vw;
   overflow: hidden;
-  .carousel {
-    margin-left: 2rem;
-    height: 8.25rem;
+  .top_caption {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+  }
+  .beyond_limits {
+    margin: 4.5rem 0;
+    .horizontal_carousel {
+      margin: 1rem 0;
+      img {
+        height: 15rem;
+      }
+    }
   }
   .faArrowDown {
     vertical-align: -0.19rem;
