@@ -22,9 +22,9 @@ class Wordio extends React.Component {
                 {/*<code className="color-medium vrsn">beta</code>{" "}*/}
               </b>
               - After working at an AI company for a couple years, I wanted try my hand at data and text analysis. This started out as a quick evening side project. It's now the best domain
-              name suggestions engine in the industry. It doesn't just search. It actually generates new phrases using NLP! Also, an API to check availability of 100s of domains at a time.
-              For this I created a load-balancer of 10 cloud servers. When you make a call to the API, it distributes the 100s of domains evenly accross the servers, for x10 faster
-              response.&nbsp;
+              name suggestions engine in the industry. It doesn't just search. It actually generates new phrases using Natural Language Processing! Also, an API to check availability of 100s
+              of names at a time, load balanced across 10 servers for x10 speed. The front-end however is optimized to check only the results which are in view.{" "}
+              {/*For this I created a load-balancer of 10 cloud servers. When you make a call to the API, it distributes the 100s of domains evenly accross the servers, for x10 faster response.&nbsp;*/}
               <span className="nowrap">
                 <span className="hide-small">
                   Get the APIs at{" "}
