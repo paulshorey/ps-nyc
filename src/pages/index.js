@@ -106,7 +106,7 @@ export default class extends React.Component {
         <section className="content section_new_projects">
           <p className="rem1">
             <FA icon={faArrowDown} className="faArrowDown x85 color-attention" /> Below is some past work. Almost everything below I have also designed, while working as a Software Engineer,
-            or for personal projects. Currently finishing adding testing, documentation, and CI to the recent and open-source projects below. Now settling down with my wife in Kansas City,
+            or for personal projects. Currently finishing adding documentation, testing, and CI to the recent and open-source projects below. Now settling down with my wife in Kansas City,
             and looking for a remote full time job for the foreseeable future. I'll always enjoy developing side projects and trying out new ideas in my spare time.
           </p>
           <Wordio />
