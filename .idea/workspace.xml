@@ -4,12 +4,7 @@
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/OpenSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/OpenSource.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/Wordio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Wordio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/home/past.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/home/past.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/files/PaulShorey-SoftwareEngineer.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/static/files/PaulShorey-SoftwareEngineer.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +108,7 @@
       <workItem from="1610131544009" duration="1564000" />
       <workItem from="1610312589750" duration="514000" />
       <workItem from="1610343705399" duration="9378000" />
+      <workItem from="1611093118518" duration="173000" />
     </task>
     <servers />
   </component>
