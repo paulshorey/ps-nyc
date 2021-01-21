@@ -3,6 +3,7 @@ import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
 import { faPhone, faFileDownload, faEnvelope } from "@fortawesome/pro-solid-svg-icons"
 import { faChevronLeft } from "@fortawesome/pro-light-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
+import { faInstagram } from "@fortawesome/free-brands-svg-icons/faInstagram"
 import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter"
 import svg_happyface from "src/html/svg/happyface.html"
 import styled from "styled-components"
@@ -85,6 +86,13 @@ class Header extends React.Component {
                 </a>
               </span>
             )}
+            <span>
+              |{" "}
+              <a href="https://instagram.com/paul.shorey" target="_blank">
+                <FA icon={faInstagram} />
+                &thinsp;
+              </a>
+            </span>
             <span>
               |{" "}
               <a href="https://twitter.com/paulshoreytech" target="_blank">
