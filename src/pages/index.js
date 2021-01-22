@@ -71,8 +71,8 @@ export default class extends React.Component {
           <section className="content">
             <p className="top_caption slight_right_overflow">
               <FA icon={faArrowDown} className="faArrowDown x85 color-attention" />
-              &thinsp; Below is a timeline of my development experience. Scroll down to go back in time. Most of this stuff I also designed. Click the links and photos.{" "}
-              <span className="nowrap"> In the works: </span> finishing documenting, testing, adding continuous integration. Looking for a remote company that I can grow with.
+              &thinsp; Below is a timeline of my development experience. Scroll down to go back in time. Most of this stuff I also designed. Click the links and photos. Currently finishing
+              documenting and testing recent projects. Now looking to join a remote company that I can grow with.
             </p>
           </section>
 
