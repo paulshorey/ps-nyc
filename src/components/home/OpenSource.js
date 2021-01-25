@@ -73,8 +73,7 @@ class OpenSource extends React.Component {
                   Research portal
                 </a>
               </b>{" "}
-              - <b className="titleFont">Search using Regular Expressions. </b> Job ad aggregator. Can be adapted to any other type of content like news, events, academic and legal articles.
-              Next iteration would perform RegExp search in ElasticSearch instead of in React.
+              - <b className="titleFont">Search using Regular Expressions. </b> Job ad aggregator. Can be adapted to any other type of content like news, events, legal articles.
             </p>
             <p>
               <b className="titleFont">
@@ -82,7 +81,7 @@ class OpenSource extends React.Component {
                   Dev notes
                 </a>
               </b>{" "}
-              - Few years of JavaScript programming notes. When I come across an interesting issue, I try to document it for myself and others.
+              - JavaScript programming notes. When I learn something new, I try to remember to document it.
             </p>
             <p>
               <b className="titleFont">
