@@ -11,13 +11,7 @@ exports.onCreateWebpackConfig = ({
         {
           test: /\.html$/,
           loader: "html-loader",
-        },
-        // {
-        //   loader: "markdown-loader",
-        //   options: {
-        //     pedantic: true,
-        //   }
-        // }
+        }
       ],
     },
     plugins: [

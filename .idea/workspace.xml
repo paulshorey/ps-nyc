@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/md/SUMMARY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/md/TODO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/md/cli.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/docs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +48,19 @@
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/html/projects" />
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/src/components/Jobs" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/styles" />
       <recent name="$PROJECT_DIR$/static/sami" />
       <recent name="$PROJECT_DIR$/src/assets/lib" />
       <recent name="$PROJECT_DIR$/src/containers/Jobs" />
       <recent name="$PROJECT_DIR$/src/components/Jobs" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/html/projects" />
-      <recent name="$PROJECT_DIR$/static/js" />
-      <recent name="$PROJECT_DIR$/src/components/Jobs" />
-      <recent name="$PROJECT_DIR$/src/assets/json" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -108,7 +113,8 @@
       <workItem from="1610131544009" duration="1564000" />
       <workItem from="1610312589750" duration="514000" />
       <workItem from="1610343705399" duration="9378000" />
-      <workItem from="1611093118518" duration="1220000" />
+      <workItem from="1611093118518" duration="1431000" />
+      <workItem from="1611353286685" duration="2733000" />
     </task>
     <servers />
   </component>
