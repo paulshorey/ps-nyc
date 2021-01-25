@@ -15,14 +15,15 @@ then
   printf "\n\npublishing %s branch\n\n" "$branch"
   npm version patch --no-git-tag-version &&
   npm run build &&
-  git add .
+  git add . &&
   #
   # Publish
   #
-#  rm -rf "$rootdir/../public/ps" &&
-#  mv "$rootdir/public" "$rootdir/../public/ps" &&
-#  cd "$rootdir/../public" &&
-#  git add . &&
+  rm -rf "$rootdir/../public/ps" &&
+  mv "$rootdir/public" "$rootdir/../public/ps" &&
+  cd "$rootdir/../public" &&
+  git add .
+#  &&
 #  git commit -m 'ps' &&
 #  git push
 else
