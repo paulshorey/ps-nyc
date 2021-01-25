@@ -22,10 +22,10 @@ then
   rm -rf "$rootdir/../public/ps" &&
   mv "$rootdir/public" "$rootdir/../public/ps" &&
   cd "$rootdir/../public" &&
-  git add .
-#  &&
-#  git commit -m 'ps' &&
-#  git push
+  git add . &&
+  git commit -m 'ps' &&
+  git push &&
+  printf "\n\nCOMPLETED PUBLISH SCRIPT\n\n"
 else
   #
   # Do not publish feature branches
