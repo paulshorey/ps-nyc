@@ -1,8 +1,8 @@
 {
   "name": "ps",
   "description": "Personal portfolio site",
-  "version": "0.1.1",
-  "author": "Paul Shorey <hellol@paulshorey.com>",
+  "version": "0.1.2",
+  "author": "Paul Shorey <hello@paulshorey.com>",
   "bugs": {
     "url": "https://github.com/paulshorey/ps/issues"
   },
@@ -35,7 +35,6 @@
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "babel-preset-gatsby": "^0.10.0",
     "html-loader": "^1.3.0",
-    "markdown-loader": "^6.0.0",
     "prettier": "^2.1.0",
     "sharp": "^0.26.3",
     "husky": "^4.3.7"
@@ -60,7 +59,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm version patch --no-git-tag-version && npm run build && npm run pub && git add ."
+      "pre-commit": "bash bin/precommit.sh"
     }
   }
 }
