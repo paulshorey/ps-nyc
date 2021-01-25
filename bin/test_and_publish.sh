@@ -19,11 +19,15 @@ then
   #
   # Publish
   #
+  printf "\n\nPUBLISHING TO PUBLIC SERVER\n\n" &&
   rm -rf "$rootdir/../public/ps" &&
   mv "$rootdir/public" "$rootdir/../public/ps" &&
   cd "$rootdir/../public" &&
+  printf "\n\n ADD \n\n" &&
   git add . &&
+  printf "\n\n COMMIT \n\n" &&
   git commit -m 'ps' &&
+  printf "\n\n PUSH \n\n" &&
   git push &&
   printf "\n\nCOMPLETED PUBLISH SCRIPT\n\n"
 else
