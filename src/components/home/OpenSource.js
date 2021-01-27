@@ -25,15 +25,20 @@ class OpenSource extends React.Component {
             {/*      <img src="/screenshots/domains/_thumb-domains.png" />*/}
             {/*    </a>*/}
             <p className="with_code">
-              <a href="https://github.com/paulshorey/colorful-console-logger" target="_blank" className="code_link bold">
-                npm i colorful-console-logger
-              </a>{" "}
+              <>
+                {" "}
+                <a href="https://github.com/paulshorey/colorful-console-logger" target="_blank" className="code_link bold">
+                  <span className="packageIcon">📦</span>npm i colorful-console-logger
+                </a>
+              </>{" "}
               &nbsp;Universal console.log replacement. Adds colors, trace, integrates with cloud-logging like LogDNA.
             </p>
             <p className="with_code">
-              <a href="https://github.com/twodashes/universal" target="_blank" className="code_link bold">
-                npm i @twodashes/universal
-              </a>{" "}
+              <>
+                <a href="https://github.com/twodashes/universal" target="_blank" className="code_link bold">
+                  <span className="packageIcon">📦</span>npm i @twodashes/universal
+                </a>
+              </>{" "}
               &nbsp;Started a utility JavaScript library like lodash. For data manipulation, filtering, sorting, text-analysis, requests, promises, error handling. Also{" "}
               <a href="https://github.com/twodashes/browser" target="_blank" className="code_link">
                 @twodashes/browser
@@ -41,9 +46,11 @@ class OpenSource extends React.Component {
               for platform-specific functions like AJAX, URL, resolution, etc.
             </p>
             <p className="with_code">
-              <a href="https://github.com/paulshorey/horizontal_carousel" target="_blank" className="code_link bold">
-                npm i horizontal_carousel
-              </a>{" "}
+              <>
+                <a href="https://github.com/paulshorey/horizontal_carousel" target="_blank" className="code_link bold">
+                  <span className="packageIcon">📦</span>npm i horizontal_carousel
+                </a>
+              </>{" "}
               - Image carousels you see here. Made because I could not find any script out there which would easily support variable-width content. No dependencies. Import as a React/app
               module or from CDN for website.
             </p>
@@ -91,6 +98,19 @@ class OpenSource extends React.Component {
               </b>{" "}
               - JavaScript coding test - uses a JS Class to manage the data, and React for visualization and user interaction
             </p>
+            {/*<p>*/}
+            {/*  <b className="titleFont">*/}
+            {/*    <a href="https://dogs.paulshorey.com" target="_blank">*/}
+            {/*      🐕&thinsp;&thinsp;NextJS React site*/}
+            {/*    </a>*/}
+            {/*  </b>{" "}*/}
+            {/*  - Starter codebase for a modern app. Featuring server-side-generated content from APIs, optimized images, end-to-end testing with Puppeteer, dynamic routes, custom bash*/}
+            {/*  scripts. Read about it on the{" "}*/}
+            {/*  <a href="https://github.com/paulshorey/dogs" target="_blank">*/}
+            {/*    GitHub repo*/}
+            {/*  </a>*/}
+            {/*  .*/}
+            {/*</p>*/}
           </div>
           <div className="description" id="past_work">
             <p>
@@ -121,7 +141,7 @@ const ProjectsStyled = styled.div`
     }
     a.code_link {
       position: relative;
-      top: -0.095rem;
+      top: -0.05rem;
       text-decoration: none !important;
       font-family: monospace;
       font-size: 0.9rem;
@@ -131,7 +151,17 @@ const ProjectsStyled = styled.div`
       &.bold {
         font-size: 1rem;
         font-weight: bold;
-        border-bottom: solid 2px;
+        border-bottom: solid 1.5px;
+      }
+      .packageIcon {
+        //position: absolute;
+        //left: -1.5rem;
+        //top: 0.5rem;
+        font-size: 0.95rem;
+        position: relative;
+        top: 0.15rem;
+        left: -1px;
+        padding-right: 0.5rem;
       }
     }
     h3 {
