@@ -10,50 +10,80 @@ class OpenSource extends React.Component {
     return (
       <ProjectsStyled className="content">
         <article>
-          <h3>
+          <h3 className="featured">
             {/*<FA icon={faGithub} />*/}
             {/*&thinsp;&thinsp;*/}
-            2020 - Open-Source projects + experiments:
+            2020 - Open-Source projects + Experiments:
           </h3>
           <div className="description">
-            {/*<div className="horizontal_carousel">*/}
-            {/*  <div className="slides">*/}
-            {/*    <a*/}
-            {/*      href="/screenshots/domains/domains.png"*/}
-            {/*      data-title="&nbsp;&nbsp; https://besta.domains - app to help you find available domain names &nbsp;&nbsp;"*/}
-            {/*    >*/}
-            {/*      <img src="/screenshots/domains/_thumb-domains.png" />*/}
-            {/*    </a>*/}
+            <span className="imagesFloatRight lightbox">
+              <a href="/screenshots/modules/cconsole.png">
+                <img src="/screenshots/modules/_thumb-cconsole.png" style={{ height: "80px" }} />
+              </a>
+            </span>
             <p className="with_code">
-              <>
-                {" "}
-                <a href="https://github.com/paulshorey/colorful-console-logger" target="_blank" className="code_link bold">
-                  <span className="packageIcon">📦</span>npm i colorful-console-logger
-                </a>
-              </>{" "}
-              &nbsp;Universal console.log replacement. Adds colors, trace, integrates with cloud-logging like LogDNA.
+              <a href="https://github.com/paulshorey/colorful-console-logger" target="_blank" className="code_link bold">
+                <span className="packageIcon">📦</span>colorful-console-logger
+              </a>
+              <br />
+              For NodeJS terminal. No dependencies. No setup required. Easily integrate with Cloud logging (LogDNA, etc). Visually group similar types of logs in the terminal. Show a concise
+              file/line trace for each message - so you can actually find where it's originating without looking through the entire codebase.
             </p>
+          </div>
+          <div className="description">
+            <span className="imagesFloatRight lightbox">
+              <a href="/screenshots/modules/twodashes-universal.png">
+                <img src="/screenshots/modules/_thumb-twodashes-universal.png" style={{ height: "80px" }} />
+              </a>
+            </span>
             <p className="with_code">
-              <>
-                <a href="https://github.com/twodashes/universal" target="_blank" className="code_link bold">
-                  <span className="packageIcon">📦</span>npm i @twodashes/universal
-                </a>
-              </>{" "}
-              &nbsp;Started a utility JavaScript library like lodash. For data manipulation, filtering, sorting, text-analysis, requests, promises, error handling. Also{" "}
+              <a href="https://github.com/twodashes/universal" target="_blank" className="code_link bold">
+                <span className="packageIcon">📦</span>@twodashes/universal
+              </a>
+              <br />
+              Started a universal JavaScript utility library like lodash. For data manipulation, filtering, sorting, text-analysis, requests, promises, error handling. Also{" "}
               <a href="https://github.com/twodashes/browser" target="_blank" className="code_link">
                 @twodashes/browser
               </a>{" "}
               for platform-specific functions like AJAX, URL, resolution, etc.
             </p>
+          </div>
+          <div className="description">
+            <span className="imagesFloatRight lightbox">
+              <a href="/screenshots/modules/horizontal_carousel.png">
+                <img src="/screenshots/modules/_thumb-horizontal_carousel.png" style={{ height: "80px" }} />
+              </a>
+            </span>
             <p className="with_code">
-              <>
-                <a href="https://github.com/paulshorey/horizontal_carousel" target="_blank" className="code_link bold">
-                  <span className="packageIcon">📦</span>npm i horizontal_carousel
-                </a>
-              </>{" "}
-              - Image carousels you see here. Made because I could not find any script out there which would easily support variable-width content. No dependencies. Import as a React/app
+              <a href="https://github.com/paulshorey/horizontal_carousel" target="_blank" className="code_link bold">
+                <span className="packageIcon">📦</span>horizontal_carousel
+              </a>
+              <br />
+              Image carousels you see here. Made because I could not find any script out there which would easily support variable-width content. No dependencies. Import as a React/app
               module or from CDN for website.
             </p>
+          </div>
+          <div className="description">
+            <span className="imagesFloatRight lightbox">
+              <a href="/screenshots/jobs/senior-software-engineer.png">
+                <img src="/screenshots/jobs/_thumb-senior-software-engineer.png" style={{ height: "80px" }} />
+              </a>
+            </span>
+            <p>
+              <b className="titleFont">
+                <a href="http://jobs.paulshorey.com" target="_blank">
+                  Research portal
+                </a>
+              </b>{" "}
+              - <b className="titleFont">Search using Regular Expressions. </b> Job ad aggregator. Can be adapted to any other type of content like news, events, legal articles.
+            </p>
+          </div>
+          <div className="description">
+            <span className="imagesFloatRight lightbox">
+              <a href="/screenshots/modules/fly-swatter.png">
+                <img src="/screenshots/modules/_thumb-fly-swatter.png" style={{ height: "80px" }} />
+              </a>
+            </span>
             <p>
               <b className="titleFont">
                 <a href="https://github.com/paulshorey/FlySwatterTech" target="_blank">
@@ -62,65 +92,6 @@ class OpenSource extends React.Component {
               </b>{" "}
               <b className="titleFont">to close popups, cookie/terms consent banners, floating advertisements, newsletter promotions,&nbsp;</b>
               etc. Works reliably without breaking the page, unlike others I've tried. Does not trigger news sites' ad-blocker blocker. Finally, browse in peace. Try it.
-            </p>
-            <p>
-              <span className="imagesFloatRight lightbox">
-                <a href="/screenshots/jobs/senior-software-engineer.png">
-                  <img src="/screenshots/jobs/_thumb-senior-software-engineer.png" />
-                </a>
-                <a
-                  href="/screenshots/domains-code/npm-run-thumb.png"
-                  data-title="&nbsp;&nbsp; Node script started by `npm run thumb` - makes a small thumbnail copy of all images in specified path (recursively). &nbsp;&nbsp;"
-                >
-                  <img src="/screenshots/domains-code/_thumb-npm-run-thumb.png" />
-                </a>
-              </span>
-              <b className="titleFont">
-                <a href="http://jobs.paulshorey.com" target="_blank">
-                  Research portal
-                </a>
-              </b>{" "}
-              - <b className="titleFont">Search using Regular Expressions. </b> Job ad aggregator. Can be adapted to any other type of content like news, events, legal articles.
-            </p>
-            <p>
-              <b className="titleFont">
-                <a href="http://notes.paulshorey.com" target="_blank">
-                  Dev notes
-                </a>
-              </b>{" "}
-              - JavaScript programming notes. When I learn something new, I try to remember to document it.
-            </p>
-            <p>
-              <b className="titleFont">
-                <a href="https://github.com/paulshorey/minesweeper" target="_blank">
-                  Minesweeper game
-                </a>
-              </b>{" "}
-              - JavaScript coding test - uses a JS Class to manage the data, and React for visualization and user interaction
-            </p>
-            {/*<p>*/}
-            {/*  <b className="titleFont">*/}
-            {/*    <a href="https://dogs.paulshorey.com" target="_blank">*/}
-            {/*      🐕&thinsp;&thinsp;NextJS React site*/}
-            {/*    </a>*/}
-            {/*  </b>{" "}*/}
-            {/*  - Starter codebase for a modern app. Featuring server-side-generated content from APIs, optimized images, end-to-end testing with Puppeteer, dynamic routes, custom bash*/}
-            {/*  scripts. Read about it on the{" "}*/}
-            {/*  <a href="https://github.com/paulshorey/dogs" target="_blank">*/}
-            {/*    GitHub repo*/}
-            {/*  </a>*/}
-            {/*  .*/}
-            {/*</p>*/}
-          </div>
-          <div className="description" id="past_work">
-            <p>
-              {/*I'm always building something! Coming from a design background, self taught, I enjoy making the end product and best*/}
-              {/*possible user experience. Of course code quality and maintainability are extremely important. I constantly*/}
-              {/*strive to write better code, to learn more. Never done learning.*/}
-
-              {/*Looking forward to collaborating, sharing ideas, learning from new colleagues, solving new challenges.*/}
-              {/*Spent most of 2020 practicing full-stack web development, data science, documentation, and copywriting.*/}
-              {/*These projects are works in progress. Currently adding unit tests and more complete documentation.*/}
             </p>
           </div>
         </article>
@@ -134,6 +105,12 @@ export default OpenSource
 const ProjectsStyled = styled.div`
   article {
     margin: 1.75rem 0 3.5rem 0;
+    .description {
+      border-bottom: solid 1px #efefef;
+      &:last-child {
+        border: none;
+      }
+    }
     p {
       &.with_code {
         margin: 1rem 0;
@@ -144,12 +121,11 @@ const ProjectsStyled = styled.div`
       top: -0.05rem;
       text-decoration: none !important;
       font-family: monospace;
-      font-size: 0.9rem;
+      font-size: 1.125rem;
       letter-spacing: -0.025rem;
       border-bottom: solid 1px;
       line-height: 0.5rem;
       &.bold {
-        font-size: 1rem;
         font-weight: bold;
         border-bottom: solid 1.5px;
       }
@@ -161,7 +137,7 @@ const ProjectsStyled = styled.div`
         position: relative;
         top: 0.15rem;
         left: -1px;
-        padding-right: 0.5rem;
+        padding-right: 0.2rem;
       }
     }
     h3 {

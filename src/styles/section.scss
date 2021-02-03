@@ -32,12 +32,14 @@ section {
   article {
     margin: 3rem auto;
     h3 {
+      font-size: 1.75rem;
+      line-height: 1.75rem;
       margin-bottom: 0.75rem;
       font-family: "Adobe Caslon Pro", "Adobe Garamond Pro", "bodoni 72", serif;
     }
     h3.featured {
-      font-size: 1.75rem;
-      line-height: 1.75rem;
+      //font-size: 2rem;
+      //line-height: 2rem;
     }
     p {
       line-height: 1.6rem;

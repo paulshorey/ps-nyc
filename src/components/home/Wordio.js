@@ -19,9 +19,8 @@ class Wordio extends React.Component {
                 </a>{" "}
                 {/*<code className="color-medium vrsn">beta</code>{" "}*/}
               </b>
-              - After working at an AI company for a couple years, I wanted try my hand at data and text analysis. This started out as a quick evening side project. It's now the best domain
-              name suggestions engine in the industry. It doesn't just search. It actually generates new phrases using Natural Language Processing! Also, an API to check availability of 100s
-              of names at a time, load balanced across 10 servers for x10 speed. The front-end is optimized to check only the results which are in view.{" "}
+              - The best domain name suggestions. App and API. It doesn't just search, but actually generates new phrases using Natural Language Processing! Also check availability of 100s
+              of names at a time. Load balanced cloud of 10 servers returns results x10 faster. The front-end is optimized to check only the results which are in view.{" "}
               {/*For this I created a load-balancer of 10 cloud servers. When you make a call to the API, it distributes the 100s of domains evenly accross the servers, for x10 faster response.&nbsp;*/}
               <span className="nowrap hide-small">
                 API documentation:{" "}
@@ -54,7 +53,43 @@ class Wordio extends React.Component {
               {/*  /!*</span>*!/*/}
               {/*</span>*/}
             </p>
+
+            <div className="horizontal_carousel lightbox">
+              <div className="slides">
+                <a href="/screenshots/domains/domains.png" data-title="&nbsp;&nbsp; https://besta.domains - app to help you find available domain names &nbsp;&nbsp;">
+                  <img src="/screenshots/domains/_thumb-domains.png" />
+                </a>
+                <a href="/screenshots/domains/domain_wordbreak.png" data-title="&nbsp;&nbsp; Using my own linguistic tools to do word breaking / lemmatization / tokenization &nbsp;&nbsp;">
+                  <img src="/screenshots/domains/_thumb-domain_wordbreak.png" />
+                </a>
+                <a
+                  href="/screenshots/domains/domain_wip.png"
+                  data-title="&nbsp;&nbsp; This app (API) actually generates new phrases similar to your search term. See some code samples below. &nbsp;&nbsp;"
+                >
+                  <img src="/screenshots/domains/_thumb-domain_wip.png" />
+                </a>
+                <a
+                  href="/screenshots/domains/domain_edit.png"
+                  data-title="&nbsp;&nbsp; Admin tool: to suggest relevant TLDs, we find related words of each TLD (.app, .haus, .red, .cat, .accountant) &nbsp;&nbsp;"
+                >
+                  <img src="/screenshots/domains/_thumb-domain_edit.png" />
+                </a>
+                <a href="/screenshots/domains/domains_all_edit.png" data-title="&nbsp;&nbsp; Admin tool: look through each TLD, and find any that need more synonyms. &nbsp;&nbsp;">
+                  <img src="/screenshots/domains/_thumb-domains_all_edit.png" />
+                </a>
+                <a href="/screenshots/domains/word_view.png" data-title="&nbsp;&nbsp; https://wordio.co - thesaurus app (demo to browse our database) &nbsp;&nbsp;">
+                  <img src="/screenshots/domains/_thumb-word_view.png" />
+                </a>
+                <a href="/screenshots/domains/word_edit.png" data-title="&nbsp;&nbsp; Admin tool: edit the word - parts of speech, sentiment, synonyms, abbreviations, etc. &nbsp;&nbsp;">
+                  <img src="/screenshots/domains/_thumb-word_edit.png" />
+                </a>
+                <a href="/screenshots/domains/api_docs.png" data-title="&nbsp;&nbsp; Learn about endpoints, inputs, outputs, links to subscribe and to test in sandbox. &nbsp;&nbsp;">
+                  <img src="/screenshots/domains/_thumb-api_docs.png" />
+                </a>
+              </div>
+            </div>
           </div>
+
           <div className="description">
             <p>
               <b className="titleFont">
@@ -87,82 +122,55 @@ class Wordio extends React.Component {
               {/*  wordio.co*/}
               {/*</a>*/}
             </p>
-          </div>
-          <div className="horizontal_carousel lightbox">
-            <div className="slides">
-              <a href="/screenshots/domains/domains.png" data-title="&nbsp;&nbsp; https://besta.domains - app to help you find available domain names &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-domains.png" />
-              </a>
-              <a href="/screenshots/domains/domain_wordbreak.png" data-title="&nbsp;&nbsp; Using my own linguistic tools to do word breaking / lemmatization / tokenization &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-domain_wordbreak.png" />
-              </a>
-              <a
-                href="/screenshots/domains/domain_wip.png"
-                data-title="&nbsp;&nbsp; This app (API) actually generates new phrases similar to your search term. See some code samples below. &nbsp;&nbsp;"
-              >
-                <img src="/screenshots/domains/_thumb-domain_wip.png" />
-              </a>
-              <a
-                href="/screenshots/domains/domain_edit.png"
-                data-title="&nbsp;&nbsp; Admin tool: to suggest relevant TLDs, we find related words of each TLD (.app, .haus, .red, .cat, .accountant) &nbsp;&nbsp;"
-              >
-                <img src="/screenshots/domains/_thumb-domain_edit.png" />
-              </a>
-              <a href="/screenshots/domains/domains_all_edit.png" data-title="&nbsp;&nbsp; Admin tool: look through each TLD, and find any that need more synonyms. &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-domains_all_edit.png" />
-              </a>
-              <a href="/screenshots/domains/word_view.png" data-title="&nbsp;&nbsp; https://wordio.co - thesaurus app (demo to browse our database) &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-word_view.png" />
-              </a>
-              <a href="/screenshots/domains/word_edit.png" data-title="&nbsp;&nbsp; Admin tool: edit the word - parts of speech, sentiment, synonyms, abbreviations, etc. &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-word_edit.png" />
-              </a>
-              <a href="/screenshots/domains/api_docs.png" data-title="&nbsp;&nbsp; Learn about endpoints, inputs, outputs, links to subscribe and to test in sandbox. &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-api_docs.png" />
-              </a>
-            </div>
-          </div>
-          <div className="horizontal_carousel lightbox" id="code_samples">
-            <div className="slides">
-              <a href="/screenshots/domains/wordio-co.png" data-title="&nbsp;&nbsp; https://wordio.co - API explorer. Test out the data without signing up for anything. &nbsp;&nbsp;">
-                <img src="/screenshots/domains/_thumb-wordio-co.png" />
-              </a>
-              <a href="/screenshots/domains-code/nlp-be-api.png" data-title="&nbsp;&nbsp; Node.js Express API - each endpoint in its own folder - helper code in ES Modules &nbsp;&nbsp;">
-                <img src="/screenshots/domains-code/_thumb-nlp-be-api.png" />
-              </a>
-              <a
-                href="/screenshots/domains-code/nlp-be-markov-strings.png"
-                data-title="&nbsp;&nbsp; Combining pairs of complementary words (from synonyms/derivations) to make a simple phrase (like adjective->noun) &nbsp;&nbsp;"
-              >
-                <img src="/screenshots/domains-code/_thumb-nlp-be-markov-strings.png" />
-              </a>
-              <a
-                href="/screenshots/domains-code/nlp-be-add_original.png"
-                data-title="&nbsp;&nbsp; Makes a matrix data structure from an array, then finds all possibilities and saves as a flat list &nbsp;&nbsp;"
-              >
-                <img src="/screenshots/domains-code/_thumb-nlp-be-add_original.png" />
-              </a>
-              <a
-                href="/screenshots/domains-code/nlp-be-domains_lists.png"
-                data-title="&nbsp;&nbsp; Domain suggestions created in a dictionary of collections. Converted to list. Rated. Sorted. &nbsp;&nbsp;"
-              >
-                <img src="/screenshots/domains-code/_thumb-nlp-be-domains_lists.png" />
-              </a>
-              <a href="/screenshots/domains-code/nlp-fe-Dom.png" data-title="&nbsp;&nbsp; Render each domain suggestion result - find status code (available/premium/etc). &nbsp;&nbsp;">
-                <img src="/screenshots/domains-code/_thumb-nlp-fe-Dom.png" />
-              </a>
-              <a
-                href="/screenshots/domains-code/nlp-fe-Doms.styled.png"
-                data-title="&nbsp;&nbsp; Styled-components are awesome! Classic SCSS format, but use JavaScript variables and functions. Like this is_retina(). &nbsp;&nbsp;"
-              >
-                <img src="/screenshots/domains-code/_thumb-nlp-fe-Doms.styled.png" />
-              </a>
-              <a
-                href="/screenshots/domains-code/nlp-fe-inputTld.png"
-                data-title="&nbsp;&nbsp; Besta.domains React front-end - Input text field (and Select dropdown) user interaction events. &nbsp;&nbsp;"
-              >
-                <img src="/screenshots/domains-code/_thumb-nlp-fe-inputTld.png" />
-              </a>
+
+            <div className="horizontal_carousel lightbox" id="code_samples">
+              <div className="slides">
+                <a href="/screenshots/domains/wordio-co.png" data-title="&nbsp;&nbsp; https://wordio.co - API explorer. Test out the data without signing up for anything. &nbsp;&nbsp;">
+                  <img src="/screenshots/domains/_thumb-wordio-co.png" />
+                </a>
+                <a href="/screenshots/domains-code/nlp-be-api.png" data-title="&nbsp;&nbsp; Node.js Express API - each endpoint in its own folder - helper code in ES Modules &nbsp;&nbsp;">
+                  <img src="/screenshots/domains-code/_thumb-nlp-be-api.png" />
+                </a>
+                <a
+                  href="/screenshots/domains-code/nlp-be-markov-strings.png"
+                  data-title="&nbsp;&nbsp; Combining pairs of complementary words (from synonyms/derivations) to make a simple phrase (like adjective->noun) &nbsp;&nbsp;"
+                >
+                  <img src="/screenshots/domains-code/_thumb-nlp-be-markov-strings.png" />
+                </a>
+                <a
+                  href="/screenshots/domains-code/nlp-be-add_original.png"
+                  data-title="&nbsp;&nbsp; Makes a matrix data structure from an array, then finds all possibilities and saves as a flat list &nbsp;&nbsp;"
+                >
+                  <img src="/screenshots/domains-code/_thumb-nlp-be-add_original.png" />
+                </a>
+                <a
+                  href="/screenshots/domains-code/nlp-be-domains_lists.png"
+                  data-title="&nbsp;&nbsp; Domain suggestions created in a dictionary of collections. Converted to list. Rated. Sorted. &nbsp;&nbsp;"
+                >
+                  <img src="/screenshots/domains-code/_thumb-nlp-be-domains_lists.png" />
+                </a>
+                <a href="/screenshots/domains-code/nlp-fe-Dom.png" data-title="&nbsp;&nbsp; Render each domain suggestion result - find status code (available/premium/etc). &nbsp;&nbsp;">
+                  <img src="/screenshots/domains-code/_thumb-nlp-fe-Dom.png" />
+                </a>
+                <a
+                  href="/screenshots/domains-code/nlp-fe-Doms.styled.png"
+                  data-title="&nbsp;&nbsp; Styled-components are awesome! Classic SCSS format, but use JavaScript variables and functions. Like this is_retina(). &nbsp;&nbsp;"
+                >
+                  <img src="/screenshots/domains-code/_thumb-nlp-fe-Doms.styled.png" />
+                </a>
+                <a
+                  href="/screenshots/domains-code/nlp-fe-inputTld.png"
+                  data-title="&nbsp;&nbsp; Besta.domains React front-end - Input text field (and Select dropdown) user interaction events. &nbsp;&nbsp;"
+                >
+                  <img src="/screenshots/domains-code/_thumb-nlp-fe-inputTld.png" />
+                </a>
+                <a
+                  href="/screenshots/domains-code/npm-run-thumb.png"
+                  data-title="&nbsp;&nbsp; Node script started by `npm run thumb` - makes a small thumbnail copy of all images in specified path (recursively). &nbsp;&nbsp;"
+                >
+                  <img src="/screenshots/domains-code/_thumb-npm-run-thumb.png" />
+                </a>
+              </div>
             </div>
           </div>
         </article>

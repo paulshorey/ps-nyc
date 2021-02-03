@@ -148,6 +148,17 @@ export default class extends React.Component {
 const ProjectsStyled = styled.div`
   max-width: 100vw;
   overflow: hidden;
+  .titleFont {
+    font-weight: 800;
+  }
+  .description {
+    margin-bottom: 1.125rem;
+    &::after {
+      content: "";
+      display: block;
+      clear: both;
+    }
+  }
   .top_caption {
     font-size: 1rem;
     margin-top: 1rem;
