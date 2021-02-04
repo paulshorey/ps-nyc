@@ -23,7 +23,7 @@ class OpenSource extends React.Component {
             </span>
             <p className="with_code">
               <a href="https://github.com/paulshorey/colorful-console-logger" target="_blank" className="code_link bold">
-                npm <span className="packageIcon">📦</span>colorful-console-logger
+                npm&thinsp;<span className="packageIcon">📦</span>colorful-console-logger
               </a>
               <br />
               For NodeJS terminal. No dependencies. No setup required. Easily integrate with Cloud logging (LogDNA, etc). Visually group similar types of logs in the terminal. Show a concise
@@ -38,7 +38,7 @@ class OpenSource extends React.Component {
             </span>
             <p className="with_code">
               <a href="https://github.com/twodashes/universal" target="_blank" className="code_link bold">
-                npm <span className="packageIcon">📦</span>@twodashes/universal
+                npm&thinsp;<span className="packageIcon">📦</span>@twodashes/universal
               </a>
               <br />
               Started a universal JavaScript utility library like lodash. For data manipulation, filtering, sorting, text-analysis, requests, promises, error handling. Also{" "}
@@ -56,7 +56,7 @@ class OpenSource extends React.Component {
             </span>
             <p className="with_code">
               <a href="https://github.com/paulshorey/horizontal_carousel" target="_blank" className="code_link bold">
-                npm <span className="packageIcon">📦</span>horizontal_carousel
+                npm&thinsp;<span className="packageIcon">📦</span>horizontal_carousel
               </a>
               <br />
               Image carousels you see here. Made because I could not find any script out there which would easily support variable-width content. No dependencies. Import as a React/app
