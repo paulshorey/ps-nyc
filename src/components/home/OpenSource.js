@@ -80,6 +80,22 @@ class OpenSource extends React.Component {
           </div>
           <div className="description">
             <span className="imagesFloatRight lightbox">
+              <a href="/screenshots/modules/cocktailsdb.png">
+                <img src="/screenshots/modules/_thumb-cocktailsdb.png" style={{ height: "80px" }} />
+              </a>
+            </span>
+            <p>
+              <b className="titleFont">
+                <a href="https://cocktails.paulshorey.com" target="_blank">
+                  Cocktails DB
+                </a>
+              </b>{" "}
+              - Code sample. Based on a code challenge from a prospective employer. I used it as a sandbox to test out some new front-end techniques and architectures: alaSQL, React bound
+              components, custom select, Jest end-to-end testing.
+            </p>
+          </div>
+          <div className="description">
+            <span className="imagesFloatRight lightbox">
               <a href="/screenshots/modules/fly-swatter.png">
                 <img src="/screenshots/modules/_thumb-fly-swatter.png" style={{ height: "80px" }} />
               </a>
