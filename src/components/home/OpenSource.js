@@ -12,7 +12,7 @@ class OpenSource extends React.Component {
         <article>
           <h3 className="featured">
             <FA icon={faGithub} style={{ transform: "scaleX(1.125)" }} />
-            &thinsp;&thinsp; Open-Source projects, code samples, and experiments:
+            &thinsp;&thinsp; Open-Source projects and experiments:
           </h3>
           <div className="description">
             <span className="imagesFloatRight lightbox">
