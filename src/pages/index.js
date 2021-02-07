@@ -7,7 +7,7 @@ import carousel_aboutme from "src/html/home/aboutme_carousel.html"
 import projects_past from "src/html/home/past.html"
 import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
 import { faArrowDown } from "@fortawesome/pro-regular-svg-icons/faArrowDown"
-// import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
+import { faFileDownload } from "@fortawesome/pro-solid-svg-icons"
 import { LuminousGallery } from "luminous-lightbox"
 import "luminous-lightbox/dist/luminous-basic.css"
 import Header from "../components/Header"
@@ -60,8 +60,7 @@ export default class extends React.Component {
           <Header />
           <div className="content full">
             <p className="top_text">
-              👋&thinsp;&thinsp;I've been coding since 2008. Really enjoy web technologies, creating something from nothing, collaborating with people. Love designing and building software.
-              Let's meet!
+              Hi!&nbsp; 👋 I've been coding since 2008. Enjoy creating something from nothing, collaborating with people, designing and developing software. Let's build something together!
             </p>
           </div>
           <div className="content full flex" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} style={{ overflow: "auto" }}></div>
@@ -71,8 +70,10 @@ export default class extends React.Component {
           <section className="content">
             <p className="top_caption slight_right_overflow">
               <FA icon={faArrowDown} className="faArrowDown x85 color-attention" />
-              &thinsp; Below is a timeline of my development experience. Scroll down to go back in time. Most of this stuff I also designed. Click the links and photos. Currently finishing
-              documenting and testing recent projects. Now looking to join a remote company that I can grow with.
+              &thinsp; Below is a timeline of my past experience. Currently looking for a good remote company that I can grow with.{" "}
+              <a href="https://paulshorey.com/files/PaulShorey-SoftwareEngineer.pdf" target="_blank">
+                <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} /> Resume
+              </a>
             </p>
           </section>
 
@@ -162,7 +163,7 @@ const ProjectsStyled = styled.div`
   .top_caption {
     font-size: 1rem;
     margin-top: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
   .beyond_limits {
     margin: 4.5rem 0;

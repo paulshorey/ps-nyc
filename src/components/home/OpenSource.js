@@ -1,6 +1,6 @@
 import React from "react"
-// import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
-// import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
+import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
+import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
 import styled from "styled-components"
 // import Wordio from "./Wordio"
 // import { Link } from "gatsby"
@@ -11,9 +11,8 @@ class OpenSource extends React.Component {
       <ProjectsStyled className="content">
         <article>
           <h3 className="featured">
-            {/*<FA icon={faGithub} />*/}
-            {/*&thinsp;&thinsp;*/}
-            2020 - Open-Source projects + Experiments:
+            <FA icon={faGithub} style={{ transform: "scaleX(1.125)" }} />
+            &thinsp;&thinsp; Open-Source projects, code samples, and experiments:
           </h3>
           <div className="description">
             <span className="imagesFloatRight lightbox">
@@ -75,7 +74,7 @@ class OpenSource extends React.Component {
                   Research portal
                 </a>
               </b>{" "}
-              - <b className="titleFont">Search using Regular Expressions. </b> Job ad aggregator. Can be adapted to any other type of content like news, events, legal articles.
+              - An experiment. React app. Search using Regular Expressions. Job ad aggregator. Can be adapted to any other type of content like news, events, legal articles.
             </p>
           </div>
           <div className="description">
@@ -83,15 +82,22 @@ class OpenSource extends React.Component {
               <a href="/screenshots/modules/cocktailsdb.png">
                 <img src="/screenshots/modules/_thumb-cocktailsdb.png" style={{ height: "80px" }} />
               </a>
+              <a href="/screenshots/modules/dogsdb.png">
+                <img src="/screenshots/modules/_thumb-dogsdb.png" style={{ height: "80px" }} />
+              </a>
             </span>
             <p>
               <b className="titleFont">
                 <a href="https://cocktails.paulshorey.com" target="_blank">
-                  Cocktails DB
+                  CocktailsDB
+                </a>{" "}
+                &amp;{" "}
+                <a href="https://dogs.paulshorey.com" target="_blank">
+                  DogsDB
                 </a>
               </b>{" "}
-              - Code sample. Based on a code challenge from a prospective employer. I used it as a sandbox to test out some new front-end techniques and architectures: alaSQL, React bound
-              components, custom select, Jest end-to-end testing.
+              - <b className="titleFont">React starter codebases.</b> Testing out some new front-end techniques and architectures: NextJS SSR/SSG, alaSQL, React bound components, custom
+              select, Jest functional testing, CI.
             </p>
           </div>
           <div className="description">
@@ -108,6 +114,22 @@ class OpenSource extends React.Component {
               </b>{" "}
               <b className="titleFont">to close popups, cookie/terms consent banners, floating advertisements, newsletter promotions,&nbsp;</b>
               etc. Works reliably without breaking the page, unlike others I've tried. Does not trigger news sites' ad-blocker blocker. Finally, browse in peace. Try it.
+            </p>
+          </div>
+          <div className="description">
+            <span className="imagesFloatRight lightbox">
+              <a href="/screenshots/modules/thumbnails-script.png">
+                <img src="/screenshots/modules/_thumb-thumbnails-script.png" style={{ height: "80px" }} />
+              </a>
+            </span>
+            <p>
+              <b className="titleFont">
+                <a href="https://github.com/paulshorey/FlySwatterTech" target="_blank">
+                  Code sample
+                </a>
+              </b>{" "}
+              - Problem solving, catching edge cases. Making a NodeJS script to automate CI or development pipelines. Recursive filesystem manipulation. More NodeJS code samples above under
+              Wordio.co.
             </p>
           </div>
         </article>

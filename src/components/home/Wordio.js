@@ -10,7 +10,7 @@ class Wordio extends React.Component {
         <article>
           <a name="besta" id="besta" className="a_target" />
 
-          <h3>2020 - Built some Micro-SaaS APIs and apps:</h3>
+          <h3>2020 - Micro-SaaS (React apps and Node APIs):</h3>
           <div className="description">
             <p>
               <b className="titleFont">

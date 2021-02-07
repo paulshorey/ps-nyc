@@ -23,26 +23,25 @@ const findImageFilesRecursive = function (dirPath = "", arrayOfFiles = []) {
 }
 
 // FOLDER NAME FROM CLI first argument
-const dir = process.argv.slice(2)[0]
+const dir = process.argv.slice(2)[0] || "."
 
 // RUN, then quit process after finished
 ;(async function () {
   try {
-    // PROCESS EACH FOLDER in folder, RECURSIVELY
+    // PROCESS EACH FILE in folder, RECURSIVELY
     let files = findImageFilesRecursive(dir)
-    // delete old thumbnail
     for (let file of files) {
-      if (file.includes("_thumb-")) {
-        fs.unlinkSync(file)
-      }
-    }
-    // make new thumbnails
-    for (let file of files) {
-      // resize options
+      // metadata about the file
       let file_name_start = file.lastIndexOf("/") + 1
-      let file_name = file.substr(file_name_start)
+      let file_name = file.substr(file_name_start) + ""
       let file_path = file.substr(0, file_name_start)
       let file_thumb = file_path + "_thumb-" + file_name
+      // delete old thumbnail
+      if (file.includes("_thumb-")) {
+        fs.unlinkSync(file)
+        continue
+      }
+      // make new thumbnails
       // resize image
       await sharp(file).resize(null, 272).toFile(file_thumb).catch(console.warn)
     }
@@ -54,4 +53,3 @@ const dir = process.argv.slice(2)[0]
   }
   process.exit()
 })()
-
