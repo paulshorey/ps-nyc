@@ -12,7 +12,7 @@ class OpenSource extends React.Component {
         <article>
           <h3 className="featured">
             <FA icon={faGithub} style={{ transform: "scaleX(1.125)" }} />
-            &thinsp;&thinsp; Open-Source projects:
+            &nbsp; Open-Source projects:
           </h3>
           <div className="description">
             <span className="imagesFloatRight lightbox">
@@ -118,7 +118,7 @@ class OpenSource extends React.Component {
                 </a>
               </b>{" "}
               - another NextJS React starter codebase. Uses alaSQL to run a database in the front-end on the browser, for fast sorting/filtering. Uses experimental React bound components,
-              custom select, and same testing as DogsDB.{" "}
+              custom select.{" "}
               <a href="https://github.com/paulshorey/DogsJS" target="_blank">
                 README.md
               </a>
