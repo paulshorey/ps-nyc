@@ -12,7 +12,7 @@ class OpenSource extends React.Component {
         <article>
           <h3 className="featured">
             <FA icon={faGithub} style={{ transform: "scaleX(1.125)" }} />
-            &thinsp;&thinsp; Open-Source projects and experiments:
+            &thinsp;&thinsp; Open-Source projects:
           </h3>
           <div className="description">
             <span className="imagesFloatRight lightbox">
@@ -64,24 +64,25 @@ class OpenSource extends React.Component {
           </div>
           <div className="description">
             <span className="imagesFloatRight lightbox">
-              <a href="/screenshots/jobs/senior-software-engineer.png">
-                <img src="/screenshots/jobs/_thumb-senior-software-engineer.png" style={{ height: "80px" }} />
+              <a href="/screenshots/modules/fly-swatter.png">
+                <img src="/screenshots/modules/_thumb-fly-swatter.png" style={{ height: "80px" }} />
               </a>
             </span>
             <p>
               <b className="titleFont">
-                <a href="http://jobs.paulshorey.com" target="_blank">
-                  Research portal
+                <a href="https://github.com/paulshorey/FlySwatterTech" target="_blank">
+                  🦟⚡ Browser extension
                 </a>
               </b>{" "}
-              - An experiment. React app. Search using Regular Expressions. Job ad aggregator. Can be adapted to any other type of content like news, events, legal articles.
+              <b className="titleFont">to close annoying popups, cookie/terms consent banners, floating advertisements, newsletter promotions,&nbsp;</b>
+              etc. Works reliably without breaking the page, unlike others I've tried. Does not trigger news sites' ad-blocker blocker. Finally, browse in peace. Try it.
             </p>
           </div>
+        </article>
+        <article>
+          <h3 className="featured">Code samples</h3>
           <div className="description">
             <span className="imagesFloatRight lightbox">
-              <a href="/screenshots/modules/cocktailsdb.png">
-                <img src="/screenshots/modules/_thumb-cocktailsdb.png" style={{ height: "80px" }} />
-              </a>
               <a href="/screenshots/modules/dogsdb.png">
                 <img src="/screenshots/modules/_thumb-dogsdb.png" style={{ height: "80px" }} />
               </a>
@@ -90,14 +91,10 @@ class OpenSource extends React.Component {
               <b className="titleFont">
                 <a href="https://dogs.paulshorey.com" target="_blank">
                   DogsDB
-                </a>{" "}
-                &amp;{" "}
-                <a href="https://cocktails.paulshorey.com" target="_blank">
-                  CocktailsDB
                 </a>
               </b>{" "}
-              - <b className="titleFont">NextJS React starter codebases.</b> Trying out some new front-end techniques and architectures: SSR/SSG, alaSQL, React bound components, custom
-              select, CI. Uses{" "}
+              - <b className="titleFont">NextJS React starter codebase.</b> Server-side generated routes and content for instant loading, like in a traditional PHP/Ruby website. Trying out
+              some new front-end techniques. Uses{" "}
               <a href="https://github.com/paulshorey/DogsJS/tree/main/tests" target="_blank">
                 Jest and Puppeteer to do functional testing
               </a>
@@ -110,18 +107,18 @@ class OpenSource extends React.Component {
           </div>
           <div className="description">
             <span className="imagesFloatRight lightbox">
-              <a href="/screenshots/modules/fly-swatter.png">
-                <img src="/screenshots/modules/_thumb-fly-swatter.png" style={{ height: "80px" }} />
+              <a href="/screenshots/modules/cocktailsdb.png">
+                <img src="/screenshots/modules/_thumb-cocktailsdb.png" style={{ height: "80px" }} />
               </a>
             </span>
             <p>
               <b className="titleFont">
-                <a href="https://github.com/paulshorey/FlySwatterTech" target="_blank">
-                  Browser extension
+                <a href="https://cocktails.paulshorey.com" target="_blank">
+                  CocktailsDB
                 </a>
               </b>{" "}
-              <b className="titleFont">to close popups, cookie/terms consent banners, floating advertisements, newsletter promotions,&nbsp;</b>
-              etc. Works reliably without breaking the page, unlike others I've tried. Does not trigger news sites' ad-blocker blocker. Finally, browse in peace. Try it.
+              - another NextJS React starter codebase. Uses alaSQL to run a database in the front-end on the browser, for fast sorting/filtering. Uses experimental React bound components,
+              custom select, and same testing as DogsDB.
             </p>
           </div>
           <div className="description">
@@ -133,11 +130,39 @@ class OpenSource extends React.Component {
             <p>
               <b className="titleFont">
                 <a href="https://github.com/paulshorey/FlySwatterTech" target="_blank">
-                  Code sample
+                  Create thumbnail images
                 </a>
               </b>{" "}
-              - Problem solving, catching edge cases. Making a NodeJS script to automate CI or development pipelines. Recursive filesystem manipulation. More NodeJS code samples above under
-              Wordio.co.
+              in all folders, recursively, using Node.js. Quick custom script for the CLI. Screenshot shows an interesting programming issue, and how I solved it. More NodeJS code samples
+              above under Wordio.co.
+            </p>
+          </div>
+          <div className="description">
+            <p>
+              <b className="titleFont">
+                <a href="https://github.com/paulshorey/minesweeper" target="_blank">
+                  Minesweeper game
+                </a>
+              </b>{" "}
+              uses a JavaScript Class to store the game state. React.js to visualize and interact with the user.
+            </p>
+          </div>
+        </article>
+        <article>
+          <h3 className="featured">Experiments</h3>
+          <div className="description">
+            <span className="imagesFloatRight lightbox">
+              <a href="/screenshots/jobs/senior-software-engineer.png">
+                <img src="/screenshots/jobs/_thumb-senior-software-engineer.png" style={{ height: "80px" }} />
+              </a>
+            </span>
+            <p>
+              <b className="titleFont">
+                <a href="http://jobs.paulshorey.com" target="_blank">
+                  Research portal
+                </a>
+              </b>{" "}
+              - An experiment. React app. Search using Regular Expressions. Job ad aggregator. Can be adapted to any other type of content like news, events, legal articles.
             </p>
           </div>
         </article>
