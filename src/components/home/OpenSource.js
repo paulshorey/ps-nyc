@@ -93,8 +93,8 @@ class OpenSource extends React.Component {
                   DogsDB
                 </a>
               </b>{" "}
-              - <b className="titleFont">NextJS React starter codebase.</b> Server-side generated routes and content for instant loading, like in a traditional PHP/Ruby website. Trying out
-              some new front-end techniques. Uses{" "}
+              - <b className="titleFont">NextJS React starter codebase.</b> Server-side generated routes. Content from API endpints, but pulled on the server-side. Loads instantly like in a
+              traditional PHP/Ruby website, but has all the capabilities of an app. Trying out some new front-end techniques. Uses{" "}
               <a href="https://github.com/paulshorey/DogsJS/tree/main/tests" target="_blank">
                 Jest and Puppeteer to do functional testing
               </a>
@@ -118,7 +118,10 @@ class OpenSource extends React.Component {
                 </a>
               </b>{" "}
               - another NextJS React starter codebase. Uses alaSQL to run a database in the front-end on the browser, for fast sorting/filtering. Uses experimental React bound components,
-              custom select, and same testing as DogsDB.
+              custom select, and same testing as DogsDB.{" "}
+              <a href="https://github.com/paulshorey/DogsJS" target="_blank">
+                README.md
+              </a>
             </p>
           </div>
           <div className="description">
@@ -181,6 +184,9 @@ const ProjectsStyled = styled.div`
       &:last-child {
         border: none;
       }
+      > div {
+        margin: 1rem 0 0.75rem 0;
+      }
     }
     p {
       &.with_code {
@@ -216,9 +222,6 @@ const ProjectsStyled = styled.div`
         font-size: 95%;
         margin: 0.125rem 0.125rem 0 0;
       }
-    }
-    .description > div {
-      margin: 1rem 0 0.75rem 0;
     }
   }
 `

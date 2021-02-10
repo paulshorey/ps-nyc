@@ -4,6 +4,7 @@
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/OpenSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/OpenSource.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Wordio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Wordio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,7 @@
       <workItem from="1611727261473" duration="2191000" />
       <workItem from="1611755094085" duration="1622000" />
       <workItem from="1612305204936" duration="14496000" />
-      <workItem from="1612802045402" duration="2589000" />
+      <workItem from="1612802045402" duration="3005000" />
     </task>
     <servers />
   </component>

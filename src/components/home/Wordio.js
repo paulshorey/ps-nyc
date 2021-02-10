@@ -10,7 +10,7 @@ class Wordio extends React.Component {
         <article>
           <a name="besta" id="besta" className="a_target" />
 
-          <h3>2020 - Micro-SaaS (React apps and Node APIs):</h3>
+          <h3>2020 - Micro-SaaS apps and APIs:</h3>
           <div className="description">
             <p>
               <b className="titleFont">
@@ -182,6 +182,17 @@ class Wordio extends React.Component {
 export default Wordio
 
 const WordioStyled = styled.div`
+  margin-top: 1.75rem;
+  margin-bottom: 3.5rem;
+  .description {
+    border-bottom: solid 1px #efefef;
+    &:last-child {
+      border: none;
+    }
+    > div {
+      margin: 1rem 0 0.75rem 0;
+    }
+  }
   .vrsn {
     zoom: 0.9;
     position: relative;
