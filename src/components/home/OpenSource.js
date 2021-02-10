@@ -88,16 +88,24 @@ class OpenSource extends React.Component {
             </span>
             <p>
               <b className="titleFont">
-                <a href="https://cocktails.paulshorey.com" target="_blank">
-                  CocktailsDB
-                </a>{" "}
-                &amp;{" "}
                 <a href="https://dogs.paulshorey.com" target="_blank">
                   DogsDB
+                </a>{" "}
+                &amp;{" "}
+                <a href="https://cocktails.paulshorey.com" target="_blank">
+                  CocktailsDB
                 </a>
               </b>{" "}
-              - <b className="titleFont">React starter codebases.</b> Testing out some new front-end techniques and architectures: NextJS SSR/SSG, alaSQL, React bound components, custom
-              select, Jest functional testing, CI.
+              - <b className="titleFont">NextJS React starter codebases.</b> Trying out some new front-end techniques and architectures: SSR/SSG, alaSQL, React bound components, custom
+              select, CI. Uses{" "}
+              <a href="https://github.com/paulshorey/DogsJS/tree/main/tests" target="_blank">
+                Jest and Puppeteer to do functional testing
+              </a>
+              . Check out the{" "}
+              <a href="https://github.com/paulshorey/DogsJS" target="_blank">
+                README.md
+              </a>
+              . Next upgrade would be to use Cypress + Percy for visual regression testing.
             </p>
           </div>
           <div className="description">
