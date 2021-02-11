@@ -80,9 +80,8 @@ export const onPreRenderHTML = ({ getHeadComponents, replaceHeadComponents, getP
       {/*
        * ETC
        */}
-      {/*<script src="https://cdn.jsdelivr.net/gh/paulshorey/colorful-console-logger@latest/dist/cconsole.js"></script>*/}
-      <script src="https://global.localizecdn.com/localize.js"></script>
-      <script src="/js/localize.js"></script>
+      {/*<script src="https://global.localizecdn.com/localize.js"></script>*/}
+      {/*<script src="/js/localize.js"></script>*/}
     </>
   )
   // done altering <html>
