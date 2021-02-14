@@ -132,7 +132,7 @@ class OpenSource extends React.Component {
             </span>
             <p>
               <b className="titleFont">
-                <a href="https://github.com/paulshorey/FlySwatterTech" target="_blank">
+                <a href="https://github.com/paulshorey/ps" target="_blank">
                   Create thumbnail images
                 </a>
               </b>{" "}

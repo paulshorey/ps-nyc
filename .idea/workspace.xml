@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/OpenSource.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/OpenSource.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +113,7 @@
       <workItem from="1611727261473" duration="2191000" />
       <workItem from="1611755094085" duration="1622000" />
       <workItem from="1612305204936" duration="14496000" />
-      <workItem from="1612802045402" duration="4660000" />
+      <workItem from="1612802045402" duration="5773000" />
     </task>
     <servers />
   </component>
@@ -136,10 +136,11 @@
     </state>
     <state x="679" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/-561.-1057.2560.1057@0.23.1440.877" timestamp="1609466282282" />
     <state x="687" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1606856042848" />
-    <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607320623226">
-      <screen x="-1120" y="-1057" width="2560" height="1057" />
+    <state x="801" y="396" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613150268254">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607320623226" />
+    <state x="801" y="396" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1613150268254" />
     <state x="0" y="23" width="1440" height="877" key="find.popup" timestamp="1612314011291">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
