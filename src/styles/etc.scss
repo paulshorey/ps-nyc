@@ -160,8 +160,19 @@ a.code {
 .eapps-form-floating-button-position-right.eapps-form-floating-button-visible {
   background-color: hsl(38deg, 95%, 49%) !important;
 }
-.eapps-form-floating-button-position-right.eapps-form-floating-button-visible {
-  transform: translateX(-10px) translateY(-35px) !important;
+
+#localize-active-lang span {
+  padding: 5px !important;
+  display: inline-block !important;
+  border: none !important;
+  border-radius: 0 !important;
+  margin-bottom: 3px !important;
+  margin-right: 2px !important;
+  vertical-align: middle !important;
+  border-bottom: solid 1.75px currentColor !important;
+  box-shadow: inset 0px -0.25px currentcolor;
+  position: relative;
+  top: -1px;
 }
 
 .uui-icon {
