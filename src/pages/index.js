@@ -70,7 +70,8 @@ export default class extends React.Component {
           <section className="content">
             <p className="top_caption slight_right_overflow">
               <FA icon={faArrowDown} className="faArrowDown x85 color-attention" />
-              &thinsp; Scroll down to see a timeline of my past works. Most of them I've designed. For personal projects I also wrote the back-end and DevOps/CI.
+              &thinsp; Scroll down to see a timeline of my past works.
+              {/*Most of them I've designed. For personal projects I also wrote the back-end and DevOps/CI.*/}
               {/*Currently looking for a good remote company that I can grow with.{" "}*/}
               {/*<a href="https://paulshorey.com/files/PaulShorey-SoftwareEngineer.pdf" target="_blank">*/}
               {/*  <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} /> Resume*/}
