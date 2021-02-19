@@ -60,24 +60,25 @@ export default class extends React.Component {
           <Header />
           <div className="content full">
             <p className="top_text">
-              Hi!&nbsp; 👋 I've been coding since 2008. Enjoy creating something from nothing, collaborating with people, designing and developing software. Let's build something together!
+              Hi!&nbsp; 👋 I've been coding since 2008. <FA icon={faArrowDown} className="faArrowDown x85 color-attention" /> Enjoy creating something from nothing, collaborating with
+              people, designing and developing software. Let's build something together!
             </p>
           </div>
           <div className="content full flex" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} style={{ overflow: "auto" }}></div>
         </div>
 
         <section className="content full">
-          <section className="content">
-            <p className="top_caption slight_right_overflow">
-              <FA icon={faArrowDown} className="faArrowDown x85 color-attention" />
-              &thinsp; Scroll down to see a timeline of my past works.
-              {/*Most of them I've designed. For personal projects I also wrote the back-end and DevOps/CI.*/}
-              {/*Currently looking for a good remote company that I can grow with.{" "}*/}
-              {/*<a href="https://paulshorey.com/files/PaulShorey-SoftwareEngineer.pdf" target="_blank">*/}
-              {/*  <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} /> Resume*/}
-              {/*</a>*/}
-            </p>
-          </section>
+          {/*<section className="content">*/}
+          {/*  <p className="top_caption slight_right_overflow">*/}
+          {/*    <FA icon={faArrowDown} className="faArrowDown x85 color-attention" />*/}
+          {/*    &thinsp; Scroll down to see a timeline of my past works.*/}
+          {/*    Most of them I've designed. For personal projects I also wrote the back-end and DevOps/CI.*/}
+          {/*    /!*Currently looking for a good remote company that I can grow with.{" "}*!/*/}
+          {/*    /!*<a href="https://paulshorey.com/files/PaulShorey-SoftwareEngineer.pdf" target="_blank">*!/*/}
+          {/*    /!*  <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} /> Resume*!/*/}
+          {/*    /!*</a>*!/*/}
+          {/*  </p>*/}
+          {/*</section>*/}
 
           <Wordio />
           <OpenSource />
