@@ -60,8 +60,7 @@ export default class extends React.Component {
           <Header />
           <div className="content full">
             <p className="top_text">
-              Hi!&nbsp; 👋 I've been coding since 2008. <FA icon={faArrowDown} className="faArrowDown x85 color-attention" /> Enjoy creating something from nothing, collaborating with
-              people, designing and developing software. Let's build something together!
+              Hi!&nbsp; 👋 I've been coding since 2008. Enjoy creating something from nothing, collaborating with people, designing and developing software. Let's build something together!
             </p>
           </div>
           <div className="content full flex" dangerouslySetInnerHTML={{ __html: carousel_aboutme }} style={{ overflow: "auto" }}></div>
