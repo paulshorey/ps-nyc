@@ -63,11 +63,11 @@ class Header extends React.Component {
             {/*  </b>*/}
             {/*</a>{" "}*/}
             {/*|{" "}*/}
-            <a href="https://paulshorey.com/files/PaulShorey-SoftwareEngineer.pdf" target="_blank">
-              <b style={{ fontWeight: "normal" }}>
-                Resume <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />
-              </b>
-            </a>{" "}
+            {/*<a href="https://paulshorey.com/files/PaulShorey-SoftwareEngineer.pdf" target="_blank">*/}
+            {/*  <b style={{ fontWeight: "normal" }}>*/}
+            {/*    Resume <FA icon={faFileDownload} className="x85" style={{ verticalAlign: "-0.175rem" }} />*/}
+            {/*  </b>*/}
+            {/*</a>{" "}*/}
             {!!this.state.email && (
               <span>
                 |{" "}
