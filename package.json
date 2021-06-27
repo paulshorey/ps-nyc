@@ -1,7 +1,7 @@
 {
   "name": "ps",
   "description": "Personal portfolio site",
-  "version": "0.1.46",
+  "version": "0.1.47",
   "author": "Paul Shorey <hello@paulshorey.com>",
   "bugs": {
     "url": "https://github.com/paulshorey/ps/issues"
@@ -54,6 +54,7 @@
     "start": "npm run dev",
     "dev": "GATSBY_ACTIVE_ENV=development gatsby develop -p 1090",
     "build": "GATSBY_ACTIVE_ENV=production gatsby build",
+    "dir": "bash bin/dir.sh",
     "test_and_publish": "bash bin/test_and_publish.sh",
     "thumb": "node image-thumbnails ./static/screenshots"
   },
