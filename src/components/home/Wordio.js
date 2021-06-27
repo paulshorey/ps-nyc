@@ -10,7 +10,7 @@ class Wordio extends React.Component {
         <article>
           <a name="besta" id="besta" className="a_target" />
 
-          <h3>2021 - Currently working at <a href="https://spiral.us" target="_blank">Spiral.us 💖</a></h3>
+          <h3>2021 - Currently working at <a href="https://spiral.us" target="_blank">Spiral Financial <sub>💖</sub></a></h3>
         </article>
 
         <article>
