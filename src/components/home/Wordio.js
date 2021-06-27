@@ -10,7 +10,13 @@ class Wordio extends React.Component {
         <article>
           <a name="besta" id="besta" className="a_target" />
 
-          <h3>2021 - Currently working at <a href="https://spiral.us" target="_blank">Spiral Financial</a> 💖</h3>
+          <h3>
+            2021 - Currently working at{" "}
+            <a href="https://spiral.us" target="_blank">
+              Spiral Financial
+            </a>{" "}
+            <img src="/images/icons/color/spiral-heart.svg" alt="Spiral Financial logo" style={{ height: "28px", width: "auto", verticalAlign: "top", display: "inline-block" }} />
+          </h3>
         </article>
 
         <article>

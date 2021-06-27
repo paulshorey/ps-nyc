@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b50cd78-5576-40cb-b1d2-65a8c58e7efc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/Wordio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/Wordio.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/styles" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/images/icons/color" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,19 +43,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/images/icons/color" />
+      <recent name="$PROJECT_DIR$/src/styles" />
+      <recent name="$PROJECT_DIR$/static/sami" />
+      <recent name="$PROJECT_DIR$/src/assets/lib" />
+      <recent name="$PROJECT_DIR$/src/containers/Jobs" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/html/projects" />
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/src/components/Jobs" />
       <recent name="$PROJECT_DIR$/src/assets/json" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/styles" />
-      <recent name="$PROJECT_DIR$/static/sami" />
-      <recent name="$PROJECT_DIR$/src/assets/lib" />
-      <recent name="$PROJECT_DIR$/src/containers/Jobs" />
-      <recent name="$PROJECT_DIR$/src/components/Jobs" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -124,56 +125,12 @@
       <workItem from="1614487678104" duration="9000" />
       <workItem from="1615480165818" duration="12000" />
       <workItem from="1615480376568" duration="819000" />
-      <workItem from="1624754859044" duration="4619000" />
+      <workItem from="1624754859044" duration="5291000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-331" y="-758" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607495662675">
-      <screen x="-1120" y="-1057" width="2560" height="1057" />
-    </state>
-    <state x="-331" y="-758" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/1440.-925.2048.841/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607495662675" />
-    <state x="744" y="-1057" width="1920" height="1057" key="SettingsEditor" timestamp="1609979708676">
-      <screen x="744" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="596" y="-890" key="SettingsEditor/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606423628359" />
-    <state x="319" y="64" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1606803033629" />
-    <state x="744" y="-1057" width="1920" height="1057" key="SettingsEditor/744.-1057.1920.1057/-1176.-1057.1920.1057/0.23.1440.877@744.-1057.1920.1057" timestamp="1609979708676" />
-    <state x="679" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609466282282">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="679" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877/-561.-1057.2560.1057@0.23.1440.877" timestamp="1609466282282" />
-    <state x="687" y="135" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.877@0.23.1440.877" timestamp="1606856042848" />
-    <state x="801" y="396" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1613150268254">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="304" y="-608" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607320623226" />
-    <state x="801" y="396" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1613150268254" />
-    <state x="0" y="23" width="1440" height="877" key="find.popup" timestamp="1612314011291">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="0" y="23" width="1280" height="777" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1609914746773" />
-    <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877/-1120.-1057.2560.1057@0.23.1440.877" timestamp="1609479419462" />
-    <state x="183" y="-822" width="1060" height="586" key="find.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606451289948" />
-    <state x="-1120" y="-1057" width="2560" height="1057" key="find.popup/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607379549928" />
-    <state x="0" y="23" width="1440" height="877" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1612314011291" />
-    <state x="0" y="23" width="1680" height="1027" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1609915320941" />
-    <state x="716" y="-1057" width="1920" height="1057" key="find.popup/716.-1057.1920.1057/0.23.1440.877/-1844.-1057.2560.1057@716.-1057.1920.1057" timestamp="1609526129421" />
-    <state x="744" y="-1057" width="1920" height="1057" key="find.popup/744.-1057.1920.1057/-1176.-1057.1920.1057/0.23.1440.877@744.-1057.1920.1057" timestamp="1610357307670" />
-    <state width="600" height="440" key="javadoc.popup" timestamp="1606346372698">
-      <screen x="-567" y="-1057" width="2560" height="1057" />
-    </state>
-    <state width="600" height="440" key="javadoc.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606346372698" />
-    <state x="385" y="213" width="672" height="678" key="search.everywhere.popup" timestamp="1609464827010">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="385" y="213" width="672" height="678" key="search.everywhere.popup/0.23.1440.877/-561.-1057.2560.1057@0.23.1440.877" timestamp="1609464827010" />
-    <state x="117" y="-828" width="1192" height="815" key="search.everywhere.popup/0.23.1440.877/-567.-1057.2560.1057@-567.-1057.2560.1057" timestamp="1606457684747" />
-    <state x="-436" y="-828" width="1193" height="816" key="search.everywhere.popup/0.23.1440.877/1440.-925.2560.1057/-1120.-1057.2560.1057@-1120.-1057.2560.1057" timestamp="1607221233166" />
-    <state x="385" y="213" width="671" height="677" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1606854291151" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
