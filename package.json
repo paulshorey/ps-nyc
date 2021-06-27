@@ -1,7 +1,7 @@
 {
   "name": "ps",
   "description": "Personal portfolio site",
-  "version": "0.1.48",
+  "version": "0.1.49",
   "author": "Paul Shorey <hello@paulshorey.com>",
   "bugs": {
     "url": "https://github.com/paulshorey/ps/issues"
