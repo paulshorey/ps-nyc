@@ -1,5 +1,5 @@
-import React from "react"
-import styled from "styled-components"
+import React from "react";
+import styled from "styled-components";
 // import { FontAwesomeIcon as FA } from "@fortawesome/react-fontawesome"
 // import { faChartPie } from "@fortawesome/pro-solid-svg-icons"
 
@@ -7,6 +7,12 @@ class Wordio extends React.Component {
   render() {
     return (
       <WordioStyled className="content">
+        <article>
+          <a name="besta" id="besta" className="a_target" />
+
+          <h3>2021 - Currently working at <a href="https://spiral.us" target="_blank">Spiral Financial</a> <code>{"<"}3</code></h3>
+        </article>
+
         <article>
           <a name="besta" id="besta" className="a_target" />
 
@@ -175,27 +181,31 @@ class Wordio extends React.Component {
           </div>
         </article>
       </WordioStyled>
-    )
+    );
   }
 }
 
-export default Wordio
+export default Wordio;
 
 const WordioStyled = styled.div`
   margin-top: 1.75rem;
   margin-bottom: 3.5rem;
+
   .description {
-    border-bottom: solid 1px #efefef;
-    &:last-child {
-      border: none;
-    }
-    > div {
-      margin: 1rem 0 0.75rem 0;
-    }
+	border-bottom: solid 1px #efefef;
+
+	&:last-child {
+	  border: none;
+	}
+
+	> div {
+	  margin: 1rem 0 0.75rem 0;
+	}
   }
+
   .vrsn {
-    zoom: 0.9;
-    position: relative;
-    top: -0.1rem;
+	zoom: 0.9;
+	position: relative;
+	top: -0.1rem;
   }
-`
+`;
