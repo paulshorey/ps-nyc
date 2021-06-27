@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # OK, there are no tests here. But they're coming. ;)
+# lets see if this still works..
 
 #
 # GIT and filesystem variables
